@@ -18,10 +18,11 @@
 				class="table table-striped table-bordered table-hover hidden">
 			<thead>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-            </tr>
+                <c:forEach var="columnTitle" items="${headers}">
+						<th>${columnTitle}</th>
+						
+				</c:forEach>
+            </tr> 
         </thead>
         <tbody>
 			<c:forEach var="line" items="${lines}">

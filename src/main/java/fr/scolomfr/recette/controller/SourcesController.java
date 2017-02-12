@@ -20,6 +20,8 @@
  */
 package fr.scolomfr.recette.controller;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -64,18 +66,22 @@ public class SourcesController {
 	public ModelAndView sources(HttpServletResponse response, @PathVariable("by") String by,
 			@PathVariable("criterium") String criterium) {
 		ModelAndView modelAndView = new ModelAndView("sources");
+		List<String> headers = new ArrayList<>();
 		List<?> lines = Collections.emptyList();
 		switch (by) {
 		case "format":
+			headers.addAll(Arrays.asList("Version", "Vocabulaire", "Fichier"));
 			lines = getFileFromProvidedFormatString(criterium);
 			break;
 		case "version":
+			headers.addAll(Arrays.asList("Format", "Vocabulaire", "Fichier"));
 			lines = getFilesFromProvidedVersionString(criterium);
 			break;
 		default:
-			modelAndView.addObject("lines", lines);
+			// Nothing to do
 			break;
 		}
+		modelAndView.addObject("headers", headers);
 		modelAndView.addObject("lines", lines);
 		return modelAndView;
 	}
