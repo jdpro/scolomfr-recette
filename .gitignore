@@ -39,5 +39,4 @@ build/
 Thumbs.db
 
 # Maven
-log/
 target/
