@@ -23,7 +23,7 @@ git clone https://github.com/j-dornbusch/scolomfr-recette.git
 Move to webapp resources directory.
 
 ```shell
-cd scolomfr-recette/scolomfr-recette/src/main/webapp/WEB-INF/resources
+cd scolomfr-recette/src/main/webapp/WEB-INF/resources
 bower install bower.json
 gulp
 ```
