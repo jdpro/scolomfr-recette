@@ -1,9 +1,9 @@
 version: 3.0.0
 content:
   skos:
-    global: scolomfr.skos
+    global: scolomfr-v-3/scolomfr.skos
   rdf:
-    global: scolomfr.rdf
+    global: scolomfr-v-3/scolomfr.rdf
   html:
     voc01: scolomfr-v-3/HTML/01.html
     voc02: scolomfr-v-3/HTML/02.html

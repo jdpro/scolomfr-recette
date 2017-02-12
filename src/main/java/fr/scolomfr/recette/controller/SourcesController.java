@@ -20,23 +20,32 @@
  */
 package fr.scolomfr.recette.controller;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.HandlerMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
+import fr.scolomfr.recette.model.sources.CatalogImpl;
+import fr.scolomfr.recette.model.sources.ResourcesLoader;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
@@ -47,6 +56,9 @@ public class SourcesController {
 
 	@Autowired
 	private Catalog catalog;
+
+	@Autowired
+	private ResourcesLoader resourcesLoader;
 
 	@Log
 	Logger logger;
@@ -99,5 +111,33 @@ public class SourcesController {
 			logger.error("Impossible to parse string {} as version identifier", criterium, e);
 		}
 		return lines;
+	}
+
+	/**
+	 * Dispaly raw source file in browser
+	 * 
+	 * @param response
+	 * @param request
+	 */
+	@ResponseBody
+	@RequestMapping(value = "/display/raw/**")
+	public void getFile(HttpServletResponse response, HttpServletRequest request) {
+		// Trick to catch path parameter containing forward slashes
+		String pattern = (String) request.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
+		String fileName = new AntPathMatcher().extractPathWithinPattern(pattern, request.getServletPath());
+		logger.info("Request to display resource file {}", fileName);
+		try (InputStream inputStream = resourcesLoader
+				.loadResource(CatalogImpl.VOCABULARIES_DIRECTORY + "/" + fileName)) {
+			if (null == inputStream) {
+				logger.info("Resource file {} not found", fileName);
+			} else {
+				IOUtils.copy(inputStream, response.getOutputStream());
+				response.flushBuffer();
+			}
+
+		} catch (IOException e) {
+			logger.info("Unable to display resource file {}", fileName, e);
+		}
+
 	}
 }

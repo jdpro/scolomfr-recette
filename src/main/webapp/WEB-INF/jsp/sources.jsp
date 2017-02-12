@@ -2,7 +2,7 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+<spring:url value="/display/raw" var="download" />
 <t:layout>
 	<jsp:body>
 	
@@ -29,7 +29,8 @@
 					<tr>
 						<td>${line.first}</td>
 						<td>${line.second.first}</td>
-						<td>${line.second.second}</td>
+						<td><a target="blank"
+								href="${download}/${line.second.second}">${line.second.second}</a></td>
 					</tr>
 				</c:forEach>
 				</tbody>
