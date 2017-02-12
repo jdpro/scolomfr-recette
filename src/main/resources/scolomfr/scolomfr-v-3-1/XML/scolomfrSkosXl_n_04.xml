@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/Collection</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Agrégation de ressources formant un tout cohérent : une base d'exercices, une base d'objets de musées, un catalogue de bibliothèque... [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>001-collection(Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">collection</INTITULE>
+         <ID>Collection</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">collection</INTITULE>
+         <ID>collection</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">collection</INTITULE>
+         <ID>scolomfr-voc-004-num-001</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/Dataset</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Donnée encodée suivant une structure précise appropriée au traitement par ordinateur : par exemple une base de données statistiques. [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>002-ensemble de données (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">ensemble de données</INTITULE>
+         <ID>Dataset</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ensemble de données</INTITULE>
+         <ID>scolomfr-voc-004-num-002</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/Event</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Fait basé sur une période de temps, non permanent. Par exemple : une conférence, une exposition, une bataille ou tout autre fait historique, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>003-événement (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">événement</INTITULE>
+         <ID>Event</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">événement</INTITULE>
+         <ID>scolomfr-voc-004-num-003</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/Image</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Représentation visuelle autre que sous la forme de texte. [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>004-image (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">image</INTITULE>
+         <ID>Image</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">image</INTITULE>
+         <ID>scolomfr-voc-004-num-004</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/MovingImage</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Série de représentations visuelles conférant une impression de mouvement lorsqu'elles sont montrées à la suite les unes des autres. Par exemple : des films, vidéos, émissions de télévision, infographie, effets spéciaux, films d'animation... [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>005-image en mouvement (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">image en mouvement</INTITULE>
+         <ID>MovingImage</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">image en mouvement</INTITULE>
+         <ID>scolomfr-voc-004-num-005</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/StillImage</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Représentation visuelle statique. Par exemple, des photographies, tableaux, dessins, graphiques, plans, photographies d'objets physiques... [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>006-image fixe (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">image fixe</INTITULE>
+         <ID>StillImage</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">image fixe</INTITULE>
+         <ID>scolomfr-voc-004-num-006</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/Software</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Programme ou application informatiques, en code source ou sous une forme compilée. Par un exemple, un fichier source en C, un exécutable MS-Windows, un fichier rdf ou un script PHP... [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>007-logiciel (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">logiciel</INTITULE>
+         <ID>Software</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">logiciel</INTITULE>
+         <ID>scolomfr-voc-004-num-007</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/PhysicalObject</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Objet ou substance à trois dimensions, inanimé. Par exemple un TBI, un ordinateur, un bâtiment, une fleur (et non une photographie d'une fleur), etc. Les représentations ou substituts numériques de ces objets physiques utiliseront "texte", "image" ou un autre type. [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>008-objet physique (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">objet physique</INTITULE>
+         <ID>PhysicalObject</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">objet physique</INTITULE>
+         <ID>objet physique</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">objet physique</INTITULE>
+         <ID>scolomfr-voc-004-num-008</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/InteractiveResource</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Objet nécessitant une interaction de l'utilisateur pour être comprise, exécutée ou expérimentée. Par exemple une page Web ou un formulaire Web, des objets d'apprentissage multimédia, une applet, une maquette numérique, un service de chat, un environnement de réalité virtuelle, sortie visuelle d'une simulation, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>009-ressource interactive (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">ressource interactive</INTITULE>
+         <ID>InteractiveResource</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ressource interactive</INTITULE>
+         <ID>scolomfr-voc-004-num-009</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/Service</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Un système qui fournit une ou plusieurs fonctions, qui offre des services à l'utilisateur comme un serveur Web, un service de conversion de formats de fichier, un service de photocopie, un service en ligne de carte heuristique... [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>010-service (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">service</INTITULE>
+         <ID>Service</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">service</INTITULE>
+         <ID>scolomfr-voc-004-num-010</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/Sound</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Ressource principalement destinée à être entendue. Par exemple un fichier de musique, de son ou de paroles enregistrées, un compact-disque audio... [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>011-son (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">son</INTITULE>
+         <ID>Sound</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">son</INTITULE>
+         <ID>scolomfr-voc-004-num-011</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://purl.org/dc/dcmitype/Text</ID>
+      <DF lang="fr">Type documentaire</DF>
+      <NA lang="fr">Ressource constituée principalement de mots destinés à être lus. "Texte" est pris ici au sens large : livre, magazine, journal, poème, message d'une liste de diffusion, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</NA>
+      <ORDRE>012-texte (Sco04-TypeDoc)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">texte</INTITULE>
+         <ID>Text</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">texte</INTITULE>
+         <ID>scolomfr-voc-004-num-012</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

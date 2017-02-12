@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-046">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-046</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Microsoft Windows</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-047">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-14T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-047</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">autre système d'exploitation</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-048">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-09T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-048</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">iPad OS</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/unix">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">unix</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">unix</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/amaya">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">amaya</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">amaya</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/any">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">any</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">indifférent</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/amaya">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">amaya</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">amaya</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Navigateur web développé par l'INRIA et le W3C entre 1996 et 2009. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-009"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/amaya"/>
+	<canope:labelEquivalentExact xml:lang="fr">amaya</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/any">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">indifférent</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">indifférent</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">A sélectionner pour une ressource utilisable sous n'importe quel navigateur web. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-008"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/any"/>
+	<canope:labelEquivalentExact xml:lang="fr">indifférent</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">ms-internet explorer</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">windows internet explorer</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Navigateur web développé par Microsoft depuis 1995. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-011"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/ms-internet_explorer"/>
+	<canope:labelEquivalentExact xml:lang="fr">ms-internet explorer</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-011"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/ms-windows">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">Microsoft Windows</skos:altLabel>
+	<skos:altLabel xml:lang="fr">ms-windows</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">ms-windows</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-004"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-046"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/ms-windows"/>
+	<canope:labelEquivalentExact xml:lang="fr">Microsoft Windows</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">ms-windows</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-004"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-046"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/netscape_communicator">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">netscape</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">netscape</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Navigateur web développé par la société Netscape Communications depuis 1994. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-012"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/netscape_communicator"/>
+	<canope:labelEquivalentExact xml:lang="fr">netscape</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-012"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/none">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">aucun</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">aucun</skos:prefLabel>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-001"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/none"/>
+	<canope:labelEquivalentExact xml:lang="fr">aucun</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/opera">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">opera</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">opera</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Navigateur web développé par la société Opera Software depuis 1995. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-013"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/opera"/>
+	<canope:labelEquivalentExact xml:lang="fr">opera</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-013"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/pc-dos">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">pc-dos</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">pc-dos</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Système d'exploitation développé par Microsoft depuis 1981. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-006"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/pc-dos"/>
+	<canope:labelEquivalentExact xml:lang="fr">pc-dos</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">Debian</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Fedora</skos:altLabel>
+	<skos:altLabel xml:lang="fr">GNU/Linux</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Red Hat</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Suse</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Ubuntu</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">linux</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Système d'exploitation libre développé sous la Licence publique générale GNU depuis 1991. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-041"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-042"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-043"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-044"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-045"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-002"/>
+	<canope:labelEquivalentExact xml:lang="fr">Debian</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Fedora</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">GNU/Linux</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Red Hat</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Suse</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Ubuntu</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-040"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-041"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-042"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-043"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-044"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-045"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">firefox</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">mozilla firefox</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Navigateur web libre et gratuit développé par la fondation Mozilla depuis 2004. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-010"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-020"/>
+	<canope:labelEquivalentExact xml:lang="fr">firefox</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-010"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">safari</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Navigateur web développé par Apple depuis 2003. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-014"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">android</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Système d'exploitation open source développé depuis 2005.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">blackberry OS</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">blackberry</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Système d'exploitation développé depuis 1999 pour la téléphonie mobile.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-018"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-017"/>
+	<canope:labelEquivalentExact xml:lang="fr">blackberry OS</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-018"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">google chrome</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Navigateur web développé par Google depuis 2008.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-019"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">iPad OS</skos:altLabel>
+	<skos:altLabel xml:lang="fr">iPhone OS</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">ios</skos:prefLabel>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-039"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-048"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-021"/>
+	<canope:labelEquivalentExact xml:lang="fr">iPad OS</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">iPhone OS</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-039"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-048"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">autre</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">À sélectionner lorsque le navigateur à choisir n'est pas dans la liste.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-022"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">Chrome OS</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-023"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">indifférent</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">macos</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">Mac OS</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Système d'exploitation développé par Apple depuis 1991. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/macos"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-003"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-025"/>
+	<canope:labelEquivalentExact xml:lang="fr">macos</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/macos"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">Microsoft Edge</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-026"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">multi-os</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">Multi-OS</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Système permettant d'être compatible et utilisable avec différents systèmes d'exploitation. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/multi-os"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-005"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-027"/>
+	<canope:labelEquivalentExact xml:lang="fr">multi-os</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/multi-os"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/amaya"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/any"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/netscape_communicator"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/none"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/opera"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029"/>
+	<skos:prefLabel xml:lang="fr">navigateur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-028"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">Fennec</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Firefox mobile</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Google mobile</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Internet explorer mobile</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Microbrowser</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Opera Mobile</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">navigateur mobile</skos:prefLabel>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-033"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-034"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-035"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-036"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-037"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-038"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-029"/>
+	<canope:labelEquivalentExact xml:lang="fr">Fennec</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Firefox mobile</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Google mobile</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Internet explorer mobile</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Microbrowser</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Opera Mobile</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-033"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-034"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-035"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-036"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-037"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-038"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">Symbian OS</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-030"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/ms-windows"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/pc-dos"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/unix"/>
+	<skos:prefLabel xml:lang="fr">système d'exploitation</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-031"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">Windows mobile</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-032"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">autre système d'exploitation</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-047"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/unix">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">unix</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:definition xml:lang="fr">Nom (technique)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024"/>
+	<skos:prefLabel xml:lang="fr">unix</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Système d'exploitation développé depuis 1969. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-007"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/unix"/>
+	<canope:labelEquivalentExact xml:lang="fr">unix</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-007"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/macos">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">macos</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">macos</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/ms-internet_explorer">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">ms-internet explorer</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">windows internet explorer</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/ms-windows">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">ms-windows</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">ms-windows</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/multi-os">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">multi-os</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">multi-os</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/netscape_communicator">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">netscape communicator</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">netscape</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/none">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">none</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">aucun</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/opera">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">opera</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">opera</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/pc-dos">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">pc-dos</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">pc-dos</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">024-Nom du système d'exploitation ou du navigateur</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031"/>
+	<skos:prefLabel xml:lang="fr">024-Nom du système d'exploitation ou du navigateur</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-001">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-001</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">aucun</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-002">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-002</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">linux</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-003">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-003</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">macos</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-004">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-004</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">ms-windows</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-005">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-005</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">multi-os</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-006">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-006</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">pc-dos</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-007">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-007</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">unix</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-008">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-008</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">indifférent</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-009">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-009</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">amaya</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-010">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-010</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">firefox</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-011">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-011</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">ms-internet explorer</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-012">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-012</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">netscape</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-013">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-013</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">opera</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-014">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-07T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-014</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">safari</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-016">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-14T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-016</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">android</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-017">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-15T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-017</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">blackberry</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-018">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-15T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-018</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">blackberry OS</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-019">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-01T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-019</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">google chrome</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-020">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-05-14T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-020</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">mozilla firefox</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-021">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-01T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-024-num-021</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">ios</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-022">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-022</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">autre</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-023">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-023</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Chrome OS</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-024">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-024</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">indifférent</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-025">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-025</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Mac OS</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-026">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-026</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Microsoft Edge</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-027">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-027</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-24T00:00:00.000+01:00</dcterms:modified>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Multi-OS</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-028">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-028</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">navigateur</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-029">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-029</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">navigateur mobile</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-030">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-030</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Symbian OS</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-031">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-031</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">système d'exploitation</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-032">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-032</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Windows mobile</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-033">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-033</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Fennec</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-034">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-034</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Firefox mobile</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-035">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-035</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Google mobile</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-036">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-036</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Internet explorer mobile</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-037">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-037</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Microbrowser</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-038">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-038</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Opera Mobile</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-039">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-039</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">iPhone OS</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-040">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-040</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">GNU/Linux</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-041">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-041</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Ubuntu</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-042">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-042</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Debian</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-043">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-043</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Red Hat</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-044">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-044</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Fedora</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-024-num-045">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-024-num-045</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Suse</skosxl:literalForm>
+</rdf:Description>
+
+</rdf:RDF>

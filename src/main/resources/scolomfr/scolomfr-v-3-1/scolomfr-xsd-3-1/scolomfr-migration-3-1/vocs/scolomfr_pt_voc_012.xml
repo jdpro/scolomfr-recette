@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-012" name="scolomfr-voc-012 (Niveau)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/other" prefTerm="autres">
+    <value>http://data.education.fr/voc/scolomfr/concept/other</value>
+    <value>autres</value>
+    <value>other</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-013" prefTerm="mastère spécialisé">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-013</value>
+    <value>mastère spécialisé</value>
+    <value>scolomfr-voc-012-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/school" prefTerm="enseignement scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/school</value>
+    <value>enseignement scolaire</value>
+    <value>school</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-003" prefTerm="enseignement secondaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-003</value>
+    <value>enseignement secondaire</value>
+    <value>scolomfr-voc-012-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-002" prefTerm="enseignement primaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-002</value>
+    <value>enseignement primaire</value>
+    <value>scolomfr-voc-012-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/higher_education" prefTerm="enseignement supérieur">
+    <value>http://data.education.fr/voc/scolomfr/concept/higher_education</value>
+    <value>enseignement supérieur</value>
+    <value>higher education</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-005" prefTerm="licence">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-005</value>
+    <value>licence</value>
+    <value>scolomfr-voc-012-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-006" prefTerm="master">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-006</value>
+    <value>master</value>
+    <value>scolomfr-voc-012-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-007" prefTerm="doctorat">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-007</value>
+    <value>doctorat</value>
+    <value>scolomfr-voc-012-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-009" prefTerm="formation continue">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-009</value>
+    <value>formation continue</value>
+    <value>scolomfr-voc-012-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-010" prefTerm="formation en entreprise">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-010</value>
+    <value>formation en entreprise</value>
+    <value>scolomfr-voc-012-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/training" prefTerm="formation professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/training</value>
+    <value>formation professionnelle</value>
+    <value>training</value>
+  </concept>
+</vocab>

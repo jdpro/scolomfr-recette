@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027">
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation à l'orientation et au choix</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-003"/>
+	<skos:scopeNote xml:lang="fr">L'éducation à l'orientation fixe un cadre aux différentes interventions des membres de l'équipe éducative en matière d'orientation.&#xD;
+Pour apprendre à s'orienter, les élèves vont travailler sur trois grands axes :&#xD;
+la découverte des activités professionnelles et de l'environnement socio-économique&#xD;
+la connaissance des systèmes de formation&#xD;
+la réflexion sur soi et le développement de l'autonomie personnelle&#xD;
+A travers diverses situations pédagogiques, les élèves pourront construire des compétences transversales : utiliser et traiter l'information, travailler en équipe…&#xD;
+L'éducation à l'orientation est une démarche continue, cohérente, collective et concertée. [Académie de Lyon]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-027"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation artistique et culturelle</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-022"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-030"/>
+	<skos:scopeNote xml:lang="fr">L'éducation artistique et culturelle s'appuie essentiellement sur les enseignements obligatoires et optionnels, les classes à PAC et les activités facultatives. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-028"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-029">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation au développement et à la solidarité</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">L'éducation au développement et à la solidarité internationale vise à donner aux jeunes des clés de compréhension des déséquilibres mondiaux et à encourager leur réflexion sur les moyens de réduire la pauvreté et les inégalités. Elle participe à l'éducation au développement durable, en contribuant à la compréhension des interdépendances environnementales, économiques, sociales et culturelles à l'échelle mondiale. [Education.gouv.fr]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-029"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-030">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">EAM</skos:altLabel>
+	<skos:altLabel xml:lang="fr">EMI</skos:altLabel>
+	<skos:altLabel xml:lang="fr">éducation aux médias</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation aux médias et à l'information</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028"/>
+	<skos:scopeNote xml:lang="fr">Permettre aux élèves d'exercer leur citoyenneté dans une société de l'information et de la communication, former des « cybercitoyens » actifs, éclairés et responsables de demain, tel est l'objectif de la relance d'une éducation aux médias et à l'information. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-030"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-083"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-088"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-087"/>
+	<canope:labelEquivalentExact xml:lang="fr">EAM</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">EMI</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">éducation aux médias</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-030"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-083"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-088"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-031">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">enseignement de la défense et de la sécurité nationale</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">L'enseignement de la défense est un des éléments du parcours de citoyenneté prévu par la loi de 1997 portant réforme du service national. Il prépare les jeunes à une réflexion lucide sur la défense et la sécurité de notre pays, à un exercice responsable de leur future activité économique et sociale, et, s'ils le souhaitent, à une participation directe à la défense. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-031"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-032">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">enseignement renforcé des langues</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:scopeNote xml:lang="fr">Dispositif spécifique visant à renforcer l'apprentissage des langues vivantes.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-032"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-033">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">EREA</skos:altLabel>
+	<skos:altLabel xml:lang="fr">EREA école régionale d'enseignement adapté</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">école régionale d'enseignement adapté</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:scopeNote xml:lang="fr">Les établissements régionaux d'enseignement adapté (EREA) sont des établissements publics locaux d'enseignement (EPLE). Leur mission est de prendre en charge des adolescents en grande difficulté scolaire et sociale, ou présentant un handicap. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-033"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-090"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-085"/>
+	<canope:labelEquivalentExact xml:lang="fr">EREA</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">EREA école régionale d'enseignement adapté</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-033"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-090"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-034">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">formation à l'information et à la communication</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Action éducative autour de la maîtrise de la langue française en lien avec la presse et les médias.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-034"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-035">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">gestion financière et matérielle des établissements</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-035"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-036">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">IDD</skos:altLabel>
+	<skos:altLabel xml:lang="fr">IDD (itinéraire de découverte)</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">itinéraire de découverte</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Les itinéraires de découverte s'inscrivent dans la continuité des parcours diversifiés et des travaux croisés qui, depuis quelques années, ont installé ou confirmé les pratiques interdisciplinaires au collège. Les itinéraires de découverte visent à généraliser ces pratiques, en les référant explicitement aux programmes des différentes disciplines. [Education.gouv.fr]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-036"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-093"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-094"/>
+	<canope:labelEquivalentExact xml:lang="fr">IDD</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">IDD (itinéraire de découverte)</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-036"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-093"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-037">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">internat d'excellence</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">L'internat d'excellence s'adresse à des collégiens, lycéens et étudiants motivés, ne bénéficiant pas d'un environnement favorable pour réussir leurs études. Il s'agit de mettre à disposition des élèves qui en ont le plus besoin un établissement innovant dans son fonctionnement et son offre pédagogique et éducative. [Education.gouv.fr]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-037"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-038">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">liaison collège - lycée</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-038"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">liaison inter-degrés</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-038"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041"/>
+	<skos:scopeNote xml:lang="fr">Dispositif créé pour fluidifier le passage d'un établissement à un autre, de l'école primaire au collège, du collège au lycée, etc.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-039"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">liaison lycée - enseignement supérieur</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">liaison primaire - collège</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-041"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-042">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">LSF</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">LSF (langue des signes française)</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-016"/>
+	<skos:scopeNote xml:lang="fr">Dispositif pour l'intégration et l'apprentissage de la langue des signes française dans le système éducatif français.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-096"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-042"/>
+	<canope:labelEquivalentExact xml:lang="fr">LSF</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-096"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-043">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">mémoire et histoire</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-043"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-044">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">organisation pédagogique des établissements d'enseignement</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-044"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-045">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">PAC</skos:altLabel>
+	<skos:altLabel xml:lang="fr">PAC (projet artistique et culturel)</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">projet artistique et culturel</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Dispositif scolaire favorisant le développement des arts et de la culture en classe.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-045"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-103"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-102"/>
+	<canope:labelEquivalentExact xml:lang="fr">PAC</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">PAC (projet artistique et culturel)</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-045"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-103"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-046">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">partenariat électronique inter-écoles</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-046"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-047">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">PDMF</skos:altLabel>
+	<skos:altLabel xml:lang="fr">PDMF (parcours découverte des métiers et des formations)</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">parcours découverte des métiers et des formations</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Le parcours de découverte des métiers et des formations, généralisé depuis la rentrée 2009, concerne tous les élèves de la classe de cinquième aux classes terminales de lycée d'enseignement général et technologique et de lycée professionnel. Il a pour but de permettre à chaque élève de construire son parcours. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-047"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-105"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-104"/>
+	<canope:labelEquivalentExact xml:lang="fr">PDMF</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">PDMF (parcours découverte des métiers et des formations)</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-047"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-105"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-048">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">pilotage et gestion du système éducatif</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-048"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-049">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">PPCP (projet pluridisciplinaire à caractère professionnel)</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">projet pluridisciplinaire à caractère professionnel</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-049"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-106"/>
+	<canope:labelEquivalentExact xml:lang="fr">PPCP (projet pluridisciplinaire à caractère professionnel)</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-049"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-050">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">pratique sportive</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-050"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-051">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">prévention du décrochage scolaire</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:scopeNote xml:lang="fr">La lutte contre le décrochage scolaire constitue un enjeu majeur pour la cohésion sociale et l'équité du système éducatif. La mobilisation de toute la communauté éducative, en lien avec les collectivités locales et les représentants du monde professionnel, devra permettre, à terme, de proposer une solution à chaque jeune en situation de décrochage. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-051"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-052">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">prévention et lutte contre la violence</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La lutte contre la violence repose sur le respect des règles de vie dans les établissements et prend appui sur des partenariats. L'objectif est de restaurer le respect dû aux personnes, en particulier aux professeurs et aux victimes de violence, et d'aider les personnels en poste dans des établissements ou environnements difficiles. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-052"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-053">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">projet inter-établissement</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021"/>
+	<skos:scopeNote xml:lang="fr">Dispositif créé entre plusieurs établissements du système éducatif français.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-053"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-054">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">RAR réseau ambition réussite</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">réseau ambition réussite</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:scopeNote xml:lang="fr">" Les réseaux « ambition réussite » ont été créés par la circulaire n°2006-58 du 30 mars 2006, parue au Bulletin officiel de l'Éducation nationale (BOEN) n°14 du 6 avril 2006, relative aux principes et modalités de la politique de l'éducation prioritaire. L'objectif de résultat est la réussite de tous les élèves tant du point de vue de la certification et de l'acquisition des connaissances et des compétences du socle commun, que de leur devenir à l'issue de la troisième.". [Educationprioritaire.education.Fr]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-054"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-107"/>
+	<canope:labelEquivalentExact xml:lang="fr">RAR réseau ambition réussite</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-054"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-055">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">relation école-entreprise</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Dispositif mis en place "pour impulser et centraliser, sous la responsabilité du chef d'établissement, toutes opérations ou activités en lien avec le monde professionnel, les entreprises, et au final favoriser l'insertion professionnelle des élèves. [Académie de Besançon]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-055"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-056">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">relations extérieures et partenariats</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Dispositif faisant appel à des relations extérieures au système éducatif français et à des partenariats.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-056"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-057">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">section européenne ou internationale</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-057"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-058">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">SEGPA section d'enseignement général et professionnel adapté</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">section d'enseignement général et professionnel adapté</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:scopeNote xml:lang="fr">Au collège, les sections d'enseignement général et professionnel adapté (SEGPA) accueillent des élèves présentant des difficultés d'apprentissage graves et durables. Ils ne maîtrisent pas toutes les connaissances et compétences attendues à la fin de l'école primaire, en particulier au regard des éléments du socle commun. Les élèves suivent des enseignements adaptés qui leur permettent à la fois d'acquérir les connaissances et les compétences du socle commun, de construire progressivement leur projet de formation et de préparer l'accès à une formation diplômante. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-058"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-108"/>
+	<canope:labelEquivalentExact xml:lang="fr">SEGPA section d'enseignement général et professionnel adapté</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-058"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-059">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">classe de mer</skos:altLabel>
+	<skos:altLabel xml:lang="fr">classe de neige</skos:altLabel>
+	<skos:altLabel xml:lang="fr">classe transplantée</skos:altLabel>
+	<skos:altLabel xml:lang="fr">classe verte</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">séjour et classe de découvertes</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-122"/>
+	<skos:scopeNote xml:lang="fr">Dispositifs de sorties scolaires avec nuitées dont l'objectif est de découvrir et d'aborder la connaissance de l'environnement.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-109"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-110"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-111"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-112"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-059"/>
+	<canope:labelEquivalentExact xml:lang="fr">classe de mer</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">classe de neige</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">classe transplantée</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">classe verte</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-109"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-110"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-111"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-112"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-060">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">système d'évaluation</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-060"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-061">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">TIPE (travaux d'initiative personnelle encadrés)</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">travaux d'initiative personnelle encadrés</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Les travaux personnels encadrés sont une activité obligatoire en classe de première des séries générales. Ils sont évalués au baccalauréat sous forme d'épreuve anticipée obligatoire. Les TPE sont réalisés par groupes d'élèves. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-061"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-113"/>
+	<canope:labelEquivalentExact xml:lang="fr">TIPE (travaux d'initiative personnelle encadrés)</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-061"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-062">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">TPE (travaux personnels encadrés)</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-062"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-063">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">UPI unité pédagogique d'intégration</skos:altLabel>
+	<skos:altLabel xml:lang="fr">unité pédagogique d'intégration</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">ULIS unité localisée pour l'inclusion scolaire</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:scopeNote xml:lang="fr">Changement de dénomination en 2012. </skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-064"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-074"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-063"/>
+	<canope:labelEquivalentExact xml:lang="fr">UPI unité pédagogique d'intégration</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">unité pédagogique d'intégration</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-064"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-074"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-065">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">dispositif vie scolaire</skos:altLabel>
+	<skos:altLabel xml:lang="fr">vie scolaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">vie de l'établissement</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Tout ce qui a trait à la vie de l'établissement et à la vie scolaire.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-065"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-116"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-115"/>
+	<canope:labelEquivalentExact xml:lang="fr">dispositif vie scolaire</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">vie scolaire</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-065"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-116"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-070">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">section européenne</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-070"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-071">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">section internationale</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Sections internationales : dispositifs implantés dans les écoles, les collèges et les lycées d'enseignement général, visant à faciliter l'insertion d'élèves étrangers dans le système scolaire français et à créer, grâce à leur présence, un cadre propice à l'apprentissage par les élèves français d'une langue vivante étrangère à un haut niveau. Au lycée, les sections internationales préparent à l'option internationale du baccalauréat (OIB). [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-071"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-072">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">section orientale</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-072"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-073">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">section binationale</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Parcours de formation spécifiques élaborés avec des pays partenaires et sanctionnés par la délivrance simultanée du baccalauréat général et du diplôme correspondant du pays concerné. Les deux examens sont aménagés dans le cadre d'une concertation avec les autorités éducatives de l'État impliqué. Cette double délivrance ouvre les mêmes droits à ses titulaires dans les deux pays notamment pour l'accès à l'enseignement supérieur. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-073"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-078">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">DIMA</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">dispositif d'initiation aux métiers de l'alternance</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Formation en alternance, sous statut scolaire, pour une durée d'un an maximum partagée entre l'établissement de formation et des stages en milieu professionnel, pour faire découvrir aux élèves un environnement professionnel correspondant à un projet d'entrée en apprentissage. Les élèves doivent être volontaires et âgés d'au moins 15 ans, à la date d'entrée en formation DIMA. La formation peut être assurée dans un centre de formation d'apprentis, dans un lycée professionnel public, ou dans un lycée professionnel privé sous contrat. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-077"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-078"/>
+	<canope:labelEquivalentExact xml:lang="fr">DIMA</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-077"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-102">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">dispositif de scolarisation des élèves à besoins éducatifs particuliers</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-117"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-119">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">en stage</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">stage</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">S'applique à une ressource dont le contexte d'utilisation est un stage ; le stage est pour l'apprenant un temps d'information et de formation visant à découvrir le milieu professionnel et un moyen concret d'approfondir et de mettre en pratique des compétences techniques et professionnelles hors les murs de l'établissement de formation.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-123"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-119"/>
+	<canope:labelEquivalentExact xml:lang="fr">en stage</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-123"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-120">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">PFE (période de formation en entreprise)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">période de formation en entreprise</skos:altLabel>
+	<skos:altLabel xml:lang="fr">période de formation en milieu professionnel</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">PFMP (période de formation en milieu professionnel)</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-124"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-125"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-126"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-128"/>
+	<canope:labelEquivalentExact xml:lang="fr">PFE (période de formation en entreprise)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">période de formation en entreprise</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">période de formation en milieu professionnel</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-124"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-125"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-126"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-122">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">séjour pédagogique</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-059"/>
+	<skos:scopeNote xml:lang="fr">S'applique à une ressource dont le contexte d'utilisation est un séjour pédagogique. Le séjour pédagogique se distingue de la sortie pédagogique par sa durée (plus d'une journée) et sous-entend un déplacement des apprenants vers le lieu du séjour ainsi qu'un hébergement pour chacun d'entre eux.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-127"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">040-Cadre pédagogique</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-011"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-012"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-013"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-014"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-016"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-018"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-020"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-022"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-023"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-024"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-025"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-026"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-029"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-030"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-031"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-032"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-033"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-034"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-035"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-037"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-038"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-042"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-043"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-044"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-045"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-046"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-047"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-048"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-049"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-050"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-051"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-052"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-053"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-054"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-055"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-056"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-057"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-058"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-059"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-060"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-061"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-062"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-063"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-065"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-070"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-071"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-072"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-073"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-078"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-102"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-119"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-120"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-122"/>
+	<skos:prefLabel xml:lang="fr">040-Cadre pédagogique</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-001">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-001</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">3e insertion</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-002">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-002</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">4e aide et soutien</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-003">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-003</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-10T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">accompagnement à l'orientation</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-004">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-004</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">accompagnement éducatif</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-005">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-005</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">accompagnement hors temps scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-006">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-006</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">accompagnement personnalisé</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-007">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-007</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">accompagnement pendant le temps scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-008">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-008</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">accueil des primo-arrivants</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-009">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-26T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-009</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">actions internationales</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-010">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-17T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-010</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-011">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-011</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">aide individualisée</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-012">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-012</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">CLIN classe d'initiation</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-013">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-013</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">CLIS classe d'intégration scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-014">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-014</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">culture scientifique et technologique</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-015">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-015</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">culture scientifique et technique</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-016">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-016</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif de scolarisation des élèves handicapés</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-017">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-017</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif ECLAIR</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-018">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-018</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif école ouverte</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-019">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-019</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositifs de soutien et de remédiation scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-020">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-020</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositifs relais</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-021">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-021</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">échange pédagogique de classes</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-022">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-022</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation à l'image, au cinéma et à l'audiovisuel</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-023">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-023</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation à la citoyenneté - valeurs républicaines</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-024">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-024</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation à la santé</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-025">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-025</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-24T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation à la sécurité</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-026">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-026</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation à la sécurité routière</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-027">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-027</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation à l'orientation et au choix</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-028">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-028</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation artistique et culturelle</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-029">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-029</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation au développement et à la solidarité</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-030">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-030</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation aux médias</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-031">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-031</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">enseignement de la défense et de la sécurité nationale</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-032">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-032</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">enseignement renforcé des langues</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-033">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-033</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-24T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">EREA école régionale d'enseignement adapté</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-034">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-034</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">formation à l'information et à la communication</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-035">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-035</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">gestion financière et matérielle des établissements</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-036">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-036</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">IDD (itinéraire de découverte)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-037">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-037</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">internat d'excellence</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-038">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-038</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">liaison collège - lycée</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-039">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-039</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">liaison inter-degrés</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-040">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-040</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">liaison lycée - enseignement supérieur</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-041">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-041</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">liaison primaire - collège</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-042">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-20T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-042</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">LSF (langue des signes française)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-043">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-043</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">mémoire et histoire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-044">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-044</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-24T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">organisation pédagogique des établissements d'enseignement</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-045">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-045</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PAC (projet artistique et culturel)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-046">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-046</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">partenariat électronique inter-écoles</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-047">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-047</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PDMF (parcours découverte des métiers et des formations)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-048">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-048</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">pilotage et gestion du système éducatif</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-049">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-049</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PPCP (projet pluridisciplinaire à caractère professionnel)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-050">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-050</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">pratique sportive</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-051">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-051</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">prévention du décrochage scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-052">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-052</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-23T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">prévention et lutte contre la violence</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-053">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-053</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">projet inter-établissement</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-054">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-054</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">RAR réseau ambition réussite</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-055">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-055</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">relation école-entreprise</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-056">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-056</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">relations extérieures et partenariats</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-057">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-057</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">section européenne ou internationale</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-058">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-058</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-23T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">SEGPA section d'enseignement général et professionnel adapté</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-059">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-059</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">séjour et classe de découvertes</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-060">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-060</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">système d'évaluation</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-061">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-061</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-24T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">TIPE (travaux d'initiative personnelle encadrés)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-062">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-062</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">TPE (travaux personnels encadrés)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-063">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-063</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">ULIS unité localisée pour l'inclusion scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-064">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-064</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">UPI unité pédagogique d'intégration</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-065">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-21T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-065</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">vie scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-066">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-066</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">actions européennes et internationales</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-067">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-067</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">classe d'initiation pour non-francophone</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-068">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-068</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">classe pour l'inclusion scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-069">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-069</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">découverte professionnelle</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-070">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-070</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">section européenne</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-071">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-071</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">section internationale</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-072">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-072</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">section orientale</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-073">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-073</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">section binationale</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-074">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-25T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-074</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">unité pédagogique d'intégration</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-076">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-076</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">actions éducatives européennes</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-077">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-077</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">DIMA</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-078">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-078</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif d'initiation aux métiers de l'alternance</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-079">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-079</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif Erasmus</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-080">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-080</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif e-Twinning</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-081">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-081</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif Leonardo</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-082">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-082</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif Voltaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-083">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-083</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">EAM</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-084">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-084</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">ECLAIR</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-085">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-085</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-24T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">école régionale d'enseignement adapté</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-086">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-086</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Écoles, collèges et lycées pour l'ambition, l'innovation et la réussite</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-087">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-087</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">éducation aux médias et à l'information</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-088">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-088</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">EMI</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-089">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-089</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Erasmus</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-090">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-090</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">EREA</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-091">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-091</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">e-Twinning</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-092">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-092</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">European Action Scheme for the Mobility of University Students</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-093">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-093</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">IDD</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-094">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-094</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">itinéraire de découverte</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-095">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-095</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Leonardo</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-096">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-096</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">LSF</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-097">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-097</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">programme Erasmus</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-098">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-098</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">programme e-Twinning</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-099">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-099</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">programme Leonardo</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-100">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-100</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">programme Voltaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-101">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-101</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">Voltaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-102">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-102</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">projet artistique et culturel</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-103">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-103</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PAC</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-104">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-104</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-24T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parcours découverte des métiers et des formations</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-105">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-105</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PDMF</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-106">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-106</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">projet pluridisciplinaire à caractère professionnel</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-107">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-107</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">réseau ambition réussite</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-108">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-108</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-23T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">section d'enseignement général et professionnel adapté</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-109">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-109</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">classe verte</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-110">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-110</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">classe de neige</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-111">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-111</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">classe de mer</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-112">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-112</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">classe transplantée</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-113">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-113</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-24T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">travaux d'initiative personnelle encadrés</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-115">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-115</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">vie de l'établissement</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-116">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-116</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif vie scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-117">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-11T16:55:15.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-117</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">dispositif de scolarisation des élèves à besoins éducatifs particuliers</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-119">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-040-num-119</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-23T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">stage</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-123">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-040-num-123</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">en stage</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-124">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-040-num-124</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PFE (période de formation en entreprise)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-125">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-040-num-125</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">période de formation en milieu professionnel</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-126">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-040-num-126</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">période de formation en entreprise</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-127">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-127</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">séjour pédagogique</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-128">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-13T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-128</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PFMP (période de formation en milieu professionnel)</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-129">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-10T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-040-num-129</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parcours Avenir</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-011"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-012"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-013"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-014"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-016"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-018"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-020"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-022"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-023"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-024"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-025"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-026"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-029"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-030"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-031"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-032"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-033"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-034"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-035"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-037"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-038"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-042"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-043"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-044"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-045"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-046"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-047"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-048"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-049"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-050"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-051"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-052"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-053"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-054"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-055"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-056"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-057"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-058"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-059"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-060"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-061"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-062"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-063"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-065"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-070"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-071"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-072"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-073"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-078"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-102"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-119"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-120"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-122"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-001">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">3e insertion</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:scopeNote xml:lang="fr">Classe à effectif réduit réservée aux élèves en grande difficulté scolaire (au moins un an de retard) et/ou en voie de décrochage scolaire.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-002">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">4e aide et soutien</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:scopeNote xml:lang="fr">Dispositif organisé en classe de quatrième autour d'une pédagogie personnalisée pour aider l'élève en difficulté.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-003">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">parcours Avenir</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">accompagnement à l'orientation</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027"/>
+	<skos:scopeNote xml:lang="fr">Cadre permettant à chaque élève de comprendre le monde économique et professionnel, de connaître la diversité des métiers et des formations, de développer son sens de l'engagement et de l'initiative et d'élaborer son projet d'orientation scolaire et professionnelle (cf. Arrêté du 1er juillet 2015 relatif au parcours Avenir).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-129"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">parcours Avenir</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-129"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-004">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">accompagnement hors temps scolaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">accompagnement éducatif</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">L'accompagnement éducatif complète l'aide personnalisée mise en œuvre à l'école et l'accompagnement personnalisé déployé en classe de 6ème depuis la rentrée scolaire 2011. http://www.education.gouv.fr/cid5677/accompagnement-educatif.html</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-005"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">accompagnement hors temps scolaire</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-006">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">accompagnement pendant le temps scolaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">accompagnement personnalisé</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Organisé de l'école au lycée.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-007"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-006"/>
+	<canope:labelEquivalentExact xml:lang="fr">accompagnement pendant le temps scolaire</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-007"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-008">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">accueil des primo-arrivants</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:scopeNote xml:lang="fr">Dispositif pour aider à l'accueil et à l'insertion des nouveaux arrivants dans le système éducatif français.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-009">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">Erasmus</skos:altLabel>
+	<skos:altLabel xml:lang="fr">European Action Scheme for the Mobility of University Students</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Leonardo</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Voltaire</skos:altLabel>
+	<skos:altLabel xml:lang="fr">actions européennes et internationales</skos:altLabel>
+	<skos:altLabel xml:lang="fr">actions éducatives européennes</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dispositif Erasmus</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dispositif Leonardo</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dispositif Voltaire</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dispositif e-Twinning</skos:altLabel>
+	<skos:altLabel xml:lang="fr">e-Twinning</skos:altLabel>
+	<skos:altLabel xml:lang="fr">programme Erasmus</skos:altLabel>
+	<skos:altLabel xml:lang="fr">programme Leonardo</skos:altLabel>
+	<skos:altLabel xml:lang="fr">programme Voltaire</skos:altLabel>
+	<skos:altLabel xml:lang="fr">programme e-Twinning</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">actions internationales</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Actions éducatives pour une politique d'ouverture et de mobilité européenne et internationale. [http://www.education.gouv.fr/cid49724/menc0913416c.html]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-066"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-076"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-079"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-080"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-081"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-082"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-089"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-091"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-092"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-095"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-097"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-098"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-099"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-100"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-101"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">Erasmus</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">European Action Scheme for the Mobility of University Students</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Leonardo</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Voltaire</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">actions européennes et internationales</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">actions éducatives européennes</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dispositif Erasmus</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dispositif Leonardo</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dispositif Voltaire</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dispositif e-Twinning</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">e-Twinning</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">programme Erasmus</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">programme Leonardo</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">programme Voltaire</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">programme e-Twinning</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-066"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-076"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-079"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-080"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-081"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-082"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-089"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-091"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-092"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-095"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-097"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-098"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-099"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-100"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-101"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-001"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-002"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-008"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-012"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-013"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-033"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-058"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-063"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-010"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-011">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">aide individualisée</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:scopeNote xml:lang="fr">Pour les élèves rencontrant des difficultés ponctuelles ou qui présentent des lacunes plus profondes, l'aide individuelle complète l'enseignement dispensé en classe entière, en demi-groupe et l'accompagnement pédagogique donné en module ; elle facilite une meilleure appropriation des savoirs fondamentaux et l'acquisition de l'autonomie nécessaire à la prise en charge des apprentissages, en redonnant aux élèves confiance en eux. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-011"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-012">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">classe d'initiation pour non-francophone</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">CLIN classe d'initiation</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-067"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-012"/>
+	<canope:labelEquivalentExact xml:lang="fr">classe d'initiation pour non-francophone</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-067"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-013">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">classe pour l'inclusion scolaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">CLIS classe d'intégration scolaire</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-068"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-013"/>
+	<canope:labelEquivalentExact xml:lang="fr">classe pour l'inclusion scolaire</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-068"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-014">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">culture scientifique et technique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">découverte professionnelle</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">culture scientifique et technologique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Dispositif proposé à l'école primaire pour découvrir le monde et au collège pour connaître son environnement.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-015"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-069"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-014"/>
+	<canope:labelEquivalentExact xml:lang="fr">culture scientifique et technique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">découverte professionnelle</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-015"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-069"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-016">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">dispositif de scolarisation des élèves handicapés</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-042"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-017">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">ECLAIR</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Écoles, collèges et lycées pour l'ambition, l'innovation et la réussite</skos:altLabel>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">dispositif ECLAIR</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:scopeNote xml:lang="fr">La loi du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées renforce les actions en faveur de la scolarisation des élèves handicapés. [education.gouv.fr]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-084"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-086"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-017"/>
+	<canope:labelEquivalentExact xml:lang="fr">ECLAIR</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Écoles, collèges et lycées pour l'ambition, l'innovation et la réussite</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-084"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-086"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-018">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">dispositif école ouverte</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:scopeNote xml:lang="fr">L'opération École ouverte permet d'accueillir des jeunes qui ne partent pas en vacances dans des collèges et des lycées pendant les vacances scolaires et les mercredis et samedis pendant l'année scolaire. L'école ouverte s'adresse en priorité aux jeunes, dès l'école élémentaire, qui vivent dans des zones socialement défavorisées ou dans des contextes culturels et économiques difficiles. [Education.gouv.fr]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-018"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">dispositifs de soutien et de remédiation scolaire</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-011"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-017"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-018"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-020"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-032"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-051"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-054"/>
+	<skos:scopeNote xml:lang="fr">La lutte contre le décrochage scolaire est une priorité nationale absolue et un enjeu dans le cadre de la "Stratégie Europe 2020". Elle articule prévention et remédiation sur un objectif central : faire que chaque jeune puisse construire son avenir professionnel et réussir sa vie en société. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-019"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-020">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">dispositifs relais</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019"/>
+	<skos:scopeNote xml:lang="fr">Ces dispositifs permettent un accueil temporaire adapté des collégiens en risque de marginalisation scolaire et ont pour objectif de favoriser la rescolarisation et la resocialisation de ces élèves.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-020"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">échange pédagogique de classes</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-046"/>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-053"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-021"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-022">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation à l'image, au cinéma et à l'audiovisuel</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028"/>
+	<skos:scopeNote xml:lang="fr">Permettre aux élèves d'acquérir une culture, avoir une pratique artistique et de découvrir de nouveaux métiers. [Education.gouv]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-022"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-023">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation à la citoyenneté - valeurs républicaines</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Le socle commun de connaissances et de compétences intègre cette mission fondamentale : il s'agit de préparer les élèves à vivre en société et à devenir des citoyens responsables, conscients des principes et des règles qui fondent notre démocratie. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-023"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-024">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation à la santé</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">L'École a une double mission : l'éducation à la santé des élèves et le suivi de leur santé. L'éducation à la santé est intégrée dans les programmes de l'école primaire. Chaque collège et lycée définit un programme d'éducation à la santé et à la citoyenneté : éducation nutritionnelle, éducation à la sexualité, prévention des conduites addictives. Le suivi de santé des élèves est assuré tout au long de la scolarité. Des bilans de santé sont organisés au sein des établissements. [Education.gouv.fr]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-025">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation à la sécurité</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-026"/>
+	<skos:scopeNote xml:lang="fr">Le décret n°2006-41 du 11 janvier 2006, codifié dans les articles D. 312-40 à D. 312-42 du code de l'Éducation prévoit dans les établissements d'enseignement publics et privés sous contrat, l'obligation d'assurer :&#xD;
+une sensibilisation à la prévention des risques ;&#xD;
+une information sur les missions des services de secours ;&#xD;
+une formation aux premiers secours ;&#xD;
+un enseignement des règles générales de sécurité. [Eduscol]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-025"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-026">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skos:prefLabel xml:lang="fr">éducation à la sécurité routière</skos:prefLabel>
+	<skos:related rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-025"/>
+	<skos:scopeNote xml:lang="fr">Enseignement obligatoire depuis 1957, l'apprentissage de la sécurité routière fait l'objet d'un cursus complet. Il fait partie des missions de l'enseignant et doit être mis en œuvre dès la maternelle en s'intégrant aux disciplines enseignées. Cet enseignement peut aussi être inséré, ou servir de point d'ancrage, dans des projets d'école et d'établissement. [MAIF]</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-040-num-026"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Cadre pédagogique</skos:definition>
+</rdf:Description>
+
+</rdf:RDF>

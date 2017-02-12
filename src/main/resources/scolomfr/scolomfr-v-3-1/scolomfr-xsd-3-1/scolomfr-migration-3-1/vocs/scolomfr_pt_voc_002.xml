@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-002-num-005" name="scolomfr-voc-002 (État)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/draft" prefTerm="brouillon">
+    <value>http://data.education.fr/voc/scolomfr/concept/draft</value>
+    <value>brouillon</value>
+    <value>draft</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/final" prefTerm="final">
+    <value>http://data.education.fr/voc/scolomfr/concept/final</value>
+    <value>final</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/unavailable" prefTerm="indisponible">
+    <value>http://data.education.fr/voc/scolomfr/concept/unavailable</value>
+    <value>indisponible</value>
+    <value>unavailable</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/revised" prefTerm="révisé">
+    <value>http://data.education.fr/voc/scolomfr/concept/revised</value>
+    <value>révisé</value>
+    <value>revised</value>
+  </concept>
+</vocab>

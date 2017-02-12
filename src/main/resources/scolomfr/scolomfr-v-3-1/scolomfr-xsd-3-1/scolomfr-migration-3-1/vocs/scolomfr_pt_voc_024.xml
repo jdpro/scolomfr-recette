@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-015" name="scolomfr-voc-024 (NomTechnique)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031" prefTerm="système d'exploitation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</value>
+    <value>système d'exploitation</value>
+    <value>scolomfr-voc-024-num-031</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/ms-windows" prefTerm="ms-windows">
+    <value>http://data.education.fr/voc/scolomfr/concept/ms-windows</value>
+    <value>ms-windows</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027" prefTerm="Multi-OS">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</value>
+    <value>Multi-OS</value>
+    <value>scolomfr-voc-024-num-027</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017" prefTerm="blackberry">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</value>
+    <value>blackberry</value>
+    <value>scolomfr-voc-024-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025" prefTerm="Mac OS">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</value>
+    <value>Mac OS</value>
+    <value>scolomfr-voc-024-num-025</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/pc-dos" prefTerm="pc-dos">
+    <value>http://data.education.fr/voc/scolomfr/concept/pc-dos</value>
+    <value>pc-dos</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024" prefTerm="indifférent">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</value>
+    <value>indifférent</value>
+    <value>scolomfr-voc-024-num-024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016" prefTerm="android">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</value>
+    <value>android</value>
+    <value>scolomfr-voc-024-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/unix" prefTerm="unix">
+    <value>http://data.education.fr/voc/scolomfr/concept/unix</value>
+    <value>unix</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023" prefTerm="Chrome OS">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</value>
+    <value>Chrome OS</value>
+    <value>scolomfr-voc-024-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030" prefTerm="Symbian OS">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</value>
+    <value>Symbian OS</value>
+    <value>scolomfr-voc-024-num-030</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032" prefTerm="Windows mobile">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</value>
+    <value>Windows mobile</value>
+    <value>scolomfr-voc-024-num-032</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021" prefTerm="ios">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</value>
+    <value>ios</value>
+    <value>scolomfr-voc-024-num-021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002" prefTerm="linux">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</value>
+    <value>linux</value>
+    <value>scolomfr-voc-024-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047" prefTerm="autre système d'exploitation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</value>
+    <value>autre système d'exploitation</value>
+    <value>scolomfr-voc-024-num-047</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028" prefTerm="navigateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</value>
+    <value>navigateur</value>
+    <value>scolomfr-voc-024-num-028</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022" prefTerm="autre">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</value>
+    <value>autre</value>
+    <value>scolomfr-voc-024-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/netscape_communicator" prefTerm="netscape">
+    <value>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</value>
+    <value>netscape</value>
+    <value>netscape communicator</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026" prefTerm="Microsoft Edge">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</value>
+    <value>Microsoft Edge</value>
+    <value>scolomfr-voc-024-num-026</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/amaya" prefTerm="amaya">
+    <value>http://data.education.fr/voc/scolomfr/concept/amaya</value>
+    <value>amaya</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/any" prefTerm="indifférent">
+    <value>http://data.education.fr/voc/scolomfr/concept/any</value>
+    <value>indifférent</value>
+    <value>any</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/none" prefTerm="aucun">
+    <value>http://data.education.fr/voc/scolomfr/concept/none</value>
+    <value>aucun</value>
+    <value>none</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029" prefTerm="navigateur mobile">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</value>
+    <value>navigateur mobile</value>
+    <value>scolomfr-voc-024-num-029</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019" prefTerm="google chrome">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</value>
+    <value>google chrome</value>
+    <value>scolomfr-voc-024-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010" prefTerm="mozilla firefox">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</value>
+    <value>mozilla firefox</value>
+    <value>scolomfr-voc-024-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/opera" prefTerm="opera">
+    <value>http://data.education.fr/voc/scolomfr/concept/opera</value>
+    <value>opera</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014" prefTerm="safari">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</value>
+    <value>safari</value>
+    <value>scolomfr-voc-024-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer" prefTerm="windows internet explorer">
+    <value>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</value>
+    <value>windows internet explorer</value>
+    <value>ms-internet explorer</value>
+  </concept>
+</vocab>

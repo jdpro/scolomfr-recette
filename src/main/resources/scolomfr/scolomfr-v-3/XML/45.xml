@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-001</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la description de la compatibilité technique avec les plateformes faisant partie du FARE.</NA>
+<TERME>
+<INTITULE lang="fr">FARE</INTITULE>
+<ID>scolomfr-voc-045-num-001</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">GAR</INTITULE>
+<ID>scolomfr-voc-045-num-004</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">fédération d'accès aux ressources pour l'école</INTITULE>
+<ID>scolomfr-voc-045-num-003</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">gestionnaire d'accès aux ressources</INTITULE>
+<ID>scolomfr-voc-045-num-005</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://www.edutheque.fr</ID>
+<DF lang="fr">Label</DF>
+<TERME>
+<INTITULE lang="fr">Éduthèque</INTITULE>
+<ID>scolomfr-voc-045-num-002</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">Edutheque</INTITULE>
+<ID>scolomfr-voc-045-num-022</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Eduthèque</INTITULE>
+<ID>scolomfr-voc-045-num-023</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-012</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2009</INTITULE>
+<ID>scolomfr-voc-045-num-012</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2009</INTITULE>
+<ID>scolomfr-voc-045-num-028</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-014</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2010</INTITULE>
+<ID>scolomfr-voc-045-num-014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2010</INTITULE>
+<ID>scolomfr-voc-045-num-029</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-018</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2014</INTITULE>
+<ID>scolomfr-voc-045-num-018</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2014</INTITULE>
+<ID>scolomfr-voc-045-num-033</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-019</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2015</INTITULE>
+<ID>scolomfr-voc-045-num-019</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2015</INTITULE>
+<ID>scolomfr-voc-045-num-034</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-020</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2016</INTITULE>
+<ID>scolomfr-voc-045-num-020</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2016</INTITULE>
+<ID>scolomfr-voc-045-num-035</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-008</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2005</INTITULE>
+<ID>scolomfr-voc-045-num-008</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2005</INTITULE>
+<ID>scolomfr-voc-045-num-024</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-009</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2006</INTITULE>
+<ID>scolomfr-voc-045-num-009</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2006</INTITULE>
+<ID>scolomfr-voc-045-num-025</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-010</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2007</INTITULE>
+<ID>scolomfr-voc-045-num-010</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2007</INTITULE>
+<ID>scolomfr-voc-045-num-026</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-011</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2008</INTITULE>
+<ID>scolomfr-voc-045-num-011</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2008</INTITULE>
+<ID>scolomfr-voc-045-num-027</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-015</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2011</INTITULE>
+<ID>scolomfr-voc-045-num-015</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2011</INTITULE>
+<ID>scolomfr-voc-045-num-030</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-016</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2012</INTITULE>
+<ID>scolomfr-voc-045-num-016</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2012</INTITULE>
+<ID>scolomfr-voc-045-num-031</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-017</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2013</INTITULE>
+<ID>scolomfr-voc-045-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2013</INTITULE>
+<ID>scolomfr-voc-045-num-032</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-007</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour les ressources issues de l'AOBR (appel d'offres banque de ressources).</NA>
+<TERME>
+<INTITULE lang="fr">avec le soutien du Ministère de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche</INTITULE>
+<ID>scolomfr-voc-045-num-007</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">avec le soutien du MENESR</INTITULE>
+<ID>scolomfr-voc-045-num-021</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-001</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la description de la compatibilité technique avec les plateformes faisant partie du FARE.</NA>
+<TERME>
+<INTITULE lang="fr">FARE</INTITULE>
+<ID>scolomfr-voc-045-num-001</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">GAR</INTITULE>
+<ID>scolomfr-voc-045-num-004</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">fédération d'accès aux ressources pour l'école</INTITULE>
+<ID>scolomfr-voc-045-num-003</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">gestionnaire d'accès aux ressources</INTITULE>
+<ID>scolomfr-voc-045-num-005</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-007</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour les ressources issues de l'AOBR (appel d'offres banque de ressources).</NA>
+<TERME>
+<INTITULE lang="fr">avec le soutien du Ministère de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche</INTITULE>
+<ID>scolomfr-voc-045-num-007</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">avec le soutien du MENESR</INTITULE>
+<ID>scolomfr-voc-045-num-021</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-008</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2005</INTITULE>
+<ID>scolomfr-voc-045-num-008</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2005</INTITULE>
+<ID>scolomfr-voc-045-num-024</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-009</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2006</INTITULE>
+<ID>scolomfr-voc-045-num-009</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2006</INTITULE>
+<ID>scolomfr-voc-045-num-025</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-010</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2007</INTITULE>
+<ID>scolomfr-voc-045-num-010</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2007</INTITULE>
+<ID>scolomfr-voc-045-num-026</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-011</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2008</INTITULE>
+<ID>scolomfr-voc-045-num-011</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2008</INTITULE>
+<ID>scolomfr-voc-045-num-027</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-012</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2009</INTITULE>
+<ID>scolomfr-voc-045-num-012</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2009</INTITULE>
+<ID>scolomfr-voc-045-num-028</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-014</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2010</INTITULE>
+<ID>scolomfr-voc-045-num-014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2010</INTITULE>
+<ID>scolomfr-voc-045-num-029</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-015</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2011</INTITULE>
+<ID>scolomfr-voc-045-num-015</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2011</INTITULE>
+<ID>scolomfr-voc-045-num-030</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-016</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2012</INTITULE>
+<ID>scolomfr-voc-045-num-016</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2012</INTITULE>
+<ID>scolomfr-voc-045-num-031</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-018</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2014</INTITULE>
+<ID>scolomfr-voc-045-num-018</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2014</INTITULE>
+<ID>scolomfr-voc-045-num-033</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-019</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2015</INTITULE>
+<ID>scolomfr-voc-045-num-019</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2015</INTITULE>
+<ID>scolomfr-voc-045-num-034</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-020</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2016</INTITULE>
+<ID>scolomfr-voc-045-num-020</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2016</INTITULE>
+<ID>scolomfr-voc-045-num-035</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://www.edutheque.fr</ID>
+<DF lang="fr">Label</DF>
+<TERME>
+<INTITULE lang="fr">Éduthèque</INTITULE>
+<ID>scolomfr-voc-045-num-002</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">Edutheque</INTITULE>
+<ID>scolomfr-voc-045-num-022</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Eduthèque</INTITULE>
+<ID>scolomfr-voc-045-num-023</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-017</ID>
+<DF lang="fr">Label</DF>
+<NA lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">RIP 2013</INTITULE>
+<ID>scolomfr-voc-045-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reconnu d'intérêt pédagogique en 2013</INTITULE>
+<ID>scolomfr-voc-045-num-032</ID>
+</TERME_TE>
+</CONCEPT>
+</NOMENCLATURE>

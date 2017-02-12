@@ -1,0 +1,2207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vdex
+  SYSTEM "Dtd-Nomenclature.dtd">
+<vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:adms="http://www.w3.org/ns/adms"
+      xmlns:cvb="http://www.w3.org/ns/adms/BasicComponents"
+      xmlns:cva="http://www.w3.org/ns/adms/AggregateComponents"
+      xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+      xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0     http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd    http://www.w3.org/ns/adms    https://www.reseau-canope.fr/scolomfr/fileadmin/user_upload/archives/v1/docs_utiles/ADMS_XML_Schema_v1.01/xsd/corevoc/CoreVocs-ADMS-v1.01.xsd"
+      orderSignificant="true">
+   <vocabName>
+      <langstring language="fr">024-Nom du système d'exploitation ou du navigateur</langstring>
+   </vocabName>
+   <vocabIdentifier>http://data.education.fr/voc/scolomfr/scolomfr-voc-024</vocabIdentifier>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</termIdentifier>
+      <caption>
+         <langstring language="fr">navigateur</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-028</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/amaya</termIdentifier>
+      <caption>
+         <langstring language="fr">amaya</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Navigateur web développé par l'INRIA et le W3C entre 1996 et 2009. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>amaya</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/none</termIdentifier>
+      <caption>
+         <langstring language="fr">aucun</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>none</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</termIdentifier>
+      <caption>
+         <langstring language="fr">autre</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">À sélectionner lorsque le navigateur à choisir n'est pas dans la liste.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-022</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</termIdentifier>
+      <caption>
+         <langstring language="fr">google chrome</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Navigateur web développé par Google depuis 2008.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-019</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/any</termIdentifier>
+      <caption>
+         <langstring language="fr">indifférent</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">A sélectionner pour une ressource utilisable sous n'importe quel navigateur web. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>any</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</termIdentifier>
+      <caption>
+         <langstring language="fr">Microsoft Edge</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-026</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</termIdentifier>
+      <caption>
+         <langstring language="fr">mozilla firefox</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Navigateur web libre et gratuit développé par la fondation Mozilla depuis 2004. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-020</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</termIdentifier>
+      <caption>
+         <langstring language="fr">navigateur mobile</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-029</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</termIdentifier>
+      <caption>
+         <langstring language="fr">netscape</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Navigateur web développé par la société Netscape Communications depuis 1994. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>netscape communicator</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/opera</termIdentifier>
+      <caption>
+         <langstring language="fr">opera</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Navigateur web développé par la société Opera Software depuis 1995. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>opera</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</termIdentifier>
+      <caption>
+         <langstring language="fr">safari</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Navigateur web développé par Apple depuis 2003. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-014</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</termIdentifier>
+      <caption>
+         <langstring language="fr">windows internet explorer</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Navigateur web développé par Microsoft depuis 1995. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>ms-internet explorer</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</termIdentifier>
+      <caption>
+         <langstring language="fr">système d'exploitation</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-031</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</termIdentifier>
+      <caption>
+         <langstring language="fr">android</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Système d'exploitation open source développé depuis 2005.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-016</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</termIdentifier>
+      <caption>
+         <langstring language="fr">autre système d'exploitation</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-047</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</termIdentifier>
+      <caption>
+         <langstring language="fr">blackberry</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Système d'exploitation développé depuis 1999 pour la téléphonie mobile.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-017</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</termIdentifier>
+      <caption>
+         <langstring language="fr">Chrome OS</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-023</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</termIdentifier>
+      <caption>
+         <langstring language="fr">indifférent</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-024</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</termIdentifier>
+      <caption>
+         <langstring language="fr">ios</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-021</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</termIdentifier>
+      <caption>
+         <langstring language="fr">linux</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Système d'exploitation libre développé sous la Licence publique générale GNU depuis 1991. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-002</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</termIdentifier>
+      <caption>
+         <langstring language="fr">Mac OS</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Système d'exploitation développé par Apple depuis 1991. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-025</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/ms-windows</termIdentifier>
+      <caption>
+         <langstring language="fr">ms-windows</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>ms-windows</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</termIdentifier>
+      <caption>
+         <langstring language="fr">Multi-OS</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Système permettant d'être compatible et utilisable avec différents systèmes d'exploitation. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-027</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/pc-dos</termIdentifier>
+      <caption>
+         <langstring language="fr">pc-dos</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Système d'exploitation développé par Microsoft depuis 1981. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>pc-dos</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</termIdentifier>
+      <caption>
+         <langstring language="fr">Symbian OS</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-030</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/unix</termIdentifier>
+      <caption>
+         <langstring language="fr">unix</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Système d'exploitation développé depuis 1969. Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>unix</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</termIdentifier>
+      <caption>
+         <langstring language="fr">Windows mobile</langstring>
+      </caption>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>scolomfr-voc-024-num-032</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/amaya</sourceTerm>
+      <targetTerm>amaya</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>amaya</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/amaya</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/amaya</sourceTerm>
+      <targetTerm>amaya</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/amaya</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/amaya</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/none</sourceTerm>
+      <targetTerm>none</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>none</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/none</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/none</sourceTerm>
+      <targetTerm>none</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/none</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/none</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-022</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-022</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-022</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-019</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-019</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-019</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/any</sourceTerm>
+      <targetTerm>any</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>any</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/any</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/any</sourceTerm>
+      <targetTerm>any</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/any</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/any</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-026</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-026</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-026</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-020</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-020</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-020</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-029</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-029</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-029</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</sourceTerm>
+      <targetTerm>netscape communicator</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>netscape communicator</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</sourceTerm>
+      <targetTerm>netscape communicator</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/opera</sourceTerm>
+      <targetTerm>opera</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>opera</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/opera</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/opera</sourceTerm>
+      <targetTerm>opera</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/opera</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/opera</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-014</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-014</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-014</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</sourceTerm>
+      <targetTerm>ms-internet explorer</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>ms-internet explorer</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</sourceTerm>
+      <targetTerm>ms-internet explorer</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-016</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-016</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-016</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-047</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-047</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-047</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-017</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-017</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-017</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-023</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-023</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-023</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-024</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-024</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-024</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-021</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-021</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-021</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-002</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-002</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-002</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-025</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-025</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-025</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/ms-windows</sourceTerm>
+      <targetTerm>ms-windows</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>ms-windows</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/ms-windows</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/ms-windows</sourceTerm>
+      <targetTerm>ms-windows</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/ms-windows</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/ms-windows</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-027</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-027</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-027</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/pc-dos</sourceTerm>
+      <targetTerm>pc-dos</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>pc-dos</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/pc-dos</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/pc-dos</sourceTerm>
+      <targetTerm>pc-dos</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/pc-dos</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/pc-dos</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-030</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-030</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-030</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/unix</sourceTerm>
+      <targetTerm>unix</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>unix</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/unix</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/unix</sourceTerm>
+      <targetTerm>unix</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/unix</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/unix</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-032</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>scolomfr-voc-024-num-032</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</sourceTerm>
+      <targetTerm>scolomfr-voc-024-num-032</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">NT</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</sourceTerm>
+      <targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">BT</relationshipType>
+   </relationship>
+   <metadata>
+      <adms:Adms>
+         <cva:SemanticAsset>
+            <cbc:URI/>
+            <cbc:Name/>
+            <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+            <cbc:Description/>
+            <cvb:Version>2.0</cvb:Version>
+            <cvb:VersionNotes languageID="fr">Introduction des URI de concepts pour l'indexation et dépreciation des anciens identifiants.</cvb:VersionNotes>
+            <cva:AssetType>
+               <cvb:TypeCode/>
+            </cva:AssetType>
+            <cva:MainDocumentation>
+               <cbc:URI>http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/docs_utiles/Structure_des_fichiers_VDEX_3.pdf</cbc:URI>
+               <cbc:Title>Strucutre des fichiers VDEX</cbc:Title>
+            </cva:MainDocumentation>
+            <cva:Publisher>
+               <cbc:URI/>
+               <cbc:Name/>
+            </cva:Publisher>
+            <cva:AssetStatus>
+               <cvb:TypeCode>Completed</cvb:TypeCode>
+            </cva:AssetStatus>
+         </cva:SemanticAsset>
+      </adms:Adms>
+   </metadata>
+</vdex>

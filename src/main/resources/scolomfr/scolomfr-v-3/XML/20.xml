@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">matériel</INTITULE>
+<ID>scolomfr-voc-020-num-064</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-010</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">casque audio</INTITULE>
+<ID>scolomfr-voc-020-num-010</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">écouteurs</INTITULE>
+<ID>scolomfr-voc-020-num-100</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">casque</INTITULE>
+<ID>scolomfr-voc-020-num-096</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-063</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">machine-outil à commande numérique</INTITULE>
+<ID>scolomfr-voc-020-num-063</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">machine à commande numérique</INTITULE>
+<ID>scolomfr-voc-020-num-115</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-072</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">rétroprojecteur</INTITULE>
+<ID>scolomfr-voc-020-num-072</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-078</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">tablette</INTITULE>
+<ID>scolomfr-voc-020-num-152</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">tablet PC</INTITULE>
+<ID>scolomfr-voc-020-num-130</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette graphique</INTITULE>
+<ID>scolomfr-voc-020-num-131</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette informatique</INTITULE>
+<ID>scolomfr-voc-020-num-132</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette tactile</INTITULE>
+<ID>scolomfr-voc-020-num-078</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette multimédia</INTITULE>
+<ID>scolomfr-voc-020-num-189</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-082</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">webcam</INTITULE>
+<ID>scolomfr-voc-020-num-082</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-004</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">appareil photographique</INTITULE>
+<ID>scolomfr-voc-020-num-004</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">appareil photo numérique</INTITULE>
+<ID>scolomfr-voc-020-num-085</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-008</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">calculatrice</INTITULE>
+<ID>scolomfr-voc-020-num-008</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-016</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">enceintes</INTITULE>
+<ID>scolomfr-voc-020-num-016</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-065</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">microphone</INTITULE>
+<ID>scolomfr-voc-020-num-065</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">micro</INTITULE>
+<ID>scolomfr-voc-020-num-116</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-066</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">microscope</INTITULE>
+<ID>scolomfr-voc-020-num-066</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">outil de microscopie</INTITULE>
+<ID>scolomfr-voc-020-num-122</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-015</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">écran tactile</INTITULE>
+<ID>scolomfr-voc-020-num-015</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-012</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">console de jeux</INTITULE>
+<ID>scolomfr-voc-020-num-012</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-021</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">Appareil portable doté d'un écran et destiné au stockage et à la lecture des livres numériques ou des périodiques. [Source : FranceTerme]</NA>
+<TERME>
+<INTITULE lang="fr">liseuse</INTITULE>
+<ID>scolomfr-voc-020-num-021</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">livre numérique</INTITULE>
+<ID>scolomfr-voc-020-num-108</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">livre électronique</INTITULE>
+<ID>scolomfr-voc-020-num-107</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">electronic reader</INTITULE>
+<ID>scolomfr-voc-020-num-164</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">reading device</INTITULE>
+<ID>scolomfr-voc-020-num-180</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette de lecture</INTITULE>
+<ID>scolomfr-voc-020-num-188</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">e-reader</INTITULE>
+<ID>scolomfr-voc-020-num-166</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">electronic book reader</INTITULE>
+<ID>scolomfr-voc-020-num-163</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">e-book reader</INTITULE>
+<ID>scolomfr-voc-020-num-159</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-068</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-068</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ordinateur fixe</INTITULE>
+<ID>scolomfr-voc-020-num-118</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">ordinateur portable</INTITULE>
+<ID>scolomfr-voc-020-num-119</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-077</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">tableau blanc interactif</INTITULE>
+<ID>scolomfr-voc-020-num-077</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TBI</INTITULE>
+<ID>scolomfr-voc-020-num-134</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">VPI</INTITULE>
+<ID>scolomfr-voc-020-num-195</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">TNI</INTITULE>
+<ID>scolomfr-voc-020-num-191</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">vidéoprojecteur interactif</INTITULE>
+<ID>scolomfr-voc-020-num-194</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tableau numérique interactif</INTITULE>
+<ID>scolomfr-voc-020-num-187</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-079</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">téléphone</INTITULE>
+<ID>scolomfr-voc-020-num-079</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">téléphone portable</INTITULE>
+<ID>scolomfr-voc-020-num-135</ID>
+</TERME_TE>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-074</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">smartphone</INTITULE>
+<ID>scolomfr-voc-020-num-074</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-019</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">imprimante</INTITULE>
+<ID>scolomfr-voc-020-num-019</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-005</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">baladeur</INTITULE>
+<ID>scolomfr-voc-020-num-005</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">lecteur MP4</INTITULE>
+<ID>scolomfr-voc-020-num-106</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">baladeur MP4</INTITULE>
+<ID>scolomfr-voc-020-num-087</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">baladeur vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-088</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">lecteur MP3</INTITULE>
+<ID>scolomfr-voc-020-num-105</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">baladeur MP3</INTITULE>
+<ID>scolomfr-voc-020-num-086</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-006</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">borne informatique</INTITULE>
+<ID>scolomfr-voc-020-num-006</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">borne de consultation</INTITULE>
+<ID>scolomfr-voc-020-num-089</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">borne de consultation Internet</INTITULE>
+<ID>scolomfr-voc-020-num-090</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">borne interactive</INTITULE>
+<ID>scolomfr-voc-020-num-091</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-009</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">caméra</INTITULE>
+<ID>scolomfr-voc-020-num-009</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">caméscope numérique</INTITULE>
+<ID>scolomfr-voc-020-num-095</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">caméra numérique</INTITULE>
+<ID>scolomfr-voc-020-num-093</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">caméscope</INTITULE>
+<ID>scolomfr-voc-020-num-094</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-011</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">classe mobile</INTITULE>
+<ID>scolomfr-voc-020-num-011</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">chariot multimédia</INTITULE>
+<ID>scolomfr-voc-020-num-097</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">classe mobile multimédia</INTITULE>
+<ID>scolomfr-voc-020-num-098</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-014</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">documentation technique</INTITULE>
+<ID>scolomfr-voc-020-num-014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">mode d'emploi</INTITULE>
+<ID>scolomfr-voc-020-num-117</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">guide</INTITULE>
+<ID>scolomfr-voc-020-num-103</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-073</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">scanner</INTITULE>
+<ID>scolomfr-voc-020-num-073</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-080</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">vidéoprojecteur</INTITULE>
+<ID>scolomfr-voc-020-num-080</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-081</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">visualiseur</INTITULE>
+<ID>scolomfr-voc-020-num-081</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-151</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">stockage externe</INTITULE>
+<ID>scolomfr-voc-020-num-151</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">carte SD</INTITULE>
+<ID>scolomfr-voc-020-num-155</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">carte mémoire</INTITULE>
+<ID>scolomfr-voc-020-num-154</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">clé USB</INTITULE>
+<ID>scolomfr-voc-020-num-157</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">disque dur externe</INTITULE>
+<ID>scolomfr-voc-020-num-158</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-138</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">EIM</INTITULE>
+<ID>scolomfr-voc-020-num-138</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">équipement individuel mobile</INTITULE>
+<ID>scolomfr-voc-020-num-165</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-149</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">robot programmable</INTITULE>
+<ID>scolomfr-voc-020-num-149</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-150</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">scanner 3D</INTITULE>
+<ID>scolomfr-voc-020-num-150</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-139</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">imprimante 3D</INTITULE>
+<ID>scolomfr-voc-020-num-139</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciels</INTITULE>
+<ID>scolomfr-voc-020-num-022</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-075</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">système de gestion de base de données</INTITULE>
+<ID>scolomfr-voc-020-num-075</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">SGBD</INTITULE>
+<ID>scolomfr-voc-020-num-127</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-002</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">agrégateur de contenu</INTITULE>
+<ID>scolomfr-voc-020-num-002</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">agrégateur de fils RSS</INTITULE>
+<ID>scolomfr-voc-020-num-083</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">agrégateur de flux RSS</INTITULE>
+<ID>scolomfr-voc-020-num-084</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-003</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">aide technique</INTITULE>
+<ID>scolomfr-voc-020-num-003</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">outil de compensation du handicap</INTITULE>
+<ID>scolomfr-voc-020-num-121</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-029</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de création multimédia</INTITULE>
+<ID>scolomfr-voc-020-num-029</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-041</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de publication en ligne</INTITULE>
+<ID>scolomfr-voc-020-num-041</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-034</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de gestion de contenu</INTITULE>
+<ID>scolomfr-voc-020-num-034</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">wiki</INTITULE>
+<ID>scolomfr-voc-020-num-196</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">outil blogue</INTITULE>
+<ID>scolomfr-voc-020-num-120</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">CMS</INTITULE>
+<ID>scolomfr-voc-020-num-099</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-053</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'édition web</INTITULE>
+<ID>scolomfr-voc-020-num-053</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-051</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de travail collaboratif</INTITULE>
+<ID>scolomfr-voc-020-num-051</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-055</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel documentaire</INTITULE>
+<ID>scolomfr-voc-020-num-055</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de recherche documentaire</INTITULE>
+<ID>scolomfr-voc-020-num-042</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-007</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">cahier de textes numérique</INTITULE>
+<ID>scolomfr-voc-020-num-007</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">cahier de textes en ligne</INTITULE>
+<ID>scolomfr-voc-020-num-092</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-017</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">environnement numérique de travail</INTITULE>
+<ID>scolomfr-voc-020-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ENT</INTITULE>
+<ID>scolomfr-voc-020-num-101</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-020</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">learning management system</INTITULE>
+<ID>scolomfr-voc-020-num-020</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">environnement numérique d'apprentissage</INTITULE>
+<ID>scolomfr-voc-020-num-102</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">plate-forme d'apprentissage en ligne</INTITULE>
+<ID>scolomfr-voc-020-num-124</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">plate-forme e-learning</INTITULE>
+<ID>scolomfr-voc-020-num-125</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">e-learning management system</INTITULE>
+<ID>scolomfr-voc-020-num-162</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">LMS</INTITULE>
+<ID>scolomfr-voc-020-num-109</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-044</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de simulation</INTITULE>
+<ID>scolomfr-voc-020-num-044</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-023</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'aide à l'orientation</INTITULE>
+<ID>scolomfr-voc-020-num-023</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">LAO</INTITULE>
+<ID>scolomfr-voc-020-num-104</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-025</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'application</INTITULE>
+<ID>scolomfr-voc-020-num-025</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de bureautique</INTITULE>
+<ID>scolomfr-voc-020-num-026</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">suite bureautique</INTITULE>
+<ID>scolomfr-voc-020-num-129</ID>
+</TERME_TE>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-057</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel organiseur d'idées</INTITULE>
+<ID>scolomfr-voc-020-num-057</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-037</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de messagerie</INTITULE>
+<ID>scolomfr-voc-020-num-037</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-040</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de présentation assistée par ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-040</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PréAO</INTITULE>
+<ID>scolomfr-voc-020-num-126</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de PréAO</INTITULE>
+<ID>scolomfr-voc-020-num-113</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-035</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de gestion de projet</INTITULE>
+<ID>scolomfr-voc-020-num-035</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-046</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement de tableaux et calculs</INTITULE>
+<ID>scolomfr-voc-020-num-046</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">tableur</INTITULE>
+<ID>scolomfr-voc-020-num-133</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-047</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement de texte</INTITULE>
+<ID>scolomfr-voc-020-num-047</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-136</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de publication assistée par ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-136</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de PAO</INTITULE>
+<ID>scolomfr-voc-020-num-039</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-032</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de fabrication assistée par ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-032</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de FAO</INTITULE>
+<ID>scolomfr-voc-020-num-112</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-045</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement de son</INTITULE>
+<ID>scolomfr-voc-020-num-045</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-067</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">moteur de recherche</INTITULE>
+<ID>scolomfr-voc-020-num-067</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-048</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement d'enquête</INTITULE>
+<ID>scolomfr-voc-020-num-048</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-031</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de développement d'application</INTITULE>
+<ID>scolomfr-voc-020-num-031</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-069</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">outil de mise en ligne</INTITULE>
+<ID>scolomfr-voc-020-num-069</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-070</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">outil de modélisation</INTITULE>
+<ID>scolomfr-voc-020-num-070</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de manipulation d'images et de vidéos</INTITULE>
+<ID>scolomfr-voc-020-num-036</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-033</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de géométrie dynamique</INTITULE>
+<ID>scolomfr-voc-020-num-033</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-024</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'animation</INTITULE>
+<ID>scolomfr-voc-020-num-024</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel d'animation 2D</INTITULE>
+<ID>scolomfr-voc-020-num-110</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel d'animation 3D</INTITULE>
+<ID>scolomfr-voc-020-num-111</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-054</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'image de synthèse</INTITULE>
+<ID>scolomfr-voc-020-num-054</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-030</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de dessin assisté par ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-030</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-038</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de montage vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-038</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-049</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement d'image fixe</INTITULE>
+<ID>scolomfr-voc-020-num-049</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-050</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-050</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-043</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de reconnaissance et de synthèse vocales</INTITULE>
+<ID>scolomfr-voc-020-num-043</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-143</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de reconnaissance vocale</INTITULE>
+<ID>scolomfr-voc-020-num-143</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">STT</INTITULE>
+<ID>scolomfr-voc-020-num-185</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">reconnaissance vocale</INTITULE>
+<ID>scolomfr-voc-020-num-182</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">speech-to-text</INTITULE>
+<ID>scolomfr-voc-020-num-184</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel speech-to-text</INTITULE>
+<ID>scolomfr-voc-020-num-060</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-144</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de synthèse vocale</INTITULE>
+<ID>scolomfr-voc-020-num-144</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TTS</INTITULE>
+<ID>scolomfr-voc-020-num-192</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">text-to-speech</INTITULE>
+<ID>scolomfr-voc-020-num-190</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">synthèse vocale</INTITULE>
+<ID>scolomfr-voc-020-num-186</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel text-to-speech</INTITULE>
+<ID>scolomfr-voc-020-num-062</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-071</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">outil d'encodage</INTITULE>
+<ID>scolomfr-voc-020-num-071</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-145</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de visualisation et de lecture de média</INTITULE>
+<ID>scolomfr-voc-020-num-145</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">player audio</INTITULE>
+<ID>scolomfr-voc-020-num-178</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">lecteur vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-168</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de lecture de vidéos</INTITULE>
+<ID>scolomfr-voc-020-num-171</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de lecture d'images</INTITULE>
+<ID>scolomfr-voc-020-num-173</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de lecture de sons</INTITULE>
+<ID>scolomfr-voc-020-num-170</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">player vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-179</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">lecteur audio</INTITULE>
+<ID>scolomfr-voc-020-num-167</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-076</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">système d'information géographique</INTITULE>
+<ID>scolomfr-voc-020-num-076</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">SIG (géographie)</INTITULE>
+<ID>scolomfr-voc-020-num-128</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-141</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de lecture de livre numérique</INTITULE>
+<ID>scolomfr-voc-020-num-141</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reading system</INTITULE>
+<ID>scolomfr-voc-020-num-181</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de lecture d'e-book</INTITULE>
+<ID>scolomfr-voc-020-num-172</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-147</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">À ne pas confondre avec un logiciel de traitement de texte qui relève de la bureautique.</NA>
+<TERME>
+<INTITULE lang="fr">logiciel éditeur de texte</INTITULE>
+<ID>scolomfr-voc-020-num-147</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">éditeur de texte</INTITULE>
+<ID>scolomfr-voc-020-num-160</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-142</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">Outil de développement informatique pour la programmation, c'est-à-dire la production de code informatique.</NA>
+<TERME>
+<INTITULE lang="fr">logiciel de programmation</INTITULE>
+<ID>scolomfr-voc-020-num-142</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">outil de codage</INTITULE>
+<ID>scolomfr-voc-020-num-177</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-061</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">À n'utiliser que pour les logiciels système. Pour les logiciels de programmation, sélectionner « logiciel de programmation ».</NA>
+<TERME>
+<INTITULE lang="fr">logiciel système</INTITULE>
+<ID>scolomfr-voc-020-num-148</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel système et de programmation</INTITULE>
+<ID>scolomfr-voc-020-num-061</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">Toute application pouvant présenter un intérêt pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">logiciel d'enseignement</INTITULE>
+<ID>scolomfr-voc-020-num-146</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel éducatif</INTITULE>
+<ID>scolomfr-voc-020-num-056</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">educational software</INTITULE>
+<ID>scolomfr-voc-020-num-161</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel pédagogique</INTITULE>
+<ID>scolomfr-voc-020-num-114</ID>
+</TERME_TE>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-137</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel reconnu d'intérêt pédagogique</INTITULE>
+<ID>scolomfr-voc-020-num-137</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel RIP</INTITULE>
+<ID>scolomfr-voc-020-num-059</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-058</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel ou application de lecture</INTITULE>
+<ID>scolomfr-voc-020-num-058</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-018</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">exerciseur</INTITULE>
+<ID>scolomfr-voc-020-num-018</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-052</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'édition et de gestion d'exercices</INTITULE>
+<ID>scolomfr-voc-020-num-052</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">outil auteur</INTITULE>
+<ID>scolomfr-voc-020-num-176</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">authoring tool</INTITULE>
+<ID>scolomfr-voc-020-num-153</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-028</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">Toute application permettant de communiquer par écrit et/ou par oral et/ou visuellement, de manière synchrone ou asynchrone, avec un ou plusieurs interlocuteurs.</NA>
+<TERME>
+<INTITULE lang="fr">logiciel de communication et d'échange</INTITULE>
+<ID>scolomfr-voc-020-num-028</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">réseaux sociaux</INTITULE>
+<ID>scolomfr-voc-020-num-183</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">messagerie</INTITULE>
+<ID>scolomfr-voc-020-num-175</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">vidéoconférence</INTITULE>
+<ID>scolomfr-voc-020-num-193</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de communication</INTITULE>
+<ID>scolomfr-voc-020-num-027</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">chat</INTITULE>
+<ID>scolomfr-voc-020-num-156</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciels</INTITULE>
+<ID>scolomfr-voc-020-num-022</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-075</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">système de gestion de base de données</INTITULE>
+<ID>scolomfr-voc-020-num-075</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">SGBD</INTITULE>
+<ID>scolomfr-voc-020-num-127</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-002</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">agrégateur de contenu</INTITULE>
+<ID>scolomfr-voc-020-num-002</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">agrégateur de fils RSS</INTITULE>
+<ID>scolomfr-voc-020-num-083</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">agrégateur de flux RSS</INTITULE>
+<ID>scolomfr-voc-020-num-084</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-003</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">aide technique</INTITULE>
+<ID>scolomfr-voc-020-num-003</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">outil de compensation du handicap</INTITULE>
+<ID>scolomfr-voc-020-num-121</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-029</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de création multimédia</INTITULE>
+<ID>scolomfr-voc-020-num-029</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-041</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de publication en ligne</INTITULE>
+<ID>scolomfr-voc-020-num-041</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-034</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de gestion de contenu</INTITULE>
+<ID>scolomfr-voc-020-num-034</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">wiki</INTITULE>
+<ID>scolomfr-voc-020-num-196</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">outil blogue</INTITULE>
+<ID>scolomfr-voc-020-num-120</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">CMS</INTITULE>
+<ID>scolomfr-voc-020-num-099</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-053</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'édition web</INTITULE>
+<ID>scolomfr-voc-020-num-053</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-051</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de travail collaboratif</INTITULE>
+<ID>scolomfr-voc-020-num-051</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-055</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel documentaire</INTITULE>
+<ID>scolomfr-voc-020-num-055</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de recherche documentaire</INTITULE>
+<ID>scolomfr-voc-020-num-042</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-007</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">cahier de textes numérique</INTITULE>
+<ID>scolomfr-voc-020-num-007</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">cahier de textes en ligne</INTITULE>
+<ID>scolomfr-voc-020-num-092</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-017</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">environnement numérique de travail</INTITULE>
+<ID>scolomfr-voc-020-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ENT</INTITULE>
+<ID>scolomfr-voc-020-num-101</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-020</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">learning management system</INTITULE>
+<ID>scolomfr-voc-020-num-020</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">environnement numérique d'apprentissage</INTITULE>
+<ID>scolomfr-voc-020-num-102</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">plate-forme d'apprentissage en ligne</INTITULE>
+<ID>scolomfr-voc-020-num-124</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">plate-forme e-learning</INTITULE>
+<ID>scolomfr-voc-020-num-125</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">e-learning management system</INTITULE>
+<ID>scolomfr-voc-020-num-162</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">LMS</INTITULE>
+<ID>scolomfr-voc-020-num-109</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-044</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de simulation</INTITULE>
+<ID>scolomfr-voc-020-num-044</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-023</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'aide à l'orientation</INTITULE>
+<ID>scolomfr-voc-020-num-023</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">LAO</INTITULE>
+<ID>scolomfr-voc-020-num-104</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-025</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'application</INTITULE>
+<ID>scolomfr-voc-020-num-025</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de bureautique</INTITULE>
+<ID>scolomfr-voc-020-num-026</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">suite bureautique</INTITULE>
+<ID>scolomfr-voc-020-num-129</ID>
+</TERME_TE>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-057</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel organiseur d'idées</INTITULE>
+<ID>scolomfr-voc-020-num-057</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-037</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de messagerie</INTITULE>
+<ID>scolomfr-voc-020-num-037</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-040</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de présentation assistée par ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-040</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PréAO</INTITULE>
+<ID>scolomfr-voc-020-num-126</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de PréAO</INTITULE>
+<ID>scolomfr-voc-020-num-113</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-035</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de gestion de projet</INTITULE>
+<ID>scolomfr-voc-020-num-035</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-046</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement de tableaux et calculs</INTITULE>
+<ID>scolomfr-voc-020-num-046</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">tableur</INTITULE>
+<ID>scolomfr-voc-020-num-133</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-047</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement de texte</INTITULE>
+<ID>scolomfr-voc-020-num-047</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-136</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de publication assistée par ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-136</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de PAO</INTITULE>
+<ID>scolomfr-voc-020-num-039</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-032</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de fabrication assistée par ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-032</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de FAO</INTITULE>
+<ID>scolomfr-voc-020-num-112</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-045</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement de son</INTITULE>
+<ID>scolomfr-voc-020-num-045</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-067</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">moteur de recherche</INTITULE>
+<ID>scolomfr-voc-020-num-067</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-048</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement d'enquête</INTITULE>
+<ID>scolomfr-voc-020-num-048</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-031</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de développement d'application</INTITULE>
+<ID>scolomfr-voc-020-num-031</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-069</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">outil de mise en ligne</INTITULE>
+<ID>scolomfr-voc-020-num-069</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-070</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">outil de modélisation</INTITULE>
+<ID>scolomfr-voc-020-num-070</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de manipulation d'images et de vidéos</INTITULE>
+<ID>scolomfr-voc-020-num-036</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-033</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de géométrie dynamique</INTITULE>
+<ID>scolomfr-voc-020-num-033</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-024</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'animation</INTITULE>
+<ID>scolomfr-voc-020-num-024</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel d'animation 2D</INTITULE>
+<ID>scolomfr-voc-020-num-110</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel d'animation 3D</INTITULE>
+<ID>scolomfr-voc-020-num-111</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-054</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'image de synthèse</INTITULE>
+<ID>scolomfr-voc-020-num-054</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-030</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de dessin assisté par ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-030</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-038</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de montage vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-038</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-049</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement d'image fixe</INTITULE>
+<ID>scolomfr-voc-020-num-049</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-050</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de traitement vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-050</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-043</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de reconnaissance et de synthèse vocales</INTITULE>
+<ID>scolomfr-voc-020-num-043</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-143</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de reconnaissance vocale</INTITULE>
+<ID>scolomfr-voc-020-num-143</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">STT</INTITULE>
+<ID>scolomfr-voc-020-num-185</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">reconnaissance vocale</INTITULE>
+<ID>scolomfr-voc-020-num-182</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">speech-to-text</INTITULE>
+<ID>scolomfr-voc-020-num-184</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel speech-to-text</INTITULE>
+<ID>scolomfr-voc-020-num-060</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-144</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de synthèse vocale</INTITULE>
+<ID>scolomfr-voc-020-num-144</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TTS</INTITULE>
+<ID>scolomfr-voc-020-num-192</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">text-to-speech</INTITULE>
+<ID>scolomfr-voc-020-num-190</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">synthèse vocale</INTITULE>
+<ID>scolomfr-voc-020-num-186</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel text-to-speech</INTITULE>
+<ID>scolomfr-voc-020-num-062</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-071</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">outil d'encodage</INTITULE>
+<ID>scolomfr-voc-020-num-071</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-145</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de visualisation et de lecture de média</INTITULE>
+<ID>scolomfr-voc-020-num-145</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">player audio</INTITULE>
+<ID>scolomfr-voc-020-num-178</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">lecteur vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-168</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de lecture de vidéos</INTITULE>
+<ID>scolomfr-voc-020-num-171</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de lecture d'images</INTITULE>
+<ID>scolomfr-voc-020-num-173</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de lecture de sons</INTITULE>
+<ID>scolomfr-voc-020-num-170</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">player vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-179</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">lecteur audio</INTITULE>
+<ID>scolomfr-voc-020-num-167</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-076</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">système d'information géographique</INTITULE>
+<ID>scolomfr-voc-020-num-076</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">SIG (géographie)</INTITULE>
+<ID>scolomfr-voc-020-num-128</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-141</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel de lecture de livre numérique</INTITULE>
+<ID>scolomfr-voc-020-num-141</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">reading system</INTITULE>
+<ID>scolomfr-voc-020-num-181</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de lecture d'e-book</INTITULE>
+<ID>scolomfr-voc-020-num-172</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-147</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">À ne pas confondre avec un logiciel de traitement de texte qui relève de la bureautique.</NA>
+<TERME>
+<INTITULE lang="fr">logiciel éditeur de texte</INTITULE>
+<ID>scolomfr-voc-020-num-147</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">éditeur de texte</INTITULE>
+<ID>scolomfr-voc-020-num-160</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-142</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">Outil de développement informatique pour la programmation, c'est-à-dire la production de code informatique.</NA>
+<TERME>
+<INTITULE lang="fr">logiciel de programmation</INTITULE>
+<ID>scolomfr-voc-020-num-142</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">outil de codage</INTITULE>
+<ID>scolomfr-voc-020-num-177</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-061</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">À n'utiliser que pour les logiciels système. Pour les logiciels de programmation, sélectionner « logiciel de programmation ».</NA>
+<TERME>
+<INTITULE lang="fr">logiciel système</INTITULE>
+<ID>scolomfr-voc-020-num-148</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel système et de programmation</INTITULE>
+<ID>scolomfr-voc-020-num-061</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">Toute application pouvant présenter un intérêt pédagogique.</NA>
+<TERME>
+<INTITULE lang="fr">logiciel d'enseignement</INTITULE>
+<ID>scolomfr-voc-020-num-146</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel éducatif</INTITULE>
+<ID>scolomfr-voc-020-num-056</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">educational software</INTITULE>
+<ID>scolomfr-voc-020-num-161</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel pédagogique</INTITULE>
+<ID>scolomfr-voc-020-num-114</ID>
+</TERME_TE>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-137</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel reconnu d'intérêt pédagogique</INTITULE>
+<ID>scolomfr-voc-020-num-137</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">logiciel RIP</INTITULE>
+<ID>scolomfr-voc-020-num-059</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-058</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel ou application de lecture</INTITULE>
+<ID>scolomfr-voc-020-num-058</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-018</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">exerciseur</INTITULE>
+<ID>scolomfr-voc-020-num-018</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-052</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">logiciel d'édition et de gestion d'exercices</INTITULE>
+<ID>scolomfr-voc-020-num-052</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">outil auteur</INTITULE>
+<ID>scolomfr-voc-020-num-176</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">authoring tool</INTITULE>
+<ID>scolomfr-voc-020-num-153</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-028</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">Toute application permettant de communiquer par écrit et/ou par oral et/ou visuellement, de manière synchrone ou asynchrone, avec un ou plusieurs interlocuteurs.</NA>
+<TERME>
+<INTITULE lang="fr">logiciel de communication et d'échange</INTITULE>
+<ID>scolomfr-voc-020-num-028</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">réseaux sociaux</INTITULE>
+<ID>scolomfr-voc-020-num-183</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">messagerie</INTITULE>
+<ID>scolomfr-voc-020-num-175</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">vidéoconférence</INTITULE>
+<ID>scolomfr-voc-020-num-193</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">logiciel de communication</INTITULE>
+<ID>scolomfr-voc-020-num-027</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">chat</INTITULE>
+<ID>scolomfr-voc-020-num-156</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">matériel</INTITULE>
+<ID>scolomfr-voc-020-num-064</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-010</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">casque audio</INTITULE>
+<ID>scolomfr-voc-020-num-010</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">écouteurs</INTITULE>
+<ID>scolomfr-voc-020-num-100</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">casque</INTITULE>
+<ID>scolomfr-voc-020-num-096</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-063</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">machine-outil à commande numérique</INTITULE>
+<ID>scolomfr-voc-020-num-063</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">machine à commande numérique</INTITULE>
+<ID>scolomfr-voc-020-num-115</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-072</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">rétroprojecteur</INTITULE>
+<ID>scolomfr-voc-020-num-072</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-078</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">tablette</INTITULE>
+<ID>scolomfr-voc-020-num-152</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">tablet PC</INTITULE>
+<ID>scolomfr-voc-020-num-130</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette graphique</INTITULE>
+<ID>scolomfr-voc-020-num-131</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette informatique</INTITULE>
+<ID>scolomfr-voc-020-num-132</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette tactile</INTITULE>
+<ID>scolomfr-voc-020-num-078</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette multimédia</INTITULE>
+<ID>scolomfr-voc-020-num-189</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-082</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">webcam</INTITULE>
+<ID>scolomfr-voc-020-num-082</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-004</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">appareil photographique</INTITULE>
+<ID>scolomfr-voc-020-num-004</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">appareil photo numérique</INTITULE>
+<ID>scolomfr-voc-020-num-085</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-008</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">calculatrice</INTITULE>
+<ID>scolomfr-voc-020-num-008</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-016</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">enceintes</INTITULE>
+<ID>scolomfr-voc-020-num-016</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-065</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">microphone</INTITULE>
+<ID>scolomfr-voc-020-num-065</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">micro</INTITULE>
+<ID>scolomfr-voc-020-num-116</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-066</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">microscope</INTITULE>
+<ID>scolomfr-voc-020-num-066</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">outil de microscopie</INTITULE>
+<ID>scolomfr-voc-020-num-122</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-015</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">écran tactile</INTITULE>
+<ID>scolomfr-voc-020-num-015</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-012</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">console de jeux</INTITULE>
+<ID>scolomfr-voc-020-num-012</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-021</ID>
+<DF lang="fr">Outil</DF>
+<NA lang="fr">Appareil portable doté d'un écran et destiné au stockage et à la lecture des livres numériques ou des périodiques. [Source : FranceTerme]</NA>
+<TERME>
+<INTITULE lang="fr">liseuse</INTITULE>
+<ID>scolomfr-voc-020-num-021</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">livre numérique</INTITULE>
+<ID>scolomfr-voc-020-num-108</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">livre électronique</INTITULE>
+<ID>scolomfr-voc-020-num-107</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">electronic reader</INTITULE>
+<ID>scolomfr-voc-020-num-164</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">reading device</INTITULE>
+<ID>scolomfr-voc-020-num-180</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tablette de lecture</INTITULE>
+<ID>scolomfr-voc-020-num-188</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">e-reader</INTITULE>
+<ID>scolomfr-voc-020-num-166</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">electronic book reader</INTITULE>
+<ID>scolomfr-voc-020-num-163</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">e-book reader</INTITULE>
+<ID>scolomfr-voc-020-num-159</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-068</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">ordinateur</INTITULE>
+<ID>scolomfr-voc-020-num-068</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ordinateur fixe</INTITULE>
+<ID>scolomfr-voc-020-num-118</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">ordinateur portable</INTITULE>
+<ID>scolomfr-voc-020-num-119</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-077</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">tableau blanc interactif</INTITULE>
+<ID>scolomfr-voc-020-num-077</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TBI</INTITULE>
+<ID>scolomfr-voc-020-num-134</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">VPI</INTITULE>
+<ID>scolomfr-voc-020-num-195</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">TNI</INTITULE>
+<ID>scolomfr-voc-020-num-191</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">vidéoprojecteur interactif</INTITULE>
+<ID>scolomfr-voc-020-num-194</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tableau numérique interactif</INTITULE>
+<ID>scolomfr-voc-020-num-187</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-079</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">téléphone</INTITULE>
+<ID>scolomfr-voc-020-num-079</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">téléphone portable</INTITULE>
+<ID>scolomfr-voc-020-num-135</ID>
+</TERME_TE>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-074</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">smartphone</INTITULE>
+<ID>scolomfr-voc-020-num-074</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-019</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">imprimante</INTITULE>
+<ID>scolomfr-voc-020-num-019</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-005</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">baladeur</INTITULE>
+<ID>scolomfr-voc-020-num-005</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">lecteur MP4</INTITULE>
+<ID>scolomfr-voc-020-num-106</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">baladeur MP4</INTITULE>
+<ID>scolomfr-voc-020-num-087</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">baladeur vidéo</INTITULE>
+<ID>scolomfr-voc-020-num-088</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">lecteur MP3</INTITULE>
+<ID>scolomfr-voc-020-num-105</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">baladeur MP3</INTITULE>
+<ID>scolomfr-voc-020-num-086</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-006</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">borne informatique</INTITULE>
+<ID>scolomfr-voc-020-num-006</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">borne de consultation</INTITULE>
+<ID>scolomfr-voc-020-num-089</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">borne de consultation Internet</INTITULE>
+<ID>scolomfr-voc-020-num-090</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">borne interactive</INTITULE>
+<ID>scolomfr-voc-020-num-091</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-009</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">caméra</INTITULE>
+<ID>scolomfr-voc-020-num-009</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">caméscope numérique</INTITULE>
+<ID>scolomfr-voc-020-num-095</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">caméra numérique</INTITULE>
+<ID>scolomfr-voc-020-num-093</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">caméscope</INTITULE>
+<ID>scolomfr-voc-020-num-094</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-011</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">classe mobile</INTITULE>
+<ID>scolomfr-voc-020-num-011</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">chariot multimédia</INTITULE>
+<ID>scolomfr-voc-020-num-097</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">classe mobile multimédia</INTITULE>
+<ID>scolomfr-voc-020-num-098</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-014</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">documentation technique</INTITULE>
+<ID>scolomfr-voc-020-num-014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">mode d'emploi</INTITULE>
+<ID>scolomfr-voc-020-num-117</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">guide</INTITULE>
+<ID>scolomfr-voc-020-num-103</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-073</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">scanner</INTITULE>
+<ID>scolomfr-voc-020-num-073</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-080</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">vidéoprojecteur</INTITULE>
+<ID>scolomfr-voc-020-num-080</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-081</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">visualiseur</INTITULE>
+<ID>scolomfr-voc-020-num-081</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-151</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">stockage externe</INTITULE>
+<ID>scolomfr-voc-020-num-151</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">carte SD</INTITULE>
+<ID>scolomfr-voc-020-num-155</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">carte mémoire</INTITULE>
+<ID>scolomfr-voc-020-num-154</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">clé USB</INTITULE>
+<ID>scolomfr-voc-020-num-157</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">disque dur externe</INTITULE>
+<ID>scolomfr-voc-020-num-158</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-138</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">EIM</INTITULE>
+<ID>scolomfr-voc-020-num-138</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">équipement individuel mobile</INTITULE>
+<ID>scolomfr-voc-020-num-165</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-149</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">robot programmable</INTITULE>
+<ID>scolomfr-voc-020-num-149</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-150</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">scanner 3D</INTITULE>
+<ID>scolomfr-voc-020-num-150</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-139</ID>
+<DF lang="fr">Outil</DF>
+<TERME>
+<INTITULE lang="fr">imprimante 3D</INTITULE>
+<ID>scolomfr-voc-020-num-139</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</NOMENCLATURE>

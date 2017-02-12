@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00763" name="scolomfr-voc-016 (Compétence)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00762" prefTerm="Compétences du socle commun (2015-)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00762</value>
+    <value>Compétences du socle commun (2015-)</value>
+    <value>scolomfr-voc-016-num-00762</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714" prefTerm="socle commun de connaissances, de compétences et de culture">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714</value>
+    <value>socle commun de connaissances, de compétences et de culture</value>
+    <value>scolomfr-voc-016-num-00714</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715" prefTerm="domaine 1 : les langages pour penser et communiquer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715</value>
+    <value>domaine 1 : les langages pour penser et communiquer</value>
+    <value>scolomfr-voc-016-num-00715</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00718" prefTerm="domaine 1.3 : comprendre, s'exprimer en utilisant les langages mathématiques, scientifiques et informatiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00718</value>
+    <value>domaine 1.3 : comprendre, s'exprimer en utilisant les langages mathématiques, scientifiques et informatiques</value>
+    <value>scolomfr-voc-016-num-00718</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00719" prefTerm="domaine 1.4 : comprendre, s'exprimer en utilisant les langages des arts et du corps">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00719</value>
+    <value>domaine 1.4 : comprendre, s'exprimer en utilisant les langages des arts et du corps</value>
+    <value>scolomfr-voc-016-num-00719</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00716" prefTerm="domaine 1.1 : comprendre, s'exprimer en utilisant la langue française à l'oral et à l'écrit">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00716</value>
+    <value>domaine 1.1 : comprendre, s'exprimer en utilisant la langue française à l'oral et à l'écrit</value>
+    <value>scolomfr-voc-016-num-00716</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00717" prefTerm="domaine 1.2 : comprendre, s'exprimer en utilisant une langue étrangère ou régionale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00717</value>
+    <value>domaine 1.2 : comprendre, s'exprimer en utilisant une langue étrangère ou régionale</value>
+    <value>scolomfr-voc-016-num-00717</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720" prefTerm="domaine 2 : les méthodes et outils pour apprendre">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720</value>
+    <value>domaine 2 : les méthodes et outils pour apprendre</value>
+    <value>scolomfr-voc-016-num-00720</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00721" prefTerm="domaine 2.1 : organisation du travail personnel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00721</value>
+    <value>domaine 2.1 : organisation du travail personnel</value>
+    <value>scolomfr-voc-016-num-00721</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00724" prefTerm="domaine 2.4 : outils numériques pour échanger et communiquer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00724</value>
+    <value>domaine 2.4 : outils numériques pour échanger et communiquer</value>
+    <value>scolomfr-voc-016-num-00724</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00722" prefTerm="domaine 2.2 : coopération et réalisation de projets">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00722</value>
+    <value>domaine 2.2 : coopération et réalisation de projets</value>
+    <value>scolomfr-voc-016-num-00722</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00723" prefTerm="domaine 2.3 : médias, démarches de recherche et de traitement de l'information">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00723</value>
+    <value>domaine 2.3 : médias, démarches de recherche et de traitement de l'information</value>
+    <value>scolomfr-voc-016-num-00723</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725" prefTerm="domaine 3 : la formation de la personne et du citoyen">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725</value>
+    <value>domaine 3 : la formation de la personne et du citoyen</value>
+    <value>scolomfr-voc-016-num-00725</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00727" prefTerm="domaine 3.2 : la règle et le droit">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00727</value>
+    <value>domaine 3.2 : la règle et le droit</value>
+    <value>scolomfr-voc-016-num-00727</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00728" prefTerm="domaine 3.3 : réflexion et discernement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00728</value>
+    <value>domaine 3.3 : réflexion et discernement</value>
+    <value>scolomfr-voc-016-num-00728</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00726" prefTerm="domaine 3.1 : expression de la sensibilité et des opinions, respect des autres">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00726</value>
+    <value>domaine 3.1 : expression de la sensibilité et des opinions, respect des autres</value>
+    <value>scolomfr-voc-016-num-00726</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00729" prefTerm="domaine 3.4 : responsabilité, sens de l'engagement et de l'initiative">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00729</value>
+    <value>domaine 3.4 : responsabilité, sens de l'engagement et de l'initiative</value>
+    <value>scolomfr-voc-016-num-00729</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730" prefTerm="domaine 4 : les systèmes naturels et les systèmes techniques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730</value>
+    <value>domaine 4 : les systèmes naturels et les systèmes techniques</value>
+    <value>scolomfr-voc-016-num-00730</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00731" prefTerm="domaine 4.1 : démarches scientifiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00731</value>
+    <value>domaine 4.1 : démarches scientifiques</value>
+    <value>scolomfr-voc-016-num-00731</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00732" prefTerm="domaine 4.2 : conception, création, réalisation d'objets et systèmes techniques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00732</value>
+    <value>domaine 4.2 : conception, création, réalisation d'objets et systèmes techniques</value>
+    <value>scolomfr-voc-016-num-00732</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00733" prefTerm="domaine 4.3 : responsabilités individuelles et collectives">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00733</value>
+    <value>domaine 4.3 : responsabilités individuelles et collectives</value>
+    <value>scolomfr-voc-016-num-00733</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734" prefTerm="domaine 5 : les représentations du monde et l'activité humaine">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734</value>
+    <value>domaine 5 : les représentations du monde et l'activité humaine</value>
+    <value>scolomfr-voc-016-num-00734</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00736" prefTerm="domaine 5.2 : organisation et représentations du monde">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00736</value>
+    <value>domaine 5.2 : organisation et représentations du monde</value>
+    <value>scolomfr-voc-016-num-00736</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00735" prefTerm="domaine 5.1 : l'espace et le temps">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00735</value>
+    <value>domaine 5.1 : l'espace et le temps</value>
+    <value>scolomfr-voc-016-num-00735</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00737" prefTerm="domaine 5.3 : invention, élaboration, production d'objets culturels">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00737</value>
+    <value>domaine 5.3 : invention, élaboration, production d'objets culturels</value>
+    <value>scolomfr-voc-016-num-00737</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-037" prefTerm="Compétence du socle commun (2008-2014)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-037</value>
+    <value>Compétence du socle commun (2008-2014)</value>
+    <value>scolomfr-voc-016-num-037</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001" prefTerm="compétence 1 - la maîtrise de la langue française">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001</value>
+    <value>compétence 1 - la maîtrise de la langue française</value>
+    <value>scolomfr-voc-016-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0011" prefTerm="lire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0011</value>
+    <value>lire</value>
+    <value>scolomfr-voc-016-num-0011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0013" prefTerm="s'exprimer à l'oral">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0013</value>
+    <value>s'exprimer à l'oral</value>
+    <value>scolomfr-voc-016-num-0013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0012" prefTerm="écrire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0012</value>
+    <value>écrire</value>
+    <value>scolomfr-voc-016-num-0012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0014" prefTerm="utiliser des outils">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0014</value>
+    <value>utiliser des outils</value>
+    <value>scolomfr-voc-016-num-0014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002" prefTerm="compétence 2 - la pratique d'une langue vivante étrangère (niveau a2)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002</value>
+    <value>compétence 2 - la pratique d'une langue vivante étrangère (niveau a2)</value>
+    <value>scolomfr-voc-016-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0023" prefTerm="parler en continu">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0023</value>
+    <value>parler en continu</value>
+    <value>scolomfr-voc-016-num-0023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0021" prefTerm="réagir et dialoguer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0021</value>
+    <value>réagir et dialoguer</value>
+    <value>scolomfr-voc-016-num-0021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0025" prefTerm="écrire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0025</value>
+    <value>écrire</value>
+    <value>scolomfr-voc-016-num-0025</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0024" prefTerm="lire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0024</value>
+    <value>lire</value>
+    <value>scolomfr-voc-016-num-0024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0022" prefTerm="écouter et comprendre">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0022</value>
+    <value>écouter et comprendre</value>
+    <value>scolomfr-voc-016-num-0022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003" prefTerm="compétence 3 - les principaux éléments de mathématiques et la culture scientifique et technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003</value>
+    <value>compétence 3 - les principaux éléments de mathématiques et la culture scientifique et technologique</value>
+    <value>scolomfr-voc-016-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0031" prefTerm="pratiquer une démarche scientifique et technologique, résoudre des problèmes">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0031</value>
+    <value>pratiquer une démarche scientifique et technologique, résoudre des problèmes</value>
+    <value>scolomfr-voc-016-num-0031</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0033" prefTerm="savoir utiliser des connaissances dans divers domaines scientifiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0033</value>
+    <value>savoir utiliser des connaissances dans divers domaines scientifiques</value>
+    <value>scolomfr-voc-016-num-0033</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0034" prefTerm="mobiliser ses connaissances pour comprendre des questions liées à l'environnement et au développement durable">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0034</value>
+    <value>mobiliser ses connaissances pour comprendre des questions liées à l'environnement et au développement durable</value>
+    <value>scolomfr-voc-016-num-0034</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0032" prefTerm="savoir utiliser des connaissances et des compétences mathématiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0032</value>
+    <value>savoir utiliser des connaissances et des compétences mathématiques</value>
+    <value>scolomfr-voc-016-num-0032</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004" prefTerm="compétence 4 - la maîtrise des techniques usuelles de l'information et de la communication (b2i)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004</value>
+    <value>compétence 4 - la maîtrise des techniques usuelles de l'information et de la communication (b2i)</value>
+    <value>scolomfr-voc-016-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0042" prefTerm="domaine 2 - adopter une attitude responsable">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0042</value>
+    <value>domaine 2 - adopter une attitude responsable</value>
+    <value>scolomfr-voc-016-num-0042</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0045" prefTerm="domaine 5 - communiquer, échanger">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0045</value>
+    <value>domaine 5 - communiquer, échanger</value>
+    <value>scolomfr-voc-016-num-0045</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0041" prefTerm="domaine 1 - s'approprier un environnement informatique de travail">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0041</value>
+    <value>domaine 1 - s'approprier un environnement informatique de travail</value>
+    <value>scolomfr-voc-016-num-0041</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0043" prefTerm="domaine 3 - créer, produire, traiter, exploiter des données">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0043</value>
+    <value>domaine 3 - créer, produire, traiter, exploiter des données</value>
+    <value>scolomfr-voc-016-num-0043</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0044" prefTerm="domaine 4 - s'informer, se documenter">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0044</value>
+    <value>domaine 4 - s'informer, se documenter</value>
+    <value>scolomfr-voc-016-num-0044</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005" prefTerm="compétence 5 - la culture humaniste">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005</value>
+    <value>compétence 5 - la culture humaniste</value>
+    <value>scolomfr-voc-016-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0055" prefTerm="lire et utiliser différents langages">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0055</value>
+    <value>lire et utiliser différents langages</value>
+    <value>scolomfr-voc-016-num-0055</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0051" prefTerm="avoir des repères géographiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0051</value>
+    <value>avoir des repères géographiques</value>
+    <value>scolomfr-voc-016-num-0051</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0053" prefTerm="avoir des repères littéraires">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0053</value>
+    <value>avoir des repères littéraires</value>
+    <value>scolomfr-voc-016-num-0053</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0054" prefTerm="avoir des repères en histoire des arts et pratiquer les arts">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0054</value>
+    <value>avoir des repères en histoire des arts et pratiquer les arts</value>
+    <value>scolomfr-voc-016-num-0054</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0052" prefTerm="avoir des repères historiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0052</value>
+    <value>avoir des repères historiques</value>
+    <value>scolomfr-voc-016-num-0052</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0056" prefTerm="avoir des outils pour comprendre l'unité et la complexité du monde">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0056</value>
+    <value>avoir des outils pour comprendre l'unité et la complexité du monde</value>
+    <value>scolomfr-voc-016-num-0056</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006" prefTerm="compétence 6 - les compétences sociales et civiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006</value>
+    <value>compétence 6 - les compétences sociales et civiques</value>
+    <value>scolomfr-voc-016-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0062" prefTerm="avoir un comportement responsable">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0062</value>
+    <value>avoir un comportement responsable</value>
+    <value>scolomfr-voc-016-num-0062</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0061" prefTerm="connaître les principes et fondements de la vie civique et sociale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0061</value>
+    <value>connaître les principes et fondements de la vie civique et sociale</value>
+    <value>scolomfr-voc-016-num-0061</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007" prefTerm="compétence 7 - l'autonomie et l'initiative">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007</value>
+    <value>compétence 7 - l'autonomie et l'initiative</value>
+    <value>scolomfr-voc-016-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0071" prefTerm="découvrir les métiers et les formations">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0071</value>
+    <value>découvrir les métiers et les formations</value>
+    <value>scolomfr-voc-016-num-0071</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00712" prefTerm="être capable de mobiliser ses ressources intellectuelles et physiques dans diverses situations">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00712</value>
+    <value>être capable de mobiliser ses ressources intellectuelles et physiques dans diverses situations</value>
+    <value>scolomfr-voc-016-num-00712</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00713" prefTerm="faire preuve d'initiative">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00713</value>
+    <value>faire preuve d'initiative</value>
+    <value>scolomfr-voc-016-num-00713</value>
+  </concept>
+</vocab>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-001</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">chaîne de caractères</INTITULE>
+<ID>scolomfr-voc-031-num-001</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-002</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">chaîne de langage</INTITULE>
+<ID>scolomfr-voc-031-num-002</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-005</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">date</INTITULE>
+<ID>scolomfr-voc-031-num-005</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-007</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">durée</INTITULE>
+<ID>scolomfr-voc-031-num-007</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-008</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">type de données structurées</INTITULE>
+<ID>scolomfr-voc-031-num-008</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-006</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">URI (Uniform Resource Identifier)</INTITULE>
+<ID>scolomfr-voc-031-num-006</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-003</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">vCard</INTITULE>
+<ID>scolomfr-voc-031-num-003</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-004</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">vocabulaire</INTITULE>
+<ID>scolomfr-voc-031-num-004</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-002</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">chaîne de langage</INTITULE>
+<ID>scolomfr-voc-031-num-002</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-001</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">chaîne de caractères</INTITULE>
+<ID>scolomfr-voc-031-num-001</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-003</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">vCard</INTITULE>
+<ID>scolomfr-voc-031-num-003</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-004</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">vocabulaire</INTITULE>
+<ID>scolomfr-voc-031-num-004</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-006</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">URI (Uniform Resource Identifier)</INTITULE>
+<ID>scolomfr-voc-031-num-006</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-008</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">type de données structurées</INTITULE>
+<ID>scolomfr-voc-031-num-008</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-007</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">durée</INTITULE>
+<ID>scolomfr-voc-031-num-007</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-005</ID>
+<DF lang="fr">Type de données</DF>
+<TERME>
+<INTITULE lang="fr">date</INTITULE>
+<ID>scolomfr-voc-031-num-005</ID>
+</TERME>
+</CONCEPT>
+</NOMENCLATURE>

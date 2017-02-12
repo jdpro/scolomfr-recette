@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-135" name="scolomfr-voc-005 (TypologieGénérale)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-002" prefTerm="archives">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-002</value>
+    <value>archives</value>
+    <value>scolomfr-voc-005-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003" prefTerm="article">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003</value>
+    <value>article</value>
+    <value>scolomfr-voc-005-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-004" prefTerm="atlas">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-004</value>
+    <value>atlas</value>
+    <value>scolomfr-voc-005-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-005" prefTerm="bande dessinée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-005</value>
+    <value>bande dessinée</value>
+    <value>scolomfr-voc-005-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006" prefTerm="banque de vidéos">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006</value>
+    <value>banque de vidéos</value>
+    <value>scolomfr-voc-005-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007" prefTerm="banque d'images">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007</value>
+    <value>banque d'images</value>
+    <value>scolomfr-voc-005-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001" prefTerm="annuaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001</value>
+    <value>annuaire</value>
+    <value>scolomfr-voc-005-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-008" prefTerm="base de données">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-008</value>
+    <value>base de données</value>
+    <value>scolomfr-voc-005-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-009" prefTerm="bibliographie / sitographie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-009</value>
+    <value>bibliographie / sitographie</value>
+    <value>scolomfr-voc-005-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010" prefTerm="biographie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010</value>
+    <value>biographie</value>
+    <value>scolomfr-voc-005-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011" prefTerm="carte">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011</value>
+    <value>carte</value>
+    <value>scolomfr-voc-005-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-012" prefTerm="carte heuristique et conceptuelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-012</value>
+    <value>carte heuristique et conceptuelle</value>
+    <value>scolomfr-voc-005-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-013" prefTerm="chronologie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-013</value>
+    <value>chronologie</value>
+    <value>scolomfr-voc-005-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014" prefTerm="collection de documents">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014</value>
+    <value>collection de documents</value>
+    <value>scolomfr-voc-005-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-015" prefTerm="compte rendu">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-015</value>
+    <value>compte rendu</value>
+    <value>scolomfr-voc-005-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-016" prefTerm="conférence">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-016</value>
+    <value>conférence</value>
+    <value>scolomfr-voc-005-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-017" prefTerm="diaporama">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-017</value>
+    <value>diaporama</value>
+    <value>scolomfr-voc-005-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-018" prefTerm="dossier documentaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-018</value>
+    <value>dossier documentaire</value>
+    <value>scolomfr-voc-005-num-018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-019" prefTerm="dossier technique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-019</value>
+    <value>dossier technique</value>
+    <value>scolomfr-voc-005-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-020" prefTerm="exposition">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-020</value>
+    <value>exposition</value>
+    <value>scolomfr-voc-005-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-021" prefTerm="feuille de calcul">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-021</value>
+    <value>feuille de calcul</value>
+    <value>scolomfr-voc-005-num-021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-022" prefTerm="film">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-022</value>
+    <value>film</value>
+    <value>scolomfr-voc-005-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-023" prefTerm="image numérique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-023</value>
+    <value>image numérique</value>
+    <value>scolomfr-voc-005-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-024" prefTerm="livre numérique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-024</value>
+    <value>livre numérique</value>
+    <value>scolomfr-voc-005-num-024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-025" prefTerm="maquette / prototype">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-025</value>
+    <value>maquette / prototype</value>
+    <value>scolomfr-voc-005-num-025</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-026" prefTerm="norme">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-026</value>
+    <value>norme</value>
+    <value>scolomfr-voc-005-num-026</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-027" prefTerm="objet physique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-027</value>
+    <value>objet physique</value>
+    <value>scolomfr-voc-005-num-027</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-028" prefTerm="objet 3D">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-028</value>
+    <value>objet 3D</value>
+    <value>scolomfr-voc-005-num-028</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-029" prefTerm="ouvrage">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-029</value>
+    <value>ouvrage</value>
+    <value>scolomfr-voc-005-num-029</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-030" prefTerm="partition musicale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-030</value>
+    <value>partition musicale</value>
+    <value>scolomfr-voc-005-num-030</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-031" prefTerm="périodique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-031</value>
+    <value>périodique</value>
+    <value>scolomfr-voc-005-num-031</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-032" prefTerm="photographie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-032</value>
+    <value>photographie</value>
+    <value>scolomfr-voc-005-num-032</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-033" prefTerm="podcast">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-033</value>
+    <value>podcast</value>
+    <value>scolomfr-voc-005-num-033</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-034" prefTerm="présentation multimédia">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-034</value>
+    <value>présentation multimédia</value>
+    <value>scolomfr-voc-005-num-034</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-035" prefTerm="programme scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-035</value>
+    <value>programme scolaire</value>
+    <value>scolomfr-voc-005-num-035</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-036" prefTerm="rapport">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-036</value>
+    <value>rapport</value>
+    <value>scolomfr-voc-005-num-036</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-037" prefTerm="référentiel de compétences">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-037</value>
+    <value>référentiel de compétences</value>
+    <value>scolomfr-voc-005-num-037</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-038" prefTerm="schéma / graphique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-038</value>
+    <value>schéma / graphique</value>
+    <value>scolomfr-voc-005-num-038</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-039" prefTerm="site Web">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-039</value>
+    <value>site Web</value>
+    <value>scolomfr-voc-005-num-039</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-040" prefTerm="tableau (art)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-040</value>
+    <value>tableau (art)</value>
+    <value>scolomfr-voc-005-num-040</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-041" prefTerm="web média">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-041</value>
+    <value>web média</value>
+    <value>scolomfr-voc-005-num-041</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-050" prefTerm="catalogue">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-050</value>
+    <value>catalogue</value>
+    <value>scolomfr-voc-005-num-050</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051" prefTerm="banque de sons">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051</value>
+    <value>banque de sons</value>
+    <value>scolomfr-voc-005-num-053</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048" prefTerm="anthologie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048</value>
+    <value>anthologie</value>
+    <value>scolomfr-voc-005-num-048</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-042" prefTerm="chanson">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-042</value>
+    <value>chanson</value>
+    <value>scolomfr-voc-005-num-042</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-043" prefTerm="conte">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-043</value>
+    <value>conte</value>
+    <value>scolomfr-voc-005-num-043</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-044" prefTerm="image interactive">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-044</value>
+    <value>image interactive</value>
+    <value>scolomfr-voc-005-num-044</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-045" prefTerm="image, animation 3D">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-045</value>
+    <value>image, animation 3D</value>
+    <value>scolomfr-voc-005-num-045</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-046" prefTerm="nouvelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-046</value>
+    <value>nouvelle</value>
+    <value>scolomfr-voc-005-num-046</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-047" prefTerm="œuvre picturale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-047</value>
+    <value>œuvre picturale</value>
+    <value>scolomfr-voc-005-num-047</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-058" prefTerm="pièce de théâtre">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-058</value>
+    <value>pièce de théâtre</value>
+    <value>scolomfr-voc-005-num-058</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049" prefTerm="poème">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049</value>
+    <value>poème</value>
+    <value>scolomfr-voc-005-num-049</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-059" prefTerm="publicité">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-059</value>
+    <value>publicité</value>
+    <value>scolomfr-voc-005-num-059</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060" prefTerm="recueil de contes">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060</value>
+    <value>recueil de contes</value>
+    <value>scolomfr-voc-005-num-060</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061" prefTerm="recueil de nouvelles">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061</value>
+    <value>recueil de nouvelles</value>
+    <value>scolomfr-voc-005-num-061</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-062" prefTerm="roman">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-062</value>
+    <value>roman</value>
+    <value>scolomfr-voc-005-num-062</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-063" prefTerm="saynète">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-063</value>
+    <value>saynète</value>
+    <value>scolomfr-voc-005-num-063</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-055" prefTerm="traitement de données">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-055</value>
+    <value>traitement de données</value>
+    <value>scolomfr-voc-005-num-055</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-056" prefTerm="vidéo interactive">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-056</value>
+    <value>vidéo interactive</value>
+    <value>scolomfr-voc-005-num-056</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-136" prefTerm="application">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-136</value>
+    <value>application</value>
+    <value>scolomfr-voc-005-num-136</value>
+  </concept>
+</vocab>

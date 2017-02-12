@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-001</ID>
+      <DF lang="fr">Type de données à caractère personnel</DF>
+      <NA lang="fr">Aucune transmission de donnée utilisateur ; pas un traitement de données à caractère personnel au sens de la loi Informatique et Libertés ; pas d'identification chez le fournisseur de service ; aucun profilage.</NA>
+      <ORDRE>001-personnalisation nulle</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnalisation nulle : la seule donnée envoyée attachée à l'utilisateur est le code établissement</INTITULE>
+         <ID>scolomfr-voc-044-num-001</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-002</ID>
+      <DF lang="fr">Type de données à caractère personnel</DF>
+      <NA lang="fr">Les données transférées ne peuvent en aucun cas permettre d'identifier l'utilisateur ; pas un traitement de données à caractère personnel au sens de la loi Informatique et Libertés ; pas d'identification chez le fournisseur de service ; profilage faible. L'utilisateur n'est identifiable par aucun acteur de la chaîne de mise à disposition de la ressource.</NA>
+      <ORDRE>002-personnalisation faible</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnalisation faible : les données transférées ne peuvent en aucun cas permettre d'identifier l'utilisateur</INTITULE>
+         <ID>scolomfr-voc-044-num-002</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-003</ID>
+      <DF lang="fr">Type de données à caractère personnel</DF>
+      <NA lang="fr">Les données transférées ne permettent pas d'identifier directement l'utilisateur ; traitement de données à caractère personnel au sens de la loi Informatique et Libertés ; pas d'identification chez le fournisseur de service ; profilage possible. Les données transférées permettent l'identification de l'utilisateur via un tiers de confiance mais ne comportent pas d'élément de son état civil ou de sa vie privée.</NA>
+      <ORDRE>003-personnalisation moyenne</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnalisation moyenne : les données transférées ne permettent pas d'identifier directement l'utilisateur</INTITULE>
+         <ID>scolomfr-voc-044-num-003</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-004</ID>
+      <DF lang="fr">Type de données à caractère personnel</DF>
+      <NA lang="fr">Les données transférées permettent d'identifier directement l'individu et/ou comportent des éléments de son état civil ou de sa vie privée ; traitement de DCP au sens de la loi Informatique et Libertés ; identification possible chez le SP ; profilage possible sur les éléments d'état civil et/ou de vie privée.</NA>
+      <ORDRE>004-personnalisation forte</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnalisation forte : les données transférées permettent d'identifier directement l'individu et/ou comportent des éléments de son état civil ou de sa vie privée</INTITULE>
+         <ID>scolomfr-voc-044-num-004</ID>
+      </TERME>
+   </CONCEPT>
+</NOMENCLATURE>

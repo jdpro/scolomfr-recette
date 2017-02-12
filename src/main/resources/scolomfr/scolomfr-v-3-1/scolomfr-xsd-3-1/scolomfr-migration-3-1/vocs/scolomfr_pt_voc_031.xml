@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-009" name="scolomfr-voc-031 (TypeDonnées)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-001" prefTerm="chaîne de caractères">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-001</value>
+    <value>chaîne de caractères</value>
+    <value>scolomfr-voc-031-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-002" prefTerm="chaîne de langage">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-002</value>
+    <value>chaîne de langage</value>
+    <value>scolomfr-voc-031-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-005" prefTerm="date">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-005</value>
+    <value>date</value>
+    <value>scolomfr-voc-031-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-007" prefTerm="durée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-007</value>
+    <value>durée</value>
+    <value>scolomfr-voc-031-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-008" prefTerm="type de données structurées">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-008</value>
+    <value>type de données structurées</value>
+    <value>scolomfr-voc-031-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-006" prefTerm="URI (Uniform Resource Identifier)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-006</value>
+    <value>URI (Uniform Resource Identifier)</value>
+    <value>scolomfr-voc-031-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-003" prefTerm="vCard">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-003</value>
+    <value>vCard</value>
+    <value>scolomfr-voc-031-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-004" prefTerm="vocabulaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-031-num-004</value>
+    <value>vocabulaire</value>
+    <value>scolomfr-voc-031-num-004</value>
+  </concept>
+</vocab>

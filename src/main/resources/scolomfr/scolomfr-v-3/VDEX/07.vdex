@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:adms="http://www.w3.org/ns/adms" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cvb="http://www.w3.org/ns/adms/BasicComponents" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cva="http://www.w3.org/ns/adms/AggregateComponents" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0     http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd    http://www.w3.org/ns/adms    http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/docs_utiles/ADMS_XML_Schema_v1.01/xsd/corevoc/CoreVocs-ADMS-v1.01.xsd" orderSignificant="true">
+<vocabName>
+<langstring language="fr">scolomfr-voc-007 (Structure)</langstring>
+</vocabName>
+<vocabIdentifier>http://voc.cndp.fr/onto#Sco07</vocabIdentifier>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/atomic</termIdentifier>
+<caption>
+<langstring language="fr">atomique</langstring>
+</caption>
+<description>
+<langstring language="fr">Une ressource indivisible dans ce contexte d'utilisation. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>atomic</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/collection_2</termIdentifier>
+<caption>
+<langstring language="fr">collection</langstring>
+</caption>
+<description>
+<langstring language="fr">Un ensemble de ressources, sans relations définies entre elles. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>collection</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/networked</termIdentifier>
+<caption>
+<langstring language="fr">en réseau</langstring>
+</caption>
+<description>
+<langstring language="fr">Un ensemble de ressources en relation les unes avec les autres. La nature de la (des) relation(s) n'est pas définie. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>networked</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/hierarchical</termIdentifier>
+<caption>
+<langstring language="fr">hiérarchique</langstring>
+</caption>
+<description>
+<langstring language="fr">Un ensemble de ressources dont les relations peuvent être représentées par une structure arborescente. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>hierarchical</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/linear</termIdentifier>
+<caption>
+<langstring language="fr">linéaire</langstring>
+</caption>
+<description>
+<langstring language="fr">Un ensemble de ressources parfaitement ordonnées. Exemple : un ensemble de ressources associées par des relations "précédent" et "suivant". Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>linear</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/atomic</sourceTerm>
+<targetTerm>atomic</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>atomic</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/atomic</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/atomic</sourceTerm>
+<targetTerm>atomic</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/collection_2</sourceTerm>
+<targetTerm>collection</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>collection</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/collection_2</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/collection_2</sourceTerm>
+<targetTerm>collection</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/networked</sourceTerm>
+<targetTerm>networked</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>networked</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/networked</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/networked</sourceTerm>
+<targetTerm>networked</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/hierarchical</sourceTerm>
+<targetTerm>hierarchical</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>hierarchical</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/hierarchical</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/hierarchical</sourceTerm>
+<targetTerm>hierarchical</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/linear</sourceTerm>
+<targetTerm>linear</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>linear</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/linear</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/linear</sourceTerm>
+<targetTerm>linear</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:Version>2.0</cvb:Version>
+<cvb:VersionNotes languageID="fr">Introduction des URI de concepts pour l'indexation et dépreciation des anciens identifiants.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:MainDocumentation>
+<cbc:URI>http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/docs_utiles/Structure_des_fichiers_VDEX_3.pdf</cbc:URI>
+<cbc:Title>Strucutre des fichiers VDEX</cbc:Title>
+</cva:MainDocumentation>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</vdex>

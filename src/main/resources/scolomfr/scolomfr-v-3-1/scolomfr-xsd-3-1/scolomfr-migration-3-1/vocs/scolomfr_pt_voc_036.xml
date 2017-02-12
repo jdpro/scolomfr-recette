@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-001" name="scolomfr-voc-036 (ConcoursEducationNationale)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-002" prefTerm="concours de l'agrégation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-002</value>
+    <value>concours de l'agrégation</value>
+    <value>scolomfr-voc-036-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-007" prefTerm="concours du CAPEPS">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-007</value>
+    <value>concours du CAPEPS</value>
+    <value>scolomfr-voc-036-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-011" prefTerm="concours de COP">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-011</value>
+    <value>concours de COP</value>
+    <value>scolomfr-voc-036-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-010" prefTerm="concours de CPE">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-010</value>
+    <value>concours de CPE</value>
+    <value>scolomfr-voc-036-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-006" prefTerm="concours du CAER-CAPES">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-006</value>
+    <value>concours du CAER-CAPES</value>
+    <value>scolomfr-voc-036-num-018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-004" prefTerm="concours du CAERPA">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-004</value>
+    <value>concours du CAERPA</value>
+    <value>scolomfr-voc-036-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-005" prefTerm="concours du CAFEP-CAPES">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-005</value>
+    <value>concours du CAFEP-CAPES</value>
+    <value>scolomfr-voc-036-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-008" prefTerm="concours du CAPLP">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-008</value>
+    <value>concours du CAPLP</value>
+    <value>scolomfr-voc-036-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-009" prefTerm="concours du CRPE">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-009</value>
+    <value>concours du CRPE</value>
+    <value>scolomfr-voc-036-num-021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-003" prefTerm="concours du CAPES">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-003</value>
+    <value>concours du CAPES</value>
+    <value>scolomfr-voc-036-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-012" prefTerm="concours du CAPET">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-012</value>
+    <value>concours du CAPET</value>
+    <value>scolomfr-voc-036-num-024</value>
+  </concept>
+</vocab>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-011-num-005" name="scolomfr-voc-011 (PublicCible)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/learner" prefTerm="apprenant">
+    <value>http://data.education.fr/voc/scolomfr/concept/learner</value>
+    <value>apprenant</value>
+    <value>learner</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/author_2" prefTerm="auteur">
+    <value>http://data.education.fr/voc/scolomfr/concept/author_2</value>
+    <value>auteur</value>
+    <value>author</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/teacher" prefTerm="enseignant">
+    <value>http://data.education.fr/voc/scolomfr/concept/teacher</value>
+    <value>enseignant</value>
+    <value>teacher</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/manager" prefTerm="gestionnaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/manager</value>
+    <value>gestionnaire</value>
+    <value>manager</value>
+  </concept>
+</vocab>

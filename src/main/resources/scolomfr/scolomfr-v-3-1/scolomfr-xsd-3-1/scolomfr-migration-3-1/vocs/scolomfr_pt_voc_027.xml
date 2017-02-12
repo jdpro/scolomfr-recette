@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-027-num-003" name="scolomfr-voc-027 (DroitAuteur)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/no_2" prefTerm="non">
+    <value>http://data.education.fr/voc/scolomfr/concept/no_2</value>
+    <value>non</value>
+    <value>no</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/yes_2" prefTerm="oui">
+    <value>http://data.education.fr/voc/scolomfr/concept/yes_2</value>
+    <value>oui</value>
+    <value>yes</value>
+  </concept>
+</vocab>

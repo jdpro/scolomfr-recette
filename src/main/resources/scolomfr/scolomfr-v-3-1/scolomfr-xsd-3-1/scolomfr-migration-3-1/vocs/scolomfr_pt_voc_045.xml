@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-006" name="scolomfr-voc-045 (Label)">
+  <concept id="http://www.edutheque.fr" prefTerm="Éduthèque">
+    <value>http://www.edutheque.fr</value>
+    <value>Éduthèque</value>
+    <value>scolomfr-voc-045-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-019" prefTerm="RIP 2015">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-019</value>
+    <value>RIP 2015</value>
+    <value>scolomfr-voc-045-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-020" prefTerm="RIP 2016">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-020</value>
+    <value>RIP 2016</value>
+    <value>scolomfr-voc-045-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/gar" prefTerm="GAR">
+    <value>http://data.education.fr/gar</value>
+    <value>GAR</value>
+    <value>scolomfr-voc-045-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-007" prefTerm="avec le soutien du Ministère de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-007</value>
+    <value>avec le soutien du Ministère de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche</value>
+    <value>scolomfr-voc-045-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-008" prefTerm="RIP 2005">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-008</value>
+    <value>RIP 2005</value>
+    <value>scolomfr-voc-045-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-009" prefTerm="RIP 2006">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-009</value>
+    <value>RIP 2006</value>
+    <value>scolomfr-voc-045-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-010" prefTerm="RIP 2007">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-010</value>
+    <value>RIP 2007</value>
+    <value>scolomfr-voc-045-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-011" prefTerm="RIP 2008">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-011</value>
+    <value>RIP 2008</value>
+    <value>scolomfr-voc-045-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-012" prefTerm="RIP 2009">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-012</value>
+    <value>RIP 2009</value>
+    <value>scolomfr-voc-045-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-014" prefTerm="RIP 2010">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-014</value>
+    <value>RIP 2010</value>
+    <value>scolomfr-voc-045-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-015" prefTerm="RIP 2011">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-015</value>
+    <value>RIP 2011</value>
+    <value>scolomfr-voc-045-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-016" prefTerm="RIP 2012">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-016</value>
+    <value>RIP 2012</value>
+    <value>scolomfr-voc-045-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-017" prefTerm="RIP 2013">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-017</value>
+    <value>RIP 2013</value>
+    <value>scolomfr-voc-045-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-018" prefTerm="RIP 2014">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-018</value>
+    <value>RIP 2014</value>
+    <value>scolomfr-voc-045-num-018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-036" prefTerm="Myriae">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-036</value>
+    <value>Myriae</value>
+    <value>scolomfr-voc-045-num-036</value>
+  </concept>
+</vocab>

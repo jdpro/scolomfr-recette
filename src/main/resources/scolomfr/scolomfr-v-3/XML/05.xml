@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-002</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de documents d'archives, documents historiques, montages d'archives, quels que soient leur date, leur forme et leur support matériel (imprimé, audiovisuel, sonore ou électronique).</NA>
+<ORDRE>003-archives (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">archives</INTITULE>
+<ID>scolomfr-voc-005-num-002</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">document historique</INTITULE>
+<ID>scolomfr-voc-005-num-0021</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Texte indépendant constituant une partie d'une publication périodique, d'un blog, d'un dictionnaire, d'une encyclopédie" (Source : Vocabulaire de la documentation, ADBS, 2004).</NA>
+<ORDRE>004-article (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">article</INTITULE>
+<ID>scolomfr-voc-005-num-003</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-004</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Recueil ordonné de cartes conçu pour représenter un espace donné et/ou exposer un ou plusieurs thèmes." (Source : Vocabulaire de la documentation, ADBS, 2004).</NA>
+<ORDRE>005-atlas (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">atlas</INTITULE>
+<ID>scolomfr-voc-005-num-004</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-005</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Succession de dessins organisés en séquences, qui suggère le déroulement d'une histoire, les caricatures, les dessins de presse et également les recueils de dessins humoristiques.</NA>
+<ORDRE>006-bande dessinée (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">bande dessinée</INTITULE>
+<ID>scolomfr-voc-005-num-005</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">caricature</INTITULE>
+<ID>scolomfr-voc-005-num-0051</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Base de données contenant spécifiquement des vidéos.</NA>
+<ORDRE>009-banque de vidéos (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">banque de vidéos</INTITULE>
+<ID>scolomfr-voc-005-num-006</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">fonds vidéo</INTITULE>
+<ID>scolomfr-voc-005-num-0061</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Base de données contenant spécifiquement des images (dessins, photos, illustrations).</NA>
+<ORDRE>007-banque d'images (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">banque d'images</INTITULE>
+<ID>scolomfr-voc-005-num-007</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">fonds photographique</INTITULE>
+<ID>scolomfr-voc-005-num-0071</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Ensemble d'adresses (d'une personne, d'un organisme, d'une source d'information, d'un site Web,...) pouvant être complétées par d'autres informations associées (chiffre d'affaire d'un organisme, rôle et fonction d'une personne, nom du dirigeant d'un organisme,...). Sous une forme papier, il peut paraître annuellement." (Source : Vocabulaire de la documentation, ADBS, 2004) Exemple : annuaire des établissements scolaires, annuaires de sites web disciplinaires...</NA>
+<ORDRE>001-annuaire (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">annuaire</INTITULE>
+<ID>scolomfr-voc-005-num-001</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">répertoire</INTITULE>
+<ID>scolomfr-voc-005-num-0011</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-008</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de données organisées et structurées de façon homogène.&#13;
+Ne pas confondre avec le logiciel servant à construire des bases de données.</NA>
+<ORDRE>010-base de données (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">base de données</INTITULE>
+<ID>scolomfr-voc-005-num-008</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">collection de données</INTITULE>
+<ID>scolomfr-voc-005-num-0001</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">jeu de données</INTITULE>
+<ID>scolomfr-voc-005-num-0002</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-009</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Liste de description de documents bibliographiques ou de sites, organisés selon certains critères pour en permettre le repérage.</NA>
+<ORDRE>011-bibliographie / sitographie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">bibliographie / sitographie</INTITULE>
+<ID>scolomfr-voc-005-num-009</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">collection de références</INTITULE>
+<ID>scolomfr-voc-005-num-0092</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">bibliographie</INTITULE>
+<ID>scolomfr-voc-005-num-0091</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">sitographie</INTITULE>
+<ID>scolomfr-voc-005-num-0093</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Écrit portant sur la vie d'une personne.</NA>
+<ORDRE>012-biographie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">biographie</INTITULE>
+<ID>scolomfr-voc-005-num-010</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">autobiographie</INTITULE>
+<ID>scolomfr-voc-005-num-0101</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>013-carte (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">carte</INTITULE>
+<ID>scolomfr-voc-005-num-011</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">carte géographique</INTITULE>
+<ID>scolomfr-voc-005-num-0111</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-012</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Représentation graphique d'idées, de concepts ou d'informations...</NA>
+<ORDRE>014-carte heuristique et conceptuelle (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">carte heuristique et conceptuelle</INTITULE>
+<ID>scolomfr-voc-005-num-012</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">carte conceptuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0121</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">carte mentale</INTITULE>
+<ID>scolomfr-voc-005-num-0122</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-013</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de faits présentés dans un ordre croissant. Exemple : la chronologie des rois de France.</NA>
+<ORDRE>017-chronologie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">chronologie</INTITULE>
+<ID>scolomfr-voc-005-num-013</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Une banque de documents, un dossier regroupant des documents, un entrepôt de documents sont des collections de documents regroupés à des fins et selon des caractéristiques différentes.</NA>
+<ORDRE>018-collection de documents (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">collection de documents</INTITULE>
+<ID>scolomfr-voc-005-num-014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">banque de documents</INTITULE>
+<ID>scolomfr-voc-005-num-0141</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">2 - Leçon</INTITULE>
+<ID>scolomfr-voc-008-voc-06</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-015</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Compte rendu de réunion, de visite...</NA>
+<ORDRE>019-compte rendu (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">compte rendu</INTITULE>
+<ID>scolomfr-voc-005-num-015</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">synthèse</INTITULE>
+<ID>scolomfr-voc-005-num-0152</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">résumé</INTITULE>
+<ID>scolomfr-voc-005-num-0151</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-016</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Y compris les enregistrements sonore et/ou audiovisuel d'une conférence.</NA>
+<ORDRE>020-conférence (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">conférence</INTITULE>
+<ID>scolomfr-voc-005-num-016</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">actes de conférence</INTITULE>
+<ID>scolomfr-voc-005-num-0161</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">communication de conférence</INTITULE>
+<ID>scolomfr-voc-005-num-0162</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">enregistrement audiovisuel d'une conférence</INTITULE>
+<ID>scolomfr-voc-005-num-0163</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">enregistrement sonore d'une conférence</INTITULE>
+<ID>scolomfr-voc-005-num-0164</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-017</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Un diaporama est un spectacle de projection de diapositives ; par extension on entend par ce terme toute suite d'images ou de documents reliés par des effets et sur lesquels il est possible de mettre du son" (Source : Wikipédia).</NA>
+<ORDRE>022-diaporama (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">diaporama</INTITULE>
+<ID>scolomfr-voc-005-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">montage sonorisé</INTITULE>
+<ID>scolomfr-voc-005-num-0171</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-018</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Produit documentaire constitué d'un ensemble de documents de sources diverses, choisis et réunis sur une question donnée, et organisé de façon à faciliter l'accès à l'information rassemblée.</NA>
+<ORDRE>023-dossier documentaire (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">dossier documentaire</INTITULE>
+<ID>scolomfr-voc-005-num-018</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">revue de presse</INTITULE>
+<ID>scolomfr-voc-005-num-0181</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-019</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Désigne un ensemble de documents contenant des informations techniques (tels que des nomenclatures, des schémas, des plans, etc.).</NA>
+<ORDRE>024-dossier technique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">dossier technique</INTITULE>
+<ID>scolomfr-voc-005-num-019</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">dossier administratif</INTITULE>
+<ID>scolomfr-voc-005-num-0192</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dossier artistique</INTITULE>
+<ID>scolomfr-voc-005-num-0191</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-020</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de documents sélectionnés selon une thématique précise pour être montrée au public.</NA>
+<ORDRE>025-exposition (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">exposition</INTITULE>
+<ID>scolomfr-voc-005-num-020</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">exposition virtuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0201</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-021</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Document principal utilisé dans un tableur pour gérer et stocker des données. Une feuille de calcul est composée de cellules organisées en lignes et en colonnes. Certaines données sont issues de calcul.</NA>
+<ORDRE>026-feuille de calcul (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">feuille de calcul</INTITULE>
+<ID>scolomfr-voc-005-num-021</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-022</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>027-film (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">film</INTITULE>
+<ID>scolomfr-voc-005-num-022</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">court-métrage</INTITULE>
+<ID>scolomfr-voc-005-num-0225</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">téléfilm</INTITULE>
+<ID>scolomfr-voc-005-num-0224</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">film d'animation</INTITULE>
+<ID>scolomfr-voc-005-num-0221</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">film documentaire</INTITULE>
+<ID>scolomfr-voc-005-num-0222</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">long-métrage</INTITULE>
+<ID>scolomfr-voc-005-num-0223</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-023</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Toute image (dessin, icône, photographie...) acquise, créée, traitée ou stockée sous forme binaire.</NA>
+<ORDRE>029-image numérique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">image numérique</INTITULE>
+<ID>scolomfr-voc-005-num-023</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">image satellitaire</INTITULE>
+<ID>scolomfr-voc-005-num-0233</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">image scientifique</INTITULE>
+<ID>scolomfr-voc-005-num-0234</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">image de synthèse</INTITULE>
+<ID>scolomfr-voc-005-num-0231</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">image de télédétection</INTITULE>
+<ID>scolomfr-voc-005-num-0232</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-024</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>031-livre numérique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">livre numérique</INTITULE>
+<ID>scolomfr-voc-005-num-024</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">e-book</INTITULE>
+<ID>scolomfr-voc-005-num-0263</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-025</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Reproduction en grandeur naturelle (prototype) ou à l'échelle réduite (maquette) d'une machine, d'un processus, d'un bâtiment...</NA>
+<ORDRE>032-maquette / prototype (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">maquette / prototype</INTITULE>
+<ID>scolomfr-voc-005-num-025</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">prototype</INTITULE>
+<ID>scolomfr-voc-005-num-0252</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">maquette</INTITULE>
+<ID>scolomfr-voc-005-num-0251</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-026</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Document, établi par consensus et approuvé par un organisme reconnu, qui fournit, pour des usages communs et répétés, des règles, des lignes directrices ou des caractéristiques, pour des activités ou leurs résultats, garantissant un niveau d'ordre optimal dans un contexte donné." (définition de l'ISO/CEI).
+Utilisé non seulement pour des documents de normes élaborés par des organismes officiels, mais également pour des standards.</NA>
+<ORDRE>033-norme (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">norme</INTITULE>
+<ID>scolomfr-voc-005-num-026</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">standard</INTITULE>
+<ID>scolomfr-voc-005-num-0265</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">document normatif</INTITULE>
+<ID>scolomfr-voc-005-num-0262</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">profil d'application</INTITULE>
+<ID>scolomfr-voc-005-num-0264</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">document de norme</INTITULE>
+<ID>scolomfr-voc-005-num-0261</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-027</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>036-objet physique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">objet physique</INTITULE>
+<ID>scolomfr-voc-005-num-027</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-028</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>035-objet 3D (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">objet 3D</INTITULE>
+<ID>scolomfr-voc-005-num-028</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">maquette virtuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0281</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">objet tridimensionnel</INTITULE>
+<ID>scolomfr-voc-005-num-0282</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-029</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>038-ouvrage (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">ouvrage</INTITULE>
+<ID>scolomfr-voc-005-num-029</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">monographie</INTITULE>
+<ID>scolomfr-voc-005-num-0291</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">livre</INTITULE>
+<ID>scolomfr-voc-005-num-0292</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-030</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Support de transcription des caractéristiques du son musical.</NA>
+<ORDRE>039-partition musicale (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">partition musicale</INTITULE>
+<ID>scolomfr-voc-005-num-030</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-031</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>040-périodique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">périodique</INTITULE>
+<ID>scolomfr-voc-005-num-031</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">revue</INTITULE>
+<ID>scolomfr-voc-005-num-0311</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">magazine</INTITULE>
+<ID>scolomfr-voc-005-num-0312</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-032</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>041-photographie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">photographie</INTITULE>
+<ID>scolomfr-voc-005-num-032</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-033</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ressource audio ou vidéo diffusée en série via Internet.</NA>
+<ORDRE>043-podcast (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">podcast</INTITULE>
+<ID>scolomfr-voc-005-num-033</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">baladodiffusion</INTITULE>
+<ID>scolomfr-voc-005-num-0331</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">captation audiovisuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0332</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">enregistrement sonore</INTITULE>
+<ID>scolomfr-voc-005-num-0333</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-034</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Une présentation multimédia désigne une présentation synchrone ou asynchrone dont le support peut être tout type de média.</NA>
+<ORDRE>045-présentation multimédia (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">présentation multimédia</INTITULE>
+<ID>scolomfr-voc-005-num-034</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-035</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Ensemble des thèmes abordés par un enseignement dans un laps de temps donné" (Source : Wikipédia).</NA>
+<ORDRE>046-programme scolaire (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">programme scolaire</INTITULE>
+<ID>scolomfr-voc-005-num-035</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">programme d'enseignement</INTITULE>
+<ID>scolomfr-voc-005-num-0351</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme éducatif</INTITULE>
+<ID>scolomfr-voc-005-num-0352</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-036</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Document (écrit) qui décrit les résultats de recherches, d'enquêtes, d'observation ou d'autres études" (Source : Vocabulaire de la documentation, ADBS, 2004). Un scénario ou une séquence pédagogiques s'expose - en fonction de son ampleur - dans une note ou dans un rapport.</NA>
+<ORDRE>048-rapport (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">rapport</INTITULE>
+<ID>scolomfr-voc-005-num-036</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">rapport de recherche</INTITULE>
+<ID>scolomfr-voc-005-num-0364</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">rapport officiel</INTITULE>
+<ID>scolomfr-voc-005-num-0365</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">rapport de jury</INTITULE>
+<ID>scolomfr-voc-005-num-0363</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">étude</INTITULE>
+<ID>scolomfr-voc-005-num-0367</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">note</INTITULE>
+<ID>scolomfr-voc-005-num-0362</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">étude comparative</INTITULE>
+<ID>scolomfr-voc-005-num-0361</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-037</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Répertoire établi sous une forme organisée, de compétences et/ou aptitudes requises pour remplir une tâche, exercer une fonction, un métier, etc.</NA>
+<ORDRE>051-référentiel de compétences (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">référentiel de compétences</INTITULE>
+<ID>scolomfr-voc-005-num-037</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-038</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>054-schéma / graphique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">schéma / graphique</INTITULE>
+<ID>scolomfr-voc-005-num-038</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">dessin</INTITULE>
+<ID>scolomfr-voc-005-num-0382</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">croquis</INTITULE>
+<ID>scolomfr-voc-005-num-0381</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">figure</INTITULE>
+<ID>scolomfr-voc-005-num-0384</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">graphique</INTITULE>
+<ID>scolomfr-voc-005-num-0385</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">organigramme</INTITULE>
+<ID>scolomfr-voc-005-num-0386</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">diagramme</INTITULE>
+<ID>scolomfr-voc-005-num-0383</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-039</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>055-site Web (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">site Web</INTITULE>
+<ID>scolomfr-voc-005-num-039</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">blog</INTITULE>
+<ID>scolomfr-voc-005-num-0391</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">forum</INTITULE>
+<ID>scolomfr-voc-005-num-0393</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">web documentaire</INTITULE>
+<ID>scolomfr-voc-005-num-0394</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">portail</INTITULE>
+<ID>scolomfr-voc-005-num-0395</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">page Web</INTITULE>
+<ID>scolomfr-voc-005-num-0396</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">bloc-notes</INTITULE>
+<ID>scolomfr-voc-005-num-0392</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-040</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>056-tableau (art) (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">tableau (art)</INTITULE>
+<ID>scolomfr-voc-005-num-040</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-041</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Tout média au format spécifique pour le Web. Ex : web TV, web radio.</NA>
+<ORDRE>059-web média (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">web média</INTITULE>
+<ID>scolomfr-voc-005-num-041</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">web TV</INTITULE>
+<ID>scolomfr-voc-005-num-0412</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">web radio</INTITULE>
+<ID>scolomfr-voc-005-num-0411</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-050</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de ressources rassemblées en fonction de critères (éditeur, thématique, niveau). A ne pas confondre avec base de données.</NA>
+<ORDRE>015-catalogue (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">catalogue</INTITULE>
+<ID>scolomfr-voc-005-num-050</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">catalogue documentaire</INTITULE>
+<ID>scolomfr-voc-005-num-052</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">catalogue de ressources</INTITULE>
+<ID>scolomfr-voc-005-num-051</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Base de données contenant spécifiquement des sons.</NA>
+<ORDRE>008-banque de sons (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">banque de sons</INTITULE>
+<ID>scolomfr-voc-005-num-053</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">fonds sonore</INTITULE>
+<ID>scolomfr-voc-005-num-054</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>002-anthologie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">anthologie</INTITULE>
+<ID>scolomfr-voc-005-num-048</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-042</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>016-chanson (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">chanson</INTITULE>
+<ID>scolomfr-voc-005-num-042</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-043</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>021-conte (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">conte</INTITULE>
+<ID>scolomfr-voc-005-num-043</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-044</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>028-image interactive (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">image interactive</INTITULE>
+<ID>scolomfr-voc-005-num-044</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-045</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>030-image, animation 3D (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">image, animation 3D</INTITULE>
+<ID>scolomfr-voc-005-num-045</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">réalité virtuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0451</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">réalité augmentée</INTITULE>
+<ID>scolomfr-voc-005-num-0452</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-046</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>034-nouvelle (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">nouvelle</INTITULE>
+<ID>scolomfr-voc-005-num-046</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-047</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>037-œuvre picturale (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">œuvre picturale</INTITULE>
+<ID>scolomfr-voc-005-num-047</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">illustration</INTITULE>
+<ID>scolomfr-voc-005-num-0471</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">photo</INTITULE>
+<ID>scolomfr-voc-005-num-0473</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tableaux</INTITULE>
+<ID>scolomfr-voc-005-num-0472</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-058</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>042-pièce de théâtre (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">pièce de théâtre</INTITULE>
+<ID>scolomfr-voc-005-num-058</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>044-poème (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">poème</INTITULE>
+<ID>scolomfr-voc-005-num-049</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-059</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>047-publicité (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">publicité</INTITULE>
+<ID>scolomfr-voc-005-num-059</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Contient plusieurs contes.</NA>
+<ORDRE>049-recueil de contes (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">recueil de contes</INTITULE>
+<ID>scolomfr-voc-005-num-060</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Contient plusieurs nouvelles.</NA>
+<ORDRE>050-recueil de nouvelles (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">recueil de nouvelles</INTITULE>
+<ID>scolomfr-voc-005-num-061</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-062</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>052-roman (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">roman</INTITULE>
+<ID>scolomfr-voc-005-num-062</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-063</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>053-saynète (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">saynète</INTITULE>
+<ID>scolomfr-voc-005-num-063</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">sketch</INTITULE>
+<ID>scolomfr-voc-005-num-0631</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-055</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>057-traitement de données (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">traitement de données</INTITULE>
+<ID>scolomfr-voc-005-num-055</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">datavisualisation</INTITULE>
+<ID>scolomfr-voc-005-num-0551</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">mash-up</INTITULE>
+<ID>scolomfr-voc-005-num-0552</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-056</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>058-vidéo interactive (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">vidéo interactive</INTITULE>
+<ID>scolomfr-voc-005-num-056</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-050</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de ressources rassemblées en fonction de critères (éditeur, thématique, niveau). A ne pas confondre avec base de données.</NA>
+<ORDRE>015-catalogue (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">catalogue</INTITULE>
+<ID>scolomfr-voc-005-num-050</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">catalogue documentaire</INTITULE>
+<ID>scolomfr-voc-005-num-052</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">catalogue de ressources</INTITULE>
+<ID>scolomfr-voc-005-num-051</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-021</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Document principal utilisé dans un tableur pour gérer et stocker des données. Une feuille de calcul est composée de cellules organisées en lignes et en colonnes. Certaines données sont issues de calcul.</NA>
+<ORDRE>026-feuille de calcul (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">feuille de calcul</INTITULE>
+<ID>scolomfr-voc-005-num-021</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-013</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de faits présentés dans un ordre croissant. Exemple : la chronologie des rois de France.</NA>
+<ORDRE>017-chronologie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">chronologie</INTITULE>
+<ID>scolomfr-voc-005-num-013</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-012</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Représentation graphique d'idées, de concepts ou d'informations...</NA>
+<ORDRE>014-carte heuristique et conceptuelle (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">carte heuristique et conceptuelle</INTITULE>
+<ID>scolomfr-voc-005-num-012</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">carte conceptuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0121</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">carte mentale</INTITULE>
+<ID>scolomfr-voc-005-num-0122</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Une banque de documents, un dossier regroupant des documents, un entrepôt de documents sont des collections de documents regroupés à des fins et selon des caractéristiques différentes.</NA>
+<ORDRE>018-collection de documents (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">collection de documents</INTITULE>
+<ID>scolomfr-voc-005-num-014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">banque de documents</INTITULE>
+<ID>scolomfr-voc-005-num-0141</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">2 - Leçon</INTITULE>
+<ID>scolomfr-voc-008-voc-06</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-015</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Compte rendu de réunion, de visite...</NA>
+<ORDRE>019-compte rendu (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">compte rendu</INTITULE>
+<ID>scolomfr-voc-005-num-015</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">synthèse</INTITULE>
+<ID>scolomfr-voc-005-num-0152</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">résumé</INTITULE>
+<ID>scolomfr-voc-005-num-0151</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-016</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Y compris les enregistrements sonore et/ou audiovisuel d'une conférence.</NA>
+<ORDRE>020-conférence (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">conférence</INTITULE>
+<ID>scolomfr-voc-005-num-016</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">actes de conférence</INTITULE>
+<ID>scolomfr-voc-005-num-0161</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">communication de conférence</INTITULE>
+<ID>scolomfr-voc-005-num-0162</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">enregistrement audiovisuel d'une conférence</INTITULE>
+<ID>scolomfr-voc-005-num-0163</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">enregistrement sonore d'une conférence</INTITULE>
+<ID>scolomfr-voc-005-num-0164</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-017</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Un diaporama est un spectacle de projection de diapositives ; par extension on entend par ce terme toute suite d'images ou de documents reliés par des effets et sur lesquels il est possible de mettre du son" (Source : Wikipédia).</NA>
+<ORDRE>022-diaporama (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">diaporama</INTITULE>
+<ID>scolomfr-voc-005-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">montage sonorisé</INTITULE>
+<ID>scolomfr-voc-005-num-0171</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-018</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Produit documentaire constitué d'un ensemble de documents de sources diverses, choisis et réunis sur une question donnée, et organisé de façon à faciliter l'accès à l'information rassemblée.</NA>
+<ORDRE>023-dossier documentaire (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">dossier documentaire</INTITULE>
+<ID>scolomfr-voc-005-num-018</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">revue de presse</INTITULE>
+<ID>scolomfr-voc-005-num-0181</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-019</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Désigne un ensemble de documents contenant des informations techniques (tels que des nomenclatures, des schémas, des plans, etc.).</NA>
+<ORDRE>024-dossier technique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">dossier technique</INTITULE>
+<ID>scolomfr-voc-005-num-019</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">dossier administratif</INTITULE>
+<ID>scolomfr-voc-005-num-0192</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dossier artistique</INTITULE>
+<ID>scolomfr-voc-005-num-0191</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-020</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de documents sélectionnés selon une thématique précise pour être montrée au public.</NA>
+<ORDRE>025-exposition (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">exposition</INTITULE>
+<ID>scolomfr-voc-005-num-020</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">exposition virtuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0201</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-009</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Liste de description de documents bibliographiques ou de sites, organisés selon certains critères pour en permettre le repérage.</NA>
+<ORDRE>011-bibliographie / sitographie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">bibliographie / sitographie</INTITULE>
+<ID>scolomfr-voc-005-num-009</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">collection de références</INTITULE>
+<ID>scolomfr-voc-005-num-0092</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">bibliographie</INTITULE>
+<ID>scolomfr-voc-005-num-0091</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">sitographie</INTITULE>
+<ID>scolomfr-voc-005-num-0093</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-008</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de données organisées et structurées de façon homogène.&#13;
+Ne pas confondre avec le logiciel servant à construire des bases de données.</NA>
+<ORDRE>010-base de données (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">base de données</INTITULE>
+<ID>scolomfr-voc-005-num-008</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">collection de données</INTITULE>
+<ID>scolomfr-voc-005-num-0001</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">jeu de données</INTITULE>
+<ID>scolomfr-voc-005-num-0002</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Ensemble d'adresses (d'une personne, d'un organisme, d'une source d'information, d'un site Web,...) pouvant être complétées par d'autres informations associées (chiffre d'affaire d'un organisme, rôle et fonction d'une personne, nom du dirigeant d'un organisme,...). Sous une forme papier, il peut paraître annuellement." (Source : Vocabulaire de la documentation, ADBS, 2004) Exemple : annuaire des établissements scolaires, annuaires de sites web disciplinaires...</NA>
+<ORDRE>001-annuaire (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">annuaire</INTITULE>
+<ID>scolomfr-voc-005-num-001</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">répertoire</INTITULE>
+<ID>scolomfr-voc-005-num-0011</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Base de données contenant spécifiquement des images (dessins, photos, illustrations).</NA>
+<ORDRE>007-banque d'images (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">banque d'images</INTITULE>
+<ID>scolomfr-voc-005-num-007</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">fonds photographique</INTITULE>
+<ID>scolomfr-voc-005-num-0071</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Écrit portant sur la vie d'une personne.</NA>
+<ORDRE>012-biographie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">biographie</INTITULE>
+<ID>scolomfr-voc-005-num-010</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">autobiographie</INTITULE>
+<ID>scolomfr-voc-005-num-0101</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>013-carte (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">carte</INTITULE>
+<ID>scolomfr-voc-005-num-011</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">carte géographique</INTITULE>
+<ID>scolomfr-voc-005-num-0111</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Texte indépendant constituant une partie d'une publication périodique, d'un blog, d'un dictionnaire, d'une encyclopédie" (Source : Vocabulaire de la documentation, ADBS, 2004).</NA>
+<ORDRE>004-article (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">article</INTITULE>
+<ID>scolomfr-voc-005-num-003</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-004</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Recueil ordonné de cartes conçu pour représenter un espace donné et/ou exposer un ou plusieurs thèmes." (Source : Vocabulaire de la documentation, ADBS, 2004).</NA>
+<ORDRE>005-atlas (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">atlas</INTITULE>
+<ID>scolomfr-voc-005-num-004</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-005</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Succession de dessins organisés en séquences, qui suggère le déroulement d'une histoire, les caricatures, les dessins de presse et également les recueils de dessins humoristiques.</NA>
+<ORDRE>006-bande dessinée (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">bande dessinée</INTITULE>
+<ID>scolomfr-voc-005-num-005</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">caricature</INTITULE>
+<ID>scolomfr-voc-005-num-0051</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Base de données contenant spécifiquement des vidéos.</NA>
+<ORDRE>009-banque de vidéos (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">banque de vidéos</INTITULE>
+<ID>scolomfr-voc-005-num-006</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">fonds vidéo</INTITULE>
+<ID>scolomfr-voc-005-num-0061</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-002</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ensemble de documents d'archives, documents historiques, montages d'archives, quels que soient leur date, leur forme et leur support matériel (imprimé, audiovisuel, sonore ou électronique).</NA>
+<ORDRE>003-archives (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">archives</INTITULE>
+<ID>scolomfr-voc-005-num-002</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">document historique</INTITULE>
+<ID>scolomfr-voc-005-num-0021</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-058</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>042-pièce de théâtre (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">pièce de théâtre</INTITULE>
+<ID>scolomfr-voc-005-num-058</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Base de données contenant spécifiquement des sons.</NA>
+<ORDRE>008-banque de sons (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">banque de sons</INTITULE>
+<ID>scolomfr-voc-005-num-053</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">fonds sonore</INTITULE>
+<ID>scolomfr-voc-005-num-054</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-037</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Répertoire établi sous une forme organisée, de compétences et/ou aptitudes requises pour remplir une tâche, exercer une fonction, un métier, etc.</NA>
+<ORDRE>051-référentiel de compétences (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">référentiel de compétences</INTITULE>
+<ID>scolomfr-voc-005-num-037</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-036</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Document (écrit) qui décrit les résultats de recherches, d'enquêtes, d'observation ou d'autres études" (Source : Vocabulaire de la documentation, ADBS, 2004). Un scénario ou une séquence pédagogiques s'expose - en fonction de son ampleur - dans une note ou dans un rapport.</NA>
+<ORDRE>048-rapport (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">rapport</INTITULE>
+<ID>scolomfr-voc-005-num-036</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">rapport de recherche</INTITULE>
+<ID>scolomfr-voc-005-num-0364</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">rapport officiel</INTITULE>
+<ID>scolomfr-voc-005-num-0365</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">rapport de jury</INTITULE>
+<ID>scolomfr-voc-005-num-0363</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">étude</INTITULE>
+<ID>scolomfr-voc-005-num-0367</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">note</INTITULE>
+<ID>scolomfr-voc-005-num-0362</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">étude comparative</INTITULE>
+<ID>scolomfr-voc-005-num-0361</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-038</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>054-schéma / graphique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">schéma / graphique</INTITULE>
+<ID>scolomfr-voc-005-num-038</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">dessin</INTITULE>
+<ID>scolomfr-voc-005-num-0382</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">croquis</INTITULE>
+<ID>scolomfr-voc-005-num-0381</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">figure</INTITULE>
+<ID>scolomfr-voc-005-num-0384</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">graphique</INTITULE>
+<ID>scolomfr-voc-005-num-0385</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">organigramme</INTITULE>
+<ID>scolomfr-voc-005-num-0386</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">diagramme</INTITULE>
+<ID>scolomfr-voc-005-num-0383</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-033</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Ressource audio ou vidéo diffusée en série via Internet.</NA>
+<ORDRE>043-podcast (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">podcast</INTITULE>
+<ID>scolomfr-voc-005-num-033</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">baladodiffusion</INTITULE>
+<ID>scolomfr-voc-005-num-0331</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">captation audiovisuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0332</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">enregistrement sonore</INTITULE>
+<ID>scolomfr-voc-005-num-0333</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-032</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>041-photographie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">photographie</INTITULE>
+<ID>scolomfr-voc-005-num-032</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-035</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">"Ensemble des thèmes abordés par un enseignement dans un laps de temps donné" (Source : Wikipédia).</NA>
+<ORDRE>046-programme scolaire (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">programme scolaire</INTITULE>
+<ID>scolomfr-voc-005-num-035</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">programme d'enseignement</INTITULE>
+<ID>scolomfr-voc-005-num-0351</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme éducatif</INTITULE>
+<ID>scolomfr-voc-005-num-0352</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-034</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Une présentation multimédia désigne une présentation synchrone ou asynchrone dont le support peut être tout type de média.</NA>
+<ORDRE>045-présentation multimédia (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">présentation multimédia</INTITULE>
+<ID>scolomfr-voc-005-num-034</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-029</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>038-ouvrage (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">ouvrage</INTITULE>
+<ID>scolomfr-voc-005-num-029</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">monographie</INTITULE>
+<ID>scolomfr-voc-005-num-0291</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">livre</INTITULE>
+<ID>scolomfr-voc-005-num-0292</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-031</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>040-périodique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">périodique</INTITULE>
+<ID>scolomfr-voc-005-num-031</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">revue</INTITULE>
+<ID>scolomfr-voc-005-num-0311</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">magazine</INTITULE>
+<ID>scolomfr-voc-005-num-0312</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-030</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Support de transcription des caractéristiques du son musical.</NA>
+<ORDRE>039-partition musicale (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">partition musicale</INTITULE>
+<ID>scolomfr-voc-005-num-030</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-028</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>035-objet 3D (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">objet 3D</INTITULE>
+<ID>scolomfr-voc-005-num-028</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">maquette virtuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0281</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">objet tridimensionnel</INTITULE>
+<ID>scolomfr-voc-005-num-0282</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-027</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>036-objet physique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">objet physique</INTITULE>
+<ID>scolomfr-voc-005-num-027</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-026</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Document, établi par consensus et approuvé par un organisme reconnu, qui fournit, pour des usages communs et répétés, des règles, des lignes directrices ou des caractéristiques, pour des activités ou leurs résultats, garantissant un niveau d'ordre optimal dans un contexte donné." (définition de l'ISO/CEI).
+Utilisé non seulement pour des documents de normes élaborés par des organismes officiels, mais également pour des standards.</NA>
+<ORDRE>033-norme (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">norme</INTITULE>
+<ID>scolomfr-voc-005-num-026</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">standard</INTITULE>
+<ID>scolomfr-voc-005-num-0265</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">document normatif</INTITULE>
+<ID>scolomfr-voc-005-num-0262</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">profil d'application</INTITULE>
+<ID>scolomfr-voc-005-num-0264</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">document de norme</INTITULE>
+<ID>scolomfr-voc-005-num-0261</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-025</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Reproduction en grandeur naturelle (prototype) ou à l'échelle réduite (maquette) d'une machine, d'un processus, d'un bâtiment...</NA>
+<ORDRE>032-maquette / prototype (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">maquette / prototype</INTITULE>
+<ID>scolomfr-voc-005-num-025</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">prototype</INTITULE>
+<ID>scolomfr-voc-005-num-0252</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">maquette</INTITULE>
+<ID>scolomfr-voc-005-num-0251</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-024</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>031-livre numérique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">livre numérique</INTITULE>
+<ID>scolomfr-voc-005-num-024</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">e-book</INTITULE>
+<ID>scolomfr-voc-005-num-0263</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-023</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Toute image (dessin, icône, photographie...) acquise, créée, traitée ou stockée sous forme binaire.</NA>
+<ORDRE>029-image numérique (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">image numérique</INTITULE>
+<ID>scolomfr-voc-005-num-023</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">image satellitaire</INTITULE>
+<ID>scolomfr-voc-005-num-0233</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">image scientifique</INTITULE>
+<ID>scolomfr-voc-005-num-0234</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">image de synthèse</INTITULE>
+<ID>scolomfr-voc-005-num-0231</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">image de télédétection</INTITULE>
+<ID>scolomfr-voc-005-num-0232</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-022</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>027-film (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">film</INTITULE>
+<ID>scolomfr-voc-005-num-022</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">court-métrage</INTITULE>
+<ID>scolomfr-voc-005-num-0225</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">téléfilm</INTITULE>
+<ID>scolomfr-voc-005-num-0224</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">film d'animation</INTITULE>
+<ID>scolomfr-voc-005-num-0221</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">film documentaire</INTITULE>
+<ID>scolomfr-voc-005-num-0222</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">long-métrage</INTITULE>
+<ID>scolomfr-voc-005-num-0223</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-047</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>037-œuvre picturale (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">œuvre picturale</INTITULE>
+<ID>scolomfr-voc-005-num-047</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">illustration</INTITULE>
+<ID>scolomfr-voc-005-num-0471</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">photo</INTITULE>
+<ID>scolomfr-voc-005-num-0473</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">tableaux</INTITULE>
+<ID>scolomfr-voc-005-num-0472</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-046</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>034-nouvelle (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">nouvelle</INTITULE>
+<ID>scolomfr-voc-005-num-046</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-045</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>030-image, animation 3D (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">image, animation 3D</INTITULE>
+<ID>scolomfr-voc-005-num-045</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">réalité virtuelle</INTITULE>
+<ID>scolomfr-voc-005-num-0451</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">réalité augmentée</INTITULE>
+<ID>scolomfr-voc-005-num-0452</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-041</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Tout média au format spécifique pour le Web. Ex : web TV, web radio.</NA>
+<ORDRE>059-web média (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">web média</INTITULE>
+<ID>scolomfr-voc-005-num-041</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">web TV</INTITULE>
+<ID>scolomfr-voc-005-num-0412</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">web radio</INTITULE>
+<ID>scolomfr-voc-005-num-0411</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-040</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>056-tableau (art) (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">tableau (art)</INTITULE>
+<ID>scolomfr-voc-005-num-040</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-039</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>055-site Web (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">site Web</INTITULE>
+<ID>scolomfr-voc-005-num-039</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">blog</INTITULE>
+<ID>scolomfr-voc-005-num-0391</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">forum</INTITULE>
+<ID>scolomfr-voc-005-num-0393</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">web documentaire</INTITULE>
+<ID>scolomfr-voc-005-num-0394</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">portail</INTITULE>
+<ID>scolomfr-voc-005-num-0395</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">page Web</INTITULE>
+<ID>scolomfr-voc-005-num-0396</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">bloc-notes</INTITULE>
+<ID>scolomfr-voc-005-num-0392</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-044</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>028-image interactive (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">image interactive</INTITULE>
+<ID>scolomfr-voc-005-num-044</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>002-anthologie (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">anthologie</INTITULE>
+<ID>scolomfr-voc-005-num-048</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-042</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>016-chanson (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">chanson</INTITULE>
+<ID>scolomfr-voc-005-num-042</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-043</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>021-conte (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">conte</INTITULE>
+<ID>scolomfr-voc-005-num-043</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-056</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>058-vidéo interactive (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">vidéo interactive</INTITULE>
+<ID>scolomfr-voc-005-num-056</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-055</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>057-traitement de données (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">traitement de données</INTITULE>
+<ID>scolomfr-voc-005-num-055</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">datavisualisation</INTITULE>
+<ID>scolomfr-voc-005-num-0551</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">mash-up</INTITULE>
+<ID>scolomfr-voc-005-num-0552</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-063</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>053-saynète (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">saynète</INTITULE>
+<ID>scolomfr-voc-005-num-063</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">sketch</INTITULE>
+<ID>scolomfr-voc-005-num-0631</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Contient plusieurs contes.</NA>
+<ORDRE>049-recueil de contes (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">recueil de contes</INTITULE>
+<ID>scolomfr-voc-005-num-060</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061</ID>
+<DF lang="fr">Typologie générale</DF>
+<NA lang="fr">Contient plusieurs nouvelles.</NA>
+<ORDRE>050-recueil de nouvelles (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">recueil de nouvelles</INTITULE>
+<ID>scolomfr-voc-005-num-061</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-062</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>052-roman (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">roman</INTITULE>
+<ID>scolomfr-voc-005-num-062</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>044-poème (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">poème</INTITULE>
+<ID>scolomfr-voc-005-num-049</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-059</ID>
+<DF lang="fr">Typologie générale</DF>
+<ORDRE>047-publicité (Sco05-TypologieGénérale)</ORDRE>
+<TERME>
+<INTITULE lang="fr">publicité</INTITULE>
+<ID>scolomfr-voc-005-num-059</ID>
+</TERME>
+</CONCEPT>
+</NOMENCLATURE>

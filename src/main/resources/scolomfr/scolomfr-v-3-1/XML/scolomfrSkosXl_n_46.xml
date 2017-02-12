@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-001</ID>
+      <DF lang="fr">Type de distribution</DF>
+      <TERME>
+         <INTITULE lang="fr">en ligne</INTITULE>
+         <ID>scolomfr-voc-046-num-001</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-002</ID>
+      <DF lang="fr">Type de distribution</DF>
+      <TERME>
+         <INTITULE lang="fr">mode de distribution physique</INTITULE>
+         <ID>scolomfr-voc-046-num-005</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-003</ID>
+      <DF lang="fr">Type de distribution</DF>
+      <TERME>
+         <INTITULE lang="fr">téléchargeable</INTITULE>
+         <ID>scolomfr-voc-046-num-003</ID>
+      </TERME>
+   </CONCEPT>
+</NOMENCLATURE>

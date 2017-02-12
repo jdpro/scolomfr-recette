@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-015" name="scolomfr-voc-028 (Objectif)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/discipline" prefTerm="champ disciplinaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/discipline</value>
+    <value>champ disciplinaire</value>
+    <value>discipline</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/competency" prefTerm="compétence">
+    <value>http://data.education.fr/voc/scolomfr/concept/competency</value>
+    <value>compétence</value>
+    <value>competency</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-003" prefTerm="domaine d'enseignement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-003</value>
+    <value>domaine d'enseignement</value>
+    <value>scolomfr-voc-028-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-013" prefTerm="label">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-013</value>
+    <value>label</value>
+    <value>scolomfr-voc-028-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/skill_level" prefTerm="niveau de compétence">
+    <value>http://data.education.fr/voc/scolomfr/concept/skill_level</value>
+    <value>niveau de compétence</value>
+    <value>skill level</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/security_level" prefTerm="niveau de sécurité">
+    <value>http://data.education.fr/voc/scolomfr/concept/security_level</value>
+    <value>niveau de sécurité</value>
+    <value>security level</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/educational_level" prefTerm="niveau éducatif détaillé">
+    <value>http://data.education.fr/voc/scolomfr/concept/educational_level</value>
+    <value>niveau éducatif détaillé</value>
+    <value>educational level</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/idea" prefTerm="notion">
+    <value>http://data.education.fr/voc/scolomfr/concept/idea</value>
+    <value>notion</value>
+    <value>idea</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/educational_objective" prefTerm="objectif pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/educational_objective</value>
+    <value>objectif pédagogique</value>
+    <value>educational objective</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/prerequisite" prefTerm="pré-requis">
+    <value>http://data.education.fr/voc/scolomfr/concept/prerequisite</value>
+    <value>pré-requis</value>
+    <value>prerequisite</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-011" prefTerm="public cible détaillé">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-011</value>
+    <value>public cible détaillé</value>
+    <value>scolomfr-voc-028-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/accessibility_restrictions" prefTerm="restriction d'accessibilité">
+    <value>http://data.education.fr/voc/scolomfr/concept/accessibility_restrictions</value>
+    <value>restriction d'accessibilité</value>
+    <value>accessibility restrictions</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-014" prefTerm="type de distribution">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-014</value>
+    <value>type de distribution</value>
+    <value>scolomfr-voc-028-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-017" prefTerm="type de trouble">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-017</value>
+    <value>type de trouble</value>
+    <value>scolomfr-voc-028-num-036</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-016" prefTerm="diplôme">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-016</value>
+    <value>diplôme</value>
+    <value>scolomfr-voc-028-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-019" prefTerm="cadre européen commun de référence pour les langues">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-019</value>
+    <value>cadre européen commun de référence pour les langues</value>
+    <value>scolomfr-voc-028-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-021" prefTerm="socle commun">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-021</value>
+    <value>socle commun</value>
+    <value>scolomfr-voc-028-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-023" prefTerm="support">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-023</value>
+    <value>support</value>
+    <value>scolomfr-voc-028-num-024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-032" prefTerm="cadre pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-032</value>
+    <value>cadre pédagogique</value>
+    <value>scolomfr-voc-028-num-032</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-033" prefTerm="type d'accès au concours">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-033</value>
+    <value>type d'accès au concours</value>
+    <value>scolomfr-voc-028-num-033</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-034" prefTerm="concours de l'Éducation nationale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-034</value>
+    <value>concours de l'Éducation nationale</value>
+    <value>scolomfr-voc-028-num-034</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-035" prefTerm="statuts des personnels de l'Éducation nationale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-035</value>
+    <value>statuts des personnels de l'Éducation nationale</value>
+    <value>scolomfr-voc-028-num-035</value>
+  </concept>
+</vocab>

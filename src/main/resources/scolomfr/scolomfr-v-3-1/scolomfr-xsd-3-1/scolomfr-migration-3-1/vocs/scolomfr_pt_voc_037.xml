@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-001" name="scolomfr-voc-037 (StatutsPersonnels)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-009" prefTerm="conseiller principal d'éducation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-009</value>
+    <value>conseiller principal d'éducation</value>
+    <value>scolomfr-voc-037-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-013" prefTerm="maitre auxiliaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-013</value>
+    <value>maitre auxiliaire</value>
+    <value>scolomfr-voc-037-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-008" prefTerm="maitre des établissements d'enseignement privés sous contrat (second degré)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-008</value>
+    <value>maitre des établissements d'enseignement privés sous contrat (second degré)</value>
+    <value>scolomfr-voc-037-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-012" prefTerm="personnel contractuel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-012</value>
+    <value>personnel contractuel</value>
+    <value>scolomfr-voc-037-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-002" prefTerm="personnel titulaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-002</value>
+    <value>personnel titulaire</value>
+    <value>scolomfr-voc-037-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-003" prefTerm="professeur agrégé">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-003</value>
+    <value>professeur agrégé</value>
+    <value>scolomfr-voc-037-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-007" prefTerm="professeur d'éducation physique et sportive">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-007</value>
+    <value>professeur d'éducation physique et sportive</value>
+    <value>scolomfr-voc-037-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-011" prefTerm="personnel vacataire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-011</value>
+    <value>personnel vacataire</value>
+    <value>scolomfr-voc-037-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-005" prefTerm="professeur de lycée professionnel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-005</value>
+    <value>professeur de lycée professionnel</value>
+    <value>scolomfr-voc-037-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-004" prefTerm="professeur certifié">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-004</value>
+    <value>professeur certifié</value>
+    <value>scolomfr-voc-037-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-006" prefTerm="professeur des écoles">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-006</value>
+    <value>professeur des écoles</value>
+    <value>scolomfr-voc-037-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-010" prefTerm="conseiller d'orientation-psychologue">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-037-num-010</value>
+    <value>conseiller d'orientation-psychologue</value>
+    <value>scolomfr-voc-037-num-010</value>
+  </concept>
+</vocab>

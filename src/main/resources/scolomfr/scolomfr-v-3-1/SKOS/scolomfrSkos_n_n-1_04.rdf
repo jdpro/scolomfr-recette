@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Event"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Service"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Sound"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-004">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">004-Type documentaire Dublin Core</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Event"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Service"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Sound"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:prefLabel xml:lang="fr">004-Type documentaire Dublin Core</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/Collection">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">collection</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">collection</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Agrégation de ressources formant un tout cohérent : une base d'exercices, une base d'objets de musées, un catalogue de bibliothèque... [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">collection</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">001-collection(Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/Dataset">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">ensemble de données</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">ensemble de données</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Donnée encodée suivant une structure précise appropriée au traitement par ordinateur : par exemple une base de données statistiques. [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">ensemble de données</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">002-ensemble de données (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/Event">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">événement</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">événement</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Fait basé sur une période de temps, non permanent. Par exemple : une conférence, une exposition, une bataille ou tout autre fait historique, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">événement</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">003-événement (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/Image">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">image</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">image</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Représentation visuelle autre que sous la forme de texte. [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">image</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">004-image (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/InteractiveResource">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">ressource interactive</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">ressource interactive</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Objet nécessitant une interaction de l'utilisateur pour être comprise, exécutée ou expérimentée. Par exemple une page Web ou un formulaire Web, des objets d'apprentissage multimédia, une applet, une maquette numérique, un service de chat, un environnement de réalité virtuelle, sortie visuelle d'une simulation, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">ressource interactive</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">009-ressource interactive (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/MovingImage">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">image en mouvement</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">image en mouvement</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Série de représentations visuelles conférant une impression de mouvement lorsqu'elles sont montrées à la suite les unes des autres. Par exemple : des films, vidéos, émissions de télévision, infographie, effets spéciaux, films d'animation... [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">image en mouvement</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">005-image en mouvement (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/PhysicalObject">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">objet physique</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">objet physique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Objet ou substance à trois dimensions, inanimé. Par exemple un TBI, un ordinateur, un bâtiment, une fleur (et non une photographie d'une fleur), etc. Les représentations ou substituts numériques de ces objets physiques utiliseront "texte", "image" ou un autre type. [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">objet physique</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">008-objet physique (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/Service">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">service</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">service</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Un système qui fournit une ou plusieurs fonctions, qui offre des services à l'utilisateur comme un serveur Web, un service de conversion de formats de fichier, un service de photocopie, un service en ligne de carte heuristique... [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">service</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">010-service (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/Software">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">logiciel</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Programme ou application informatiques, en code source ou sous une forme compilée. Par un exemple, un fichier source en C, un exécutable MS-Windows, un fichier rdf ou un script PHP... [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">007-logiciel (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/Sound">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">son</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">son</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ressource principalement destinée à être entendue. Par exemple un fichier de musique, de son ou de paroles enregistrées, un compact-disque audio... [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">son</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">011-son (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/StillImage">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">image fixe</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">image fixe</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Représentation visuelle statique. Par exemple, des photographies, tableaux, dessins, graphiques, plans, photographies d'objets physiques... [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">image fixe</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">006-image fixe (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/dcmitype/Text">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">texte</skos:altLabel>
+	<skos:definition xml:lang="fr">Type documentaire</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<skos:prefLabel xml:lang="fr">texte</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ressource constituée principalement de mots destinés à être lus. "Texte" est pris ici au sens large : livre, magazine, journal, poème, message d'une liste de diffusion, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">texte</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">012-texte (Sco04-TypeDoc)</canope:ordre>
+</rdf:Description>
+
+</rdf:RDF>

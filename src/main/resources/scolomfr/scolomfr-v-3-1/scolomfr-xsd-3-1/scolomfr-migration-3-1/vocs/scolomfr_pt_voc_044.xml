@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-005" name="scolomfr-voc-044 (TypeDonnéesPerso)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-002" prefTerm="personnalisation faible : les données transférées ne peuvent en aucun cas permettre d'identifier l'utilisateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-002</value>
+    <value>personnalisation faible : les données transférées ne peuvent en aucun cas permettre d'identifier l'utilisateur</value>
+    <value>scolomfr-voc-044-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-003" prefTerm="personnalisation moyenne : les données transférées ne permettent pas d'identifier directement l'utilisateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-003</value>
+    <value>personnalisation moyenne : les données transférées ne permettent pas d'identifier directement l'utilisateur</value>
+    <value>scolomfr-voc-044-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-001" prefTerm="personnalisation nulle : la seule donnée envoyée attachée à l'utilisateur est le code établissement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-001</value>
+    <value>personnalisation nulle : la seule donnée envoyée attachée à l'utilisateur est le code établissement</value>
+    <value>scolomfr-voc-044-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-004" prefTerm="personnalisation forte : les données transférées permettent d'identifier directement l'individu et/ou comportent des éléments de son état civil ou de sa vie privée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-004</value>
+    <value>personnalisation forte : les données transférées permettent d'identifier directement l'individu et/ou comportent des éléments de son état civil ou de sa vie privée</value>
+    <value>scolomfr-voc-044-num-004</value>
+  </concept>
+</vocab>

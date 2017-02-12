@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:adms="http://www.w3.org/ns/adms" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cvb="http://www.w3.org/ns/adms/BasicComponents" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cva="http://www.w3.org/ns/adms/AggregateComponents" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0     http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd    http://www.w3.org/ns/adms    http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/docs_utiles/ADMS_XML_Schema_v1.01/xsd/corevoc/CoreVocs-ADMS-v1.01.xsd" orderSignificant="true">
+<vocabName>
+<langstring language="fr">scolomfr-voc-035 (TypeAccèsConcours)</langstring>
+</vocabName>
+<vocabIdentifier>http://voc.cndp.fr/onto#Sco35</vocabIdentifier>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-003</termIdentifier>
+<caption>
+<langstring language="fr">concours externe</langstring>
+</caption>
+<description>
+<langstring language="fr">Les concours externes sont ouverts aux candidats justifiant de certains diplômes ou de l'accomplissement de certaines études.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-035-num-008</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-002</termIdentifier>
+<caption>
+<langstring language="fr">concours interne</langstring>
+</caption>
+<description>
+<langstring language="fr">Le concours interne concerne le personnel de la fonction publique, sous certaines conditions.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-035-num-007</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-004</termIdentifier>
+<caption>
+<langstring language="fr">concours réservé</langstring>
+</caption>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-035-num-009</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-005</termIdentifier>
+<caption>
+<langstring language="fr">troisième concours</langstring>
+</caption>
+<description>
+<langstring language="fr">Le troisième concours est accessible, sans condition de diplôme, à toute personne pouvant justifier d'une expérience d'au moins cinq ans dans le secteur privé.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-035-num-010</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-003</sourceTerm>
+<targetTerm>scolomfr-voc-035-num-008</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-035-num-008</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-003</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-003</sourceTerm>
+<targetTerm>scolomfr-voc-035-num-008</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-002</sourceTerm>
+<targetTerm>scolomfr-voc-035-num-007</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-035-num-007</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-002</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-002</sourceTerm>
+<targetTerm>scolomfr-voc-035-num-007</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-004</sourceTerm>
+<targetTerm>scolomfr-voc-035-num-009</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-035-num-009</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-004</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-004</sourceTerm>
+<targetTerm>scolomfr-voc-035-num-009</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-005</sourceTerm>
+<targetTerm>scolomfr-voc-035-num-010</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-035-num-010</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-005</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-005</sourceTerm>
+<targetTerm>scolomfr-voc-035-num-010</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:Version>2.0</cvb:Version>
+<cvb:VersionNotes languageID="fr">Introduction des URI de concepts pour l'indexation et dépreciation des anciens identifiants.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:MainDocumentation>
+<cbc:URI>http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/docs_utiles/Structure_des_fichiers_VDEX_3.pdf</cbc:URI>
+<cbc:Title>Strucutre des fichiers VDEX</cbc:Title>
+</cva:MainDocumentation>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</vdex>

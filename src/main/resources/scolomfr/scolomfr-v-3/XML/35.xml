@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-004</ID>
+<DF lang="fr">Type accès concours</DF>
+<TERME>
+<INTITULE lang="fr">concours réservé</INTITULE>
+<ID>scolomfr-voc-035-num-009</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-005</ID>
+<DF lang="fr">Type accès concours</DF>
+<NA lang="fr">Le troisième concours est accessible, sans condition de diplôme, à toute personne pouvant justifier d'une expérience d'au moins cinq ans dans le secteur privé.</NA>
+<TERME>
+<INTITULE lang="fr">troisième concours</INTITULE>
+<ID>scolomfr-voc-035-num-010</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-003</ID>
+<DF lang="fr">Type accès concours</DF>
+<NA lang="fr">Les concours externes sont ouverts aux candidats justifiant de certains diplômes ou de l'accomplissement de certaines études.</NA>
+<TERME>
+<INTITULE lang="fr">concours externe</INTITULE>
+<ID>scolomfr-voc-035-num-008</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-002</ID>
+<DF lang="fr">Type accès concours</DF>
+<NA lang="fr">Le concours interne concerne le personnel de la fonction publique, sous certaines conditions.</NA>
+<TERME>
+<INTITULE lang="fr">concours interne</INTITULE>
+<ID>scolomfr-voc-035-num-007</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-002</ID>
+<DF lang="fr">Type accès concours</DF>
+<NA lang="fr">Le concours interne concerne le personnel de la fonction publique, sous certaines conditions.</NA>
+<TERME>
+<INTITULE lang="fr">concours interne</INTITULE>
+<ID>scolomfr-voc-035-num-007</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-003</ID>
+<DF lang="fr">Type accès concours</DF>
+<NA lang="fr">Les concours externes sont ouverts aux candidats justifiant de certains diplômes ou de l'accomplissement de certaines études.</NA>
+<TERME>
+<INTITULE lang="fr">concours externe</INTITULE>
+<ID>scolomfr-voc-035-num-008</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-004</ID>
+<DF lang="fr">Type accès concours</DF>
+<TERME>
+<INTITULE lang="fr">concours réservé</INTITULE>
+<ID>scolomfr-voc-035-num-009</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-005</ID>
+<DF lang="fr">Type accès concours</DF>
+<NA lang="fr">Le troisième concours est accessible, sans condition de diplôme, à toute personne pouvant justifier d'une expérience d'au moins cinq ans dans le secteur privé.</NA>
+<TERME>
+<INTITULE lang="fr">troisième concours</INTITULE>
+<ID>scolomfr-voc-035-num-010</ID>
+</TERME>
+</CONCEPT>
+</NOMENCLATURE>

@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-001</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu dont les sièges sont disposés en gradins. S'applique à une ressource dont le contexte d'utilisation est un amphithéâtre. Un cours en amphithéâtre donne généralement lieu à un cours magistral.</NA>
+<TERME>
+<INTITULE lang="fr">en amphithéâtre</INTITULE>
+<ID>scolomfr-voc-017-num-001</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-002</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu où se déroulent des travaux manuels, des activités manuelles telles que la sculpture, l'ébénisterie, etc. S'applique à une ressource dont le contexte d'utilisation est un atelier.</NA>
+<TERME>
+<INTITULE lang="fr">en atelier</INTITULE>
+<ID>scolomfr-voc-017-num-002</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-003</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu de formation dont l'activité pédagogique est organisée autour d'un centre de ressources pédagogiques, conçu et animé par des professionnels de la formation individualisée.</NA>
+<TERME>
+<INTITULE lang="fr">en atelier de pédagogie personnalisée</INTITULE>
+<ID>scolomfr-voc-017-num-003</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-009</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne les bibliothèques et/ou médiathèques de lecture publique. S'applique à une ressource dont le contexte d'utilisation est une bibliothèque, une médiathèque.</NA>
+<TERME>
+<INTITULE lang="fr">en bibliothèque, médiathèque</INTITULE>
+<ID>scolomfr-voc-017-num-009</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-004</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne les CDI d'établissements scolaires.</NA>
+<TERME>
+<INTITULE lang="fr">en CDI (Centre de documentation et d'information)</INTITULE>
+<ID>scolomfr-voc-017-num-004</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en learning centre</INTITULE>
+<ID>scolomfr-voc-017-num-036</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">en centre de connaissances et de culture</INTITULE>
+<ID>scolomfr-voc-017-num-034</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">en learning center</INTITULE>
+<ID>scolomfr-voc-017-num-035</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-006</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est réservé à un établissement d'enseignement scolaire.</NA>
+<TERME>
+<INTITULE lang="fr">en établissement</INTITULE>
+<ID>scolomfr-voc-017-num-006</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en établissement scolaire</INTITULE>
+<ID>scolomfr-voc-017-num-0061</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-008</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne les établissements donnant accès à la culture. S'applique à une ressource dont le contexte d'utilisation est un établissement socioculturel, un établissement à l'initiative d'un large panel d'animations, de loisirs et d'événements culturels et sportifs qui s'adressent aux habitants d'un quartier, tous publics confondus.</NA>
+<TERME>
+<INTITULE lang="fr">en établissement socioculturel</INTITULE>
+<ID>scolomfr-voc-017-num-008</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en établissement socio-culturel</INTITULE>
+<ID>scolomfr-voc-017-num-033</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">au théâtre</INTITULE>
+<ID>scolomfr-voc-017-num-0083</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">à l'opéra</INTITULE>
+<ID>scolomfr-voc-017-num-0081</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">au cinéma</INTITULE>
+<ID>scolomfr-voc-017-num-0082</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0012</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu où se pratique une activité ludique. S'applique à une ressource dont le contexte d'utilisation est une installation de loisirs où se pratique une activité de loisirs. Ex : aire de jeux, base de loisirs, minigolf.</NA>
+<TERME>
+<INTITULE lang="fr">en installation de loisirs</INTITULE>
+<ID>scolomfr-voc-017-num-0012</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">base de loisirs</INTITULE>
+<ID>scolomfr-voc-017-num-031</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">aire de jeux</INTITULE>
+<ID>scolomfr-voc-017-num-030</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">minigolf</INTITULE>
+<ID>scolomfr-voc-017-num-032</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0013</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est une installation sportive où se pratique un sport. Ex : un dojo, un gymnase.</NA>
+<TERME>
+<INTITULE lang="fr">en installation sportive</INTITULE>
+<ID>scolomfr-voc-017-num-0013</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en infrastructure sportive</INTITULE>
+<ID>scolomfr-voc-017-num-00131</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0014</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un laboratoire, autrement dit un « local disposé pour faire des recherches, des analyses, des expériences dans un domaine scientifique quelconque ». [Le Thésaurus de l'activité gouvernementale québécois]</NA>
+<TERME>
+<INTITULE lang="fr">en laboratoire</INTITULE>
+<ID>scolomfr-voc-017-num-0014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en laboratoire scientifique</INTITULE>
+<ID>scolomfr-voc-017-num-00141</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0015</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un laboratoire de langues, un lieu qui privilégie une pratique orale des langues par la mise à disposition d'un matériel adapté (postes d'écoute, supports multimédia, etc).</NA>
+<TERME>
+<INTITULE lang="fr">en laboratoire de langues</INTITULE>
+<ID>scolomfr-voc-017-num-0015</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0016</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est le milieu familial.</NA>
+<TERME>
+<INTITULE lang="fr">en milieu familial</INTITULE>
+<ID>scolomfr-voc-017-num-0016</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en famille</INTITULE>
+<ID>scolomfr-voc-017-num-0028</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">à la maison</INTITULE>
+<ID>scolomfr-voc-017-num-029</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">à domicile</INTITULE>
+<ID>scolomfr-voc-017-num-0030</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0010</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne tout type de musée. La ressource est utilisée en complément ou en illustration des expositions du musée. S'applique à une ressource dont le contexte d'utilisation est un musée.</NA>
+<TERME>
+<INTITULE lang="fr">en musée</INTITULE>
+<ID>scolomfr-voc-017-num-0010</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-005</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est une salle de classe, le lieu privilégié de dispense de l'enseignement. A ne pas confondre avec la modalité pédagogique "en groupe de classe" ou à un groupe de personnes.</NA>
+<TERME>
+<INTITULE lang="fr">en salle de classe</INTITULE>
+<ID>scolomfr-voc-017-num-005</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0020</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu dans lequel les élèves peuvent travailler et suivre un cours qui nécessite du matériel informatique. S'applique à une ressource dont le contexte d'utilisation est une salle informatique.</NA>
+<TERME>
+<INTITULE lang="fr">en salle informatique</INTITULE>
+<ID>scolomfr-voc-017-num-0020</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0021</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu équipé de matériel multimédia dans lequel les élèves peuvent travailler et suivre un cours. S'applique à une ressource dont le contexte d'utilisation est une salle multimédia.</NA>
+<TERME>
+<INTITULE lang="fr">en salle multimédia</INTITULE>
+<ID>scolomfr-voc-017-num-0021</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-007</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu permettant une pratique spécifique. Ex : un lieu où l'on pratique le skateboard, un lieu où l'on pratique le marteau. S'applique à une ressource dont le contexte d'utilisation est un espace dédié à une pratique spécifique.</NA>
+<TERME>
+<INTITULE lang="fr">espace dédié à une pratique spécifique</INTITULE>
+<ID>scolomfr-voc-017-num-007</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0011</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu hors de l'établissement scolaire. Ex : un parc, un commerce. S'applique à une ressource dont le contexte d'utilisation se situe hors établissement.</NA>
+<TERME>
+<INTITULE lang="fr">hors établissement</INTITULE>
+<ID>scolomfr-voc-017-num-0011</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0019</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation n'a pas été précisé ou ne figure pas dans la liste proposée ci-dessus.</NA>
+<TERME>
+<INTITULE lang="fr">non précisé</INTITULE>
+<ID>scolomfr-voc-017-num-0019</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0017</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est le milieu professionnel.</NA>
+<TERME>
+<INTITULE lang="fr">en milieu professionnel</INTITULE>
+<ID>scolomfr-voc-017-num-0017</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0018</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu en entreprise. S'applique à une ressource dont le contexte d'utilisation est le lieu de l'entreprise.</NA>
+<TERME>
+<INTITULE lang="fr">en entreprise</INTITULE>
+<ID>scolomfr-voc-017-num-0018</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0022</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu pour observer, en dehors de l'établissement scolaire. S'applique à une ressource dont le contexte d'utilisation est un terrain d'observation.</NA>
+<TERME>
+<INTITULE lang="fr">en terrain d'observation</INTITULE>
+<ID>scolomfr-voc-017-num-0022</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-026</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">La ressource est utilisée de façon non fixe. S'applique à une ressource dont le contexte d'utilisation est nomade.</NA>
+<TERME>
+<INTITULE lang="fr">en mobilité</INTITULE>
+<ID>scolomfr-voc-017-num-0026</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-041</ID>
+<DF lang="fr">Lieu</DF>
+<TERME>
+<INTITULE lang="fr">en accueil de loisirs</INTITULE>
+<ID>scolomfr-voc-017-num-041</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0411</ID>
+<DF lang="fr">Lieu</DF>
+<TERME>
+<INTITULE lang="fr">en accueil de loisirs sans hébergement</INTITULE>
+<ID>scolomfr-voc-017-num-0411</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">accueil de loisirs sans hébergement</INTITULE>
+<ID>scolomfr-voc-017-num-04111</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">centre de loisirs associé à l'école</INTITULE>
+<ID>scolomfr-voc-017-num-04114</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">centre de loisirs</INTITULE>
+<ID>scolomfr-voc-017-num-04113</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">centre de loisirs sans hébergement</INTITULE>
+<ID>scolomfr-voc-017-num-04115</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">garderie</INTITULE>
+<ID>scolomfr-voc-017-num-04118</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">CLSH</INTITULE>
+<ID>scolomfr-voc-017-num-04117</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">CLAE</INTITULE>
+<ID>scolomfr-voc-017-num-04116</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">ALSH</INTITULE>
+<ID>scolomfr-voc-017-num-04112</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0412</ID>
+<DF lang="fr">Lieu</DF>
+<TERME>
+<INTITULE lang="fr">en accueil de mineurs avec hébergement</INTITULE>
+<ID>scolomfr-voc-017-num-0412</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">colonie de vacances</INTITULE>
+<ID>scolomfr-voc-017-num-04122</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">centre de vacances</INTITULE>
+<ID>scolomfr-voc-017-num-04121</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-042</ID>
+<DF lang="fr">Lieu</DF>
+<TERME>
+<INTITULE lang="fr">en restauration scolaire</INTITULE>
+<ID>scolomfr-voc-017-num-042</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">cantine</INTITULE>
+<ID>scolomfr-voc-017-num-0421</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-026</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">La ressource est utilisée de façon non fixe. S'applique à une ressource dont le contexte d'utilisation est nomade.</NA>
+<TERME>
+<INTITULE lang="fr">en mobilité</INTITULE>
+<ID>scolomfr-voc-017-num-0026</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0022</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu pour observer, en dehors de l'établissement scolaire. S'applique à une ressource dont le contexte d'utilisation est un terrain d'observation.</NA>
+<TERME>
+<INTITULE lang="fr">en terrain d'observation</INTITULE>
+<ID>scolomfr-voc-017-num-0022</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0011</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu hors de l'établissement scolaire. Ex : un parc, un commerce. S'applique à une ressource dont le contexte d'utilisation se situe hors établissement.</NA>
+<TERME>
+<INTITULE lang="fr">hors établissement</INTITULE>
+<ID>scolomfr-voc-017-num-0011</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-007</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu permettant une pratique spécifique. Ex : un lieu où l'on pratique le skateboard, un lieu où l'on pratique le marteau. S'applique à une ressource dont le contexte d'utilisation est un espace dédié à une pratique spécifique.</NA>
+<TERME>
+<INTITULE lang="fr">espace dédié à une pratique spécifique</INTITULE>
+<ID>scolomfr-voc-017-num-007</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0021</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu équipé de matériel multimédia dans lequel les élèves peuvent travailler et suivre un cours. S'applique à une ressource dont le contexte d'utilisation est une salle multimédia.</NA>
+<TERME>
+<INTITULE lang="fr">en salle multimédia</INTITULE>
+<ID>scolomfr-voc-017-num-0021</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0020</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu dans lequel les élèves peuvent travailler et suivre un cours qui nécessite du matériel informatique. S'applique à une ressource dont le contexte d'utilisation est une salle informatique.</NA>
+<TERME>
+<INTITULE lang="fr">en salle informatique</INTITULE>
+<ID>scolomfr-voc-017-num-0020</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0019</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation n'a pas été précisé ou ne figure pas dans la liste proposée ci-dessus.</NA>
+<TERME>
+<INTITULE lang="fr">non précisé</INTITULE>
+<ID>scolomfr-voc-017-num-0019</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-042</ID>
+<DF lang="fr">Lieu</DF>
+<TERME>
+<INTITULE lang="fr">en restauration scolaire</INTITULE>
+<ID>scolomfr-voc-017-num-042</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">cantine</INTITULE>
+<ID>scolomfr-voc-017-num-0421</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-041</ID>
+<DF lang="fr">Lieu</DF>
+<TERME>
+<INTITULE lang="fr">en accueil de loisirs</INTITULE>
+<ID>scolomfr-voc-017-num-041</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0411</ID>
+<DF lang="fr">Lieu</DF>
+<TERME>
+<INTITULE lang="fr">en accueil de loisirs sans hébergement</INTITULE>
+<ID>scolomfr-voc-017-num-0411</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">accueil de loisirs sans hébergement</INTITULE>
+<ID>scolomfr-voc-017-num-04111</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">centre de loisirs associé à l'école</INTITULE>
+<ID>scolomfr-voc-017-num-04114</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">centre de loisirs</INTITULE>
+<ID>scolomfr-voc-017-num-04113</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">centre de loisirs sans hébergement</INTITULE>
+<ID>scolomfr-voc-017-num-04115</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">garderie</INTITULE>
+<ID>scolomfr-voc-017-num-04118</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">CLSH</INTITULE>
+<ID>scolomfr-voc-017-num-04117</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">CLAE</INTITULE>
+<ID>scolomfr-voc-017-num-04116</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">ALSH</INTITULE>
+<ID>scolomfr-voc-017-num-04112</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0412</ID>
+<DF lang="fr">Lieu</DF>
+<TERME>
+<INTITULE lang="fr">en accueil de mineurs avec hébergement</INTITULE>
+<ID>scolomfr-voc-017-num-0412</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">colonie de vacances</INTITULE>
+<ID>scolomfr-voc-017-num-04122</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">centre de vacances</INTITULE>
+<ID>scolomfr-voc-017-num-04121</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0015</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un laboratoire de langues, un lieu qui privilégie une pratique orale des langues par la mise à disposition d'un matériel adapté (postes d'écoute, supports multimédia, etc).</NA>
+<TERME>
+<INTITULE lang="fr">en laboratoire de langues</INTITULE>
+<ID>scolomfr-voc-017-num-0015</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0016</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est le milieu familial.</NA>
+<TERME>
+<INTITULE lang="fr">en milieu familial</INTITULE>
+<ID>scolomfr-voc-017-num-0016</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en famille</INTITULE>
+<ID>scolomfr-voc-017-num-0028</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">à la maison</INTITULE>
+<ID>scolomfr-voc-017-num-029</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">à domicile</INTITULE>
+<ID>scolomfr-voc-017-num-0030</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0010</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne tout type de musée. La ressource est utilisée en complément ou en illustration des expositions du musée. S'applique à une ressource dont le contexte d'utilisation est un musée.</NA>
+<TERME>
+<INTITULE lang="fr">en musée</INTITULE>
+<ID>scolomfr-voc-017-num-0010</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-005</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est une salle de classe, le lieu privilégié de dispense de l'enseignement. A ne pas confondre avec la modalité pédagogique "en groupe de classe" ou à un groupe de personnes.</NA>
+<TERME>
+<INTITULE lang="fr">en salle de classe</INTITULE>
+<ID>scolomfr-voc-017-num-005</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-002</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu où se déroulent des travaux manuels, des activités manuelles telles que la sculpture, l'ébénisterie, etc. S'applique à une ressource dont le contexte d'utilisation est un atelier.</NA>
+<TERME>
+<INTITULE lang="fr">en atelier</INTITULE>
+<ID>scolomfr-voc-017-num-002</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-003</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu de formation dont l'activité pédagogique est organisée autour d'un centre de ressources pédagogiques, conçu et animé par des professionnels de la formation individualisée.</NA>
+<TERME>
+<INTITULE lang="fr">en atelier de pédagogie personnalisée</INTITULE>
+<ID>scolomfr-voc-017-num-003</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-001</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu dont les sièges sont disposés en gradins. S'applique à une ressource dont le contexte d'utilisation est un amphithéâtre. Un cours en amphithéâtre donne généralement lieu à un cours magistral.</NA>
+<TERME>
+<INTITULE lang="fr">en amphithéâtre</INTITULE>
+<ID>scolomfr-voc-017-num-001</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-009</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne les bibliothèques et/ou médiathèques de lecture publique. S'applique à une ressource dont le contexte d'utilisation est une bibliothèque, une médiathèque.</NA>
+<TERME>
+<INTITULE lang="fr">en bibliothèque, médiathèque</INTITULE>
+<ID>scolomfr-voc-017-num-009</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0018</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu en entreprise. S'applique à une ressource dont le contexte d'utilisation est le lieu de l'entreprise.</NA>
+<TERME>
+<INTITULE lang="fr">en entreprise</INTITULE>
+<ID>scolomfr-voc-017-num-0018</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-006</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est réservé à un établissement d'enseignement scolaire.</NA>
+<TERME>
+<INTITULE lang="fr">en établissement</INTITULE>
+<ID>scolomfr-voc-017-num-006</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en établissement scolaire</INTITULE>
+<ID>scolomfr-voc-017-num-0061</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-004</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne les CDI d'établissements scolaires.</NA>
+<TERME>
+<INTITULE lang="fr">en CDI (Centre de documentation et d'information)</INTITULE>
+<ID>scolomfr-voc-017-num-004</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en learning centre</INTITULE>
+<ID>scolomfr-voc-017-num-036</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">en centre de connaissances et de culture</INTITULE>
+<ID>scolomfr-voc-017-num-034</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">en learning center</INTITULE>
+<ID>scolomfr-voc-017-num-035</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0017</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est le milieu professionnel.</NA>
+<TERME>
+<INTITULE lang="fr">en milieu professionnel</INTITULE>
+<ID>scolomfr-voc-017-num-0017</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0014</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un laboratoire, autrement dit un « local disposé pour faire des recherches, des analyses, des expériences dans un domaine scientifique quelconque ». [Le Thésaurus de l'activité gouvernementale québécois]</NA>
+<TERME>
+<INTITULE lang="fr">en laboratoire</INTITULE>
+<ID>scolomfr-voc-017-num-0014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en laboratoire scientifique</INTITULE>
+<ID>scolomfr-voc-017-num-00141</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0013</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est une installation sportive où se pratique un sport. Ex : un dojo, un gymnase.</NA>
+<TERME>
+<INTITULE lang="fr">en installation sportive</INTITULE>
+<ID>scolomfr-voc-017-num-0013</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en infrastructure sportive</INTITULE>
+<ID>scolomfr-voc-017-num-00131</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0012</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne un lieu où se pratique une activité ludique. S'applique à une ressource dont le contexte d'utilisation est une installation de loisirs où se pratique une activité de loisirs. Ex : aire de jeux, base de loisirs, minigolf.</NA>
+<TERME>
+<INTITULE lang="fr">en installation de loisirs</INTITULE>
+<ID>scolomfr-voc-017-num-0012</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">base de loisirs</INTITULE>
+<ID>scolomfr-voc-017-num-031</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">aire de jeux</INTITULE>
+<ID>scolomfr-voc-017-num-030</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">minigolf</INTITULE>
+<ID>scolomfr-voc-017-num-032</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-008</ID>
+<DF lang="fr">Lieu</DF>
+<NA lang="fr">Désigne les établissements donnant accès à la culture. S'applique à une ressource dont le contexte d'utilisation est un établissement socioculturel, un établissement à l'initiative d'un large panel d'animations, de loisirs et d'événements culturels et sportifs qui s'adressent aux habitants d'un quartier, tous publics confondus.</NA>
+<TERME>
+<INTITULE lang="fr">en établissement socioculturel</INTITULE>
+<ID>scolomfr-voc-017-num-008</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en établissement socio-culturel</INTITULE>
+<ID>scolomfr-voc-017-num-033</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">au théâtre</INTITULE>
+<ID>scolomfr-voc-017-num-0083</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">à l'opéra</INTITULE>
+<ID>scolomfr-voc-017-num-0081</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">au cinéma</INTITULE>
+<ID>scolomfr-voc-017-num-0082</ID>
+</TERME_TE>
+</CONCEPT>
+</NOMENCLATURE>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-001" name="scolomfr-voc-043 (Support)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-007" prefTerm="document imprimé">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-007</value>
+    <value>document imprimé</value>
+    <value>scolomfr-voc-043-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-004" prefTerm="clé USB">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-004</value>
+    <value>clé USB</value>
+    <value>scolomfr-voc-043-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-002" prefTerm="carte à puce">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-002</value>
+    <value>carte à puce</value>
+    <value>scolomfr-voc-043-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-010" prefTerm="support magnétique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-010</value>
+    <value>support magnétique</value>
+    <value>scolomfr-voc-043-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-003" prefTerm="carte mémoire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-003</value>
+    <value>carte mémoire</value>
+    <value>scolomfr-voc-043-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-006" prefTerm="diapositive">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-006</value>
+    <value>diapositive</value>
+    <value>scolomfr-voc-043-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-005" prefTerm="cédérom">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-005</value>
+    <value>cédérom</value>
+    <value>scolomfr-voc-043-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-009" prefTerm="kit pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-009</value>
+    <value>kit pédagogique</value>
+    <value>scolomfr-voc-043-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-011" prefTerm="support numérique en ligne">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-011</value>
+    <value>support numérique en ligne</value>
+    <value>scolomfr-voc-043-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-008" prefTerm="dévédérom">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-008</value>
+    <value>dévédérom</value>
+    <value>scolomfr-voc-043-num-011</value>
+  </concept>
+</vocab>

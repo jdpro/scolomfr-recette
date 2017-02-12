@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-023-num-003" name="scolomfr-voc-023 (TypeTechnique)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/browser" prefTerm="navigateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/browser</value>
+    <value>navigateur</value>
+    <value>browser</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/operating_system" prefTerm="système d'exploitation">
+    <value>http://data.education.fr/voc/scolomfr/concept/operating_system</value>
+    <value>système d'exploitation</value>
+    <value>operating system</value>
+  </concept>
+</vocab>

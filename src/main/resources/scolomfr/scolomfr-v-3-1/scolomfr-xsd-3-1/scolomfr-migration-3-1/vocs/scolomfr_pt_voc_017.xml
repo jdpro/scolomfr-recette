@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-040" name="scolomfr-voc-017 (Lieu)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-001" prefTerm="en amphithéâtre">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-001</value>
+    <value>en amphithéâtre</value>
+    <value>scolomfr-voc-017-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-002" prefTerm="en atelier">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-002</value>
+    <value>en atelier</value>
+    <value>scolomfr-voc-017-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-003" prefTerm="en atelier de pédagogie personnalisée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-003</value>
+    <value>en atelier de pédagogie personnalisée</value>
+    <value>scolomfr-voc-017-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-009" prefTerm="en bibliothèque, médiathèque">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-009</value>
+    <value>en bibliothèque, médiathèque</value>
+    <value>scolomfr-voc-017-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-004" prefTerm="en CDI (Centre de documentation et d'information)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-004</value>
+    <value>en CDI (Centre de documentation et d'information)</value>
+    <value>scolomfr-voc-017-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-006" prefTerm="en établissement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-006</value>
+    <value>en établissement</value>
+    <value>scolomfr-voc-017-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-008" prefTerm="en établissement socioculturel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-008</value>
+    <value>en établissement socioculturel</value>
+    <value>scolomfr-voc-017-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0012" prefTerm="en installation de loisirs">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0012</value>
+    <value>en installation de loisirs</value>
+    <value>scolomfr-voc-017-num-0012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0013" prefTerm="en installation sportive">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0013</value>
+    <value>en installation sportive</value>
+    <value>scolomfr-voc-017-num-0013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0014" prefTerm="en laboratoire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0014</value>
+    <value>en laboratoire</value>
+    <value>scolomfr-voc-017-num-0014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0015" prefTerm="en laboratoire de langues">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0015</value>
+    <value>en laboratoire de langues</value>
+    <value>scolomfr-voc-017-num-0015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0016" prefTerm="en milieu familial">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0016</value>
+    <value>en milieu familial</value>
+    <value>scolomfr-voc-017-num-0016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0010" prefTerm="en musée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0010</value>
+    <value>en musée</value>
+    <value>scolomfr-voc-017-num-0010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-005" prefTerm="en salle de classe">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-005</value>
+    <value>en salle de classe</value>
+    <value>scolomfr-voc-017-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0020" prefTerm="en salle informatique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0020</value>
+    <value>en salle informatique</value>
+    <value>scolomfr-voc-017-num-0020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0021" prefTerm="en salle multimédia">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0021</value>
+    <value>en salle multimédia</value>
+    <value>scolomfr-voc-017-num-0021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-007" prefTerm="espace dédié à une pratique spécifique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-007</value>
+    <value>espace dédié à une pratique spécifique</value>
+    <value>scolomfr-voc-017-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0011" prefTerm="hors établissement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0011</value>
+    <value>hors établissement</value>
+    <value>scolomfr-voc-017-num-0011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0019" prefTerm="non précisé">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0019</value>
+    <value>non précisé</value>
+    <value>scolomfr-voc-017-num-0019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0017" prefTerm="en milieu professionnel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0017</value>
+    <value>en milieu professionnel</value>
+    <value>scolomfr-voc-017-num-0017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0018" prefTerm="en entreprise">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0018</value>
+    <value>en entreprise</value>
+    <value>scolomfr-voc-017-num-0018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0022" prefTerm="en terrain d'observation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0022</value>
+    <value>en terrain d'observation</value>
+    <value>scolomfr-voc-017-num-0022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-026" prefTerm="en mobilité">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-026</value>
+    <value>en mobilité</value>
+    <value>scolomfr-voc-017-num-0026</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-041" prefTerm="en accueil de loisirs">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-041</value>
+    <value>en accueil de loisirs</value>
+    <value>scolomfr-voc-017-num-041</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0412" prefTerm="en accueil de mineurs avec hébergement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0412</value>
+    <value>en accueil de mineurs avec hébergement</value>
+    <value>scolomfr-voc-017-num-0412</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0411" prefTerm="en accueil de loisirs sans hébergement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-0411</value>
+    <value>en accueil de loisirs sans hébergement</value>
+    <value>scolomfr-voc-017-num-0411</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-042" prefTerm="en restauration scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-042</value>
+    <value>en restauration scolaire</value>
+    <value>scolomfr-voc-017-num-042</value>
+  </concept>
+</vocab>

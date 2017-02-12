@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-004" name="scolomfr-voc-046 (TypeDistribution)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-003" prefTerm="téléchargeable">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-003</value>
+    <value>téléchargeable</value>
+    <value>scolomfr-voc-046-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-001" prefTerm="en ligne">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-001</value>
+    <value>en ligne</value>
+    <value>scolomfr-voc-046-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-002" prefTerm="mode de distribution physique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-046-num-002</value>
+    <value>mode de distribution physique</value>
+    <value>scolomfr-voc-046-num-005</value>
+  </concept>
+</vocab>

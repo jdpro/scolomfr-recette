@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-025" name="scolomfr-voc-009 (Relation)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-023" prefTerm="a pour aperçu">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-023</value>
+    <value>a pour aperçu</value>
+    <value>scolomfr-voc-009-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-022" prefTerm="a pour logo">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-022</value>
+    <value>a pour logo</value>
+    <value>scolomfr-voc-009-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-021" prefTerm="a pour vignette">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-021</value>
+    <value>a pour vignette</value>
+    <value>scolomfr-voc-009-num-021</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/conformsTo" prefTerm="conforme à">
+    <value>http://purl.org/dc/terms/conformsTo</value>
+    <value>conforme à</value>
+    <value>conformsTo</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/hasPart" prefTerm="contient">
+    <value>http://purl.org/dc/terms/hasPart</value>
+    <value>contient</value>
+    <value>haspart</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/references" prefTerm="contient une référence à">
+    <value>http://purl.org/dc/terms/references</value>
+    <value>contient une référence à</value>
+    <value>references</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-001" prefTerm="est associé à">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-001</value>
+    <value>est associé à</value>
+    <value>scolomfr-voc-009-num-001</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/source" prefTerm="est basé sur">
+    <value>http://purl.org/dc/terms/source</value>
+    <value>est basé sur</value>
+    <value>isbasedon</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/isbasisfor" prefTerm="est la base de">
+    <value>http://data.education.fr/voc/scolomfr/concept/isbasisfor</value>
+    <value>est la base de</value>
+    <value>isbasisfor</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-002" prefTerm="est la localisation de">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-002</value>
+    <value>est la localisation de</value>
+    <value>scolomfr-voc-009-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-016" prefTerm="est la traduction de">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-016</value>
+    <value>est la traduction de</value>
+    <value>scolomfr-voc-009-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-024" prefTerm="est l'aperçu de">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-024</value>
+    <value>est l'aperçu de</value>
+    <value>scolomfr-voc-009-num-024</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/isReferencedBy" prefTerm="est référencé par">
+    <value>http://purl.org/dc/terms/isReferencedBy</value>
+    <value>est référencé par</value>
+    <value>isreferencedby</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/isReplacedBy" prefTerm="est remplacé par">
+    <value>http://purl.org/dc/terms/isReplacedBy</value>
+    <value>est remplacé par</value>
+    <value>isReplacedBy</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/isRequiredBy" prefTerm="est requis par">
+    <value>http://purl.org/dc/terms/isRequiredBy</value>
+    <value>est requis par</value>
+    <value>isrequiredby</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/isFormatOf" prefTerm="est un format de">
+    <value>http://purl.org/dc/terms/isFormatOf</value>
+    <value>est un format de</value>
+    <value>isformatof</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/isPartOf" prefTerm="est une partie de">
+    <value>http://purl.org/dc/terms/isPartOf</value>
+    <value>est une partie de</value>
+    <value>ispartof</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/isVersionOf" prefTerm="est une version de">
+    <value>http://purl.org/dc/terms/isVersionOf</value>
+    <value>est une version de</value>
+    <value>isversionof</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/hasFormat" prefTerm="existe dans un format">
+    <value>http://purl.org/dc/terms/hasFormat</value>
+    <value>existe dans un format</value>
+    <value>hasformat</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/hasVersion" prefTerm="existe en une autre version">
+    <value>http://purl.org/dc/terms/hasVersion</value>
+    <value>existe en une autre version</value>
+    <value>hasversion</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-003" prefTerm="fait l'objet d'une localisation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-003</value>
+    <value>fait l'objet d'une localisation</value>
+    <value>scolomfr-voc-009-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-017" prefTerm="fait l'objet d'une traduction">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-017</value>
+    <value>fait l'objet d'une traduction</value>
+    <value>scolomfr-voc-009-num-017</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/replaces" prefTerm="remplace">
+    <value>http://purl.org/dc/terms/replaces</value>
+    <value>remplace</value>
+    <value>replaces</value>
+  </concept>
+  <concept id="http://purl.org/dc/terms/requires" prefTerm="requiert">
+    <value>http://purl.org/dc/terms/requires</value>
+    <value>requiert</value>
+    <value>requires</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-031" prefTerm="est une déclinaison de l'œuvre">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-031</value>
+    <value>est une déclinaison de l'œuvre</value>
+    <value>scolomfr-voc-009-num-031</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-030" prefTerm="a pour déclinaison">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-030</value>
+    <value>a pour déclinaison</value>
+    <value>scolomfr-voc-009-num-030</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-035" prefTerm="a pour version de démo">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-035</value>
+    <value>a pour version de démo</value>
+    <value>scolomfr-voc-009-num-035</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-036" prefTerm="est la version bridée de">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-036</value>
+    <value>est la version bridée de</value>
+    <value>scolomfr-voc-009-num-036</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-034" prefTerm="est la version de démo de">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-034</value>
+    <value>est la version de démo de</value>
+    <value>scolomfr-voc-009-num-034</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-033" prefTerm="est la version enseignant de">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-033</value>
+    <value>est la version enseignant de</value>
+    <value>scolomfr-voc-009-num-033</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-037" prefTerm="est la version non bridée de">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-037</value>
+    <value>est la version non bridée de</value>
+    <value>scolomfr-voc-009-num-037</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-032" prefTerm="est la version élève de">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-032</value>
+    <value>est la version élève de</value>
+    <value>scolomfr-voc-009-num-032</value>
+  </concept>
+</vocab>

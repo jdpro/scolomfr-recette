@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-007-num-006" name="scolomfr-voc-007 (Structure)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/atomic" prefTerm="atomique">
+    <value>http://data.education.fr/voc/scolomfr/concept/atomic</value>
+    <value>atomique</value>
+    <value>atomic</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/collection_2" prefTerm="collection">
+    <value>http://data.education.fr/voc/scolomfr/concept/collection_2</value>
+    <value>collection</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/networked" prefTerm="en réseau">
+    <value>http://data.education.fr/voc/scolomfr/concept/networked</value>
+    <value>en réseau</value>
+    <value>networked</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/hierarchical" prefTerm="hiérarchique">
+    <value>http://data.education.fr/voc/scolomfr/concept/hierarchical</value>
+    <value>hiérarchique</value>
+    <value>hierarchical</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/linear" prefTerm="linéaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/linear</value>
+    <value>linéaire</value>
+    <value>linear</value>
+  </concept>
+</vocab>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-011</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <NA lang="fr">Concours organisé pour le recrutement de conseillers d'orientation psychologues.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours de COP</INTITULE>
+         <ID>scolomfr-voc-036-num-023</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-010</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <NA lang="fr">Concours organisé pour le recrutement de conseillers principaux d'éducation.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours de CPE</INTITULE>
+         <ID>scolomfr-voc-036-num-022</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-002</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <NA lang="fr">Concours organisé pour le recrutement de professeurs agrégés de l'enseignement du second degré.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours de l'agrégation</INTITULE>
+         <ID>scolomfr-voc-036-num-014</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-006</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <TERME>
+         <INTITULE lang="fr">concours du CAER-CAPES</INTITULE>
+         <ID>scolomfr-voc-036-num-018</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-004</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <TERME>
+         <INTITULE lang="fr">concours du CAERPA</INTITULE>
+         <ID>scolomfr-voc-036-num-016</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-005</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <TERME>
+         <INTITULE lang="fr">concours du CAFEP-CAPES</INTITULE>
+         <ID>scolomfr-voc-036-num-017</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-007</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <NA lang="fr">Concours organisé pour le recrutement de professeurs certifiés en éducation physique et sportive de l'enseignement du second degré.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours du CAPEPS</INTITULE>
+         <ID>scolomfr-voc-036-num-019</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-003</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <NA lang="fr">Concours organisé pour le recrutement de professeurs certifiés de l'enseignement du second degré.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours du CAPES</INTITULE>
+         <ID>scolomfr-voc-036-num-015</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-012</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <NA lang="fr">Concours organisé pour le recrutement de professeurs certifiés de l'enseignement technique.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours du CAPET</INTITULE>
+         <ID>scolomfr-voc-036-num-024</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-008</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <NA lang="fr">Concours organisé pour le recrutement de professeurs certifiés de lycée professionnel.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours du CAPLP</INTITULE>
+         <ID>scolomfr-voc-036-num-020</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-009</ID>
+      <DF lang="fr">Concours de l'Éducation nationale</DF>
+      <NA lang="fr">Concours organisé pour le recrutement de professeurs des écoles.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours du CRPE</INTITULE>
+         <ID>scolomfr-voc-036-num-021</ID>
+      </TERME>
+   </CONCEPT>
+</NOMENCLATURE>

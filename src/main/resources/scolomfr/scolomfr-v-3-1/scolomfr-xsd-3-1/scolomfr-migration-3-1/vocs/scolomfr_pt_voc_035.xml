@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-001" name="scolomfr-voc-035 (TypeAccèsConcours)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-002" prefTerm="concours interne">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-002</value>
+    <value>concours interne</value>
+    <value>scolomfr-voc-035-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-004" prefTerm="concours réservé">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-004</value>
+    <value>concours réservé</value>
+    <value>scolomfr-voc-035-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-005" prefTerm="troisième concours">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-005</value>
+    <value>troisième concours</value>
+    <value>scolomfr-voc-035-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-003" prefTerm="concours externe">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-035-num-003</value>
+    <value>concours externe</value>
+    <value>scolomfr-voc-035-num-008</value>
+  </concept>
+</vocab>

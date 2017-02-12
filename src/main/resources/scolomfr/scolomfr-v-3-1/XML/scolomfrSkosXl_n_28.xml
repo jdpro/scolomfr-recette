@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-019</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-042, pour le référentiel européen d'apprentissage des langues.</NA>
+      <TERME>
+         <INTITULE lang="fr">cadre européen commun de référence pour les langues</INTITULE>
+         <ID>scolomfr-voc-028-num-019</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CECRL</INTITULE>
+         <ID>scolomfr-voc-028-num-020</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-032</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-040, pour les référentiels permettant de décrire un contexte d'usage pour l'enseignant en termes de structure scolaire et de relations entre l'enseignant et le cadre institutionnel.</NA>
+      <TERME>
+         <INTITULE lang="fr">cadre pédagogique</INTITULE>
+         <ID>scolomfr-voc-028-num-032</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/discipline</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-014, pour les référentiels définissant les disciplines de recrutement et de poste de personnels enseignants, d'éducation, d'orientation, ASS (Administratifs, sociaux et de santé) et d'encadrement.</NA>
+      <TERME>
+         <INTITULE lang="fr">champ disciplinaire</INTITULE>
+         <ID>discipline</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">champ disciplinaire</INTITULE>
+         <ID>scolomfr-voc-028-num-001</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/competency</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">compétence</INTITULE>
+         <ID>competency</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">compétence</INTITULE>
+         <ID>scolomfr-voc-028-num-002</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-034</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-036, pour les référentiels définissant la liste des concours de recrutement de l'Éducation nationale.</NA>
+      <TERME>
+         <INTITULE lang="fr">concours de l'Éducation nationale</INTITULE>
+         <ID>scolomfr-voc-028-num-034</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-016</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-029, pour les diplômes de l'enseignement professionnel.</NA>
+      <TERME>
+         <INTITULE lang="fr">diplôme</INTITULE>
+         <ID>scolomfr-voc-028-num-016</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-003</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-015, pour le référentiel définissant le domaine d'enseignement précis dans lequel la ressource peut être utilisée.</NA>
+      <TERME>
+         <INTITULE lang="fr">domaine d'enseignement</INTITULE>
+         <ID>scolomfr-voc-028-num-003</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-013</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-045, pour valider une compatibilité technique.</NA>
+      <TERME>
+         <INTITULE lang="fr">label</INTITULE>
+         <ID>scolomfr-voc-028-num-013</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/skill_level</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Pour les référentiels typiquement utilisés en formation professionnelle ou formation continue pour définir le niveau des apprenants visés par la ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">niveau de compétence</INTITULE>
+         <ID>skill level</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">niveau de compétence</INTITULE>
+         <ID>scolomfr-voc-028-num-005</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/security_level</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Pour les référentiels permettant de définir des permissions et/ou des autorisations d'accès à la ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">niveau de sécurité</INTITULE>
+         <ID>security level</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">niveau de sécurité</INTITULE>
+         <ID>scolomfr-voc-028-num-006</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/educational_level</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-022, pour les référentiels typiquement utilisés pour définir le niveau des élèves/étudiants visés par une ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">niveau éducatif détaillé</INTITULE>
+         <ID>educational level</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">niveau éducatif détaillé</INTITULE>
+         <ID>scolomfr-voc-028-num-007</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/idea</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Pour les référentiels sur des connaissances élémentaires. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">notion</INTITULE>
+         <ID>idea</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">notion</INTITULE>
+         <ID>scolomfr-voc-028-num-008</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/educational_objective</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Pour les référentiels définissant ce qu'on cherche à atteindre par l'action de formation. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">objectif pédagogique</INTITULE>
+         <ID>educational objective</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">objectif pédagogique</INTITULE>
+         <ID>scolomfr-voc-028-num-009</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/prerequisite</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Pour les référentiels définissant des savoirs et savoir-faire nécessaires à la bonne compréhension de la ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">pré-requis</INTITULE>
+         <ID>prerequisite</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">pré-requis</INTITULE>
+         <ID>scolomfr-voc-028-num-010</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-011</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-021, pour les référentiels définissant les publics cibles visés par la ressource.</NA>
+      <TERME>
+         <INTITULE lang="fr">public cible détaillé</INTITULE>
+         <ID>scolomfr-voc-028-num-011</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/accessibility_restrictions</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Pour les référentiels définissant les conditions d'accès pour des publics particuliers utilisateurs (handicapés, public averti...). Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">restriction d'accessibilité</INTITULE>
+         <ID>accessibility restrictions</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">restriction d'accessibilité</INTITULE>
+         <ID>scolomfr-voc-028-num-012</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-021</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-016, pour les référentiels utilisés aussi bien dans le système éducatif qu'en formation professionnelle servant à définir les compétences, les connaissances et la culture pouvant être acquises au moyen de la ressource.</NA>
+      <TERME>
+         <INTITULE lang="fr">socle commun</INTITULE>
+         <ID>scolomfr-voc-028-num-022</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">SCCC</INTITULE>
+         <ID>scolomfr-voc-028-num-027</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">SCCCC</INTITULE>
+         <ID>scolomfr-voc-028-num-028</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">compétences du socle commun</INTITULE>
+         <ID>scolomfr-voc-028-num-029</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">socle commun de connaissances, de compétences et de culture</INTITULE>
+         <ID>scolomfr-voc-028-num-030</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">socle commun des connaissances et des compétences</INTITULE>
+         <ID>scolomfr-voc-028-num-031</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-035</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-037, pour les référentiels limités aux statuts existants et utilisés dans l'Éducation nationale.</NA>
+      <TERME>
+         <INTITULE lang="fr">statuts des personnels de l'Éducation nationale</INTITULE>
+         <ID>scolomfr-voc-028-num-035</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-023</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-043, pour les référentiels définissant la typologie des supports des ressources.</NA>
+      <TERME>
+         <INTITULE lang="fr">support</INTITULE>
+         <ID>scolomfr-voc-028-num-024</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-014</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-046. En cours de création.</NA>
+      <TERME>
+         <INTITULE lang="fr">type de distribution</INTITULE>
+         <ID>scolomfr-voc-028-num-014</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-017</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-041, pour les référentiels définissant les typologies de troubles.</NA>
+      <TERME>
+         <INTITULE lang="fr">type de trouble</INTITULE>
+         <ID>scolomfr-voc-028-num-036</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">type de déficience</INTITULE>
+         <ID>scolomfr-voc-028-num-017</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-033</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Vocabulaire ScoLOMFR-voc-035, pour les référentiels proposant les modalités d'accès aux concours de recrutement de l'Éducation nationale.</NA>
+      <TERME>
+         <INTITULE lang="fr">type d'accès au concours</INTITULE>
+         <ID>scolomfr-voc-028-num-033</ID>
+      </TERME>
+   </CONCEPT>
+</NOMENCLATURE>

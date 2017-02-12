@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lom:lom xmlns:lom="http://ltsc.ieee.org/xsd/LOM" 
+	xmlns:lomfr="http://www.lom-fr.fr/xsd/LOMFR"
+	xmlns:scolomfr="http://www.lom-fr.fr/xsd/SCOLOMFR"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.lom-fr.fr/xsd/SCOLOMFR scolomfr.xsd">
+
+	<!--  1. Général  -->
+	<lom:general>
+		<!-- 1.1 (O) identifiants *Identifiant -->
+		<lom:identifier>
+			<lom:catalog>URL</lom:catalog>
+			<lom:entry>http://www.ac-clermont.fr/disciplines/fileadmin/user_upload/Histoire-Geographie/Troisieme/1GM/recit_Verdun/verdun_recit_fiche_presentation.pdf</lom:entry>
+		</lom:identifier>
+		<!-- 1.2 (O) titre LangString -->
+		<lom:title>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">La bataille de Verdun</lom:string>
+		</lom:title>
+		<!-- 1.3 (O) langues *Voc001 -->
+		<lom:language>http://id.loc.gov/vocabulary/iso639-2/fre</lom:language>
+		<!-- 1.4 (O) descriptions *LangString -->
+		<lom:description>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">À partir d'un extrait du film « un long dimanche de fiançailles » (assaut allemand) et la présentation brève du site sur lequel ils doivent travailler ainsi que les objectifs (décrire et expliquer en audio et raconter la bataille de Verdun à l’écrit). les élèves mettent en oeuvre des capacités. Ils sont amenés à "étudier un exemple de la violence de masse à partir de la bataille emblématique de Verdun" - laquelle démontre que cette « Grande Guerre marque une rupture majeure pour les sociétés du XX siècle ». Ils apprennent à exploiter un montage vidéo en autonomie au CDI afin de décrire/:expliquer, confronter de productions et raconter (production orale et enregistrement audio).</lom:string>
+		</lom:description>
+		<!-- 1.5 (F) motsClefsLibres *LangString -->
+		<lom:keyword>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Première Guerre mondiale</lom:string>
+		</lom:keyword>
+		<lom:keyword>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Verdun</lom:string>
+		</lom:keyword>
+		<!-- 1.6 (F) couvertures *LangString -->
+		<lom:coverage>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">France</lom:string>
+		</lom:coverage>
+		<lom:coverage>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">XXème siècle</lom:string>
+		</lom:coverage>
+		<!-- 1.7 (F) structure Voc007 -->
+		<lom:structure>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>collection</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/collection_2</lom:value>
+		</lom:structure>
+		<!-- 1.8 (F) niveauAgregation Voc008 -->
+		<lom:aggregationLevel>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</lom:value>
+		</lom:aggregationLevel>
+		<!-- 1.9 (R) typeDocumentaireDC *Voc004 -->
+		<lomfr:documentType>
+			<lomfr:label>collection</lomfr:label>
+			<lomfr:value>http://purl.org/dc/dcmitype/Collection</lomfr:value>
+		</lomfr:documentType>
+
+		<!-- 1.10 (R) typologiesGenDocument *Voc005 -->
+		<scolomfr:generalResourceType>
+			<scolomfr:label>présentation multimédia</scolomfr:label>
+			<scolomfr:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-034</scolomfr:value>
+		</scolomfr:generalResourceType>
+	</lom:general>
+	<lom:lifeCycle>
+		<!-- 2.1 (F) version LangString -->
+		<lom:version>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">version 3 du document</lom:string>
+		</lom:version>
+		<!-- 2.2 (F) etat Voc002 -->
+		<lom:status>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>révisé</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/revised</lom:value>
+		</lom:status>
+		<!-- 2.3 (O) contributions *Contribution -->
+		<lom:contribute>
+			<lom:role>
+				<lom:source>SCOLOMFRv3.1</lom:source><lom:label>auteur</lom:label>
+				<lom:value>http://data.education.fr/voc/scolomfr/concept/author</lom:value>
+			</lom:role>
+			<lom:entity><![CDATA[BEGIN:vcard
+VERSION:3.0
+FN;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:Nadine
+N;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:BOUETTE
+EMAIL;TYPE=INTERNET:nadine.bouette@ac-clermont.fr
+ORG;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:Académie de Clermont-Ferrand
+END:vcard]]></lom:entity>
+			<lom:date>
+				<lom:dateTime>2014-02-20</lom:dateTime>
+				<!-- 2.3.3.2 (F) descriptions LangString -->
+				<lom:description>
+					<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Professeur d'histoire-géographie (académie de Clermont-Ferrand)</lom:string>
+				</lom:description>
+			</lom:date>
+		</lom:contribute>
+	</lom:lifeCycle>
+	<lom:metaMetadata>
+		<!-- 3.1 (F) identifiants *Identifiant -->
+		<lom:identifier>
+			<lom:catalog>URL</lom:catalog>
+			<lom:entry>http://www.ac-clermont.fr/</lom:entry>
+		</lom:identifier>
+		<!-- 3.2 (F) contributions *Contribution -->
+		<lom:contribute>
+			<lom:role>
+				<lom:source>SCOLOMFRv3.1</lom:source><lom:label>créateur</lom:label>
+				<lom:value>http://data.education.fr/voc/scolomfr/concept/creator</lom:value>
+			</lom:role>
+			<lom:entity><![CDATA[BEGIN:vcard
+VERSION:3.0
+FN;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:Laetitia
+N;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:CORDEAU
+EMAIL;TYPE=INTERNET:laetitia.cordeau@reseau-canope.fr
+ORG;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:Réseau-Canopé
+END:vcard]]></lom:entity>
+			<lom:date>
+				<lom:dateTime>2016-11-15</lom:dateTime>
+				<!-- 3.2.3.2 (F) descriptions LangString -->
+				<lom:description>
+					<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Indexation réalisée dans le cadre de la révision du
+						manuel technique ScoLOMFR v3.1</lom:string>
+				</lom:description>
+			</lom:date>
+		</lom:contribute>
+		<!-- 3.3 (R) schemas *String -->
+		<lom:metadataSchema>ScoLOMFRv3.1</lom:metadataSchema>
+		<!-- 3.4 (F) langue Voc001 -->
+		<lom:language>http://id.loc.gov/vocabulary/iso639-2/fre</lom:language>
+	</lom:metaMetadata>
+	<lom:technical>
+		<!-- 4.1 (F) formats *Voc006 -->
+		<lom:format>http://purl.org/NET/mediatypes/application/octet-stream</lom:format>
+		<!-- 4.2 (R) taille du fichier String -->
+		<lom:size>8192</lom:size>
+		<!-- 4.3 (O) localisations *String -->
+		<lom:location>http://www.ac-clermont.fr/disciplines/fileadmin/user_upload/Histoire-Geographie/Troisieme/1GM/recit_Verdun/verdun_recit_fiche_presentation.pdf</lom:location>
+		<!-- 4.3.1 (F) localisationsEtendues *LocalisationEtendue -->
+		<scolomfr:extendedLocation>
+			<!-- 4.3.1.1 (F) localisations *String -->
+			<scolomfr:location>http://www.ac-clermont.fr/disciplines/fileadmin/user_upload/Histoire-Geographie/Troisieme/1GM/recit_Verdun/verdun_recit_fiche_presentation.pdf</scolomfr:location>
+			<!-- 4.3.1.2 (F) plateforme String -->
+			<scolomfr:platform>http://www.ac-clermont.fr/</scolomfr:platform>
+			<!-- 4.3.1.3 (F) personnalisation Voc044 -->
+			<scolomfr:personalDataProcessType>
+				<scolomfr:label>personnalisation moyenne : les données
+					transférées ne permettent pas d'identifier directement
+					l'utilisateur</scolomfr:label>
+				<scolomfr:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-044-num-003</scolomfr:value>
+			</scolomfr:personalDataProcessType>
+			<!-- 4.3.1.4 (F) descriptions *LangString -->
+			<lom:description>
+				<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">L'accès au document se fait uniquement sur le site de l'académie de Clermont-Ferrand.</lom:string>
+			</lom:description>
+		</scolomfr:extendedLocation>
+		<!-- 4.4.1 (F) exigencesMultiples *ExigenceMultiple -->
+		<lom:requirement>
+			<!-- 4.4.1 Exigences multiples (∞ seuil bas 40) {Composé OU} -->
+			<lom:orComposite>
+				<!-- 4.4.1.1 Type (technique) voc 023 (1) {Type de technologie (système d’exploitation, navigateur)} -->
+				<lom:type>
+					<lom:source>SCOLOMFRv3.1</lom:source><lom:label>navigateur</lom:label>
+					<lom:value>http://data.education.fr/voc/scolomfr/concept/browser</lom:value>
+				</lom:type>
+				<!-- 4.4.1.2 Nom (technique) voc 024 (1) {Nom de la technologie nécessaire} -->
+				<lom:name>
+					<lom:source>SCOLOMFRv3.1</lom:source><lom:label>google chrome</lom:label>
+					<lom:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</lom:value>
+				</lom:name>
+				<!-- 4.4.1.3 (F) versionMin String -->
+				<lom:minimumVersion>version 50.5</lom:minimumVersion>
+				<!-- 4.4.1.4 (F) versionMax String -->
+				<lom:maximumVersion>version 53.0</lom:maximumVersion>
+			</lom:orComposite>
+		</lom:requirement>
+		<!-- 4.5 (R) remarqueInstallation LangString -->
+		<lom:installationRemarks>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Document visualisable, imprimable et téléchargeable depuis le navigateur</lom:string>
+		</lom:installationRemarks>
+		<!-- 4.6 (F) autreExigence LangString -->
+		<lom:otherPlatformRequirements>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Un outil de lecture de document au format pdf est requis</lom:string>
+		</lom:otherPlatformRequirements>
+		<!-- 4.7 (F) duree Duree -->
+		<lom:duration>
+			<lom:duration>PT0H02M30S</lom:duration>
+		</lom:duration>
+	</lom:technical>
+	<!-- 5. Ici on n'aura qu'une balise educational qui contiendra les multiples valeurs -->
+	<lom:educational>
+		<!-- 5.2 (R) typesPedagogiqueRessource *Voc010 -->
+		<lom:learningResourceType>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>animation</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001</lom:value>
+		</lom:learningResourceType>
+		<!-- 5.5 (R) publicsCible *Voc011 -->
+		<lom:intendedEndUserRole>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>enseignant</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/teacher</lom:value>
+		</lom:intendedEndUserRole>
+		<!-- 5.6 (R) niveaux *Voc012 -->
+		<lom:context>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>enseignement secondaire</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-003</lom:value>
+		</lom:context>
+		<lom:context/>
+		<!-- 5.7 (F) ages *LangString -->
+		<lom:typicalAgeRange>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">11-15 ans</lom:string>
+		</lom:typicalAgeRange>
+		<!-- 5.8 (F) difficultes *Voc025 -->
+		<lom:difficulty>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>moyen</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/medium</lom:value>
+		</lom:difficulty>
+		<!-- 5.9 (F) dureeApprentissage Duree -->
+		<lom:typicalLearningTime>
+			<lom:duration>PT2H</lom:duration>
+		</lom:typicalLearningTime>
+		<!-- 5.10 (R) propositionsUtilisation *LangString -->
+		<lom:description>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">J'ai utilisé cette fiche dans le cadre de la visite du site à l'occasion de la commémoration de la bataille de Verdun</lom:string>
+		</lom:description>
+		<!-- 5.11 (R) languesUtilisateur *Voc001 -->
+		<lom:language>http://id.loc.gov/vocabulary/iso639-2/fre</lom:language>
+		<!-- 5.12 (F) activitesInduites *Voc019 -->
+		<lomfr:activity>
+			<lomfr:label>comprendre</lomfr:label>
+			<lomfr:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-037</lomfr:value>
+		</lomfr:activity>
+		<lomfr:activity>
+			<lomfr:label>s'informer</lomfr:label>
+			<lomfr:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-027</lomfr:value>
+		</lomfr:activity>
+		<!-- 5.13 (F) validationDesAcquis -->
+		<lomfr:credit>0 ects</lomfr:credit>
+		<!-- 5.14 (R) lieux *Voc017 -->
+		<scolomfr:place>
+			<scolomfr:label>en salle de classe</scolomfr:label>
+			<scolomfr:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-017-num-005</scolomfr:value>
+		</scolomfr:place>
+		<!-- 5.15 (R) modalitesPedagogiques *Voc018 -->
+		<scolomfr:educationalMethod>
+			<scolomfr:label>en classe entière</scolomfr:label>
+			<scolomfr:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-004</scolomfr:value>
+		</scolomfr:educationalMethod>
+		<!-- 5.16 (R) outils *Voc020 -->
+		<scolomfr:tool>
+			<scolomfr:label>vidéoprojecteur</scolomfr:label>
+			<scolomfr:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-080</scolomfr:value>
+		</scolomfr:tool>
+	</lom:educational>
+	<lom:rights>
+		<!-- 6.1 (F) cout Voc026 -->
+		<lom:cost>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>gratuit</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/no</lom:value>
+		</lom:cost>
+		<!-- 6.2 (R) droitAuteur Voc027 -->
+		<lom:copyrightAndOtherRestrictions>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>oui</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/yes_2</lom:value>
+		</lom:copyrightAndOtherRestrictions>
+		<!-- 6.3 (R) description LangString -->
+		<lom:description>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Tous les contenus présents sur le site de l'académie de Clermont-Ferrand sont couverts par le droit d’auteur. Toute reprise (texte, photo, image graphique) est dès lors conditionnée à l’accord de l’auteur en vertu de l’article L.122-4 du Code de la propriété intellectuelle.</lom:string>
+		</lom:description>
+	</lom:rights>
+	<lom:relation>
+		<!-- 7.1 (F) type Voc09 -->
+		<lom:kind>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>est une partie de</lom:label>
+			<lom:value>http://purl.org/dc/terms/isPartOf</lom:value>
+		</lom:kind>
+		<!-- 7.2 (F) Ressource -->
+		<lom:resource>
+			<!-- 7.2.1 (F) identifiants *Identifiant -->
+			<lom:identifier>
+				<lom:catalog>URL</lom:catalog>
+				<lom:entry>http://www.ac-clermont.fr/</lom:entry>
+			</lom:identifier>
+			<!-- 7.2.2 (F) descriptions *LangString -->
+			<lom:description>
+				<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Site de l'académie de Clermont-Ferrand</lom:string>
+			</lom:description>
+		</lom:resource>
+	</lom:relation>
+	<!-- 8. (F) annotations *Annotation -->
+	<lom:annotation>
+		<!-- 8.1 (F) entite Vcard -->
+		<lom:entity><![CDATA[BEGIN:vcard
+VERSION:3.0
+FN;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:prénom
+N;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:nom
+EMAIL;TYPE=INTERNET:mail@mail.fr
+ORG;ENCODING=8BIT;CHARSET=UTF-8;LANGUAGE=fr-FR:Mail.fr
+END:vcard]]></lom:entity>
+		<!-- 8.2 (F) date string -->
+		<lom:date>
+			<lom:dateTime>2016-11-15</lom:dateTime>
+		</lom:date>
+		<!-- 8.3 (F) description LangString -->
+		<lom:description>
+			<lom:string language="http://id.loc.gov/vocabulary/iso639-2/fre">Commentaire 1 : à utiliser également dans le cadre des nouveaux programmes</lom:string>
+		</lom:description>
+	</lom:annotation>
+	<!--
+		9.x (R) niveauEducDetaille *Voc22
+		9.x (R) domaineEnseignement *Voc15
+		9.x (R) label *Voc45
+	-->
+	<lom:classification>
+		<!-- 9.1 Objectif de classification [cf. scolomfr-voc-028] = niveau éducatif détaillé -->
+		<lom:purpose>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>niveau éducatif détaillé</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/educational_level</lom:value>
+		</lom:purpose>
+		<!-- 9.2 Chemin taxon avec valeurs de niveau éducatif détaillé [cf. scolomfr-voc-022] -->
+		<lom:taxonPath>
+			<lom:source>
+				<lom:string>SCOLOMFRv3.1 ; scolomfr-voc-022 ; Niveau éducatif détaillé</lom:string>
+			</lom:source>
+			<lom:taxon>
+				<lom:id>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-626</lom:id>
+				<lom:entry>
+					<lom:string>Niveau éducatif détaillé (2015-)</lom:string>
+				</lom:entry>
+			</lom:taxon>
+			<lom:taxon>
+				<lom:id>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-016</lom:id>
+				<lom:entry>
+					<lom:string>collège</lom:string>
+				</lom:entry>
+			</lom:taxon>
+			<lom:taxon>
+				<lom:id>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-023</lom:id>
+				<lom:entry>
+					<lom:string>3e</lom:string>
+				</lom:entry>
+			</lom:taxon>
+		</lom:taxonPath>
+		<!-- 9.3 (F) description String -->
+		<lom:description>
+			<lom:string>Ressource pour la classe de 3e</lom:string>
+		</lom:description>
+	</lom:classification>
+	<lom:classification>
+		<!-- 9.1 (R) Purpose = domaine d'enseignement -->
+		<lom:purpose>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>domaine d'enseignement</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-003</lom:value>
+		</lom:purpose>
+		<!-- 9.2 (R) -->
+		<lom:taxonPath>
+			<lom:source>
+				<lom:string>SCOLOMFRv3.1 ; scolomfr-voc-015 ; Domaine d'enseignement</lom:string>
+			</lom:source>
+			<lom:taxon>
+				<lom:id>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1273</lom:id>
+				<lom:entry>
+					<lom:string>enseignements du collège</lom:string>
+				</lom:entry>
+			</lom:taxon>
+			<lom:taxon>
+				<lom:id>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-980</lom:id>
+				<lom:entry>
+					<lom:string>histoire et géographie (discipline)</lom:string>
+				</lom:entry>
+			</lom:taxon>
+			<lom:taxon>
+				<lom:id>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1007</lom:id>
+				<lom:entry>
+					<lom:string>histoire et géographie (cycle 4)</lom:string>
+				</lom:entry>
+			</lom:taxon>
+			<lom:taxon>
+				<lom:id>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3081</lom:id>
+				<lom:entry>
+					<lom:string>civils et militaires dans la Première Guerre mondiale (histoire 3e)</lom:string>
+				</lom:entry>
+			</lom:taxon>
+		</lom:taxonPath>
+		<!-- 9.3 (F) description String -->
+		<lom:description>
+			<lom:string>élément d'une présentation assistée par ordinateur</lom:string>
+		</lom:description>
+	</lom:classification>
+
+	<lom:classification>
+		<!-- 9.1 Objectif de classification [cf. scolomfr-voc-028] = label -->
+		<lom:purpose>
+			<lom:source>SCOLOMFRv3.1</lom:source><lom:label>label</lom:label>
+			<lom:value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-013</lom:value>
+		</lom:purpose>
+		<!-- 9.2 Chemin taxon avec valeurs de labels [cf. scolomfr-voc-045]  -->
+		<lom:taxonPath>
+			<lom:source>
+				<lom:string>SCOLOMFRv3.1 ; scolomfr-voc-045 ; Label</lom:string>
+			</lom:source>
+			<lom:taxon>
+				<lom:id>http://data.education.fr/gar</lom:id>
+				<lom:entry>
+					<lom:string>GAR</lom:string>
+				</lom:entry>
+			</lom:taxon>
+		</lom:taxonPath>
+		<!-- 9.3 (F) description String -->
+		<lom:description>
+			<lom:string>Gestionnaire d'accès aux ressources</lom:string>
+		</lom:description>
+	</lom:classification>
+</lom:lom>

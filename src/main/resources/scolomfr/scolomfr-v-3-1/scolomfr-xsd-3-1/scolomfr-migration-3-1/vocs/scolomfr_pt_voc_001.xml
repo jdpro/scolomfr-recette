@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-001-num-0507" name="scolomfr-voc-001 (Langue)">
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/wak" prefTerm="wakashanes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/wak</value>
+    <value>wakashanes, langues</value>
+    <value>scolomfr-voc-001-num-0487</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/wln" prefTerm="wallon">
+    <value>http://id.loc.gov/vocabulary/iso639-2/wln</value>
+    <value>wallon</value>
+    <value>scolomfr-voc-001-num-0488</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/war" prefTerm="waray">
+    <value>http://id.loc.gov/vocabulary/iso639-2/war</value>
+    <value>waray</value>
+    <value>scolomfr-voc-001-num-0489</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/wol" prefTerm="wolof">
+    <value>http://id.loc.gov/vocabulary/iso639-2/wol</value>
+    <value>wolof</value>
+    <value>scolomfr-voc-001-num-0492</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/xho" prefTerm="xhosa">
+    <value>http://id.loc.gov/vocabulary/iso639-2/xho</value>
+    <value>xhosa</value>
+    <value>scolomfr-voc-001-num-0493</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/yao" prefTerm="yao">
+    <value>http://id.loc.gov/vocabulary/iso639-2/yao</value>
+    <value>yao</value>
+    <value>scolomfr-voc-001-num-0494</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/yap" prefTerm="yapois">
+    <value>http://id.loc.gov/vocabulary/iso639-2/yap</value>
+    <value>yapois</value>
+    <value>scolomfr-voc-001-num-0495</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/yor" prefTerm="yoruba">
+    <value>http://id.loc.gov/vocabulary/iso639-2/yor</value>
+    <value>yoruba</value>
+    <value>scolomfr-voc-001-num-0498</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ypk" prefTerm="yupik, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ypk</value>
+    <value>yupik, langues</value>
+    <value>scolomfr-voc-001-num-0499</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/znd" prefTerm="zandé, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/znd</value>
+    <value>zandé, langues</value>
+    <value>scolomfr-voc-001-num-0500</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zap" prefTerm="zapotèque">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zap</value>
+    <value>zapotèque</value>
+    <value>scolomfr-voc-001-num-0501</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zen" prefTerm="zenaga">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zen</value>
+    <value>zenaga</value>
+    <value>scolomfr-voc-001-num-0503</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zha" prefTerm="zhuang | chuang">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zha</value>
+    <value>zhuang | chuang</value>
+    <value>scolomfr-voc-001-num-0504</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zul" prefTerm="zoulou">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zul</value>
+    <value>zoulou</value>
+    <value>scolomfr-voc-001-num-0505</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zun" prefTerm="zuni">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zun</value>
+    <value>zuni</value>
+    <value>scolomfr-voc-001-num-0506</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sco" prefTerm="écossais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sco</value>
+    <value>écossais</value>
+    <value>scolomfr-voc-001-num-0126</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/egy" prefTerm="égyptien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/egy</value>
+    <value>égyptien</value>
+    <value>scolomfr-voc-001-num-0128</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ewo" prefTerm="éwondo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ewo</value>
+    <value>éwondo</value>
+    <value>scolomfr-voc-001-num-0137</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ewe" prefTerm="éwé">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ewe</value>
+    <value>éwé</value>
+    <value>scolomfr-voc-001-num-0136</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/afr" prefTerm="afrikaans">
+    <value>http://id.loc.gov/vocabulary/iso639-2/afr</value>
+    <value>afrikaans</value>
+    <value>scolomfr-voc-001-num-0008</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/aka" prefTerm="akan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/aka</value>
+    <value>akan</value>
+    <value>scolomfr-voc-001-num-0011</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/akk" prefTerm="akkadien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/akk</value>
+    <value>akkadien</value>
+    <value>scolomfr-voc-001-num-0012</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/alb" prefTerm="albanais (sqi)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/alb</value>
+    <value>albanais (sqi)</value>
+    <value>scolomfr-voc-001-num-0014</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/deu" prefTerm="allemand (deu)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/deu</value>
+    <value>allemand (deu)</value>
+    <value>scolomfr-voc-001-num-0017</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gmh" prefTerm="allemand, moyen haut (ca. 1050-1500)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gmh</value>
+    <value>allemand, moyen haut (ca. 1050-1500)</value>
+    <value>scolomfr-voc-001-num-0019</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/goh" prefTerm="allemand, vieux haut (ca. 750-1050)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/goh</value>
+    <value>allemand, vieux haut (ca. 750-1050)</value>
+    <value>scolomfr-voc-001-num-0020</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ale" prefTerm="aléoute">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ale</value>
+    <value>aléoute</value>
+    <value>scolomfr-voc-001-num-0015</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zgh" prefTerm="amazighe standard marocain">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zgh</value>
+    <value>amazighe standard marocain</value>
+    <value>scolomfr-voc-001-num-0023</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cai" prefTerm="amérindiennes de l'Amérique centrale, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cai</value>
+    <value>amérindiennes de l'Amérique centrale, langues</value>
+    <value>scolomfr-voc-001-num-0024</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/anp" prefTerm="angika">
+    <value>http://id.loc.gov/vocabulary/iso639-2/anp</value>
+    <value>angika</value>
+    <value>scolomfr-voc-001-num-0026</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/enm" prefTerm="anglais moyen (1100-1500)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/enm</value>
+    <value>anglais moyen (1100-1500)</value>
+    <value>scolomfr-voc-001-num-0028</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ang" prefTerm="anglo-saxon (ca.450-1100)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ang</value>
+    <value>anglo-saxon (ca.450-1100)</value>
+    <value>scolomfr-voc-001-num-0029</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/apa" prefTerm="apaches, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/apa</value>
+    <value>apaches, langues</value>
+    <value>scolomfr-voc-001-num-0030</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ara" prefTerm="arabe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ara</value>
+    <value>arabe</value>
+    <value>scolomfr-voc-001-num-0031</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/arg" prefTerm="aragonais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/arg</value>
+    <value>aragonais</value>
+    <value>scolomfr-voc-001-num-0032</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/arc" prefTerm="araméen d'empire (700-300 BCE)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/arc</value>
+    <value>araméen d'empire (700-300 BCE)</value>
+    <value>scolomfr-voc-001-num-0033</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/arw" prefTerm="arawak">
+    <value>http://id.loc.gov/vocabulary/iso639-2/arw</value>
+    <value>arawak</value>
+    <value>scolomfr-voc-001-num-0035</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/arm" prefTerm="arménien (hye)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/arm</value>
+    <value>arménien (hye)</value>
+    <value>scolomfr-voc-001-num-0037</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/art" prefTerm="artificielles, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/art</value>
+    <value>artificielles, langues</value>
+    <value>scolomfr-voc-001-num-0039</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ava" prefTerm="avar">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ava</value>
+    <value>avar</value>
+    <value>scolomfr-voc-001-num-0045</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ave" prefTerm="avestique">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ave</value>
+    <value>avestique</value>
+    <value>scolomfr-voc-001-num-0046</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/aym" prefTerm="aymara">
+    <value>http://id.loc.gov/vocabulary/iso639-2/aym</value>
+    <value>aymara</value>
+    <value>scolomfr-voc-001-num-0048</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ain" prefTerm="aïnou">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ain</value>
+    <value>aïnou</value>
+    <value>scolomfr-voc-001-num-0010</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bak" prefTerm="bachkir">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bak</value>
+    <value>bachkir</value>
+    <value>scolomfr-voc-001-num-0050</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bat" prefTerm="baltes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bat</value>
+    <value>baltes, langues</value>
+    <value>scolomfr-voc-001-num-0053</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/eus" prefTerm="basque (baq)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/eus</value>
+    <value>basque (baq)</value>
+    <value>scolomfr-voc-001-num-0061</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bej" prefTerm="bedja">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bej</value>
+    <value>bedja</value>
+    <value>scolomfr-voc-001-num-0064</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bem" prefTerm="bemba">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bem</value>
+    <value>bemba</value>
+    <value>scolomfr-voc-001-num-0065</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ben" prefTerm="bengali">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ben</value>
+    <value>bengali</value>
+    <value>scolomfr-voc-001-num-0066</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ber" prefTerm="berbères, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ber</value>
+    <value>berbères, langues</value>
+    <value>scolomfr-voc-001-num-0067</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bik" prefTerm="bikol">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bik</value>
+    <value>bikol</value>
+    <value>scolomfr-voc-001-num-0071</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bur" prefTerm="birman (mya)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bur</value>
+    <value>birman (mya)</value>
+    <value>scolomfr-voc-001-num-0073</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mya" prefTerm="birman (bur)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mya</value>
+    <value>birman (bur)</value>
+    <value>scolomfr-voc-001-num-0074</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bre" prefTerm="breton">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bre</value>
+    <value>breton</value>
+    <value>scolomfr-voc-001-num-0080</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bul" prefTerm="bulgare">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bul</value>
+    <value>bulgare</value>
+    <value>scolomfr-voc-001-num-0082</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cad" prefTerm="caddo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cad</value>
+    <value>caddo</value>
+    <value>scolomfr-voc-001-num-0083</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/krl" prefTerm="carélien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/krl</value>
+    <value>carélien</value>
+    <value>scolomfr-voc-001-num-0084</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ceb" prefTerm="cebuano">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ceb</value>
+    <value>cebuano</value>
+    <value>scolomfr-voc-001-num-0087</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cel" prefTerm="celtiques, langues | celtes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cel</value>
+    <value>celtiques, langues | celtes, langues</value>
+    <value>scolomfr-voc-001-num-0088</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cho" prefTerm="choctaw">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cho</value>
+    <value>choctaw</value>
+    <value>scolomfr-voc-001-num-0100</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cor" prefTerm="cornique">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cor</value>
+    <value>cornique</value>
+    <value>scolomfr-voc-001-num-0104</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hrv" prefTerm="croate">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hrv</value>
+    <value>croate</value>
+    <value>scolomfr-voc-001-num-0112</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/crp" prefTerm="créoles et pidgins">
+    <value>http://id.loc.gov/vocabulary/iso639-2/crp</value>
+    <value>créoles et pidgins</value>
+    <value>scolomfr-voc-001-num-0108</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cpe" prefTerm="créoles et pidgins basés sur l'anglais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cpe</value>
+    <value>créoles et pidgins basés sur l'anglais</value>
+    <value>scolomfr-voc-001-num-0109</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cpf" prefTerm="créoles et pidgins basés sur le français">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cpf</value>
+    <value>créoles et pidgins basés sur le français</value>
+    <value>scolomfr-voc-001-num-0110</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gba" prefTerm="gbaya">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gba</value>
+    <value>gbaya</value>
+    <value>scolomfr-voc-001-num-0162</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gon" prefTerm="gond">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gon</value>
+    <value>gond</value>
+    <value>scolomfr-voc-001-num-0166</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gor" prefTerm="gorontalo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gor</value>
+    <value>gorontalo</value>
+    <value>scolomfr-voc-001-num-0167</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/guj" prefTerm="goudjrati">
+    <value>http://id.loc.gov/vocabulary/iso639-2/guj</value>
+    <value>goudjrati</value>
+    <value>scolomfr-voc-001-num-0169</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/grb" prefTerm="grebo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/grb</value>
+    <value>grebo</value>
+    <value>scolomfr-voc-001-num-0170</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gre" prefTerm="grec moderne (après 1453) (ell)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gre</value>
+    <value>grec moderne (après 1453) (ell)</value>
+    <value>scolomfr-voc-001-num-0172</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ell" prefTerm="grec moderne (après 1453) (gre)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ell</value>
+    <value>grec moderne (après 1453) (gre)</value>
+    <value>scolomfr-voc-001-num-0173</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kal" prefTerm="groenlandais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kal</value>
+    <value>groenlandais</value>
+    <value>scolomfr-voc-001-num-0174</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/grn" prefTerm="guarani">
+    <value>http://id.loc.gov/vocabulary/iso639-2/grn</value>
+    <value>guarani</value>
+    <value>scolomfr-voc-001-num-0175</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gez" prefTerm="guèze">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gez</value>
+    <value>guèze</value>
+    <value>scolomfr-voc-001-num-0176</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gwi" prefTerm="gwich'in">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gwi</value>
+    <value>gwich'in</value>
+    <value>scolomfr-voc-001-num-0177</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/geo" prefTerm="géorgien (kat)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/geo</value>
+    <value>géorgien (kat)</value>
+    <value>scolomfr-voc-001-num-0163</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kat" prefTerm="géorgien (geo)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kat</value>
+    <value>géorgien (geo)</value>
+    <value>scolomfr-voc-001-num-0164</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hai" prefTerm="haida">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hai</value>
+    <value>haida</value>
+    <value>scolomfr-voc-001-num-0178</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hau" prefTerm="haoussa">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hau</value>
+    <value>haoussa</value>
+    <value>scolomfr-voc-001-num-0180</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hsb" prefTerm="haut-sorabe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hsb</value>
+    <value>haut-sorabe</value>
+    <value>scolomfr-voc-001-num-0181</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/haw" prefTerm="hawaïen">
+    <value>http://id.loc.gov/vocabulary/iso639-2/haw</value>
+    <value>hawaïen</value>
+    <value>scolomfr-voc-001-num-0182</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hat" prefTerm="haïtien | créole haïtien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hat</value>
+    <value>haïtien | créole haïtien</value>
+    <value>scolomfr-voc-001-num-0179</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hin" prefTerm="hindi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hin</value>
+    <value>hindi</value>
+    <value>scolomfr-voc-001-num-0186</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hmo" prefTerm="hiri motu">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hmo</value>
+    <value>hiri motu</value>
+    <value>scolomfr-voc-001-num-0187</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hit" prefTerm="hittite">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hit</value>
+    <value>hittite</value>
+    <value>scolomfr-voc-001-num-0188</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hmn" prefTerm="hmong">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hmn</value>
+    <value>hmong</value>
+    <value>scolomfr-voc-001-num-0189</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hup" prefTerm="hupa">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hup</value>
+    <value>hupa</value>
+    <value>scolomfr-voc-001-num-0191</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/heb" prefTerm="hébreu">
+    <value>http://id.loc.gov/vocabulary/iso639-2/heb</value>
+    <value>hébreu</value>
+    <value>scolomfr-voc-001-num-0183</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sah" prefTerm="iakoute">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sah</value>
+    <value>iakoute</value>
+    <value>scolomfr-voc-001-num-0192</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ido" prefTerm="ido">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ido</value>
+    <value>ido</value>
+    <value>scolomfr-voc-001-num-0194</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ibo" prefTerm="igbo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ibo</value>
+    <value>igbo</value>
+    <value>scolomfr-voc-001-num-0195</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ilo" prefTerm="ilocano">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ilo</value>
+    <value>ilocano</value>
+    <value>scolomfr-voc-001-num-0197</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/inc" prefTerm="indo-aryennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/inc</value>
+    <value>indo-aryennes, langues</value>
+    <value>scolomfr-voc-001-num-0199</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ine" prefTerm="indo-européennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ine</value>
+    <value>indo-européennes, langues</value>
+    <value>scolomfr-voc-001-num-0200</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ind" prefTerm="indonésien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ind</value>
+    <value>indonésien</value>
+    <value>scolomfr-voc-001-num-0201</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/inh" prefTerm="ingouche">
+    <value>http://id.loc.gov/vocabulary/iso639-2/inh</value>
+    <value>ingouche</value>
+    <value>scolomfr-voc-001-num-0202</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ina" prefTerm="interlingua (langue auxiliaire internationale)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ina</value>
+    <value>interlingua (langue auxiliaire internationale)</value>
+    <value>scolomfr-voc-001-num-0203</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ipk" prefTerm="inupiaq">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ipk</value>
+    <value>inupiaq</value>
+    <value>scolomfr-voc-001-num-0206</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ira" prefTerm="iraniennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ira</value>
+    <value>iraniennes, langues</value>
+    <value>scolomfr-voc-001-num-0207</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sga" prefTerm="irlandais ancien (jusqu'à 900)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sga</value>
+    <value>irlandais ancien (jusqu'à 900)</value>
+    <value>scolomfr-voc-001-num-0209</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mga" prefTerm="irlandais moyen (900-1200)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mga</value>
+    <value>irlandais moyen (900-1200)</value>
+    <value>scolomfr-voc-001-num-0210</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/isl" prefTerm="islandais (isl)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/isl</value>
+    <value>islandais (isl)</value>
+    <value>scolomfr-voc-001-num-0213</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ita" prefTerm="italien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ita</value>
+    <value>italien</value>
+    <value>scolomfr-voc-001-num-0214</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/jav" prefTerm="javanais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/jav</value>
+    <value>javanais</value>
+    <value>scolomfr-voc-001-num-0216</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/csb" prefTerm="kachoube">
+    <value>http://id.loc.gov/vocabulary/iso639-2/csb</value>
+    <value>kachoube</value>
+    <value>scolomfr-voc-001-num-0223</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kan" prefTerm="kannada">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kan</value>
+    <value>kannada</value>
+    <value>scolomfr-voc-001-num-0226</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/krc" prefTerm="karatchai balkar">
+    <value>http://id.loc.gov/vocabulary/iso639-2/krc</value>
+    <value>karatchai balkar</value>
+    <value>scolomfr-voc-001-num-0229</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fij" prefTerm="fidjien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fij</value>
+    <value>fidjien</value>
+    <value>scolomfr-voc-001-num-0141</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fil" prefTerm="filipino | pilipino">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fil</value>
+    <value>filipino | pilipino</value>
+    <value>scolomfr-voc-001-num-0142</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fiu" prefTerm="finno-ougriennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fiu</value>
+    <value>finno-ougriennes, langues</value>
+    <value>scolomfr-voc-001-num-0144</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fon" prefTerm="fon">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fon</value>
+    <value>fon</value>
+    <value>scolomfr-voc-001-num-0145</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fre" prefTerm="français (fre)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fre</value>
+    <value>français (fre)</value>
+    <value>scolomfr-voc-001-num-0147</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cpp" prefTerm="créoles et pidgins basés sur le portugais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cpp</value>
+    <value>créoles et pidgins basés sur le portugais</value>
+    <value>scolomfr-voc-001-num-0111</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dan" prefTerm="danois">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dan</value>
+    <value>danois</value>
+    <value>scolomfr-voc-001-num-0114</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dar" prefTerm="dargwa">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dar</value>
+    <value>dargwa</value>
+    <value>scolomfr-voc-001-num-0115</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/din" prefTerm="dinka">
+    <value>http://id.loc.gov/vocabulary/iso639-2/din</value>
+    <value>dinka</value>
+    <value>scolomfr-voc-001-num-0118</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dyu" prefTerm="dioula">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dyu</value>
+    <value>dioula</value>
+    <value>scolomfr-voc-001-num-0119</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/doi" prefTerm="dogri">
+    <value>http://id.loc.gov/vocabulary/iso639-2/doi</value>
+    <value>dogri</value>
+    <value>scolomfr-voc-001-num-0121</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dgr" prefTerm="dogrib">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dgr</value>
+    <value>dogrib</value>
+    <value>scolomfr-voc-001-num-0122</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dua" prefTerm="douala">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dua</value>
+    <value>douala</value>
+    <value>scolomfr-voc-001-num-0123</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dra" prefTerm="dravidiennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dra</value>
+    <value>dravidiennes, langues</value>
+    <value>scolomfr-voc-001-num-0124</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/efi" prefTerm="efik">
+    <value>http://id.loc.gov/vocabulary/iso639-2/efi</value>
+    <value>efik</value>
+    <value>scolomfr-voc-001-num-0127</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/eka" prefTerm="ekajuk">
+    <value>http://id.loc.gov/vocabulary/iso639-2/eka</value>
+    <value>ekajuk</value>
+    <value>scolomfr-voc-001-num-0129</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/den" prefTerm="esclave (athapascan)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/den</value>
+    <value>esclave (athapascan)</value>
+    <value>scolomfr-voc-001-num-0132</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/spa" prefTerm="espagnol | castillan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/spa</value>
+    <value>espagnol | castillan</value>
+    <value>scolomfr-voc-001-num-0133</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/est" prefTerm="estonien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/est</value>
+    <value>estonien</value>
+    <value>scolomfr-voc-001-num-0135</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fan" prefTerm="fang">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fan</value>
+    <value>fang</value>
+    <value>scolomfr-voc-001-num-0138</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fat" prefTerm="fanti">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fat</value>
+    <value>fanti</value>
+    <value>scolomfr-voc-001-num-0139</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chv" prefTerm="tchouvache">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chv</value>
+    <value>tchouvache</value>
+    <value>scolomfr-voc-001-num-0452</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ces" prefTerm="tchèque (ces)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ces</value>
+    <value>tchèque (ces)</value>
+    <value>scolomfr-voc-001-num-0450</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/che" prefTerm="tchétchène">
+    <value>http://id.loc.gov/vocabulary/iso639-2/che</value>
+    <value>tchétchène</value>
+    <value>scolomfr-voc-001-num-0451</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tem" prefTerm="temne">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tem</value>
+    <value>temne</value>
+    <value>scolomfr-voc-001-num-0454</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ter" prefTerm="tereno">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ter</value>
+    <value>tereno</value>
+    <value>scolomfr-voc-001-num-0455</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tet" prefTerm="tetum">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tet</value>
+    <value>tetum</value>
+    <value>scolomfr-voc-001-num-0456</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tha" prefTerm="thaï">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tha</value>
+    <value>thaï</value>
+    <value>scolomfr-voc-001-num-0457</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tib" prefTerm="tibétain (bod)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tib</value>
+    <value>tibétain (bod)</value>
+    <value>scolomfr-voc-001-num-0459</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bod" prefTerm="tibétain (tib)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bod</value>
+    <value>tibétain (tib)</value>
+    <value>scolomfr-voc-001-num-0458</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tir" prefTerm="tigrigna">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tir</value>
+    <value>tigrigna</value>
+    <value>scolomfr-voc-001-num-0461</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tig" prefTerm="tigré">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tig</value>
+    <value>tigré</value>
+    <value>scolomfr-voc-001-num-0460</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/men" prefTerm="mendé">
+    <value>http://id.loc.gov/vocabulary/iso639-2/men</value>
+    <value>mendé</value>
+    <value>scolomfr-voc-001-num-0304</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/min" prefTerm="minangkabau">
+    <value>http://id.loc.gov/vocabulary/iso639-2/min</value>
+    <value>minangkabau</value>
+    <value>scolomfr-voc-001-num-0306</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mwl" prefTerm="mirandais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mwl</value>
+    <value>mirandais</value>
+    <value>scolomfr-voc-001-num-0307</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mdf" prefTerm="moksa">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mdf</value>
+    <value>moksa</value>
+    <value>scolomfr-voc-001-num-0309</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lol" prefTerm="mongo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lol</value>
+    <value>mongo</value>
+    <value>scolomfr-voc-001-num-0310</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mos" prefTerm="moré">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mos</value>
+    <value>moré</value>
+    <value>scolomfr-voc-001-num-0313</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mus" prefTerm="muskogee">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mus</value>
+    <value>muskogee</value>
+    <value>scolomfr-voc-001-num-0316</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nah" prefTerm="nahuatl, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nah</value>
+    <value>nahuatl, langues</value>
+    <value>scolomfr-voc-001-num-0317</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nav" prefTerm="navaho">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nav</value>
+    <value>navaho</value>
+    <value>scolomfr-voc-001-num-0320</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ndo" prefTerm="ndonga">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ndo</value>
+    <value>ndonga</value>
+    <value>scolomfr-voc-001-num-0323</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nde" prefTerm="ndébélé du Nord">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nde</value>
+    <value>ndébélé du Nord</value>
+    <value>scolomfr-voc-001-num-0321</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/new" prefTerm="nepal bhasa | newari">
+    <value>http://id.loc.gov/vocabulary/iso639-2/new</value>
+    <value>nepal bhasa | newari</value>
+    <value>scolomfr-voc-001-num-0327</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nwc" prefTerm="newari classique">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nwc</value>
+    <value>newari classique</value>
+    <value>scolomfr-voc-001-num-0329</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nia" prefTerm="nias">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nia</value>
+    <value>nias</value>
+    <value>scolomfr-voc-001-num-0330</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nic" prefTerm="nigéro-kordofaniennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nic</value>
+    <value>nigéro-kordofaniennes, langues</value>
+    <value>scolomfr-voc-001-num-0331</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nor" prefTerm="norvégien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nor</value>
+    <value>norvégien</value>
+    <value>scolomfr-voc-001-num-0338</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tlh" prefTerm="klingon">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tlh</value>
+    <value>klingon</value>
+    <value>scolomfr-voc-001-num-0243</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kom" prefTerm="kom">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kom</value>
+    <value>kom</value>
+    <value>scolomfr-voc-001-num-0244</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kum" prefTerm="koumyk">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kum</value>
+    <value>koumyk</value>
+    <value>scolomfr-voc-001-num-0248</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kpe" prefTerm="kpellé">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kpe</value>
+    <value>kpellé</value>
+    <value>scolomfr-voc-001-num-0249</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kos" prefTerm="kosrae">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kos</value>
+    <value>kosrae</value>
+    <value>scolomfr-voc-001-num-0247</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kur" prefTerm="kurde">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kur</value>
+    <value>kurde</value>
+    <value>scolomfr-voc-001-num-0252</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lah" prefTerm="lahnda">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lah</value>
+    <value>lahnda</value>
+    <value>scolomfr-voc-001-num-0255</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sgn" prefTerm="langues des signes">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sgn</value>
+    <value>langues des signes</value>
+    <value>scolomfr-voc-001-num-0258</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lao" prefTerm="lao">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lao</value>
+    <value>lao</value>
+    <value>scolomfr-voc-001-num-0261</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lez" prefTerm="lezghien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lez</value>
+    <value>lezghien</value>
+    <value>scolomfr-voc-001-num-0264</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/loz" prefTerm="lozi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/loz</value>
+    <value>lozi</value>
+    <value>scolomfr-voc-001-num-0269</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lub" prefTerm="luba-katanga">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lub</value>
+    <value>luba-katanga</value>
+    <value>scolomfr-voc-001-num-0270</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lun" prefTerm="lunda">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lun</value>
+    <value>lunda</value>
+    <value>scolomfr-voc-001-num-0273</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mkd" prefTerm="macédonien (mac)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mkd</value>
+    <value>macédonien (mac)</value>
+    <value>scolomfr-voc-001-num-0277</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mag" prefTerm="magahi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mag</value>
+    <value>magahi</value>
+    <value>scolomfr-voc-001-num-0280</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mai" prefTerm="maithili">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mai</value>
+    <value>maithili</value>
+    <value>scolomfr-voc-001-num-0281</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/may" prefTerm="malais (may)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/may</value>
+    <value>malais (may)</value>
+    <value>scolomfr-voc-001-num-0283</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/msa" prefTerm="malais (msa)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/msa</value>
+    <value>malais (msa)</value>
+    <value>scolomfr-voc-001-num-0284</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/div" prefTerm="maldivien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/div</value>
+    <value>maldivien</value>
+    <value>scolomfr-voc-001-num-0286</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mlg" prefTerm="malgache">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mlg</value>
+    <value>malgache</value>
+    <value>scolomfr-voc-001-num-0287</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mnc" prefTerm="mandchou">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mnc</value>
+    <value>mandchou</value>
+    <value>scolomfr-voc-001-num-0290</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/man" prefTerm="mandingue">
+    <value>http://id.loc.gov/vocabulary/iso639-2/man</value>
+    <value>mandingue</value>
+    <value>scolomfr-voc-001-num-0291</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mno" prefTerm="manobo, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mno</value>
+    <value>manobo, langues</value>
+    <value>scolomfr-voc-001-num-0293</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/glv" prefTerm="manx | mannois">
+    <value>http://id.loc.gov/vocabulary/iso639-2/glv</value>
+    <value>manx | mannois</value>
+    <value>scolomfr-voc-001-num-0294</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mao" prefTerm="maori (mao)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mao</value>
+    <value>maori (mao)</value>
+    <value>scolomfr-voc-001-num-0295</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mri" prefTerm="maori (mri)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mri</value>
+    <value>maori (mri)</value>
+    <value>scolomfr-voc-001-num-0296</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/arn" prefTerm="mapudungun | mapuche | mapuce">
+    <value>http://id.loc.gov/vocabulary/iso639-2/arn</value>
+    <value>mapudungun | mapuche | mapuce</value>
+    <value>scolomfr-voc-001-num-0297</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mar" prefTerm="marathe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mar</value>
+    <value>marathe</value>
+    <value>scolomfr-voc-001-num-0298</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mah" prefTerm="marshall">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mah</value>
+    <value>marshall</value>
+    <value>scolomfr-voc-001-num-0300</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mwr" prefTerm="marvari">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mwr</value>
+    <value>marvari</value>
+    <value>scolomfr-voc-001-num-0301</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/myn" prefTerm="maya, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/myn</value>
+    <value>maya, langues</value>
+    <value>scolomfr-voc-001-num-0303</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/frm" prefTerm="français moyen (1400-1600)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/frm</value>
+    <value>français moyen (1400-1600)</value>
+    <value>scolomfr-voc-001-num-0149</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/frs" prefTerm="frison oriental">
+    <value>http://id.loc.gov/vocabulary/iso639-2/frs</value>
+    <value>frison oriental</value>
+    <value>scolomfr-voc-001-num-0152</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gaa" prefTerm="ga">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gaa</value>
+    <value>ga</value>
+    <value>scolomfr-voc-001-num-0154</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/wel" prefTerm="gallois (cym)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/wel</value>
+    <value>gallois (cym)</value>
+    <value>scolomfr-voc-001-num-0158</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lug" prefTerm="ganda">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lug</value>
+    <value>ganda</value>
+    <value>scolomfr-voc-001-num-0160</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gay" prefTerm="gayo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gay</value>
+    <value>gayo</value>
+    <value>scolomfr-voc-001-num-0161</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tli" prefTerm="tlingit">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tli</value>
+    <value>tlingit</value>
+    <value>scolomfr-voc-001-num-0463</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tkl" prefTerm="tokelau">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tkl</value>
+    <value>tokelau</value>
+    <value>scolomfr-voc-001-num-0465</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tog" prefTerm="tonga (Nyasa)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tog</value>
+    <value>tonga (Nyasa)</value>
+    <value>scolomfr-voc-001-num-0466</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tpi" prefTerm="tok pisin">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tpi</value>
+    <value>tok pisin</value>
+    <value>scolomfr-voc-001-num-0464</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ton" prefTerm="tongan (Îles Tonga)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ton</value>
+    <value>tongan (Îles Tonga)</value>
+    <value>scolomfr-voc-001-num-0467</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tyv" prefTerm="touva">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tyv</value>
+    <value>touva</value>
+    <value>scolomfr-voc-001-num-0468</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/rom" prefTerm="tsigane">
+    <value>http://id.loc.gov/vocabulary/iso639-2/rom</value>
+    <value>tsigane</value>
+    <value>scolomfr-voc-001-num-0469</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tsi" prefTerm="tsimshian">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tsi</value>
+    <value>tsimshian</value>
+    <value>scolomfr-voc-001-num-0470</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tso" prefTerm="tsonga">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tso</value>
+    <value>tsonga</value>
+    <value>scolomfr-voc-001-num-0471</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tsn" prefTerm="tswana">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tsn</value>
+    <value>tswana</value>
+    <value>scolomfr-voc-001-num-0472</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tum" prefTerm="tumbuka">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tum</value>
+    <value>tumbuka</value>
+    <value>scolomfr-voc-001-num-0473</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tup" prefTerm="tupi, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tup</value>
+    <value>tupi, langues</value>
+    <value>scolomfr-voc-001-num-0474</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tur" prefTerm="turc">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tur</value>
+    <value>turc</value>
+    <value>scolomfr-voc-001-num-0475</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ota" prefTerm="turc ottoman (1500-1928)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ota</value>
+    <value>turc ottoman (1500-1928)</value>
+    <value>scolomfr-voc-001-num-0476</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tuk" prefTerm="turkmène">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tuk</value>
+    <value>turkmène</value>
+    <value>scolomfr-voc-001-num-0477</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tvl" prefTerm="tuvalu">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tvl</value>
+    <value>tuvalu</value>
+    <value>scolomfr-voc-001-num-0478</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/twi" prefTerm="twi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/twi</value>
+    <value>twi</value>
+    <value>scolomfr-voc-001-num-0479</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tel" prefTerm="télougou">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tel</value>
+    <value>télougou</value>
+    <value>scolomfr-voc-001-num-0453</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ukr" prefTerm="ukrainien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ukr</value>
+    <value>ukrainien</value>
+    <value>scolomfr-voc-001-num-0480</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/umb" prefTerm="umbundu">
+    <value>http://id.loc.gov/vocabulary/iso639-2/umb</value>
+    <value>umbundu</value>
+    <value>scolomfr-voc-001-num-0481</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/vai" prefTerm="vaï">
+    <value>http://id.loc.gov/vocabulary/iso639-2/vai</value>
+    <value>vaï</value>
+    <value>scolomfr-voc-001-num-0482</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ven" prefTerm="venda">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ven</value>
+    <value>venda</value>
+    <value>scolomfr-voc-001-num-0483</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/vie" prefTerm="vietnamien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/vie</value>
+    <value>vietnamien</value>
+    <value>scolomfr-voc-001-num-0484</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/vol" prefTerm="volapük">
+    <value>http://id.loc.gov/vocabulary/iso639-2/vol</value>
+    <value>volapük</value>
+    <value>scolomfr-voc-001-num-0485</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/vot" prefTerm="vote">
+    <value>http://id.loc.gov/vocabulary/iso639-2/vot</value>
+    <value>vote</value>
+    <value>scolomfr-voc-001-num-0486</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nub" prefTerm="nubiennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nub</value>
+    <value>nubiennes, langues</value>
+    <value>scolomfr-voc-001-num-0341</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nym" prefTerm="nyamwezi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nym</value>
+    <value>nyamwezi</value>
+    <value>scolomfr-voc-001-num-0342</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nzi" prefTerm="nzema">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nzi</value>
+    <value>nzema</value>
+    <value>scolomfr-voc-001-num-0345</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nld" prefTerm="néerlandais | flamand (dut)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nld</value>
+    <value>néerlandais | flamand (dut)</value>
+    <value>scolomfr-voc-001-num-0324</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/oji" prefTerm="ojibwa">
+    <value>http://id.loc.gov/vocabulary/iso639-2/oji</value>
+    <value>ojibwa</value>
+    <value>scolomfr-voc-001-num-0347</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/oss" prefTerm="ossète">
+    <value>http://id.loc.gov/vocabulary/iso639-2/oss</value>
+    <value>ossète</value>
+    <value>scolomfr-voc-001-num-0350</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/uga" prefTerm="ougaritique">
+    <value>http://id.loc.gov/vocabulary/iso639-2/uga</value>
+    <value>ougaritique</value>
+    <value>scolomfr-voc-001-num-0353</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/uig" prefTerm="ouïgour">
+    <value>http://id.loc.gov/vocabulary/iso639-2/uig</value>
+    <value>ouïgour</value>
+    <value>scolomfr-voc-001-num-0354</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pam" prefTerm="pampangan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pam</value>
+    <value>pampangan</value>
+    <value>scolomfr-voc-001-num-0361</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pag" prefTerm="pangasinan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pag</value>
+    <value>pangasinan</value>
+    <value>scolomfr-voc-001-num-0362</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zxx" prefTerm="pas de contenu linguistique | non applicable">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zxx</value>
+    <value>pas de contenu linguistique | non applicable</value>
+    <value>scolomfr-voc-001-num-0365</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fas" prefTerm="persan (fas)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fas</value>
+    <value>persan (fas)</value>
+    <value>scolomfr-voc-001-num-0368</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/phn" prefTerm="phénicien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/phn</value>
+    <value>phénicien</value>
+    <value>scolomfr-voc-001-num-0372</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pon" prefTerm="pohnpei">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pon</value>
+    <value>pohnpei</value>
+    <value>scolomfr-voc-001-num-0374</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pol" prefTerm="polonais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pol</value>
+    <value>polonais</value>
+    <value>scolomfr-voc-001-num-0375</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/roa" prefTerm="romanes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/roa</value>
+    <value>romanes, langues</value>
+    <value>scolomfr-voc-001-num-0385</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ron" prefTerm="roumain | moldave (ron)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ron</value>
+    <value>roumain | moldave (ron)</value>
+    <value>scolomfr-voc-001-num-0386</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kin" prefTerm="rwanda">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kin</value>
+    <value>rwanda</value>
+    <value>scolomfr-voc-001-num-0390</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sit" prefTerm="sino-tibétaines, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sit</value>
+    <value>sino-tibétaines, langues</value>
+    <value>scolomfr-voc-001-num-0415</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chu" prefTerm="slavon d'église | vieux slave | slavon liturgique | vieux bulgare">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chu</value>
+    <value>slavon d'église | vieux slave | slavon liturgique | vieux bulgare</value>
+    <value>scolomfr-voc-001-num-0418</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/slv" prefTerm="slovène">
+    <value>http://id.loc.gov/vocabulary/iso639-2/slv</value>
+    <value>slovène</value>
+    <value>scolomfr-voc-001-num-0421</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sog" prefTerm="sogdien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sog</value>
+    <value>sogdien</value>
+    <value>scolomfr-voc-001-num-0422</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/snk" prefTerm="soninké">
+    <value>http://id.loc.gov/vocabulary/iso639-2/snk</value>
+    <value>soninké</value>
+    <value>scolomfr-voc-001-num-0425</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sun" prefTerm="soundanais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sun</value>
+    <value>soundanais</value>
+    <value>scolomfr-voc-001-num-0428</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sai" prefTerm="sud-amérindiennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sai</value>
+    <value>sud-amérindiennes, langues</value>
+    <value>scolomfr-voc-001-num-0431</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/suk" prefTerm="sukuma">
+    <value>http://id.loc.gov/vocabulary/iso639-2/suk</value>
+    <value>sukuma</value>
+    <value>scolomfr-voc-001-num-0434</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sux" prefTerm="sumérien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sux</value>
+    <value>sumérien</value>
+    <value>scolomfr-voc-001-num-0435</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zbl" prefTerm="symboles Bliss | Bliss">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zbl</value>
+    <value>symboles Bliss | Bliss</value>
+    <value>scolomfr-voc-001-num-0438</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/syr" prefTerm="syriaque">
+    <value>http://id.loc.gov/vocabulary/iso639-2/syr</value>
+    <value>syriaque</value>
+    <value>scolomfr-voc-001-num-0439</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/syc" prefTerm="syriaque classique">
+    <value>http://id.loc.gov/vocabulary/iso639-2/syc</value>
+    <value>syriaque classique</value>
+    <value>scolomfr-voc-001-num-0440</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sem" prefTerm="sémitiques, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sem</value>
+    <value>sémitiques, langues</value>
+    <value>scolomfr-voc-001-num-0407</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/srr" prefTerm="sérère">
+    <value>http://id.loc.gov/vocabulary/iso639-2/srr</value>
+    <value>sérère</value>
+    <value>scolomfr-voc-001-num-0409</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tgk" prefTerm="tadjik">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tgk</value>
+    <value>tadjik</value>
+    <value>scolomfr-voc-001-num-0441</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tgl" prefTerm="tagalog">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tgl</value>
+    <value>tagalog</value>
+    <value>scolomfr-voc-001-num-0442</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tah" prefTerm="tahitien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tah</value>
+    <value>tahitien</value>
+    <value>scolomfr-voc-001-num-0443</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tai" prefTerm="tai, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tai</value>
+    <value>tai, langues</value>
+    <value>scolomfr-voc-001-num-0444</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tam" prefTerm="tamoul">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tam</value>
+    <value>tamoul</value>
+    <value>scolomfr-voc-001-num-0446</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tat" prefTerm="tatar">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tat</value>
+    <value>tatar</value>
+    <value>scolomfr-voc-001-num-0447</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/crh" prefTerm="tatar de Crimé">
+    <value>http://id.loc.gov/vocabulary/iso639-2/crh</value>
+    <value>tatar de Crimé</value>
+    <value>scolomfr-voc-001-num-0448</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/moh" prefTerm="mohawk">
+    <value>http://id.loc.gov/vocabulary/iso639-2/moh</value>
+    <value>mohawk</value>
+    <value>scolomfr-voc-001-num-0308</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mon" prefTerm="mongol">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mon</value>
+    <value>mongol</value>
+    <value>scolomfr-voc-001-num-0311</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mkh" prefTerm="môn-khmer, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mkh</value>
+    <value>môn-khmer, langues</value>
+    <value>scolomfr-voc-001-num-0312</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nap" prefTerm="napolitain">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nap</value>
+    <value>napolitain</value>
+    <value>scolomfr-voc-001-num-0318</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nbl" prefTerm="ndébélé du Sud">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nbl</value>
+    <value>ndébélé du Sud</value>
+    <value>scolomfr-voc-001-num-0322</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/alt" prefTerm="altai du Sud">
+    <value>http://id.loc.gov/vocabulary/iso639-2/alt</value>
+    <value>altai du Sud</value>
+    <value>scolomfr-voc-001-num-0021</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bal" prefTerm="baloutchi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bal</value>
+    <value>baloutchi</value>
+    <value>scolomfr-voc-001-num-0052</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bai" prefTerm="bamiléké, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bai</value>
+    <value>bamiléké, langues</value>
+    <value>scolomfr-voc-001-num-0055</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nds" prefTerm="bas allemand | bas saxon | allemand, bas | saxon, bas">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nds</value>
+    <value>bas allemand | bas saxon | allemand, bas | saxon, bas</value>
+    <value>scolomfr-voc-001-num-0058</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/baq" prefTerm="basque (eus)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/baq</value>
+    <value>basque (eus)</value>
+    <value>scolomfr-voc-001-num-0060</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/btk" prefTerm="batak, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/btk</value>
+    <value>batak, langues</value>
+    <value>scolomfr-voc-001-num-0063</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bug" prefTerm="bugi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bug</value>
+    <value>bugi</value>
+    <value>scolomfr-voc-001-num-0081</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cau" prefTerm="caucasiennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cau</value>
+    <value>caucasiennes, langues</value>
+    <value>scolomfr-voc-001-num-0086</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cmc" prefTerm="chames, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cmc</value>
+    <value>chames, langues</value>
+    <value>scolomfr-voc-001-num-0089</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chr" prefTerm="cherokee">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chr</value>
+    <value>cherokee</value>
+    <value>scolomfr-voc-001-num-0092</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nya" prefTerm="chichewa | chewa | nyanja">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nya</value>
+    <value>chichewa | chewa | nyanja</value>
+    <value>scolomfr-voc-001-num-0095</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gil" prefTerm="kiribati">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gil</value>
+    <value>kiribati</value>
+    <value>scolomfr-voc-001-num-0242</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kon" prefTerm="kongo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kon</value>
+    <value>kongo</value>
+    <value>scolomfr-voc-001-num-0245</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kok" prefTerm="konkani">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kok</value>
+    <value>konkani</value>
+    <value>scolomfr-voc-001-num-0246</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kua" prefTerm="kuanyama | kwanyama">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kua</value>
+    <value>kuanyama | kwanyama</value>
+    <value>scolomfr-voc-001-num-0251</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kut" prefTerm="kutenai">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kut</value>
+    <value>kutenai</value>
+    <value>scolomfr-voc-001-num-0254</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bih" prefTerm="langues biharis">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bih</value>
+    <value>langues biharis</value>
+    <value>scolomfr-voc-001-num-0257</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mis" prefTerm="langues non codées">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mis</value>
+    <value>langues non codées</value>
+    <value>scolomfr-voc-001-num-0260</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lav" prefTerm="letton">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lav</value>
+    <value>letton</value>
+    <value>scolomfr-voc-001-num-0263</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mun" prefTerm="mounda, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mun</value>
+    <value>mounda, langues</value>
+    <value>scolomfr-voc-001-num-0314</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mul" prefTerm="multilingue">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mul</value>
+    <value>multilingue</value>
+    <value>scolomfr-voc-001-num-0315</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nqo" prefTerm="n'ko">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nqo</value>
+    <value>n'ko</value>
+    <value>scolomfr-voc-001-num-0334</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nau" prefTerm="nauruan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nau</value>
+    <value>nauruan</value>
+    <value>scolomfr-voc-001-num-0319</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tmh" prefTerm="tamacheq">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tmh</value>
+    <value>tamacheq</value>
+    <value>scolomfr-voc-001-num-0445</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cze" prefTerm="tchèque (cze)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cze</value>
+    <value>tchèque (cze)</value>
+    <value>scolomfr-voc-001-num-0449</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ady" prefTerm="adyghé">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ady</value>
+    <value>adyghé</value>
+    <value>scolomfr-voc-001-num-0005</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ach" prefTerm="acoli">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ach</value>
+    <value>acoli</value>
+    <value>scolomfr-voc-001-num-0003</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sqi" prefTerm="albanais (alb)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sqi</value>
+    <value>albanais (alb)</value>
+    <value>scolomfr-voc-001-num-0013</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/arp" prefTerm="arapaho">
+    <value>http://id.loc.gov/vocabulary/iso639-2/arp</value>
+    <value>arapaho</value>
+    <value>scolomfr-voc-001-num-0034</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hye" prefTerm="arménien (arm)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hye</value>
+    <value>arménien (arm)</value>
+    <value>scolomfr-voc-001-num-0036</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ath" prefTerm="athapascanes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ath</value>
+    <value>athapascanes, langues</value>
+    <value>scolomfr-voc-001-num-0042</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bad" prefTerm="banda, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bad</value>
+    <value>banda, langues</value>
+    <value>scolomfr-voc-001-num-0056</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dsb" prefTerm="bas-sorabe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dsb</value>
+    <value>bas-sorabe</value>
+    <value>scolomfr-voc-001-num-0062</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bas" prefTerm="basa">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bas</value>
+    <value>basa</value>
+    <value>scolomfr-voc-001-num-0059</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bel" prefTerm="biélorusse">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bel</value>
+    <value>biélorusse</value>
+    <value>scolomfr-voc-001-num-0070</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cat" prefTerm="catalan | valencien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cat</value>
+    <value>catalan | valencien</value>
+    <value>scolomfr-voc-001-num-0085</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cha" prefTerm="chamorro">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cha</value>
+    <value>chamorro</value>
+    <value>scolomfr-voc-001-num-0090</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chy" prefTerm="cheyenne">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chy</value>
+    <value>cheyenne</value>
+    <value>scolomfr-voc-001-num-0093</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chb" prefTerm="chibcha">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chb</value>
+    <value>chibcha</value>
+    <value>scolomfr-voc-001-num-0094</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zho" prefTerm="chinois (chi)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zho</value>
+    <value>chinois (chi)</value>
+    <value>scolomfr-voc-001-num-0096</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ada" prefTerm="adangme">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ada</value>
+    <value>adangme</value>
+    <value>scolomfr-voc-001-num-0004</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tiv" prefTerm="tiv">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tiv</value>
+    <value>tiv</value>
+    <value>scolomfr-voc-001-num-0462</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gle" prefTerm="irlandais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gle</value>
+    <value>irlandais</value>
+    <value>scolomfr-voc-001-num-0208</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kro" prefTerm="krou, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kro</value>
+    <value>krou, langues</value>
+    <value>scolomfr-voc-001-num-0250</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kru" prefTerm="kurukh">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kru</value>
+    <value>kurukh</value>
+    <value>scolomfr-voc-001-num-0253</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lam" prefTerm="lamba">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lam</value>
+    <value>lamba</value>
+    <value>scolomfr-voc-001-num-0256</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/him" prefTerm="langues himachalis | langues paharis occidentales">
+    <value>http://id.loc.gov/vocabulary/iso639-2/him</value>
+    <value>langues himachalis | langues paharis occidentales</value>
+    <value>scolomfr-voc-001-num-0259</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lat" prefTerm="latin">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lat</value>
+    <value>latin</value>
+    <value>scolomfr-voc-001-num-0262</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lim" prefTerm="limbourgeois">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lim</value>
+    <value>limbourgeois</value>
+    <value>scolomfr-voc-001-num-0265</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/jbo" prefTerm="lojban">
+    <value>http://id.loc.gov/vocabulary/iso639-2/jbo</value>
+    <value>lojban</value>
+    <value>scolomfr-voc-001-num-0268</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lua" prefTerm="luba-lulua">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lua</value>
+    <value>luba-lulua</value>
+    <value>scolomfr-voc-001-num-0271</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/luo" prefTerm="luo (Kenya et Tanzanie)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/luo</value>
+    <value>luo (Kenya et Tanzanie)</value>
+    <value>scolomfr-voc-001-num-0274</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lus" prefTerm="lushai">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lus</value>
+    <value>lushai</value>
+    <value>scolomfr-voc-001-num-0275</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bnt" prefTerm="bantou, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bnt</value>
+    <value>bantou, langues</value>
+    <value>scolomfr-voc-001-num-0057</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/del" prefTerm="delaware">
+    <value>http://id.loc.gov/vocabulary/iso639-2/del</value>
+    <value>delaware</value>
+    <value>scolomfr-voc-001-num-0117</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bam" prefTerm="bambara">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bam</value>
+    <value>bambara</value>
+    <value>scolomfr-voc-001-num-0054</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/urd" prefTerm="ourdou">
+    <value>http://id.loc.gov/vocabulary/iso639-2/urd</value>
+    <value>ourdou</value>
+    <value>scolomfr-voc-001-num-0355</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/uzb" prefTerm="ouszbek">
+    <value>http://id.loc.gov/vocabulary/iso639-2/uzb</value>
+    <value>ouszbek</value>
+    <value>scolomfr-voc-001-num-0356</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pli" prefTerm="pali">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pli</value>
+    <value>pali</value>
+    <value>scolomfr-voc-001-num-0360</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pap" prefTerm="papiamento">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pap</value>
+    <value>papiamento</value>
+    <value>scolomfr-voc-001-num-0363</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nso" prefTerm="pedi | sepedi | sotho du Nord">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nso</value>
+    <value>pedi | sepedi | sotho du Nord</value>
+    <value>scolomfr-voc-001-num-0366</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/per" prefTerm="persan (per)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/per</value>
+    <value>persan (per)</value>
+    <value>scolomfr-voc-001-num-0369</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/peo" prefTerm="perse, vieux (ca. 600-400 av. J.-C.)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/peo</value>
+    <value>perse, vieux (ca. 600-400 av. J.-C.)</value>
+    <value>scolomfr-voc-001-num-0370</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ful" prefTerm="peul">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ful</value>
+    <value>peul</value>
+    <value>scolomfr-voc-001-num-0371</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/por" prefTerm="portugais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/por</value>
+    <value>portugais</value>
+    <value>scolomfr-voc-001-num-0376</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pro" prefTerm="provençal ancien (jusqu'à 1500) | occitan ancien (jusqu'à 1500)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pro</value>
+    <value>provençal ancien (jusqu'à 1500) | occitan ancien (jusqu'à 1500)</value>
+    <value>scolomfr-voc-001-num-0378</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pra" prefTerm="prâkrit, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pra</value>
+    <value>prâkrit, langues</value>
+    <value>scolomfr-voc-001-num-0377</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/que" prefTerm="quechua">
+    <value>http://id.loc.gov/vocabulary/iso639-2/que</value>
+    <value>quechua</value>
+    <value>scolomfr-voc-001-num-0379</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/raj" prefTerm="rajasthani">
+    <value>http://id.loc.gov/vocabulary/iso639-2/raj</value>
+    <value>rajasthani</value>
+    <value>scolomfr-voc-001-num-0380</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/roh" prefTerm="romanche">
+    <value>http://id.loc.gov/vocabulary/iso639-2/roh</value>
+    <value>romanche</value>
+    <value>scolomfr-voc-001-num-0384</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ssa" prefTerm="nilo-sahariennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ssa</value>
+    <value>nilo-sahariennes, langues</value>
+    <value>scolomfr-voc-001-num-0332</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nob" prefTerm="norvégien bokmål">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nob</value>
+    <value>norvégien bokmål</value>
+    <value>scolomfr-voc-001-num-0339</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dum" prefTerm="néerlandais moyen (ca. 1050-1350)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dum</value>
+    <value>néerlandais moyen (ca. 1050-1350)</value>
+    <value>scolomfr-voc-001-num-0326</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nep" prefTerm="népalais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nep</value>
+    <value>népalais</value>
+    <value>scolomfr-voc-001-num-0328</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ori" prefTerm="oriya">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ori</value>
+    <value>oriya</value>
+    <value>scolomfr-voc-001-num-0348</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/osa" prefTerm="osage">
+    <value>http://id.loc.gov/vocabulary/iso639-2/osa</value>
+    <value>osage</value>
+    <value>scolomfr-voc-001-num-0349</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/abk" prefTerm="abkhaze">
+    <value>http://id.loc.gov/vocabulary/iso639-2/abk</value>
+    <value>abkhaze</value>
+    <value>scolomfr-voc-001-num-0001</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/aar" prefTerm="afar">
+    <value>http://id.loc.gov/vocabulary/iso639-2/aar</value>
+    <value>afar</value>
+    <value>scolomfr-voc-001-num-0006</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/afa" prefTerm="afro-asiatiques, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/afa</value>
+    <value>afro-asiatiques, langues</value>
+    <value>scolomfr-voc-001-num-0009</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/tut" prefTerm="altaïques, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/tut</value>
+    <value>altaïques, langues</value>
+    <value>scolomfr-voc-001-num-0022</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/amh" prefTerm="amharique">
+    <value>http://id.loc.gov/vocabulary/iso639-2/amh</value>
+    <value>amharique</value>
+    <value>scolomfr-voc-001-num-0025</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/eng" prefTerm="anglais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/eng</value>
+    <value>anglais</value>
+    <value>scolomfr-voc-001-num-0027</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bis" prefTerm="bichlamar">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bis</value>
+    <value>bichlamar</value>
+    <value>scolomfr-voc-001-num-0069</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/aus" prefTerm="australiennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/aus</value>
+    <value>australiennes, langues</value>
+    <value>scolomfr-voc-001-num-0043</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/aze" prefTerm="azéri">
+    <value>http://id.loc.gov/vocabulary/iso639-2/aze</value>
+    <value>azéri</value>
+    <value>scolomfr-voc-001-num-0049</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ban" prefTerm="balinais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ban</value>
+    <value>balinais</value>
+    <value>scolomfr-voc-001-num-0051</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chn" prefTerm="chinook, jargon">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chn</value>
+    <value>chinook, jargon</value>
+    <value>scolomfr-voc-001-num-0098</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chk" prefTerm="chuuk">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chk</value>
+    <value>chuuk</value>
+    <value>scolomfr-voc-001-num-0101</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cos" prefTerm="corse">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cos</value>
+    <value>corse</value>
+    <value>scolomfr-voc-001-num-0105</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cre" prefTerm="cree">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cre</value>
+    <value>cree</value>
+    <value>scolomfr-voc-001-num-0107</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/epo" prefTerm="espéranto">
+    <value>http://id.loc.gov/vocabulary/iso639-2/epo</value>
+    <value>espéranto</value>
+    <value>scolomfr-voc-001-num-0134</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/grc" prefTerm="grec ancien (jusqu'à 1453)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/grc</value>
+    <value>grec ancien (jusqu'à 1453)</value>
+    <value>scolomfr-voc-001-num-0171</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kmb" prefTerm="kimbundu">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kmb</value>
+    <value>kimbundu</value>
+    <value>scolomfr-voc-001-num-0240</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kir" prefTerm="kirghiz">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kir</value>
+    <value>kirghiz</value>
+    <value>scolomfr-voc-001-num-0241</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lui" prefTerm="luiseno">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lui</value>
+    <value>luiseno</value>
+    <value>scolomfr-voc-001-num-0272</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mad" prefTerm="madourais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mad</value>
+    <value>madourais</value>
+    <value>scolomfr-voc-001-num-0279</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mak" prefTerm="makassar">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mak</value>
+    <value>makassar</value>
+    <value>scolomfr-voc-001-num-0282</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mal" prefTerm="malayalam">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mal</value>
+    <value>malayalam</value>
+    <value>scolomfr-voc-001-num-0285</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mlt" prefTerm="maltais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mlt</value>
+    <value>maltais</value>
+    <value>scolomfr-voc-001-num-0288</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mdr" prefTerm="mandar">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mdr</value>
+    <value>mandar</value>
+    <value>scolomfr-voc-001-num-0289</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mni" prefTerm="manipuri">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mni</value>
+    <value>manipuri</value>
+    <value>scolomfr-voc-001-num-0292</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chm" prefTerm="mari">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chm</value>
+    <value>mari</value>
+    <value>scolomfr-voc-001-num-0299</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mas" prefTerm="massaï">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mas</value>
+    <value>massaï</value>
+    <value>scolomfr-voc-001-num-0302</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mic" prefTerm="mi'kmaq | micmac">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mic</value>
+    <value>mi'kmaq | micmac</value>
+    <value>scolomfr-voc-001-num-0305</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ice" prefTerm="islandais (ice)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ice</value>
+    <value>islandais (ice)</value>
+    <value>scolomfr-voc-001-num-0212</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/jpn" prefTerm="japonais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/jpn</value>
+    <value>japonais</value>
+    <value>scolomfr-voc-001-num-0215</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lin" prefTerm="lingala">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lin</value>
+    <value>lingala</value>
+    <value>scolomfr-voc-001-num-0266</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lit" prefTerm="lituanien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lit</value>
+    <value>lituanien</value>
+    <value>scolomfr-voc-001-num-0267</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ltz" prefTerm="luxembourgeois">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ltz</value>
+    <value>luxembourgeois</value>
+    <value>scolomfr-voc-001-num-0276</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/mac" prefTerm="macédonien (mkd)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/mac</value>
+    <value>macédonien (mkd)</value>
+    <value>scolomfr-voc-001-num-0278</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/non" prefTerm="norrois, vieux">
+    <value>http://id.loc.gov/vocabulary/iso639-2/non</value>
+    <value>norrois, vieux</value>
+    <value>scolomfr-voc-001-num-0337</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nno" prefTerm="norvégien nynorsk | nynorsk, norvégien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nno</value>
+    <value>norvégien nynorsk | nynorsk, norvégien</value>
+    <value>scolomfr-voc-001-num-0340</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nyn" prefTerm="nyankolé">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nyn</value>
+    <value>nyankolé</value>
+    <value>scolomfr-voc-001-num-0343</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nyo" prefTerm="nyoro">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nyo</value>
+    <value>nyoro</value>
+    <value>scolomfr-voc-001-num-0344</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dut" prefTerm="néerlandais | flamand (nld)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dut</value>
+    <value>néerlandais | flamand (nld)</value>
+    <value>scolomfr-voc-001-num-0325</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/oci" prefTerm="occitan (après 1500)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/oci</value>
+    <value>occitan (après 1500)</value>
+    <value>scolomfr-voc-001-num-0346</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/oto" prefTerm="otomi, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/oto</value>
+    <value>otomi, langues</value>
+    <value>scolomfr-voc-001-num-0351</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/udm" prefTerm="oudmourte">
+    <value>http://id.loc.gov/vocabulary/iso639-2/udm</value>
+    <value>oudmourte</value>
+    <value>scolomfr-voc-001-num-0352</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pus" prefTerm="pachto">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pus</value>
+    <value>pachto</value>
+    <value>scolomfr-voc-001-num-0357</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pal" prefTerm="pahlavi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pal</value>
+    <value>pahlavi</value>
+    <value>scolomfr-voc-001-num-0358</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pau" prefTerm="palau">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pau</value>
+    <value>palau</value>
+    <value>scolomfr-voc-001-num-0359</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/paa" prefTerm="papoues, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/paa</value>
+    <value>papoues, langues</value>
+    <value>scolomfr-voc-001-num-0364</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/pan" prefTerm="pendjabi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/pan</value>
+    <value>pendjabi</value>
+    <value>scolomfr-voc-001-num-0367</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/phi" prefTerm="philippines, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/phi</value>
+    <value>philippines, langues</value>
+    <value>scolomfr-voc-001-num-0373</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/rum" prefTerm="roumain | moldave (rum)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/rum</value>
+    <value>roumain | moldave (rum)</value>
+    <value>scolomfr-voc-001-num-0387</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/rus" prefTerm="russe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/rus</value>
+    <value>russe</value>
+    <value>scolomfr-voc-001-num-0389</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sal" prefTerm="salishennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sal</value>
+    <value>salishennes, langues</value>
+    <value>scolomfr-voc-001-num-0391</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/smn" prefTerm="sami d'Inari">
+    <value>http://id.loc.gov/vocabulary/iso639-2/smn</value>
+    <value>sami d'Inari</value>
+    <value>scolomfr-voc-001-num-0395</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sma" prefTerm="sami du Sud">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sma</value>
+    <value>sami du Sud</value>
+    <value>scolomfr-voc-001-num-0397</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sms" prefTerm="sami skolt">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sms</value>
+    <value>sami skolt</value>
+    <value>scolomfr-voc-001-num-0398</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sag" prefTerm="sango">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sag</value>
+    <value>sango</value>
+    <value>scolomfr-voc-001-num-0401</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/srd" prefTerm="sarde">
+    <value>http://id.loc.gov/vocabulary/iso639-2/srd</value>
+    <value>sarde</value>
+    <value>scolomfr-voc-001-num-0404</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sel" prefTerm="selkoupe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sel</value>
+    <value>selkoupe</value>
+    <value>scolomfr-voc-001-num-0406</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/scn" prefTerm="sicilien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/scn</value>
+    <value>sicilien</value>
+    <value>scolomfr-voc-001-num-0411</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sin" prefTerm="singhalais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sin</value>
+    <value>singhalais</value>
+    <value>scolomfr-voc-001-num-0414</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sla" prefTerm="slaves, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sla</value>
+    <value>slaves, langues</value>
+    <value>scolomfr-voc-001-num-0417</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/slo" prefTerm="slovaque (slo)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/slo</value>
+    <value>slovaque (slo)</value>
+    <value>scolomfr-voc-001-num-0420</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/som" prefTerm="somali">
+    <value>http://id.loc.gov/vocabulary/iso639-2/som</value>
+    <value>somali</value>
+    <value>scolomfr-voc-001-num-0423</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/son" prefTerm="songhai, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/son</value>
+    <value>songhai, langues</value>
+    <value>scolomfr-voc-001-num-0424</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sot" prefTerm="sotho du Sud">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sot</value>
+    <value>sotho du Sud</value>
+    <value>scolomfr-voc-001-num-0427</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/srn" prefTerm="sranan tongo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/srn</value>
+    <value>sranan tongo</value>
+    <value>scolomfr-voc-001-num-0430</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dak" prefTerm="dakota">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dak</value>
+    <value>dakota</value>
+    <value>scolomfr-voc-001-num-0113</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/day" prefTerm="dayak, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/day</value>
+    <value>dayak, langues</value>
+    <value>scolomfr-voc-001-num-0116</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chg" prefTerm="djaghataï">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chg</value>
+    <value>djaghataï</value>
+    <value>scolomfr-voc-001-num-0120</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/dzo" prefTerm="dzongkha">
+    <value>http://id.loc.gov/vocabulary/iso639-2/dzo</value>
+    <value>dzongkha</value>
+    <value>scolomfr-voc-001-num-0125</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/myv" prefTerm="erza">
+    <value>http://id.loc.gov/vocabulary/iso639-2/myv</value>
+    <value>erza</value>
+    <value>scolomfr-voc-001-num-0131</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hun" prefTerm="hongrois">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hun</value>
+    <value>hongrois</value>
+    <value>scolomfr-voc-001-num-0190</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/iba" prefTerm="iban">
+    <value>http://id.loc.gov/vocabulary/iso639-2/iba</value>
+    <value>iban</value>
+    <value>scolomfr-voc-001-num-0193</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ijo" prefTerm="ijo, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ijo</value>
+    <value>ijo, langues</value>
+    <value>scolomfr-voc-001-num-0196</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/und" prefTerm="indéterminée">
+    <value>http://id.loc.gov/vocabulary/iso639-2/und</value>
+    <value>indéterminée</value>
+    <value>scolomfr-voc-001-num-0198</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ile" prefTerm="interlingue">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ile</value>
+    <value>interlingue</value>
+    <value>scolomfr-voc-001-num-0204</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/iku" prefTerm="inuktitut">
+    <value>http://id.loc.gov/vocabulary/iso639-2/iku</value>
+    <value>inuktitut</value>
+    <value>scolomfr-voc-001-num-0205</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ssw" prefTerm="swati">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ssw</value>
+    <value>swati</value>
+    <value>scolomfr-voc-001-num-0437</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ace" prefTerm="aceh">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ace</value>
+    <value>aceh</value>
+    <value>scolomfr-voc-001-num-0002</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/afh" prefTerm="afrihili">
+    <value>http://id.loc.gov/vocabulary/iso639-2/afh</value>
+    <value>afrihili</value>
+    <value>scolomfr-voc-001-num-0007</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/alg" prefTerm="algonquines, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/alg</value>
+    <value>algonquines, langues</value>
+    <value>scolomfr-voc-001-num-0016</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ger" prefTerm="allemand (ger)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ger</value>
+    <value>allemand (ger)</value>
+    <value>scolomfr-voc-001-num-0018</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/rup" prefTerm="aroumain | macédo-roumain">
+    <value>http://id.loc.gov/vocabulary/iso639-2/rup</value>
+    <value>aroumain | macédo-roumain</value>
+    <value>scolomfr-voc-001-num-0038</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/ast" prefTerm="asturien | bable | léonais | asturoléonais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/ast</value>
+    <value>asturien | bable | léonais | asturoléonais</value>
+    <value>scolomfr-voc-001-num-0041</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/map" prefTerm="austronésiennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/map</value>
+    <value>austronésiennes, langues</value>
+    <value>scolomfr-voc-001-num-0044</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/awa" prefTerm="awadhi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/awa</value>
+    <value>awadhi</value>
+    <value>scolomfr-voc-001-num-0047</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bra" prefTerm="braj">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bra</value>
+    <value>braj</value>
+    <value>scolomfr-voc-001-num-0079</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fao" prefTerm="féroïen">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fao</value>
+    <value>féroïen</value>
+    <value>scolomfr-voc-001-num-0140</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cym" prefTerm="gallois (wel)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cym</value>
+    <value>gallois (wel)</value>
+    <value>scolomfr-voc-001-num-0159</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gla" prefTerm="gaélique | gaélique écossais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gla</value>
+    <value>gaélique | gaélique écossais</value>
+    <value>scolomfr-voc-001-num-0155</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/xal" prefTerm="kalmouk | oïrat">
+    <value>http://id.loc.gov/vocabulary/iso639-2/xal</value>
+    <value>kalmouk | oïrat</value>
+    <value>scolomfr-voc-001-num-0224</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kau" prefTerm="kanouri">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kau</value>
+    <value>kanouri</value>
+    <value>scolomfr-voc-001-num-0227</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kar" prefTerm="karen, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kar</value>
+    <value>karen, langues</value>
+    <value>scolomfr-voc-001-num-0230</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kaw" prefTerm="kawi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kaw</value>
+    <value>kawi</value>
+    <value>scolomfr-voc-001-num-0233</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kaz" prefTerm="kazakh">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kaz</value>
+    <value>kazakh</value>
+    <value>scolomfr-voc-001-num-0234</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kho" prefTerm="khotanais | sakan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kho</value>
+    <value>khotanais | sakan</value>
+    <value>scolomfr-voc-001-num-0238</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/niu" prefTerm="niué">
+    <value>http://id.loc.gov/vocabulary/iso639-2/niu</value>
+    <value>niué</value>
+    <value>scolomfr-voc-001-num-0333</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nog" prefTerm="nogaï | nogay">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nog</value>
+    <value>nogaï | nogay</value>
+    <value>scolomfr-voc-001-num-0335</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/nai" prefTerm="nord-amérindiennes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/nai</value>
+    <value>nord-amérindiennes, langues</value>
+    <value>scolomfr-voc-001-num-0336</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sam" prefTerm="samaritain">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sam</value>
+    <value>samaritain</value>
+    <value>scolomfr-voc-001-num-0392</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/smj" prefTerm="sami de Lule">
+    <value>http://id.loc.gov/vocabulary/iso639-2/smj</value>
+    <value>sami de Lule</value>
+    <value>scolomfr-voc-001-num-0394</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sad" prefTerm="sandawe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sad</value>
+    <value>sandawe</value>
+    <value>scolomfr-voc-001-num-0400</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/asm" prefTerm="assamais">
+    <value>http://id.loc.gov/vocabulary/iso639-2/asm</value>
+    <value>assamais</value>
+    <value>scolomfr-voc-001-num-0040</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bho" prefTerm="bhojpuri">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bho</value>
+    <value>bhojpuri</value>
+    <value>scolomfr-voc-001-num-0068</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bin" prefTerm="bini | edo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bin</value>
+    <value>bini | edo</value>
+    <value>scolomfr-voc-001-num-0072</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bla" prefTerm="blackfoot">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bla</value>
+    <value>blackfoot</value>
+    <value>scolomfr-voc-001-num-0075</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/byn" prefTerm="blin | bilen">
+    <value>http://id.loc.gov/vocabulary/iso639-2/byn</value>
+    <value>blin | bilen</value>
+    <value>scolomfr-voc-001-num-0076</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bos" prefTerm="bosniaque">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bos</value>
+    <value>bosniaque</value>
+    <value>scolomfr-voc-001-num-0077</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/bua" prefTerm="bouriate">
+    <value>http://id.loc.gov/vocabulary/iso639-2/bua</value>
+    <value>bouriate</value>
+    <value>scolomfr-voc-001-num-0078</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fra" prefTerm="français (fra)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fra</value>
+    <value>français (fra)</value>
+    <value>scolomfr-voc-001-num-0146</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fro" prefTerm="français ancien (842-ca.1400)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fro</value>
+    <value>français ancien (842-ca.1400)</value>
+    <value>scolomfr-voc-001-num-0148</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fry" prefTerm="frison occidental">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fry</value>
+    <value>frison occidental</value>
+    <value>scolomfr-voc-001-num-0151</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/glg" prefTerm="galicien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/glg</value>
+    <value>galicien</value>
+    <value>scolomfr-voc-001-num-0156</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/orm" prefTerm="galla">
+    <value>http://id.loc.gov/vocabulary/iso639-2/orm</value>
+    <value>galla</value>
+    <value>scolomfr-voc-001-num-0157</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/iro" prefTerm="iroquoises, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/iro</value>
+    <value>iroquoises, langues</value>
+    <value>scolomfr-voc-001-num-0211</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fin" prefTerm="finnois">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fin</value>
+    <value>finnois</value>
+    <value>scolomfr-voc-001-num-0143</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/fur" prefTerm="frioulan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/fur</value>
+    <value>frioulan</value>
+    <value>scolomfr-voc-001-num-0150</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/frr" prefTerm="frison septentrional">
+    <value>http://id.loc.gov/vocabulary/iso639-2/frr</value>
+    <value>frison septentrional</value>
+    <value>scolomfr-voc-001-num-0153</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/her" prefTerm="herero">
+    <value>http://id.loc.gov/vocabulary/iso639-2/her</value>
+    <value>herero</value>
+    <value>scolomfr-voc-001-num-0184</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/hil" prefTerm="hiligaynon">
+    <value>http://id.loc.gov/vocabulary/iso639-2/hil</value>
+    <value>hiligaynon</value>
+    <value>scolomfr-voc-001-num-0185</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/jrb" prefTerm="judéo-arabe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/jrb</value>
+    <value>judéo-arabe</value>
+    <value>scolomfr-voc-001-num-0217</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/lad" prefTerm="judéo-espagnol">
+    <value>http://id.loc.gov/vocabulary/iso639-2/lad</value>
+    <value>judéo-espagnol</value>
+    <value>scolomfr-voc-001-num-0218</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/jpr" prefTerm="judéo-persan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/jpr</value>
+    <value>judéo-persan</value>
+    <value>scolomfr-voc-001-num-0219</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kbd" prefTerm="kabardien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kbd</value>
+    <value>kabardien</value>
+    <value>scolomfr-voc-001-num-0220</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kab" prefTerm="kabyle">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kab</value>
+    <value>kabyle</value>
+    <value>scolomfr-voc-001-num-0221</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kac" prefTerm="kachin | jingpho">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kac</value>
+    <value>kachin | jingpho</value>
+    <value>scolomfr-voc-001-num-0222</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kam" prefTerm="kamba">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kam</value>
+    <value>kamba</value>
+    <value>scolomfr-voc-001-num-0225</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kaa" prefTerm="karakalpak">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kaa</value>
+    <value>karakalpak</value>
+    <value>scolomfr-voc-001-num-0228</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/car" prefTerm="karib | galibi | carib">
+    <value>http://id.loc.gov/vocabulary/iso639-2/car</value>
+    <value>karib | galibi | carib</value>
+    <value>scolomfr-voc-001-num-0231</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/khm" prefTerm="khmer central">
+    <value>http://id.loc.gov/vocabulary/iso639-2/khm</value>
+    <value>khmer central</value>
+    <value>scolomfr-voc-001-num-0236</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kik" prefTerm="kikuyu">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kik</value>
+    <value>kikuyu</value>
+    <value>scolomfr-voc-001-num-0239</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/rap" prefTerm="rapanui">
+    <value>http://id.loc.gov/vocabulary/iso639-2/rap</value>
+    <value>rapanui</value>
+    <value>scolomfr-voc-001-num-0381</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/rar" prefTerm="rarotonga | maori des îles Cook">
+    <value>http://id.loc.gov/vocabulary/iso639-2/rar</value>
+    <value>rarotonga | maori des îles Cook</value>
+    <value>scolomfr-voc-001-num-0382</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/run" prefTerm="rundi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/run</value>
+    <value>rundi</value>
+    <value>scolomfr-voc-001-num-0388</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/qaa-qtz" prefTerm="réservée à l'usage local">
+    <value>http://id.loc.gov/vocabulary/iso639-2/qaa-qtz</value>
+    <value>réservée à l'usage local</value>
+    <value>scolomfr-voc-001-num-0383</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/smi" prefTerm="sames, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/smi</value>
+    <value>sames, langues</value>
+    <value>scolomfr-voc-001-num-0393</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sme" prefTerm="sami du Nord">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sme</value>
+    <value>sami du Nord</value>
+    <value>scolomfr-voc-001-num-0396</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/smo" prefTerm="samoan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/smo</value>
+    <value>samoan</value>
+    <value>scolomfr-voc-001-num-0399</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/san" prefTerm="sanskrit">
+    <value>http://id.loc.gov/vocabulary/iso639-2/san</value>
+    <value>sanskrit</value>
+    <value>scolomfr-voc-001-num-0402</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sat" prefTerm="santal">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sat</value>
+    <value>santal</value>
+    <value>scolomfr-voc-001-num-0403</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/srp" prefTerm="serbe">
+    <value>http://id.loc.gov/vocabulary/iso639-2/srp</value>
+    <value>serbe</value>
+    <value>scolomfr-voc-001-num-0408</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sid" prefTerm="sidamo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sid</value>
+    <value>sidamo</value>
+    <value>scolomfr-voc-001-num-0412</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/was" prefTerm="washo">
+    <value>http://id.loc.gov/vocabulary/iso639-2/was</value>
+    <value>washo</value>
+    <value>scolomfr-voc-001-num-0490</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/wal" prefTerm="wolaitta | wolaytta">
+    <value>http://id.loc.gov/vocabulary/iso639-2/wal</value>
+    <value>wolaitta | wolaytta</value>
+    <value>scolomfr-voc-001-num-0491</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/iii" prefTerm="yi de Sichuan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/iii</value>
+    <value>yi de Sichuan</value>
+    <value>scolomfr-voc-001-num-0496</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/yid" prefTerm="yiddish">
+    <value>http://id.loc.gov/vocabulary/iso639-2/yid</value>
+    <value>yiddish</value>
+    <value>scolomfr-voc-001-num-0497</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/zza" prefTerm="zaza | dimili | dimli | kirdki | kirmanjki | zazaki">
+    <value>http://id.loc.gov/vocabulary/iso639-2/zza</value>
+    <value>zaza | dimili | dimli | kirdki | kirmanjki | zazaki</value>
+    <value>scolomfr-voc-001-num-0502</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/elx" prefTerm="élamite">
+    <value>http://id.loc.gov/vocabulary/iso639-2/elx</value>
+    <value>élamite</value>
+    <value>scolomfr-voc-001-num-0130</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/shn" prefTerm="chan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/shn</value>
+    <value>chan</value>
+    <value>scolomfr-voc-001-num-0091</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chi" prefTerm="chinois (zho)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chi</value>
+    <value>chinois (zho)</value>
+    <value>scolomfr-voc-001-num-0097</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/chp" prefTerm="chipewyan">
+    <value>http://id.loc.gov/vocabulary/iso639-2/chp</value>
+    <value>chipewyan</value>
+    <value>scolomfr-voc-001-num-0099</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cop" prefTerm="copte">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cop</value>
+    <value>copte</value>
+    <value>scolomfr-voc-001-num-0102</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kor" prefTerm="coréen">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kor</value>
+    <value>coréen</value>
+    <value>scolomfr-voc-001-num-0103</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/cus" prefTerm="couchitiques, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/cus</value>
+    <value>couchitiques, langues</value>
+    <value>scolomfr-voc-001-num-0106</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gem" prefTerm="germaniques, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gem</value>
+    <value>germaniques, langues</value>
+    <value>scolomfr-voc-001-num-0165</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/got" prefTerm="gothique">
+    <value>http://id.loc.gov/vocabulary/iso639-2/got</value>
+    <value>gothique</value>
+    <value>scolomfr-voc-001-num-0168</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kas" prefTerm="kashmiri">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kas</value>
+    <value>kashmiri</value>
+    <value>scolomfr-voc-001-num-0232</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/kha" prefTerm="khasi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/kha</value>
+    <value>khasi</value>
+    <value>scolomfr-voc-001-num-0235</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/khi" prefTerm="khoïsan, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/khi</value>
+    <value>khoïsan, langues</value>
+    <value>scolomfr-voc-001-num-0237</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sas" prefTerm="sasak">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sas</value>
+    <value>sasak</value>
+    <value>scolomfr-voc-001-num-0405</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sna" prefTerm="shona">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sna</value>
+    <value>shona</value>
+    <value>scolomfr-voc-001-num-0410</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/snd" prefTerm="sindhi">
+    <value>http://id.loc.gov/vocabulary/iso639-2/snd</value>
+    <value>sindhi</value>
+    <value>scolomfr-voc-001-num-0413</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sio" prefTerm="sioux, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sio</value>
+    <value>sioux, langues</value>
+    <value>scolomfr-voc-001-num-0416</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/slk" prefTerm="slovaque (slk)">
+    <value>http://id.loc.gov/vocabulary/iso639-2/slk</value>
+    <value>slovaque (slk)</value>
+    <value>scolomfr-voc-001-num-0419</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/wen" prefTerm="sorabes, langues">
+    <value>http://id.loc.gov/vocabulary/iso639-2/wen</value>
+    <value>sorabes, langues</value>
+    <value>scolomfr-voc-001-num-0426</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/sus" prefTerm="soussou">
+    <value>http://id.loc.gov/vocabulary/iso639-2/sus</value>
+    <value>soussou</value>
+    <value>scolomfr-voc-001-num-0429</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/gsw" prefTerm="suisse alémanique | alémanique | alsacien">
+    <value>http://id.loc.gov/vocabulary/iso639-2/gsw</value>
+    <value>suisse alémanique | alémanique | alsacien</value>
+    <value>scolomfr-voc-001-num-0433</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/swe" prefTerm="suédois">
+    <value>http://id.loc.gov/vocabulary/iso639-2/swe</value>
+    <value>suédois</value>
+    <value>scolomfr-voc-001-num-0432</value>
+  </concept>
+  <concept id="http://id.loc.gov/vocabulary/iso639-2/swa" prefTerm="swahili">
+    <value>http://id.loc.gov/vocabulary/iso639-2/swa</value>
+    <value>swahili</value>
+    <value>scolomfr-voc-001-num-0436</value>
+  </concept>
+</vocab>

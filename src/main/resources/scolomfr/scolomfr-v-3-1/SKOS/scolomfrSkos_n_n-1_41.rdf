@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-037"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-038"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-003">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">déficience auditive</skos:altLabel>
+	<skos:altLabel xml:lang="fr">handicap auditif</skos:altLabel>
+	<skos:altLabel xml:lang="fr">handicapé auditif</skos:altLabel>
+	<skos:altLabel xml:lang="fr">malentendant</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sourd</skos:altLabel>
+	<skos:altLabel xml:lang="fr">surdité</skos:altLabel>
+	<skos:altLabel xml:lang="fr">trouble des fonctions auditives</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">trouble auditif</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Toute perte ou anomalie de l'ouïe. Concept à utiliser pour les ressources réalisées pour un public présentant des troubles auditifs.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">déficience auditive</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">handicap auditif</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">handicapé auditif</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">malentendant</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">sourd</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">surdité</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">trouble des fonctions auditives</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-004">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">aveugle</skos:altLabel>
+	<skos:altLabel xml:lang="fr">cécité</skos:altLabel>
+	<skos:altLabel xml:lang="fr">déficience visuelle</skos:altLabel>
+	<skos:altLabel xml:lang="fr">handicap visuel</skos:altLabel>
+	<skos:altLabel xml:lang="fr">malvoyant</skos:altLabel>
+	<skos:altLabel xml:lang="fr">trouble des fonctions visuelles</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">trouble visuel</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Toute perte ou anomalie de la vue. Concept à utiliser pour les ressources réalisées pour un public présentant des troubles visuels.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">aveugle</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">cécité</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">déficience visuelle</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">handicap visuel</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">malvoyant</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">trouble des fonctions visuelles</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-005">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">polyhandicapés</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">polyhandicap</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Personnes ayant un handicap grave à des expressions multiples. Leur autonomie est très largement limitée. Concept à utiliser pour les ressources réalisées pour un public de polyhandicapés.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">polyhandicapés</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-006">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">trouble important des fonctions cognitives</skos:altLabel>
+	<skos:altLabel xml:lang="fr">troubles cognitifs</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">trouble intellectuel et cognitif</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Troubles mentaux affectant la mémoire, la perception, le traitement de problèmes. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles cognitifs.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">trouble important des fonctions cognitives</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">troubles cognitifs</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-007">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">dyspraxie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">trouble des fonctions motrices</skos:altLabel>
+	<skos:altLabel xml:lang="fr">troubles moteurs</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">trouble moteur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Trouble caractérisé par l'aptitude limitée à se déplacer, à réaliser des tâches manuelles ou à mouvoir certaines parties de son corps. Les troubles moteurs peuvent être classés en 4 catégories en fonction de leur origine : les troubles moteurs d'origine cérébrale, d'origine médullaire, d'origine neuromusculaire ou d'origine ostéo-articulaire. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles moteurs.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">dyspraxie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">trouble des fonctions motrices</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">troubles moteurs</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-008">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">trouble du psychisme</skos:altLabel>
+	<skos:altLabel xml:lang="fr">troubles psychiques</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">trouble psychique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Troubles caractérisés par un manque relationnel, par des difficultés de concentration et par une grande variabilité dans l'utilisation des capacités. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles psychiques. A ne pas confondre avec les troubles mentaux qui résultent de pathologies identifiables.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">trouble du psychisme</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">troubles psychiques</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-009">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">TSLA</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dyscalculie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dysgnosie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dysgraphie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dyslexie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dysorthographie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dysphasie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">trouble de déficit de l'attention avec ou sans hyperactivité (TDAH)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">trouble de l'attention</skos:altLabel>
+	<skos:altLabel xml:lang="fr">troubles spécifiques des apprentissages</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">trouble spécifique du langage et des apprentissages</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ensemble de difficultés des apprentissages. Ces troubles interfèrent de façon relativement significative avec les performances scolaires ou les activités de la vie courante. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles spécifiques des apprentissages.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">TSLA</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dyscalculie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dysgnosie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dysgraphie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dyslexie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dysorthographie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dysphasie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">trouble de déficit de l'attention avec ou sans hyperactivité (TDAH)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">trouble de l'attention</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">troubles spécifiques des apprentissages</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-036">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">déficiences viscérales</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">trouble viscéral</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">déficiences viscérales</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-037">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">TED</skos:altLabel>
+	<skos:altLabel xml:lang="fr">autisme</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">trouble envahissant du développement et autisme</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">TED</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">autisme</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-038">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">plurihandicap</skos:altLabel>
+	<skos:definition xml:lang="fr">Type de trouble</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<skos:prefLabel xml:lang="fr">plusieurs troubles associés</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à distinguer du polyhandicap car n'induisant pas un handicap mental sévère initial.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">plurihandicap</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-041">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">041-Type de trouble</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-037"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-038"/>
+	<skos:prefLabel xml:lang="fr">041-Type de trouble</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>

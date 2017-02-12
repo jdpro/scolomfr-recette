@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/no</ID>
+<DF lang="fr">Coût</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">gratuit</INTITULE>
+<ID>scolomfr-voc-026-num-004</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">non</INTITULE>
+<ID>no</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">freemium</INTITULE>
+<ID>scolomfr-voc-026-num-006</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">non</INTITULE>
+<ID>scolomfr-voc-026-num-002</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/yes</ID>
+<DF lang="fr">Coût</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">payant</INTITULE>
+<ID>scolomfr-voc-026-num-005</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">oui</INTITULE>
+<ID>yes</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">oui</INTITULE>
+<ID>scolomfr-voc-026-num-001</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/no</ID>
+<DF lang="fr">Coût</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">gratuit</INTITULE>
+<ID>scolomfr-voc-026-num-004</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">non</INTITULE>
+<ID>no</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">freemium</INTITULE>
+<ID>scolomfr-voc-026-num-006</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">non</INTITULE>
+<ID>scolomfr-voc-026-num-002</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/yes</ID>
+<DF lang="fr">Coût</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">payant</INTITULE>
+<ID>scolomfr-voc-026-num-005</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">oui</INTITULE>
+<ID>yes</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">oui</INTITULE>
+<ID>scolomfr-voc-026-num-001</ID>
+</TERME_TE>
+</CONCEPT>
+</NOMENCLATURE>

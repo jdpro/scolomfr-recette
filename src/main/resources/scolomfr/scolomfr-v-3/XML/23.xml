@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/browser</ID>
+<DF lang="fr">Type (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">navigateur</INTITULE>
+<ID>browser</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">navigateur</INTITULE>
+<ID>scolomfr-voc-023-num-001</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/operating_system</ID>
+<DF lang="fr">Type (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">système d'exploitation</INTITULE>
+<ID>operating system</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">système d'exploitation</INTITULE>
+<ID>scolomfr-voc-023-num-002</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/operating_system</ID>
+<DF lang="fr">Type (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">système d'exploitation</INTITULE>
+<ID>operating system</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">système d'exploitation</INTITULE>
+<ID>scolomfr-voc-023-num-002</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/browser</ID>
+<DF lang="fr">Type (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">navigateur</INTITULE>
+<ID>browser</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">navigateur</INTITULE>
+<ID>scolomfr-voc-023-num-001</ID>
+</TERME_TE>
+</CONCEPT>
+</NOMENCLATURE>

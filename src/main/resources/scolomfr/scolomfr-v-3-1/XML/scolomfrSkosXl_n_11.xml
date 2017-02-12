@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/learner</ID>
+      <DF lang="fr">Public cible</DF>
+      <NA lang="fr">Personne qui exploite, travaille avec la ressource afin d'apprendre quelque chose. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">apprenant</INTITULE>
+         <ID>learner</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">apprenant</INTITULE>
+         <ID>scolomfr-voc-011-num-003</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/author_2</ID>
+      <DF lang="fr">Public cible</DF>
+      <NA lang="fr">Personne qui utilise ou réutilise une ressource à des fins de production. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">auteur</INTITULE>
+         <ID>author</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">auteur</INTITULE>
+         <ID>scolomfr-voc-011-num-002</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/teacher</ID>
+      <DF lang="fr">Public cible</DF>
+      <NA lang="fr">Personne responsable par les activités de transmission des connaissances et compétences dans le cadre de la "formation tout au long de la vie". Inclut les tuteurs. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">enseignant</INTITULE>
+         <ID>teacher</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">enseignant</INTITULE>
+         <ID>scolomfr-voc-011-num-001</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/manager</ID>
+      <DF lang="fr">Public cible</DF>
+      <NA lang="fr">Personne qui gère ou déploie des ressources. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">gestionnaire</INTITULE>
+         <ID>manager</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">gestionnaire</INTITULE>
+         <ID>scolomfr-voc-011-num-004</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

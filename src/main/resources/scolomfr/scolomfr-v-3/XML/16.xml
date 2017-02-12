@@ -1,0 +1,3580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00762</ID>
+<DF lang="fr">Noeud compétence</DF>
+<ORDRE>001-scolomfr-voc-016 (2015-) (Compétence)</ORDRE>
+<TERME>
+<INTITULE lang="fr">Compétences du socle commun (2015-)</INTITULE>
+<ID>scolomfr-voc-016-num-00762</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">socle commun de connaissances, de compétences et de culture</INTITULE>
+<ID>scolomfr-voc-016-num-00714</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">S4C (socle commun de connaissances, de compétences et de culture)</INTITULE>
+<ID>scolomfr-voc-016-num-00739</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">SCCCC (socle commun de connaissances, de compétences et de culture)</INTITULE>
+<ID>scolomfr-voc-016-num-00738</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">socle commun (2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00741</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">enseignements de l'école élémentaire</INTITULE>
+<ID>scolomfr-voc-015-num-1822</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignements du collège</INTITULE>
+<ID>scolomfr-voc-015-num-1273</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation physique et sportive (cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1033</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">cycles de la scolarité obligatoire</INTITULE>
+<ID>scolomfr-voc-022-num-618</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1 : les langages pour penser et communiquer</INTITULE>
+<ID>scolomfr-voc-016-num-00715</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1335</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1340</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écriture (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1346</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1350</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1392</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écriture (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1397</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit et de l'image (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1403</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approches culturelles (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1432</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">comprendre l'oral (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1437</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer oralement en continu (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1438</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">prendre part à une conversation (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1439</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la narration et le témoignage par les images (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1114</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">chanter et interpréter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1143</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer, commenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1149</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager et argumenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1158</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">argumenter son avis sur une œuvre d'art (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1164</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dégager les caractéristiques techniques et formelles d'une œuvre (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1167</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1550</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1576</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1577</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1600</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-920</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-934</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-947</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1601</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1007</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00716</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1.1 : comprendre, s'exprimer en utilisant la langue française à l'oral et à l'écrit</INTITULE>
+<ID>scolomfr-voc-016-num-00716</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">langue française (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00740</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1358</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1363</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écriture (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1367</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1374</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1408</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1117</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1119</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager, argumenter, débattre (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1221</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">expérience de la diversité des expressions des émotions et des sentiments (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-2028</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00719</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1.4 : comprendre, s'exprimer en utilisant les langages des arts et du corps</INTITULE>
+<ID>scolomfr-voc-016-num-00719</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">langages des arts et du corps (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00745</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">ressources expressives et créatives de la parole (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1396</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">représentation du monde (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1112</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'expression des émotions (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1113</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">chanter (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1116</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1117</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer et imaginer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1118</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">arts plastiques (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1121</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la représentation plastique et les dispositifs de présentation (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1122</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer, imaginer et créer (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1154</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">arts plastiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1180</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation musicale (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1201</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer devant les autres par une prestation artistique et/ou acrobatique (EPS cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1044</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation physique et sportive (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1056</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation physique et sportive (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1084</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">expérience de la diversité des expressions des émotions et des sentiments (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-2028</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00718</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1.3 : comprendre, s'exprimer en utilisant les langages mathématiques, scientifiques et informatiques</INTITULE>
+<ID>scolomfr-voc-016-num-00718</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">langages mathématiques, scientifiques et informatiques (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00744</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">nombres et calculs (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-921</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lexique, unités et instruments de mesures des grandeurs (mathématiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-941</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étudier quelques solides et figures géométriques (mathématiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-945</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">nombres et calculs (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-948</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">grandeurs et mesures (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-957</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">modélisation et simulation d'objets et systèmes techniques (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1542</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'informatique et la programmation (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1545</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences de la vie et de la Terre (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1511</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">physique-chimie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1496</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences et technologie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1474</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00717</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1.2 : comprendre, s'exprimer en utilisant une langue étrangère ou régionale</INTITULE>
+<ID>scolomfr-voc-016-num-00717</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">langue vivante régionale (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00743</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">langue vivante étrangère (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00742</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1440</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1460</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter et comprendre (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1442</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lire et comprendre (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1443</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1444</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écrire (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1445</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">réagir et dialoguer (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1446</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">activités culturelles et linguistiques (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1447</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">grammaire (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1451</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">phonologie (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1455</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5 : les représentations du monde et l'activité humaine</INTITULE>
+<ID>scolomfr-voc-016-num-00734</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1340</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit et de l'image (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1403</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approches culturelles (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1432</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1440</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">activités culturelles et linguistiques (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1447</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">représentation du monde (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1112</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la narration et le témoignage par les images (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1114</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">chanter (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1116</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1117</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer et imaginer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1118</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1119</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">chanter et interpréter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1143</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer, commenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1149</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer, imaginer et créer (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1154</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager et argumenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1158</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">argumenter son avis sur une œuvre d'art (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1164</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dégager les caractéristiques techniques et formelles d'une œuvre (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1167</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">relier les caractéristiques d'une œuvre à des usages et à un contexte historique et culturel (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1171</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">se repérer dans un musée, un lieu d'art, un site patrimonial (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1175</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire des arts (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1229</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer devant les autres par une prestation artistique et/ou acrobatique (EPS cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1044</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer devant les autres par une prestation artistique et/ou acrobatique (EPS cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1072</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1576</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1600</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">espaces et géométrie (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-929</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation aux médias et à l'information (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-903</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences et technologie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1474</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00736</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5.2 : organisation et représentations du monde</INTITULE>
+<ID>scolomfr-voc-016-num-00736</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">connaissance du monde social et des productions culturelles humaines (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00760</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1363</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">culture littéraire et artistique (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1380</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">culture littéraire et artistique (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1414</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">connaissances culturelles et linguistiques (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1467</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la représentation plastique et les dispositifs de présentation (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1122</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la représentation ; image, réalité et fiction (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1181</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">repères techniques et culturels (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1208</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">musique, esthétique et contexte (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1209</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">références artistiques et œuvres musicales (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1211</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer les organisations du monde (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-976</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00737</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5.3 : invention, élaboration, production d'objets culturels</INTITULE>
+<ID>scolomfr-voc-016-num-00737</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">créations d'objets culturels (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00761</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">les fabrications et la relation entre l'objet et l'espace (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1129</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre plastique à l'ère du numérique (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1187</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre, l'espace, l'auteur, le spectateur (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1195</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conception et mise en œuvre de projet musical (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-3702</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer, imaginer, créer et produire (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1215</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">design, innovation et créativité (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1535</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00735</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5.1 : l'espace et le temps</INTITULE>
+<ID>scolomfr-voc-016-num-00735</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">compréhension des sociétés dans le temps et dans l'espace (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00759</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">voyages et migrations (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1470</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">rencontres avec d'autres cultures (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1471</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">questionner l'espace et le temps (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-973</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1007</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la planète Terre et les êtres vivants dans leur environnement (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1491</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3 : la formation de la personne et du citoyen</INTITULE>
+<ID>scolomfr-voc-016-num-00725</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1335</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1392</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approches culturelles (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1432</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">prendre part à une conversation (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1439</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1440</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1444</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écrire (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1445</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">activités culturelles et linguistiques (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1447</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1465</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1117</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1119</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer, commenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1149</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager et argumenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1158</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">argumenter son avis sur une œuvre d'art (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1164</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dégager les caractéristiques techniques et formelles d'une œuvre (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1167</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">respecter des règles de sécurité (EPS cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1039</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conduire et maitriser un affrontement collectif ou interindividuel (EPS cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1049</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">respecter des règles de sécurité (EPS cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1065</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conduire et maitriser un affrontement collectif ou interindividuel (EPS cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1077</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">respecter des règles de sécurité (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1093</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conduire et maitriser un affrontement collectif ou interindividuel (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1102</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1576</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1600</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation aux médias et à l'information (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-903</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1007</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00728</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3.3 : réflexion et discernement</INTITULE>
+<ID>scolomfr-voc-016-num-00728</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">jugement et validation de l'information (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00754</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1358</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">maitrise des techniques d'argumentation (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1402</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">relier les caractéristiques d'une œuvre à des usages et à un contexte historique et culturel (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1171</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre, l'espace, l'auteur, le spectateur (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1195</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">musique, esthétique et contexte (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1209</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager, argumenter, débattre (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1221</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">évaluation des risques et faisabilité (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1096</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approche critique de prestations (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1101</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1564</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1589</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1610</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">exploitation raisonnée de l'information (EMI cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-905</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">utilisation responsable des médias (EMI cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-906</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00727</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3.2 : la règle et le droit</INTITULE>
+<ID>scolomfr-voc-016-num-00727</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">vie en communauté et principes démocratiques (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00753</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">rencontres avec d'autres cultures (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1471</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le droit et la règle (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1557</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le droit et la règle (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1584</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le droit et la règle (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1606</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00729</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3.4 : responsabilité, sens de l'engagement et de l'initiative</INTITULE>
+<ID>scolomfr-voc-016-num-00729</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">évaluation des risques et faisabilité (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1096</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'engager, maitriser les risques et émotions en représentations (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1100</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1577</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'engagement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1595</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1601</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'engagement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1615</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00726</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3.1 : expression de la sensibilité et des opinions, respect des autres</INTITULE>
+<ID>scolomfr-voc-016-num-00726</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">communication non-violente, confiance en soi et esprit critique (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00752</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1358</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">participation constructive à des échanges oraux (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1395</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'expression des émotions (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1113</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la représentation plastique et les dispositifs de présentation (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1122</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">arts plastiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1180</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager, argumenter, débattre (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1221</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approche critique de prestations (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1101</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1550</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1564</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1577</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1589</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1601</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1610</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2 : les méthodes et outils pour apprendre</INTITULE>
+<ID>scolomfr-voc-016-num-00720</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1335</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1350</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1374</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1392</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écriture (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1397</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit et de l'image (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1403</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approches culturelles (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1432</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">comprendre l'oral (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1437</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer oralement en continu (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1438</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">prendre part à une conversation (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1439</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1440</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter et comprendre (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1442</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lire et comprendre (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1443</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1444</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écrire (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1445</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">réagir et dialoguer (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1446</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">activités culturelles et linguistiques (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1447</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter et comprendre (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1462</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lire (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1463</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">réagir et dialoguer (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1464</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1465</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écrire et réagir à l'écrit (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1466</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la matérialité de la production plastique et la sensibilité aux constituants de l'œuvre (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1133</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dégager les caractéristiques techniques et formelles d'une œuvre (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1167</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">se repérer dans un musée, un lieu d'art, un site patrimonial (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1175</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la matérialité et l'objet de l'œuvre (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1188</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">composer, interpréter (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1202</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">gérer son effort en vue d'une performance (EPS cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1057</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">gérer son effort en vue d'une performance (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1085</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1576</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1600</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-920</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-934</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-947</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">technologie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1534</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">qu'est-ce que la matière ? (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-970</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1007</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences et technologie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1474</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">phonologie (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1473</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00724</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2.4 : outils numériques pour échanger et communiquer</INTITULE>
+<ID>scolomfr-voc-016-num-00724</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">réseaux sociaux (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00751</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1589</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1610</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation aux médias et à l'information (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-903</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">outils de description (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1541</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">les objets techniques (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-972</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">communiquer d'un bout à l'autre du monde grâce à l'Internet (géographie CM2)</INTITULE>
+<ID>scolomfr-voc-015-num-1000</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">communication et gestion de l'information (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1490</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00721</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2.1 : organisation du travail personnel</INTITULE>
+<ID>scolomfr-voc-016-num-00721</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">organisation des apprentissages (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00746</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">écrit et écriture : rôle et utilisations (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1398</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">stratégies et procédures d'écriture efficace (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1399</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">stratégies de lectures (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1404</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écoute et mémorisation d'objets musicaux longs et complexes (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1207</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">analyse comparative d'interprétations (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-3704</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer, imaginer, créer et produire (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1215</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">organisation et gestion de données, fonctions (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-952</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">comparer, calculer, résoudre des problèmes (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-949</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">utilisation autonome des médias et de l'information (EMI cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-904</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00723</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2.3 : médias, démarches de recherche et de traitement de l'information</INTITULE>
+<ID>scolomfr-voc-016-num-00723</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">esprit critique (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00749</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">usage critique et réfléchi de l'information (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00750</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">accès à l'information et à la documentation (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00748</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1589</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1610</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">communication et gestion de l'information (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1490</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00722</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2.2 : coopération et réalisation de projets</INTITULE>
+<ID>scolomfr-voc-016-num-00722</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">conduite de projets individuels et collectifs (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00747</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre, l'espace, l'auteur, le spectateur (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1195</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conception et mise en œuvre de projet musical (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-3702</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager, argumenter, débattre (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1221</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">assurer, aider l'autre pour réussir ensemble (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1095</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mise en œuvre de projet artistique et/ou acrobatique (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1098</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">procédés de composition et d'interprétation artistique et/ou acrobatique (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-3708</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conduire et maitriser un affrontement collectif ou interindividuel (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1102</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">concevoir un objet technique (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1489</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4 : les systèmes naturels et les systèmes techniques</INTITULE>
+<ID>scolomfr-voc-016-num-00730</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">qualités artistiques et techniques d'un enregistrement (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1213</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-920</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-934</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">technologie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1534</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences de la vie et de la Terre (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1511</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">physique-chimie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1496</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences et technologie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1474</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00733</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4.3 : responsabilités individuelles et collectives</INTITULE>
+<ID>scolomfr-voc-016-num-00733</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">monde vivant, matière et énergie (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00757</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">écocitoyenneté (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00758</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">comment reconnaitre le monde vivant ? (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-971</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">consommer en France (géographie CM1)</INTITULE>
+<ID>scolomfr-voc-015-num-997</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mieux habiter (géographie CM2)</INTITULE>
+<ID>scolomfr-voc-015-num-1001</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">matière, mouvement, énergie, information (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1475</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le vivant, sa diversité et les fonctions qui le caractérisent (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1480</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">les principales familles de matériaux (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1488</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la planète Terre et les êtres vivants dans leur environnement (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1491</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00732</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4.2 : conception, création, réalisation d'objets et systèmes techniques</INTITULE>
+<ID>scolomfr-voc-016-num-00732</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre plastique à l'ère du numérique (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1187</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">métissages entre arts plastiques et technologies numériques (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1199</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">capter, manipuler, séquencer les sons avec un outil numérique (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1205</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">algorithmique et programmation (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-964</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">design, innovation et créativité (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1535</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'énergie et ses conversions (physique-chimie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1504</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">les objets techniques (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-972</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">concevoir un objet technique (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1489</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00731</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4.1 : démarches scientifiques</INTITULE>
+<ID>scolomfr-voc-016-num-00731</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">démonstration mathématique (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00755</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">expérimentation (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00756</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résolution de problème (mathématiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1828</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résolution de problèmes impliquant grandeurs, nombres entiers et décimaux (mathématiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-942</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-947</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">modélisation et simulation d'objets et systèmes techniques (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1542</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mouvements et interactions (physique-chimie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1501</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">comment reconnaitre le monde vivant ? (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-971</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">matière, mouvement, énergie, information (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1475</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-037</ID>
+<DF lang="fr">Noeud compétence</DF>
+<ORDRE>002-scolomfr-voc-016 (2008-2014) (Compétence)</ORDRE>
+<TERME>
+<INTITULE lang="fr">Compétence du socle commun (2008-2014)</INTITULE>
+<ID>scolomfr-voc-016-num-037</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 1 - la maîtrise de la langue française</INTITULE>
+<ID>scolomfr-voc-016-num-001</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0011</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">lire</INTITULE>
+<ID>scolomfr-voc-016-num-0011</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0013</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">s'exprimer à l'oral</INTITULE>
+<ID>scolomfr-voc-016-num-0013</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0012</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">écrire</INTITULE>
+<ID>scolomfr-voc-016-num-0012</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0014</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">utiliser des outils</INTITULE>
+<ID>scolomfr-voc-016-num-0014</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 2 - la pratique d'une langue vivante étrangère (niveau a2)</INTITULE>
+<ID>scolomfr-voc-016-num-002</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0023</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">parler en continu</INTITULE>
+<ID>scolomfr-voc-016-num-0023</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0021</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">réagir et dialoguer</INTITULE>
+<ID>scolomfr-voc-016-num-0021</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0025</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">écrire</INTITULE>
+<ID>scolomfr-voc-016-num-0025</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0024</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">lire</INTITULE>
+<ID>scolomfr-voc-016-num-0024</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0022</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">écouter et comprendre</INTITULE>
+<ID>scolomfr-voc-016-num-0022</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 3 - les principaux éléments de mathématiques et la culture scientifique et technologique</INTITULE>
+<ID>scolomfr-voc-016-num-003</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0031</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">pratiquer une démarche scientifique et technologique, résoudre des problèmes</INTITULE>
+<ID>scolomfr-voc-016-num-0031</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0033</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">savoir utiliser des connaissances dans divers domaines scientifiques</INTITULE>
+<ID>scolomfr-voc-016-num-0033</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0034</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">mobiliser ses connaissances pour comprendre des questions liées à l'environnement et au développement durable</INTITULE>
+<ID>scolomfr-voc-016-num-0034</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0032</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">savoir utiliser des connaissances et des compétences mathématiques</INTITULE>
+<ID>scolomfr-voc-016-num-0032</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 4 - la maîtrise des techniques usuelles de l'information et de la communication (b2i)</INTITULE>
+<ID>scolomfr-voc-016-num-004</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0042</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2 - adopter une attitude responsable</INTITULE>
+<ID>scolomfr-voc-016-num-0042</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0045</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5 - communiquer, échanger</INTITULE>
+<ID>scolomfr-voc-016-num-0045</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0041</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1 - s'approprier un environnement informatique de travail</INTITULE>
+<ID>scolomfr-voc-016-num-0041</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0043</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3 - créer, produire, traiter, exploiter des données</INTITULE>
+<ID>scolomfr-voc-016-num-0043</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0044</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4 - s'informer, se documenter</INTITULE>
+<ID>scolomfr-voc-016-num-0044</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 5 - la culture humaniste</INTITULE>
+<ID>scolomfr-voc-016-num-005</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0051</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des repères géographiques</INTITULE>
+<ID>scolomfr-voc-016-num-0051</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0053</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des repères littéraires</INTITULE>
+<ID>scolomfr-voc-016-num-0053</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0055</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">lire et utiliser différents langages</INTITULE>
+<ID>scolomfr-voc-016-num-0055</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0054</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des repères en histoire des arts et pratiquer les arts</INTITULE>
+<ID>scolomfr-voc-016-num-0054</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0052</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des repères historiques</INTITULE>
+<ID>scolomfr-voc-016-num-0052</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0056</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des outils pour comprendre l'unité et la complexité du monde</INTITULE>
+<ID>scolomfr-voc-016-num-0056</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 6 - les compétences sociales et civiques</INTITULE>
+<ID>scolomfr-voc-016-num-006</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0062</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir un comportement responsable</INTITULE>
+<ID>scolomfr-voc-016-num-0062</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0061</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">connaître les principes et fondements de la vie civique et sociale</INTITULE>
+<ID>scolomfr-voc-016-num-0061</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 7 - l'autonomie et l'initiative</INTITULE>
+<ID>scolomfr-voc-016-num-007</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0071</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">découvrir les métiers et les formations</INTITULE>
+<ID>scolomfr-voc-016-num-0071</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00712</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">être capable de mobiliser ses ressources intellectuelles et physiques dans diverses situations</INTITULE>
+<ID>scolomfr-voc-016-num-00712</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00713</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">faire preuve d'initiative</INTITULE>
+<ID>scolomfr-voc-016-num-00713</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00762</ID>
+<DF lang="fr">Noeud compétence</DF>
+<ORDRE>001-scolomfr-voc-016 (2015-) (Compétence)</ORDRE>
+<TERME>
+<INTITULE lang="fr">Compétences du socle commun (2015-)</INTITULE>
+<ID>scolomfr-voc-016-num-00762</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">socle commun de connaissances, de compétences et de culture</INTITULE>
+<ID>scolomfr-voc-016-num-00714</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">S4C (socle commun de connaissances, de compétences et de culture)</INTITULE>
+<ID>scolomfr-voc-016-num-00739</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">SCCCC (socle commun de connaissances, de compétences et de culture)</INTITULE>
+<ID>scolomfr-voc-016-num-00738</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">socle commun (2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00741</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">enseignements de l'école élémentaire</INTITULE>
+<ID>scolomfr-voc-015-num-1822</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignements du collège</INTITULE>
+<ID>scolomfr-voc-015-num-1273</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation physique et sportive (cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1033</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">cycles de la scolarité obligatoire</INTITULE>
+<ID>scolomfr-voc-022-num-618</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1 : les langages pour penser et communiquer</INTITULE>
+<ID>scolomfr-voc-016-num-00715</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1335</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1340</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écriture (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1346</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1350</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1392</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écriture (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1397</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit et de l'image (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1403</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approches culturelles (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1432</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">comprendre l'oral (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1437</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer oralement en continu (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1438</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">prendre part à une conversation (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1439</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la narration et le témoignage par les images (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1114</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">chanter et interpréter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1143</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer, commenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1149</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager et argumenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1158</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">argumenter son avis sur une œuvre d'art (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1164</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dégager les caractéristiques techniques et formelles d'une œuvre (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1167</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1550</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1576</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1577</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1600</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-920</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-934</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-947</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1601</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1007</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00716</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1.1 : comprendre, s'exprimer en utilisant la langue française à l'oral et à l'écrit</INTITULE>
+<ID>scolomfr-voc-016-num-00716</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">langue française (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00740</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1358</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1363</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écriture (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1367</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1374</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1408</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1117</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1119</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager, argumenter, débattre (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1221</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">expérience de la diversité des expressions des émotions et des sentiments (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-2028</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00719</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1.4 : comprendre, s'exprimer en utilisant les langages des arts et du corps</INTITULE>
+<ID>scolomfr-voc-016-num-00719</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">langages des arts et du corps (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00745</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">ressources expressives et créatives de la parole (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1396</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">représentation du monde (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1112</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'expression des émotions (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1113</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">chanter (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1116</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1117</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer et imaginer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1118</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">arts plastiques (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1121</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la représentation plastique et les dispositifs de présentation (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1122</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer, imaginer et créer (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1154</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">arts plastiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1180</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation musicale (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1201</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer devant les autres par une prestation artistique et/ou acrobatique (EPS cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1044</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation physique et sportive (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1056</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation physique et sportive (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1084</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">expérience de la diversité des expressions des émotions et des sentiments (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-2028</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00718</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1.3 : comprendre, s'exprimer en utilisant les langages mathématiques, scientifiques et informatiques</INTITULE>
+<ID>scolomfr-voc-016-num-00718</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">langages mathématiques, scientifiques et informatiques (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00744</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">nombres et calculs (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-921</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lexique, unités et instruments de mesures des grandeurs (mathématiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-941</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étudier quelques solides et figures géométriques (mathématiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-945</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">nombres et calculs (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-948</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">grandeurs et mesures (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-957</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">modélisation et simulation d'objets et systèmes techniques (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1542</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'informatique et la programmation (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1545</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences de la vie et de la Terre (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1511</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">physique-chimie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1496</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences et technologie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1474</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00717</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1.2 : comprendre, s'exprimer en utilisant une langue étrangère ou régionale</INTITULE>
+<ID>scolomfr-voc-016-num-00717</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">langue vivante régionale (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00743</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">langue vivante étrangère (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00742</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1440</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1460</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter et comprendre (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1442</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lire et comprendre (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1443</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1444</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écrire (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1445</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">réagir et dialoguer (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1446</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">activités culturelles et linguistiques (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1447</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">grammaire (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1451</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">phonologie (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1455</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5 : les représentations du monde et l'activité humaine</INTITULE>
+<ID>scolomfr-voc-016-num-00734</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1340</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit et de l'image (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1403</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approches culturelles (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1432</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1440</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">activités culturelles et linguistiques (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1447</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">représentation du monde (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1112</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la narration et le témoignage par les images (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1114</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">chanter (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1116</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1117</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer et imaginer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1118</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1119</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">chanter et interpréter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1143</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer, commenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1149</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer, imaginer et créer (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1154</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager et argumenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1158</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">argumenter son avis sur une œuvre d'art (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1164</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dégager les caractéristiques techniques et formelles d'une œuvre (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1167</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">relier les caractéristiques d'une œuvre à des usages et à un contexte historique et culturel (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1171</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">se repérer dans un musée, un lieu d'art, un site patrimonial (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1175</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire des arts (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1229</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer devant les autres par une prestation artistique et/ou acrobatique (EPS cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1044</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer devant les autres par une prestation artistique et/ou acrobatique (EPS cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1072</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1576</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1600</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">espaces et géométrie (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-929</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation aux médias et à l'information (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-903</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences et technologie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1474</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00736</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5.2 : organisation et représentations du monde</INTITULE>
+<ID>scolomfr-voc-016-num-00736</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">connaissance du monde social et des productions culturelles humaines (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00760</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1363</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">culture littéraire et artistique (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1380</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">culture littéraire et artistique (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1414</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">connaissances culturelles et linguistiques (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1467</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la représentation plastique et les dispositifs de présentation (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1122</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la représentation ; image, réalité et fiction (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1181</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">repères techniques et culturels (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1208</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">musique, esthétique et contexte (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1209</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">références artistiques et œuvres musicales (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1211</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer les organisations du monde (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-976</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00737</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5.3 : invention, élaboration, production d'objets culturels</INTITULE>
+<ID>scolomfr-voc-016-num-00737</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">créations d'objets culturels (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00761</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">les fabrications et la relation entre l'objet et l'espace (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1129</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre plastique à l'ère du numérique (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1187</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre, l'espace, l'auteur, le spectateur (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1195</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conception et mise en œuvre de projet musical (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-3702</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer, imaginer, créer et produire (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1215</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">design, innovation et créativité (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1535</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00735</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5.1 : l'espace et le temps</INTITULE>
+<ID>scolomfr-voc-016-num-00735</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">compréhension des sociétés dans le temps et dans l'espace (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00759</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">voyages et migrations (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1470</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">rencontres avec d'autres cultures (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1471</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">questionner l'espace et le temps (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-973</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1007</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la planète Terre et les êtres vivants dans leur environnement (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1491</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3 : la formation de la personne et du citoyen</INTITULE>
+<ID>scolomfr-voc-016-num-00725</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1335</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1392</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approches culturelles (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1432</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">prendre part à une conversation (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1439</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1440</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1444</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écrire (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1445</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">activités culturelles et linguistiques (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1447</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1465</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1117</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager (éducation musicale cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1119</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter, comparer, commenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1149</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager et argumenter (éducation musicale cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1158</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">argumenter son avis sur une œuvre d'art (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1164</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dégager les caractéristiques techniques et formelles d'une œuvre (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1167</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">respecter des règles de sécurité (EPS cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1039</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conduire et maitriser un affrontement collectif ou interindividuel (EPS cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1049</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">respecter des règles de sécurité (EPS cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1065</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conduire et maitriser un affrontement collectif ou interindividuel (EPS cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1077</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">respecter des règles de sécurité (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1093</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conduire et maitriser un affrontement collectif ou interindividuel (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1102</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1576</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1600</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation aux médias et à l'information (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-903</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1007</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00728</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3.3 : réflexion et discernement</INTITULE>
+<ID>scolomfr-voc-016-num-00728</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">jugement et validation de l'information (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00754</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1358</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">maitrise des techniques d'argumentation (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1402</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">relier les caractéristiques d'une œuvre à des usages et à un contexte historique et culturel (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1171</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre, l'espace, l'auteur, le spectateur (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1195</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">musique, esthétique et contexte (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1209</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager, argumenter, débattre (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1221</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">évaluation des risques et faisabilité (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1096</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approche critique de prestations (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1101</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1564</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1589</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1610</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">exploitation raisonnée de l'information (EMI cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-905</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">utilisation responsable des médias (EMI cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-906</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00727</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3.2 : la règle et le droit</INTITULE>
+<ID>scolomfr-voc-016-num-00727</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">vie en communauté et principes démocratiques (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00753</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">rencontres avec d'autres cultures (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1471</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le droit et la règle (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1557</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le droit et la règle (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1584</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le droit et la règle (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1606</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00729</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3.4 : responsabilité, sens de l'engagement et de l'initiative</INTITULE>
+<ID>scolomfr-voc-016-num-00729</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">évaluation des risques et faisabilité (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1096</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'engager, maitriser les risques et émotions en représentations (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1100</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1577</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'engagement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1595</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1601</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'engagement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1615</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00726</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3.1 : expression de la sensibilité et des opinions, respect des autres</INTITULE>
+<ID>scolomfr-voc-016-num-00726</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">communication non-violente, confiance en soi et esprit critique (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00752</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1358</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">participation constructive à des échanges oraux (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1395</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'expression des émotions (arts plastiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1113</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la représentation plastique et les dispositifs de présentation (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1122</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">arts plastiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1180</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager, argumenter, débattre (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1221</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approche critique de prestations (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1101</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1550</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1564</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1577</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1589</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la sensibilité (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1601</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1610</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2 : les méthodes et outils pour apprendre</INTITULE>
+<ID>scolomfr-voc-016-num-00720</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1335</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1350</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">étude de la langue (français cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1374</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langage oral (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1392</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écriture (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1397</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lecture et compréhension de l'écrit et de l'image (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1403</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">approches culturelles (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1432</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">comprendre l'oral (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1437</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">s'exprimer oralement en continu (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1438</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">prendre part à une conversation (langues vivantes cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-1439</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">langues vivantes étrangères ou régionales (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1440</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter et comprendre (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1442</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lire et comprendre (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1443</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1444</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écrire (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1445</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">réagir et dialoguer (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1446</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">activités culturelles et linguistiques (langues vivantes cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1447</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écouter et comprendre (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1462</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">lire (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1463</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">réagir et dialoguer (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1464</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">parler en continu (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1465</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écrire et réagir à l'écrit (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1466</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la matérialité de la production plastique et la sensibilité aux constituants de l'œuvre (arts plastiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1133</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dégager les caractéristiques techniques et formelles d'une œuvre (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1167</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">se repérer dans un musée, un lieu d'art, un site patrimonial (histoire des arts cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1175</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la matérialité et l'objet de l'œuvre (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1188</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">composer, interpréter (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1202</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">gérer son effort en vue d'une performance (EPS cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1057</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">gérer son effort en vue d'une performance (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1085</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1576</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement moral et civique (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1600</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-920</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-934</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-947</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">technologie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1534</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">qu'est-ce que la matière ? (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-970</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1007</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences et technologie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1474</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">phonologie (langues vivantes cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1473</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00724</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2.4 : outils numériques pour échanger et communiquer</INTITULE>
+<ID>scolomfr-voc-016-num-00724</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">réseaux sociaux (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00751</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1589</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1610</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation aux médias et à l'information (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-903</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">outils de description (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1541</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">les objets techniques (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-972</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">communiquer d'un bout à l'autre du monde grâce à l'Internet (géographie CM2)</INTITULE>
+<ID>scolomfr-voc-015-num-1000</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">communication et gestion de l'information (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1490</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00721</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2.1 : organisation du travail personnel</INTITULE>
+<ID>scolomfr-voc-016-num-00721</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">organisation des apprentissages (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00746</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">écrit et écriture : rôle et utilisations (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1398</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">stratégies et procédures d'écriture efficace (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1399</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">stratégies de lectures (français cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1404</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">écoute et mémorisation d'objets musicaux longs et complexes (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1207</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">analyse comparative d'interprétations (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-3704</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">explorer, imaginer, créer et produire (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1215</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">organisation et gestion de données, fonctions (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-952</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">comparer, calculer, résoudre des problèmes (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-949</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">utilisation autonome des médias et de l'information (EMI cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-904</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00723</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2.3 : médias, démarches de recherche et de traitement de l'information</INTITULE>
+<ID>scolomfr-voc-016-num-00723</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">esprit critique (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00749</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">usage critique et réfléchi de l'information (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00750</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">accès à l'information et à la documentation (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00748</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1589</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le jugement (EMC cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1610</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">communication et gestion de l'information (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1490</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00722</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2.2 : coopération et réalisation de projets</INTITULE>
+<ID>scolomfr-voc-016-num-00722</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">conduite de projets individuels et collectifs (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00747</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre, l'espace, l'auteur, le spectateur (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1195</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conception et mise en œuvre de projet musical (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-3702</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">échanger, partager, argumenter, débattre (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1221</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">assurer, aider l'autre pour réussir ensemble (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1095</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mise en œuvre de projet artistique et/ou acrobatique (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1098</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">procédés de composition et d'interprétation artistique et/ou acrobatique (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-3708</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">conduire et maitriser un affrontement collectif ou interindividuel (EPS cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1102</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">concevoir un objet technique (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1489</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4 : les systèmes naturels et les systèmes techniques</INTITULE>
+<ID>scolomfr-voc-016-num-00730</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">qualités artistiques et techniques d'un enregistrement (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1213</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-920</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-934</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">technologie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1534</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences de la vie et de la Terre (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1511</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">physique-chimie (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1496</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">sciences et technologie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1474</ID>
+</TERME_TA>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00733</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4.3 : responsabilités individuelles et collectives</INTITULE>
+<ID>scolomfr-voc-016-num-00733</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">monde vivant, matière et énergie (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00757</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">écocitoyenneté (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00758</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">comment reconnaitre le monde vivant ? (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-971</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">histoire et géographie (cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-981</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">consommer en France (géographie CM1)</INTITULE>
+<ID>scolomfr-voc-015-num-997</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mieux habiter (géographie CM2)</INTITULE>
+<ID>scolomfr-voc-015-num-1001</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">matière, mouvement, énergie, information (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1475</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">le vivant, sa diversité et les fonctions qui le caractérisent (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1480</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">les principales familles de matériaux (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1488</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">la planète Terre et les êtres vivants dans leur environnement (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1491</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00732</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4.2 : conception, création, réalisation d'objets et systèmes techniques</INTITULE>
+<ID>scolomfr-voc-016-num-00732</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">l'œuvre plastique à l'ère du numérique (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1187</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">métissages entre arts plastiques et technologies numériques (arts plastiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1199</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">capter, manipuler, séquencer les sons avec un outil numérique (éducation musicale cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1205</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">algorithmique et programmation (mathématiques cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-964</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">design, innovation et créativité (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1535</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">l'énergie et ses conversions (physique-chimie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1504</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">les objets techniques (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-972</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">concevoir un objet technique (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1489</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00731</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4.1 : démarches scientifiques</INTITULE>
+<ID>scolomfr-voc-016-num-00731</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">démonstration mathématique (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00755</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">expérimentation (socle commun 2016)</INTITULE>
+<ID>scolomfr-voc-016-num-00756</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résolution de problème (mathématiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1828</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résolution de problèmes impliquant grandeurs, nombres entiers et décimaux (mathématiques cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-942</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mathématiques (cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-947</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">modélisation et simulation d'objets et systèmes techniques (technologie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1542</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">mouvements et interactions (physique-chimie cycle 4)</INTITULE>
+<ID>scolomfr-voc-015-num-1501</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">comment reconnaitre le monde vivant ? (questionner le monde cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-971</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">matière, mouvement, énergie, information (sciences et technologie cycle 3)</INTITULE>
+<ID>scolomfr-voc-015-num-1475</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">résoudre des problèmes en utilisant des nombres entiers et le calcul (mathématiques cycle 2)</INTITULE>
+<ID>scolomfr-voc-015-num-924</ID>
+</TERME_TA>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-037</ID>
+<DF lang="fr">Noeud compétence</DF>
+<ORDRE>002-scolomfr-voc-016 (2008-2014) (Compétence)</ORDRE>
+<TERME>
+<INTITULE lang="fr">Compétence du socle commun (2008-2014)</INTITULE>
+<ID>scolomfr-voc-016-num-037</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 1 - la maîtrise de la langue française</INTITULE>
+<ID>scolomfr-voc-016-num-001</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0011</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">lire</INTITULE>
+<ID>scolomfr-voc-016-num-0011</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0013</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">s'exprimer à l'oral</INTITULE>
+<ID>scolomfr-voc-016-num-0013</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0012</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">écrire</INTITULE>
+<ID>scolomfr-voc-016-num-0012</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0014</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">utiliser des outils</INTITULE>
+<ID>scolomfr-voc-016-num-0014</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 2 - la pratique d'une langue vivante étrangère (niveau a2)</INTITULE>
+<ID>scolomfr-voc-016-num-002</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0023</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">parler en continu</INTITULE>
+<ID>scolomfr-voc-016-num-0023</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0021</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">réagir et dialoguer</INTITULE>
+<ID>scolomfr-voc-016-num-0021</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0025</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">écrire</INTITULE>
+<ID>scolomfr-voc-016-num-0025</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0024</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">lire</INTITULE>
+<ID>scolomfr-voc-016-num-0024</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0022</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">écouter et comprendre</INTITULE>
+<ID>scolomfr-voc-016-num-0022</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 3 - les principaux éléments de mathématiques et la culture scientifique et technologique</INTITULE>
+<ID>scolomfr-voc-016-num-003</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0031</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">pratiquer une démarche scientifique et technologique, résoudre des problèmes</INTITULE>
+<ID>scolomfr-voc-016-num-0031</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0033</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">savoir utiliser des connaissances dans divers domaines scientifiques</INTITULE>
+<ID>scolomfr-voc-016-num-0033</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0034</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">mobiliser ses connaissances pour comprendre des questions liées à l'environnement et au développement durable</INTITULE>
+<ID>scolomfr-voc-016-num-0034</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0032</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">savoir utiliser des connaissances et des compétences mathématiques</INTITULE>
+<ID>scolomfr-voc-016-num-0032</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 4 - la maîtrise des techniques usuelles de l'information et de la communication (b2i)</INTITULE>
+<ID>scolomfr-voc-016-num-004</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0042</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 2 - adopter une attitude responsable</INTITULE>
+<ID>scolomfr-voc-016-num-0042</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0045</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 5 - communiquer, échanger</INTITULE>
+<ID>scolomfr-voc-016-num-0045</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0041</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 1 - s'approprier un environnement informatique de travail</INTITULE>
+<ID>scolomfr-voc-016-num-0041</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0043</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 3 - créer, produire, traiter, exploiter des données</INTITULE>
+<ID>scolomfr-voc-016-num-0043</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0044</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">domaine 4 - s'informer, se documenter</INTITULE>
+<ID>scolomfr-voc-016-num-0044</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 5 - la culture humaniste</INTITULE>
+<ID>scolomfr-voc-016-num-005</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0051</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des repères géographiques</INTITULE>
+<ID>scolomfr-voc-016-num-0051</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0053</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des repères littéraires</INTITULE>
+<ID>scolomfr-voc-016-num-0053</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0055</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">lire et utiliser différents langages</INTITULE>
+<ID>scolomfr-voc-016-num-0055</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0054</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des repères en histoire des arts et pratiquer les arts</INTITULE>
+<ID>scolomfr-voc-016-num-0054</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0052</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des repères historiques</INTITULE>
+<ID>scolomfr-voc-016-num-0052</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0056</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir des outils pour comprendre l'unité et la complexité du monde</INTITULE>
+<ID>scolomfr-voc-016-num-0056</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 6 - les compétences sociales et civiques</INTITULE>
+<ID>scolomfr-voc-016-num-006</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0062</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">avoir un comportement responsable</INTITULE>
+<ID>scolomfr-voc-016-num-0062</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0061</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">connaître les principes et fondements de la vie civique et sociale</INTITULE>
+<ID>scolomfr-voc-016-num-0061</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">compétence 7 - l'autonomie et l'initiative</INTITULE>
+<ID>scolomfr-voc-016-num-007</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0071</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">découvrir les métiers et les formations</INTITULE>
+<ID>scolomfr-voc-016-num-0071</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00712</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">être capable de mobiliser ses ressources intellectuelles et physiques dans diverses situations</INTITULE>
+<ID>scolomfr-voc-016-num-00712</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00713</ID>
+<DF lang="fr">Compétence</DF>
+<TERME>
+<INTITULE lang="fr">faire preuve d'initiative</INTITULE>
+<ID>scolomfr-voc-016-num-00713</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</NOMENCLATURE>

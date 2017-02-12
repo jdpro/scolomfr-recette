@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-026-num-003" name="scolomfr-voc-026 (Coût)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/no" prefTerm="gratuit">
+    <value>http://data.education.fr/voc/scolomfr/concept/no</value>
+    <value>gratuit</value>
+    <value>scolomfr-voc-026-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/yes" prefTerm="payant">
+    <value>http://data.education.fr/voc/scolomfr/concept/yes</value>
+    <value>payant</value>
+    <value>scolomfr-voc-026-num-005</value>
+  </concept>
+</vocab>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-040" name="scolomfr-voc-021 (PublicCibleDétaillé)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0001" prefTerm="animateur socioculturel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0001</value>
+    <value>animateur socioculturel</value>
+    <value>scolomfr-voc-021-num-0001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0002" prefTerm="assistant">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0002</value>
+    <value>assistant</value>
+    <value>scolomfr-voc-021-num-0002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0003" prefTerm="autre public">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0003</value>
+    <value>autre public</value>
+    <value>scolomfr-voc-021-num-0003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0004" prefTerm="chef de travaux">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0004</value>
+    <value>chef de travaux</value>
+    <value>scolomfr-voc-021-num-0004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0006" prefTerm="collectivités territoriales">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0006</value>
+    <value>collectivités territoriales</value>
+    <value>scolomfr-voc-021-num-0006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0007" prefTerm="élève">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0007</value>
+    <value>élève</value>
+    <value>scolomfr-voc-021-num-0007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0008" prefTerm="élève à besoins éducatifs spécifiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0008</value>
+    <value>élève à besoins éducatifs spécifiques</value>
+    <value>scolomfr-voc-021-num-0008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0009" prefTerm="enseignant des disciplines">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0009</value>
+    <value>enseignant des disciplines</value>
+    <value>scolomfr-voc-021-num-0009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0010" prefTerm="enseignant documentaliste">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0010</value>
+    <value>enseignant documentaliste</value>
+    <value>scolomfr-voc-021-num-0010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0011" prefTerm="enseignant du supérieur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0011</value>
+    <value>enseignant du supérieur</value>
+    <value>scolomfr-voc-021-num-0011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0012" prefTerm="étudiant">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0012</value>
+    <value>étudiant</value>
+    <value>scolomfr-voc-021-num-0012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0013" prefTerm="parent">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0013</value>
+    <value>parent</value>
+    <value>scolomfr-voc-021-num-0013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0014" prefTerm="personnel administratif">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0014</value>
+    <value>personnel administratif</value>
+    <value>scolomfr-voc-021-num-0014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0018" prefTerm="personnel de bibliothèque et de documentation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0018</value>
+    <value>personnel de bibliothèque et de documentation</value>
+    <value>scolomfr-voc-021-num-0018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0019" prefTerm="personnel de direction">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0019</value>
+    <value>personnel de direction</value>
+    <value>scolomfr-voc-021-num-0019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0020" prefTerm="personnel de laboratoire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0020</value>
+    <value>personnel de laboratoire</value>
+    <value>scolomfr-voc-021-num-0020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0021" prefTerm="personnel de recherche et de formation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0021</value>
+    <value>personnel de recherche et de formation</value>
+    <value>scolomfr-voc-021-num-0021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0015" prefTerm="personnel d'éducation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0015</value>
+    <value>personnel d'éducation</value>
+    <value>scolomfr-voc-021-num-0015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0017" prefTerm="personnel d'inspection">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0017</value>
+    <value>personnel d'inspection</value>
+    <value>scolomfr-voc-021-num-0017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0016" prefTerm="personnel d'orientation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0016</value>
+    <value>personnel d'orientation</value>
+    <value>scolomfr-voc-021-num-0016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0022" prefTerm="personnel médico-social">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0022</value>
+    <value>personnel médico-social</value>
+    <value>scolomfr-voc-021-num-0022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0023" prefTerm="professeur des écoles">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0023</value>
+    <value>professeur des écoles</value>
+    <value>scolomfr-voc-021-num-0023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0024" prefTerm="conseiller pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0024</value>
+    <value>conseiller pédagogique</value>
+    <value>scolomfr-voc-021-num-0024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0026" prefTerm="formateur numérique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0026</value>
+    <value>formateur numérique</value>
+    <value>scolomfr-voc-021-num-0026</value>
+  </concept>
+</vocab>

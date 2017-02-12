@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-037" name="scolomfr-voc-018 (ModalitéPédagogique)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-001" prefTerm="à distance">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-001</value>
+    <value>à distance</value>
+    <value>scolomfr-voc-018-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-002" prefTerm="en alternance">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-002</value>
+    <value>en alternance</value>
+    <value>scolomfr-voc-018-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-003" prefTerm="en autonomie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-003</value>
+    <value>en autonomie</value>
+    <value>scolomfr-voc-018-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-004" prefTerm="en classe entière">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-004</value>
+    <value>en classe entière</value>
+    <value>scolomfr-voc-018-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-005" prefTerm="en collaboration">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-005</value>
+    <value>en collaboration</value>
+    <value>scolomfr-voc-018-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-007" prefTerm="en entreprise">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-007</value>
+    <value>en entreprise</value>
+    <value>scolomfr-voc-018-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-008" prefTerm="en visite d'entreprise">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-008</value>
+    <value>en visite d'entreprise</value>
+    <value>scolomfr-voc-018-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-012" prefTerm="en groupe">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-012</value>
+    <value>en groupe</value>
+    <value>scolomfr-voc-018-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-013" prefTerm="en groupe de compétences">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-013</value>
+    <value>en groupe de compétences</value>
+    <value>scolomfr-voc-018-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-014" prefTerm="en ligne">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-014</value>
+    <value>en ligne</value>
+    <value>scolomfr-voc-018-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-015" prefTerm="en tutorat">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-015</value>
+    <value>en tutorat</value>
+    <value>scolomfr-voc-018-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-016" prefTerm="modalité mixte">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-016</value>
+    <value>modalité mixte</value>
+    <value>scolomfr-voc-018-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-017" prefTerm="séjour pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-017</value>
+    <value>séjour pédagogique</value>
+    <value>scolomfr-voc-018-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-019" prefTerm="sortie pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-019</value>
+    <value>sortie pédagogique</value>
+    <value>scolomfr-voc-018-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-021" prefTerm="travail de recherche">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-021</value>
+    <value>travail de recherche</value>
+    <value>scolomfr-voc-018-num-021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-022" prefTerm="travail en interdisciplinarité">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-022</value>
+    <value>travail en interdisciplinarité</value>
+    <value>scolomfr-voc-018-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-023" prefTerm="travaux dirigés">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-023</value>
+    <value>travaux dirigés</value>
+    <value>scolomfr-voc-018-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-024" prefTerm="travaux pratiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-024</value>
+    <value>travaux pratiques</value>
+    <value>scolomfr-voc-018-num-024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-035" prefTerm="en atelier">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-035</value>
+    <value>en atelier</value>
+    <value>scolomfr-voc-018-num-035</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-033" prefTerm="séquence en atelier">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-033</value>
+    <value>séquence en atelier</value>
+    <value>scolomfr-voc-018-num-033</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-032" prefTerm="atelier théorique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-032</value>
+    <value>atelier théorique</value>
+    <value>scolomfr-voc-018-num-032</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-030" prefTerm="en activité de projet">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-030</value>
+    <value>en activité de projet</value>
+    <value>scolomfr-voc-018-num-030</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-009" prefTerm="PFMP (période de formation en milieu professionnel)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-009</value>
+    <value>PFMP (période de formation en milieu professionnel)</value>
+    <value>scolomfr-voc-018-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-010" prefTerm="PFE (période de formation en entreprise)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-010</value>
+    <value>PFE (période de formation en entreprise)</value>
+    <value>scolomfr-voc-018-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-039" prefTerm="en stage">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-039</value>
+    <value>en stage</value>
+    <value>scolomfr-voc-018-num-039</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-006" prefTerm="étude dirigée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-006</value>
+    <value>étude dirigée</value>
+    <value>scolomfr-voc-018-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-028" prefTerm="aide didactique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-028</value>
+    <value>aide didactique</value>
+    <value>scolomfr-voc-018-num-028</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-011" prefTerm="échange pédagogique de classes">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-011</value>
+    <value>échange pédagogique de classes</value>
+    <value>scolomfr-voc-018-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-040" prefTerm="en compétition">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-040</value>
+    <value>en compétition</value>
+    <value>scolomfr-voc-018-num-040</value>
+  </concept>
+</vocab>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-001">
+	<skos:prefLabel xml:lang="fr">est associé à</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Le LOMFR propose d'employer une relation générique "est associé à" dans le cas où aucune des relations spécialisées proposées ne pouvait être utilisée. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-002">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est la localisation de</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite peut se définir comme étant le l'emplacement (physique ou non) d'autres ressources. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-003">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">fait l'objet d'une localisation</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite fait partie d'un lieu qu'il va s'agir de décrire dans le champ suivant. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-016">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est la traduction de</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite a le même contenu intellectuel que la ressource référencée mais elle est présentée dans une autre langue. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-017">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">fait l'objet d'une traduction</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite a le même contenu intellectuel que la ressource référencée mais elle est présentée dans une autre langue. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-021">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">a pour vignette</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Une vignette est un visuel, une imagette représentant la ressource (sa couverture, sa 4ème de couverture...).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-022">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">a pour logo</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Un logo est une image représentant une marque, un organisme (le logo d'une maison d'édition par exemple).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-023">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">a pour aperçu</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Renvoie vers une démonstration, un extrait, une présentation de la ressource.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-024">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est l'aperçu de</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Désigne une démonstration, un extrait, une présentation de la ressource.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-030">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">a pour manifestation</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">a pour déclinaison</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">a pour manifestation</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-031">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est une manifestation de l'œuvre</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est une déclinaison de l'œuvre</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est une manifestation de l'œuvre</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-032">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est la version élève de</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-033">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est la version enseignant de</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-034">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est la version de démo de</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-035">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">a pour version de démo</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-036">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est la version bridée de</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-037">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est la version non bridée de</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-009">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">09</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">009-Type de relation entre ressources</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/isbasisfor"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-016"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-021"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-022"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-023"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-024"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-030"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-031"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-032"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-033"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-034"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-035"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-037"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/conformsTo"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/hasFormat"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/hasPart"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/hasVersion"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isFormatOf"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isReferencedBy"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isReplacedBy"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isRequiredBy"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isVersionOf"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/references"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/replaces"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/requires"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/source"/>
+	<skos:prefLabel xml:lang="fr">009-Type de relation entre ressources</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">conforme à</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">conforme à</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Une référence à une norme établie à laquelle la ressource est conforme.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">conforme à</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/hasFormat">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">existe dans un format</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">existe dans un format</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite a le même contenu intellectuel que la ressource référencée mais elle est présentée dans un autre format (autre présentation ou autre format informatique). Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">existe dans un format</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/hasPart">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">contient</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">contient</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite est une partie physique ou logique de la ressource référencée (parent/enfant, hiérarchique par nature). Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">contient</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/hasVersion">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">existe en une autre version</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">existe en une autre version</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite est une version, une édition ou une adaptation de la ressource référencée. Les changements de version impliquent des changements importants dans le contenu plutôt que des différences dans le format. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">existe en une autre version</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/isFormatOf">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est un format de</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est un format de</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite a le même contenu intellectuel que la ressource référencée mais elle est présentée dans un autre format (autre présentation ou autre format informatique). Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est un format de</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est une partie de</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est une partie de</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite est une partie physique ou logique de la ressource référencée (parent/enfant, hiérarchique par nature). Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est une partie de</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/isReferencedBy">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est référencé par</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est référencé par</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite est référencée, citée ou sinon désignée par la ressource référencée. Cette relation peut servir à lier une critique de la ressource à la ressource, une satire d'un discours à l'original, etc. Une vignette ou une référence bibliographique rentrent dans cette catégorie. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est référencé par</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/isReplacedBy">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est remplacé par</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est remplacé par</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite est supplantée, déplacée ou remplacée par la ressource référencée. S'utilise lorsque l'on souhaite préserver des versions successives (au sens de mise à jour) d'une même ressource.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est remplacé par</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/isRequiredBy">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est prérequis de</skos:altLabel>
+	<skos:altLabel xml:lang="fr">est requis par</skos:altLabel>
+	<skos:altLabel xml:lang="fr">précède</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est requis par</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite nécessite la ressource référencée physiquement ou logiquement pour assurer sa fonction, sa transmission ou distribution ou la cohérence de son contenu. Par exemple une annexe par rapport à un contenu, les consignes d'un exercice et le formulaire... Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est prérequis de</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">est requis par</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">précède</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/isVersionOf">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est une version de</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est une version de</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite est une version, une édition ou une adaptation de la ressource référencée. Les changements de version impliquent des changements importants dans le contenu plutôt que des différences dans le format. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est une version de</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/references">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">contient une référence à</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">contient une référence à</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite est référencée, citée ou sinon désignée par la ressource référencée. Cette relation peut servir à lier une critique de la ressource à la ressource, une satire d'un discours à l'original, etc. Une vignette ou une référence bibliographique rentrent dans cette catégorie. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">contient une référence à</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/replaces">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">remplace</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">remplace</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite est supplantée, déplacée ou remplacée par la ressource référencée. S'utilise lorsque l'on souhaite préserver des versions successives (au sens de mise à jour) d'une même ressource.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">remplace</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/requires">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">a pour prérequis</skos:altLabel>
+	<skos:altLabel xml:lang="fr">requiert</skos:altLabel>
+	<skos:altLabel xml:lang="fr">suit</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">requiert</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource décrite nécessite la ressource référencée physiquement ou logiquement pour assurer sa fonction, sa transmission ou distribution ou la cohérence de son contenu. Par exemple une annexe par rapport à un contenu, les consignes d'un exercice et le formulaire... Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">a pour prérequis</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">requiert</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">suit</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/source">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est basé sur</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est basé sur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource cible tire son origine, en tout ou en partie, de la ressource décrite. A utiliser pour toute révision, correction, modification, etc. qui n'est pas couverte par "a comme version" ou "a comme autre format".</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est basé sur</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/isbasisfor"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-016"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-021"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-022"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-023"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-024"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-030"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-031"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-032"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-033"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-034"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-035"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-037"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/conformsTo"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/hasFormat"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/hasPart"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/hasVersion"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isFormatOf"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isReferencedBy"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isReplacedBy"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isRequiredBy"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/isVersionOf"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/references"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/replaces"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/requires"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/dc/terms/source"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/isbasisfor">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">est la base de</skos:altLabel>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<skos:prefLabel xml:lang="fr">est la base de</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">La ressource cible tire son origine, en tout ou en partie, de la ressource décrite. A utiliser pour toute révision, correction, modification, etc. qui n'est pas couverte par "a comme version" ou "a comme autre format".</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">est la base de</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-009-num-001">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Type (relation)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-009"/>
+</rdf:Description>
+
+</rdf:RDF>

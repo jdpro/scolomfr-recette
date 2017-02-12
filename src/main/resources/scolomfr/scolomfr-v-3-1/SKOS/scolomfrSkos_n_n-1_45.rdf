@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/gar">
+	<dcterms:replaces rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-001"/>
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">gestionnaire d'accès aux ressources</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">GAR</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">gestionnaire d'accès aux ressources</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/gar"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-011"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-012"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-014"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-015"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-016"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-018"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-019"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-020"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://www.edutheque.fr"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-001">
+	<dcterms:isReplacedBy rdf:resource="http://data.education.fr/gar"/>
+	<dcterms:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-15T08:53:43.000+02:00</dcterms:valid>
+	<isothes:status xml:lang="fr">Déprécié</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">fédération d'accès aux ressources pour l'école</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">FARE</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la description de la compatibilité technique avec les plateformes faisant partie du FARE.</skos:scopeNote>
+	<canope:labelEquivalentExact xml:lang="fr">fédération d'accès aux ressources pour l'école</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-007">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">avec le soutien du MENESR</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">avec le soutien du Ministère de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour les ressources issues de l'AOBR (appel d'offres banque de ressources).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">avec le soutien du MENESR</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-008">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2005</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2005</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2005</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-009">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2006</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2006</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2006</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-010">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2007</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2007</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2007</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-011">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2008</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2008</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2008</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-012">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2009</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2009</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2009</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-014">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2010</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2010</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2010</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-015">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2011</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2011</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2011</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-016">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2012</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2012</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2012</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-017">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2013</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2013</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2013</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-018">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2014</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2014</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2014</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-019">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2015</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2015</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2015</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-020">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">reconnu d'intérêt pédagogique en 2016</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">RIP 2016</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept à utiliser pour la marque "Reconnu d'intérêt pédagogique par le ministère chargé de l'éducation nationale", dite marque RIP, destinée à guider les enseignants dans le monde du multimédia pédagogique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">reconnu d'intérêt pédagogique en 2016</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-036">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">Myriae</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-045">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-12-20</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">045-Label de la ressource</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/gar"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-011"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-012"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-014"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-015"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-016"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-018"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-019"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-020"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://www.edutheque.fr"/>
+	<skos:prefLabel xml:lang="fr">045-Label de la ressource</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.edutheque.fr">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">Edutheque</skos:altLabel>
+	<skos:altLabel xml:lang="fr">Eduthèque</skos:altLabel>
+	<skos:definition xml:lang="fr">Label</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<skos:prefLabel xml:lang="fr">Éduthèque</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-045"/>
+	<canope:labelEquivalentExact xml:lang="fr">Edutheque</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">Eduthèque</canope:labelEquivalentExact>
+</rdf:Description>
+
+</rdf:RDF>

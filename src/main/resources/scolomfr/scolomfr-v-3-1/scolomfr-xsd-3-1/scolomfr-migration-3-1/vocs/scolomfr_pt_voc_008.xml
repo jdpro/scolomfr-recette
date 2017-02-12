@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-005" name="scolomfr-voc-008 (NiveauAgrégation)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01" prefTerm="1 - Granule">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</value>
+    <value>1 - Granule</value>
+    <value>scolomfr-voc-008-num-05</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02" prefTerm="2 - Leçon">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</value>
+    <value>2 - Leçon</value>
+    <value>scolomfr-voc-008-voc-06</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03" prefTerm="3 - Cours">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03</value>
+    <value>3 - Cours</value>
+    <value>scolomfr-voc-008-num-07</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04" prefTerm="4 - Module">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04</value>
+    <value>4 - Module</value>
+    <value>scolomfr-voc-008-num-08</value>
+  </concept>
+</vocab>

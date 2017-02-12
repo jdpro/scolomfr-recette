@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-003</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Toute perte ou anomalie de l'ouïe. Concept à utiliser pour les ressources réalisées pour un public présentant des troubles auditifs.</NA>
+<TERME>
+<INTITULE lang="fr">trouble auditif</INTITULE>
+<ID>scolomfr-voc-041-num-028</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">déficience auditive</INTITULE>
+<ID>scolomfr-voc-041-num-003</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble des fonctions auditives</INTITULE>
+<ID>scolomfr-voc-041-num-039</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">sourd</INTITULE>
+<ID>scolomfr-voc-041-num-014</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">handicap auditif</INTITULE>
+<ID>scolomfr-voc-041-num-011</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">malentendant</INTITULE>
+<ID>scolomfr-voc-041-num-013</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">handicapé auditif</INTITULE>
+<ID>scolomfr-voc-041-num-012</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">surdité</INTITULE>
+<ID>scolomfr-voc-041-num-015</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-004</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Toute perte ou anomalie de la vue. Concept à utiliser pour les ressources réalisées pour un public présentant des troubles visuels.</NA>
+<TERME>
+<INTITULE lang="fr">trouble visuel</INTITULE>
+<ID>scolomfr-voc-041-num-029</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">trouble des fonctions visuelles</INTITULE>
+<ID>scolomfr-voc-041-num-040</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">malvoyant</INTITULE>
+<ID>scolomfr-voc-041-num-019</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">aveugle</INTITULE>
+<ID>scolomfr-voc-041-num-016</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">cécité</INTITULE>
+<ID>scolomfr-voc-041-num-017</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">handicap visuel</INTITULE>
+<ID>scolomfr-voc-041-num-018</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">déficience visuelle</INTITULE>
+<ID>scolomfr-voc-041-num-004</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-038</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Concept à distinguer du polyhandicap car n'induisant pas un handicap mental sévère initial.</NA>
+<TERME>
+<INTITULE lang="fr">plusieurs troubles associés</INTITULE>
+<ID>scolomfr-voc-041-num-038</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">plurihandicap</INTITULE>
+<ID>scolomfr-voc-041-num-049</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-037</ID>
+<DF lang="fr">Type de trouble</DF>
+<TERME>
+<INTITULE lang="fr">trouble envahissant du développement et autisme</INTITULE>
+<ID>scolomfr-voc-041-num-037</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TED</INTITULE>
+<ID>scolomfr-voc-041-num-047</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">autisme</INTITULE>
+<ID>scolomfr-voc-041-num-048</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-009</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Ensemble de difficultés des apprentissages. Ces troubles interfèrent de façon relativement significative avec les performances scolaires ou les activités de la vie courante. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles spécifiques des apprentissages.</NA>
+<TERME>
+<INTITULE lang="fr">trouble spécifique du langage et des apprentissages</INTITULE>
+<ID>scolomfr-voc-041-num-034</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TSLA</INTITULE>
+<ID>scolomfr-voc-041-num-045</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble de déficit de l'attention avec ou sans hyperactivité (TDAH)</INTITULE>
+<ID>scolomfr-voc-041-num-044</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">troubles spécifiques des apprentissages</INTITULE>
+<ID>scolomfr-voc-041-num-009</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dysgnosie</INTITULE>
+<ID>scolomfr-voc-041-num-022</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dysgraphie</INTITULE>
+<ID>scolomfr-voc-041-num-023</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dyslexie</INTITULE>
+<ID>scolomfr-voc-041-num-024</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dysorthographie</INTITULE>
+<ID>scolomfr-voc-041-num-025</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dysphasie</INTITULE>
+<ID>scolomfr-voc-041-num-026</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble de l'attention</INTITULE>
+<ID>scolomfr-voc-041-num-027</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dyscalculie</INTITULE>
+<ID>scolomfr-voc-041-num-021</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-005</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Personnes ayant un handicap grave à des expressions multiples. Leur autonomie est très largement limitée. Concept à utiliser pour les ressources réalisées pour un public de polyhandicapés.</NA>
+<TERME>
+<INTITULE lang="fr">polyhandicap</INTITULE>
+<ID>scolomfr-voc-041-num-030</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">polyhandicapés</INTITULE>
+<ID>scolomfr-voc-041-num-005</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-006</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Troubles mentaux affectant la mémoire, la perception, le traitement de problèmes. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles cognitifs.</NA>
+<TERME>
+<INTITULE lang="fr">trouble intellectuel et cognitif</INTITULE>
+<ID>scolomfr-voc-041-num-031</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">troubles cognitifs</INTITULE>
+<ID>scolomfr-voc-041-num-006</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble important des fonctions cognitives</INTITULE>
+<ID>scolomfr-voc-041-num-041</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-007</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Trouble caractérisé par l'aptitude limitée à se déplacer, à réaliser des tâches manuelles ou à mouvoir certaines parties de son corps. Les troubles moteurs peuvent être classés en 4 catégories en fonction de leur origine : les troubles moteurs d'origine cérébrale, d'origine médullaire, d'origine neuromusculaire ou d'origine ostéo-articulaire. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles moteurs.</NA>
+<TERME>
+<INTITULE lang="fr">trouble moteur</INTITULE>
+<ID>scolomfr-voc-041-num-032</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">trouble des fonctions motrices</INTITULE>
+<ID>scolomfr-voc-041-num-042</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dyspraxie</INTITULE>
+<ID>scolomfr-voc-041-num-020</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">troubles moteurs</INTITULE>
+<ID>scolomfr-voc-041-num-007</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-008</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Troubles caractérisés par un manque relationnel, par des difficultés de concentration et par une grande variabilité dans l'utilisation des capacités. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles psychiques. A ne pas confondre avec les troubles mentaux qui résultent de pathologies identifiables.</NA>
+<TERME>
+<INTITULE lang="fr">trouble psychique</INTITULE>
+<ID>scolomfr-voc-041-num-033</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">troubles psychiques</INTITULE>
+<ID>scolomfr-voc-041-num-008</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble du psychisme</INTITULE>
+<ID>scolomfr-voc-041-num-043</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-036</ID>
+<DF lang="fr">Type de trouble</DF>
+<TERME>
+<INTITULE lang="fr">trouble viscéral</INTITULE>
+<ID>scolomfr-voc-041-num-036</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">déficiences viscérales</INTITULE>
+<ID>scolomfr-voc-041-num-046</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-003</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Toute perte ou anomalie de l'ouïe. Concept à utiliser pour les ressources réalisées pour un public présentant des troubles auditifs.</NA>
+<TERME>
+<INTITULE lang="fr">trouble auditif</INTITULE>
+<ID>scolomfr-voc-041-num-028</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">déficience auditive</INTITULE>
+<ID>scolomfr-voc-041-num-003</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble des fonctions auditives</INTITULE>
+<ID>scolomfr-voc-041-num-039</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">sourd</INTITULE>
+<ID>scolomfr-voc-041-num-014</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">handicap auditif</INTITULE>
+<ID>scolomfr-voc-041-num-011</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">malentendant</INTITULE>
+<ID>scolomfr-voc-041-num-013</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">handicapé auditif</INTITULE>
+<ID>scolomfr-voc-041-num-012</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">surdité</INTITULE>
+<ID>scolomfr-voc-041-num-015</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-004</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Toute perte ou anomalie de la vue. Concept à utiliser pour les ressources réalisées pour un public présentant des troubles visuels.</NA>
+<TERME>
+<INTITULE lang="fr">trouble visuel</INTITULE>
+<ID>scolomfr-voc-041-num-029</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">trouble des fonctions visuelles</INTITULE>
+<ID>scolomfr-voc-041-num-040</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">malvoyant</INTITULE>
+<ID>scolomfr-voc-041-num-019</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">aveugle</INTITULE>
+<ID>scolomfr-voc-041-num-016</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">cécité</INTITULE>
+<ID>scolomfr-voc-041-num-017</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">handicap visuel</INTITULE>
+<ID>scolomfr-voc-041-num-018</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">déficience visuelle</INTITULE>
+<ID>scolomfr-voc-041-num-004</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-005</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Personnes ayant un handicap grave à des expressions multiples. Leur autonomie est très largement limitée. Concept à utiliser pour les ressources réalisées pour un public de polyhandicapés.</NA>
+<TERME>
+<INTITULE lang="fr">polyhandicap</INTITULE>
+<ID>scolomfr-voc-041-num-030</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">polyhandicapés</INTITULE>
+<ID>scolomfr-voc-041-num-005</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-006</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Troubles mentaux affectant la mémoire, la perception, le traitement de problèmes. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles cognitifs.</NA>
+<TERME>
+<INTITULE lang="fr">trouble intellectuel et cognitif</INTITULE>
+<ID>scolomfr-voc-041-num-031</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">troubles cognitifs</INTITULE>
+<ID>scolomfr-voc-041-num-006</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble important des fonctions cognitives</INTITULE>
+<ID>scolomfr-voc-041-num-041</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-007</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Trouble caractérisé par l'aptitude limitée à se déplacer, à réaliser des tâches manuelles ou à mouvoir certaines parties de son corps. Les troubles moteurs peuvent être classés en 4 catégories en fonction de leur origine : les troubles moteurs d'origine cérébrale, d'origine médullaire, d'origine neuromusculaire ou d'origine ostéo-articulaire. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles moteurs.</NA>
+<TERME>
+<INTITULE lang="fr">trouble moteur</INTITULE>
+<ID>scolomfr-voc-041-num-032</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">trouble des fonctions motrices</INTITULE>
+<ID>scolomfr-voc-041-num-042</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dyspraxie</INTITULE>
+<ID>scolomfr-voc-041-num-020</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">troubles moteurs</INTITULE>
+<ID>scolomfr-voc-041-num-007</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-008</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Troubles caractérisés par un manque relationnel, par des difficultés de concentration et par une grande variabilité dans l'utilisation des capacités. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles psychiques. A ne pas confondre avec les troubles mentaux qui résultent de pathologies identifiables.</NA>
+<TERME>
+<INTITULE lang="fr">trouble psychique</INTITULE>
+<ID>scolomfr-voc-041-num-033</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">troubles psychiques</INTITULE>
+<ID>scolomfr-voc-041-num-008</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble du psychisme</INTITULE>
+<ID>scolomfr-voc-041-num-043</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-009</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Ensemble de difficultés des apprentissages. Ces troubles interfèrent de façon relativement significative avec les performances scolaires ou les activités de la vie courante. Concept à utiliser pour les ressources réalisées pour un public atteint de troubles spécifiques des apprentissages.</NA>
+<TERME>
+<INTITULE lang="fr">trouble spécifique du langage et des apprentissages</INTITULE>
+<ID>scolomfr-voc-041-num-034</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TSLA</INTITULE>
+<ID>scolomfr-voc-041-num-045</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble de déficit de l'attention avec ou sans hyperactivité (TDAH)</INTITULE>
+<ID>scolomfr-voc-041-num-044</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">troubles spécifiques des apprentissages</INTITULE>
+<ID>scolomfr-voc-041-num-009</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dysgnosie</INTITULE>
+<ID>scolomfr-voc-041-num-022</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dysgraphie</INTITULE>
+<ID>scolomfr-voc-041-num-023</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dyslexie</INTITULE>
+<ID>scolomfr-voc-041-num-024</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dysorthographie</INTITULE>
+<ID>scolomfr-voc-041-num-025</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dysphasie</INTITULE>
+<ID>scolomfr-voc-041-num-026</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">trouble de l'attention</INTITULE>
+<ID>scolomfr-voc-041-num-027</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dyscalculie</INTITULE>
+<ID>scolomfr-voc-041-num-021</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-036</ID>
+<DF lang="fr">Type de trouble</DF>
+<TERME>
+<INTITULE lang="fr">trouble viscéral</INTITULE>
+<ID>scolomfr-voc-041-num-036</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">déficiences viscérales</INTITULE>
+<ID>scolomfr-voc-041-num-046</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-037</ID>
+<DF lang="fr">Type de trouble</DF>
+<TERME>
+<INTITULE lang="fr">trouble envahissant du développement et autisme</INTITULE>
+<ID>scolomfr-voc-041-num-037</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TED</INTITULE>
+<ID>scolomfr-voc-041-num-047</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">autisme</INTITULE>
+<ID>scolomfr-voc-041-num-048</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-041-num-038</ID>
+<DF lang="fr">Type de trouble</DF>
+<NA lang="fr">Concept à distinguer du polyhandicap car n'induisant pas un handicap mental sévère initial.</NA>
+<TERME>
+<INTITULE lang="fr">plusieurs troubles associés</INTITULE>
+<ID>scolomfr-voc-041-num-038</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">plurihandicap</INTITULE>
+<ID>scolomfr-voc-041-num-049</ID>
+</TERME_TE>
+</CONCEPT>
+</NOMENCLATURE>

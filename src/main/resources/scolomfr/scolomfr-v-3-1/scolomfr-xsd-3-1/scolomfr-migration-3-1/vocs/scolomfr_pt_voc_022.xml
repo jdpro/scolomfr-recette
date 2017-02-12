@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-627" name="scolomfr-voc-022 (NiveauDétaillé)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-626" prefTerm="Niveau éducatif détaillé (2015-)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-626</value>
+    <value>Niveau éducatif détaillé (2015-)</value>
+    <value>scolomfr-voc-022-num-626</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-615" prefTerm="cycles de l'enseignement scolaire (2016)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-615</value>
+    <value>cycles de l'enseignement scolaire (2016)</value>
+    <value>scolomfr-voc-022-num-632</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-616" prefTerm="cycle unique pour l'école maternelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-616</value>
+    <value>cycle unique pour l'école maternelle</value>
+    <value>scolomfr-voc-022-num-616</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-617" prefTerm="cycle 1 (2016)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-617</value>
+    <value>cycle 1 (2016)</value>
+    <value>scolomfr-voc-022-num-628</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-618" prefTerm="cycles de la scolarité obligatoire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-618</value>
+    <value>cycles de la scolarité obligatoire</value>
+    <value>scolomfr-voc-022-num-618</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-619" prefTerm="cycle 2 (2016)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-619</value>
+    <value>cycle 2 (2016)</value>
+    <value>scolomfr-voc-022-num-629</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-620" prefTerm="cycle 3 (2016)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-620</value>
+    <value>cycle 3 (2016)</value>
+    <value>scolomfr-voc-022-num-630</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-621" prefTerm="cycle 4 (2016)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-621</value>
+    <value>cycle 4 (2016)</value>
+    <value>scolomfr-voc-022-num-631</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-084" prefTerm="classe de détermination">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-084</value>
+    <value>classe de détermination</value>
+    <value>scolomfr-voc-022-num-084</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-085" prefTerm="cycle terminal">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-085</value>
+    <value>cycle terminal</value>
+    <value>scolomfr-voc-022-num-085</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-142" prefTerm="lycée général et technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-142</value>
+    <value>lycée général et technologique</value>
+    <value>scolomfr-voc-022-num-142</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-123" prefTerm="1re générale et technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-123</value>
+    <value>1re générale et technologique</value>
+    <value>scolomfr-voc-022-num-123</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-146" prefTerm="1re générale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-146</value>
+    <value>1re générale</value>
+    <value>scolomfr-voc-022-num-146</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-122" prefTerm="1re ES">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-122</value>
+    <value>1re ES</value>
+    <value>scolomfr-voc-022-num-122</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-124" prefTerm="1re L">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-124</value>
+    <value>1re L</value>
+    <value>scolomfr-voc-022-num-124</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-128" prefTerm="1re S">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-128</value>
+    <value>1re S</value>
+    <value>scolomfr-voc-022-num-128</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-237" prefTerm="1re technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-237</value>
+    <value>1re technologique</value>
+    <value>scolomfr-voc-022-num-237</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-135" prefTerm="1re techno hôtellerie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-135</value>
+    <value>1re techno hôtellerie</value>
+    <value>scolomfr-voc-022-num-135</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-133" prefTerm="1re STMG">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-133</value>
+    <value>1re STMG</value>
+    <value>scolomfr-voc-022-num-133</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-132" prefTerm="1re STL">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-132</value>
+    <value>1re STL</value>
+    <value>scolomfr-voc-022-num-132</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-238" prefTerm="1re TMD">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-238</value>
+    <value>1re TMD</value>
+    <value>scolomfr-voc-022-num-238</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-134" prefTerm="1re ST2S">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-134</value>
+    <value>1re ST2S</value>
+    <value>scolomfr-voc-022-num-134</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-129" prefTerm="1re STD2A">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-129</value>
+    <value>1re STD2A</value>
+    <value>scolomfr-voc-022-num-129</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-131" prefTerm="1re STI2D">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-131</value>
+    <value>1re STI2D</value>
+    <value>scolomfr-voc-022-num-131</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-088" prefTerm="terminale générale et technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-088</value>
+    <value>terminale générale et technologique</value>
+    <value>scolomfr-voc-022-num-088</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-211" prefTerm="terminale technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-211</value>
+    <value>terminale technologique</value>
+    <value>scolomfr-voc-022-num-211</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-048" prefTerm="terminale STL">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-048</value>
+    <value>terminale STL</value>
+    <value>scolomfr-voc-022-num-048</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-049" prefTerm="terminale techno hôtellerie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-049</value>
+    <value>terminale techno hôtellerie</value>
+    <value>scolomfr-voc-022-num-049</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-043" prefTerm="terminale ST2S">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-043</value>
+    <value>terminale ST2S</value>
+    <value>scolomfr-voc-022-num-043</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-083" prefTerm="terminale STMG">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-083</value>
+    <value>terminale STMG</value>
+    <value>scolomfr-voc-022-num-083</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-212" prefTerm="terminale TMD">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-212</value>
+    <value>terminale TMD</value>
+    <value>scolomfr-voc-022-num-212</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-044" prefTerm="terminale STD2A">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-044</value>
+    <value>terminale STD2A</value>
+    <value>scolomfr-voc-022-num-044</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-047" prefTerm="terminale STI2D">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-047</value>
+    <value>terminale STI2D</value>
+    <value>scolomfr-voc-022-num-047</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-201" prefTerm="terminale générale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-201</value>
+    <value>terminale générale</value>
+    <value>scolomfr-voc-022-num-201</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-040" prefTerm="terminale ES">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-040</value>
+    <value>terminale ES</value>
+    <value>scolomfr-voc-022-num-040</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-041" prefTerm="terminale L">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-041</value>
+    <value>terminale L</value>
+    <value>scolomfr-voc-022-num-041</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-042" prefTerm="terminale S">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-042</value>
+    <value>terminale S</value>
+    <value>scolomfr-voc-022-num-042</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-136" prefTerm="2de générale et technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-136</value>
+    <value>2de générale et technologique</value>
+    <value>scolomfr-voc-022-num-136</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-121" prefTerm="tranches d'âge de l'enseignement scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-121</value>
+    <value>tranches d'âge de l'enseignement scolaire</value>
+    <value>scolomfr-voc-022-num-121</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-241" prefTerm="3-6 ans">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-241</value>
+    <value>3-6 ans</value>
+    <value>scolomfr-voc-022-num-241</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-240" prefTerm="15-18 ans">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-240</value>
+    <value>15-18 ans</value>
+    <value>scolomfr-voc-022-num-240</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-239" prefTerm="11-15 ans">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-239</value>
+    <value>11-15 ans</value>
+    <value>scolomfr-voc-022-num-239</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-242" prefTerm="6-11 ans">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-242</value>
+    <value>6-11 ans</value>
+    <value>scolomfr-voc-022-num-242</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-165" prefTerm="lycée professionnel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-165</value>
+    <value>lycée professionnel</value>
+    <value>scolomfr-voc-022-num-165</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-027" prefTerm="2de professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-027</value>
+    <value>2de professionnelle</value>
+    <value>scolomfr-voc-022-num-027</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-127" prefTerm="1re professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-127</value>
+    <value>1re professionnelle</value>
+    <value>scolomfr-voc-022-num-127</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-125" prefTerm="1re pro domaine de la production">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-125</value>
+    <value>1re pro domaine de la production</value>
+    <value>scolomfr-voc-022-num-125</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-126" prefTerm="1re pro domaine des services">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-126</value>
+    <value>1re pro domaine des services</value>
+    <value>scolomfr-voc-022-num-126</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-050" prefTerm="terminale professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-050</value>
+    <value>terminale professionnelle</value>
+    <value>scolomfr-voc-022-num-050</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-089" prefTerm="terminale pro domaine de la production">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-089</value>
+    <value>terminale pro domaine de la production</value>
+    <value>scolomfr-voc-022-num-089</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-090" prefTerm="terminale pro domaine des services">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-090</value>
+    <value>terminale pro domaine des services</value>
+    <value>scolomfr-voc-022-num-090</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-213" prefTerm="voie BEP">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-213</value>
+    <value>voie BEP</value>
+    <value>scolomfr-voc-022-num-213</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-221" prefTerm="voie BT">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-221</value>
+    <value>voie BT</value>
+    <value>scolomfr-voc-022-num-221</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-153" prefTerm="BT - première">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-153</value>
+    <value>BT - première</value>
+    <value>scolomfr-voc-022-num-153</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-154" prefTerm="BT - terminale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-154</value>
+    <value>BT - terminale</value>
+    <value>scolomfr-voc-022-num-154</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-215" prefTerm="voie BP">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-215</value>
+    <value>voie BP</value>
+    <value>scolomfr-voc-022-num-215</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-097" prefTerm="BP - 1re année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-097</value>
+    <value>BP - 1re année</value>
+    <value>scolomfr-voc-022-num-097</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-098" prefTerm="BP - 2e année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-098</value>
+    <value>BP - 2e année</value>
+    <value>scolomfr-voc-022-num-098</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-222" prefTerm="voie BTM">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-222</value>
+    <value>voie BTM</value>
+    <value>scolomfr-voc-022-num-222</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-099" prefTerm="BTM - 1re année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-099</value>
+    <value>BTM - 1re année</value>
+    <value>scolomfr-voc-022-num-099</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-100" prefTerm="BTM - 2e année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-100</value>
+    <value>BTM - 2e année</value>
+    <value>scolomfr-voc-022-num-100</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-223" prefTerm="voie CAP">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-223</value>
+    <value>voie CAP</value>
+    <value>scolomfr-voc-022-num-223</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-103" prefTerm="CAP - 1re année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-103</value>
+    <value>CAP - 1re année</value>
+    <value>scolomfr-voc-022-num-103</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-104" prefTerm="CAP - 2e année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-104</value>
+    <value>CAP - 2e année</value>
+    <value>scolomfr-voc-022-num-104</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-227" prefTerm="voie FC">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-227</value>
+    <value>voie FC</value>
+    <value>scolomfr-voc-022-num-227</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-298" prefTerm="FC post niveau V">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-298</value>
+    <value>FC post niveau V</value>
+    <value>scolomfr-voc-022-num-298</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-288" prefTerm="FC post niveau IV">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-288</value>
+    <value>FC post niveau IV</value>
+    <value>scolomfr-voc-022-num-288</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-231" prefTerm="voie MC">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-231</value>
+    <value>voie MC</value>
+    <value>scolomfr-voc-022-num-231</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-214" prefTerm="voie BMA">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-214</value>
+    <value>voie BMA</value>
+    <value>scolomfr-voc-022-num-214</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-095" prefTerm="BMA - 1re année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-095</value>
+    <value>BMA - 1re année</value>
+    <value>scolomfr-voc-022-num-095</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-096" prefTerm="BMA - 2e année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-096</value>
+    <value>BMA - 2e année</value>
+    <value>scolomfr-voc-022-num-096</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-008" prefTerm="école élémentaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-008</value>
+    <value>école élémentaire</value>
+    <value>scolomfr-voc-022-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-011" prefTerm="CE1">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-011</value>
+    <value>CE1</value>
+    <value>scolomfr-voc-022-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-010" prefTerm="CP">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-010</value>
+    <value>CP</value>
+    <value>scolomfr-voc-022-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-013" prefTerm="CE2">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-013</value>
+    <value>CE2</value>
+    <value>scolomfr-voc-022-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-015" prefTerm="CM2">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-015</value>
+    <value>CM2</value>
+    <value>scolomfr-voc-022-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-014" prefTerm="CM1">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-014</value>
+    <value>CM1</value>
+    <value>scolomfr-voc-022-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-234" prefTerm="voies générale, technologique, professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-234</value>
+    <value>voies générale, technologique, professionnelle</value>
+    <value>scolomfr-voc-022-num-234</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-066" prefTerm="voie générale et technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-066</value>
+    <value>voie générale et technologique</value>
+    <value>scolomfr-voc-022-num-066</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-233" prefTerm="voie technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-233</value>
+    <value>voie technologique</value>
+    <value>scolomfr-voc-022-num-233</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-230" prefTerm="voie générale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-230</value>
+    <value>voie générale</value>
+    <value>scolomfr-voc-022-num-230</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-065" prefTerm="voie professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-065</value>
+    <value>voie professionnelle</value>
+    <value>scolomfr-voc-022-num-065</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-284" prefTerm="formation professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-284</value>
+    <value>formation professionnelle</value>
+    <value>scolomfr-voc-022-num-284</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-163" prefTerm="formation des personnels de l'éducation nationale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-163</value>
+    <value>formation des personnels de l'éducation nationale</value>
+    <value>scolomfr-voc-022-num-163</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-164" prefTerm="formation professionnelle continue des adultes">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-164</value>
+    <value>formation professionnelle continue des adultes</value>
+    <value>scolomfr-voc-022-num-164</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-063" prefTerm="formation continue des personnels de l'éducation nationale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-063</value>
+    <value>formation continue des personnels de l'éducation nationale</value>
+    <value>scolomfr-voc-022-num-063</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-162" prefTerm="enseignement supérieur en lycée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-162</value>
+    <value>enseignement supérieur en lycée</value>
+    <value>scolomfr-voc-022-num-162</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-226" prefTerm="voie CPGE">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-226</value>
+    <value>voie CPGE</value>
+    <value>scolomfr-voc-022-num-226</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-109" prefTerm="CPGE - 1re année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-109</value>
+    <value>CPGE - 1re année</value>
+    <value>scolomfr-voc-022-num-109</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-110" prefTerm="CPGE - 2e année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-110</value>
+    <value>CPGE - 2e année</value>
+    <value>scolomfr-voc-022-num-110</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-195" prefTerm="section BTS">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-195</value>
+    <value>section BTS</value>
+    <value>scolomfr-voc-022-num-195</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-101" prefTerm="BTS - 1re année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-101</value>
+    <value>BTS - 1re année</value>
+    <value>scolomfr-voc-022-num-101</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-102" prefTerm="BTS - 2e année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-102</value>
+    <value>BTS - 2e année</value>
+    <value>scolomfr-voc-022-num-102</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-198" prefTerm="section DUT">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-198</value>
+    <value>section DUT</value>
+    <value>scolomfr-voc-022-num-198</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-112" prefTerm="DUT - 2e année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-112</value>
+    <value>DUT - 2e année</value>
+    <value>scolomfr-voc-022-num-112</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-111" prefTerm="DUT - 1re année">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-111</value>
+    <value>DUT - 1re année</value>
+    <value>scolomfr-voc-022-num-111</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-185" prefTerm="licence professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-185</value>
+    <value>licence professionnelle</value>
+    <value>scolomfr-voc-022-num-610</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-187" prefTerm="diplôme de comptabilité et gestion">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-187</value>
+    <value>diplôme de comptabilité et gestion</value>
+    <value>scolomfr-voc-022-num-611</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-141" prefTerm="collège professionnel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-141</value>
+    <value>collège professionnel</value>
+    <value>scolomfr-voc-022-num-141</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-138" prefTerm="3e professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-138</value>
+    <value>3e professionnelle</value>
+    <value>scolomfr-voc-022-num-138</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-139" prefTerm="4e professionnelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-139</value>
+    <value>4e professionnelle</value>
+    <value>scolomfr-voc-022-num-139</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-016" prefTerm="collège">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-016</value>
+    <value>collège</value>
+    <value>scolomfr-voc-022-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-023" prefTerm="3e">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-023</value>
+    <value>3e</value>
+    <value>scolomfr-voc-022-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-608" prefTerm="3e d'insertion">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-608</value>
+    <value>3e d'insertion</value>
+    <value>scolomfr-voc-022-num-608</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-020" prefTerm="5e">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-020</value>
+    <value>5e</value>
+    <value>scolomfr-voc-022-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-018" prefTerm="6e">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-018</value>
+    <value>6e</value>
+    <value>scolomfr-voc-022-num-018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-021" prefTerm="4e">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-021</value>
+    <value>4e</value>
+    <value>scolomfr-voc-022-num-021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-140" prefTerm="adaptation scolaire et scolarisation des élèves handicapés">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-140</value>
+    <value>adaptation scolaire et scolarisation des élèves handicapés</value>
+    <value>scolomfr-voc-022-num-140</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-150" prefTerm="ASSEH - 1er degré">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-150</value>
+    <value>ASSEH - 1er degré</value>
+    <value>scolomfr-voc-022-num-150</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-151" prefTerm="ASSEH - 2d degré">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-151</value>
+    <value>ASSEH - 2d degré</value>
+    <value>scolomfr-voc-022-num-151</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-002" prefTerm="école maternelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-002</value>
+    <value>école maternelle</value>
+    <value>scolomfr-voc-022-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-006" prefTerm="moyenne section">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-006</value>
+    <value>moyenne section</value>
+    <value>scolomfr-voc-022-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-004" prefTerm="toute petite section">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-004</value>
+    <value>toute petite section</value>
+    <value>scolomfr-voc-022-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-005" prefTerm="petite section">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-005</value>
+    <value>petite section</value>
+    <value>scolomfr-voc-022-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-007" prefTerm="grande section">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-007</value>
+    <value>grande section</value>
+    <value>scolomfr-voc-022-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-087" prefTerm="Niveau éducatif détaillé (2008-2014)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-087</value>
+    <value>Niveau éducatif détaillé (2008-2014)</value>
+    <value>scolomfr-voc-022-num-087</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-094" prefTerm="cycles de l'enseignement scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-094</value>
+    <value>cycles de l'enseignement scolaire</value>
+    <value>scolomfr-voc-022-num-094</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-019" prefTerm="cycle central">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-019</value>
+    <value>cycle central</value>
+    <value>scolomfr-voc-022-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-009" prefTerm="cycle 2">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-009</value>
+    <value>cycle 2</value>
+    <value>scolomfr-voc-022-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-012" prefTerm="cycle 3">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-012</value>
+    <value>cycle 3</value>
+    <value>scolomfr-voc-022-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-017" prefTerm="cycle d'adaptation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-017</value>
+    <value>cycle d'adaptation</value>
+    <value>scolomfr-voc-022-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-022" prefTerm="cycle d'orientation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-022</value>
+    <value>cycle d'orientation</value>
+    <value>scolomfr-voc-022-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-003" prefTerm="cycle 1">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-003</value>
+    <value>cycle 1</value>
+    <value>scolomfr-voc-022-num-003</value>
+  </concept>
+</vocab>

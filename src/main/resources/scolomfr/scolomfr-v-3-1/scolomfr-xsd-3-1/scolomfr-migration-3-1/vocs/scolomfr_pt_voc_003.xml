@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-018" name="scolomfr-voc-003 (RôleContributeur)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/author" prefTerm="auteur">
+    <value>http://data.education.fr/voc/scolomfr/concept/author</value>
+    <value>auteur</value>
+    <value>author</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/graphical_designer" prefTerm="concepteur graphique">
+    <value>http://data.education.fr/voc/scolomfr/concept/graphical_designer</value>
+    <value>concepteur graphique</value>
+    <value>graphical designer</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/instructional_designer" prefTerm="concepteur pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/instructional_designer</value>
+    <value>concepteur pédagogique</value>
+    <value>instructional designer</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-005" prefTerm="contributeur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-005</value>
+    <value>contributeur</value>
+    <value>scolomfr-voc-003-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-017" prefTerm="diffuseur / distributeur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-017</value>
+    <value>diffuseur / distributeur</value>
+    <value>scolomfr-voc-003-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/editor" prefTerm="directeur de la publication">
+    <value>http://data.education.fr/voc/scolomfr/concept/editor</value>
+    <value>directeur de la publication</value>
+    <value>editor</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/publisher" prefTerm="éditeur">
+    <value>http://data.education.fr/voc/scolomfr/concept/publisher</value>
+    <value>éditeur</value>
+    <value>publisher</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/subject_matter_expert" prefTerm="expert du domaine">
+    <value>http://data.education.fr/voc/scolomfr/concept/subject_matter_expert</value>
+    <value>expert du domaine</value>
+    <value>subject matter expert</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/content_provider" prefTerm="fournisseur de contenu">
+    <value>http://data.education.fr/voc/scolomfr/concept/content_provider</value>
+    <value>fournisseur de contenu</value>
+    <value>content provider</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/technical_implementer" prefTerm="implémenteur technique">
+    <value>http://data.education.fr/voc/scolomfr/concept/technical_implementer</value>
+    <value>implémenteur technique</value>
+    <value>technical implementer</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/unknown" prefTerm="inconnu">
+    <value>http://data.education.fr/voc/scolomfr/concept/unknown</value>
+    <value>inconnu</value>
+    <value>unknown</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/initiator" prefTerm="initiateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/initiator</value>
+    <value>initiateur</value>
+    <value>initiator</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/script_writer" prefTerm="rédacteur de scénario">
+    <value>http://data.education.fr/voc/scolomfr/concept/script_writer</value>
+    <value>rédacteur de scénario</value>
+    <value>script writer</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/terminator" prefTerm="terminateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/terminator</value>
+    <value>terminateur</value>
+    <value>terminator</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/validator_2" prefTerm="valideur">
+    <value>http://data.education.fr/voc/scolomfr/concept/validator_2</value>
+    <value>valideur</value>
+    <value>validator</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/educational_validator" prefTerm="valideur pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/educational_validator</value>
+    <value>valideur pédagogique</value>
+    <value>educational validator</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/technical_validator" prefTerm="valideur technique">
+    <value>http://data.education.fr/voc/scolomfr/concept/technical_validator</value>
+    <value>valideur technique</value>
+    <value>technical validator</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-021" prefTerm="logiciel de saisie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-021</value>
+    <value>logiciel de saisie</value>
+    <value>scolomfr-voc-003-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-019" prefTerm="logiciel de conversion">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-019</value>
+    <value>logiciel de conversion</value>
+    <value>scolomfr-voc-003-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-026" prefTerm="distributeur technique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-026</value>
+    <value>distributeur technique</value>
+    <value>scolomfr-voc-003-num-026</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-027" prefTerm="diffuseur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-027</value>
+    <value>diffuseur</value>
+    <value>scolomfr-voc-003-num-027</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-028" prefTerm="éditeur de contenu">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-028</value>
+    <value>éditeur de contenu</value>
+    <value>scolomfr-voc-003-num-028</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-029" prefTerm="éditeur de publication">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-029</value>
+    <value>éditeur de publication</value>
+    <value>scolomfr-voc-003-num-029</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-030" prefTerm="directeur d'ouvrage">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-030</value>
+    <value>directeur d'ouvrage</value>
+    <value>scolomfr-voc-003-num-030</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-031" prefTerm="illustrateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-031</value>
+    <value>illustrateur</value>
+    <value>scolomfr-voc-003-num-031</value>
+  </concept>
+</vocab>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-075" name="scolomfr-voc-040 (CadrePédagogique)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-065" prefTerm="vie de l'établissement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-065</value>
+    <value>vie de l'établissement</value>
+    <value>scolomfr-voc-040-num-115</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-020" prefTerm="dispositifs relais">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-020</value>
+    <value>dispositifs relais</value>
+    <value>scolomfr-voc-040-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-013" prefTerm="CLIS classe d'intégration scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-013</value>
+    <value>CLIS classe d'intégration scolaire</value>
+    <value>scolomfr-voc-040-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-016" prefTerm="dispositif de scolarisation des élèves handicapés">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-016</value>
+    <value>dispositif de scolarisation des élèves handicapés</value>
+    <value>scolomfr-voc-040-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019" prefTerm="dispositifs de soutien et de remédiation scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019</value>
+    <value>dispositifs de soutien et de remédiation scolaire</value>
+    <value>scolomfr-voc-040-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-004" prefTerm="accompagnement éducatif">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-004</value>
+    <value>accompagnement éducatif</value>
+    <value>scolomfr-voc-040-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-006" prefTerm="accompagnement personnalisé">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-006</value>
+    <value>accompagnement personnalisé</value>
+    <value>scolomfr-voc-040-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-008" prefTerm="accueil des primo-arrivants">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-008</value>
+    <value>accueil des primo-arrivants</value>
+    <value>scolomfr-voc-040-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-014" prefTerm="culture scientifique et technologique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-014</value>
+    <value>culture scientifique et technologique</value>
+    <value>scolomfr-voc-040-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-017" prefTerm="dispositif ECLAIR">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-017</value>
+    <value>dispositif ECLAIR</value>
+    <value>scolomfr-voc-040-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-018" prefTerm="dispositif école ouverte">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-018</value>
+    <value>dispositif école ouverte</value>
+    <value>scolomfr-voc-040-num-018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-059" prefTerm="séjour et classe de découvertes">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-059</value>
+    <value>séjour et classe de découvertes</value>
+    <value>scolomfr-voc-040-num-059</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-072" prefTerm="section orientale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-072</value>
+    <value>section orientale</value>
+    <value>scolomfr-voc-040-num-072</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-002" prefTerm="4e aide et soutien">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-002</value>
+    <value>4e aide et soutien</value>
+    <value>scolomfr-voc-040-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-036" prefTerm="itinéraire de découverte">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-036</value>
+    <value>itinéraire de découverte</value>
+    <value>scolomfr-voc-040-num-094</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-038" prefTerm="liaison collège - lycée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-038</value>
+    <value>liaison collège - lycée</value>
+    <value>scolomfr-voc-040-num-038</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040" prefTerm="liaison lycée - enseignement supérieur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040</value>
+    <value>liaison lycée - enseignement supérieur</value>
+    <value>scolomfr-voc-040-num-040</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-042" prefTerm="LSF (langue des signes française)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-042</value>
+    <value>LSF (langue des signes française)</value>
+    <value>scolomfr-voc-040-num-042</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-044" prefTerm="organisation pédagogique des établissements d'enseignement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-044</value>
+    <value>organisation pédagogique des établissements d'enseignement</value>
+    <value>scolomfr-voc-040-num-044</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-046" prefTerm="partenariat électronique inter-écoles">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-046</value>
+    <value>partenariat électronique inter-écoles</value>
+    <value>scolomfr-voc-040-num-046</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-048" prefTerm="pilotage et gestion du système éducatif">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-048</value>
+    <value>pilotage et gestion du système éducatif</value>
+    <value>scolomfr-voc-040-num-048</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-050" prefTerm="pratique sportive">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-050</value>
+    <value>pratique sportive</value>
+    <value>scolomfr-voc-040-num-050</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-052" prefTerm="prévention et lutte contre la violence">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-052</value>
+    <value>prévention et lutte contre la violence</value>
+    <value>scolomfr-voc-040-num-052</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-054" prefTerm="réseau ambition réussite">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-054</value>
+    <value>réseau ambition réussite</value>
+    <value>scolomfr-voc-040-num-107</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-056" prefTerm="relations extérieures et partenariats">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-056</value>
+    <value>relations extérieures et partenariats</value>
+    <value>scolomfr-voc-040-num-056</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-061" prefTerm="travaux d'initiative personnelle encadrés">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-061</value>
+    <value>travaux d'initiative personnelle encadrés</value>
+    <value>scolomfr-voc-040-num-113</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-003" prefTerm="accompagnement à l'orientation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-003</value>
+    <value>accompagnement à l'orientation</value>
+    <value>scolomfr-voc-040-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-009" prefTerm="actions internationales">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-009</value>
+    <value>actions internationales</value>
+    <value>scolomfr-voc-040-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010" prefTerm="adaptation scolaire et scolarisation des élèves à besoins spécifiques">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010</value>
+    <value>adaptation scolaire et scolarisation des élèves à besoins spécifiques</value>
+    <value>scolomfr-voc-040-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-011" prefTerm="aide individualisée">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-011</value>
+    <value>aide individualisée</value>
+    <value>scolomfr-voc-040-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-012" prefTerm="CLIN classe d'initiation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-012</value>
+    <value>CLIN classe d'initiation</value>
+    <value>scolomfr-voc-040-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021" prefTerm="échange pédagogique de classes">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021</value>
+    <value>échange pédagogique de classes</value>
+    <value>scolomfr-voc-040-num-021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-023" prefTerm="éducation à la citoyenneté - valeurs républicaines">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-023</value>
+    <value>éducation à la citoyenneté - valeurs républicaines</value>
+    <value>scolomfr-voc-040-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-024" prefTerm="éducation à la santé">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-024</value>
+    <value>éducation à la santé</value>
+    <value>scolomfr-voc-040-num-024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-025" prefTerm="éducation à la sécurité">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-025</value>
+    <value>éducation à la sécurité</value>
+    <value>scolomfr-voc-040-num-025</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-026" prefTerm="éducation à la sécurité routière">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-026</value>
+    <value>éducation à la sécurité routière</value>
+    <value>scolomfr-voc-040-num-026</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-022" prefTerm="éducation à l'image, au cinéma et à l'audiovisuel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-022</value>
+    <value>éducation à l'image, au cinéma et à l'audiovisuel</value>
+    <value>scolomfr-voc-040-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027" prefTerm="éducation à l'orientation et au choix">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027</value>
+    <value>éducation à l'orientation et au choix</value>
+    <value>scolomfr-voc-040-num-027</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028" prefTerm="éducation artistique et culturelle">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028</value>
+    <value>éducation artistique et culturelle</value>
+    <value>scolomfr-voc-040-num-028</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-029" prefTerm="éducation au développement et à la solidarité">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-029</value>
+    <value>éducation au développement et à la solidarité</value>
+    <value>scolomfr-voc-040-num-029</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-030" prefTerm="éducation aux médias et à l'information">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-030</value>
+    <value>éducation aux médias et à l'information</value>
+    <value>scolomfr-voc-040-num-087</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-031" prefTerm="enseignement de la défense et de la sécurité nationale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-031</value>
+    <value>enseignement de la défense et de la sécurité nationale</value>
+    <value>scolomfr-voc-040-num-031</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-032" prefTerm="enseignement renforcé des langues">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-032</value>
+    <value>enseignement renforcé des langues</value>
+    <value>scolomfr-voc-040-num-032</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-033" prefTerm="école régionale d'enseignement adapté">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-033</value>
+    <value>école régionale d'enseignement adapté</value>
+    <value>scolomfr-voc-040-num-085</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-034" prefTerm="formation à l'information et à la communication">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-034</value>
+    <value>formation à l'information et à la communication</value>
+    <value>scolomfr-voc-040-num-034</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-035" prefTerm="gestion financière et matérielle des établissements">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-035</value>
+    <value>gestion financière et matérielle des établissements</value>
+    <value>scolomfr-voc-040-num-035</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-037" prefTerm="internat d'excellence">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-037</value>
+    <value>internat d'excellence</value>
+    <value>scolomfr-voc-040-num-037</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039" prefTerm="liaison inter-degrés">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039</value>
+    <value>liaison inter-degrés</value>
+    <value>scolomfr-voc-040-num-039</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041" prefTerm="liaison primaire - collège">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041</value>
+    <value>liaison primaire - collège</value>
+    <value>scolomfr-voc-040-num-041</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-043" prefTerm="mémoire et histoire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-043</value>
+    <value>mémoire et histoire</value>
+    <value>scolomfr-voc-040-num-043</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-045" prefTerm="projet artistique et culturel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-045</value>
+    <value>projet artistique et culturel</value>
+    <value>scolomfr-voc-040-num-102</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-047" prefTerm="parcours découverte des métiers et des formations">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-047</value>
+    <value>parcours découverte des métiers et des formations</value>
+    <value>scolomfr-voc-040-num-104</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-049" prefTerm="projet pluridisciplinaire à caractère professionnel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-049</value>
+    <value>projet pluridisciplinaire à caractère professionnel</value>
+    <value>scolomfr-voc-040-num-106</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-051" prefTerm="prévention du décrochage scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-051</value>
+    <value>prévention du décrochage scolaire</value>
+    <value>scolomfr-voc-040-num-051</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-053" prefTerm="projet inter-établissement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-053</value>
+    <value>projet inter-établissement</value>
+    <value>scolomfr-voc-040-num-053</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-055" prefTerm="relation école-entreprise">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-055</value>
+    <value>relation école-entreprise</value>
+    <value>scolomfr-voc-040-num-055</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-073" prefTerm="section binationale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-073</value>
+    <value>section binationale</value>
+    <value>scolomfr-voc-040-num-073</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-060" prefTerm="système d'évaluation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-060</value>
+    <value>système d'évaluation</value>
+    <value>scolomfr-voc-040-num-060</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-058" prefTerm="section d'enseignement général et professionnel adapté">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-058</value>
+    <value>section d'enseignement général et professionnel adapté</value>
+    <value>scolomfr-voc-040-num-108</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-071" prefTerm="section internationale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-071</value>
+    <value>section internationale</value>
+    <value>scolomfr-voc-040-num-071</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-057" prefTerm="section européenne ou internationale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-057</value>
+    <value>section européenne ou internationale</value>
+    <value>scolomfr-voc-040-num-057</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-070" prefTerm="section européenne">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-070</value>
+    <value>section européenne</value>
+    <value>scolomfr-voc-040-num-070</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-001" prefTerm="3e insertion">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-001</value>
+    <value>3e insertion</value>
+    <value>scolomfr-voc-040-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-062" prefTerm="TPE (travaux personnels encadrés)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-062</value>
+    <value>TPE (travaux personnels encadrés)</value>
+    <value>scolomfr-voc-040-num-062</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-063" prefTerm="ULIS unité localisée pour l'inclusion scolaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-063</value>
+    <value>ULIS unité localisée pour l'inclusion scolaire</value>
+    <value>scolomfr-voc-040-num-063</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-078" prefTerm="dispositif d'initiation aux métiers de l'alternance">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-078</value>
+    <value>dispositif d'initiation aux métiers de l'alternance</value>
+    <value>scolomfr-voc-040-num-078</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-102" prefTerm="dispositif de scolarisation des élèves à besoins éducatifs particuliers">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-102</value>
+    <value>dispositif de scolarisation des élèves à besoins éducatifs particuliers</value>
+    <value>scolomfr-voc-040-num-117</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-120" prefTerm="PFMP (période de formation en milieu professionnel)">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-120</value>
+    <value>PFMP (période de formation en milieu professionnel)</value>
+    <value>scolomfr-voc-040-num-128</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-119" prefTerm="stage">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-119</value>
+    <value>stage</value>
+    <value>scolomfr-voc-040-num-119</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-122" prefTerm="séjour pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-122</value>
+    <value>séjour pédagogique</value>
+    <value>scolomfr-voc-040-num-127</value>
+  </concept>
+</vocab>

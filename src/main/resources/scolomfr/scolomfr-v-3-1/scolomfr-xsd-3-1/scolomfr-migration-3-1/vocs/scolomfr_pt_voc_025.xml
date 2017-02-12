@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-025-num-006" name="scolomfr-voc-025 (Difficulté)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/difficult" prefTerm="difficile">
+    <value>http://data.education.fr/voc/scolomfr/concept/difficult</value>
+    <value>difficile</value>
+    <value>difficult</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/medium" prefTerm="moyen">
+    <value>http://data.education.fr/voc/scolomfr/concept/medium</value>
+    <value>moyen</value>
+    <value>medium</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/easy" prefTerm="facile">
+    <value>http://data.education.fr/voc/scolomfr/concept/easy</value>
+    <value>facile</value>
+    <value>easy</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/very_difficult" prefTerm="très difficile">
+    <value>http://data.education.fr/voc/scolomfr/concept/very_difficult</value>
+    <value>très difficile</value>
+    <value>very difficult</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/very_easy" prefTerm="très facile">
+    <value>http://data.education.fr/voc/scolomfr/concept/very_easy</value>
+    <value>très facile</value>
+    <value>very easy</value>
+  </concept>
+</vocab>

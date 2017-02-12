@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-013" name="scolomfr-voc-042 (NivLangCECRL)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-014" prefTerm="activités de référence">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-014</value>
+    <value>activités de référence</value>
+    <value>scolomfr-voc-042-num-014</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking" prefTerm="parler">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking</value>
+    <value>parler</value>
+    <value>scolomfr-voc-042-num-011</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-interaction" prefTerm="prendre part à une conversation">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-interaction</value>
+    <value>prendre part à une conversation</value>
+    <value>scolomfr-voc-042-num-053</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A2" prefTerm="parler (prendre part à une conversation) - A2">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A2</value>
+    <value>parler (prendre part à une conversation) - A2</value>
+    <value>scolomfr-voc-042-num-077</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A1" prefTerm="parler (prendre part à une conversation) - A1">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A1</value>
+    <value>parler (prendre part à une conversation) - A1</value>
+    <value>scolomfr-voc-042-num-076</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B1" prefTerm="parler (prendre part à une conversation) - B1">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B1</value>
+    <value>parler (prendre part à une conversation) - B1</value>
+    <value>scolomfr-voc-042-num-078</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C2" prefTerm="parler (prendre part à une conversation) - C2">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C2</value>
+    <value>parler (prendre part à une conversation) - C2</value>
+    <value>scolomfr-voc-042-num-081</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C1" prefTerm="parler (prendre part à une conversation) - C1">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C1</value>
+    <value>parler (prendre part à une conversation) - C1</value>
+    <value>scolomfr-voc-042-num-080</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B2" prefTerm="parler (prendre part à une conversation) - B2">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B2</value>
+    <value>parler (prendre part à une conversation) - B2</value>
+    <value>scolomfr-voc-042-num-079</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-production" prefTerm="s'exprimer oralement en continu">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-production</value>
+    <value>s'exprimer oralement en continu</value>
+    <value>scolomfr-voc-042-num-055</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-production-A1" prefTerm="parler (s'exprimer oralement en continu) - A1">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-production-A1</value>
+    <value>parler (s'exprimer oralement en continu) - A1</value>
+    <value>scolomfr-voc-042-num-082</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-production-C1" prefTerm="parler (s'exprimer oralement en continu) - C1">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-production-C1</value>
+    <value>parler (s'exprimer oralement en continu) - C1</value>
+    <value>scolomfr-voc-042-num-086</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-production-C2" prefTerm="parler (s'exprimer oralement en continu) - C2">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-production-C2</value>
+    <value>parler (s'exprimer oralement en continu) - C2</value>
+    <value>scolomfr-voc-042-num-087</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-production-B1" prefTerm="parler (s'exprimer oralement en continu) - B1">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-production-B1</value>
+    <value>parler (s'exprimer oralement en continu) - B1</value>
+    <value>scolomfr-voc-042-num-084</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-production-A2" prefTerm="parler (s'exprimer oralement en continu) - A2">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-production-A2</value>
+    <value>parler (s'exprimer oralement en continu) - A2</value>
+    <value>scolomfr-voc-042-num-083</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-speaking-production-B2" prefTerm="parler (s'exprimer oralement en continu) - B2">
+    <value>http://purl.org/net/inloc/cefr/cefr-speaking-production-B2</value>
+    <value>parler (s'exprimer oralement en continu) - B2</value>
+    <value>scolomfr-voc-042-num-085</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding" prefTerm="comprendre">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding</value>
+    <value>comprendre</value>
+    <value>scolomfr-voc-042-num-010</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-reading" prefTerm="lire">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-reading</value>
+    <value>lire</value>
+    <value>scolomfr-voc-042-num-038</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-reading-B1" prefTerm="comprendre (lire) - B1">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-reading-B1</value>
+    <value>comprendre (lire) - B1</value>
+    <value>scolomfr-voc-042-num-072</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-reading-A2" prefTerm="comprendre (lire) - A2">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-reading-A2</value>
+    <value>comprendre (lire) - A2</value>
+    <value>scolomfr-voc-042-num-071</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-reading-C1" prefTerm="comprendre (lire) - C1">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-reading-C1</value>
+    <value>comprendre (lire) - C1</value>
+    <value>scolomfr-voc-042-num-074</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-reading-A1" prefTerm="comprendre (lire) - A1">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-reading-A1</value>
+    <value>comprendre (lire) - A1</value>
+    <value>scolomfr-voc-042-num-070</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-reading-C2" prefTerm="comprendre (lire) - C2">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-reading-C2</value>
+    <value>comprendre (lire) - C2</value>
+    <value>scolomfr-voc-042-num-075</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-reading-B2" prefTerm="comprendre (lire) - B2">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-reading-B2</value>
+    <value>comprendre (lire) - B2</value>
+    <value>scolomfr-voc-042-num-073</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-listening" prefTerm="écouter">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-listening</value>
+    <value>écouter</value>
+    <value>scolomfr-voc-042-num-041</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-listening-A2" prefTerm="comprendre (écouter) - A2">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-listening-A2</value>
+    <value>comprendre (écouter) - A2</value>
+    <value>scolomfr-voc-042-num-065</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-listening-B2" prefTerm="comprendre (écouter) - B2">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-listening-B2</value>
+    <value>comprendre (écouter) - B2</value>
+    <value>scolomfr-voc-042-num-067</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-listening-A1" prefTerm="comprendre (écouter) - A1">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-listening-A1</value>
+    <value>comprendre (écouter) - A1</value>
+    <value>scolomfr-voc-042-num-064</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-listening-C1" prefTerm="comprendre (écouter) - C1">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-listening-C1</value>
+    <value>comprendre (écouter) - C1</value>
+    <value>scolomfr-voc-042-num-068</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-listening-C2" prefTerm="comprendre (écouter) - C2">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-listening-C2</value>
+    <value>comprendre (écouter) - C2</value>
+    <value>scolomfr-voc-042-num-069</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-understanding-listening-B1" prefTerm="comprendre (écouter) - B1">
+    <value>http://purl.org/net/inloc/cefr/cefr-understanding-listening-B1</value>
+    <value>comprendre (écouter) - B1</value>
+    <value>scolomfr-voc-042-num-066</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-writing" prefTerm="écrire">
+    <value>http://purl.org/net/inloc/cefr/cefr-writing</value>
+    <value>écrire</value>
+    <value>scolomfr-voc-042-num-012</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-writing-A1" prefTerm="écrire - A1">
+    <value>http://purl.org/net/inloc/cefr/cefr-writing-A1</value>
+    <value>écrire - A1</value>
+    <value>scolomfr-voc-042-num-088</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-writing-A2" prefTerm="écrire - A2">
+    <value>http://purl.org/net/inloc/cefr/cefr-writing-A2</value>
+    <value>écrire - A2</value>
+    <value>scolomfr-voc-042-num-089</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-writing-C1" prefTerm="écrire - C1">
+    <value>http://purl.org/net/inloc/cefr/cefr-writing-C1</value>
+    <value>écrire - C1</value>
+    <value>scolomfr-voc-042-num-092</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-writing-C2" prefTerm="écrire - C2">
+    <value>http://purl.org/net/inloc/cefr/cefr-writing-C2</value>
+    <value>écrire - C2</value>
+    <value>scolomfr-voc-042-num-093</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-writing-B2" prefTerm="écrire - B2">
+    <value>http://purl.org/net/inloc/cefr/cefr-writing-B2</value>
+    <value>écrire - B2</value>
+    <value>scolomfr-voc-042-num-091</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-writing-B1" prefTerm="écrire - B1">
+    <value>http://purl.org/net/inloc/cefr/cefr-writing-B1</value>
+    <value>écrire - B1</value>
+    <value>scolomfr-voc-042-num-090</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-015" prefTerm="niveaux communs de référence">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-015</value>
+    <value>niveaux communs de référence</value>
+    <value>scolomfr-voc-042-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001" prefTerm="A">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001</value>
+    <value>A</value>
+    <value>scolomfr-voc-042-num-001</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-A1" prefTerm="A1">
+    <value>http://purl.org/net/inloc/cefr/cefr-A1</value>
+    <value>A1</value>
+    <value>scolomfr-voc-042-num-002</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-A2" prefTerm="A2">
+    <value>http://purl.org/net/inloc/cefr/cefr-A2</value>
+    <value>A2</value>
+    <value>scolomfr-voc-042-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007" prefTerm="C">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007</value>
+    <value>C</value>
+    <value>scolomfr-voc-042-num-007</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-C1" prefTerm="C1">
+    <value>http://purl.org/net/inloc/cefr/cefr-C1</value>
+    <value>C1</value>
+    <value>scolomfr-voc-042-num-008</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-C2" prefTerm="C2">
+    <value>http://purl.org/net/inloc/cefr/cefr-C2</value>
+    <value>C2</value>
+    <value>scolomfr-voc-042-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004" prefTerm="B">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004</value>
+    <value>B</value>
+    <value>scolomfr-voc-042-num-004</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-B1" prefTerm="B1">
+    <value>http://purl.org/net/inloc/cefr/cefr-B1</value>
+    <value>B1</value>
+    <value>scolomfr-voc-042-num-005</value>
+  </concept>
+  <concept id="http://purl.org/net/inloc/cefr/cefr-B2" prefTerm="B2">
+    <value>http://purl.org/net/inloc/cefr/cefr-B2</value>
+    <value>B2</value>
+    <value>scolomfr-voc-042-num-006</value>
+  </concept>
+</vocab>

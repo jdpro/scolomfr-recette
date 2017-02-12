@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-061" name="scolomfr-voc-010 (TypePédagogique)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001" prefTerm="animation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001</value>
+    <value>animation</value>
+    <value>scolomfr-voc-010-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-023" prefTerm="annales">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-023</value>
+    <value>annales</value>
+    <value>scolomfr-voc-010-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/self_assessment" prefTerm="autoévaluation">
+    <value>http://data.education.fr/voc/scolomfr/concept/self_assessment</value>
+    <value>autoévaluation</value>
+    <value>self assessment</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/lecture" prefTerm="cours / présentation">
+    <value>http://data.education.fr/voc/scolomfr/concept/lecture</value>
+    <value>cours / présentation</value>
+    <value>lecture</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-024" prefTerm="cyberquête">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-024</value>
+    <value>cyberquête</value>
+    <value>scolomfr-voc-010-num-024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-004" prefTerm="démonstration">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-004</value>
+    <value>démonstration</value>
+    <value>scolomfr-voc-010-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/problem_statement" prefTerm="énoncé de problème">
+    <value>http://data.education.fr/voc/scolomfr/concept/problem_statement</value>
+    <value>énoncé de problème</value>
+    <value>problem statement</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-006" prefTerm="étude de cas">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-006</value>
+    <value>étude de cas</value>
+    <value>scolomfr-voc-010-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-007" prefTerm="évaluation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-007</value>
+    <value>évaluation</value>
+    <value>scolomfr-voc-010-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/exam" prefTerm="examen">
+    <value>http://data.education.fr/voc/scolomfr/concept/exam</value>
+    <value>examen</value>
+    <value>exam</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/exercise" prefTerm="exercice">
+    <value>http://data.education.fr/voc/scolomfr/concept/exercise</value>
+    <value>exercice</value>
+    <value>exercise</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/experiment" prefTerm="expérience">
+    <value>http://data.education.fr/voc/scolomfr/concept/experiment</value>
+    <value>expérience</value>
+    <value>experiment</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-011" prefTerm="glossaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-011</value>
+    <value>glossaire</value>
+    <value>scolomfr-voc-010-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-012" prefTerm="guide">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-012</value>
+    <value>guide</value>
+    <value>scolomfr-voc-010-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-013" prefTerm="jeu éducatif">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-013</value>
+    <value>jeu éducatif</value>
+    <value>scolomfr-voc-010-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-014" prefTerm="manuel d'enseignement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-014</value>
+    <value>manuel d'enseignement</value>
+    <value>scolomfr-voc-010-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-015" prefTerm="matériel de référence">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-015</value>
+    <value>matériel de référence</value>
+    <value>scolomfr-voc-010-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-025" prefTerm="méthode de langues">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-025</value>
+    <value>méthode de langues</value>
+    <value>scolomfr-voc-010-num-025</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-016" prefTerm="méthodologie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-016</value>
+    <value>méthodologie</value>
+    <value>scolomfr-voc-010-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-017" prefTerm="outil">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-017</value>
+    <value>outil</value>
+    <value>scolomfr-voc-010-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-018" prefTerm="production d'élève">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-018</value>
+    <value>production d'élève</value>
+    <value>scolomfr-voc-010-num-018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/questionnaire" prefTerm="questionnaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/questionnaire</value>
+    <value>questionnaire</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-020" prefTerm="scénario pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-020</value>
+    <value>scénario pédagogique</value>
+    <value>scolomfr-voc-010-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/simulation" prefTerm="simulation">
+    <value>http://data.education.fr/voc/scolomfr/concept/simulation</value>
+    <value>simulation</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-026" prefTerm="témoignage pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-026</value>
+    <value>témoignage pédagogique</value>
+    <value>scolomfr-voc-010-num-026</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-022" prefTerm="tutoriel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-022</value>
+    <value>tutoriel</value>
+    <value>scolomfr-voc-010-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082" prefTerm="préparation à l'examen">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082</value>
+    <value>préparation à l'examen</value>
+    <value>scolomfr-voc-010-num-0082</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-027" prefTerm="activité pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-027</value>
+    <value>activité pédagogique</value>
+    <value>scolomfr-voc-010-num-027</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-028" prefTerm="fiche pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-028</value>
+    <value>fiche pédagogique</value>
+    <value>scolomfr-voc-010-num-028</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-029" prefTerm="diagnostic">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-029</value>
+    <value>diagnostic</value>
+    <value>scolomfr-voc-010-num-029</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/table" prefTerm="tableau">
+    <value>http://data.education.fr/voc/scolomfr/concept/table</value>
+    <value>tableau</value>
+    <value>table</value>
+  </concept>
+</vocab>

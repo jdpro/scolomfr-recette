@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">système d'exploitation</INTITULE>
+<ID>scolomfr-voc-024-num-031</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation développé par Apple depuis 1991. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">Mac OS</INTITULE>
+<ID>scolomfr-voc-024-num-025</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">macos</INTITULE>
+<ID>scolomfr-voc-024-num-003</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">macos</INTITULE>
+<ID>macos</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/ms-windows</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">ms-windows</INTITULE>
+<ID>ms-windows</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ms-windows</INTITULE>
+<ID>scolomfr-voc-024-num-004</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Microsoft Windows</INTITULE>
+<ID>scolomfr-voc-024-num-046</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système permettant d'être compatible et utilisable avec différents systèmes d'exploitation. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">Multi-OS</INTITULE>
+<ID>scolomfr-voc-024-num-027</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">multi-os</INTITULE>
+<ID>scolomfr-voc-024-num-005</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">multi-os</INTITULE>
+<ID>multi-os</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation développé depuis 1999 pour la téléphonie mobile.</NA>
+<TERME>
+<INTITULE lang="fr">blackberry</INTITULE>
+<ID>scolomfr-voc-024-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">blackberry OS</INTITULE>
+<ID>scolomfr-voc-024-num-018</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/pc-dos</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation développé par Microsoft depuis 1981. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">pc-dos</INTITULE>
+<ID>pc-dos</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">pc-dos</INTITULE>
+<ID>scolomfr-voc-024-num-006</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">indifférent</INTITULE>
+<ID>scolomfr-voc-024-num-024</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/unix</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation développé depuis 1969. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">unix</INTITULE>
+<ID>unix</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">unix</INTITULE>
+<ID>scolomfr-voc-024-num-007</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation open source développé depuis 2005.</NA>
+<TERME>
+<INTITULE lang="fr">android</INTITULE>
+<ID>scolomfr-voc-024-num-016</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">Chrome OS</INTITULE>
+<ID>scolomfr-voc-024-num-023</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">Symbian OS</INTITULE>
+<ID>scolomfr-voc-024-num-030</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">Windows mobile</INTITULE>
+<ID>scolomfr-voc-024-num-032</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">ios</INTITULE>
+<ID>scolomfr-voc-024-num-021</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">iPhone OS</INTITULE>
+<ID>scolomfr-voc-024-num-039</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">iPad OS</INTITULE>
+<ID>scolomfr-voc-024-num-048</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation libre développé sous la Licence publique générale GNU depuis 1991. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">linux</INTITULE>
+<ID>scolomfr-voc-024-num-002</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">Debian</INTITULE>
+<ID>scolomfr-voc-024-num-042</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Red Hat</INTITULE>
+<ID>scolomfr-voc-024-num-043</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Suse</INTITULE>
+<ID>scolomfr-voc-024-num-045</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">GNU/Linux</INTITULE>
+<ID>scolomfr-voc-024-num-040</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Ubuntu</INTITULE>
+<ID>scolomfr-voc-024-num-041</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Fedora</INTITULE>
+<ID>scolomfr-voc-024-num-044</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">autre système d'exploitation</INTITULE>
+<ID>scolomfr-voc-024-num-047</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">navigateur</INTITULE>
+<ID>scolomfr-voc-024-num-028</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/none</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">aucun</INTITULE>
+<ID>none</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">aucun</INTITULE>
+<ID>scolomfr-voc-024-num-001</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">Microsoft Edge</INTITULE>
+<ID>scolomfr-voc-024-num-026</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/amaya</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par l'INRIA et le W3C entre 1996 et 2009. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">amaya</INTITULE>
+<ID>amaya</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">amaya</INTITULE>
+<ID>scolomfr-voc-024-num-009</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/any</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">A sélectionner pour une ressource utilisable sous n'importe quel navigateur web. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">indifférent</INTITULE>
+<ID>any</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">indifférent</INTITULE>
+<ID>scolomfr-voc-024-num-008</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">navigateur mobile</INTITULE>
+<ID>scolomfr-voc-024-num-029</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">Microbrowser</INTITULE>
+<ID>scolomfr-voc-024-num-037</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Opera Mobile</INTITULE>
+<ID>scolomfr-voc-024-num-038</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Fennec</INTITULE>
+<ID>scolomfr-voc-024-num-033</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Google mobile</INTITULE>
+<ID>scolomfr-voc-024-num-035</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Firefox mobile</INTITULE>
+<ID>scolomfr-voc-024-num-034</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Internet explorer mobile</INTITULE>
+<ID>scolomfr-voc-024-num-036</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">À sélectionner lorsque le navigateur à choisir n'est pas dans la liste.</NA>
+<TERME>
+<INTITULE lang="fr">autre</INTITULE>
+<ID>scolomfr-voc-024-num-022</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par la société Netscape Communications depuis 1994. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">netscape</INTITULE>
+<ID>netscape communicator</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">netscape</INTITULE>
+<ID>scolomfr-voc-024-num-012</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par Google depuis 2008.</NA>
+<TERME>
+<INTITULE lang="fr">google chrome</INTITULE>
+<ID>scolomfr-voc-024-num-019</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web libre et gratuit développé par la fondation Mozilla depuis 2004. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">mozilla firefox</INTITULE>
+<ID>scolomfr-voc-024-num-020</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">firefox</INTITULE>
+<ID>scolomfr-voc-024-num-010</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/opera</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par la société Opera Software depuis 1995. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">opera</INTITULE>
+<ID>opera</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">opera</INTITULE>
+<ID>scolomfr-voc-024-num-013</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par Apple depuis 2003. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">safari</INTITULE>
+<ID>scolomfr-voc-024-num-014</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par Microsoft depuis 1995. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">windows internet explorer</INTITULE>
+<ID>ms-internet explorer</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ms-internet explorer</INTITULE>
+<ID>scolomfr-voc-024-num-011</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-028</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">navigateur</INTITULE>
+<ID>scolomfr-voc-024-num-028</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/none</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">aucun</INTITULE>
+<ID>none</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">aucun</INTITULE>
+<ID>scolomfr-voc-024-num-001</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-026</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">Microsoft Edge</INTITULE>
+<ID>scolomfr-voc-024-num-026</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/amaya</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par l'INRIA et le W3C entre 1996 et 2009. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">amaya</INTITULE>
+<ID>amaya</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">amaya</INTITULE>
+<ID>scolomfr-voc-024-num-009</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/any</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">A sélectionner pour une ressource utilisable sous n'importe quel navigateur web. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">indifférent</INTITULE>
+<ID>any</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">indifférent</INTITULE>
+<ID>scolomfr-voc-024-num-008</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-029</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">navigateur mobile</INTITULE>
+<ID>scolomfr-voc-024-num-029</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">Microbrowser</INTITULE>
+<ID>scolomfr-voc-024-num-037</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Opera Mobile</INTITULE>
+<ID>scolomfr-voc-024-num-038</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Fennec</INTITULE>
+<ID>scolomfr-voc-024-num-033</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Google mobile</INTITULE>
+<ID>scolomfr-voc-024-num-035</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Firefox mobile</INTITULE>
+<ID>scolomfr-voc-024-num-034</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Internet explorer mobile</INTITULE>
+<ID>scolomfr-voc-024-num-036</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-022</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">À sélectionner lorsque le navigateur à choisir n'est pas dans la liste.</NA>
+<TERME>
+<INTITULE lang="fr">autre</INTITULE>
+<ID>scolomfr-voc-024-num-022</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/netscape_communicator</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par la société Netscape Communications depuis 1994. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">netscape</INTITULE>
+<ID>netscape communicator</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">netscape</INTITULE>
+<ID>scolomfr-voc-024-num-012</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-019</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par Google depuis 2008.</NA>
+<TERME>
+<INTITULE lang="fr">google chrome</INTITULE>
+<ID>scolomfr-voc-024-num-019</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-010</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web libre et gratuit développé par la fondation Mozilla depuis 2004. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">mozilla firefox</INTITULE>
+<ID>scolomfr-voc-024-num-020</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">firefox</INTITULE>
+<ID>scolomfr-voc-024-num-010</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/opera</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par la société Opera Software depuis 1995. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">opera</INTITULE>
+<ID>opera</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">opera</INTITULE>
+<ID>scolomfr-voc-024-num-013</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-014</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par Apple depuis 2003. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">safari</INTITULE>
+<ID>scolomfr-voc-024-num-014</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/ms-internet_explorer</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Navigateur web développé par Microsoft depuis 1995. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">windows internet explorer</INTITULE>
+<ID>ms-internet explorer</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ms-internet explorer</INTITULE>
+<ID>scolomfr-voc-024-num-011</ID>
+</TERME_TE>
+</CONCEPT>
+</TS>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-031</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">système d'exploitation</INTITULE>
+<ID>scolomfr-voc-024-num-031</ID>
+</TERME>
+<TS>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-025</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation développé par Apple depuis 1991. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">Mac OS</INTITULE>
+<ID>scolomfr-voc-024-num-025</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">macos</INTITULE>
+<ID>scolomfr-voc-024-num-003</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">macos</INTITULE>
+<ID>macos</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/ms-windows</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">ms-windows</INTITULE>
+<ID>ms-windows</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ms-windows</INTITULE>
+<ID>scolomfr-voc-024-num-004</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Microsoft Windows</INTITULE>
+<ID>scolomfr-voc-024-num-046</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-027</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système permettant d'être compatible et utilisable avec différents systèmes d'exploitation. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">Multi-OS</INTITULE>
+<ID>scolomfr-voc-024-num-027</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">multi-os</INTITULE>
+<ID>scolomfr-voc-024-num-005</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">multi-os</INTITULE>
+<ID>multi-os</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-017</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation développé depuis 1999 pour la téléphonie mobile.</NA>
+<TERME>
+<INTITULE lang="fr">blackberry</INTITULE>
+<ID>scolomfr-voc-024-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">blackberry OS</INTITULE>
+<ID>scolomfr-voc-024-num-018</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/pc-dos</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation développé par Microsoft depuis 1981. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">pc-dos</INTITULE>
+<ID>pc-dos</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">pc-dos</INTITULE>
+<ID>scolomfr-voc-024-num-006</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-024</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">indifférent</INTITULE>
+<ID>scolomfr-voc-024-num-024</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/unix</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation développé depuis 1969. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">unix</INTITULE>
+<ID>unix</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">unix</INTITULE>
+<ID>scolomfr-voc-024-num-007</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-016</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation open source développé depuis 2005.</NA>
+<TERME>
+<INTITULE lang="fr">android</INTITULE>
+<ID>scolomfr-voc-024-num-016</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-023</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">Chrome OS</INTITULE>
+<ID>scolomfr-voc-024-num-023</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-030</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">Symbian OS</INTITULE>
+<ID>scolomfr-voc-024-num-030</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-032</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">Windows mobile</INTITULE>
+<ID>scolomfr-voc-024-num-032</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-021</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">ios</INTITULE>
+<ID>scolomfr-voc-024-num-021</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">iPhone OS</INTITULE>
+<ID>scolomfr-voc-024-num-039</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">iPad OS</INTITULE>
+<ID>scolomfr-voc-024-num-048</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-002</ID>
+<DF lang="fr">Nom (technique)</DF>
+<NA lang="fr">Système d'exploitation libre développé sous la Licence publique générale GNU depuis 1991. Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">linux</INTITULE>
+<ID>scolomfr-voc-024-num-002</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">Debian</INTITULE>
+<ID>scolomfr-voc-024-num-042</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Red Hat</INTITULE>
+<ID>scolomfr-voc-024-num-043</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Suse</INTITULE>
+<ID>scolomfr-voc-024-num-045</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">GNU/Linux</INTITULE>
+<ID>scolomfr-voc-024-num-040</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Ubuntu</INTITULE>
+<ID>scolomfr-voc-024-num-041</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Fedora</INTITULE>
+<ID>scolomfr-voc-024-num-044</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-024-num-047</ID>
+<DF lang="fr">Nom (technique)</DF>
+<TERME>
+<INTITULE lang="fr">autre système d'exploitation</INTITULE>
+<ID>scolomfr-voc-024-num-047</ID>
+</TERME>
+</CONCEPT>
+</TS>
+</CONCEPT>
+</NOMENCLATURE>

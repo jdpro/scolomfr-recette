@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-002</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support électronique contenant au moins un circuit intégré. L'utilisation de ce support nécessite un équipement spécifique.</NA>
+      <TERME>
+         <INTITULE lang="fr">carte à puce</INTITULE>
+         <ID>scolomfr-voc-043-num-002</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-003</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support électronique de stockage de données numériques.</NA>
+      <NA lang="fr">Support électronique de stockage de données numériques. </NA>
+      <TERME>
+         <INTITULE lang="fr">carte mémoire</INTITULE>
+         <ID>scolomfr-voc-043-num-003</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-005</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support optique de stockage de données numériques.</NA>
+      <TERME>
+         <INTITULE lang="fr">cédérom</INTITULE>
+         <ID>scolomfr-voc-043-num-009</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CD audio</INTITULE>
+         <ID>scolomfr-voc-043-num-005</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">CD extra</INTITULE>
+         <ID>scolomfr-voc-043-num-006</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">CD photo</INTITULE>
+         <ID>scolomfr-voc-043-num-007</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">CD-ROM</INTITULE>
+         <ID>scolomfr-voc-043-num-008</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">disque compact</INTITULE>
+         <ID>scolomfr-voc-043-num-014</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-004</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support électronique de stockage contenant une mémoire flash.</NA>
+      <TERME>
+         <INTITULE lang="fr">clé USB</INTITULE>
+         <ID>scolomfr-voc-043-num-010</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-008</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support optique de type DVD utilisé pour le stockage de données numériques.</NA>
+      <TERME>
+         <INTITULE lang="fr">dévédérom</INTITULE>
+         <ID>scolomfr-voc-043-num-011</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">Digital Versatile Disc - Read Only Memory</INTITULE>
+         <ID>scolomfr-voc-043-num-013</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">DVD extra</INTITULE>
+         <ID>scolomfr-voc-043-num-017</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">DVD vidéo</INTITULE>
+         <ID>scolomfr-voc-043-num-018</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">DVD-ROM</INTITULE>
+         <ID>scolomfr-voc-043-num-019</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-006</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support de film inversible stockant une photographie.</NA>
+      <TERME>
+         <INTITULE lang="fr">diapositive</INTITULE>
+         <ID>scolomfr-voc-043-num-012</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">projetable</INTITULE>
+         <ID>scolomfr-voc-043-num-021</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-007</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support papier contenant la reproduction d'un document.</NA>
+      <TERME>
+         <INTITULE lang="fr">document imprimé</INTITULE>
+         <ID>scolomfr-voc-043-num-016</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-009</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support pour un ensemble de produits à destination pédagogique.</NA>
+      <TERME>
+         <INTITULE lang="fr">kit pédagogique</INTITULE>
+         <ID>scolomfr-voc-043-num-020</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">valise pédagogique</INTITULE>
+         <ID>scolomfr-voc-043-num-024</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-010</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support pour l'enregistrement de données analogiques ou numériques à partir d'un magnétophone ou d'un magnétoscope.</NA>
+      <TERME>
+         <INTITULE lang="fr">support magnétique</INTITULE>
+         <ID>scolomfr-voc-043-num-022</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">cassette audio</INTITULE>
+         <ID>scolomfr-voc-043-num-004</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">disquette</INTITULE>
+         <ID>scolomfr-voc-043-num-015</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">vidéocassette</INTITULE>
+         <ID>scolomfr-voc-043-num-025</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-043-num-011</ID>
+      <DF lang="fr">Support</DF>
+      <NA lang="fr">Support de données numériques accessible par des services Internet et pouvant être lu sur différents écrans de lecture numérique (ordinateur, tablette tactile, liseuse, voire téléphone).</NA>
+      <TERME>
+         <INTITULE lang="fr">support numérique en ligne</INTITULE>
+         <ID>scolomfr-voc-043-num-023</ID>
+      </TERME>
+   </CONCEPT>
+</NOMENCLATURE>

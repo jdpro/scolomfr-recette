@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/no_2</ID>
+<DF lang="fr">Droit d'auteur</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">non</INTITULE>
+<ID>no</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">non</INTITULE>
+<ID>scolomfr-voc-027-num-002</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/yes_2</ID>
+<DF lang="fr">Droit d'auteur</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">oui</INTITULE>
+<ID>yes</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">oui</INTITULE>
+<ID>scolomfr-voc-027-num-001</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/no_2</ID>
+<DF lang="fr">Droit d'auteur</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">non</INTITULE>
+<ID>no</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">non</INTITULE>
+<ID>scolomfr-voc-027-num-002</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/yes_2</ID>
+<DF lang="fr">Droit d'auteur</DF>
+<NA lang="fr">Concept issu du LOMFR.</NA>
+<TERME>
+<INTITULE lang="fr">oui</INTITULE>
+<ID>yes</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">oui</INTITULE>
+<ID>scolomfr-voc-027-num-001</ID>
+</TERME_TE>
+</CONCEPT>
+</NOMENCLATURE>

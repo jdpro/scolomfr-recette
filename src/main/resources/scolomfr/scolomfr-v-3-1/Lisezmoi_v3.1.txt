@@ -1,0 +1,36 @@
+Archive ScoLOMFR V3.1, publiée le 21 décembre 2016
+
+
+1 - Scolomfr V3.1
+
+1.1 Définition
+ScoLOMFR est un profil d'application de LOM et LOMFR.
+La version 3.1 des schémas intègre la validation de l'ensemble des vocabulaires définis à cette date, et comprend les ajouts suivants :
+- ajout et modifications de vocabulaires ;
+- ajout de liens d'associations.
+
+
+  Les présents schémas XSD présentent une compatibilité ascendante avec les fichiers conformes à LOMv1.0, LOMFR, ScoLOMFRv1.x, ScoLOMFRv2.0,ScoLOMFRv2.1 et ScoLOMFRv3.0. 
+  Toutes les valeurs de termes et de concepts ont été validées dans les schémas et vocabulaires publiés pour ces différentes versions sont valides au sens des schémas ScoLOMFRv3.1.
+ Toutefois, le présent package propose aussi un outil de migration permettant de migrer les fichiers LOM, LOMFR, ScoLOMFRv1.x, ScoLOMFRv2.0, ScoLOMFRv2.1 et ScoLOMFRv3.0 en un format "strict" ScoLOMFRv3.1, dans lequel tous les éléments liés à des vocabulaires sont identifiés par leurs URI de concepts.
+ Une version ultérieure des schémas permettra de passer dans une version ScoLOMFR dans laquelle tous les éléments liés à des vocabulaires seront identifiés par les URI de concepts.
+ L'ensemble des vocabulaires, de la documentation et des éléments de cycle de vie de ScoLOMFR sont publiés sur le site http://www.lom-fr.fr/scolomfr/. 
+
+1.2 Contenus de l’archive
+La présente archive est le livrable officiel de la version 3.1 de ScoLOMFR.
+Il comprend
+- les schémas XML, sous forme d’une arborescence de fichiers XSD 
+- les vocabulaires dans les différents formats (HTML, XML, SKOS, Vdex)
+- la carte heuristique
+- le manuel de référence du profil (mêlant manuel technique et documentation des vocabulaires)
+- les licences.
+
+1.3 Compatibilités et évolutions
+La version 3.1 de Scolomfr prévoit des évolutions de vocabulaires, mais ses schémas XSD permettent de valider ou de convertir l’ensemble des versions LOMFR et ScoLOMFR antérieures.
+Les outils de migration proposés permettent de convertir les anciennes notices dans un format appliquant intégralement l’utilisation des ID de concepts sous forme d’URI, dans un  format ScoLOMFR dit « strict ».
+Les évolutions à venir de ScoLOMFR conduiront progressivement à imposer l’utilisation de cette structure fondée  sur l’usage d’URI de concepts, dans un souci de compatibilité à assurer avec le web sémantique.
+
+
+2 - Copyright et marque
+ ScoLOMFRv3.1, (décembre 2016)
+     © 2016 Direction du Numérique pour l’Éducation - Ministère de l'Éducation nationale, de l'enseignement supérieur et de la Recherche / Réseau Canopé

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding ="ISO-8859-1"?>
+<!-- DTD des fichiers XML ScoLOMFR - Canopé 20/12/2016
+MAJ : 
+- mise à jour en fonction de la V3.1 ; 20/12/2016 Canopé
+- vérification ; ajout REMPLACE PAR et STATUS par Canopé pour validation du fichier XML des concepts dépréciés du ScoLOMFR.
+NOTES :
+- déclarer par <!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+-->
+
+<!ELEMENT NOMENCLATURE (CONCEPT+)>
+<!ELEMENT CONCEPT (ID,DF*,NA*,ORDRE?,ORIGINE?,TERME+,TERME_TE*,REMPLACE_PAR?,STATUS?,TERME_TA*,TS*)>
+<!ELEMENT TERME (INTITULE,ID)>
+<!ELEMENT INTITULE (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT DF (#PCDATA)>
+<!ELEMENT NA (#PCDATA)>
+<!ELEMENT ORDRE (#PCDATA)>
+<!ELEMENT ORIGINE (#PCDATA)>
+<!ELEMENT TERME_TE (INTITULE,ID)>
+<!ELEMENT REMPLACE_PAR (#PCDATA)>
+<!ELEMENT STATUS (#PCDATA)>
+<!ELEMENT TERME_TA (INTITULE,ID)>
+<!ELEMENT TS (CONCEPT+)>
+
+<!ATTLIST INTITULE lang CDATA "fr">
+<!ATTLIST DF lang CDATA "fr">
+<!ATTLIST NA lang CDATA "fr">
+<!ATTLIST ORDRE lang CDATA "fr">

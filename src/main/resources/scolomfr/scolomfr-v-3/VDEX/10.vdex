@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="UTF-8"?><vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0" xmlns:adms="http://www.w3.org/ns/adms" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cvb="http://www.w3.org/ns/adms/BasicComponents" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cva="http://www.w3.org/ns/adms/AggregateComponents" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0     http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd    http://www.w3.org/ns/adms    http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/docs_utiles/ADMS_XML_Schema_v1.01/xsd/corevoc/CoreVocs-ADMS-v1.01.xsd" orderSignificant="true">
+<vocabName>
+<langstring language="fr">scolomfr-voc-010 (TypePédagogique)</langstring>
+</vocabName>
+<vocabIdentifier>http://voc.cndp.fr/onto#Sco10</vocabIdentifier>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-027</termIdentifier>
+<caption>
+<langstring language="fr">activité pédagogique</langstring>
+</caption>
+<description>
+<langstring language="fr">Toute activité en vue d'un apprentissage.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-027</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001</termIdentifier>
+<caption>
+<langstring language="fr">animation</langstring>
+</caption>
+<description>
+<langstring language="fr">Support d'une activité d'un groupe conduite par un animateur. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-001</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-023</termIdentifier>
+<caption>
+<langstring language="fr">annales</langstring>
+</caption>
+<description>
+<langstring language="fr">Recueil de documents par thématique et par année. Exemple : Annales des sujets d'examen de mathématiques en bac S, 2013.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-023</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/self_assessment</termIdentifier>
+<caption>
+<langstring language="fr">autoévaluation</langstring>
+</caption>
+<description>
+<langstring language="fr">Support d'une activité d'évaluation personnelle. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>self assessment</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/lecture</termIdentifier>
+<caption>
+<langstring language="fr">cours / présentation</langstring>
+</caption>
+<description>
+<langstring language="fr">Document servant de base à l'enseignant pour réaliser une leçon sur un point de programme particulier. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>lecture</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-024</termIdentifier>
+<caption>
+<langstring language="fr">cyberquête</langstring>
+</caption>
+<description>
+<langstring language="fr">Une cyberquête est une activité "coopérative d'investigation, de communication et de production, permettant de réaliser et de synthétiser des activités de recherche dont les informations sont en partie ou intégralement disponibles sur Internet". (http://www.didaquest.org/wiki/Webquest)</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-024</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-004</termIdentifier>
+<caption>
+<langstring language="fr">démonstration</langstring>
+</caption>
+<description>
+<langstring language="fr">Information de nature explicative sur une donnée, un outil, un logiciel, une méthode, un fait, etc. Exemple : démonstration illustrant comment procéder pour la mise en œuvre d'une chromatographie, démonstration de l'utilisation d'une application en ligne... Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-004</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-029</termIdentifier>
+<caption>
+<langstring language="fr">diagnostic</langstring>
+</caption>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-029</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/problem_statement</termIdentifier>
+<caption>
+<langstring language="fr">énoncé de problème</langstring>
+</caption>
+<description>
+<langstring language="fr">Enoncé à/ d'une problématique. Ne pas utiliser pour les corrigés des exercices, préférer "exercice". Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>problem statement</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-006</termIdentifier>
+<caption>
+<langstring language="fr">étude de cas</langstring>
+</caption>
+<description>
+<langstring language="fr">Exposé analytique et systématique d'une situation dans le but de trouver des solutions, de résoudre un problème.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-006</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-007</termIdentifier>
+<caption>
+<langstring language="fr">évaluation</langstring>
+</caption>
+<description>
+<langstring language="fr">Support permettant la mesure d'un apprentissage et la vérification d'une étape d'acquisition de connaissances au cours d'une action de formation ou à la fin d'une séquence. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-007</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/exam</termIdentifier>
+<caption>
+<langstring language="fr">examen</langstring>
+</caption>
+<description>
+<langstring language="fr">Support d'une épreuve synthétique et à caractère normatif qui porte sur un ensemble de connaissances, permettant de valider une étape d'obtention d'une unité d'enseignement, d'un diplôme ou d'une certification. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>exam</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/exercise</termIdentifier>
+<caption>
+<langstring language="fr">exercice</langstring>
+</caption>
+<description>
+<langstring language="fr">Support d'une activité réalisée par l'apprenant et visant le développement d'une compétence ou l'atteinte d'un objectif. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>exercise</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/experiment</termIdentifier>
+<caption>
+<langstring language="fr">expérience</langstring>
+</caption>
+<description>
+<langstring language="fr">Support d'une activité réalisée par l'apprenant en général dans des espaces spécialisés du type laboratoires ou ateliers. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>experiment</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-028</termIdentifier>
+<caption>
+<langstring language="fr">fiche pédagogique</langstring>
+</caption>
+<description>
+<langstring language="fr">Guide de l'enseignant pour réaliser une activité pédagogique (contient le thème choisi, les objectifs pédagogiques, le descriptif et l'organisation des différentes séances de travail).</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-028</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-011</termIdentifier>
+<caption>
+<langstring language="fr">glossaire</langstring>
+</caption>
+<description>
+<langstring language="fr">Ensemble de mots définis, appartenant à un domaine spécifique. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-011</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-012</termIdentifier>
+<caption>
+<langstring language="fr">guide</langstring>
+</caption>
+<description>
+<langstring language="fr">Support à caractère didactique présentant les notions essentielles d'un art, d'une science ou d'une technique, ou présentant des règles d'utilisation d'une ressource pédagogique ou d'un instrument. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-012</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-013</termIdentifier>
+<caption>
+<langstring language="fr">jeu éducatif</langstring>
+</caption>
+<description>
+<langstring language="fr">Jeu sur support physique ou numérique destiné à faire comprendre une notion, acquérir des connaissances, des compétences de façon ludique.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-013</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-014</termIdentifier>
+<caption>
+<langstring language="fr">manuel d'enseignement</langstring>
+</caption>
+<description>
+<langstring language="fr">Document didactique qui renferme les notions essentielles d'un domaine ou d'une discipline d'enseignement.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-014</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-015</termIdentifier>
+<caption>
+<langstring language="fr">matériel de référence</langstring>
+</caption>
+<description>
+<langstring language="fr">Tout document de type "usuel". Pour des documents officiels précis utiliser "norme" ou des termes plus précis tels "programme scolaire" ou "référentiel de compétences" du vocabulaire "Typologie générale" (ScoLOMFR 005). Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-015</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-025</termIdentifier>
+<caption>
+<langstring language="fr">méthode de langues</langstring>
+</caption>
+<description>
+<langstring language="fr">Document ou ensemble de documents permettant l'apprentissage d'une langue étrangère.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-025</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-016</termIdentifier>
+<caption>
+<langstring language="fr">méthodologie</langstring>
+</caption>
+<description>
+<langstring language="fr">Ensemble de règles et de démarches adoptées pour atteindre un but de nature pédagogique : pour le calcul d'une intégrale, pour la réalisation d'une recherche, pour la gestion d'un projet... Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-016</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-017</termIdentifier>
+<caption>
+<langstring language="fr">outil</langstring>
+</caption>
+<description>
+<langstring language="fr">Ressource servant à instrumenter l'utilisateur pour la réalisation d'une tâche précise se situant à l'intérieur d'un processus pédagogique plus vaste. Utilisé pour désigner un outil de production pédagogique tel qu'un générateur d'exercices, une chaîne éditoriale, etc. ; un outil de diffusion ou un équipement pédagogique. Exemple : tableau interactif, calculatrice, CMS, correcteur orthographique... Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-017</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082</termIdentifier>
+<caption>
+<langstring language="fr">préparation à l'examen</langstring>
+</caption>
+<description>
+<langstring language="fr">Ressource permettant de préparer un examen, une partie d'examen ou un concours.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-0082</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-018</termIdentifier>
+<caption>
+<langstring language="fr">production d'élève</langstring>
+</caption>
+<description>
+<langstring language="fr">Document réalisé par un ou plusieurs élèves, une classe, dans le cadre scolaire ou périscolaire.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-018</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/questionnaire</termIdentifier>
+<caption>
+<langstring language="fr">questionnaire</langstring>
+</caption>
+<description>
+<langstring language="fr">Série de questions. Type particulier d'exercice incluant les QCM (questions à choix multiples) ou les QROC (questions à réponse ouverte et courte), les enquêtes... Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>questionnaire</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-020</termIdentifier>
+<caption>
+<langstring language="fr">scénario pédagogique</langstring>
+</caption>
+<description>
+<langstring language="fr">Document descriptif, structuré et transférable, présentant de façon plus ou moins exhaustive une action de formation et d'apprentissage, les acteurs (élèves, enseignants), les objectifs, l'enchaînement d'unités ou de séquences pédagogiques, les ressources utilisées, le dispositif d'évaluation choisi. Suivant le niveau de description et/ou le périmètre de l'action pédagogique, les dénominations peuvent varier (séquence, séance, cycle d'activités pédagogiques). Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-020</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/simulation</termIdentifier>
+<caption>
+<langstring language="fr">simulation</langstring>
+</caption>
+<description>
+<langstring language="fr">Représentation artificielle de la réalité, paramétrable et basée sur un modèle, exploitée à des fins de compréhension et d'étude, de démonstration ou d'explication. Exemple : simulation de décroissance radioactive ou d'une onde mécanique (phénomène physique), conduite d'engins (gestes professionnels), etc. Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>simulation</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/table</termIdentifier>
+<caption>
+<langstring language="fr">tableau</langstring>
+</caption>
+<description>
+<langstring language="fr">Concept issu du LOM.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>table</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-026</termIdentifier>
+<caption>
+<langstring language="fr">témoignage pédagogique</langstring>
+</caption>
+<description>
+<langstring language="fr">Déclaration à caractère pédagogique d'une personne sur un sujet précis et vécu. Ces témoignages peuvent être écrit, audio ou vidéo. Exemple : les témoignages de l'Agence des usages des TICE concernant l'utilisation du TBI en classe.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-026</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-022</termIdentifier>
+<caption>
+<langstring language="fr">tutoriel</langstring>
+</caption>
+<description>
+<langstring language="fr">Guide de présentation et d'initiation, utilisable de façon autonome à l'utilisation d'un ensemble de notions, d'un logiciel, d'un matériel, etc." (Source : http://fr.wiktionary.org/wiki/tutoriel). Concept issu du LOMFR.</langstring>
+</description>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr"/>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<term validIndex="true">
+<termIdentifier>scolomfr-voc-010-num-022</termIdentifier>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Deprecated</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</term>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-027</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-027</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-027</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-027</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-027</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-027</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-001</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-001</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-001</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-023</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-023</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-023</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-023</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-023</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-023</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/self_assessment</sourceTerm>
+<targetTerm>self assessment</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>self assessment</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/self_assessment</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/self_assessment</sourceTerm>
+<targetTerm>self assessment</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/lecture</sourceTerm>
+<targetTerm>lecture</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>lecture</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/lecture</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/lecture</sourceTerm>
+<targetTerm>lecture</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-024</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-024</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-024</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-024</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-024</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-024</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-004</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-004</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-004</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-004</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-004</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-004</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-029</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-029</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-029</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-029</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-029</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-029</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/problem_statement</sourceTerm>
+<targetTerm>problem statement</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>problem statement</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/problem_statement</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/problem_statement</sourceTerm>
+<targetTerm>problem statement</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-006</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-006</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-006</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-006</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-006</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-006</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-007</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-007</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-007</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-007</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-007</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-007</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/exam</sourceTerm>
+<targetTerm>exam</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>exam</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/exam</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/exam</sourceTerm>
+<targetTerm>exam</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/exercise</sourceTerm>
+<targetTerm>exercise</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>exercise</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/exercise</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/exercise</sourceTerm>
+<targetTerm>exercise</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/experiment</sourceTerm>
+<targetTerm>experiment</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>experiment</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/experiment</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/experiment</sourceTerm>
+<targetTerm>experiment</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-028</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-028</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-028</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-028</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-028</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-028</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-011</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-011</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-011</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-011</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-011</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-011</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-012</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-012</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-012</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-012</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-012</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-012</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-013</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-013</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-013</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-013</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-013</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-013</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-014</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-014</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-014</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-014</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-014</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-014</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-015</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-015</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-015</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-015</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-015</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-015</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-025</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-025</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-025</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-025</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-025</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-025</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-016</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-016</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-016</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-016</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-016</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-016</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-017</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-017</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-017</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-017</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-017</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-017</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-0082</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-0082</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-0082</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-018</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-018</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-018</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-018</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-018</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-018</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/questionnaire</sourceTerm>
+<targetTerm>questionnaire</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>questionnaire</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/questionnaire</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/questionnaire</sourceTerm>
+<targetTerm>questionnaire</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-020</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-020</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-020</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-020</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-020</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-020</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/simulation</sourceTerm>
+<targetTerm>simulation</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>simulation</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/simulation</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/simulation</sourceTerm>
+<targetTerm>simulation</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/table</sourceTerm>
+<targetTerm>table</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>table</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/table</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/table</sourceTerm>
+<targetTerm>table</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-026</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-026</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-026</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-026</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-026</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-026</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-022</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-022</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>scolomfr-voc-010-num-022</sourceTerm>
+<targetTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-022</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+</relationship>
+<relationship>
+<sourceTerm>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-022</sourceTerm>
+<targetTerm>scolomfr-voc-010-num-022</targetTerm>
+<relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+</relationship>
+<metadata>
+<adms:Adms>
+<cva:SemanticAsset>
+<cbc:URI/>
+<cbc:Name/>
+<cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+<cbc:Description/>
+<cvb:Version>2.0</cvb:Version>
+<cvb:VersionNotes languageID="fr">Introduction des URI de concepts pour l'indexation et dépreciation des anciens identifiants.</cvb:VersionNotes>
+<cva:AssetType>
+<cvb:TypeCode/>
+</cva:AssetType>
+<cva:MainDocumentation>
+<cbc:URI>http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/docs_utiles/Structure_des_fichiers_VDEX_3.pdf</cbc:URI>
+<cbc:Title>Strucutre des fichiers VDEX</cbc:Title>
+</cva:MainDocumentation>
+<cva:Publisher>
+<cbc:URI/>
+<cbc:Name/>
+</cva:Publisher>
+<cva:AssetStatus>
+<cvb:TypeCode>Completed</cvb:TypeCode>
+</cva:AssetStatus>
+</cva:SemanticAsset>
+</adms:Adms>
+</metadata>
+</vdex>

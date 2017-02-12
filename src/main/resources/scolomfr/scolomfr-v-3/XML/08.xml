@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</ID>
+<DF lang="fr">Niveau d'agrégation</DF>
+<NA lang="fr">Ressource indivisible. Fait référence à une ressource que l'on estime ne pouvant pas être fragmentée et qui pourra être exploitée dans des ressources pédagogiques de granularité plus élevée (2, 3 ou 4). Par exemple, une photo ou une fiche technique, un exercice unique, le support d'une leçon...</NA>
+<TERME>
+<INTITULE lang="fr">1 - Granule</INTITULE>
+<ID>scolomfr-voc-008-num-05</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">1</INTITULE>
+<ID>scolomfr-voc-008-num-01</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">image</INTITULE>
+<ID>Image</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">image en mouvement</INTITULE>
+<ID>MovingImage</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">image fixe</INTITULE>
+<ID>StillImage</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">texte</INTITULE>
+<ID>Text</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">atomique</INTITULE>
+<ID>atomic</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</ID>
+<DF lang="fr">Niveau d'agrégation</DF>
+<NA lang="fr">Ensemble d'objets d'apprentissage de niveau 1. Fait référence à une ressource pédagogique regroupant un ensemble d'objets pédagogiques ou fragments. Par exemple : une ressource présentant une leçon incluant une vidéo numérique et un exercice ; une ressource présentant un travail d'évaluation et composée des consignes et support d'exercices, ainsi que des corrections.</NA>
+<TERME>
+<INTITULE lang="fr">2 - Leçon</INTITULE>
+<ID>scolomfr-voc-008-voc-06</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">2</INTITULE>
+<ID>scolomfr-voc-008-num-02</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">collection</INTITULE>
+<ID>Collection</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">ensemble de données</INTITULE>
+<ID>Dataset</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">collection de documents</INTITULE>
+<ID>scolomfr-voc-005-num-014</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">collection</INTITULE>
+<ID>collection</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03</ID>
+<DF lang="fr">Niveau d'agrégation</DF>
+<NA lang="fr">Ensemble d'objets d'apprentissage de niveau 2. Fait référence à une ressource rassemblant un ensemble d'objets de niveau d'agrégation supérieur. Par exemple : une ressource décrivant un cours composé de plusieurs leçons.</NA>
+<TERME>
+<INTITULE lang="fr">3 - Cours</INTITULE>
+<ID>scolomfr-voc-008-num-07</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">3</INTITULE>
+<ID>scolomfr-voc-008-num-03</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04</ID>
+<DF lang="fr">Niveau d'agrégation</DF>
+<NA lang="fr">Ensemble d'objets d'apprentissage de niveau 3 (granularité la plus élevée dans ce modèle). Fait référence à une ressource rassemblant un ensemble d'objets de niveau d'agrégation la plus élevée. Par exemple : une ressource décrivant le programme d'enseignement menant à un diplôme ou certificat.</NA>
+<TERME>
+<INTITULE lang="fr">4 - Module</INTITULE>
+<ID>scolomfr-voc-008-num-08</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">4</INTITULE>
+<ID>scolomfr-voc-008-num-04</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</ID>
+<DF lang="fr">Niveau d'agrégation</DF>
+<NA lang="fr">Ressource indivisible. Fait référence à une ressource que l'on estime ne pouvant pas être fragmentée et qui pourra être exploitée dans des ressources pédagogiques de granularité plus élevée (2, 3 ou 4). Par exemple, une photo ou une fiche technique, un exercice unique, le support d'une leçon...</NA>
+<TERME>
+<INTITULE lang="fr">1 - Granule</INTITULE>
+<ID>scolomfr-voc-008-num-05</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">1</INTITULE>
+<ID>scolomfr-voc-008-num-01</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">image</INTITULE>
+<ID>Image</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">image en mouvement</INTITULE>
+<ID>MovingImage</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">image fixe</INTITULE>
+<ID>StillImage</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">texte</INTITULE>
+<ID>Text</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">atomique</INTITULE>
+<ID>atomic</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04</ID>
+<DF lang="fr">Niveau d'agrégation</DF>
+<NA lang="fr">Ensemble d'objets d'apprentissage de niveau 3 (granularité la plus élevée dans ce modèle). Fait référence à une ressource rassemblant un ensemble d'objets de niveau d'agrégation la plus élevée. Par exemple : une ressource décrivant le programme d'enseignement menant à un diplôme ou certificat.</NA>
+<TERME>
+<INTITULE lang="fr">4 - Module</INTITULE>
+<ID>scolomfr-voc-008-num-08</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">4</INTITULE>
+<ID>scolomfr-voc-008-num-04</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03</ID>
+<DF lang="fr">Niveau d'agrégation</DF>
+<NA lang="fr">Ensemble d'objets d'apprentissage de niveau 2. Fait référence à une ressource rassemblant un ensemble d'objets de niveau d'agrégation supérieur. Par exemple : une ressource décrivant un cours composé de plusieurs leçons.</NA>
+<TERME>
+<INTITULE lang="fr">3 - Cours</INTITULE>
+<ID>scolomfr-voc-008-num-07</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">3</INTITULE>
+<ID>scolomfr-voc-008-num-03</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</ID>
+<DF lang="fr">Niveau d'agrégation</DF>
+<NA lang="fr">Ensemble d'objets d'apprentissage de niveau 1. Fait référence à une ressource pédagogique regroupant un ensemble d'objets pédagogiques ou fragments. Par exemple : une ressource présentant une leçon incluant une vidéo numérique et un exercice ; une ressource présentant un travail d'évaluation et composée des consignes et support d'exercices, ainsi que des corrections.</NA>
+<TERME>
+<INTITULE lang="fr">2 - Leçon</INTITULE>
+<ID>scolomfr-voc-008-voc-06</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">2</INTITULE>
+<ID>scolomfr-voc-008-num-02</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">collection</INTITULE>
+<ID>Collection</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">ensemble de données</INTITULE>
+<ID>Dataset</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">collection de documents</INTITULE>
+<ID>scolomfr-voc-005-num-014</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">collection</INTITULE>
+<ID>collection</ID>
+</TERME_TA>
+</CONCEPT>
+</NOMENCLATURE>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-004-num-013" name="scolomfr-voc-004 (TypeDocumentaire)">
+  <concept id="http://purl.org/dc/dcmitype/Collection" prefTerm="collection">
+    <value>http://purl.org/dc/dcmitype/Collection</value>
+    <value>collection</value>
+    <value>Collection</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/Dataset" prefTerm="ensemble de données">
+    <value>http://purl.org/dc/dcmitype/Dataset</value>
+    <value>ensemble de données</value>
+    <value>Dataset</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/Event" prefTerm="événement">
+    <value>http://purl.org/dc/dcmitype/Event</value>
+    <value>événement</value>
+    <value>Event</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/Image" prefTerm="image">
+    <value>http://purl.org/dc/dcmitype/Image</value>
+    <value>image</value>
+    <value>Image</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/MovingImage" prefTerm="image en mouvement">
+    <value>http://purl.org/dc/dcmitype/MovingImage</value>
+    <value>image en mouvement</value>
+    <value>MovingImage</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/StillImage" prefTerm="image fixe">
+    <value>http://purl.org/dc/dcmitype/StillImage</value>
+    <value>image fixe</value>
+    <value>StillImage</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/Software" prefTerm="logiciel">
+    <value>http://purl.org/dc/dcmitype/Software</value>
+    <value>logiciel</value>
+    <value>Software</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/PhysicalObject" prefTerm="objet physique">
+    <value>http://purl.org/dc/dcmitype/PhysicalObject</value>
+    <value>objet physique</value>
+    <value>PhysicalObject</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/InteractiveResource" prefTerm="ressource interactive">
+    <value>http://purl.org/dc/dcmitype/InteractiveResource</value>
+    <value>ressource interactive</value>
+    <value>InteractiveResource</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/Service" prefTerm="service">
+    <value>http://purl.org/dc/dcmitype/Service</value>
+    <value>service</value>
+    <value>Service</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/Sound" prefTerm="son">
+    <value>http://purl.org/dc/dcmitype/Sound</value>
+    <value>son</value>
+    <value>Sound</value>
+  </concept>
+  <concept id="http://purl.org/dc/dcmitype/Text" prefTerm="texte">
+    <value>http://purl.org/dc/dcmitype/Text</value>
+    <value>texte</value>
+    <value>Text</value>
+  </concept>
+</vocab>

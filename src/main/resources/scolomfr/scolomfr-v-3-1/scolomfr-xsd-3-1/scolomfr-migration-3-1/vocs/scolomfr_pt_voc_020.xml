@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-001" name="scolomfr-voc-020 (Outil)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064" prefTerm="matériel">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064</value>
+    <value>matériel</value>
+    <value>scolomfr-voc-020-num-064</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-010" prefTerm="casque audio">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-010</value>
+    <value>casque audio</value>
+    <value>scolomfr-voc-020-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-063" prefTerm="machine-outil à commande numérique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-063</value>
+    <value>machine-outil à commande numérique</value>
+    <value>scolomfr-voc-020-num-063</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-072" prefTerm="rétroprojecteur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-072</value>
+    <value>rétroprojecteur</value>
+    <value>scolomfr-voc-020-num-072</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-078" prefTerm="tablette">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-078</value>
+    <value>tablette</value>
+    <value>scolomfr-voc-020-num-152</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-082" prefTerm="webcam">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-082</value>
+    <value>webcam</value>
+    <value>scolomfr-voc-020-num-082</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-066" prefTerm="microscope">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-066</value>
+    <value>microscope</value>
+    <value>scolomfr-voc-020-num-066</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-015" prefTerm="écran tactile">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-015</value>
+    <value>écran tactile</value>
+    <value>scolomfr-voc-020-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-012" prefTerm="console de jeux">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-012</value>
+    <value>console de jeux</value>
+    <value>scolomfr-voc-020-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-021" prefTerm="liseuse">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-021</value>
+    <value>liseuse</value>
+    <value>scolomfr-voc-020-num-021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-068" prefTerm="ordinateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-068</value>
+    <value>ordinateur</value>
+    <value>scolomfr-voc-020-num-068</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-077" prefTerm="tableau blanc interactif">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-077</value>
+    <value>tableau blanc interactif</value>
+    <value>scolomfr-voc-020-num-077</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-079" prefTerm="téléphone">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-079</value>
+    <value>téléphone</value>
+    <value>scolomfr-voc-020-num-079</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-074" prefTerm="smartphone">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-074</value>
+    <value>smartphone</value>
+    <value>scolomfr-voc-020-num-074</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-019" prefTerm="imprimante">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-019</value>
+    <value>imprimante</value>
+    <value>scolomfr-voc-020-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-004" prefTerm="appareil photographique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-004</value>
+    <value>appareil photographique</value>
+    <value>scolomfr-voc-020-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-008" prefTerm="calculatrice">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-008</value>
+    <value>calculatrice</value>
+    <value>scolomfr-voc-020-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-016" prefTerm="enceintes">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-016</value>
+    <value>enceintes</value>
+    <value>scolomfr-voc-020-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-065" prefTerm="microphone">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-065</value>
+    <value>microphone</value>
+    <value>scolomfr-voc-020-num-065</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-005" prefTerm="baladeur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-005</value>
+    <value>baladeur</value>
+    <value>scolomfr-voc-020-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-006" prefTerm="borne informatique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-006</value>
+    <value>borne informatique</value>
+    <value>scolomfr-voc-020-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-009" prefTerm="caméra">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-009</value>
+    <value>caméra</value>
+    <value>scolomfr-voc-020-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-011" prefTerm="classe mobile">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-011</value>
+    <value>classe mobile</value>
+    <value>scolomfr-voc-020-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-014" prefTerm="documentation technique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-014</value>
+    <value>documentation technique</value>
+    <value>scolomfr-voc-020-num-014</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-073" prefTerm="scanner">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-073</value>
+    <value>scanner</value>
+    <value>scolomfr-voc-020-num-073</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-080" prefTerm="vidéoprojecteur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-080</value>
+    <value>vidéoprojecteur</value>
+    <value>scolomfr-voc-020-num-080</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-081" prefTerm="visualiseur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-081</value>
+    <value>visualiseur</value>
+    <value>scolomfr-voc-020-num-081</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-149" prefTerm="robot programmable">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-149</value>
+    <value>robot programmable</value>
+    <value>scolomfr-voc-020-num-149</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-150" prefTerm="scanner 3D">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-150</value>
+    <value>scanner 3D</value>
+    <value>scolomfr-voc-020-num-150</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-139" prefTerm="imprimante 3D">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-139</value>
+    <value>imprimante 3D</value>
+    <value>scolomfr-voc-020-num-139</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-151" prefTerm="stockage externe">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-151</value>
+    <value>stockage externe</value>
+    <value>scolomfr-voc-020-num-151</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-138" prefTerm="EIM">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-138</value>
+    <value>EIM</value>
+    <value>scolomfr-voc-020-num-138</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022" prefTerm="logiciels">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022</value>
+    <value>logiciels</value>
+    <value>scolomfr-voc-020-num-022</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-002" prefTerm="agrégateur de contenu">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-002</value>
+    <value>agrégateur de contenu</value>
+    <value>scolomfr-voc-020-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-003" prefTerm="aide technique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-003</value>
+    <value>aide technique</value>
+    <value>scolomfr-voc-020-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-029" prefTerm="logiciel de création multimédia">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-029</value>
+    <value>logiciel de création multimédia</value>
+    <value>scolomfr-voc-020-num-029</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-041" prefTerm="logiciel de publication en ligne">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-041</value>
+    <value>logiciel de publication en ligne</value>
+    <value>scolomfr-voc-020-num-041</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-034" prefTerm="logiciel de gestion de contenu">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-034</value>
+    <value>logiciel de gestion de contenu</value>
+    <value>scolomfr-voc-020-num-034</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-053" prefTerm="logiciel d'édition web">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-053</value>
+    <value>logiciel d'édition web</value>
+    <value>scolomfr-voc-020-num-053</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-051" prefTerm="logiciel de travail collaboratif">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-051</value>
+    <value>logiciel de travail collaboratif</value>
+    <value>scolomfr-voc-020-num-051</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-055" prefTerm="logiciel de recherche documentaire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-055</value>
+    <value>logiciel de recherche documentaire</value>
+    <value>scolomfr-voc-020-num-042</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-007" prefTerm="cahier de textes numérique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-007</value>
+    <value>cahier de textes numérique</value>
+    <value>scolomfr-voc-020-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-017" prefTerm="environnement numérique de travail">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-017</value>
+    <value>environnement numérique de travail</value>
+    <value>scolomfr-voc-020-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-020" prefTerm="learning management system">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-020</value>
+    <value>learning management system</value>
+    <value>scolomfr-voc-020-num-020</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-044" prefTerm="logiciel de simulation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-044</value>
+    <value>logiciel de simulation</value>
+    <value>scolomfr-voc-020-num-044</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-075" prefTerm="système de gestion de base de données">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-075</value>
+    <value>système de gestion de base de données</value>
+    <value>scolomfr-voc-020-num-075</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-023" prefTerm="logiciel d'aide à l'orientation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-023</value>
+    <value>logiciel d'aide à l'orientation</value>
+    <value>scolomfr-voc-020-num-023</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-025" prefTerm="logiciel d'application">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-025</value>
+    <value>logiciel d'application</value>
+    <value>scolomfr-voc-020-num-025</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026" prefTerm="logiciel de bureautique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026</value>
+    <value>logiciel de bureautique</value>
+    <value>scolomfr-voc-020-num-026</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-037" prefTerm="logiciel de messagerie">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-037</value>
+    <value>logiciel de messagerie</value>
+    <value>scolomfr-voc-020-num-037</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-057" prefTerm="logiciel organiseur d'idées">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-057</value>
+    <value>logiciel organiseur d'idées</value>
+    <value>scolomfr-voc-020-num-057</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-035" prefTerm="logiciel de gestion de projet">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-035</value>
+    <value>logiciel de gestion de projet</value>
+    <value>scolomfr-voc-020-num-035</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-046" prefTerm="logiciel de traitement de tableaux et calculs">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-046</value>
+    <value>logiciel de traitement de tableaux et calculs</value>
+    <value>scolomfr-voc-020-num-046</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-047" prefTerm="logiciel de traitement de texte">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-047</value>
+    <value>logiciel de traitement de texte</value>
+    <value>scolomfr-voc-020-num-047</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-040" prefTerm="logiciel de présentation assistée par ordinateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-040</value>
+    <value>logiciel de présentation assistée par ordinateur</value>
+    <value>scolomfr-voc-020-num-040</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-136" prefTerm="logiciel de publication assistée par ordinateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-136</value>
+    <value>logiciel de publication assistée par ordinateur</value>
+    <value>scolomfr-voc-020-num-136</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-032" prefTerm="logiciel de fabrication assistée par ordinateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-032</value>
+    <value>logiciel de fabrication assistée par ordinateur</value>
+    <value>scolomfr-voc-020-num-032</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-045" prefTerm="logiciel de traitement de son">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-045</value>
+    <value>logiciel de traitement de son</value>
+    <value>scolomfr-voc-020-num-045</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-067" prefTerm="moteur de recherche">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-067</value>
+    <value>moteur de recherche</value>
+    <value>scolomfr-voc-020-num-067</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-070" prefTerm="outil de modélisation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-070</value>
+    <value>outil de modélisation</value>
+    <value>scolomfr-voc-020-num-070</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-048" prefTerm="logiciel de traitement d'enquête">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-048</value>
+    <value>logiciel de traitement d'enquête</value>
+    <value>scolomfr-voc-020-num-048</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-031" prefTerm="logiciel de développement d'application">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-031</value>
+    <value>logiciel de développement d'application</value>
+    <value>scolomfr-voc-020-num-031</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-069" prefTerm="outil de mise en ligne">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-069</value>
+    <value>outil de mise en ligne</value>
+    <value>scolomfr-voc-020-num-069</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036" prefTerm="logiciel de manipulation d'images et de vidéos">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036</value>
+    <value>logiciel de manipulation d'images et de vidéos</value>
+    <value>scolomfr-voc-020-num-036</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-033" prefTerm="logiciel de géométrie dynamique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-033</value>
+    <value>logiciel de géométrie dynamique</value>
+    <value>scolomfr-voc-020-num-033</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-024" prefTerm="logiciel d'animation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-024</value>
+    <value>logiciel d'animation</value>
+    <value>scolomfr-voc-020-num-024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-054" prefTerm="logiciel d'image de synthèse">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-054</value>
+    <value>logiciel d'image de synthèse</value>
+    <value>scolomfr-voc-020-num-054</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-030" prefTerm="logiciel de dessin assisté par ordinateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-030</value>
+    <value>logiciel de dessin assisté par ordinateur</value>
+    <value>scolomfr-voc-020-num-030</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-038" prefTerm="logiciel de montage vidéo">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-038</value>
+    <value>logiciel de montage vidéo</value>
+    <value>scolomfr-voc-020-num-038</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-049" prefTerm="logiciel de traitement d'image fixe">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-049</value>
+    <value>logiciel de traitement d'image fixe</value>
+    <value>scolomfr-voc-020-num-049</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-050" prefTerm="logiciel de traitement vidéo">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-050</value>
+    <value>logiciel de traitement vidéo</value>
+    <value>scolomfr-voc-020-num-050</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-043" prefTerm="logiciel de reconnaissance et de synthèse vocales">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-043</value>
+    <value>logiciel de reconnaissance et de synthèse vocales</value>
+    <value>scolomfr-voc-020-num-043</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-143" prefTerm="logiciel de reconnaissance vocale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-143</value>
+    <value>logiciel de reconnaissance vocale</value>
+    <value>scolomfr-voc-020-num-143</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-144" prefTerm="logiciel de synthèse vocale">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-144</value>
+    <value>logiciel de synthèse vocale</value>
+    <value>scolomfr-voc-020-num-144</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-071" prefTerm="outil d'encodage">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-071</value>
+    <value>outil d'encodage</value>
+    <value>scolomfr-voc-020-num-071</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-145" prefTerm="logiciel de visualisation et de lecture de média">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-145</value>
+    <value>logiciel de visualisation et de lecture de média</value>
+    <value>scolomfr-voc-020-num-145</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-076" prefTerm="système d'information géographique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-076</value>
+    <value>système d'information géographique</value>
+    <value>scolomfr-voc-020-num-076</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-141" prefTerm="logiciel de lecture de livre numérique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-141</value>
+    <value>logiciel de lecture de livre numérique</value>
+    <value>scolomfr-voc-020-num-141</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-147" prefTerm="logiciel éditeur de texte">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-147</value>
+    <value>logiciel éditeur de texte</value>
+    <value>scolomfr-voc-020-num-147</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-142" prefTerm="logiciel de programmation">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-142</value>
+    <value>logiciel de programmation</value>
+    <value>scolomfr-voc-020-num-142</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-061" prefTerm="logiciel système">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-061</value>
+    <value>logiciel système</value>
+    <value>scolomfr-voc-020-num-148</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146" prefTerm="logiciel d'enseignement">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146</value>
+    <value>logiciel d'enseignement</value>
+    <value>scolomfr-voc-020-num-146</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-137" prefTerm="logiciel reconnu d'intérêt pédagogique">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-137</value>
+    <value>logiciel reconnu d'intérêt pédagogique</value>
+    <value>scolomfr-voc-020-num-137</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-058" prefTerm="logiciel ou application de lecture">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-058</value>
+    <value>logiciel ou application de lecture</value>
+    <value>scolomfr-voc-020-num-058</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-018" prefTerm="exerciseur">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-018</value>
+    <value>exerciseur</value>
+    <value>scolomfr-voc-020-num-018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-052" prefTerm="logiciel d'édition et de gestion d'exercices">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-052</value>
+    <value>logiciel d'édition et de gestion d'exercices</value>
+    <value>scolomfr-voc-020-num-052</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-028" prefTerm="logiciel de communication et d'échange">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-028</value>
+    <value>logiciel de communication et d'échange</value>
+    <value>scolomfr-voc-020-num-028</value>
+  </concept>
+</vocab>

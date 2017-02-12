@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-013-num-003" name="scolomfr-voc-013 (RôleMétaDonnées)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/creator" prefTerm="créateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/creator</value>
+    <value>créateur</value>
+    <value>creator</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/validator" prefTerm="validateur">
+    <value>http://data.education.fr/voc/scolomfr/concept/validator</value>
+    <value>validateur</value>
+    <value>validator</value>
+  </concept>
+</vocab>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocab id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-020" name="scolomfr-voc-019 (Activité)">
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-001" prefTerm="animer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-001</value>
+    <value>animer</value>
+    <value>scolomfr-voc-019-num-001</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-002" prefTerm="apprendre">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-002</value>
+    <value>apprendre</value>
+    <value>scolomfr-voc-019-num-002</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-003" prefTerm="collaborer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-003</value>
+    <value>collaborer</value>
+    <value>scolomfr-voc-019-num-003</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-004" prefTerm="communiquer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-004</value>
+    <value>communiquer</value>
+    <value>scolomfr-voc-019-num-004</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-005" prefTerm="coopérer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-005</value>
+    <value>coopérer</value>
+    <value>scolomfr-voc-019-num-005</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-006" prefTerm="créer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-006</value>
+    <value>créer</value>
+    <value>scolomfr-voc-019-num-006</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-007" prefTerm="échanger">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-007</value>
+    <value>échanger</value>
+    <value>scolomfr-voc-019-num-007</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-019" prefTerm="expérimenter">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-019</value>
+    <value>expérimenter</value>
+    <value>scolomfr-voc-019-num-019</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-008" prefTerm="lire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-008</value>
+    <value>lire</value>
+    <value>scolomfr-voc-019-num-008</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-009" prefTerm="observer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-009</value>
+    <value>observer</value>
+    <value>scolomfr-voc-019-num-009</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-010" prefTerm="organiser">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-010</value>
+    <value>organiser</value>
+    <value>scolomfr-voc-019-num-010</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-011" prefTerm="produire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-011</value>
+    <value>produire</value>
+    <value>scolomfr-voc-019-num-011</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-012" prefTerm="publier">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-012</value>
+    <value>publier</value>
+    <value>scolomfr-voc-019-num-012</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-013" prefTerm="rechercher">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-013</value>
+    <value>rechercher</value>
+    <value>scolomfr-voc-019-num-013</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-017" prefTerm="se former">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-017</value>
+    <value>se former</value>
+    <value>scolomfr-voc-019-num-017</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-015" prefTerm="s'évaluer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-015</value>
+    <value>s'évaluer</value>
+    <value>scolomfr-voc-019-num-015</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-016" prefTerm="s'exercer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-016</value>
+    <value>s'exercer</value>
+    <value>scolomfr-voc-019-num-016</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-018" prefTerm="simuler">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-018</value>
+    <value>simuler</value>
+    <value>scolomfr-voc-019-num-018</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-027" prefTerm="s'informer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-027</value>
+    <value>s'informer</value>
+    <value>scolomfr-voc-019-num-027</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-021" prefTerm="écouter">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-021</value>
+    <value>écouter</value>
+    <value>scolomfr-voc-019-num-021</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-024" prefTerm="jouer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-024</value>
+    <value>jouer</value>
+    <value>scolomfr-voc-019-num-024</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-028" prefTerm="tester">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-028</value>
+    <value>tester</value>
+    <value>scolomfr-voc-019-num-028</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-029" prefTerm="visionner">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-029</value>
+    <value>visionner</value>
+    <value>scolomfr-voc-019-num-029</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-030" prefTerm="analyser">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-030</value>
+    <value>analyser</value>
+    <value>scolomfr-voc-019-num-031</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-031" prefTerm="argumenter">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-031</value>
+    <value>argumenter</value>
+    <value>scolomfr-voc-019-num-032</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-032" prefTerm="calculer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-032</value>
+    <value>calculer</value>
+    <value>scolomfr-voc-019-num-033</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-033" prefTerm="caractériser">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-033</value>
+    <value>caractériser</value>
+    <value>scolomfr-voc-019-num-034</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-034" prefTerm="citer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-034</value>
+    <value>citer</value>
+    <value>scolomfr-voc-019-num-035</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-035" prefTerm="classer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-035</value>
+    <value>classer</value>
+    <value>scolomfr-voc-019-num-036</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-036" prefTerm="comparer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-036</value>
+    <value>comparer</value>
+    <value>scolomfr-voc-019-num-037</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-037" prefTerm="comprendre">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-037</value>
+    <value>comprendre</value>
+    <value>scolomfr-voc-019-num-038</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-038" prefTerm="compter">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-038</value>
+    <value>compter</value>
+    <value>scolomfr-voc-019-num-039</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-039" prefTerm="construire des savoirs">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-039</value>
+    <value>construire des savoirs</value>
+    <value>scolomfr-voc-019-num-040</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-040" prefTerm="découvrir">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-040</value>
+    <value>découvrir</value>
+    <value>scolomfr-voc-019-num-041</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-041" prefTerm="décrire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-041</value>
+    <value>décrire</value>
+    <value>scolomfr-voc-019-num-042</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-042" prefTerm="dénombrer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-042</value>
+    <value>dénombrer</value>
+    <value>scolomfr-voc-019-num-043</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-043" prefTerm="dessiner">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-043</value>
+    <value>dessiner</value>
+    <value>scolomfr-voc-019-num-044</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-044" prefTerm="discuter">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-044</value>
+    <value>discuter</value>
+    <value>scolomfr-voc-019-num-045</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-045" prefTerm="écrire">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-045</value>
+    <value>écrire</value>
+    <value>scolomfr-voc-019-num-046</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-046" prefTerm="exposer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-046</value>
+    <value>exposer</value>
+    <value>scolomfr-voc-019-num-047</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-047" prefTerm="expliquer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-047</value>
+    <value>expliquer</value>
+    <value>scolomfr-voc-019-num-048</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-048" prefTerm="identifier">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-048</value>
+    <value>identifier</value>
+    <value>scolomfr-voc-019-num-049</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-049" prefTerm="illustrer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-049</value>
+    <value>illustrer</value>
+    <value>scolomfr-voc-019-num-050</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-050" prefTerm="justifier">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-050</value>
+    <value>justifier</value>
+    <value>scolomfr-voc-019-num-051</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-051" prefTerm="montrer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-051</value>
+    <value>montrer</value>
+    <value>scolomfr-voc-019-num-052</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-052" prefTerm="parler">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-052</value>
+    <value>parler</value>
+    <value>scolomfr-voc-019-num-053</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-053" prefTerm="présenter">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-053</value>
+    <value>présenter</value>
+    <value>scolomfr-voc-019-num-054</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-054" prefTerm="programmer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-054</value>
+    <value>programmer</value>
+    <value>scolomfr-voc-019-num-055</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-055" prefTerm="réaliser">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-055</value>
+    <value>réaliser</value>
+    <value>scolomfr-voc-019-num-056</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-056" prefTerm="repérer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-056</value>
+    <value>repérer</value>
+    <value>scolomfr-voc-019-num-057</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-057" prefTerm="réprimer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-057</value>
+    <value>réprimer</value>
+    <value>scolomfr-voc-019-num-058</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-058" prefTerm="résumer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-058</value>
+    <value>résumer</value>
+    <value>scolomfr-voc-019-num-059</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-059" prefTerm="réviser">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-059</value>
+    <value>réviser</value>
+    <value>scolomfr-voc-019-num-060</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-060" prefTerm="s'exprimer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-060</value>
+    <value>s'exprimer</value>
+    <value>scolomfr-voc-019-num-061</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-061" prefTerm="structurer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-061</value>
+    <value>structurer</value>
+    <value>scolomfr-voc-019-num-062</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-062" prefTerm="synthétiser">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-062</value>
+    <value>synthétiser</value>
+    <value>scolomfr-voc-019-num-063</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-063" prefTerm="tracer">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-063</value>
+    <value>tracer</value>
+    <value>scolomfr-voc-019-num-064</value>
+  </concept>
+  <concept id="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-064" prefTerm="trier">
+    <value>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-064</value>
+    <value>trier</value>
+    <value>scolomfr-voc-019-num-065</value>
+  </concept>
+</vocab>

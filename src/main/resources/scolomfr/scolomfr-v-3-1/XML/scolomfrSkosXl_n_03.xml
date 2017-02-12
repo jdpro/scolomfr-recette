@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/author</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable de la création du contenu de la ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">auteur</INTITULE>
+         <ID>author</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">auteur</INTITULE>
+         <ID>scolomfr-voc-003-num-001</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/graphical_designer</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable de la création des éléments graphiques et visuels d'une ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">concepteur graphique</INTITULE>
+         <ID>graphical designer</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">concepteur graphique</INTITULE>
+         <ID>scolomfr-voc-003-num-003</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/instructional_designer</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable d'appliquer les principes pédagogiques soutenant la conception de la ressource" (Source : Normetic v1.1). Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">concepteur pédagogique</INTITULE>
+         <ID>instructional designer</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">concepteur pédagogique</INTITULE>
+         <ID>scolomfr-voc-003-num-004</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-005</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité ayant contribuée au contenu de la ressource, sans que la nature de sa contribution soit spécifiée. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">contributeur</INTITULE>
+         <ID>scolomfr-voc-003-num-005</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-027</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable de la diffusion et/ou de la commercialisation de la ressource.</NA>
+      <TERME>
+         <INTITULE lang="fr">diffuseur</INTITULE>
+         <ID>scolomfr-voc-003-num-027</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-017</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable du stockage puis de la mise à disposition de la ressource.</NA>
+      <TERME>
+         <INTITULE lang="fr">diffuseur / distributeur</INTITULE>
+         <ID>scolomfr-voc-003-num-017</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-030</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité qui rassemble les éditeurs de contenus sous sa direction et qui coordonne leur travail. Ne doit pas être confondu avec « éditeur de contenu » et « éditeur de publication ».</NA>
+      <TERME>
+         <INTITULE lang="fr">directeur d'ouvrage</INTITULE>
+         <ID>scolomfr-voc-003-num-030</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/editor</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité qui coordonne les différentes contributions éditoriales à la ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">directeur de la publication</INTITULE>
+         <ID>editor</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">directeur de la publication</INTITULE>
+         <ID>scolomfr-voc-003-num-016</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-026</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable de l'accès à la ressource.</NA>
+      <TERME>
+         <INTITULE lang="fr">distributeur technique</INTITULE>
+         <ID>scolomfr-voc-003-num-026</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/publisher</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable de la mise à disposition de la ressource : un établissement, une académie, une maison d'édition. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">éditeur</INTITULE>
+         <ID>publisher</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">éditeur</INTITULE>
+         <ID>scolomfr-voc-003-num-002</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-028</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable du contenu éditorial. Ne doit pas être confondu avec « éditeur de publication » et « directeur d'ouvrage ».</NA>
+      <TERME>
+         <INTITULE lang="fr">éditeur de contenu</INTITULE>
+         <ID>scolomfr-voc-003-num-028</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-029</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable de la publication qu'elle soit papier ou numérique. Ne doit pas être confondu avec « éditeur de contenu » et « directeur d'ouvrage ».</NA>
+      <TERME>
+         <INTITULE lang="fr">éditeur de publication</INTITULE>
+         <ID>scolomfr-voc-003-num-029</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/subject_matter_expert</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité qualifiée pour juger de la pertinence du contenu de la ressource. Dans le cas où un expert du domaine fournit l'information, il est alors également "fournisseur de contenu". Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">expert du domaine</INTITULE>
+         <ID>subject matter expert</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">expert du domaine</INTITULE>
+         <ID>scolomfr-voc-003-num-006</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/content_provider</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité qui est secondairement responsable du contenu de la ressource. Elle peut avoir assuré des activités liées à la création, la structuration ou l'agrégation du contenu de la ressource. Dans le cas où la fourniture relève d'une expertise du domaine, utiliser alors "expert du domaine". Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">fournisseur de contenu</INTITULE>
+         <ID>content provider</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">fournisseur de contenu</INTITULE>
+         <ID>scolomfr-voc-003-num-007</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-031</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité qui a réalisé tout ou partie des illustrations de la ressource.</NA>
+      <TERME>
+         <INTITULE lang="fr">illustrateur</INTITULE>
+         <ID>scolomfr-voc-003-num-031</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/technical_implementer</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité qui effectue l'ensemble des opérations techniques nécessaires pour élaborer la ressource. Par exemple : une cellule TICE, un développeur informatique... Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">implémenteur technique</INTITULE>
+         <ID>technical implementer</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">implémenteur technique</INTITULE>
+         <ID>scolomfr-voc-003-num-010</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">développeur informatique</INTITULE>
+         <ID>scolomfr-voc-003-num-024</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/unknown</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">"Utiliser ce terme pour toute entité dont la contribution ou le rôle est incertain" (Source : Normetic v1.1). Lui préférer "contributeur". Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">inconnu</INTITULE>
+         <ID>unknown</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">inconnu</INTITULE>
+         <ID>scolomfr-voc-003-num-008</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/initiator</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">"Entité à l'origine du processus de développement de la ressource" (Source : Normetic v1.1). Cette valeur peut être utilisée pour des responsables d'appel à projet qui ne peuvent être cités comme éditeur. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">initiateur</INTITULE>
+         <ID>initiator</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">initiateur</INTITULE>
+         <ID>scolomfr-voc-003-num-009</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-019</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Programme permettant la conversion de métadonnées. A ne pas confondre "logiciel de saisie".</NA>
+      <TERME>
+         <INTITULE lang="fr">logiciel de conversion</INTITULE>
+         <ID>scolomfr-voc-003-num-019</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">logiciel de conversion de métadonnées</INTITULE>
+         <ID>scolomfr-voc-003-num-020</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-021</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Programme permettant la saisie manuelle de métadonnées.&#xD;
+A ne pas confondre avec "logiciel de conversion".</NA>
+      <NA lang="fr">Programme permettant la saisie manuelle de métadonnées. A ne pas confondre avec "logiciel de conversion".</NA>
+      <TERME>
+         <INTITULE lang="fr">logiciel de saisie</INTITULE>
+         <ID>scolomfr-voc-003-num-022</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">logiciel de saisie de métadonnées</INTITULE>
+         <ID>scolomfr-voc-003-num-023</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/script_writer</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité responsable de la création du déroulement d'une action ou de la trame pédagogique d'une ressource. On utilisera "auteur" si le rédacteur de scénario est le principal responsable du contenu d'une ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">rédacteur de scénario</INTITULE>
+         <ID>script writer</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">rédacteur de scénario</INTITULE>
+         <ID>scolomfr-voc-003-num-011</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/terminator</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">Entité qui peut refuser la diffusion de la ressource. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">terminateur</INTITULE>
+         <ID>terminator</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">terminateur</INTITULE>
+         <ID>scolomfr-voc-003-num-012</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/validator_2</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">"Entité responsable de confirmer l'intégrité de la ressource" (Source : Normetic v1.1). S'emploie aussi pour d'autres types de valideur comme un valideur juridique. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">valideur</INTITULE>
+         <ID>validator</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">valideur</INTITULE>
+         <ID>scolomfr-voc-003-num-013</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">valideur juridique</INTITULE>
+         <ID>scolomfr-voc-003-num-0131</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/educational_validator</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">"Entité responsable de confirmer l'intégrité pédagogique de la ressource" (Source : Normetic v1.1). Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">valideur pédagogique</INTITULE>
+         <ID>educational validator</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">valideur pédagogique</INTITULE>
+         <ID>scolomfr-voc-003-num-015</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/technical_validator</ID>
+      <DF lang="fr">Rôle (contributeur)</DF>
+      <NA lang="fr">"Entité responsable de confirmer l'intégrité pédagogique de la ressource" (Source : Normetic v1.1). Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">valideur technique</INTITULE>
+         <ID>technical validator</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">valideur technique</INTITULE>
+         <ID>scolomfr-voc-003-num-014</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

@@ -1,0 +1,2074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-018</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'opération École ouverte permet d'accueillir des jeunes qui ne partent pas en vacances dans des collèges et des lycées pendant les vacances scolaires et les mercredis et samedis pendant l'année scolaire. L'école ouverte s'adresse en priorité aux jeunes, dès l'école élémentaire, qui vivent dans des zones socialement défavorisées ou dans des contextes culturels et économiques difficiles. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">dispositif école ouverte</INTITULE>
+<ID>scolomfr-voc-040-num-018</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-008</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif pour aider à l'accueil et à l'insertion des nouveaux arrivants dans le système éducatif français.</NA>
+<TERME>
+<INTITULE lang="fr">accueil des primo-arrivants</INTITULE>
+<ID>scolomfr-voc-040-num-008</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-014</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif proposé à l'école primaire pour découvrir le monde et au collège pour connaître son environnement.</NA>
+<TERME>
+<INTITULE lang="fr">culture scientifique et technologique</INTITULE>
+<ID>scolomfr-voc-040-num-014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">culture scientifique et technique</INTITULE>
+<ID>scolomfr-voc-040-num-015</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">découverte professionnelle</INTITULE>
+<ID>scolomfr-voc-040-num-069</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-017</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">La loi du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées renforce les actions en faveur de la scolarisation des élèves handicapés. [education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">dispositif ECLAIR</INTITULE>
+<ID>scolomfr-voc-040-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ECLAIR</INTITULE>
+<ID>scolomfr-voc-040-num-084</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Écoles, collèges et lycées pour l'ambition, l'innovation et la réussite</INTITULE>
+<ID>scolomfr-voc-040-num-086</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-004</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'accompagnement éducatif complète l'aide personnalisée mise en œuvre à l'école et l'accompagnement personnalisé déployé en classe de 6ème depuis la rentrée scolaire 2011. http://www.education.gouv.fr/cid5677/accompagnement-educatif.html</NA>
+<TERME>
+<INTITULE lang="fr">accompagnement éducatif</INTITULE>
+<ID>scolomfr-voc-040-num-004</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">accompagnement hors temps scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-005</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-006</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Organisé de l'école au lycée.</NA>
+<TERME>
+<INTITULE lang="fr">accompagnement personnalisé</INTITULE>
+<ID>scolomfr-voc-040-num-006</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">accompagnement pendant le temps scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-007</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">liaison lycée - enseignement supérieur</INTITULE>
+<ID>scolomfr-voc-040-num-040</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">liaison inter-degrés</INTITULE>
+<ID>scolomfr-voc-040-num-039</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-042</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif pour l'intégration et l'apprentissage de la langue des signes française dans le système éducatif français.</NA>
+<TERME>
+<INTITULE lang="fr">LSF (langue des signes française)</INTITULE>
+<ID>scolomfr-voc-040-num-042</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">LSF</INTITULE>
+<ID>scolomfr-voc-040-num-096</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">dispositif de scolarisation des élèves handicapés</INTITULE>
+<ID>scolomfr-voc-040-num-016</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-044</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">organisation pédagogique des établissements d'enseignement</INTITULE>
+<ID>scolomfr-voc-040-num-044</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-046</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">partenariat électronique inter-écoles</INTITULE>
+<ID>scolomfr-voc-040-num-046</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">échange pédagogique de classes</INTITULE>
+<ID>scolomfr-voc-040-num-021</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-048</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">pilotage et gestion du système éducatif</INTITULE>
+<ID>scolomfr-voc-040-num-048</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-050</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">pratique sportive</INTITULE>
+<ID>scolomfr-voc-040-num-050</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-052</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">La lutte contre la violence repose sur le respect des règles de vie dans les établissements et prend appui sur des partenariats. L'objectif est de restaurer le respect dû aux personnes, en particulier aux professeurs et aux victimes de violence, et d'aider les personnels en poste dans des établissements ou environnements difficiles. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">prévention et lutte contre la violence</INTITULE>
+<ID>scolomfr-voc-040-num-052</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-054</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">" Les réseaux « ambition réussite » ont été créés par la circulaire n°2006-58 du 30 mars 2006, parue au Bulletin officiel de l'Éducation nationale (BOEN) n°14 du 6 avril 2006, relative aux principes et modalités de la politique de l'éducation prioritaire. L'objectif de résultat est la réussite de tous les élèves tant du point de vue de la certification et de l'acquisition des connaissances et des compétences du socle commun, que de leur devenir à l'issue de la troisième.". [Educationprioritaire.education.Fr]</NA>
+<TERME>
+<INTITULE lang="fr">réseau ambition réussite</INTITULE>
+<ID>scolomfr-voc-040-num-107</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">RAR réseau ambition réussite</INTITULE>
+<ID>scolomfr-voc-040-num-054</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-056</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif faisant appel à des relations extérieures au système éducatif français et à des partenariats.</NA>
+<TERME>
+<INTITULE lang="fr">relations extérieures et partenariats</INTITULE>
+<ID>scolomfr-voc-040-num-056</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-061</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Les travaux personnels encadrés sont une activité obligatoire en classe de première des séries générales. Ils sont évalués au baccalauréat sous forme d'épreuve anticipée obligatoire. Les TPE sont réalisés par groupes d'élèves. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">travaux d'initiative personnelle encadrés</INTITULE>
+<ID>scolomfr-voc-040-num-113</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TIPE (travaux d'initiative personnelle encadrés)</INTITULE>
+<ID>scolomfr-voc-040-num-061</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-059</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositifs de sorties scolaires avec nuitées dont l'objectif est de découvrir et d'aborder la connaissance de l'environnement.</NA>
+<TERME>
+<INTITULE lang="fr">séjour et classe de découvertes</INTITULE>
+<ID>scolomfr-voc-040-num-059</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">classe de neige</INTITULE>
+<ID>scolomfr-voc-040-num-110</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">classe verte</INTITULE>
+<ID>scolomfr-voc-040-num-109</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">classe transplantée</INTITULE>
+<ID>scolomfr-voc-040-num-112</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">classe de mer</INTITULE>
+<ID>scolomfr-voc-040-num-111</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-072</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">section orientale</INTITULE>
+<ID>scolomfr-voc-040-num-072</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-002</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif organisé en classe de quatrième autour d'une pédagogie personnalisée pour aider l'élève en difficulté.</NA>
+<TERME>
+<INTITULE lang="fr">4e aide et soutien</INTITULE>
+<ID>scolomfr-voc-040-num-002</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-016</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">dispositif de scolarisation des élèves handicapés</INTITULE>
+<ID>scolomfr-voc-040-num-016</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">LSF (langue des signes française)</INTITULE>
+<ID>scolomfr-voc-040-num-042</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-036</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Les itinéraires de découverte s'inscrivent dans la continuité des parcours diversifiés et des travaux croisés qui, depuis quelques années, ont installé ou confirmé les pratiques interdisciplinaires au collège. Les itinéraires de découverte visent à généraliser ces pratiques, en les référant explicitement aux programmes des différentes disciplines. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">itinéraire de découverte</INTITULE>
+<ID>scolomfr-voc-040-num-094</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">IDD</INTITULE>
+<ID>scolomfr-voc-040-num-093</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">IDD (itinéraire de découverte)</INTITULE>
+<ID>scolomfr-voc-040-num-036</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-038</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">liaison collège - lycée</INTITULE>
+<ID>scolomfr-voc-040-num-038</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">liaison inter-degrés</INTITULE>
+<ID>scolomfr-voc-040-num-039</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-013</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">CLIS classe d'intégration scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-013</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">classe pour l'inclusion scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-068</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-012</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">CLIN classe d'initiation</INTITULE>
+<ID>scolomfr-voc-040-num-012</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">classe d'initiation pour non-francophone</INTITULE>
+<ID>scolomfr-voc-040-num-067</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">La lutte contre le décrochage scolaire est une priorité nationale absolue et un enjeu dans le cadre de la "Stratégie Europe 2020". Elle articule prévention et remédiation sur un objectif central : faire que chaque jeune puisse construire son avenir professionnel et réussir sa vie en société. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">aide individualisée</INTITULE>
+<ID>scolomfr-voc-040-num-011</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dispositif ECLAIR</INTITULE>
+<ID>scolomfr-voc-040-num-017</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dispositif école ouverte</INTITULE>
+<ID>scolomfr-voc-040-num-018</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs relais</INTITULE>
+<ID>scolomfr-voc-040-num-020</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement renforcé des langues</INTITULE>
+<ID>scolomfr-voc-040-num-032</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">prévention du décrochage scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-051</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">réseau ambition réussite</INTITULE>
+<ID>scolomfr-voc-040-num-107</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-003</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Concept à part entière, presque une discipline, regroupant à la fois du soutien, de l'approfondissement et de l'aide à l'orientation.</NA>
+<TERME>
+<INTITULE lang="fr">accompagnement à l'orientation</INTITULE>
+<ID>scolomfr-voc-040-num-003</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation à l'orientation et au choix</INTITULE>
+<ID>scolomfr-voc-040-num-027</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-009</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Actions éducatives pour une politique d'ouverture et de mobilité européenne et internationale. [http://www.education.gouv.fr/cid49724/menc0913416c.html]</NA>
+<TERME>
+<INTITULE lang="fr">actions internationales</INTITULE>
+<ID>scolomfr-voc-040-num-009</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">dispositif e-Twinning</INTITULE>
+<ID>scolomfr-voc-040-num-080</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme Voltaire</INTITULE>
+<ID>scolomfr-voc-040-num-100</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">e-Twinning</INTITULE>
+<ID>scolomfr-voc-040-num-091</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Leonardo</INTITULE>
+<ID>scolomfr-voc-040-num-095</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme Erasmus</INTITULE>
+<ID>scolomfr-voc-040-num-097</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dispositif Erasmus</INTITULE>
+<ID>scolomfr-voc-040-num-079</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">actions éducatives européennes</INTITULE>
+<ID>scolomfr-voc-040-num-076</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">European Action Scheme for the Mobility of University Students</INTITULE>
+<ID>scolomfr-voc-040-num-092</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dispositif Voltaire</INTITULE>
+<ID>scolomfr-voc-040-num-082</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme e-Twinning</INTITULE>
+<ID>scolomfr-voc-040-num-098</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Erasmus</INTITULE>
+<ID>scolomfr-voc-040-num-089</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">actions européennes et internationales</INTITULE>
+<ID>scolomfr-voc-040-num-066</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme Leonardo</INTITULE>
+<ID>scolomfr-voc-040-num-099</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Voltaire</INTITULE>
+<ID>scolomfr-voc-040-num-101</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dispositif Leonardo</INTITULE>
+<ID>scolomfr-voc-040-num-081</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">3e insertion</INTITULE>
+<ID>scolomfr-voc-040-num-001</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">4e aide et soutien</INTITULE>
+<ID>scolomfr-voc-040-num-002</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">accueil des primo-arrivants</INTITULE>
+<ID>scolomfr-voc-040-num-008</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">CLIS classe d'intégration scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-013</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">CLIN classe d'initiation</INTITULE>
+<ID>scolomfr-voc-040-num-012</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">école régionale d'enseignement adapté</INTITULE>
+<ID>scolomfr-voc-040-num-085</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">section d'enseignement général et professionnel adapté</INTITULE>
+<ID>scolomfr-voc-040-num-108</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">ULIS unité localisée pour l'inclusion scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-063</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-011</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Pour les élèves rencontrant des difficultés ponctuelles ou qui présentent des lacunes plus profondes, l'aide individuelle complète l'enseignement dispensé en classe entière, en demi-groupe et l'accompagnement pédagogique donné en module ; elle facilite une meilleure appropriation des savoirs fondamentaux et l'acquisition de l'autonomie nécessaire à la prise en charge des apprentissages, en redonnant aux élèves confiance en eux. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">aide individualisée</INTITULE>
+<ID>scolomfr-voc-040-num-011</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-047</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Le parcours de découverte des métiers et des formations, généralisé depuis la rentrée 2009, concerne tous les élèves de la classe de cinquième aux classes terminales de lycée d'enseignement général et technologique et de lycée professionnel. Il a pour but de permettre à chaque élève de construire son parcours. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">parcours découverte des métiers et des formations</INTITULE>
+<ID>scolomfr-voc-040-num-104</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PDMF</INTITULE>
+<ID>scolomfr-voc-040-num-105</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">PDMF (parcours découverte des métiers et des formations)</INTITULE>
+<ID>scolomfr-voc-040-num-047</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-045</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif scolaire favorisant le développement des arts et de la culture en classe.</NA>
+<TERME>
+<INTITULE lang="fr">projet artistique et culturel</INTITULE>
+<ID>scolomfr-voc-040-num-102</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PAC (projet artistique et culturel)</INTITULE>
+<ID>scolomfr-voc-040-num-045</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">PAC</INTITULE>
+<ID>scolomfr-voc-040-num-103</ID>
+</TERME_TE>
+<TERME_TA/>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-051</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">La lutte contre le décrochage scolaire constitue un enjeu majeur pour la cohésion sociale et l'équité du système éducatif. La mobilisation de toute la communauté éducative, en lien avec les collectivités locales et les représentants du monde professionnel, devra permettre, à terme, de proposer une solution à chaque jeune en situation de décrochage. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">prévention du décrochage scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-051</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-053</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif créé entre plusieurs établissements du système éducatif français.</NA>
+<TERME>
+<INTITULE lang="fr">projet inter-établissement</INTITULE>
+<ID>scolomfr-voc-040-num-053</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">échange pédagogique de classes</INTITULE>
+<ID>scolomfr-voc-040-num-021</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-055</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif mis en place "pour impulser et centraliser, sous la responsabilité du chef d'établissement, toutes opérations ou activités en lien avec le monde professionnel, les entreprises, et au final favoriser l'insertion professionnelle des élèves. [Académie de Besançon]</NA>
+<TERME>
+<INTITULE lang="fr">relation école-entreprise</INTITULE>
+<ID>scolomfr-voc-040-num-055</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-073</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Parcours de formation spécifiques élaborés avec des pays partenaires et sanctionnés par la délivrance simultanée du baccalauréat général et du diplôme correspondant du pays concerné. Les deux examens sont aménagés dans le cadre d'une concertation avec les autorités éducatives de l'État impliqué. Cette double délivrance ouvre les mêmes droits à ses titulaires dans les deux pays notamment pour l'accès à l'enseignement supérieur. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">section binationale</INTITULE>
+<ID>scolomfr-voc-040-num-073</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-060</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">système d'évaluation</INTITULE>
+<ID>scolomfr-voc-040-num-060</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-058</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Au collège, les sections d'enseignement général et professionnel adapté (SEGPA) accueillent des élèves présentant des difficultés d'apprentissage graves et durables. Ils ne maîtrisent pas toutes les connaissances et compétences attendues à la fin de l'école primaire, en particulier au regard des éléments du socle commun. Les élèves suivent des enseignements adaptés qui leur permettent à la fois d'acquérir les connaissances et les compétences du socle commun, de construire progressivement leur projet de formation et de préparer l'accès à une formation diplômante. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">section d'enseignement général et professionnel adapté</INTITULE>
+<ID>scolomfr-voc-040-num-108</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">SEGPA section d'enseignement général et professionnel adapté</INTITULE>
+<ID>scolomfr-voc-040-num-058</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-071</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Sections internationales : dispositifs implantés dans les écoles, les collèges et les lycées d'enseignement général, visant à faciliter l'insertion d'élèves étrangers dans le système scolaire français et à créer, grâce à leur présence, un cadre propice à l'apprentissage par les élèves français d'une langue vivante étrangère à un haut niveau. Au lycée, les sections internationales préparent à l'option internationale du baccalauréat (OIB). [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">section internationale</INTITULE>
+<ID>scolomfr-voc-040-num-071</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-057</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">section européenne ou internationale</INTITULE>
+<ID>scolomfr-voc-040-num-057</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-070</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">section européenne</INTITULE>
+<ID>scolomfr-voc-040-num-070</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-001</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Classe à effectif réduit réservée aux élèves en grande difficulté scolaire (au moins un an de retard) et/ou en voie de décrochage scolaire.</NA>
+<TERME>
+<INTITULE lang="fr">3e insertion</INTITULE>
+<ID>scolomfr-voc-040-num-001</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-062</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">TPE (travaux personnels encadrés)</INTITULE>
+<ID>scolomfr-voc-040-num-062</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-063</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Changement de dénomination en 2012.</NA>
+<TERME>
+<INTITULE lang="fr">ULIS unité localisée pour l'inclusion scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-063</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">unité pédagogique d'intégration</INTITULE>
+<ID>scolomfr-voc-040-num-074</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">UPI unité pédagogique d'intégration</INTITULE>
+<ID>scolomfr-voc-040-num-064</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-065</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Tout ce qui a trait à la vie de l'établissement et à la vie scolaire.</NA>
+<TERME>
+<INTITULE lang="fr">vie de l'établissement</INTITULE>
+<ID>scolomfr-voc-040-num-115</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">vie scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-065</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dispositif vie scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-116</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-020</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Ces dispositifs permettent un accueil temporaire adapté des collégiens en risque de marginalisation scolaire et ont pour objectif de favoriser la rescolarisation et la resocialisation de ces élèves.</NA>
+<TERME>
+<INTITULE lang="fr">dispositifs relais</INTITULE>
+<ID>scolomfr-voc-040-num-020</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">échange pédagogique de classes</INTITULE>
+<ID>scolomfr-voc-040-num-021</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">partenariat électronique inter-écoles</INTITULE>
+<ID>scolomfr-voc-040-num-046</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">projet inter-établissement</INTITULE>
+<ID>scolomfr-voc-040-num-053</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-023</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Le socle commun de connaissances et de compétences intègre cette mission fondamentale : il s'agit de préparer les élèves à vivre en société et à devenir des citoyens responsables, conscients des principes et des règles qui fondent notre démocratie. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à la citoyenneté - valeurs républicaines</INTITULE>
+<ID>scolomfr-voc-040-num-023</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-024</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'École a une double mission : l'éducation à la santé des élèves et le suivi de leur santé. L'éducation à la santé est intégrée dans les programmes de l'école primaire. Chaque collège et lycée définit un programme d'éducation à la santé et à la citoyenneté : éducation nutritionnelle, éducation à la sexualité, prévention des conduites addictives. Le suivi de santé des élèves est assuré tout au long de la scolarité. Des bilans de santé sont organisés au sein des établissements. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à la santé</INTITULE>
+<ID>scolomfr-voc-040-num-024</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-025</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Le décret n°2006-41 du 11 janvier 2006, codifié dans les articles D. 312-40 à D. 312-42 du code de l'Éducation prévoit dans les établissements d'enseignement publics et privés sous contrat, l'obligation d'assurer :
+une sensibilisation à la prévention des risques ;
+une information sur les missions des services de secours ;
+une formation aux premiers secours ;
+un enseignement des règles générales de sécurité. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à la sécurité</INTITULE>
+<ID>scolomfr-voc-040-num-025</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation à la sécurité routière</INTITULE>
+<ID>scolomfr-voc-040-num-026</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-026</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Enseignement obligatoire depuis 1957, l'apprentissage de la sécurité routière fait l'objet d'un cursus complet. Il fait partie des missions de l'enseignant et doit être mis en œuvre dès la maternelle en s'intégrant aux disciplines enseignées. Cet enseignement peut aussi être inséré, ou servir de point d'ancrage, dans des projets d'école et d'établissement. [MAIF]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à la sécurité routière</INTITULE>
+<ID>scolomfr-voc-040-num-026</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation à la sécurité</INTITULE>
+<ID>scolomfr-voc-040-num-025</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-022</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Permettre aux élèves d'acquérir une culture, avoir une pratique artistique et de découvrir de nouveaux métiers. [Education.gouv]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à l'image, au cinéma et à l'audiovisuel</INTITULE>
+<ID>scolomfr-voc-040-num-022</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation artistique et culturelle</INTITULE>
+<ID>scolomfr-voc-040-num-028</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'éducation à l'orientation fixe un cadre aux différentes interventions des membres de l'équipe éducative en matière d'orientation.
+Pour apprendre à s'orienter, les élèves vont travailler sur trois grands axes :
+la découverte des activités professionnelles et de l'environnement socio-économique
+la connaissance des systèmes de formation
+la réflexion sur soi et le développement de l'autonomie personnelle
+A travers diverses situations pédagogiques, les élèves pourront construire des compétences transversales : utiliser et traiter l'information, travailler en équipe…
+L'éducation à l'orientation est une démarche continue, cohérente, collective et concertée. [Académie de Lyon]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à l'orientation et au choix</INTITULE>
+<ID>scolomfr-voc-040-num-027</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">accompagnement à l'orientation</INTITULE>
+<ID>scolomfr-voc-040-num-003</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'éducation artistique et culturelle s'appuie essentiellement sur les enseignements obligatoires et optionnels, les classes à PAC et les activités facultatives. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">éducation artistique et culturelle</INTITULE>
+<ID>scolomfr-voc-040-num-028</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation à l'image, au cinéma et à l'audiovisuel</INTITULE>
+<ID>scolomfr-voc-040-num-022</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation aux médias et à l'information</INTITULE>
+<ID>scolomfr-voc-040-num-087</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-029</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'éducation au développement et à la solidarité internationale vise à donner aux jeunes des clés de compréhension des déséquilibres mondiaux et à encourager leur réflexion sur les moyens de réduire la pauvreté et les inégalités. Elle participe à l'éducation au développement durable, en contribuant à la compréhension des interdépendances environnementales, économiques, sociales et culturelles à l'échelle mondiale. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">éducation au développement et à la solidarité</INTITULE>
+<ID>scolomfr-voc-040-num-029</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-030</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Permettre aux élèves d'exercer leur citoyenneté dans une société de l'information et de la communication, former des « cybercitoyens » actifs, éclairés et responsables de demain, tel est l'objectif de la relance d'une éducation aux médias et à l'information. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">éducation aux médias et à l'information</INTITULE>
+<ID>scolomfr-voc-040-num-087</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">éducation aux médias</INTITULE>
+<ID>scolomfr-voc-040-num-030</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">EMI</INTITULE>
+<ID>scolomfr-voc-040-num-088</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">EAM</INTITULE>
+<ID>scolomfr-voc-040-num-083</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">éducation artistique et culturelle</INTITULE>
+<ID>scolomfr-voc-040-num-028</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-031</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'enseignement de la défense est un des éléments du parcours de citoyenneté prévu par la loi de 1997 portant réforme du service national. Il prépare les jeunes à une réflexion lucide sur la défense et la sécurité de notre pays, à un exercice responsable de leur future activité économique et sociale, et, s'ils le souhaitent, à une participation directe à la défense. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">enseignement de la défense et de la sécurité nationale</INTITULE>
+<ID>scolomfr-voc-040-num-031</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-032</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif spécifique visant à renforcer l'apprentissage des langues vivantes.</NA>
+<TERME>
+<INTITULE lang="fr">enseignement renforcé des langues</INTITULE>
+<ID>scolomfr-voc-040-num-032</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-033</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Les établissements régionaux d'enseignement adapté (EREA) sont des établissements publics locaux d'enseignement (EPLE). Leur mission est de prendre en charge des adolescents en grande difficulté scolaire et sociale, ou présentant un handicap. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">école régionale d'enseignement adapté</INTITULE>
+<ID>scolomfr-voc-040-num-085</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">EREA</INTITULE>
+<ID>scolomfr-voc-040-num-090</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">EREA école régionale d'enseignement adapté</INTITULE>
+<ID>scolomfr-voc-040-num-033</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-034</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Action éducative autour de la maîtrise de la langue française en lien avec la presse et les médias.</NA>
+<TERME>
+<INTITULE lang="fr">formation à l'information et à la communication</INTITULE>
+<ID>scolomfr-voc-040-num-034</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-035</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">gestion financière et matérielle des établissements</INTITULE>
+<ID>scolomfr-voc-040-num-035</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-037</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'internat d'excellence s'adresse à des collégiens, lycéens et étudiants motivés, ne bénéficiant pas d'un environnement favorable pour réussir leurs études. Il s'agit de mettre à disposition des élèves qui en ont le plus besoin un établissement innovant dans son fonctionnement et son offre pédagogique et éducative. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">internat d'excellence</INTITULE>
+<ID>scolomfr-voc-040-num-037</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif créé pour fluidifier le passage d'un établissement à un autre, de l'école primaire au collège, du collège au lycée, etc.</NA>
+<TERME>
+<INTITULE lang="fr">liaison inter-degrés</INTITULE>
+<ID>scolomfr-voc-040-num-039</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">liaison collège - lycée</INTITULE>
+<ID>scolomfr-voc-040-num-038</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">liaison lycée - enseignement supérieur</INTITULE>
+<ID>scolomfr-voc-040-num-040</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">liaison primaire - collège</INTITULE>
+<ID>scolomfr-voc-040-num-041</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">liaison primaire - collège</INTITULE>
+<ID>scolomfr-voc-040-num-041</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">liaison inter-degrés</INTITULE>
+<ID>scolomfr-voc-040-num-039</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-043</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">mémoire et histoire</INTITULE>
+<ID>scolomfr-voc-040-num-043</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-049</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">projet pluridisciplinaire à caractère professionnel</INTITULE>
+<ID>scolomfr-voc-040-num-106</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PPCP (projet pluridisciplinaire à caractère professionnel)</INTITULE>
+<ID>scolomfr-voc-040-num-049</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-078</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Formation en alternance, sous statut scolaire, pour une durée d'un an maximum partagée entre l'établissement de formation et des stages en milieu professionnel, pour faire découvrir aux élèves un environnement professionnel correspondant à un projet d'entrée en apprentissage. Les élèves doivent être volontaires et âgés d'au moins 15 ans, à la date d'entrée en formation DIMA. La formation peut être assurée dans un centre de formation d'apprentis, dans un lycée professionnel public, ou dans un lycée professionnel privé sous contrat. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">dispositif d'initiation aux métiers de l'alternance</INTITULE>
+<ID>scolomfr-voc-040-num-078</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">DIMA</INTITULE>
+<ID>scolomfr-voc-040-num-077</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-102</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">dispositif de scolarisation des élèves à besoins éducatifs particuliers</INTITULE>
+<ID>scolomfr-voc-040-num-117</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-119</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un stage ; le stage est pour l'apprenant un temps d'information et de formation visant à découvrir le milieu professionnel et un moyen concret d'approfondir et de mettre en pratique des compétences techniques et professionnelles hors les murs de l'établissement de formation.</NA>
+<TERME>
+<INTITULE lang="fr">stage</INTITULE>
+<ID>scolomfr-voc-040-num-119</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en stage</INTITULE>
+<ID>scolomfr-voc-040-num-123</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-120</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">PFMP (période de formation en milieu professionnel)</INTITULE>
+<ID>scolomfr-voc-040-num-128</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PFE (période de formation en entreprise)</INTITULE>
+<ID>scolomfr-voc-040-num-124</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">période de formation en milieu professionnel</INTITULE>
+<ID>scolomfr-voc-040-num-125</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">période de formation en entreprise</INTITULE>
+<ID>scolomfr-voc-040-num-126</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-122</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un séjour pédagogique. Le séjour pédagogique se distingue de la sortie pédagogique par sa durée (plus d'une journée) et sous-entend un déplacement des apprenants vers le lieu du séjour ainsi qu'un hébergement pour chacun d'entre eux.</NA>
+<TERME>
+<INTITULE lang="fr">séjour pédagogique</INTITULE>
+<ID>scolomfr-voc-040-num-127</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-078</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Formation en alternance, sous statut scolaire, pour une durée d'un an maximum partagée entre l'établissement de formation et des stages en milieu professionnel, pour faire découvrir aux élèves un environnement professionnel correspondant à un projet d'entrée en apprentissage. Les élèves doivent être volontaires et âgés d'au moins 15 ans, à la date d'entrée en formation DIMA. La formation peut être assurée dans un centre de formation d'apprentis, dans un lycée professionnel public, ou dans un lycée professionnel privé sous contrat. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">dispositif d'initiation aux métiers de l'alternance</INTITULE>
+<ID>scolomfr-voc-040-num-078</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">DIMA</INTITULE>
+<ID>scolomfr-voc-040-num-077</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-073</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Parcours de formation spécifiques élaborés avec des pays partenaires et sanctionnés par la délivrance simultanée du baccalauréat général et du diplôme correspondant du pays concerné. Les deux examens sont aménagés dans le cadre d'une concertation avec les autorités éducatives de l'État impliqué. Cette double délivrance ouvre les mêmes droits à ses titulaires dans les deux pays notamment pour l'accès à l'enseignement supérieur. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">section binationale</INTITULE>
+<ID>scolomfr-voc-040-num-073</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-054</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">" Les réseaux « ambition réussite » ont été créés par la circulaire n°2006-58 du 30 mars 2006, parue au Bulletin officiel de l'Éducation nationale (BOEN) n°14 du 6 avril 2006, relative aux principes et modalités de la politique de l'éducation prioritaire. L'objectif de résultat est la réussite de tous les élèves tant du point de vue de la certification et de l'acquisition des connaissances et des compétences du socle commun, que de leur devenir à l'issue de la troisième.". [Educationprioritaire.education.Fr]</NA>
+<TERME>
+<INTITULE lang="fr">réseau ambition réussite</INTITULE>
+<ID>scolomfr-voc-040-num-107</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">RAR réseau ambition réussite</INTITULE>
+<ID>scolomfr-voc-040-num-054</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-003</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Concept à part entière, presque une discipline, regroupant à la fois du soutien, de l'approfondissement et de l'aide à l'orientation.</NA>
+<TERME>
+<INTITULE lang="fr">accompagnement à l'orientation</INTITULE>
+<ID>scolomfr-voc-040-num-003</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation à l'orientation et au choix</INTITULE>
+<ID>scolomfr-voc-040-num-027</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-004</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'accompagnement éducatif complète l'aide personnalisée mise en œuvre à l'école et l'accompagnement personnalisé déployé en classe de 6ème depuis la rentrée scolaire 2011. http://www.education.gouv.fr/cid5677/accompagnement-educatif.html</NA>
+<TERME>
+<INTITULE lang="fr">accompagnement éducatif</INTITULE>
+<ID>scolomfr-voc-040-num-004</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">accompagnement hors temps scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-005</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-006</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Organisé de l'école au lycée.</NA>
+<TERME>
+<INTITULE lang="fr">accompagnement personnalisé</INTITULE>
+<ID>scolomfr-voc-040-num-006</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">accompagnement pendant le temps scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-007</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-008</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif pour aider à l'accueil et à l'insertion des nouveaux arrivants dans le système éducatif français.</NA>
+<TERME>
+<INTITULE lang="fr">accueil des primo-arrivants</INTITULE>
+<ID>scolomfr-voc-040-num-008</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-009</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Actions éducatives pour une politique d'ouverture et de mobilité européenne et internationale. [http://www.education.gouv.fr/cid49724/menc0913416c.html]</NA>
+<TERME>
+<INTITULE lang="fr">actions internationales</INTITULE>
+<ID>scolomfr-voc-040-num-009</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">dispositif e-Twinning</INTITULE>
+<ID>scolomfr-voc-040-num-080</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme Voltaire</INTITULE>
+<ID>scolomfr-voc-040-num-100</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">e-Twinning</INTITULE>
+<ID>scolomfr-voc-040-num-091</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Leonardo</INTITULE>
+<ID>scolomfr-voc-040-num-095</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme Erasmus</INTITULE>
+<ID>scolomfr-voc-040-num-097</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dispositif Erasmus</INTITULE>
+<ID>scolomfr-voc-040-num-079</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">actions éducatives européennes</INTITULE>
+<ID>scolomfr-voc-040-num-076</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">European Action Scheme for the Mobility of University Students</INTITULE>
+<ID>scolomfr-voc-040-num-092</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dispositif Voltaire</INTITULE>
+<ID>scolomfr-voc-040-num-082</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme e-Twinning</INTITULE>
+<ID>scolomfr-voc-040-num-098</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Erasmus</INTITULE>
+<ID>scolomfr-voc-040-num-089</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">actions européennes et internationales</INTITULE>
+<ID>scolomfr-voc-040-num-066</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">programme Leonardo</INTITULE>
+<ID>scolomfr-voc-040-num-099</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Voltaire</INTITULE>
+<ID>scolomfr-voc-040-num-101</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dispositif Leonardo</INTITULE>
+<ID>scolomfr-voc-040-num-081</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">3e insertion</INTITULE>
+<ID>scolomfr-voc-040-num-001</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">4e aide et soutien</INTITULE>
+<ID>scolomfr-voc-040-num-002</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">accueil des primo-arrivants</INTITULE>
+<ID>scolomfr-voc-040-num-008</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">CLIS classe d'intégration scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-013</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">CLIN classe d'initiation</INTITULE>
+<ID>scolomfr-voc-040-num-012</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">école régionale d'enseignement adapté</INTITULE>
+<ID>scolomfr-voc-040-num-085</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">section d'enseignement général et professionnel adapté</INTITULE>
+<ID>scolomfr-voc-040-num-108</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">ULIS unité localisée pour l'inclusion scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-063</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-011</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Pour les élèves rencontrant des difficultés ponctuelles ou qui présentent des lacunes plus profondes, l'aide individuelle complète l'enseignement dispensé en classe entière, en demi-groupe et l'accompagnement pédagogique donné en module ; elle facilite une meilleure appropriation des savoirs fondamentaux et l'acquisition de l'autonomie nécessaire à la prise en charge des apprentissages, en redonnant aux élèves confiance en eux. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">aide individualisée</INTITULE>
+<ID>scolomfr-voc-040-num-011</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-012</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">CLIN classe d'initiation</INTITULE>
+<ID>scolomfr-voc-040-num-012</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">classe d'initiation pour non-francophone</INTITULE>
+<ID>scolomfr-voc-040-num-067</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-013</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">CLIS classe d'intégration scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-013</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">classe pour l'inclusion scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-068</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-014</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif proposé à l'école primaire pour découvrir le monde et au collège pour connaître son environnement.</NA>
+<TERME>
+<INTITULE lang="fr">culture scientifique et technologique</INTITULE>
+<ID>scolomfr-voc-040-num-014</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">culture scientifique et technique</INTITULE>
+<ID>scolomfr-voc-040-num-015</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">découverte professionnelle</INTITULE>
+<ID>scolomfr-voc-040-num-069</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-016</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">dispositif de scolarisation des élèves handicapés</INTITULE>
+<ID>scolomfr-voc-040-num-016</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">LSF (langue des signes française)</INTITULE>
+<ID>scolomfr-voc-040-num-042</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-017</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">La loi du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées renforce les actions en faveur de la scolarisation des élèves handicapés. [education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">dispositif ECLAIR</INTITULE>
+<ID>scolomfr-voc-040-num-017</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">ECLAIR</INTITULE>
+<ID>scolomfr-voc-040-num-084</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">Écoles, collèges et lycées pour l'ambition, l'innovation et la réussite</INTITULE>
+<ID>scolomfr-voc-040-num-086</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-018</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'opération École ouverte permet d'accueillir des jeunes qui ne partent pas en vacances dans des collèges et des lycées pendant les vacances scolaires et les mercredis et samedis pendant l'année scolaire. L'école ouverte s'adresse en priorité aux jeunes, dès l'école élémentaire, qui vivent dans des zones socialement défavorisées ou dans des contextes culturels et économiques difficiles. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">dispositif école ouverte</INTITULE>
+<ID>scolomfr-voc-040-num-018</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-019</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">La lutte contre le décrochage scolaire est une priorité nationale absolue et un enjeu dans le cadre de la "Stratégie Europe 2020". Elle articule prévention et remédiation sur un objectif central : faire que chaque jeune puisse construire son avenir professionnel et réussir sa vie en société. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">aide individualisée</INTITULE>
+<ID>scolomfr-voc-040-num-011</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dispositif ECLAIR</INTITULE>
+<ID>scolomfr-voc-040-num-017</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dispositif école ouverte</INTITULE>
+<ID>scolomfr-voc-040-num-018</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs relais</INTITULE>
+<ID>scolomfr-voc-040-num-020</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">enseignement renforcé des langues</INTITULE>
+<ID>scolomfr-voc-040-num-032</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">prévention du décrochage scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-051</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">réseau ambition réussite</INTITULE>
+<ID>scolomfr-voc-040-num-107</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-020</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Ces dispositifs permettent un accueil temporaire adapté des collégiens en risque de marginalisation scolaire et ont pour objectif de favoriser la rescolarisation et la resocialisation de ces élèves.</NA>
+<TERME>
+<INTITULE lang="fr">dispositifs relais</INTITULE>
+<ID>scolomfr-voc-040-num-020</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-021</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">échange pédagogique de classes</INTITULE>
+<ID>scolomfr-voc-040-num-021</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">partenariat électronique inter-écoles</INTITULE>
+<ID>scolomfr-voc-040-num-046</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">projet inter-établissement</INTITULE>
+<ID>scolomfr-voc-040-num-053</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-022</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Permettre aux élèves d'acquérir une culture, avoir une pratique artistique et de découvrir de nouveaux métiers. [Education.gouv]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à l'image, au cinéma et à l'audiovisuel</INTITULE>
+<ID>scolomfr-voc-040-num-022</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation artistique et culturelle</INTITULE>
+<ID>scolomfr-voc-040-num-028</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-023</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Le socle commun de connaissances et de compétences intègre cette mission fondamentale : il s'agit de préparer les élèves à vivre en société et à devenir des citoyens responsables, conscients des principes et des règles qui fondent notre démocratie. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à la citoyenneté - valeurs républicaines</INTITULE>
+<ID>scolomfr-voc-040-num-023</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-024</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'École a une double mission : l'éducation à la santé des élèves et le suivi de leur santé. L'éducation à la santé est intégrée dans les programmes de l'école primaire. Chaque collège et lycée définit un programme d'éducation à la santé et à la citoyenneté : éducation nutritionnelle, éducation à la sexualité, prévention des conduites addictives. Le suivi de santé des élèves est assuré tout au long de la scolarité. Des bilans de santé sont organisés au sein des établissements. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à la santé</INTITULE>
+<ID>scolomfr-voc-040-num-024</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-025</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Le décret n°2006-41 du 11 janvier 2006, codifié dans les articles D. 312-40 à D. 312-42 du code de l'Éducation prévoit dans les établissements d'enseignement publics et privés sous contrat, l'obligation d'assurer :
+une sensibilisation à la prévention des risques ;
+une information sur les missions des services de secours ;
+une formation aux premiers secours ;
+un enseignement des règles générales de sécurité. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à la sécurité</INTITULE>
+<ID>scolomfr-voc-040-num-025</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation à la sécurité routière</INTITULE>
+<ID>scolomfr-voc-040-num-026</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-026</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Enseignement obligatoire depuis 1957, l'apprentissage de la sécurité routière fait l'objet d'un cursus complet. Il fait partie des missions de l'enseignant et doit être mis en œuvre dès la maternelle en s'intégrant aux disciplines enseignées. Cet enseignement peut aussi être inséré, ou servir de point d'ancrage, dans des projets d'école et d'établissement. [MAIF]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à la sécurité routière</INTITULE>
+<ID>scolomfr-voc-040-num-026</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation à la sécurité</INTITULE>
+<ID>scolomfr-voc-040-num-025</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-027</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'éducation à l'orientation fixe un cadre aux différentes interventions des membres de l'équipe éducative en matière d'orientation.
+Pour apprendre à s'orienter, les élèves vont travailler sur trois grands axes :
+la découverte des activités professionnelles et de l'environnement socio-économique
+la connaissance des systèmes de formation
+la réflexion sur soi et le développement de l'autonomie personnelle
+A travers diverses situations pédagogiques, les élèves pourront construire des compétences transversales : utiliser et traiter l'information, travailler en équipe…
+L'éducation à l'orientation est une démarche continue, cohérente, collective et concertée. [Académie de Lyon]</NA>
+<TERME>
+<INTITULE lang="fr">éducation à l'orientation et au choix</INTITULE>
+<ID>scolomfr-voc-040-num-027</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">accompagnement à l'orientation</INTITULE>
+<ID>scolomfr-voc-040-num-003</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-028</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'éducation artistique et culturelle s'appuie essentiellement sur les enseignements obligatoires et optionnels, les classes à PAC et les activités facultatives. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">éducation artistique et culturelle</INTITULE>
+<ID>scolomfr-voc-040-num-028</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">éducation à l'image, au cinéma et à l'audiovisuel</INTITULE>
+<ID>scolomfr-voc-040-num-022</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">éducation aux médias et à l'information</INTITULE>
+<ID>scolomfr-voc-040-num-087</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-029</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'éducation au développement et à la solidarité internationale vise à donner aux jeunes des clés de compréhension des déséquilibres mondiaux et à encourager leur réflexion sur les moyens de réduire la pauvreté et les inégalités. Elle participe à l'éducation au développement durable, en contribuant à la compréhension des interdépendances environnementales, économiques, sociales et culturelles à l'échelle mondiale. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">éducation au développement et à la solidarité</INTITULE>
+<ID>scolomfr-voc-040-num-029</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-030</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Permettre aux élèves d'exercer leur citoyenneté dans une société de l'information et de la communication, former des « cybercitoyens » actifs, éclairés et responsables de demain, tel est l'objectif de la relance d'une éducation aux médias et à l'information. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">éducation aux médias et à l'information</INTITULE>
+<ID>scolomfr-voc-040-num-087</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">éducation aux médias</INTITULE>
+<ID>scolomfr-voc-040-num-030</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">EMI</INTITULE>
+<ID>scolomfr-voc-040-num-088</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">EAM</INTITULE>
+<ID>scolomfr-voc-040-num-083</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">éducation artistique et culturelle</INTITULE>
+<ID>scolomfr-voc-040-num-028</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-031</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'enseignement de la défense est un des éléments du parcours de citoyenneté prévu par la loi de 1997 portant réforme du service national. Il prépare les jeunes à une réflexion lucide sur la défense et la sécurité de notre pays, à un exercice responsable de leur future activité économique et sociale, et, s'ils le souhaitent, à une participation directe à la défense. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">enseignement de la défense et de la sécurité nationale</INTITULE>
+<ID>scolomfr-voc-040-num-031</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-032</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif spécifique visant à renforcer l'apprentissage des langues vivantes.</NA>
+<TERME>
+<INTITULE lang="fr">enseignement renforcé des langues</INTITULE>
+<ID>scolomfr-voc-040-num-032</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-033</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Les établissements régionaux d'enseignement adapté (EREA) sont des établissements publics locaux d'enseignement (EPLE). Leur mission est de prendre en charge des adolescents en grande difficulté scolaire et sociale, ou présentant un handicap. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">école régionale d'enseignement adapté</INTITULE>
+<ID>scolomfr-voc-040-num-085</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">EREA</INTITULE>
+<ID>scolomfr-voc-040-num-090</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">EREA école régionale d'enseignement adapté</INTITULE>
+<ID>scolomfr-voc-040-num-033</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-034</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Action éducative autour de la maîtrise de la langue française en lien avec la presse et les médias.</NA>
+<TERME>
+<INTITULE lang="fr">formation à l'information et à la communication</INTITULE>
+<ID>scolomfr-voc-040-num-034</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-035</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">gestion financière et matérielle des établissements</INTITULE>
+<ID>scolomfr-voc-040-num-035</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-001</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Classe à effectif réduit réservée aux élèves en grande difficulté scolaire (au moins un an de retard) et/ou en voie de décrochage scolaire.</NA>
+<TERME>
+<INTITULE lang="fr">3e insertion</INTITULE>
+<ID>scolomfr-voc-040-num-001</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-002</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif organisé en classe de quatrième autour d'une pédagogie personnalisée pour aider l'élève en difficulté.</NA>
+<TERME>
+<INTITULE lang="fr">4e aide et soutien</INTITULE>
+<ID>scolomfr-voc-040-num-002</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-036</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Les itinéraires de découverte s'inscrivent dans la continuité des parcours diversifiés et des travaux croisés qui, depuis quelques années, ont installé ou confirmé les pratiques interdisciplinaires au collège. Les itinéraires de découverte visent à généraliser ces pratiques, en les référant explicitement aux programmes des différentes disciplines. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">itinéraire de découverte</INTITULE>
+<ID>scolomfr-voc-040-num-094</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">IDD</INTITULE>
+<ID>scolomfr-voc-040-num-093</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">IDD (itinéraire de découverte)</INTITULE>
+<ID>scolomfr-voc-040-num-036</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-037</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">L'internat d'excellence s'adresse à des collégiens, lycéens et étudiants motivés, ne bénéficiant pas d'un environnement favorable pour réussir leurs études. Il s'agit de mettre à disposition des élèves qui en ont le plus besoin un établissement innovant dans son fonctionnement et son offre pédagogique et éducative. [Education.gouv.fr]</NA>
+<TERME>
+<INTITULE lang="fr">internat d'excellence</INTITULE>
+<ID>scolomfr-voc-040-num-037</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-038</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">liaison collège - lycée</INTITULE>
+<ID>scolomfr-voc-040-num-038</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">liaison inter-degrés</INTITULE>
+<ID>scolomfr-voc-040-num-039</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-039</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif créé pour fluidifier le passage d'un établissement à un autre, de l'école primaire au collège, du collège au lycée, etc.</NA>
+<TERME>
+<INTITULE lang="fr">liaison inter-degrés</INTITULE>
+<ID>scolomfr-voc-040-num-039</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">liaison collège - lycée</INTITULE>
+<ID>scolomfr-voc-040-num-038</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">liaison lycée - enseignement supérieur</INTITULE>
+<ID>scolomfr-voc-040-num-040</ID>
+</TERME_TA>
+<TERME_TA>
+<INTITULE lang="fr">liaison primaire - collège</INTITULE>
+<ID>scolomfr-voc-040-num-041</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">liaison lycée - enseignement supérieur</INTITULE>
+<ID>scolomfr-voc-040-num-040</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">liaison inter-degrés</INTITULE>
+<ID>scolomfr-voc-040-num-039</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">liaison primaire - collège</INTITULE>
+<ID>scolomfr-voc-040-num-041</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">liaison inter-degrés</INTITULE>
+<ID>scolomfr-voc-040-num-039</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-042</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif pour l'intégration et l'apprentissage de la langue des signes française dans le système éducatif français.</NA>
+<TERME>
+<INTITULE lang="fr">LSF (langue des signes française)</INTITULE>
+<ID>scolomfr-voc-040-num-042</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">LSF</INTITULE>
+<ID>scolomfr-voc-040-num-096</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">dispositif de scolarisation des élèves handicapés</INTITULE>
+<ID>scolomfr-voc-040-num-016</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-043</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">mémoire et histoire</INTITULE>
+<ID>scolomfr-voc-040-num-043</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-044</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">organisation pédagogique des établissements d'enseignement</INTITULE>
+<ID>scolomfr-voc-040-num-044</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-045</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif scolaire favorisant le développement des arts et de la culture en classe.</NA>
+<TERME>
+<INTITULE lang="fr">projet artistique et culturel</INTITULE>
+<ID>scolomfr-voc-040-num-102</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PAC (projet artistique et culturel)</INTITULE>
+<ID>scolomfr-voc-040-num-045</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">PAC</INTITULE>
+<ID>scolomfr-voc-040-num-103</ID>
+</TERME_TE>
+<TERME_TA/>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-046</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">partenariat électronique inter-écoles</INTITULE>
+<ID>scolomfr-voc-040-num-046</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">échange pédagogique de classes</INTITULE>
+<ID>scolomfr-voc-040-num-021</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-047</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Le parcours de découverte des métiers et des formations, généralisé depuis la rentrée 2009, concerne tous les élèves de la classe de cinquième aux classes terminales de lycée d'enseignement général et technologique et de lycée professionnel. Il a pour but de permettre à chaque élève de construire son parcours. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">parcours découverte des métiers et des formations</INTITULE>
+<ID>scolomfr-voc-040-num-104</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PDMF</INTITULE>
+<ID>scolomfr-voc-040-num-105</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">PDMF (parcours découverte des métiers et des formations)</INTITULE>
+<ID>scolomfr-voc-040-num-047</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-048</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">pilotage et gestion du système éducatif</INTITULE>
+<ID>scolomfr-voc-040-num-048</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-049</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">projet pluridisciplinaire à caractère professionnel</INTITULE>
+<ID>scolomfr-voc-040-num-106</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PPCP (projet pluridisciplinaire à caractère professionnel)</INTITULE>
+<ID>scolomfr-voc-040-num-049</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-050</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">pratique sportive</INTITULE>
+<ID>scolomfr-voc-040-num-050</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-051</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">La lutte contre le décrochage scolaire constitue un enjeu majeur pour la cohésion sociale et l'équité du système éducatif. La mobilisation de toute la communauté éducative, en lien avec les collectivités locales et les représentants du monde professionnel, devra permettre, à terme, de proposer une solution à chaque jeune en situation de décrochage. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">prévention du décrochage scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-051</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">dispositifs de soutien et de remédiation scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-019</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-052</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">La lutte contre la violence repose sur le respect des règles de vie dans les établissements et prend appui sur des partenariats. L'objectif est de restaurer le respect dû aux personnes, en particulier aux professeurs et aux victimes de violence, et d'aider les personnels en poste dans des établissements ou environnements difficiles. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">prévention et lutte contre la violence</INTITULE>
+<ID>scolomfr-voc-040-num-052</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-053</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif créé entre plusieurs établissements du système éducatif français.</NA>
+<TERME>
+<INTITULE lang="fr">projet inter-établissement</INTITULE>
+<ID>scolomfr-voc-040-num-053</ID>
+</TERME>
+<TERME_TA>
+<INTITULE lang="fr">échange pédagogique de classes</INTITULE>
+<ID>scolomfr-voc-040-num-021</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-055</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif mis en place "pour impulser et centraliser, sous la responsabilité du chef d'établissement, toutes opérations ou activités en lien avec le monde professionnel, les entreprises, et au final favoriser l'insertion professionnelle des élèves. [Académie de Besançon]</NA>
+<TERME>
+<INTITULE lang="fr">relation école-entreprise</INTITULE>
+<ID>scolomfr-voc-040-num-055</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-056</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositif faisant appel à des relations extérieures au système éducatif français et à des partenariats.</NA>
+<TERME>
+<INTITULE lang="fr">relations extérieures et partenariats</INTITULE>
+<ID>scolomfr-voc-040-num-056</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-057</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">section européenne ou internationale</INTITULE>
+<ID>scolomfr-voc-040-num-057</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-058</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Au collège, les sections d'enseignement général et professionnel adapté (SEGPA) accueillent des élèves présentant des difficultés d'apprentissage graves et durables. Ils ne maîtrisent pas toutes les connaissances et compétences attendues à la fin de l'école primaire, en particulier au regard des éléments du socle commun. Les élèves suivent des enseignements adaptés qui leur permettent à la fois d'acquérir les connaissances et les compétences du socle commun, de construire progressivement leur projet de formation et de préparer l'accès à une formation diplômante. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">section d'enseignement général et professionnel adapté</INTITULE>
+<ID>scolomfr-voc-040-num-108</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">SEGPA section d'enseignement général et professionnel adapté</INTITULE>
+<ID>scolomfr-voc-040-num-058</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-059</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Dispositifs de sorties scolaires avec nuitées dont l'objectif est de découvrir et d'aborder la connaissance de l'environnement.</NA>
+<TERME>
+<INTITULE lang="fr">séjour et classe de découvertes</INTITULE>
+<ID>scolomfr-voc-040-num-059</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">classe de neige</INTITULE>
+<ID>scolomfr-voc-040-num-110</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">classe verte</INTITULE>
+<ID>scolomfr-voc-040-num-109</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">classe transplantée</INTITULE>
+<ID>scolomfr-voc-040-num-112</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">classe de mer</INTITULE>
+<ID>scolomfr-voc-040-num-111</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-060</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">système d'évaluation</INTITULE>
+<ID>scolomfr-voc-040-num-060</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-061</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Les travaux personnels encadrés sont une activité obligatoire en classe de première des séries générales. Ils sont évalués au baccalauréat sous forme d'épreuve anticipée obligatoire. Les TPE sont réalisés par groupes d'élèves. [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">travaux d'initiative personnelle encadrés</INTITULE>
+<ID>scolomfr-voc-040-num-113</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">TIPE (travaux d'initiative personnelle encadrés)</INTITULE>
+<ID>scolomfr-voc-040-num-061</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-062</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">TPE (travaux personnels encadrés)</INTITULE>
+<ID>scolomfr-voc-040-num-062</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-063</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Changement de dénomination en 2012.</NA>
+<TERME>
+<INTITULE lang="fr">ULIS unité localisée pour l'inclusion scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-063</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">unité pédagogique d'intégration</INTITULE>
+<ID>scolomfr-voc-040-num-074</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">UPI unité pédagogique d'intégration</INTITULE>
+<ID>scolomfr-voc-040-num-064</ID>
+</TERME_TE>
+<TERME_TA>
+<INTITULE lang="fr">adaptation scolaire et scolarisation des élèves à besoins spécifiques</INTITULE>
+<ID>scolomfr-voc-040-num-010</ID>
+</TERME_TA>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-065</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Tout ce qui a trait à la vie de l'établissement et à la vie scolaire.</NA>
+<TERME>
+<INTITULE lang="fr">vie de l'établissement</INTITULE>
+<ID>scolomfr-voc-040-num-115</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">vie scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-065</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">dispositif vie scolaire</INTITULE>
+<ID>scolomfr-voc-040-num-116</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-070</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">section européenne</INTITULE>
+<ID>scolomfr-voc-040-num-070</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-071</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">Sections internationales : dispositifs implantés dans les écoles, les collèges et les lycées d'enseignement général, visant à faciliter l'insertion d'élèves étrangers dans le système scolaire français et à créer, grâce à leur présence, un cadre propice à l'apprentissage par les élèves français d'une langue vivante étrangère à un haut niveau. Au lycée, les sections internationales préparent à l'option internationale du baccalauréat (OIB). [Eduscol]</NA>
+<TERME>
+<INTITULE lang="fr">section internationale</INTITULE>
+<ID>scolomfr-voc-040-num-071</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-072</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">section orientale</INTITULE>
+<ID>scolomfr-voc-040-num-072</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-102</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">dispositif de scolarisation des élèves à besoins éducatifs particuliers</INTITULE>
+<ID>scolomfr-voc-040-num-117</ID>
+</TERME>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-119</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un stage ; le stage est pour l'apprenant un temps d'information et de formation visant à découvrir le milieu professionnel et un moyen concret d'approfondir et de mettre en pratique des compétences techniques et professionnelles hors les murs de l'établissement de formation.</NA>
+<TERME>
+<INTITULE lang="fr">stage</INTITULE>
+<ID>scolomfr-voc-040-num-119</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">en stage</INTITULE>
+<ID>scolomfr-voc-040-num-123</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-120</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<TERME>
+<INTITULE lang="fr">PFMP (période de formation en milieu professionnel)</INTITULE>
+<ID>scolomfr-voc-040-num-128</ID>
+</TERME>
+<TERME_TE>
+<INTITULE lang="fr">PFE (période de formation en entreprise)</INTITULE>
+<ID>scolomfr-voc-040-num-124</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">période de formation en milieu professionnel</INTITULE>
+<ID>scolomfr-voc-040-num-125</ID>
+</TERME_TE>
+<TERME_TE>
+<INTITULE lang="fr">période de formation en entreprise</INTITULE>
+<ID>scolomfr-voc-040-num-126</ID>
+</TERME_TE>
+</CONCEPT>
+<CONCEPT>
+<ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-122</ID>
+<DF lang="fr">Cadre pédagogique</DF>
+<NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un séjour pédagogique. Le séjour pédagogique se distingue de la sortie pédagogique par sa durée (plus d'une journée) et sous-entend un déplacement des apprenants vers le lieu du séjour ainsi qu'un hébergement pour chacun d'entre eux.</NA>
+<TERME>
+<INTITULE lang="fr">séjour pédagogique</INTITULE>
+<ID>scolomfr-voc-040-num-127</ID>
+</TERME>
+</CONCEPT>
+</NOMENCLATURE>
