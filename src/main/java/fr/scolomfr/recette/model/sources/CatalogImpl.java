@@ -47,7 +47,7 @@ import fr.scolomfr.recette.utils.log.Log;
  */
 @Component
 public class CatalogImpl implements Catalog {
-	private static final String VOCABULARIES_DIRECTORY = "/scolomfr";
+	public static final String VOCABULARIES_DIRECTORY = "/scolomfr";
 	private static final String MANIFEST_FILE_NAME = "manifest.yml";
 
 	@Log
