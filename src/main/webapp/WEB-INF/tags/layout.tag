@@ -11,10 +11,8 @@
 <spring:url
 	value="${baseResourcesPath}/vendor/metisMenu/metisMenu.min.css"
 	var="metisMenuCss" />
-<spring:url value="${baseResourcesPath}/dist/css/sb-admin-2.css"
+<spring:url value="${baseResourcesPath}/dist/css/sb-admin-2.min.css"
 	var="sbAdmin2Css" />
-<spring:url value="${baseResourcesPath}/vendor/morrisjs/morris.css"
-	var="morrisCss" />
 <spring:url
 	value="${baseResourcesPath}/vendor/font-awesome/css/font-awesome.min.css"
 	var="fontAwesomeCss" />
@@ -31,12 +29,6 @@
 	var="bootstrapJs" />
 <spring:url value="${baseResourcesPath}/vendor/metisMenu/metisMenu.js"
 	var="metisMenuJs" />
-<spring:url value="${baseResourcesPath}/vendor/raphael/raphael.min.js"
-	var="raphaelJs" />
-<spring:url value="${baseResourcesPath}/vendor/morrisjs/morris.min.js"
-	var="morrisJs" />
-<spring:url value="${baseResourcesPath}/data/morris-data.js"
-	var="morrisDataJs" />
 <spring:url
 	value="${baseResourcesPath}/vendor/datatables/js/jquery.dataTables.min.js"
 	var="jqueryDatatablesJs" />
@@ -130,7 +122,7 @@
 
 			<div class="navbar-default sidebar" role="navigation">
 				<div class="sidebar-nav navbar-collapse">
-					<ul class="nav" id="side-menu">
+					<ul class="nav hidden" id="side-menu">
 						<li class="sidebar-search">
 							<div class="input-group custom-search-form">
 								<input type="text" class="form-control"
@@ -167,10 +159,6 @@
 	<!-- Metis Menu Plugin JavaScript -->
 	<script src="${metisMenuJs}"></script>
 
-	<!-- Morris Charts JavaScript -->
-	<script src="${raphaelJs}"></script>
-	<script src="${morrisJs}"></script>
-	<script src="${morrisDataJs}"></script>
 	<!-- Datatable -->
 	<script src="${jqueryDatatablesJs}"></script>
 	<script src="${bootstrapDatatablesJs}"></script>
