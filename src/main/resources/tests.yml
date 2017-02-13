@@ -1,0 +1,30 @@
+structure:
+  coherence_interne:
+    label: Cohérence interne des vocabulaires
+    index: 1
+    folders:
+      absence_doublons_concepts:
+        label: Absence de doublons de concepts
+        index: 1.2
+        tests:
+          skos:
+            label: SKOS
+            index: 1.2.1
+      libelles_identiques:
+        label: Absence de libellés identiques sur deux concepts différents
+        index: 1.4
+        tests:
+          skos:
+            label: SKOS
+            index: 1.4.1
+  validite_technique:
+    label: Validité technique
+    index: 2
+    folders:
+      libelles_identiques:
+        label: Jeux de caractères autorisés des libellés
+        index: 2.1
+        tests:
+          skos:
+            label: SKOS
+            index: 2.1.1

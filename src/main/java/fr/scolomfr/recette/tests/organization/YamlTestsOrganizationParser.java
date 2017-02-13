@@ -2,7 +2,7 @@
  * 
  * Scolomfr Recette
  * 
- * Copyright (C) 2017  MENESR (DNE)
+ * Copyright (C) 2017  MENESR (DNE), J.Dornbusch
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,40 +18,35 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.sources;
+package fr.scolomfr.recette.tests.organization;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.LinkedList;
+import java.util.HashMap;
 
 import org.springframework.stereotype.Component;
 import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 
-/**
- * Converts manifest file from yaml format to inner memory representation
- */
 @Component
-public class YamlManifestParser implements ManifestParser {
+public class YamlTestsOrganizationParser implements TestsOrganizationParser {
 
-	private Manifest manifest;
+	private TestsOrganization testsOrganization;
 
 	@Override
-	public Manifest getManifest() {
-		return manifest;
+	public TestsOrganization getTestOrganization() {
+		return testsOrganization;
 	}
 
 	@Override
-	public ManifestParser load(InputStream manifestFile) throws IOException {
-		Constructor constructor = new Constructor(Manifest.class);// Car.class
-																	// is root
-		TypeDescription manifestDescription = new TypeDescription(Manifest.class);
-		manifestDescription.putListPropertyType("content", LinkedList.class);
-		constructor.addTypeDescription(manifestDescription);
+	public TestsOrganizationParser load(InputStream testsOrganizationFile) throws IOException {
+		Constructor constructor = new Constructor(TestsOrganization.class);
+		TypeDescription testsOrganizationDescription = new TypeDescription(TestsOrganization.class);
+		testsOrganizationDescription.putListPropertyType("structure", HashMap.class);
+		constructor.addTypeDescription(testsOrganizationDescription);
 		Yaml yaml = new Yaml(constructor);
-		manifest = (Manifest) yaml.load(manifestFile);
-
+		testsOrganization = (TestsOrganization) yaml.load(testsOrganizationFile);
 		return this;
 	}
 
