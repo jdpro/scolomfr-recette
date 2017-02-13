@@ -1,6 +1,3 @@
-<%@tag import="java.util.LinkedList"%>
-<%@tag import="javax.swing.text.AbstractDocument.Content"%>
-<%@tag import="java.util.Arrays"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@tag description="Page layout" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>

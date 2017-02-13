@@ -5,17 +5,24 @@
 <li><a href="#"><i class="fa fa-check fa-fw"></i> Tests<span
 		class="fa arrow"></span></a>
 	<ul class="nav nav-second-level">
-		<li><a href="#">1. Cohérence interne des vocabulaires <span
-				class="fa arrow"></span></a>
-			<ul class="nav nav-third-level">
-				<li><a href="#">1.2 - Absence de doublons de concepts<span
-						class="fa arrow"></span></a>
-					<ul class="nav nav-fourth-level">
-						<li><a
-							href="${tests}/absence_de_doublons_de_concepts/skos/1.2.1">1.2.1
-								- Skos</a></li>
-					</ul>
-					<!-- /.nav-fourth-level --></li>
-			</ul> <!-- /.nav-third-level --></li>
+		<c:forEach items="${testsStructure}" var="requirement">
+			<li><a href="#">${requirement.value.index} -
+					${requirement.value.label}<span class="fa arrow"></span>
+			</a>
+				<ul class="nav nav-third-level">
+					<c:forEach items="${requirement.value.folders}" var="folder">
+						<li><a href="#">${folder.value.index} -
+								${folder.value.label}<span class="fa arrow"></span>
+						</a>
+							<ul class="nav nav-fourth-level">
+								<c:forEach items="${folder.value.tests}" var="test">
+									<li><a
+										href="${tests}/${requirement.key}/${folder.key}/${test.key}/${test.value.index}/">${test.value.index}
+											- ${test.value.label}</a></li>
+								</c:forEach>
+							</ul> <!-- /.nav-fourth-level --></li>
+					</c:forEach>
+				</ul> <!-- /.nav-third-level --></li>
+		</c:forEach>
 	</ul> <!-- /.nav-second-level --></li>
 
