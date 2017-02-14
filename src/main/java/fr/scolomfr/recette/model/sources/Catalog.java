@@ -56,4 +56,12 @@ public interface Catalog {
 	 */
 	List<Pair<String, Pair<String, String>>> getFilesByVersion(Version version);
 
+	/**
+	 * Return a path to the directory containing scolomfr vocabularies, either
+	 * absolute or relative to classpath
+	 * 
+	 * @return
+	 */
+	String getVocabulariesDirectory();
+
 }

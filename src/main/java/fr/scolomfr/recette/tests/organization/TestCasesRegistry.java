@@ -22,11 +22,27 @@ package fr.scolomfr.recette.tests.organization;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Registry to keep track of testcases instances and their states
+ */
 @Component
 public interface TestCasesRegistry {
 
+	/**
+	 * Adds a new Testcase to registry
+	 * 
+	 * @param index
+	 * @param bean
+	 */
 	public void register(final String index, final Object bean);
 
-	public Object getTestUnit(String id);
+	/**
+	 * Get testCase by index (index are provided by {@link TestCase} annotations
+	 * and referenced by test configuration file)
+	 * 
+	 * @param id
+	 * @return
+	 */
+	public Object getTestCase(String id);
 
 }

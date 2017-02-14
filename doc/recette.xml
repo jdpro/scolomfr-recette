@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context docBase="/opt/tomcat/webapps/recette/recette.war" path="/recette">
+	<Environment description="Scolomfr files directory absolute path "
+		name="scolomfr_files_directory" type="java.lang.String" value="/etc/scolomfr"
+		override="true" />
+</Context>

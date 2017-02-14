@@ -18,19 +18,24 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.tests.impl.coherenceinterne.doublonsconcepts;
-
-import org.springframework.stereotype.Component;
-
-import fr.scolomfr.recette.tests.organization.TestCase;
-import fr.scolomfr.recette.tests.organization.TestParameters;
+package fr.scolomfr.recette.tests.organization;
 
 /**
- * A URI should not be duplicated duplicated in Skos file
+ * Tests configuration has an error
  */
-@Component
-@TestCase(index = "1.2.1")
-@TestParameters(names = { "version", "vocabulary" })
-public class DoublonsConceptsSkos {
+public class TestsConfigurationException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see RuntimeException#RuntimeException(String)
+	 * @param message
+	 */
+	public TestsConfigurationException(String message) {
+		super(message);
+	}
 
 }

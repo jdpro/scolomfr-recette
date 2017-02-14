@@ -18,19 +18,34 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.tests.impl.coherenceinterne.doublonsconcepts;
+package fr.scolomfr.recette.resources;
 
-import org.springframework.stereotype.Component;
-
-import fr.scolomfr.recette.tests.organization.TestCase;
-import fr.scolomfr.recette.tests.organization.TestParameters;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.DirectoryStream;
+import java.nio.file.Path;
 
 /**
- * A URI should not be duplicated duplicated in Skos file
+ * Utility classes to load files either from classpath (if embedded) either from
+ * file system
  */
-@Component
-@TestCase(index = "1.2.1")
-@TestParameters(names = { "version", "vocabulary" })
-public class DoublonsConceptsSkos {
+public interface ResourcesLoader {
+
+	/**
+	 * Get file as stream
+	 * 
+	 * @param path
+	 * @return
+	 */
+	InputStream loadResource(String path);
+
+	/**
+	 * Get directory as {@link Path}
+	 * 
+	 * @param filePath
+	 * @return
+	 * @throws IOException
+	 */
+	DirectoryStream<Path> loadDirectory(String filePath) throws IOException;
 
 }

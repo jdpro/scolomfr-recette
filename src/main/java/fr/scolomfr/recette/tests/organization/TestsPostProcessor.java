@@ -21,15 +21,14 @@
 package fr.scolomfr.recette.tests.organization;
 
 import java.lang.annotation.Annotation;
-import java.util.Iterator;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
-import org.springframework.util.ReflectionUtils;
 
+/**
+ * Adds all {@link TestCase} annotated classes to tests registry
+ */
 @Component
 public class TestsPostProcessor implements BeanPostProcessor {
 

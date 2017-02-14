@@ -68,7 +68,7 @@ public class SourcesStructureControllerAdvice {
 			formats.addAll(content.keySet());
 			Iterator<String> it2 = content.keySet().iterator();
 			while (it2.hasNext()) {
-				String format = (String) it2.next();
+				String format = it2.next();
 				vocabularies.addAll(content.get(format).keySet());
 			}
 		}

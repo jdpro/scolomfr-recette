@@ -32,14 +32,20 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 
 import javax.annotation.PostConstruct;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 import com.github.zafarkhaja.semver.Version;
 
+import fr.scolomfr.recette.resources.EmbeddedResourcesLoader;
+import fr.scolomfr.recette.resources.FileSystemResourcesLoader;
+import fr.scolomfr.recette.resources.ResourcesLoader;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
@@ -47,14 +53,18 @@ import fr.scolomfr.recette.utils.log.Log;
  */
 @Component
 public class CatalogImpl implements Catalog {
-	public static final String VOCABULARIES_DIRECTORY = "/scolomfr";
+	private static final String SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME = "scolomfr_files_directory";
+	public static final String CLASSPATH_VOCABULARIES_DIRECTORY = "/scolomfr";
 	private static final String MANIFEST_FILE_NAME = "manifest.yml";
 
 	@Log
 	Logger logger;
 
 	@Autowired
-	ResourcesLoader resourcesLoader;
+	EmbeddedResourcesLoader embeddedResourcesLoader;
+
+	@Autowired
+	FileSystemResourcesLoader fileSystemResourcesLoader;
 
 	@Autowired
 	ManifestParser manifestParser;
@@ -73,14 +83,18 @@ public class CatalogImpl implements Catalog {
 	 */
 	@PostConstruct
 	public void init() throws IOException {
-		logger.info("Looking for scolomfr packages in folder " + VOCABULARIES_DIRECTORY);
-		DirectoryStream<Path> scolomfrFolders = resourcesLoader.loadDirectory(VOCABULARIES_DIRECTORY);
+		ResourcesLoader resourcesLoader = getResourcesLoader();
+
+		logger.info("Looking for scolomfr packages in folder " + getVocabulariesDirectory());
+
+		DirectoryStream<Path> scolomfrFolders = resourcesLoader.loadDirectory(getVocabulariesDirectory());
 
 		Manifest newManifest;
 		for (Path path : scolomfrFolders) {
 
 			Path scolomfrFolder = path.getFileName();
-			String manifestPath = String.format("%s/%s/%s", VOCABULARIES_DIRECTORY, scolomfrFolder, MANIFEST_FILE_NAME);
+			String manifestPath = String.format("%s/%s/%s", getVocabulariesDirectory(), scolomfrFolder,
+					MANIFEST_FILE_NAME);
 			logger.info("Looking for manifest in folder " + manifestPath);
 
 			try (InputStream manifestInputStream = resourcesLoader.loadResource(manifestPath)) {
@@ -164,6 +178,37 @@ public class CatalogImpl implements Catalog {
 			}
 		}
 		return filesByVersion;
+	}
+
+	@Override
+	public String getVocabulariesDirectory() {
+		String scolomfrFilesDirectoryFromContext = getScolomfrFilesDirectoryFromContext();
+		logger.info("Scolomfr file directory fetched from xml context : {}", scolomfrFilesDirectoryFromContext);
+		if (StringUtils.isEmpty(scolomfrFilesDirectoryFromContext)) {
+			logger.info("Using memory classpath instead");
+			return CLASSPATH_VOCABULARIES_DIRECTORY;
+		}
+		return scolomfrFilesDirectoryFromContext;
+
+	}
+
+	private String getScolomfrFilesDirectoryFromContext() {
+		InitialContext initialContext;
+		try {
+			initialContext = new javax.naming.InitialContext();
+			return (String) initialContext.lookup("java:comp/env/" + SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
+		} catch (NamingException e) {
+			logger.error("Unable to get {} from initial context", SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME, e);
+		}
+		return "";
+	}
+
+	private ResourcesLoader getResourcesLoader() {
+		if (StringUtils.isEmpty(getScolomfrFilesDirectoryFromContext())) {
+			return embeddedResourcesLoader;
+		}
+		return fileSystemResourcesLoader;
+
 	}
 
 }

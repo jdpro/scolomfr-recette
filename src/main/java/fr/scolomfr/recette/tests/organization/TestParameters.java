@@ -27,11 +27,17 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Annotation to provide the list of parameters required by the test
+ * Annotation to provide the list of parameters required by the test. They will
+ * be taken into account in the view to build a form
  */
 @Documented
 @Retention(value = RetentionPolicy.RUNTIME)
 @Target(value = ElementType.TYPE)
 public @interface TestParameters {
+	/**
+	 * The list of parameters names
+	 * 
+	 * @return
+	 */
 	public String[] names();
 }

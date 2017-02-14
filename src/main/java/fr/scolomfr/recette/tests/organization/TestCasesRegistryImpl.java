@@ -25,6 +25,9 @@ import java.util.Map;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Implementation of the {@link TestCasesRegistry}
+ */
 @Component
 public class TestCasesRegistryImpl implements TestCasesRegistry {
 
@@ -37,7 +40,7 @@ public class TestCasesRegistryImpl implements TestCasesRegistry {
 	}
 
 	@Override
-	public Object getTestUnit(String id) {
+	public Object getTestCase(String id) {
 		return testCases.get(id);
 	}
 

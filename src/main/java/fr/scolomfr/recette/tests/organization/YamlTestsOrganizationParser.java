@@ -29,6 +29,9 @@ import org.yaml.snakeyaml.TypeDescription;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 
+/**
+ * Parses tests organisation file in Yaml format
+ */
 @Component
 public class YamlTestsOrganizationParser implements TestsOrganizationParser {
 

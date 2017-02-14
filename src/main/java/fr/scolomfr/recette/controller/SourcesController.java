@@ -44,8 +44,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
-import fr.scolomfr.recette.model.sources.CatalogImpl;
-import fr.scolomfr.recette.model.sources.ResourcesLoader;
+import fr.scolomfr.recette.resources.EmbeddedResourcesLoader;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
@@ -58,7 +57,7 @@ public class SourcesController {
 	private Catalog catalog;
 
 	@Autowired
-	private ResourcesLoader resourcesLoader;
+	private EmbeddedResourcesLoader resourcesLoader;
 
 	@Log
 	Logger logger;
@@ -127,7 +126,7 @@ public class SourcesController {
 		String fileName = new AntPathMatcher().extractPathWithinPattern(pattern, request.getServletPath());
 		logger.info("Request to display resource file {}", fileName);
 		try (InputStream inputStream = resourcesLoader
-				.loadResource(CatalogImpl.VOCABULARIES_DIRECTORY + "/" + fileName)) {
+				.loadResource(catalog.getVocabulariesDirectory() + "/" + fileName)) {
 			if (null == inputStream) {
 				logger.info("Resource file {} not found", fileName);
 			} else {

@@ -33,5 +33,11 @@ import java.lang.annotation.Target;
 @Retention(value = RetentionPolicy.RUNTIME)
 @Target(value = ElementType.TYPE)
 public @interface TestCase {
+	/**
+	 * Get the index (key) of the test. Indexes are user to map testcases
+	 * implementations whith entries of configuration file.
+	 * 
+	 * @return
+	 */
 	public String index();
 }
