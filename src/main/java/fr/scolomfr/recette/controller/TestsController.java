@@ -66,7 +66,8 @@ public class TestsController {
 							? (testUnit.getClass().getAnnotation(TestParameters.class)).names()
 							: Collections.emptyList());
 			modelAndView.addObject("testCaseIndex", id);
-			modelAndView.addObject("folderLabel", testsRepository.getTestOrganization().getFolderLabel(folder));
+			modelAndView.addObject("folderLabel",
+					testsRepository.getTestOrganization().getFolderLabel(requirement, folder));
 			modelAndView.addObject("testCaseLabel", testsRepository.getTestOrganization().getTestCaseLabel(id));
 		} else {
 			modelAndView.addObject("implemented", false);
