@@ -2,7 +2,8 @@
  * 
  * Scolomfr Recette
  * 
- * Copyright (C) 2017  MENESR (DNE)2016 Direction du Numérique pour l'Éducation - Ministère de l'Éducation nationale, de l'enseignement supérieur et de la Recherche /
+ * Copyright (C) 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche2016 Direction du Numérique pour l'Éducation - Ministère de l'Éducation nationale, de l'enseignement supérieur et de la Recherche /
+ * Copyright (C) 2017 Joachim Dornbusch
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
