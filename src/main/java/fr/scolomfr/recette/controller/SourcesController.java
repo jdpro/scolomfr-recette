@@ -92,6 +92,8 @@ public class SourcesController {
 			// Nothing to do
 			break;
 		}
+		modelAndView.addObject("by", by);
+		modelAndView.addObject("criterium", criterium);
 		modelAndView.addObject("headers", headers);
 		modelAndView.addObject("lines", lines);
 		return modelAndView;
