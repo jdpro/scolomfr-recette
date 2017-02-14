@@ -21,6 +21,7 @@
  */
 package fr.scolomfr.recette.model.sources;
 
+import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
 
@@ -64,5 +65,13 @@ public interface Catalog {
 	 * @return
 	 */
 	String getVocabulariesDirectory();
+
+	/**
+	 * Opens the file from vocabularies directory
+	 * 
+	 * @param filePath
+	 * @return
+	 */
+	InputStream getFileByPath(String filePath);
 
 }

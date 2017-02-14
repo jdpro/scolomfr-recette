@@ -45,7 +45,6 @@ import org.springframework.web.servlet.ModelAndView;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
-import fr.scolomfr.recette.resources.EmbeddedResourcesLoader;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
@@ -56,9 +55,6 @@ public class SourcesController {
 
 	@Autowired
 	private Catalog catalog;
-
-	@Autowired
-	private EmbeddedResourcesLoader resourcesLoader;
 
 	@Log
 	Logger logger;
@@ -116,7 +112,7 @@ public class SourcesController {
 	}
 
 	/**
-	 * Dispaly raw source file in browser
+	 * Display raw source file in browser
 	 * 
 	 * @param response
 	 * @param request
@@ -126,19 +122,18 @@ public class SourcesController {
 	public void getFile(HttpServletResponse response, HttpServletRequest request) {
 		// Trick to catch path parameter containing forward slashes
 		String pattern = (String) request.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
-		String fileName = new AntPathMatcher().extractPathWithinPattern(pattern, request.getServletPath());
-		logger.info("Request to display resource file {}", fileName);
-		try (InputStream inputStream = resourcesLoader
-				.loadResource(catalog.getVocabulariesDirectory() + "/" + fileName)) {
+		String filePath = new AntPathMatcher().extractPathWithinPattern(pattern, request.getServletPath());
+		logger.info("Request to display resource file {}", filePath);
+		try (InputStream inputStream = catalog.getFileByPath(filePath)) {
 			if (null == inputStream) {
-				logger.info("Resource file {} not found", fileName);
+				logger.info("Resource file {} not found", filePath);
 			} else {
 				IOUtils.copy(inputStream, response.getOutputStream());
 				response.flushBuffer();
 			}
 
 		} catch (IOException e) {
-			logger.info("Unable to display resource file {}", fileName, e);
+			logger.info("Unable to display resource file {}", filePath, e);
 		}
 
 	}

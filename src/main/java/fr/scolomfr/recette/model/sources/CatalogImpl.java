@@ -212,4 +212,10 @@ public class CatalogImpl implements Catalog {
 
 	}
 
+	@Override
+	public InputStream getFileByPath(String filePath) {
+		return getResourcesLoader().loadResource(this.getVocabulariesDirectory() + "/" + filePath);
+
+	}
+
 }
