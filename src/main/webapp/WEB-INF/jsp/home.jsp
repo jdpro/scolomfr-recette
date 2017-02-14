@@ -7,7 +7,7 @@
 	
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="page-header">Synthèse</h1>
+					<h1 class="page-header">Plate-forme de recette ScoLOMFR</h1>
 				</div>
 				<!-- /.col-lg-12 -->
 			</div>
