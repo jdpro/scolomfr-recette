@@ -22,6 +22,9 @@ package fr.scolomfr.recette.tests.organization;
 
 import java.util.Map;
 
+/**
+ * Wrapper object for test structure taken from tests configuration file
+ */
 public class TestsOrganization {
 	private Map<String, Map<String, String>> structure;
 

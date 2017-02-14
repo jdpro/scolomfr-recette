@@ -29,9 +29,12 @@ import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import fr.scolomfr.recette.model.sources.ResourcesLoader;
+import fr.scolomfr.recette.resources.EmbeddedResourcesLoader;
 import fr.scolomfr.recette.utils.log.Log;
 
+/**
+ * @see TestsRepository
+ */
 @Component
 public class TestsRepositoryImpl implements TestsRepository {
 	private static final String TESTS_ORGANIZATION_FILE = "/tests.yml";
@@ -40,7 +43,7 @@ public class TestsRepositoryImpl implements TestsRepository {
 	Logger logger;
 
 	@Autowired
-	ResourcesLoader resourcesLoader;
+	EmbeddedResourcesLoader resourcesLoader;
 
 	@Autowired
 	TestsOrganizationParser testOrganizationParser;
@@ -63,7 +66,7 @@ public class TestsRepositoryImpl implements TestsRepository {
 		try (InputStream manifestInputStream = resourcesLoader.loadResource(TESTS_ORGANIZATION_FILE)) {
 			if (null == manifestInputStream) {
 				logger.error("No manifest file {}, cancel startup.", TESTS_ORGANIZATION_FILE);
-				throw new RuntimeException(
+				throw new TestsConfigurationException(
 						"Impossible to load manifest file " + TESTS_ORGANIZATION_FILE + ", package assembly error.");
 			}
 			logger.info("Tests organization file found, parsing data.");

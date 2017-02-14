@@ -24,7 +24,9 @@ import org.springframework.stereotype.Component;
 
 import fr.scolomfr.recette.tests.organization.TestCase;
 import fr.scolomfr.recette.tests.organization.TestParameters;
-
+/**
+ * Two concepts should not share the same prefLabel
+ */
 @Component
 @TestCase(index = "1.4.1")
 @TestParameters(names = { "version", "vocabulary" })

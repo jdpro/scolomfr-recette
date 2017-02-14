@@ -22,8 +22,10 @@ package fr.scolomfr.recette.tests.organization;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Map;
 
+/**
+ * Reads tests configuration file in concrete format
+ */
 public interface TestsOrganizationParser {
 	/**
 	 * Get tests structure after parsing
@@ -35,7 +37,7 @@ public interface TestsOrganizationParser {
 	/**
 	 * Load test organization file
 	 * 
-	 * @param manifestInputStream
+	 * @param testOrganizationInputStream
 	 * @return
 	 * @throws IOException
 	 */

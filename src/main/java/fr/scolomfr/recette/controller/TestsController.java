@@ -47,6 +47,7 @@ public class TestsController {
 	 * 
 	 * @param response
 	 * @param requirement
+	 * @param folder
 	 * @param format
 	 * @param id
 	 * @return
@@ -56,7 +57,7 @@ public class TestsController {
 			@PathVariable("format") String format, @PathVariable("folder") String folder,
 			@PathVariable("id") String id) {
 		ModelAndView modelAndView = new ModelAndView("tests");
-		Object testUnit = testsRepository.getTestCasesRegistry().getTestUnit(id);
+		Object testUnit = testsRepository.getTestCasesRegistry().getTestCase(id);
 		if (testUnit != null) {
 			modelAndView.addObject("implemented", true);
 			modelAndView.addObject("implementation", testUnit.getClass().getSimpleName());

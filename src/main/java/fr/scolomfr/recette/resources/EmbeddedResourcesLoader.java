@@ -18,7 +18,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.sources;
+package fr.scolomfr.recette.resources;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -40,7 +40,7 @@ import fr.scolomfr.recette.utils.log.Log;
  */
 @Component
 @Scope("application")
-public class ResourcesLoader {
+public class EmbeddedResourcesLoader implements ResourcesLoader {
 
 	@Log
 	Logger logger;
@@ -52,8 +52,9 @@ public class ResourcesLoader {
 	 *            Relative to classpath root
 	 * @return
 	 */
+	@Override
 	public InputStream loadResource(final String path) {
-		return ResourcesLoader.class.getResourceAsStream(path);
+		return EmbeddedResourcesLoader.class.getResourceAsStream(path);
 	}
 
 	/**
@@ -64,8 +65,9 @@ public class ResourcesLoader {
 	 * @return
 	 * @throws IOException
 	 */
+	@Override
 	public DirectoryStream<Path> loadDirectory(final String filePath) throws IOException {
-		URL url = ResourcesLoader.class.getResource(filePath);
+		URL url = EmbeddedResourcesLoader.class.getResource(filePath);
 		try {
 			Path path = Paths.get(url.toURI());
 			return Files.newDirectoryStream(path);

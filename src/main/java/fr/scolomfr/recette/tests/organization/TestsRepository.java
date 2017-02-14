@@ -22,11 +22,22 @@ package fr.scolomfr.recette.tests.organization;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Gathers all informations about tests : Test Organisation (from test
+ * configuration file) and Test cases registry (Test cases instances)
+ */
 @Component
 public interface TestsRepository {
-
+	/**
+	 * @see TestsOrganization
+	 * @return
+	 */
 	TestsOrganization getTestOrganization();
 
+	/**
+	 * @see TestCasesRegistry
+	 * @return
+	 */
 	TestCasesRegistry getTestCasesRegistry();
 
 }
