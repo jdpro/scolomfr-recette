@@ -130,11 +130,11 @@
 			<version>2.5</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
 			<version>1.4.9</version>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 	<repositories>

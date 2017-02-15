@@ -67,7 +67,7 @@ public class DoublonsConceptsSkos implements TestCase {
 							version, "skos", vocabulary));
 			return result;
 		}
-		result.addComment(CommonMessageKeys.FILE_PROVIDED.toString(),
+		result.addInfo(CommonMessageKeys.FILE_PROVIDED.toString(),
 				String.format("Chemin du fichier  pour la version %s, le format %s et le vocabulaire %s : %s", version,
 						"skos", vocabulary, filePath));
 		InputStream fileInputStream = catalog.getFileByPath(filePath);
@@ -76,7 +76,7 @@ public class DoublonsConceptsSkos implements TestCase {
 					String.format("Impossible d'ouvrir le fichier %s", filePath));
 			return result;
 		}
-		result.addComment(CommonMessageKeys.FILE_OPENING.toString(),
+		result.addInfo(CommonMessageKeys.FILE_OPENING.toString(),
 				String.format("L'ouverture du fichier %s a réussi", filePath));
 		Document vocabularyDocument;
 		try {
@@ -88,7 +88,7 @@ public class DoublonsConceptsSkos implements TestCase {
 					String.format("Impossible de lire le fichier %s comme du XML : %s", filePath, e.getMessage()));
 			return result;
 		}
-		result.addComment(CommonMessageKeys.FILE_FORMAT.toString(),
+		result.addInfo(CommonMessageKeys.FILE_FORMAT.toString(),
 				String.format("La lecture du fichier %s comme XML a réussi", filePath));
 		return result;
 	}

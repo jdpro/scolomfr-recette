@@ -37,6 +37,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import fr.scolomfr.recette.tests.execution.result.Message;
 import fr.scolomfr.recette.tests.execution.result.Result;
 import fr.scolomfr.recette.tests.organization.TestCase;
 import fr.scolomfr.recette.tests.organization.TestParameters;
@@ -93,7 +94,8 @@ public class TestsController {
 	 * @param id
 	 * @return
 	 */
-	@RequestMapping(value = "/tests/{requirement}/{folder}/{format}/{id:.+}", method = RequestMethod.POST, produces = "application/xml")
+	@RequestMapping(value = "/tests/{requirement}/{folder}/{format}/{id:.+}", method = RequestMethod.POST, produces = {
+			"application/xml" })
 	@ResponseBody
 	public ResponseEntity<Result> executeTest(HttpServletResponse response,
 			@PathVariable("requirement") String requirement, @PathVariable("format") String format,
@@ -113,7 +115,7 @@ public class TestsController {
 		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
 		if (testCase == null) {
 			Result result = new Result();
-			result.addError("no_test", "There's no test under identifier " + id);
+			result.addError(new Message("no_test", "There's no test under identifier " + id));
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
 		}
 		Result result = testCase.getExecutionResult(executionParameters);
