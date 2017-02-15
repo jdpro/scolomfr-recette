@@ -1,3 +1,8 @@
+/*!
+ * Start Bootstrap - SB Admin 2 v3.3.7+1 (http://startbootstrap.com/template-overviews/sb-admin-2)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
 $(function() {
 	$('#side-menu').metisMenu({
 		toggle : true
@@ -21,25 +26,33 @@ $(function() {
 		} ]
 	});
 	$('#side-menu').removeClass("hidden");
-	$("#testcase-exec-form").on(
-			'submit',
-			function(e) {
-				$(this).find("button").prop("disabled", "disabled").find("img")
-						.removeClass("hidden");
-				e.preventDefault();
+	var $execButton = $("#testcase-exec-form").find("button");
+	enableExecutionButton($execButton, true);
+	$("#testcase-exec-form").on('submit', function(e) {
 
-				$.ajax({
-					url : $(this).attr('action'),
-					type : $(this).attr('method'),
-					data : $(this).serialize(),
-					success : function(html) {
-						console.log(html)
-					}
-				});
+		e.preventDefault();
+		enableExecutionButton($execButton, false);
+		$.ajax({
+			url : $(this).attr('action'),
+			type : $(this).attr('method'),
+			data : $(this).serialize(),
+			success : function(xml) {
+				enableExecutionButton($execButton, true);
+			}
+		});
 
-			});
+	});
 
 });
+
+function enableExecutionButton($button, bool) {
+	if (!bool) {
+		$button.prop("disabled", "disabled").find("img").removeClass("hidden");
+	} else {
+		$button.removeAttr("disabled").find("img").addClass("hidden");
+	}
+
+}
 
 // Loads the correct sidebar on window load,
 // collapses the sidebar on window resize.
