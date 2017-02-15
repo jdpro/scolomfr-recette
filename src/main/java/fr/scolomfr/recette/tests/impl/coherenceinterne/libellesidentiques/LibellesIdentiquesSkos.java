@@ -21,16 +21,27 @@
  */
 package fr.scolomfr.recette.tests.impl.coherenceinterne.libellesidentiques;
 
+import java.util.Map;
+
 import org.springframework.stereotype.Component;
 
+import fr.scolomfr.recette.tests.execution.Result;
 import fr.scolomfr.recette.tests.organization.TestCase;
+import fr.scolomfr.recette.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.tests.organization.TestParameters;
+
 /**
  * Two concepts should not share the same prefLabel
  */
 @Component
-@TestCase(index = "1.4.1")
+@TestCaseIndex(index = "1.4.1")
 @TestParameters(names = { "version", "vocabulary" })
-public class LibellesIdentiquesSkos {
+public class LibellesIdentiquesSkos implements TestCase {
+
+	@Override
+	public Result getExecutionResult(Map<String, String> executionParameters) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

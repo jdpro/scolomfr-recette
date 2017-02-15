@@ -28,7 +28,7 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
 
 /**
- * Adds all {@link TestCase} annotated classes to tests registry
+ * Adds all {@link TestCaseIndex} annotated classes to tests registry
  */
 @Component
 public class TestsPostProcessor implements BeanPostProcessor {
@@ -45,8 +45,8 @@ public class TestsPostProcessor implements BeanPostProcessor {
 	@Override
 	public Object postProcessBeforeInitialization(final Object bean, String beanName) {
 		for (Annotation annotation : bean.getClass().getDeclaredAnnotations()) {
-			if (annotation.annotationType().equals(TestCase.class)) {
-				String index = ((TestCase) annotation).index();
+			if (annotation.annotationType().equals(TestCaseIndex.class)) {
+				String index = ((TestCaseIndex) annotation).index();
 				testsUnitRegistry.register(index, bean);
 				break;
 			}

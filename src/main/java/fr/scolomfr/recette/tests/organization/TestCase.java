@@ -2,8 +2,7 @@
  * 
  * Scolomfr Recette
  * 
- * Copyright (C) 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche
- * Copyright (C) 2017 Joachim Dornbusch
+ * Copyright (C) 2017  MENESR (DNE), J.Dornbusch
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,24 +20,12 @@
  */
 package fr.scolomfr.recette.tests.organization;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.util.Map;
 
-/**
- * Annotation to mark tests with index
- */
-@Documented
-@Retention(value = RetentionPolicy.RUNTIME)
-@Target(value = ElementType.TYPE)
-public @interface TestCase {
-	/**
-	 * Get the index (key) of the test. Indexes are user to map testcases
-	 * implementations whith entries of configuration file.
-	 * 
-	 * @return
-	 */
-	public String index();
+import fr.scolomfr.recette.tests.execution.Result;
+
+public interface TestCase {
+
+	Result getExecutionResult(Map<String, String> executionParameters);
+
 }

@@ -21,6 +21,24 @@ $(function() {
 		} ]
 	});
 	$('#side-menu').removeClass("hidden");
+	$("#testcase-exec-form").on(
+			'submit',
+			function(e) {
+				$(this).find("button").prop("disabled", "disabled").find("img")
+						.removeClass("hidden");
+				e.preventDefault();
+
+				$.ajax({
+					url : $(this).attr('action'),
+					type : $(this).attr('method'),
+					data : $(this).serialize(),
+					success : function(html) {
+						console.log(html)
+					}
+				});
+
+			});
+
 });
 
 // Loads the correct sidebar on window load,

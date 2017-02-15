@@ -38,12 +38,12 @@ public interface TestCasesRegistry {
 	public void register(final String index, final Object bean);
 
 	/**
-	 * Get testCase by index (index are provided by {@link TestCase} annotations
-	 * and referenced by test configuration file)
+	 * Get testCase by index (index are provided by {@link TestCaseIndex}
+	 * annotations and referenced by test configuration file)
 	 * 
 	 * @param id
 	 * @return
 	 */
-	public Object getTestCase(String id);
+	public TestCase getTestCase(String id);
 
 }
