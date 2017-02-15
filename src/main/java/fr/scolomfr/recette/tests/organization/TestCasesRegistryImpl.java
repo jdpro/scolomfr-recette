@@ -32,16 +32,21 @@ import org.springframework.stereotype.Component;
 @Component
 public class TestCasesRegistryImpl implements TestCasesRegistry {
 
-	Map<String, Object> testCases = new HashMap<>();
+	Map<String, TestCase> testCases = new HashMap<>();
 
 	@Override
 	public void register(String index, Object bean) {
-		testCases.put(index, bean);
+		if (!(bean instanceof TestCase)) {
+			throw new TestsConfigurationException(
+					String.format("Test case %s with index %s should implement the Testcase interface",
+							bean.getClass().getSimpleName(), index));
+		}
+		testCases.put(index, (TestCase) bean);
 
 	}
 
 	@Override
-	public Object getTestCase(String id) {
+	public TestCase getTestCase(String id) {
 		return testCases.get(id);
 	}
 

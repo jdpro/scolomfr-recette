@@ -19,32 +19,26 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.tests.impl.coherenceinterne.doublonsconcepts;
+package fr.scolomfr.recette.tests.organization;
 
-import java.util.Map;
-
-import org.springframework.stereotype.Component;
-
-import fr.scolomfr.recette.tests.execution.Result;
-import fr.scolomfr.recette.tests.organization.TestCase;
-import fr.scolomfr.recette.tests.organization.TestCaseIndex;
-import fr.scolomfr.recette.tests.organization.TestParameters;
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
- * A URI should not be duplicated duplicated in Skos file
+ * Annotation to mark tests with index
  */
-@Component
-@TestCaseIndex(index = "1.2.1")
-@TestParameters(names = { "version", "vocabulary" })
-public class DoublonsConceptsSkos implements TestCase {
-
-	@Override
-	public Result getExecutionResult(Map<String, String> executionParameters) {
-		System.out.println(executionParameters);
-		Result result = new Result<>();
-		result.addError("u327", "Celui-ci est doublonné");
-		result.addError("u328", "Celui-là aussi");
-		return result;
-	}
-
+@Documented
+@Retention(value = RetentionPolicy.RUNTIME)
+@Target(value = ElementType.TYPE)
+public @interface TestCaseIndex {
+	/**
+	 * Get the index (key) of the test. Indexes are user to map testcases
+	 * implementations whith entries of configuration file.
+	 * 
+	 * @return
+	 */
+	public String index();
 }

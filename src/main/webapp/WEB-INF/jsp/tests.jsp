@@ -2,6 +2,7 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set value="/resources" var="baseResourcesPath" />
 <t:layout>
 	<jsp:body>
 	
@@ -23,15 +24,19 @@
                         <div class="panel-body">
                             <div class="row">
                                     <form role="form" method="POST"
-										action=".">
+										action="." id="testcase-exec-form">
                                       
                                         <c:forEach items="${parameters}"
 											var="parameter">
 						<t:parameters-switch tagname="${parameter}" />
 						</c:forEach>
                                         <div class="col-lg-12">
-											<button class="btn btn-default" type="submit">Exécuter</button>
+											<button class="btn btn-default" type="submit">Exécuter <img
+													alt="Patientez" title="Patientez" class="hidden"
+													src='<spring:url value="${baseResourcesPath}/img/ajax-loader.gif"></spring:url>'>
+											</button>
 										</div>
+										
                                         
                                     </form>
                                 
