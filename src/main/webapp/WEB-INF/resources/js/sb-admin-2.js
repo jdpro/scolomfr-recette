@@ -36,6 +36,7 @@ $(function() {
 			url : $(this).attr('action'),
 			type : $(this).attr('method'),
 			data : $(this).serialize(),
+			dataType : "xml",
 			success : function(xml) {
 				enableExecutionButton($execButton, true);
 			}

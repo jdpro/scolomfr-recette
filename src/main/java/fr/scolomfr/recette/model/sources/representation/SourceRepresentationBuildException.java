@@ -2,8 +2,7 @@
  * 
  * Scolomfr Recette
  * 
- * Copyright (C) 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche
- * Copyright (C) 2017 Joachim Dornbusch
+ * Copyright (C) 2017  MENESR (DNE), J.Dornbusch
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,14 +18,17 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.tests.organization;
+package fr.scolomfr.recette.model.sources.representation;
 
-import java.util.Map;
+public class SourceRepresentationBuildException extends Exception {
+	
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
-import fr.scolomfr.recette.tests.execution.result.Result;
-
-public interface TestCase {
-
-	Result getExecutionResult(Map<String, String> executionParameters);
-
+	public SourceRepresentationBuildException(String message, Throwable cause) {
+        super(message, cause);
+    }
 }

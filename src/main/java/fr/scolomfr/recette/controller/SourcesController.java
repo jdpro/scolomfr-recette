@@ -97,14 +97,14 @@ public class SourcesController {
 	}
 
 	private List<?> getFileFromProvidedFormatString(String criterium) {
-		return catalog.getFilesByFormat(criterium);
+		return catalog.getFilePathsByFormat(criterium);
 	}
 
 	private List<?> getFilesFromProvidedVersionString(String criterium) {
 		List<?> lines = Collections.emptyList();
 		try {
 			Version requestedVersion = Version.valueOf(criterium);
-			lines = catalog.getFilesByVersion(requestedVersion);
+			lines = catalog.getFilePathsByVersion(requestedVersion);
 		} catch (Exception e) {
 			logger.error("Impossible to parse string {} as version identifier", criterium, e);
 		}

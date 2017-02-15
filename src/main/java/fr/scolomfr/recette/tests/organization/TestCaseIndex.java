@@ -27,9 +27,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Annotation to mark tests with index
  */
+@Component
 @Documented
 @Retention(value = RetentionPolicy.RUNTIME)
 @Target(value = ElementType.TYPE)

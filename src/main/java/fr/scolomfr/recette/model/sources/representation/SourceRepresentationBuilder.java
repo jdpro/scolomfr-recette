@@ -19,52 +19,36 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.sources;
+package fr.scolomfr.recette.model.sources.representation;
 
-import java.util.Map;
+import java.io.InputStream;
 
-import com.github.zafarkhaja.semver.Version;
+import org.w3c.dom.Document;
 
-/**
- * Inner memory representation of manifest file if embedded in scolomfr
- * vocabularies delivery
- */
-public class Manifest {
+public class SourceRepresentationBuilder<T> {
+	final Class<T> typeParameterClass;
+	private InputStream inputStream;
+	private SourceRepresentationFactory factory;
 
-	private String version;
-
-	private Version semanticVersion;
-	private Map<String, Map<String, String>> content;
-
-	/**
-	 * Get version as raw string
-	 */
-	public String getVersion() {
-		return version;
+	public SourceRepresentationBuilder(Class<T> typeParameterClass) {
+		this.typeParameterClass = typeParameterClass;
 	}
 
-	public void setVersion(String version) {
-		this.version = version;
+	public InputStream getInputStream() {
+		return inputStream;
 	}
 
-	public Map<String, Map<String, String>> getContent() {
-		return content;
+	public SourceRepresentationBuilder<T> inputStream(InputStream inputStream) {
+		this.inputStream = inputStream;
+		return this;
 	}
 
-	public void setContent(Map<String, Map<String, String>> content) {
-		this.content = content;
-	}
-
-	/**
-	 * Get version as semantic version object
-	 * 
-	 * @return
-	 */
-	public Version getSemanticVersion() {
-		if (null == semanticVersion) {
-			semanticVersion = Version.valueOf(version);
+	public T build() throws SourceRepresentationBuildException {
+		if (typeParameterClass.equals(Document.class)) {
+			factory = new DomDocumentSourceRepresentationFactory();
 		}
-		return semanticVersion;
+		@SuppressWarnings("unchecked")
+		T representation = (T) factory.getSourceRepresentation(inputStream);
+		return representation;
 	}
-
 }

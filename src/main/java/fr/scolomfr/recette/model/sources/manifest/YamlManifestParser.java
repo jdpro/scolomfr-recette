@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.sources;
+package fr.scolomfr.recette.model.sources.manifest;
 
 import java.io.IOException;
 import java.io.InputStream;

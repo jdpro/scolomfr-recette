@@ -1,13 +1,10 @@
-package fr.scolomfr.recette.tests.execution;
+package fr.scolomfr.recette.tests.execution.result;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAnyElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
@@ -15,23 +12,23 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 @XmlRootElement(name = "result")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XStreamAlias("result")
-public class Result<T> {
-
-	public Result() {
-		errors = new LinkedHashMap<>();
-	}
+public class Result {
 
 	private Map<String, String> errors;
 
-	@XmlAnyElement
-	private T comments;
+	private Map<String, String> comments;
 
-	public T getContent() {
+	public Result() {
+		errors = new LinkedHashMap<>();
+		comments = new LinkedHashMap<>();
+	}
+
+	public Map<String, String> getComments() {
 		return comments;
 	}
 
-	public void setContent(T content) {
-		this.comments = content;
+	public void addComment(String key, String message) {
+		this.comments.put(key, message);
 	}
 
 	public Map<String, String> getErrors() {

@@ -25,7 +25,7 @@ import java.util.Map;
 
 import org.springframework.stereotype.Component;
 
-import fr.scolomfr.recette.tests.execution.Result;
+import fr.scolomfr.recette.tests.execution.result.Result;
 import fr.scolomfr.recette.tests.organization.TestCase;
 import fr.scolomfr.recette.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.tests.organization.TestParameters;
@@ -33,7 +33,6 @@ import fr.scolomfr.recette.tests.organization.TestParameters;
 /**
  * Two concepts should not share the same prefLabel
  */
-@Component
 @TestCaseIndex(index = "1.4.1")
 @TestParameters(names = { "version", "vocabulary" })
 public class LibellesIdentiquesSkos implements TestCase {

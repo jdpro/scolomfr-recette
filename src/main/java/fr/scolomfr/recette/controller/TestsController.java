@@ -22,7 +22,6 @@
 package fr.scolomfr.recette.controller;
 
 import java.util.Collections;
-import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletResponse;
@@ -38,7 +37,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import fr.scolomfr.recette.tests.execution.Result;
+import fr.scolomfr.recette.tests.execution.result.Result;
 import fr.scolomfr.recette.tests.organization.TestCase;
 import fr.scolomfr.recette.tests.organization.TestParameters;
 import fr.scolomfr.recette.tests.organization.TestsRepository;
@@ -96,7 +95,7 @@ public class TestsController {
 	 */
 	@RequestMapping(value = "/tests/{requirement}/{folder}/{format}/{id:.+}", method = RequestMethod.POST, produces = "application/xml")
 	@ResponseBody
-	public ResponseEntity<Result<?>> executeTest(HttpServletResponse response,
+	public ResponseEntity<Result> executeTest(HttpServletResponse response,
 			@PathVariable("requirement") String requirement, @PathVariable("format") String format,
 			@PathVariable("folder") String folder, @PathVariable("id") String id,
 			@RequestParam Map<String, String> executionParameters) {
@@ -105,19 +104,19 @@ public class TestsController {
 
 	@RequestMapping(value = "/tests/exec/{id:.+}", method = RequestMethod.GET)
 	@ResponseBody
-	public ResponseEntity<Result<?>> executeTest(HttpServletResponse response, @PathVariable("id") String id,
+	public ResponseEntity<Result> executeTest(HttpServletResponse response, @PathVariable("id") String id,
 			@RequestParam Map<String, String> executionParameters) {
 		return executeTestCase(id, executionParameters);
 	}
 
-	private ResponseEntity<Result<?>> executeTestCase(String id, Map<String, String> executionParameters) {
+	private ResponseEntity<Result> executeTestCase(String id, Map<String, String> executionParameters) {
 		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
 		if (testCase == null) {
-			Result<?> result = new Result<>();
+			Result result = new Result();
 			result.addError("no_test", "There's no test under identifier " + id);
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
 		}
-		Result<?> result = testCase.getExecutionResult(executionParameters);
+		Result result = testCase.getExecutionResult(executionParameters);
 		return new ResponseEntity<>(result, HttpStatus.OK);
 	}
 }

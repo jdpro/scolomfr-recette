@@ -41,9 +41,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
+import org.w3c.dom.Document;
 
 import com.github.zafarkhaja.semver.Version;
 
+import fr.scolomfr.recette.model.sources.manifest.Manifest;
+import fr.scolomfr.recette.model.sources.manifest.ManifestParser;
 import fr.scolomfr.recette.resources.EmbeddedResourcesLoader;
 import fr.scolomfr.recette.resources.FileSystemResourcesLoader;
 import fr.scolomfr.recette.resources.ResourcesLoader;
@@ -122,7 +125,7 @@ public class CatalogImpl implements Catalog {
 	 * String)
 	 */
 	@Override
-	public List<Pair<Version, Pair<String, String>>> getFilesByFormat(String requestedFormat) {
+	public List<Pair<Version, Pair<String, String>>> getFilePathsByFormat(String requestedFormat) {
 		List<Pair<Version, Pair<String, String>>> filesByFormat = new ArrayList<>();
 		Iterator<Version> it = getManifests().keySet().iterator();
 		while (it.hasNext()) {
@@ -159,7 +162,7 @@ public class CatalogImpl implements Catalog {
 	 * zafarkhaja.semver.Version)
 	 */
 	@Override
-	public List<Pair<String, Pair<String, String>>> getFilesByVersion(Version requestedVersion) {
+	public List<Pair<String, Pair<String, String>>> getFilePathsByVersion(Version requestedVersion) {
 		List<Pair<String, Pair<String, String>>> filesByVersion = new ArrayList<>();
 		Manifest manifest = getManifests().get(requestedVersion);
 		if (null != manifest) {
@@ -216,6 +219,21 @@ public class CatalogImpl implements Catalog {
 	public InputStream getFileByPath(String filePath) {
 		return getResourcesLoader().loadResource(this.getVocabulariesDirectory() + "/" + filePath);
 
+	}
+
+	@Override
+	public String getFilePathByVersionFormatAndVocabulary(Version version, String format, String vocabulary) {
+		Manifest manifest = getManifests().get(version);
+		String filePath = null;
+		if (null != manifest) {
+			Map<String, Map<String, String>> content = manifest.getContent();
+			Map<String, String> vocabularies = content.get(format);
+			if (null != vocabularies) {
+				filePath = vocabularies.get(vocabulary);
+			}
+
+		}
+		return filePath;
 	}
 
 }
