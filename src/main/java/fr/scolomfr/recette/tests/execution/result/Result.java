@@ -38,7 +38,7 @@ public class Result {
 	}
 
 	public void addInfo(String key, String content) {
-		this.addError(new Message(key, content));
+		this.addInfo(new Message(key, content));
 	}
 
 	public List<Message> getErrors() {

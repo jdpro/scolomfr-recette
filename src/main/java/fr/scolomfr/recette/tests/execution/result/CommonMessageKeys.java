@@ -1,7 +1,7 @@
 package fr.scolomfr.recette.tests.execution.result;
 
 public enum CommonMessageKeys {
-	FILE_PROVIDED("file_provided"), FILE_OPENING("file_opening"), FILE_FORMAT("file_format");
+	FILE_PROVIDED("Fichier fourni"), FILE_OPENING("Ouverture du fichier"), FILE_FORMAT("Format du fichier");
 
 	private String value;
 
