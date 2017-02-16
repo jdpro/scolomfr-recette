@@ -2,8 +2,7 @@
  * 
  * Scolomfr Recette
  * 
- * Copyright (C) 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche
- * Copyright (C) 2017 Joachim Dornbusch
+ * Copyright (C) 2017  MENESR (DNE), J.Dornbusch
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,14 +25,31 @@ import java.util.Map;
 import fr.scolomfr.recette.tests.execution.async.TestCaseExecutionRegistry;
 import fr.scolomfr.recette.tests.execution.result.Result;
 
-public interface TestCase extends Runnable {
+public abstract class AbstractTestCase implements TestCase {
 
-	void setExecutionParameters(Map<String, String> executionParameters);
+	protected Map<String, String> executionParameters;
+	protected Result result = new Result();
+	protected Integer executionIdentifier;
+	protected TestCaseExecutionRegistry testCaseExecutionRegistry;
 
-	Result getExecutionResult();
+	@Override
+	public void setExecutionParameters(Map<String, String> executionParameters) {
+		this.executionParameters = executionParameters;
+	}
 
-	void setExecutionIdentifier(Integer counter);
+	@Override
+	public Result getExecutionResult() {
+		return result;
+	}
 
-	void setExecutionRegistry(TestCaseExecutionRegistry testCaseExecutionRegistry);
+	@Override
+	public void setExecutionIdentifier(Integer executionIdentifier) {
+		this.executionIdentifier = executionIdentifier;
+	}
+
+	@Override
+	public void setExecutionRegistry(TestCaseExecutionRegistry testCaseExecutionRegistry) {
+		this.testCaseExecutionRegistry = testCaseExecutionRegistry;
+	}
 
 }

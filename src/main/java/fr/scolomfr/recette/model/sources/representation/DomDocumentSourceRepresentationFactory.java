@@ -41,6 +41,7 @@ public class DomDocumentSourceRepresentationFactory extends SourceRepresentation
 
 		try {
 			factory = DocumentBuilderFactory.newInstance();
+			factory.setNamespaceAware(true);
 			builder = factory.newDocumentBuilder();
 		} catch (ParserConfigurationException e) {
 			throw new SourceRepresentationBuildException("Unable to create document builder", e);

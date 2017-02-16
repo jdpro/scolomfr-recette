@@ -75,7 +75,8 @@
                         <div class="panel-body" id="errors-area">
                             <div class="alert alert-danger hidden"
 								id="error-message-template">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <a
+                                <strong class="key"></strong> : 
+                                <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <a
 									href="#" class="alert-link hidden"></a>.
                             
 							</div>

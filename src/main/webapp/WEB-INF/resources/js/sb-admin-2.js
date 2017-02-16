@@ -38,15 +38,33 @@ $(function() {
 			data : $(this).serialize(),
 			dataType : "json",
 			success : function(json) {
-				enableExecutionButton($execButton, true);
+
 				displayResultArea(true);
-				refreshMessages(json);
+				if (json.uri) {
+					executionTrackingUri = json.uri;
+					handleAsyncResponse()
+				} else {
+					refreshMessages(json);
+					enableExecutionButton($execButton, true);
+				}
 			}
 		});
 
 	});
 
 });
+var executionTrackingUri;
+function handleAsyncResponse() {
+	$.ajax({
+		url : executionTrackingUri,
+		dataType : "json",
+		success : function(json) {
+			refreshMessages(json);
+			setTimeout(handleAsyncResponse, 1000);
+		}
+	});
+
+}
 var $infoMessageTemplate;
 var $errorMessageTemplate;
 function displayResultArea(bool) {

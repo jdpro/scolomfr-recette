@@ -21,11 +21,15 @@
  */
 package fr.scolomfr.recette.controller;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Collections;
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -38,11 +42,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import fr.scolomfr.recette.tests.execution.async.TestCaseExecutionRegistry;
+import fr.scolomfr.recette.tests.execution.result.AsyncResult;
 import fr.scolomfr.recette.tests.execution.result.Message;
 import fr.scolomfr.recette.tests.execution.result.Result;
 import fr.scolomfr.recette.tests.organization.TestCase;
 import fr.scolomfr.recette.tests.organization.TestParameters;
 import fr.scolomfr.recette.tests.organization.TestsRepository;
+import fr.scolomfr.recette.utils.log.Log;
 
 /**
  * Controller for tests pages
@@ -50,8 +57,14 @@ import fr.scolomfr.recette.tests.organization.TestsRepository;
 @Controller
 public class TestsController {
 
+	@Log
+	Logger logger;
+
 	@Autowired
 	TestsRepository testsRepository;
+
+	@Autowired
+	TestCaseExecutionRegistry testCaseExecutionRegistry;
 
 	/**
 	 * Displays tests pages
@@ -98,28 +111,81 @@ public class TestsController {
 	@RequestMapping(value = "/tests/{requirement}/{folder}/{format}/{id:.+}", method = RequestMethod.POST, produces = {
 			"application/xml", MediaType.APPLICATION_JSON_VALUE })
 	@ResponseBody
-	public ResponseEntity<Result> executeTest(HttpServletResponse response,
+	public ResponseEntity<AsyncResult> executeTest(HttpServletResponse response, HttpServletRequest request,
 			@PathVariable("requirement") String requirement, @PathVariable("format") String format,
 			@PathVariable("folder") String folder, @PathVariable("id") String id,
 			@RequestParam Map<String, String> executionParameters) {
-		return executeTestCase(id, executionParameters);
+		return executeTestCaseAsync(id, executionParameters, request);
 	}
 
 	@RequestMapping(value = "/tests/exec/{id:.+}", method = RequestMethod.GET)
 	@ResponseBody
 	public ResponseEntity<Result> executeTest(HttpServletResponse response, @PathVariable("id") String id,
 			@RequestParam Map<String, String> executionParameters) {
-		return executeTestCase(id, executionParameters);
+		return executeTestCaseSync(id, executionParameters);
 	}
 
-	private ResponseEntity<Result> executeTestCase(String id, Map<String, String> executionParameters) {
+	private ResponseEntity<AsyncResult> executeTestCaseAsync(String id, Map<String, String> executionParameters,
+			HttpServletRequest request) {
+		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
+		if (testCase == null) {
+			AsyncResult result = new AsyncResult();
+			result.setStatus(AsyncResult.Status.MISSING);
+			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
+		}
+		testCase.setExecutionParameters(executionParameters);
+		Integer executionIdentifier = testCaseExecutionRegistry.newTestCaseExecution(testCase);
+		AsyncResult result = new AsyncResult();
+		result.setStatus(AsyncResult.Status.INITIATED);
+		System.out.println(request.getRequestURL().toString());
+
+		String executionTrackingUri = getExecutionTrackingUri(executionIdentifier, request.getRequestURL().toString());
+		result.setUri(executionTrackingUri);
+		return new ResponseEntity<>(result, HttpStatus.OK);
+	}
+
+	private String getExecutionTrackingUri(Integer executionIdentifier, String urlStr) {
+		URL url = null;
+		try {
+			url = new URL(urlStr);
+		} catch (MalformedURLException e) {
+			logger.error("Problem with urrent URI : {}", urlStr, e);
+		}
+		String scheme = url.getProtocol();
+		String host = url.getHost();
+		String path = url.getPath().split("/test")[0];
+		int port = url.getPort();
+		String portPart = "";
+		if (port != 80 && port != 443) {
+			portPart = ":" + port;
+		}
+		return scheme + "://" + host + portPart + path + "/tests/async/" + executionIdentifier;
+	}
+
+	private ResponseEntity<Result> executeTestCaseSync(String id, Map<String, String> executionParameters)
+			throws CloneNotSupportedException {
 		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
 		if (testCase == null) {
 			Result result = new Result();
 			result.addError(new Message("no_test", "There's no test under identifier " + id));
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
 		}
-		Result result = testCase.getExecutionResult(executionParameters);
+		testCase.setExecutionParameters(executionParameters);
+		testCase.run();
+		return new ResponseEntity<>((Result) testCase.getExecutionResult().clone(), HttpStatus.OK);
+	}
+
+	@RequestMapping(value = "/tests/async/{id:[0-9]+}", method = RequestMethod.GET)
+	@ResponseBody
+	public ResponseEntity<Result> trackTestExecution(HttpServletResponse response,
+			@PathVariable("id") Integer executionIdentifier) {
+		Result result = testCaseExecutionRegistry.getResult(executionIdentifier);
+		if (result == null) {
+			result = new Result();
+			result.addError(
+					new Message("no_execution", "There's no execution under identifier " + executionIdentifier));
+			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
+		}
 		return new ResponseEntity<>(result, HttpStatus.OK);
 	}
 }

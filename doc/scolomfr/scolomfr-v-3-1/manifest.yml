@@ -2,7 +2,7 @@ version: 3.1.0
 content:
   skos:
     global: scolomfr-v-3-1/scolomfrSkosXl_n_GLOBAL.rdf
-    voc01: scolomfr-v-3-1/SKOSscolomfrSkos_n_n-1_01.rdf
+    voc01: scolomfr-v-3-1/SKOS/scolomfrSkos_n_n-1_01.rdf
     voc02: scolomfr-v-3-1/SKOS/scolomfrSkos_n_n-1_02.rdf
     voc03: scolomfr-v-3-1/SKOS/scolomfrSkos_n_n-1_03.rdf
     voc04: scolomfr-v-3-1/SKOS/scolomfrSkos_n_n-1_04.rdf

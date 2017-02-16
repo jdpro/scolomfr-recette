@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(namespace = "http://recette.scolomfr.fr/2017/1")
 @XmlRootElement(name = "result")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Result {
+public class Result implements Cloneable {
 
 	@XmlElementWrapper(name = "errors")
 	@XmlElement(name = "message")
@@ -56,6 +56,12 @@ public class Result {
 	public void addError(String key, String content) {
 		this.addError(new Message(key, content));
 
+	}
+	
+	
+
+	public Object clone() throws CloneNotSupportedException {
+		return super.clone();
 	}
 
 }
