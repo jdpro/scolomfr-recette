@@ -36,7 +36,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
-import fr.scolomfr.recette.model.sources.Manifest;
+import fr.scolomfr.recette.model.sources.manifest.Manifest;
 
 /**
  * Controller advice to add navbar information (sources structure by version and

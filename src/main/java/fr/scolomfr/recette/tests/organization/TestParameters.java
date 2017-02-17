@@ -41,4 +41,13 @@ public @interface TestParameters {
 	 * @return
 	 */
 	public String[] names();
+
+	public class Values {
+		public static final String FORMAT = "format";
+		public static final String VERSION = "version";
+		public static final String VOCABULARY = "vocabulary";
+
+		private Values() {
+		}
+	}
 }

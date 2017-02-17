@@ -27,8 +27,11 @@ import java.util.Map;
 
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Component;
+import org.w3c.dom.Document;
 
 import com.github.zafarkhaja.semver.Version;
+
+import fr.scolomfr.recette.model.sources.manifest.Manifest;
 
 /**
  * Keeps track of all files loaded from directory structure
@@ -48,7 +51,7 @@ public interface Catalog {
 	 * @param criterium
 	 * @return
 	 */
-	List<Pair<Version, Pair<String, String>>> getFilesByFormat(String criterium);
+	List<Pair<Version, Pair<String, String>>> getFilePathsByFormat(String criterium);
 
 	/**
 	 * Get list of files by version (in any format)
@@ -56,7 +59,7 @@ public interface Catalog {
 	 * @param version
 	 * @return
 	 */
-	List<Pair<String, Pair<String, String>>> getFilesByVersion(Version version);
+	List<Pair<String, Pair<String, String>>> getFilePathsByVersion(Version version);
 
 	/**
 	 * Return a path to the directory containing scolomfr vocabularies, either
@@ -73,5 +76,14 @@ public interface Catalog {
 	 * @return
 	 */
 	InputStream getFileByPath(String filePath);
+
+	/**
+	 * 
+	 * @param version
+	 * @param format
+	 * @param vocabulary
+	 * @return
+	 */
+	String getFilePathByVersionFormatAndVocabulary(Version version, String format, String vocabulary);
 
 }

@@ -36,14 +36,65 @@ $(function() {
 			url : $(this).attr('action'),
 			type : $(this).attr('method'),
 			data : $(this).serialize(),
-			success : function(xml) {
-				enableExecutionButton($execButton, true);
+			dataType : "json",
+			success : function(json) {
+
+				displayResultArea(true);
+				if (json.uri) {
+					executionTrackingUri = json.uri;
+					handleAsyncResponse()
+				} else {
+					refreshMessages(json);
+					enableExecutionButton($execButton, true);
+				}
 			}
 		});
 
 	});
 
 });
+var executionTrackingUri;
+function handleAsyncResponse() {
+	$.ajax({
+		url : executionTrackingUri,
+		dataType : "json",
+		success : function(json) {
+			refreshMessages(json);
+			setTimeout(handleAsyncResponse, 1000);
+		}
+	});
+
+}
+var $infoMessageTemplate;
+var $errorMessageTemplate;
+function displayResultArea(bool) {
+	bool ? $("section#result-area").removeClass("hidden") : $(
+			"section#result-area").addClass("hidden");
+}
+function refreshMessages(json) {
+	if (!$infoMessageTemplate) {
+		$infoMessageTemplate = $("#info-message-template").remove()
+				.removeClass("hidden");
+		$errorMessageTemplate = $("#error-message-template").remove()
+				.removeClass("hidden");
+	}
+	displayMessages("errors-area", json.errors, $errorMessageTemplate)
+	displayMessages("infos-area", json.infos, $infoMessageTemplate)
+}
+function displayMessages(areaId, messages, $template) {
+	$area = $("#" + areaId);
+	$area.empty();
+	var messageData, key, content, $messageBody;
+	for ( var index in messages) {
+		messageData = messages[index];
+		key = messageData.key ? messageData.key : "<empty>";
+		content = messageData.content ? messageData.content : messageData;
+		$messageBody = $template.clone();
+		$messageBody.find("strong.key").text(key);
+		$messageBody.find("span.content").text(content);
+		$area.append($messageBody);
+	}
+}
 
 function enableExecutionButton($button, bool) {
 	if (!bool) {

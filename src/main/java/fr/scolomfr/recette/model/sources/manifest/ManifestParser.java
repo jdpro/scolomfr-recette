@@ -19,32 +19,32 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.tests.impl.coherenceinterne.doublonsconcepts;
+package fr.scolomfr.recette.model.sources.manifest;
 
-import java.util.Map;
+import java.io.IOException;
+import java.io.InputStream;
 
 import org.springframework.stereotype.Component;
 
-import fr.scolomfr.recette.tests.execution.Result;
-import fr.scolomfr.recette.tests.organization.TestCase;
-import fr.scolomfr.recette.tests.organization.TestCaseIndex;
-import fr.scolomfr.recette.tests.organization.TestParameters;
-
 /**
- * A URI should not be duplicated duplicated in Skos file
+ * Converts manifest from any file format to inner memory representation
  */
 @Component
-@TestCaseIndex(index = "1.2.1")
-@TestParameters(names = { "version", "vocabulary" })
-public class DoublonsConceptsSkos implements TestCase {
+public interface ManifestParser {
+	/**
+	 * Retrieve manifest object when it's built
+	 * 
+	 * @return
+	 */
+	Manifest getManifest();
 
-	@Override
-	public Result getExecutionResult(Map<String, String> executionParameters) {
-		System.out.println(executionParameters);
-		Result result = new Result<>();
-		result.addError("u327", "Celui-ci est doublonné");
-		result.addError("u328", "Celui-là aussi");
-		return result;
-	}
+	/**
+	 * Load file data into parser for processing
+	 * 
+	 * @param manifestInputStream
+	 * @return
+	 * @throws IOException
+	 */
+	ManifestParser load(InputStream manifestInputStream) throws IOException;
 
 }

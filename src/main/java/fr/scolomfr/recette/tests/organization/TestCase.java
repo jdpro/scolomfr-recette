@@ -2,7 +2,8 @@
  * 
  * Scolomfr Recette
  * 
- * Copyright (C) 2017  MENESR (DNE), J.Dornbusch
+ * Copyright (C) 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche
+ * Copyright (C) 2017 Joachim Dornbusch
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,10 +23,21 @@ package fr.scolomfr.recette.tests.organization;
 
 import java.util.Map;
 
-import fr.scolomfr.recette.tests.execution.Result;
+import fr.scolomfr.recette.tests.execution.async.TestCaseExecutionRegistry;
+import fr.scolomfr.recette.tests.execution.result.Result;
 
-public interface TestCase {
+public interface TestCase extends Runnable {
 
-	Result getExecutionResult(Map<String, String> executionParameters);
+	void setExecutionParameters(Map<String, String> executionParameters);
+
+	Result getExecutionResult();
+
+	void setExecutionIdentifier(Integer counter);
+
+	void setExecutionRegistry(TestCaseExecutionRegistry testCaseExecutionRegistry);
+
+	Result temporaryResult();
+	
+	void reset();
 
 }

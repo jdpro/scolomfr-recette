@@ -19,32 +19,52 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.sources;
+package fr.scolomfr.recette.model.sources.manifest;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.util.Map;
 
-import org.springframework.stereotype.Component;
+import com.github.zafarkhaja.semver.Version;
 
 /**
- * Converts manifest from any file format to inner memory representation
+ * Inner memory representation of manifest file if embedded in scolomfr
+ * vocabularies delivery
  */
-@Component
-public interface ManifestParser {
-	/**
-	 * Retrieve manifest object when it's built
-	 * 
-	 * @return
-	 */
-	Manifest getManifest();
+public class Manifest {
+
+	private String version;
+
+	private Version semanticVersion;
+	private Map<String, Map<String, String>> content;
 
 	/**
-	 * Load file data into parser for processing
-	 * 
-	 * @param manifestInputStream
-	 * @return
-	 * @throws IOException
+	 * Get version as raw string
 	 */
-	ManifestParser load(InputStream manifestInputStream) throws IOException;
+	public String getVersion() {
+		return version;
+	}
+
+	public void setVersion(String version) {
+		this.version = version;
+	}
+
+	public Map<String, Map<String, String>> getContent() {
+		return content;
+	}
+
+	public void setContent(Map<String, Map<String, String>> content) {
+		this.content = content;
+	}
+
+	/**
+	 * Get version as semantic version object
+	 * 
+	 * @return
+	 */
+	public Version getSemanticVersion() {
+		if (null == semanticVersion) {
+			semanticVersion = Version.valueOf(version);
+		}
+		return semanticVersion;
+	}
 
 }
