@@ -1,30 +1,41 @@
 structure:
-  coherence_interne:
-    label: Cohérence interne des vocabulaires
-    index: 1
+  completion_vocabulaires_normalises:
+    label: Complétion des vocabulaires issus de vocabulaires normalisés
+    index: 1.2
+    tests:
+      skos_vocabulaires_1_langues:
+        index: a3
+        label: SKOS Vocabulaire 1 Langues
+        format: skos
+  absence_anomalies_libelles_documentation:
+    label: Absence d'anomalies liées aux libellés ou à la documentation des concepts
+    index: 1.3
+    tests:
+      preflabels_dupliques_meme_branche:
+        index: a6
+        label: SKOS Recherche de prefLabel dupliqués dans la même branche
+        format: skos
+      omitted_or_invalid_tags:
+        index: q1
+        label: Omitted or Invalid Language Tags
+        format: skos
+  absence_anomalies_structurelles:
+    label: Absence d'anomalies structurelles
+    index: 1.4
+    tests:
+      orphan_concepts:
+        index: q10
+        label: Orphan concepts
+        format: skos
+  respect_format_serialisation:
+    label: Respect du format de sérialisation
+    index: 2.2
     folders:
-      absence_doublons_concepts:
-        label: Absence de libellés identiques sur deux concepts différents
-        index: 1.2
+      skos:
+        index: 2.2.1
+        label: SKOS
         tests:
-          skos:
-            label: VDEX
-            index: 1.2.2
-      absence_libelles_identiques:
-        label: Absence de libellés identiques sur deux concepts différents
-        index: 1.3
-        tests:
-          skos:
-            label: SKOS
-            index: 1.3.1
-  validite_technique:
-    label: Validité technique
-    index: 2
-    folders:
-      caracteres_autorises:
-        label: Jeux de caractères autorisés des libellés
-        index: 2.1
-        tests:
-          skos:
-            label: SKOS
-            index: 2.1.1
+          relation_clashes:
+            index: q25
+            label: Relation clashes
+            format: skos

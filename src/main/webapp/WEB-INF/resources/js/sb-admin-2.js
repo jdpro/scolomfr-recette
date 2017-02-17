@@ -3,6 +3,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+var $execButton;
 $(function() {
 	$('#side-menu').metisMenu({
 		toggle : true
@@ -26,7 +27,7 @@ $(function() {
 		} ]
 	});
 	$('#side-menu').removeClass("hidden");
-	var $execButton = $("#testcase-exec-form").find("button");
+	$execButton = $("#testcase-exec-form").find("button");
 	enableExecutionButton($execButton, true);
 	$("#testcase-exec-form").on('submit', function(e) {
 
@@ -40,6 +41,10 @@ $(function() {
 			success : function(json) {
 
 				displayResultArea(true);
+				if ($infoMessageTemplate) {
+					$("#errors-area").empty();
+					$("#infos-area").empty();
+				}
 				if (json.uri) {
 					executionTrackingUri = json.uri;
 					handleAsyncResponse()
@@ -60,7 +65,11 @@ function handleAsyncResponse() {
 		dataType : "json",
 		success : function(json) {
 			refreshMessages(json);
-			setTimeout(handleAsyncResponse, 1000);
+			if (json.state != 'FINAL') {
+				setTimeout(handleAsyncResponse, 500);
+			} else {
+				enableExecutionButton($execButton, true);
+			}
 		}
 	});
 
@@ -78,19 +87,34 @@ function refreshMessages(json) {
 		$errorMessageTemplate = $("#error-message-template").remove()
 				.removeClass("hidden");
 	}
-	displayMessages("errors-area", json.errors, $errorMessageTemplate)
-	displayMessages("infos-area", json.infos, $infoMessageTemplate)
+	var errors = new Array();
+	var infos = new Array();
+	$(json.messages).each(function(i, e) {
+		if (e.type == 'INFO') {
+			infos.push(e);
+		} else {
+			errors.push(e);
+		}
+	})
+	displayMessages("errors-area", errors, $errorMessageTemplate)
+	displayMessages("infos-area", infos, $infoMessageTemplate)
 }
 function displayMessages(areaId, messages, $template) {
 	$area = $("#" + areaId);
-	$area.empty();
-	var messageData, key, content, $messageBody;
+	var messageData, key, title, content, $messageBody;
 	for ( var index in messages) {
 		messageData = messages[index];
-		key = messageData.key ? messageData.key : "<empty>";
+		if (!messageData.key) {
+			continue;
+		}
+		key = messageData.key.replace(
+				/([\!"#$%&'()*+,./:;<=>?@\[\\\]\^`\{|\}~])/g, "\\$1");
+
+		title = messageData.title ? messageData.title : "<empty>";
 		content = messageData.content ? messageData.content : messageData;
 		$messageBody = $template.clone();
-		$messageBody.find("strong.key").text(key);
+		$messageBody.prop("id", key);
+		$messageBody.find("strong.title").text(title);
 		$messageBody.find("span.content").text(content);
 		$area.append($messageBody);
 	}
