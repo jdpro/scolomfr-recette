@@ -44,6 +44,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import fr.scolomfr.recette.tests.execution.async.TestCaseExecutionRegistry;
 import fr.scolomfr.recette.tests.execution.result.AsyncResult;
+import fr.scolomfr.recette.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.tests.execution.result.Message;
 import fr.scolomfr.recette.tests.execution.result.Result;
 import fr.scolomfr.recette.tests.organization.TestCase;
@@ -122,7 +123,12 @@ public class TestsController {
 	@ResponseBody
 	public ResponseEntity<Result> executeTest(HttpServletResponse response, @PathVariable("id") String id,
 			@RequestParam Map<String, String> executionParameters) {
-		return executeTestCaseSync(id, executionParameters);
+		try {
+			return executeTestCaseSync(id, executionParameters);
+		} catch (CloneNotSupportedException e) {
+			logger.error("Should not happen", e);
+		}
+		return null;
 	}
 
 	private ResponseEntity<AsyncResult> executeTestCaseAsync(String id, Map<String, String> executionParameters,
@@ -133,11 +139,11 @@ public class TestsController {
 			result.setStatus(AsyncResult.Status.MISSING);
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
 		}
+		testCase.reset();
 		testCase.setExecutionParameters(executionParameters);
 		Integer executionIdentifier = testCaseExecutionRegistry.newTestCaseExecution(testCase);
 		AsyncResult result = new AsyncResult();
 		result.setStatus(AsyncResult.Status.INITIATED);
-		System.out.println(request.getRequestURL().toString());
 
 		String executionTrackingUri = getExecutionTrackingUri(executionIdentifier, request.getRequestURL().toString());
 		result.setUri(executionTrackingUri);
@@ -150,6 +156,7 @@ public class TestsController {
 			url = new URL(urlStr);
 		} catch (MalformedURLException e) {
 			logger.error("Problem with urrent URI : {}", urlStr, e);
+			return null;
 		}
 		String scheme = url.getProtocol();
 		String host = url.getHost();
@@ -167,25 +174,27 @@ public class TestsController {
 		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
 		if (testCase == null) {
 			Result result = new Result();
-			result.addError(new Message("no_test", "There's no test under identifier " + id));
+			result.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_TEST.toString(),
+					"No such test case", "There's no test under identifier " + id));
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
 		}
 		testCase.setExecutionParameters(executionParameters);
 		testCase.run();
-		return new ResponseEntity<>((Result) testCase.getExecutionResult().clone(), HttpStatus.OK);
+		return new ResponseEntity<>(testCase.getExecutionResult(), HttpStatus.OK);
 	}
 
 	@RequestMapping(value = "/tests/async/{id:[0-9]+}", method = RequestMethod.GET)
 	@ResponseBody
 	public ResponseEntity<Result> trackTestExecution(HttpServletResponse response,
 			@PathVariable("id") Integer executionIdentifier) {
-		Result result = testCaseExecutionRegistry.getResult(executionIdentifier);
-		if (result == null) {
+		TestCase testCase = testCaseExecutionRegistry.getTestCase(executionIdentifier);
+		Result result;
+		if (testCase == null) {
 			result = new Result();
-			result.addError(
-					new Message("no_execution", "There's no execution under identifier " + executionIdentifier));
+			result.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_EXECUTION.toString(),
+					"No execution running", "There's no execution under identifier " + executionIdentifier));
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
 		}
-		return new ResponseEntity<>(result, HttpStatus.OK);
+		return new ResponseEntity<>(testCase.temporaryResult(), HttpStatus.OK);
 	}
 }

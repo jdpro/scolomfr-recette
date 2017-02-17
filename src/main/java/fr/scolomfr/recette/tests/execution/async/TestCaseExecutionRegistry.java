@@ -13,7 +13,7 @@ public class TestCaseExecutionRegistry {
 
 	private static Integer counter = 0;
 	private static Map<Integer, Thread> executions = new HashMap<>();
-	private static Map<Integer, Result> executionResults = new HashMap<>();
+	private static Map<Integer, TestCase> runningTestCases = new HashMap<>();
 
 	public TestCaseExecutionRegistry() {
 		counter = 0;
@@ -28,14 +28,14 @@ public class TestCaseExecutionRegistry {
 			Thread thread = new Thread(testCase);
 			thread.start();
 			executions.put(counter, thread);
-			executionResults.put(counter, testCase.getExecutionResult());
+			runningTestCases.put(counter, testCase);
 			return counter;
 		}
 	}
 
-	public Result getResult(final Integer executionIdentifier) {
-		if (executionResults.containsKey(executionIdentifier))
-			return executionResults.get(executionIdentifier);
+	public TestCase getTestCase(final Integer executionIdentifier) {
+		if (runningTestCases.containsKey(executionIdentifier))
+			return runningTestCases.get(executionIdentifier);
 		return null;
 	}
 

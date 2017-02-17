@@ -1,8 +1,6 @@
 package fr.scolomfr.recette.tests.execution.result;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.Stack;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -14,54 +12,41 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(namespace = "http://recette.scolomfr.fr/2017/1")
 @XmlRootElement(name = "result")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Result implements Cloneable {
+public class Result {
 
-	@XmlElementWrapper(name = "errors")
+	@XmlElementWrapper(name = "messages")
 	@XmlElement(name = "message")
-	private List<Message> errors;
+	private Stack<Message> messages;
 
-	@XmlElementWrapper(name = "infos")
-	@XmlElement(name = "message")
-	private List<Message> infos;
+	private State state;
 
 	public Result() {
-		errors = new ArrayList<>();
-		infos = new ArrayList<>();
+		messages = new Stack<>();
+		setState(State.TEMPORARY);
 	}
 
-	public List<Message> getInfos() {
-		return infos;
+	public synchronized Stack<Message> getMessages() {
+		return messages;
 	}
 
-	public void addInfo(Message message) {
-		this.infos.add(message);
+	public synchronized void addMessage(Message message) {
+		this.messages.add(message);
 	}
 
-	public void addInfo(String key, String content) {
-		this.addInfo(new Message(key, content));
+	public synchronized void addMessage(Message.Type type, String key, String title, String content) {
+		this.addMessage(new Message(type, key, title, content));
 	}
 
-	public List<Message> getErrors() {
-		return errors;
+	public State getState() {
+		return state;
 	}
 
-	public void setErrors(List<Message> errors) {
-		this.errors = errors;
+	public void setState(State state) {
+		this.state = state;
 	}
 
-	public void addError(Message message) {
-		this.errors.add(message);
-	}
-
-	public void addError(String key, String content) {
-		this.addError(new Message(key, content));
-
-	}
-	
-	
-
-	public Object clone() throws CloneNotSupportedException {
-		return super.clone();
+	public enum State {
+		TEMPORARY, FINAL;
 	}
 
 }

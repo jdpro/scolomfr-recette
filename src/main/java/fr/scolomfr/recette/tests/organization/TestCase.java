@@ -36,4 +36,8 @@ public interface TestCase extends Runnable {
 
 	void setExecutionRegistry(TestCaseExecutionRegistry testCaseExecutionRegistry);
 
+	Result temporaryResult();
+	
+	void reset();
+
 }

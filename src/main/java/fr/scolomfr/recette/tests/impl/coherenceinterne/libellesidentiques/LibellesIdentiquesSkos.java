@@ -26,10 +26,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.xml.transform.TransformerException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
-import javax.xml.xpath.XPathExpressionException;
 
 import org.apache.xpath.CachedXPathAPI;
 import org.slf4j.Logger;
@@ -37,7 +33,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import com.github.zafarkhaja.semver.Version;
@@ -45,12 +40,10 @@ import com.github.zafarkhaja.semver.Version;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuildException;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuilder;
-import fr.scolomfr.recette.model.sources.representation.utils.XPathEngineProvider;
 import fr.scolomfr.recette.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.tests.execution.result.Message;
-import fr.scolomfr.recette.tests.execution.result.Result;
+import fr.scolomfr.recette.tests.execution.result.Result.State;
 import fr.scolomfr.recette.tests.organization.AbstractTestCase;
-import fr.scolomfr.recette.tests.organization.TestCase;
 import fr.scolomfr.recette.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.tests.organization.TestParameters;
 import fr.scolomfr.recette.utils.log.Log;
@@ -68,31 +61,43 @@ public class LibellesIdentiquesSkos extends AbstractTestCase {
 	@Autowired
 	Catalog catalog;
 
-	@Autowired
-	XPathEngineProvider xPathEngineProvider;
-
 	@Override
 	public void run() {
 		String versionStr = executionParameters.get(TestParameters.Values.VERSION);
-		Version version = Version.valueOf(versionStr);
+		Version version;
+		try {
+			version = Version.valueOf(versionStr);
+		} catch (IllegalArgumentException e) {
+			logger.error("Le paramètre version {}  est absent ou incorrect", versionStr, e);
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString(), "Version incorrect",
+					String.format("Le paramètre version : '%s' est absent ou incorrect", versionStr));
+			return;
+		}
 		String vocabulary = executionParameters.get(TestParameters.Values.VOCABULARY);
+		if (StringUtils.isEmpty(vocabulary)) {
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString(), "Version incorrect",
+					"Le paramètre vocabulary est absent");
+			return;
+		}
 		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(version, "skos", vocabulary);
 		if (null == filePath) {
-			result.addError(CommonMessageKeys.FILE_PROVIDED.toString(),
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
+					"Fichier indisponible",
 					String.format("Aucun fichier n'est fourni pour la version %s, le format %s et le vocabulaire %s",
 							version, "skos", vocabulary));
 			return;
 		}
-		result.addInfo(CommonMessageKeys.FILE_PROVIDED.toString(),
+		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
+				"Fichier disponible",
 				String.format("Chemin du fichier  pour la version %s, le format %s et le vocabulaire %s : %s", version,
 						"skos", vocabulary, filePath));
 		InputStream fileInputStream = catalog.getFileByPath(filePath);
 		if (null == fileInputStream) {
-			result.addError(CommonMessageKeys.FILE_OPENING.toString(),
-					String.format("Impossible d'ouvrir le fichier %s", filePath));
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+					"Fichier impossible à ouvrir", String.format("Impossible d'ouvrir le fichier %s", filePath));
 			return;
 		}
-		result.addInfo(CommonMessageKeys.FILE_OPENING.toString(),
+		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath, "Fichier ouvert",
 				String.format("L'ouverture du fichier %s a réussi", filePath));
 		Document vocabularyDocument;
 		try {
@@ -100,22 +105,18 @@ public class LibellesIdentiquesSkos extends AbstractTestCase {
 					.build();
 		} catch (SourceRepresentationBuildException e) {
 			logger.error("Impossible de lire le fichier {} comme du XML", filePath, e);
-			result.addError(CommonMessageKeys.FILE_FORMAT.toString(),
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath,
+					"XML illisible",
 					String.format("Impossible de lire le fichier %s comme du XML : %s", filePath, e.getMessage()));
 			return;
 		}
-		result.addInfo(CommonMessageKeys.FILE_FORMAT.toString(),
+		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, "XML lisible",
 				String.format("La lecture du fichier %s comme XML a réussi", filePath));
 
-		// XPath xpath = xPathEngineProvider.getXpath();
 		CachedXPathAPI xpath = new CachedXPathAPI();
-		String expressionStr = "/rdf:RDF/rdf:Description";// rdf:Description[skos:prefLabel=
-															// following::rdf:Description/skos:prefLabel]";
+		String expressionStr = "/rdf:RDF/rdf:Description";
 		NodeList descriptionNodes;
 		try {
-			// descriptionNodes = (NodeList) xpath.evaluate(expressionStr,
-			// vocabularyDocument.getDocumentElement(),
-			// XPathConstants.NODESET);
 			descriptionNodes = xpath.selectNodeList(vocabularyDocument.getDocumentElement(), expressionStr);
 			Map<String, String> identifiersByPrefLabel = new HashMap<>();
 			Element descriptionNode;
@@ -126,8 +127,6 @@ public class LibellesIdentiquesSkos extends AbstractTestCase {
 			for (int i = 0; i < descriptionNodes.getLength(); i++) {
 				descriptionNode = (Element) descriptionNodes.item(i);
 				expressionStr = "skos:prefLabel";
-				// prefLabelNodes = (NodeList) xpath.evaluate(expressionStr,
-				// descriptionNode, XPathConstants.NODESET);
 
 				prefLabelNodes = xpath.selectNodeList(descriptionNode, expressionStr);
 
@@ -144,15 +143,16 @@ public class LibellesIdentiquesSkos extends AbstractTestCase {
 				if (!identifiersByPrefLabel.containsKey(prefLabel)) {
 					identifiersByPrefLabel.put(prefLabel, identifier);
 				} else {
-					result.addError(new Message(prefLabel, String.format("%s et %s ont le même label préférentiel : %s",
-							identifier, identifiersByPrefLabel.get(prefLabel), prefLabel)));
+					String key = getIndex() + "_" + identifier + "_" + prefLabel;
+					if (Math.random() > 0.8)
+						result.addMessage(new Message(Message.Type.FAILURE, key, prefLabel,
+								String.format("%s et %s ont le même label préférentiel : %s", identifier,
+										identifiersByPrefLabel.get(prefLabel), prefLabel)));
 				}
 			}
-			// } catch (XPathExpressionException e) {
-			// // TODO Auto-generated catch block
-			// e.printStackTrace();
+			result.setState(State.FINAL);
+
 		} catch (TransformerException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

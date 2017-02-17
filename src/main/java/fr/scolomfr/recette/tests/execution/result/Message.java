@@ -26,8 +26,14 @@ public class Message {
 
 	private String content;
 
-	public Message(String key, String content) {
+	private String title;
+
+	private Type type;
+
+	public Message(Type type, String key, String title, String content) {
+		this.type = type;
 		this.key = key;
+		this.setTitle(title);
 		this.content = content;
 	}
 
@@ -45,5 +51,36 @@ public class Message {
 
 	public void setContent(String content) {
 		this.content = content;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public Type getType() {
+		return type;
+	}
+
+	public void setType(Type type) {
+		this.type = type;
+	}
+
+	public enum Type {
+		FAILURE("failure"), ERROR("error"), INFO("info");
+		private String value;
+
+		private Type(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
+
 	}
 }

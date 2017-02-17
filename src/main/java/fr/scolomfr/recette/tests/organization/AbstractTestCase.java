@@ -20,6 +20,7 @@
  */
 package fr.scolomfr.recette.tests.organization;
 
+import java.lang.annotation.Annotation;
 import java.util.Map;
 
 import fr.scolomfr.recette.tests.execution.async.TestCaseExecutionRegistry;
@@ -50,6 +51,31 @@ public abstract class AbstractTestCase implements TestCase {
 	@Override
 	public void setExecutionRegistry(TestCaseExecutionRegistry testCaseExecutionRegistry) {
 		this.testCaseExecutionRegistry = testCaseExecutionRegistry;
+	}
+
+	protected String getIndex() {
+		for (Annotation annotation : this.getClass().getDeclaredAnnotations()) {
+			if (annotation.annotationType().equals(TestCaseIndex.class)) {
+				return ((TestCaseIndex) annotation).index();
+			}
+		}
+		return null;
+	}
+
+	@Override
+	public Result temporaryResult() {
+		Result temporaryResult = new Result();
+		while (!this.result.getMessages().isEmpty()) {
+			temporaryResult.addMessage(this.result.getMessages().pop());
+		}
+		return temporaryResult;
+	}
+
+	@Override
+	public void reset() {
+		this.executionParameters = null;
+		this.result = new Result();
+		this.executionIdentifier = null;
 	}
 
 }
