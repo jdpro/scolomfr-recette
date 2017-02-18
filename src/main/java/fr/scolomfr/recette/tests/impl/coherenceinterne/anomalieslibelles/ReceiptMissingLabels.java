@@ -44,7 +44,7 @@ import fr.scolomfr.recette.tests.organization.TestParameters;
  */
 @TestCaseIndex(index = "q6")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
-public class LabelManquants extends AbstractTestCase {
+public class ReceiptMissingLabels extends AbstractTestCase {
 
 	@Autowired
 	QskosResultBuilder qskosResultBuilder;
