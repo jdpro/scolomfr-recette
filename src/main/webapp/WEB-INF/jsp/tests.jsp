@@ -9,7 +9,10 @@
 	
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="page-header">Test ${testCaseIndex} | ${folderLabel} / ${testCaseLabel}  </h1>
+					<h1 class="page-header">
+					<c:if test="${implemented}">Test  ${testCaseIndex} | ${testCaseLabel} </c:if> 
+				<c:if test="${!implemented}">Implémentation à venir </c:if>
+				</h1>
 				</div>
 				<!-- /.col-lg-12 -->
 			</div>
@@ -52,7 +55,7 @@
 				
 				</c:when>
 				<c:otherwise>
-					<span class="label label-default">Test non implémenté : </span> </c:otherwise>
+					<span class="label label-default">Test non disponible</span> </c:otherwise>
 				</c:choose>
 				
 			</div>

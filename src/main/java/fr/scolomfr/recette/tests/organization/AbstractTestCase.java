@@ -65,6 +65,7 @@ public abstract class AbstractTestCase implements TestCase {
 	@Override
 	public Result temporaryResult() {
 		Result temporaryResult = new Result();
+		temporaryResult.setState(this.result.getState());
 		while (!this.result.getMessages().isEmpty()) {
 			temporaryResult.addMessage(this.result.getMessages().pop());
 		}

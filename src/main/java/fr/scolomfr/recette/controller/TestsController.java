@@ -77,10 +77,9 @@ public class TestsController {
 	 * @param id
 	 * @return
 	 */
-	@RequestMapping(value = "/tests/{requirement}/{folder}/{format}/{id:.+}", method = RequestMethod.GET)
+	@RequestMapping(value = { "/tests/{requirement}/{format}/{id:.+}" }, method = RequestMethod.GET)
 	public ModelAndView displayTest(HttpServletResponse response, @PathVariable("requirement") String requirement,
-			@PathVariable("format") String format, @PathVariable("folder") String folder,
-			@PathVariable("id") String id) {
+			@PathVariable("format") String format, @PathVariable("id") String id) {
 		ModelAndView modelAndView = new ModelAndView("tests");
 		Object testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
 		if (testCase != null) {
@@ -89,8 +88,6 @@ public class TestsController {
 			modelAndView.addObject("parameters", testCase.getClass().getAnnotation(TestParameters.class) != null
 					? (testCase.getClass().getAnnotation(TestParameters.class)).names() : Collections.emptyList());
 			modelAndView.addObject("testCaseIndex", id);
-			modelAndView.addObject("folderLabel",
-					testsRepository.getTestOrganization().getFolderLabel(requirement, folder));
 			modelAndView.addObject("testCaseLabel", testsRepository.getTestOrganization().getTestCaseLabel(id));
 		} else {
 			modelAndView.addObject("implemented", false);
@@ -109,13 +106,12 @@ public class TestsController {
 	 * @param id
 	 * @return
 	 */
-	@RequestMapping(value = "/tests/{requirement}/{folder}/{format}/{id:.+}", method = RequestMethod.POST, produces = {
+	@RequestMapping(value = { "/tests/{requirement}/{format}/{id:.+}" }, method = RequestMethod.POST, produces = {
 			"application/xml", MediaType.APPLICATION_JSON_VALUE })
 	@ResponseBody
 	public ResponseEntity<AsyncResult> executeTest(HttpServletResponse response, HttpServletRequest request,
 			@PathVariable("requirement") String requirement, @PathVariable("format") String format,
-			@PathVariable("folder") String folder, @PathVariable("id") String id,
-			@RequestParam Map<String, String> executionParameters) {
+			@PathVariable("id") String id, @RequestParam Map<String, String> executionParameters) {
 		return executeTestCaseAsync(id, executionParameters, request);
 	}
 

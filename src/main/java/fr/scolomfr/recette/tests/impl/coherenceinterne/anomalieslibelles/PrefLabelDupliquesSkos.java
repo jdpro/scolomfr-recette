@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.tests.impl.coherenceinterne.libellesidentiques;
+package fr.scolomfr.recette.tests.impl.coherenceinterne.anomalieslibelles;
 
 import java.io.InputStream;
 import java.util.HashMap;
@@ -51,9 +51,9 @@ import fr.scolomfr.recette.utils.log.Log;
 /**
  * Two
  */
-@TestCaseIndex(index = "1.3.1")
+@TestCaseIndex(index = "a6")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
-public class LibellesIdentiquesSkos extends AbstractTestCase {
+public class PrefLabelDupliquesSkos extends AbstractTestCase {
 
 	@Log
 	Logger logger;
@@ -124,7 +124,8 @@ public class LibellesIdentiquesSkos extends AbstractTestCase {
 			Element prefLabelNode;
 			String identifier = null;
 			String prefLabel;
-			for (int i = 0; i < descriptionNodes.getLength(); i++) {
+			int descriptionNodesLength = descriptionNodes.getLength();
+			for (int i = 0; i < descriptionNodesLength; i++) {
 				descriptionNode = (Element) descriptionNodes.item(i);
 				expressionStr = "skos:prefLabel";
 
