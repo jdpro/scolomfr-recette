@@ -20,8 +20,16 @@ public class Result {
 
 	private State state;
 
+	@XmlElement(name = "error-count")
+	private int errorCount;
+
+	@XmlElement(name = "compliance-indicator")
+	private float complianceIndicator;
+
 	public Result() {
 		messages = new Stack<>();
+		setErrorCount(0);
+		setComplianceIndicator(0);
 		setState(State.TEMPORARY);
 	}
 
@@ -30,7 +38,7 @@ public class Result {
 	}
 
 	public synchronized void addMessage(Message message) {
-		this.messages.add(message);
+		this.messages.push(message);
 	}
 
 	public synchronized void addMessage(Message.Type type, String key, String title, String content) {
@@ -45,8 +53,28 @@ public class Result {
 		this.state = state;
 	}
 
+	public int getErrorCount() {
+		return errorCount;
+	}
+
+	public void setErrorCount(int errorCount) {
+		this.errorCount = errorCount;
+	}
+
+	public void incrementErrorCount() {
+		this.errorCount++;
+	}
+
+	public float getComplianceIndicator() {
+		return complianceIndicator;
+	}
+
+	public void setComplianceIndicator(float complianceIndicator) {
+		this.complianceIndicator = complianceIndicator;
+	}
+
 	public enum State {
-		TEMPORARY, FINAL;
+		TEMPORARY, FINAL, ABORTED;
 	}
 
 }

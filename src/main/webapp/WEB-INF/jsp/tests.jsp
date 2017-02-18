@@ -72,7 +72,7 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Erreurs
+                            Erreurs : <span id="error-count"></span>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body" id="errors-area">

@@ -124,7 +124,7 @@ public class SourcesController {
 		String pattern = (String) request.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE);
 		String filePath = new AntPathMatcher().extractPathWithinPattern(pattern, request.getServletPath());
 		logger.info("Request to display resource file {}", filePath);
-		try (InputStream inputStream = catalog.getFileByPath(filePath)) {
+		try (InputStream inputStream = catalog.getFileInputStreamByPath(filePath)) {
 			if (null == inputStream) {
 				logger.info("Resource file {} not found", filePath);
 			} else {
