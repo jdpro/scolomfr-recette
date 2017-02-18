@@ -159,7 +159,7 @@ public class TestsController {
 		String path = url.getPath().split("/test")[0];
 		int port = url.getPort();
 		String portPart = "";
-		if (port != 80 && port != 443) {
+		if (port > 0 && port != 80 && port != 443) {
 			portPart = ":" + port;
 		}
 		return scheme + "://" + host + portPart + path + "/tests/async/" + executionIdentifier;
