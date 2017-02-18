@@ -91,7 +91,7 @@ public class PrefLabelDupliquesSkos extends AbstractTestCase {
 				"Fichier disponible",
 				String.format("Chemin du fichier  pour la version %s, le format %s et le vocabulaire %s : %s", version,
 						"skos", vocabulary, filePath));
-		InputStream fileInputStream = catalog.getFileByPath(filePath);
+		InputStream fileInputStream = catalog.getFileInputStreamByPath(filePath);
 		if (null == fileInputStream) {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					"Fichier impossible à ouvrir", String.format("Impossible d'ouvrir le fichier %s", filePath));

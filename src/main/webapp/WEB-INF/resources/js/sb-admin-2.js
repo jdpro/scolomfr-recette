@@ -87,6 +87,8 @@ function refreshMessages(json) {
 		$errorMessageTemplate = $("#error-message-template").remove()
 				.removeClass("hidden");
 	}
+	var errorCount = (json.errorCount ? json.errorCount : 0);
+	displayErrorCount(errorCount);
 	var errors = new Array();
 	var infos = new Array();
 	$(json.messages).each(function(i, e) {
@@ -98,6 +100,19 @@ function refreshMessages(json) {
 	})
 	displayMessages("errors-area", errors, $errorMessageTemplate)
 	displayMessages("infos-area", infos, $infoMessageTemplate)
+}
+var $errorCountIndicator;
+var previousErrorCount;
+function displayErrorCount(errorCount) {
+	if (!$errorCountIndicator) {
+		$errorCountIndicator = $("#error-count")
+	}
+	$errorCountIndicator.text(errorCount);
+	if (previousErrorCount != errorCount) {
+		$errorCountIndicator.removeClass().addClass("label").addClass(
+				errorCount == 0 ? "label-success" : "label-danger");
+	}
+	previousErrorCount = errorCount;
 }
 function displayMessages(areaId, messages, $template) {
 	$area = $("#" + areaId);

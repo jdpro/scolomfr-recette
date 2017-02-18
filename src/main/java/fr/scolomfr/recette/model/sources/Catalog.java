@@ -21,6 +21,7 @@
  */
 package fr.scolomfr.recette.model.sources;
 
+import java.io.File;
 import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
@@ -75,7 +76,17 @@ public interface Catalog {
 	 * @param filePath
 	 * @return
 	 */
-	InputStream getFileByPath(String filePath);
+	InputStream getFileInputStreamByPath(String filePath);
+
+	/**
+	 * Returns temp file instead of stream
+	 * 
+	 * @see Catalog#getFileInputStreamByPath(String)
+	 * @param filePath
+	 * @param suffix
+	 * @return
+	 */
+	File getFileByPath(String filePath, String suffix);
 
 	/**
 	 * 

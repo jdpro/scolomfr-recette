@@ -21,8 +21,11 @@
  */
 package fr.scolomfr.recette.model.sources;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -36,6 +39,7 @@ import javax.annotation.PostConstruct;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
+import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.util.Pair;
@@ -216,8 +220,26 @@ public class CatalogImpl implements Catalog {
 	}
 
 	@Override
-	public InputStream getFileByPath(String filePath) {
+	public InputStream getFileInputStreamByPath(String filePath) {
 		return getResourcesLoader().loadResource(this.getVocabulariesDirectory() + "/" + filePath);
+
+	}
+
+	@Override
+	public File getFileByPath(String filePath, String suffix) {
+		String prefix = "recette_tmp_";
+		InputStream in = getFileInputStreamByPath(filePath);
+		File tempFile = null;
+		try {
+			tempFile = File.createTempFile(prefix, suffix);
+			tempFile.deleteOnExit();
+			try (OutputStream out = new FileOutputStream(tempFile)) {
+				IOUtils.copy(in, out);
+			}
+		} catch (IOException e) {
+			logger.error("Impossible to create temp file for filepath {}", filePath, e);
+		}
+		return tempFile;
 
 	}
 

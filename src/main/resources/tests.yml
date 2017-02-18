@@ -19,6 +19,10 @@ structure:
         index: q1
         label: Omitted or Invalid Language Tags
         format: skos
+      missing_labels:
+        index: q6
+        label: Missing labels
+        format: skos
   absence_anomalies_structurelles:
     label: Absence d'anomalies structurelles
     index: 1.4
