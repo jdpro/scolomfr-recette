@@ -11,7 +11,8 @@
 				<div class="col-lg-12">
 					<h1 class="page-header">
 					<c:if test="${implemented}">Test  ${testCaseIndex} | ${testCaseLabel} </c:if> 
-				<c:if test="${!implemented}">Implémentation à venir </c:if>
+				<c:if test="${!implemented}">
+						<spring:message code="tests.not_implemented"></spring:message> </c:if>
 				</h1>
 				</div>
 				<!-- /.col-lg-12 -->
@@ -23,8 +24,9 @@
 					<div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Test implémenté : ${implementation}
-                        </div>
+                           <spring:message code="tests.implemented"></spring:message> : ${implementation}
+                        
+							</div>
                         <div class="panel-body">
                             <div class="row">
                                     <form role="form" method="POST"
@@ -55,7 +57,8 @@
 				
 				</c:when>
 				<c:otherwise>
-					<span class="label label-default">Test non disponible</span> </c:otherwise>
+					<span class="label label-default"><spring:message
+							code="tests.not_available"></spring:message></span> </c:otherwise>
 				</c:choose>
 				
 			</div>
@@ -63,7 +66,9 @@
 			<section id="result-area" class="hidden">
 	        <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Résultat</h1>
+                    <h1 class="page-header">
+						<spring:message code="tests.result"></spring:message>
+					</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -72,7 +77,8 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Erreurs : <span id="error-count"></span>
+                            <spring:message code="tests.errors"></spring:message> : <span
+								id="error-count"></span>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body" id="errors-area">
@@ -92,7 +98,7 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Informations
+                            <spring:message code="tests.infos"></spring:message>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body" id="infos-area">

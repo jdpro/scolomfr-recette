@@ -3,7 +3,6 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <c:set value="/resources" var="baseResourcesPath" />
-<c:set value="Plate-forme de recette ScoLOMFR" var="pageTitle" />
 <spring:url value="/" var="home" />
 <spring:url
 	value="${baseResourcesPath}/vendor/bootstrap/css/bootstrap.min.css"
@@ -53,7 +52,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>${pageTitle}</title>
+<title><spring:message code="layout.title" /></title>
 
 <!-- Bootstrap Core CSS -->
 <link href="${bootstrapCss}" rel="stylesheet">
@@ -98,11 +97,24 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="${home}">${pageTitle}</a>
+				<a class="navbar-brand" href="${home}"><spring:message
+						code="layout.title" /></a>
 			</div>
 			<!-- /.navbar-header -->
 
 			<ul class="nav navbar-top-links navbar-right">
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#"> <i class="fa fa-flag fa-fw"></i>
+						<i class="fa fa-caret-down"></i>
+				</a>
+					<ul class="dropdown-menu dropdown-language">
+						<li><a href="<spring:url value=""></spring:url>?locale=fr"><i
+								class="fa fa-flag fa-fw"></i> <spring:message
+									code="layout.lang.fr"></spring:message> </a></li>
+						<li><a href="<spring:url value=""></spring:url>?locale=en"><i
+								class="fa fa-flag fa-fw"></i> <spring:message
+									code="layout.lang.en"></spring:message></a></li>
+					</ul> <!-- /.dropdown-language --></li>
 				<li class="dropdown"><a class="dropdown-toggle"
 					data-toggle="dropdown" href="#"> <i class="fa fa-user fa-fw"></i>
 						<i class="fa fa-caret-down"></i>
@@ -135,8 +147,8 @@
 								</span>
 							</div> <!-- /input-group -->
 						</li>
-						<li><a href="${home}"><i class="fa fa-home fa-fw"></i>
-								Accueil</a></li>
+						<li><a href="${home}"><i class="fa fa-home fa-fw"></i> <spring:message
+									code="nav.home"></spring:message></a></li>
 						<t:sources-nav></t:sources-nav>
 						<t:tests-nav></t:tests-nav>
 					</ul>

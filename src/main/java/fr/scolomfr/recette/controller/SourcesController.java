@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Locale;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -34,6 +35,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -45,6 +47,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
+import fr.scolomfr.recette.tests.execution.result.Message;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
@@ -55,6 +58,9 @@ public class SourcesController {
 
 	@Autowired
 	private Catalog catalog;
+
+	@Autowired
+	MessageSource ms;
 
 	@Log
 	Logger logger;
@@ -71,18 +77,22 @@ public class SourcesController {
 	 * @return
 	 */
 	@RequestMapping(value = "/sources/{by}/{criterium}")
-	public ModelAndView sources(HttpServletResponse response, @PathVariable("by") String by,
+	public ModelAndView sources(HttpServletResponse response, Locale locale, @PathVariable("by") String by,
 			@PathVariable("criterium") String criterium) {
 		ModelAndView modelAndView = new ModelAndView("sources");
 		List<String> headers = new ArrayList<>();
 		List<?> lines = Collections.emptyList();
 		switch (by) {
 		case "format":
-			headers.addAll(Arrays.asList("Version", "Vocabulaire", "Fichier"));
+			headers.addAll(Arrays.asList(ms.getMessage("sources.table.version", null, locale),
+					ms.getMessage("sources.table.vocabulary", null, locale),
+					ms.getMessage("sources.table.file", null, locale)));
 			lines = getFileFromProvidedFormatString(criterium);
 			break;
 		case "version":
-			headers.addAll(Arrays.asList("Format", "Vocabulaire", "Fichier"));
+			headers.addAll(Arrays.asList(ms.getMessage("sources.table.format", null, locale),
+					ms.getMessage("sources.table.vocabulary", null, locale),
+					ms.getMessage("sources.table.file", null, locale)));
 			lines = getFilesFromProvidedVersionString(criterium);
 			break;
 		default:
