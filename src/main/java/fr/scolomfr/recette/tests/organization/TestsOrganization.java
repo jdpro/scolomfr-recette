@@ -101,6 +101,7 @@ public class TestsOrganization {
 			String requirementKey = requirementsIterator.next();
 			Map<String, Map<String, Map<String, String>>> requirement = structure.get(requirementKey);
 			Map<String, Map<String, String>> folders = requirement.get(FOLDERS_KEY);
+			requestedTest = searchInTests(requestedIndex, requirement);
 			if (null == folders) {
 				continue;
 			}
@@ -108,16 +109,23 @@ public class TestsOrganization {
 			while (foldersIterator.hasNext() && requestedTest.isEmpty()) {
 				String folderKey = foldersIterator.next();
 				Map<String, ?> folder = folders.get(folderKey);
-				@SuppressWarnings("unchecked")
-				Map<String, Map<String, String>> tests = (Map<String, Map<String, String>>) folder.get("tests");
-				Iterator<String> testCasesIterator = tests.keySet().iterator();
-				while (testCasesIterator.hasNext() && requestedTest.isEmpty()) {
-					String formatKey = testCasesIterator.next();
-					Map<String, String> test = tests.get(formatKey);
-					String testIndex = test.get(INDEX_KEY);
-					requestedTest = (testIndex == null || !requestedIndex.equals(testIndex)) ? test : requestedTest;
-				}
+				requestedTest = searchInTests(requestedIndex, folder);
+			}
+		}
+		return requestedTest;
+	}
 
+	private Map<String, String> searchInTests(String requestedIndex, Map<String, ?> container) {
+		Map<String, String> requestedTest = Collections.emptyMap();
+		@SuppressWarnings("unchecked")
+		Map<String, Map<String, String>> tests = (Map<String, Map<String, String>>) container.get("tests");
+		if (tests != null) {
+			Iterator<String> testCasesIterator = tests.keySet().iterator();
+			while (testCasesIterator.hasNext() && requestedTest.isEmpty()) {
+				String formatKey = testCasesIterator.next();
+				Map<String, String> test = tests.get(formatKey);
+				String testIndex = test.get(INDEX_KEY);
+				requestedTest = (testIndex == null || !requestedIndex.equals(testIndex)) ? test : requestedTest;
 			}
 		}
 		return requestedTest;
