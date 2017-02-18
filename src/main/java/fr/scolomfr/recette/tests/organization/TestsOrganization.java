@@ -25,6 +25,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * Wrapper object for test structure taken from tests configuration file
  */
@@ -86,7 +88,7 @@ public class TestsOrganization {
 	 * @return
 	 */
 	public String getTestCaseLabel(String requestedIndex) {
-		Map<String, String> testCase = getTestCase(requestedIndex);
+		Map<String, String> testCase = getTestCaseInformation(requestedIndex);
 		if (null == testCase) {
 			return null;
 		} else {
@@ -94,14 +96,15 @@ public class TestsOrganization {
 		}
 	}
 
-	private Map<String, String> getTestCase(String requestedIndex) {
+	private Map<String, String> getTestCaseInformation(String requestedIndex) {
 		Iterator<String> requirementsIterator = structure.keySet().iterator();
 		Map<String, String> requestedTest = Collections.emptyMap();
 		while (requirementsIterator.hasNext() && requestedTest.isEmpty()) {
 			String requirementKey = requirementsIterator.next();
 			Map<String, Map<String, Map<String, String>>> requirement = structure.get(requirementKey);
+			requestedTest = searchInTestsBranch(requestedIndex, requirement);
 			Map<String, Map<String, String>> folders = requirement.get(FOLDERS_KEY);
-			requestedTest = searchInTests(requestedIndex, requirement);
+
 			if (null == folders) {
 				continue;
 			}
@@ -109,13 +112,13 @@ public class TestsOrganization {
 			while (foldersIterator.hasNext() && requestedTest.isEmpty()) {
 				String folderKey = foldersIterator.next();
 				Map<String, ?> folder = folders.get(folderKey);
-				requestedTest = searchInTests(requestedIndex, folder);
+				requestedTest = searchInTestsBranch(requestedIndex, folder);
 			}
 		}
 		return requestedTest;
 	}
 
-	private Map<String, String> searchInTests(String requestedIndex, Map<String, ?> container) {
+	private Map<String, String> searchInTestsBranch(String requestedIndex, Map<String, ?> container) {
 		Map<String, String> requestedTest = Collections.emptyMap();
 		@SuppressWarnings("unchecked")
 		Map<String, Map<String, String>> tests = (Map<String, Map<String, String>>) container.get("tests");
@@ -125,7 +128,7 @@ public class TestsOrganization {
 				String formatKey = testCasesIterator.next();
 				Map<String, String> test = tests.get(formatKey);
 				String testIndex = test.get(INDEX_KEY);
-				requestedTest = (testIndex == null || !requestedIndex.equals(testIndex)) ? test : requestedTest;
+				requestedTest = StringUtils.equals(testIndex, requestedIndex) ? test : requestedTest;
 			}
 		}
 		return requestedTest;

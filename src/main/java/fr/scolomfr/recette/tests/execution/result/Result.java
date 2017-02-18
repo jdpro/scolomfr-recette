@@ -20,10 +20,8 @@ public class Result {
 
 	private State state;
 
-	@XmlElement(name = "error-count")
 	private int errorCount;
 
-	@XmlElement(name = "compliance-indicator")
 	private float complianceIndicator;
 
 	public Result() {
