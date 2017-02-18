@@ -5,10 +5,12 @@
 <spring:url value="${sources}/format" var="sourcesbyFormat" />
 <spring:url value="${sources}/version" var="sourcesbyVersion" />
 
-<li><a href="sources"><i class="fa fa-file-code-o fa-fw"></i>
-		Sources<span class="fa arrow"></span></a>
+<li><a href="sources"><i class="fa fa-file-code-o fa-fw"></i> <spring:message
+			code="nav.sources"></spring:message><span class="fa arrow"></span></a>
 	<ul class="nav nav-second-level">
-		<li><a href="sources/version">Versions <span class="fa arrow"></span></a>
+		<li><a href="sources/version"><spring:message
+					code="nav.sources.versions"></spring:message> <span
+				class="fa arrow"></span></a>
 			<ul class="nav nav-third-level">
 				<c:forEach items="${versions}" var="version">
 					<%
@@ -18,7 +20,8 @@
 				</c:forEach>
 
 			</ul> <!-- /.nav-third-level --></li>
-		<li><a href="sources/formats">Formats <span class="fa arrow"></span></a>
+		<li><a href="sources/formats"><spring:message
+					code="nav.sources.formats"></spring:message> <span class="fa arrow"></span></a>
 			<ul class="nav nav-third-level">
 				<c:forEach items="${formats}" var="format">
 
