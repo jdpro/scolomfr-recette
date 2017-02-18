@@ -48,6 +48,7 @@ import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.tests.execution.result.Message;
+import fr.scolomfr.recette.utils.i18n.I18nProvider;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
@@ -59,11 +60,11 @@ public class SourcesController {
 	@Autowired
 	private Catalog catalog;
 
-	@Autowired
-	MessageSource ms;
-
 	@Log
 	Logger logger;
+
+	@Autowired
+	I18nProvider i18n;
 
 	/**
 	 * Displays vocabularies files by version or format
@@ -84,15 +85,13 @@ public class SourcesController {
 		List<?> lines = Collections.emptyList();
 		switch (by) {
 		case "format":
-			headers.addAll(Arrays.asList(ms.getMessage("sources.table.version", null, locale),
-					ms.getMessage("sources.table.vocabulary", null, locale),
-					ms.getMessage("sources.table.file", null, locale)));
+			headers.addAll(Arrays.asList(i18n.tr("sources.table.version"), i18n.tr("sources.table.vocabulary"),
+					i18n.tr("sources.table.file")));
 			lines = getFileFromProvidedFormatString(criterium);
 			break;
 		case "version":
-			headers.addAll(Arrays.asList(ms.getMessage("sources.table.format", null, locale),
-					ms.getMessage("sources.table.vocabulary", null, locale),
-					ms.getMessage("sources.table.file", null, locale)));
+			headers.addAll(Arrays.asList(i18n.tr("sources.table.format"), i18n.tr("sources.table.vocabulary"),
+					i18n.tr("sources.table.file")));
 			lines = getFilesFromProvidedVersionString(criterium);
 			break;
 		default:
