@@ -42,14 +42,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import fr.scolomfr.recette.tests.execution.async.TestCaseExecutionRegistry;
-import fr.scolomfr.recette.tests.execution.result.AsyncResult;
-import fr.scolomfr.recette.tests.execution.result.CommonMessageKeys;
-import fr.scolomfr.recette.tests.execution.result.Message;
-import fr.scolomfr.recette.tests.execution.result.Result;
-import fr.scolomfr.recette.tests.organization.TestCase;
-import fr.scolomfr.recette.tests.organization.TestParameters;
-import fr.scolomfr.recette.tests.organization.TestsRepository;
+import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
+import fr.scolomfr.recette.model.tests.execution.result.AsyncResult;
+import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
+import fr.scolomfr.recette.model.tests.execution.result.Message;
+import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.organization.TestCase;
+import fr.scolomfr.recette.model.tests.organization.TestParameters;
+import fr.scolomfr.recette.model.tests.organization.TestsRepository;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**

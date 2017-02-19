@@ -47,7 +47,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
-import fr.scolomfr.recette.tests.execution.result.Message;
+import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.utils.i18n.I18nProvider;
 import fr.scolomfr.recette.utils.log.Log;
 

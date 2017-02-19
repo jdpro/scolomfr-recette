@@ -26,8 +26,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-import fr.scolomfr.recette.tests.organization.TestsOrganization;
-import fr.scolomfr.recette.tests.organization.TestsRepository;
+import fr.scolomfr.recette.model.tests.organization.TestsOrganization;
+import fr.scolomfr.recette.model.tests.organization.TestsRepository;
 
 /**
  * Controller advice to add navbar information (sources structure by version and
