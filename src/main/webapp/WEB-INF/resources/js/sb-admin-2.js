@@ -77,6 +77,11 @@ function handleAsyncResponse() {
 				setTimeout(handleAsyncResponse, 500);
 			} else {
 				enableExecutionButton($execButton, true);
+				if (extractErrorCount(json) == 0) {
+					displayTestsModal($("#tests-modal-no-error-title").val(),
+							$("#tests-modal-no-error-content").val());
+				}
+
 			}
 		}
 	});
@@ -88,6 +93,10 @@ function displayResultArea(bool) {
 	bool ? $("section#result-area").removeClass("hidden") : $(
 			"section#result-area").addClass("hidden");
 }
+function extractErrorCount(json) {
+	var errorCount = (json.errorCount ? json.errorCount : 0);
+	return errorCount;
+}
 function refreshMessages(json) {
 	if (!$infoMessageTemplate) {
 		$infoMessageTemplate = $("#info-message-template").remove()
@@ -95,8 +104,8 @@ function refreshMessages(json) {
 		$errorMessageTemplate = $("#error-message-template").remove()
 				.removeClass("hidden");
 	}
-	var errorCount = (json.errorCount ? json.errorCount : 0);
-	displayErrorCount(errorCount);
+
+	displayErrorCount(extractErrorCount(json));
 	var errors = new Array();
 	var infos = new Array();
 	$(json.messages).each(function(i, e) {
@@ -141,6 +150,15 @@ function displayMessages(areaId, messages, $template) {
 		$messageBody.find("span.content").html(content);
 		$area.append($messageBody);
 	}
+}
+var $testsModal;
+function displayTestsModal(title, content) {
+	if (!$testsModal) {
+		$testsModal = $("#tests-modal");
+	}
+	$testsModal.find("h4").text(title);
+	$testsModal.find(".modal-body").text(content);
+	$testsModal.modal();
 }
 
 function enableExecutionButton($button, bool) {
