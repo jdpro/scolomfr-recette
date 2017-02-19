@@ -21,6 +21,7 @@
 package fr.scolomfr.recette.model.tests.impl;
 
 import java.io.File;
+import java.io.InputStream;
 import java.lang.annotation.Annotation;
 import java.util.Map;
 
@@ -170,6 +171,20 @@ public abstract class AbstractTestCase implements TestCase {
 				i18n.tr("test.impl.tempfile.available.title"),
 				i18n.tr("test.impl.tempfile.available.content", new Object[] { filePath }));
 		return file;
+	}
+
+	protected InputStream getFileInputStreamByPath(final String filePath) {
+		final InputStream fileInputStream = catalog.getFileInputStreamByPath(filePath);
+		if (null == fileInputStream) {
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+					i18n.tr("test.impl.file.unreadable.title"),
+					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath }));
+			stopTestCase();
+		}
+		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+				i18n.tr("test.impl.file.readable.title"),
+				i18n.tr("test.impl.file.readable.content", new Object[] { filePath }));
+		return fileInputStream;
 	}
 
 }

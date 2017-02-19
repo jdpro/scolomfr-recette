@@ -31,8 +31,8 @@
 			<param-value>true</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
-	</servlet>
 
+	</servlet>
 	<session-config>
 		<session-timeout>30</session-timeout>
 	</session-config>

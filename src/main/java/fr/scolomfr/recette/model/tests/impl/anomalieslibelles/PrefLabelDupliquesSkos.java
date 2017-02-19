@@ -22,141 +22,98 @@
 package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
 
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
-import javax.xml.transform.TransformerException;
-
-import org.apache.xpath.CachedXPathAPI;
-import org.slf4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.StringUtils;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.jena.graph.Node;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.Selector;
+import org.apache.jena.rdf.model.SimpleSelector;
+import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.StmtIterator;
+import org.springframework.data.util.Pair;
 
 import com.github.zafarkhaja.semver.Version;
 
-import fr.scolomfr.recette.model.sources.Catalog;
-import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuildException;
-import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuilder;
-import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
-import fr.scolomfr.recette.model.tests.impl.AbstractTestCase;
+import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
-import fr.scolomfr.recette.utils.log.Log;
 
 /**
  * Two
  */
 @TestCaseIndex(index = "a6")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
-public class PrefLabelDupliquesSkos extends AbstractTestCase {
-
-	@Log
-	Logger logger;
-
-	@Autowired
-	Catalog catalog;
+public class PrefLabelDupliquesSkos extends AbstractJenaTestCase {
 
 	@Override
 	public void run() {
-		String versionStr = executionParameters.get(TestParameters.Values.VERSION);
-		Version version;
-		try {
-			version = Version.valueOf(versionStr);
-		} catch (IllegalArgumentException e) {
-			logger.error("Le paramètre version {}  est absent ou incorrect", versionStr, e);
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString(), "Version incorrect",
-					String.format("Le paramètre version : '%s' est absent ou incorrect", versionStr));
-			return;
-		}
-		String vocabulary = executionParameters.get(TestParameters.Values.VOCABULARY);
-		if (StringUtils.isEmpty(vocabulary)) {
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString(), "Version incorrect",
-					"Le paramètre vocabulary est absent");
-			return;
-		}
-		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(version, "skos", vocabulary);
-		if (null == filePath) {
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
-					"Fichier indisponible",
-					String.format("Aucun fichier n'est fourni pour la version %s, le format %s et le vocabulaire %s",
-							version, "skos", vocabulary));
-			return;
-		}
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
-				"Fichier disponible",
-				String.format("Chemin du fichier  pour la version %s, le format %s et le vocabulaire %s : %s", version,
-						"skos", vocabulary, filePath));
-		InputStream fileInputStream = catalog.getFileInputStreamByPath(filePath);
-		if (null == fileInputStream) {
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
-					"Fichier impossible à ouvrir", String.format("Impossible d'ouvrir le fichier %s", filePath));
-			return;
-		}
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath, "Fichier ouvert",
-				String.format("L'ouverture du fichier %s a réussi", filePath));
-		Document vocabularyDocument;
-		try {
-			vocabularyDocument = new SourceRepresentationBuilder<Document>(Document.class).inputStream(fileInputStream)
-					.build();
-		} catch (SourceRepresentationBuildException e) {
-			logger.error("Impossible de lire le fichier {} comme du XML", filePath, e);
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath,
-					"XML illisible",
-					String.format("Impossible de lire le fichier %s comme du XML : %s", filePath, e.getMessage()));
-			return;
-		}
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, "XML lisible",
-				String.format("La lecture du fichier %s comme XML a réussi", filePath));
+		Version version = getVersion();
+		String vocabulary = getVocabulary();
+		String filePath = getFilePath(version, vocabulary, "skos");
+		final InputStream fileInputStream = getFileInputStreamByPath(filePath);
 
-		CachedXPathAPI xpath = new CachedXPathAPI();
-		String expressionStr = "/rdf:RDF/rdf:Description";
-		NodeList descriptionNodes;
-		try {
-			descriptionNodes = xpath.selectNodeList(vocabularyDocument.getDocumentElement(), expressionStr);
-			Map<String, String> identifiersByPrefLabel = new HashMap<>();
-			Element descriptionNode;
-			NodeList prefLabelNodes;
-			Element prefLabelNode;
-			String identifier = null;
-			String prefLabel;
-			int descriptionNodesLength = descriptionNodes.getLength();
-			for (int i = 0; i < descriptionNodesLength; i++) {
-				descriptionNode = (Element) descriptionNodes.item(i);
-				expressionStr = "skos:prefLabel";
-
-				prefLabelNodes = xpath.selectNodeList(descriptionNode, expressionStr);
-
-				if (prefLabelNodes.getLength() == 0) {
-					continue;
-				}
-				identifier = descriptionNode.getAttribute("rdf:about");
-
-				prefLabelNode = (Element) prefLabelNodes.item(0);
-				prefLabel = prefLabelNode.getTextContent();
-				if (StringUtils.isEmpty(prefLabel)) {
-					continue;
-				}
-				if (!identifiersByPrefLabel.containsKey(prefLabel)) {
-					identifiersByPrefLabel.put(prefLabel, identifier);
-				} else {
-					String key = getIndex() + "_" + identifier + "_" + prefLabel;
-					if (Math.random() > 0.8)
-						result.addMessage(new Message(Message.Type.FAILURE, key, prefLabel,
-								String.format("%s et %s ont le même label préférentiel : %s", identifier,
-										identifiersByPrefLabel.get(prefLabel), prefLabel)));
-				}
+		getModel().read(fileInputStream, null);
+		Map<String, List<Pair<String, Node>>> preflabelsOfChildren = new HashMap<>();
+		Property children = getModel().getProperty(SKOS_CORE, SKOS_NARROWER_PROPERTY);
+		Selector childrenSelector = new SimpleSelector((Resource) null, children, (RDFNode) null);
+		StmtIterator stmts = getModel().listStatements(childrenSelector);
+		Resource parent;
+		Node child;
+		List<Pair<String, Node>> prefLabels;
+		while (stmts.hasNext()) {
+			Statement statement = stmts.next();
+			parent = statement.getSubject();
+			child = statement.getObject().asNode();
+			String label = getPrefLabelFor(child);
+			if (StringUtils.isEmpty(label)) {
+				continue;
 			}
-			result.setState(State.FINAL);
-
-		} catch (TransformerException e) {
-			e.printStackTrace();
+			if (preflabelsOfChildren.containsKey(parent.getURI())) {
+				prefLabels = preflabelsOfChildren.get(parent.getURI());
+				for (Pair<String, Node> preflabel : prefLabels) {
+					if (StringUtils.equals(label, preflabel.getFirst())) {
+						// duplicate siblings
+						result.incrementErrorCount();
+						result.addMessage(
+								new Message(Message.Type.ERROR, getErrorCode(label + parent.getURI() + child.getURI()),
+										i18n.tr("tests.impl.a6.result.title"),
+										i18n.tr("tests.impl.a6.result.content", new Object[] { child.getURI(),
+												preflabel.getSecond().getURI(), label, parent.getURI() })));
+					}
+				}
+			} else {
+				preflabelsOfChildren.put(parent.getURI(), new ArrayList<>());
+			}
+			preflabelsOfChildren.get(parent.getURI()).add(Pair.of(label, child));
 		}
 
+		result.setState(State.FINAL);
+
+	}
+
+	private String getPrefLabelFor(Node node) {
+		Resource resource = getModel().getResource(node.getURI());
+		Property prefLabel = getModel().getProperty(SKOS_CORE, "prefLabel");
+		Selector selector = new SimpleSelector(resource, prefLabel, (RDFNode) null);
+		StmtIterator stmts = getModel().listStatements(selector);
+		while (stmts.hasNext()) {
+			Statement statement = stmts.next();
+			return ((Literal) statement.getObject()).getString();
+		}
+		return null;
 	}
 
 }

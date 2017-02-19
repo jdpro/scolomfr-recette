@@ -1,5 +1,4 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"
-	trimDirectiveWhitespaces="true"%>
+<%@ page language="java" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
