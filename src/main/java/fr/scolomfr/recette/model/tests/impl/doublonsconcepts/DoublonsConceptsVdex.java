@@ -19,41 +19,22 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.coherenceinterne.doublonsconcepts;
+package fr.scolomfr.recette.model.tests.impl.doublonsconcepts;
 
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
-import javax.xml.XMLConstants;
-import javax.xml.namespace.NamespaceContext;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.StringUtils;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.github.zafarkhaja.semver.Version;
-
 import fr.scolomfr.recette.model.sources.Catalog;
-import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuildException;
-import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuilder;
 import fr.scolomfr.recette.model.sources.representation.utils.XPathEngineProvider;
-import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
-import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
-import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.organization.AbstractTestCase;
-import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import fr.scolomfr.recette.utils.log.Log;
