@@ -149,10 +149,12 @@ public abstract class AbstractTestCase implements TestCase {
 			result.incrementErrorCount();
 			stopTestCase();
 
+		} else {
+			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
+					i18n.tr("test.impl.file.available.title"), i18n.tr("test.impl.file.available.content",
+							new Object[] { version, format, vocabulary, filePath }));
 		}
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
-				i18n.tr("test.impl.file.available.title"),
-				i18n.tr("test.impl.file.available.content", new Object[] { version, format, vocabulary, filePath }));
+
 		return filePath;
 	}
 
@@ -170,10 +172,11 @@ public abstract class AbstractTestCase implements TestCase {
 					i18n.tr("test.impl.tempfile.unavailable.content", new Object[] { filePath }));
 			result.incrementErrorCount();
 			stopTestCase();
+		} else {
+			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+					i18n.tr("test.impl.tempfile.available.title"),
+					i18n.tr("test.impl.tempfile.available.content", new Object[] { filePath }));
 		}
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
-				i18n.tr("test.impl.tempfile.available.title"),
-				i18n.tr("test.impl.tempfile.available.content", new Object[] { filePath }));
 		return file;
 	}
 
@@ -185,10 +188,11 @@ public abstract class AbstractTestCase implements TestCase {
 					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath }));
 			result.incrementErrorCount();
 			stopTestCase();
+		} else {
+			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+					i18n.tr("test.impl.file.readable.title"),
+					i18n.tr("test.impl.file.readable.content", new Object[] { filePath }));
 		}
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
-				i18n.tr("test.impl.file.readable.title"),
-				i18n.tr("test.impl.file.readable.content", new Object[] { filePath }));
 		return fileInputStream;
 	}
 
