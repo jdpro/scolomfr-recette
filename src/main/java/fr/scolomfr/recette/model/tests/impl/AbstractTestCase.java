@@ -120,6 +120,7 @@ public abstract class AbstractTestCase implements TestCase {
 			logger.error(msg, e);
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "version", title,
 					msg);
+			result.incrementErrorCount();
 			result.setState(State.FINAL);
 			stopTestCase();
 		}
@@ -133,6 +134,7 @@ public abstract class AbstractTestCase implements TestCase {
 			String msg = i18n.tr("test.impl.vocabulary.parameter.missing.content");
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "vocabulary", title,
 					msg);
+			result.incrementErrorCount();
 			stopTestCase();
 		}
 		return vocabulary;
@@ -144,6 +146,7 @@ public abstract class AbstractTestCase implements TestCase {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
 					i18n.tr("test.impl.file.unavailable.title"),
 					i18n.tr("test.impl.file.unavailable.content", new Object[] { version, format, vocabulary }));
+			result.incrementErrorCount();
 			stopTestCase();
 
 		}
@@ -165,6 +168,7 @@ public abstract class AbstractTestCase implements TestCase {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.tempfile.unavailable.title"),
 					i18n.tr("test.impl.tempfile.unavailable.content", new Object[] { filePath }));
+			result.incrementErrorCount();
 			stopTestCase();
 		}
 		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
@@ -179,6 +183,7 @@ public abstract class AbstractTestCase implements TestCase {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.file.unreadable.title"),
 					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath }));
+			result.incrementErrorCount();
 			stopTestCase();
 		}
 		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
