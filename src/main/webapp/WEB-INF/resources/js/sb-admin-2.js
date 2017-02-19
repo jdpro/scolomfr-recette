@@ -138,7 +138,7 @@ function displayMessages(areaId, messages, $template) {
 		$messageBody = $template.clone();
 		$messageBody.prop("id", key);
 		$messageBody.find("strong.title").text(title);
-		$messageBody.find("span.content").text(content);
+		$messageBody.find("span.content").html(content);
 		$area.append($messageBody);
 	}
 }
