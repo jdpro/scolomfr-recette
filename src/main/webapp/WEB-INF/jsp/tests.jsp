@@ -30,16 +30,11 @@
                         <div class="panel-body">
                             <div class="row">
                                     <form role="form" method="POST"
-										action="." id="testcase-exec-form">
-                                      
-                                        <c:forEach items="${parameters}"
-											var="parameter">
-						<t:parameters-switch tagname="${parameter}" />
-						</c:forEach>
+										action="." id="testcase-exec-form"><c:forEach items="${parameters}" var="parameter"><t:parameters-switch tagname="${parameter}" /></c:forEach>
                                         <div class="col-lg-12">
 											<button class="btn btn-default" type="submit">Exécuter <img
 													alt="Patientez" title="Patientez" class="hidden"
-													src='<spring:url value="${baseResourcesPath}/img/ajax-loader.gif"></spring:url>'>
+													src='<spring:url value="${baseResourcesPath}/img/ajax-loader.gif"></spring:url>' />
 											</button>
 										</div>
 										

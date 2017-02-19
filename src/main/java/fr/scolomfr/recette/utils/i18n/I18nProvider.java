@@ -20,16 +20,20 @@
  */
 package fr.scolomfr.recette.utils.i18n;
 
+import java.util.Locale;
+
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(value = "request", proxyMode = ScopedProxyMode.INTERFACES)
+@Scope(value = "singleton", proxyMode = ScopedProxyMode.INTERFACES)
 public interface I18nProvider {
 
 	String tr(String code);
 
 	String tr(String code, Object[] args);
+
+	void setLocale(Locale locale);
 
 }

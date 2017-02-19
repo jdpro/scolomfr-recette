@@ -22,6 +22,7 @@ package fr.scolomfr.recette.utils.i18n;
 
 import java.util.Locale;
 
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Scope;
@@ -29,19 +30,35 @@ import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Component;
 
+import fr.scolomfr.recette.utils.log.Log;
+
 @Component
 @Scope(value = "singleton", proxyMode = ScopedProxyMode.INTERFACES)
 public class I18nProviderImpl implements I18nProvider {
 	@Autowired
 	MessageSource ms;
 
+	@Log
+	Logger logger;
+
+	private Locale locale;
+
 	@Override
 	public String tr(final String code) {
 		return tr(code, null);
 	}
+
 	@Override
 	public String tr(final String code, Object[] args) {
-		return ms.getMessage(code, args, LocaleContextHolder.getLocale());
+		if (locale == null) {
+			locale = LocaleContextHolder.getLocale();
+		}
+		return ms.getMessage(code, args, locale);
+	}
+
+	@Override
+	public void setLocale(Locale locale) {
+		this.locale = locale;
 	}
 
 }

@@ -13,6 +13,14 @@ $(function() {
 		$(this).removeClass("hidden");
 
 	});
+	$('.dropdown-menu.dropdown-language li').on("click", function(e) {
+		e.preventDefault();
+		var newLocale = $(this).data("lang");
+		Cookies.set('locale', newLocale, {
+			path : '/'
+		});
+		location.reload();
+	});
 	$('table').DataTable({
 		"pageLength" : 50,
 		"columnDefs" : [ {

@@ -94,6 +94,9 @@ gulp.task('copy', function() {
 
     gulp.src(['bower_components/morrisjs/*.js', 'bower_components/morrisjs/*.css', '!bower_components/morrisjs/Gruntfile.js'])
         .pipe(gulp.dest('vendor/morrisjs'))
+        
+    gulp.src(['bower_components/js-cookie/src/*.js'])
+        .pipe(gulp.dest('vendor/js-cookie'))    
 
     gulp.src(['bower_components/raphael/raphael.js', 'bower_components/raphael/raphael.min.js'])
         .pipe(gulp.dest('vendor/raphael'))

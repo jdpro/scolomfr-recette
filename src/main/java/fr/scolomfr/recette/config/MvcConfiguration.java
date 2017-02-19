@@ -62,17 +62,23 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
 	@Bean
 	public LocaleResolver localeResolver() {
 		CookieLocaleResolver resolver = new CookieLocaleResolver();
-		resolver.setDefaultLocale(new Locale("en"));
-		resolver.setCookieName("localeCookie");
+		resolver.setDefaultLocale(new Locale("fr_FR"));
+		resolver.setCookieName("locale");
 		resolver.setCookieMaxAge(4800);
 		return resolver;
 	}
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
-		LocaleChangeInterceptor interceptor = new LocaleChangeInterceptor();
-		interceptor.setParamName("locale");
+		LocaleChangeInterceptor interceptor = customLocaleChangeInterceptor();
 		registry.addInterceptor(interceptor);
+	}
+
+	@Bean
+	public LocaleChangeInterceptor customLocaleChangeInterceptor() {
+		LocaleChangeInterceptor interceptor = new CustomLocaleChangeInterceptor();
+		interceptor.setParamName("locale");
+		return interceptor;
 	}
 
 	@Bean
