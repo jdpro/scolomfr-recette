@@ -21,66 +21,43 @@
  */
 package fr.scolomfr.recette.model.tests.impl.coherenceinterne.anomalieslibelles;
 
-import java.io.File;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
 
 import org.openrdf.model.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import com.github.zafarkhaja.semver.Version;
-
-import fr.scolomfr.recette.model.sources.representation.utils.QskosException;
-import fr.scolomfr.recette.model.sources.representation.utils.QskosResultBuilder;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
-import fr.scolomfr.recette.model.tests.organization.AbstractTestCase;
+import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * Look for Missing Labels
+ * @see at.ac.univie.mminf.qskos4j.issues.labels.MissingLabels
  */
 @TestCaseIndex(index = "q6")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
-public class MissingLabels extends AbstractTestCase {
-
-	@Autowired
-	QskosResultBuilder qskosResultBuilder;
+public class MissingLabels extends AbstractQskosTestCase<Collection<Resource>> {
 
 	@Override
-	public void run() {
-		Version version = getVersion();
-		final String vocabulary = getVocabulary();
+	protected String getQskosIssueCode() {
+		return "ml";
+	}
 
-		final String filePath = getFilePath(version, vocabulary, "skos");
-
-		final File file = getFileByPath(filePath);
-
-		Collection<Resource> data = Collections.emptyList();
-		try {
-			qskosResultBuilder.setFile(file).setIssueCode("ml");
-			result.addMessage(new Message(Message.Type.INFO, "qskos_label_manquant_lance_" + filePath,
-					"Lancement de qSkos", "L'utilitaire qSkos a été lancé, veuillez patienter."));
-			data = qskosResultBuilder.build();
-
-		} catch (QskosException e) {
-			logger.error("Problem with skos : {}", e.getMessage(), e);
-			result.addMessage(
-					new Message(Message.Type.FAILURE, "label_manquants_" + filePath, "Erreur skos", e.getMessage()));
-
+	@Override
+	protected void populateResult(Collection<Resource> data) {
+		if (data == null) {
+			return;
 		}
-
 		Iterator<Resource> it = data.iterator();
 
 		while (it.hasNext()) {
 			Resource resource = it.next();
 			result.incrementErrorCount();
-			result.addMessage(new Message(Message.Type.ERROR, resource.stringValue(), "Label manquant",
-					"La ressource " + resource.stringValue() + " n'a pas de prefLabel"));
+			result.addMessage(new Message(Message.Type.ERROR, getErrorCode(resource.stringValue()),
+					i18n.tr("tests.impl.qskos.ml.result.title"),
+					i18n.tr("tests.impl.qskos.ml.result.content", new Object[] { resource.stringValue() })));
 		}
-		result.setState(State.FINAL);
+
 	}
 
 }

@@ -35,10 +35,13 @@ public class I18nProviderImpl implements I18nProvider {
 	@Autowired
 	MessageSource ms;
 
-	private static Locale locale;
-
+	@Override
 	public String tr(final String code) {
-		return ms.getMessage(code, null, LocaleContextHolder.getLocale());
+		return tr(code, null);
+	}
+	@Override
+	public String tr(final String code, Object[] args) {
+		return ms.getMessage(code, args, LocaleContextHolder.getLocale());
 	}
 
 }

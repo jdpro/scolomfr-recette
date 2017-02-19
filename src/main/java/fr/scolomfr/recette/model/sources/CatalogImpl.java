@@ -45,7 +45,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
-import org.w3c.dom.Document;
 
 import com.github.zafarkhaja.semver.Version;
 

@@ -26,9 +26,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope(value = "request", proxyMode = ScopedProxyMode.INTERFACES)
-@FunctionalInterface
 public interface I18nProvider {
 
 	String tr(String code);
+
+	String tr(String code, Object[] args);
 
 }

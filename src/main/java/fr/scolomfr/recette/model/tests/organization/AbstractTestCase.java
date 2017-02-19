@@ -36,9 +36,12 @@ import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.utils.i18n.I18nProvider;
 import fr.scolomfr.recette.utils.log.Log;
 
 public abstract class AbstractTestCase implements TestCase {
+
+	protected static final String MESSAGE_ID_SEPARATOR = "_";
 
 	@Log
 	public Logger logger;
@@ -50,6 +53,9 @@ public abstract class AbstractTestCase implements TestCase {
 	protected Result result = new Result();
 	protected Integer executionIdentifier;
 	protected TestCaseExecutionRegistry testCaseExecutionRegistry;
+
+	@Autowired
+	protected I18nProvider i18n;
 
 	@Override
 	public void setExecutionParameters(Map<String, String> executionParameters) {
