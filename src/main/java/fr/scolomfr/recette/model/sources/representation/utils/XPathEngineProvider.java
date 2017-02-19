@@ -2,8 +2,8 @@
  * 
  * Scolomfr Recette
  * 
- * Copyright (C) 2017  MENESR (DNE), J.Dornbusch
- * 
+ * Copyright (C) 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche
+ * Copyright (C) 2017 Joachim Dornbusch 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -52,7 +52,7 @@ public class XPathEngineProvider {
 			}
 
 			@Override
-			public Iterator getPrefixes(String uri) {
+			public Iterator<?> getPrefixes(String uri) {
 				throw new UnsupportedOperationException();
 			}
 		};
