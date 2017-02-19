@@ -24,41 +24,37 @@ package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
 import java.util.Collection;
 import java.util.Iterator;
 
-import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelType;
-import at.ac.univie.mminf.qskos4j.issues.labels.util.LabeledConcept;
+import at.ac.univie.mminf.qskos4j.issues.labels.util.AmbiguousNotation;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.labels.UnprintableCharactersInLabels
+ * @see at.ac.univie.mminf.qskos4j.issues.conceptscheme.AmbiguousNotationReferences
  */
-@TestCaseIndex(index = "q7")
+@TestCaseIndex(index = "q9")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
-public class UnprintableCharactersInLabels extends AbstractQskosTestCase<Collection<LabeledConcept>> {
+public class AmbiguousNotationReferences extends AbstractQskosTestCase<Collection<AmbiguousNotation>> {
 
 	@Override
 	protected String getQskosIssueCode() {
-		return "ucil";
+		return "anr";
 	}
 
 	@Override
-	protected void populateResult(Collection<LabeledConcept> data) {
+	protected void populateResult(Collection<AmbiguousNotation> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<LabeledConcept> it = data.iterator();
+		Iterator<AmbiguousNotation> it = data.iterator();
 
 		while (it.hasNext()) {
-			LabeledConcept labeled = it.next();
-			String resourceStr = labeled.getConcept().stringValue();
-			LabelType labelType = labeled.getLabelType();
-			String literalStr = labeled.getLiteral().getLabel();
+			AmbiguousNotation an = it.next();
 			result.incrementErrorCount();
-			result.addMessage(new Message(Message.Type.ERROR, getErrorCode(resourceStr + labelType + literalStr),
-					i18n.tr("tests.impl.qskos.ucil.result.title"), i18n.tr("tests.impl.qskos.ucil.result.content",
-							new Object[] { resourceStr, literalStr, labelType })));
+			result.addMessage(new Message(Message.Type.ERROR, getErrorCode(an.toString()),
+					i18n.tr("tests.impl.qskos.anr.result.title"),
+					i18n.tr("tests.impl.qskos.anr.result.content", new Object[] { an.toString() })));
 		}
 
 	}
