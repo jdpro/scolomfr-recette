@@ -25,6 +25,7 @@ import java.util.Locale;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.context.NoSuchMessageException;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.context.i18n.LocaleContextHolder;
@@ -53,7 +54,12 @@ public class I18nProviderImpl implements I18nProvider {
 		if (locale == null) {
 			locale = LocaleContextHolder.getLocale();
 		}
-		return ms.getMessage(code, args, locale);
+		try {
+			return ms.getMessage(code, args, locale);
+		} catch (NoSuchMessageException e) {
+			logger.error("String code without translation :{}", code, e);
+			return "<empty>";
+		}
 	}
 
 	@Override

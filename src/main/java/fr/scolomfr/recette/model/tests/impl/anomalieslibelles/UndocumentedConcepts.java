@@ -24,44 +24,38 @@ package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
 import java.util.Collection;
 import java.util.Iterator;
 
+import org.openrdf.model.Resource;
+
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.language.NoCommonLanguages
+ * @see at.ac.univie.mminf.qskos4j.issues.concepts.UndocumentedConcepts
  */
-@TestCaseIndex(index = "q3")
+@TestCaseIndex(index = "q4")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
-public class NoCommonLanguages extends AbstractQskosTestCase<Collection<String>> {
+public class UndocumentedConcepts extends AbstractQskosTestCase<Collection<Resource>> {
 
 	@Override
 	protected String getQskosIssueCode() {
-		return "ncl";
+		return "uc";
 	}
 
 	@Override
-	protected void populateResult(Collection<String> data) {
+	protected void populateResult(Collection<Resource> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<String> it = data.iterator();
-		boolean commonLanguageFound = false;
+		Iterator<Resource> it = data.iterator();
+
 		while (it.hasNext()) {
-			String lang = it.next();
-			commonLanguageFound = true;
-
-			result.addMessage(new Message(Message.Type.INFO, getErrorCode(lang),
-					i18n.tr("tests.impl.qskos.ncl.result.info.title"),
-					i18n.tr("tests.impl.qskos.ncl.result.info.content", new Object[] { lang })));
-		}
-		if (!commonLanguageFound) {
+			Resource resource = it.next();
 			result.incrementErrorCount();
-			result.addMessage(new Message(Message.Type.ERROR, getErrorCode(""),
-					i18n.tr("tests.impl.qskos.ncl.result.error.title"),
-					i18n.tr("tests.impl.qskos.ncl.result.error.content", null)));
-
+			result.addMessage(new Message(Message.Type.ERROR, getErrorCode(resource.stringValue()),
+					i18n.tr("tests.impl.qskos.uc.result.title"),
+					i18n.tr("tests.impl.qskos.uc.result.content", new Object[] { resource.stringValue() })));
 		}
 
 	}
