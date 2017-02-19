@@ -13,6 +13,11 @@ $(function() {
 		$(this).removeClass("hidden");
 
 	});
+	if (!Cookies.get('locale')) {
+		Cookies.set('locale', "fr_FR", {
+			path : '/'
+		}); 
+	}
 	$('.dropdown-menu.dropdown-language li').on("click", function(e) {
 		e.preventDefault();
 		var newLocale = $(this).data("lang");
@@ -23,8 +28,8 @@ $(function() {
 	});
 	$('table').DataTable({
 		"pageLength" : 50,
-		"columnDefs" : [ {
-			"width" : "10%",
+	 	"columnDefs" : [ {
+	 		"width" : "10%",
 			"targets" : 0
 		}, {
 			"width" : "10%",
