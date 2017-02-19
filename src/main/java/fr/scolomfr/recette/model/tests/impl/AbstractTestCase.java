@@ -114,9 +114,11 @@ public abstract class AbstractTestCase implements TestCase {
 		try {
 			version = Version.valueOf(versionStr);
 		} catch (final IllegalArgumentException e) {
-			logger.error("Le paramètre version {}  est absent ou incorrect", versionStr, e);
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString(), "Version incorrect",
-					String.format("Le paramètre version : '%s' est absent ou incorrect", versionStr));
+			String title = i18n.tr("test.impl.version.parameter.missing.title");
+			String msg = i18n.tr("test.impl.version.parameter.missing.content", new Object[] { versionStr });
+			logger.error(msg, e);
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "version", title,
+					msg);
 			result.setState(State.FINAL);
 			stopTestCase();
 		}
@@ -126,8 +128,10 @@ public abstract class AbstractTestCase implements TestCase {
 	protected String getVocabulary() {
 		final String vocabulary = executionParameters.get(TestParameters.Values.VOCABULARY);
 		if (StringUtils.isEmpty(vocabulary)) {
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString(), "Version incorrect",
-					"Le paramètre vocabulary est absent");
+			String title = i18n.tr("test.impl.vocabulary.parameter.missing.title");
+			String msg = i18n.tr("test.impl.vocabulary.parameter.missing.content");
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "vocabulary", title,
+					msg);
 			stopTestCase();
 		}
 		return vocabulary;
@@ -137,16 +141,14 @@ public abstract class AbstractTestCase implements TestCase {
 		final String filePath = catalog.getFilePathByVersionFormatAndVocabulary(version, format, vocabulary);
 		if (null == filePath) {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
-					"Fichier indisponible",
-					String.format("Aucun fichier n'est fourni pour la version %s, le format %s et le vocabulaire %s",
-							version, "skos", vocabulary));
+					i18n.tr("test.impl.file.unavailable.title"),
+					i18n.tr("test.impl.file.unavailable.content", new Object[] { version, format, vocabulary }));
 			stopTestCase();
 
 		}
 		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
-				"Fichier disponible",
-				String.format("Chemin du fichier  pour la version %s, le format %s et le vocabulaire %s : %s", version,
-						"skos", vocabulary, filePath));
+				i18n.tr("test.impl.file.available.title"),
+				i18n.tr("test.impl.file.available.content", new Object[] { version, format, vocabulary, filePath }));
 		return filePath;
 	}
 
@@ -160,12 +162,13 @@ public abstract class AbstractTestCase implements TestCase {
 
 		if (null == file) {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
-					"Fichier inaccessible",
-					String.format("Impossible d'obtenir le fichier temporaire pour %s", filePath));
+					i18n.tr("test.impl.tempfile.unavailable.title"),
+					i18n.tr("test.impl.tempfile.unavailable.content", new Object[] { filePath }));
 			stopTestCase();
 		}
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath, "Fichier ouvert",
-				String.format("L'ouverture du fichier %s a réussi", filePath));
+		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+				i18n.tr("test.impl.tempfile.available.title"),
+				i18n.tr("test.impl.tempfile.available.content", new Object[] { filePath }));
 		return file;
 	}
 
