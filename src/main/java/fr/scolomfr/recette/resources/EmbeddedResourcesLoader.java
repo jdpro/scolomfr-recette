@@ -40,7 +40,6 @@ import fr.scolomfr.recette.utils.log.Log;
  * Handles files and directories from classpath
  */
 @Component
-@Scope("application")
 public class EmbeddedResourcesLoader implements ResourcesLoader {
 
 	@Log

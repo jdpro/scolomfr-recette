@@ -28,7 +28,6 @@ import java.util.Map;
 
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Component;
-import org.w3c.dom.Document;
 
 import com.github.zafarkhaja.semver.Version;
 

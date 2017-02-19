@@ -40,7 +40,6 @@ import fr.scolomfr.recette.utils.log.Log;
  * Handles files and directories from file system
  */
 @Component
-@Scope("application")
 public class FileSystemResourcesLoader implements ResourcesLoader {
 
 	@Log
