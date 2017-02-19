@@ -30,7 +30,6 @@ import fr.scolomfr.recette.model.sources.representation.utils.QskosException;
 import fr.scolomfr.recette.model.sources.representation.utils.QskosResultBuilder;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
-import fr.scolomfr.recette.model.tests.organization.AbstractTestCase;
 
 public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 

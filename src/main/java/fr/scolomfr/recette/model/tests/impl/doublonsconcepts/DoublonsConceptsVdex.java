@@ -34,7 +34,7 @@ import org.w3c.dom.NodeList;
 
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.sources.representation.utils.XPathEngineProvider;
-import fr.scolomfr.recette.model.tests.organization.AbstractTestCase;
+import fr.scolomfr.recette.model.tests.impl.AbstractTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import fr.scolomfr.recette.utils.log.Log;
