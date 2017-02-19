@@ -18,7 +18,7 @@
 	<c:when test="${tagname == 'version'}">
 		<t:version parameterName="${tagname}"><jsp:attribute
 				name="label">
-				<spring:message code="test.tested_version"></spring:message> </jsp:attribute></t:version><
+				<spring:message code="test.tested_version"></spring:message> </jsp:attribute></t:version>
 	</c:when>
 	<c:when test="${tagname == 'version2'}">
 		<t:version parameterName="${tagname}"><jsp:attribute

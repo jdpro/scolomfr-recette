@@ -23,6 +23,8 @@
 	var="datatablesResponsiveCss" />
 <spring:url value="${baseResourcesPath}/vendor/jquery/jquery.min.js"
 	var="jQueryJs" />
+<spring:url value="${baseResourcesPath}/vendor/js-cookie/js.cookie.js"
+	var="jsCookieJs" />
 <spring:url
 	value="${baseResourcesPath}/vendor/bootstrap/js/bootstrap.min.js"
 	var="bootstrapJs" />
@@ -103,15 +105,19 @@
 			<!-- /.navbar-header -->
 
 			<ul class="nav navbar-top-links navbar-right">
+				<li><form action="<spring:url value=""></spring:url>"
+						method="POST" id="lang_form">
+						<input type="hidden" name="locale" id="locale">${locale}</form></li>
 				<li class="dropdown"><a class="dropdown-toggle"
 					data-toggle="dropdown" href="#"> <i class="fa fa-flag fa-fw"></i>
 						<i class="fa fa-caret-down"></i>
 				</a>
+
 					<ul class="dropdown-menu dropdown-language">
-						<li><a href="<spring:url value=""></spring:url>?locale=fr"><i
+						<li data-lang="fr_FR"><a href="#"><i
 								class="fa fa-flag fa-fw"></i> <spring:message
-									code="layout.lang.fr"></spring:message> </a></li>
-						<li><a href="<spring:url value=""></spring:url>?locale=en"><i
+									code="layout.lang.fr"></spring:message></a></li>
+						<li data-lang="en_EN"><a href="#"><i
 								class="fa fa-flag fa-fw"></i> <spring:message
 									code="layout.lang.en"></spring:message></a></li>
 					</ul> <!-- /.dropdown-language --></li>
@@ -165,6 +171,9 @@
 
 	<!-- jQuery -->
 	<script src="${jQueryJs}"></script>
+
+	<!-- js-cookie -->
+	<script src="${jsCookieJs}"></script>
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="${bootstrapJs}"></script>

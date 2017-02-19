@@ -35,7 +35,6 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -47,7 +46,6 @@ import org.springframework.web.servlet.ModelAndView;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
-import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.utils.i18n.I18nProvider;
 import fr.scolomfr.recette.utils.log.Log;
 

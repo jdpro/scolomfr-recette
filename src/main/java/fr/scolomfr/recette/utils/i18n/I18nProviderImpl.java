@@ -2,8 +2,8 @@
  * 
  * Scolomfr Recette
  * 
- * Copyright (C) 2017  MENESR (DNE), J.Dornbusch
- * 
+ * Copyright (C) 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche
+ * Copyright (C) 2017 Joachim Dornbusch 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -22,12 +22,16 @@ package fr.scolomfr.recette.utils.i18n;
 
 import java.util.Locale;
 
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.context.NoSuchMessageException;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Component;
+
+import fr.scolomfr.recette.utils.log.Log;
 
 @Component
 @Scope(value = "singleton", proxyMode = ScopedProxyMode.INTERFACES)
@@ -35,10 +39,32 @@ public class I18nProviderImpl implements I18nProvider {
 	@Autowired
 	MessageSource ms;
 
-	private static Locale locale;
+	@Log
+	Logger logger;
 
+	private Locale locale;
+
+	@Override
 	public String tr(final String code) {
-		return ms.getMessage(code, null, LocaleContextHolder.getLocale());
+		return tr(code, null);
+	}
+
+	@Override
+	public String tr(final String code, Object[] args) {
+		if (locale == null) {
+			locale = LocaleContextHolder.getLocale();
+		}
+		try {
+			return ms.getMessage(code, args, locale);
+		} catch (NoSuchMessageException e) {
+			logger.error("String code without translation :{}", code, e);
+			return "<empty>";
+		}
+	}
+
+	@Override
+	public void setLocale(Locale locale) {
+		this.locale = locale;
 	}
 
 }

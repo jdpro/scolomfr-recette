@@ -31,15 +31,13 @@
                             <div class="row">
                                     <form role="form" method="POST"
 										action="." id="testcase-exec-form">
-                                      
-                                        <c:forEach items="${parameters}"
-											var="parameter">
-						<t:parameters-switch tagname="${parameter}" />
-						</c:forEach>
+										<c:forEach items="${parameters}" var="parameter">
+											<t:parameters-switch tagname="${parameter}" />
+										</c:forEach>
                                         <div class="col-lg-12">
 											<button class="btn btn-default" type="submit">Exécuter <img
 													alt="Patientez" title="Patientez" class="hidden"
-													src='<spring:url value="${baseResourcesPath}/img/ajax-loader.gif"></spring:url>'>
+													src='<spring:url value="${baseResourcesPath}/img/ajax-loader.gif"></spring:url>' />
 											</button>
 										</div>
 										
@@ -119,6 +117,11 @@
             </div>
             <!-- /.row -->
         </section>
+        <t:tests-modal></t:tests-modal>
+        <input id="tests-modal-no-error-title" type="hidden"
+			value='<spring:message code="tests.modal.no-error.title"></spring:message>' />
+        <input id="tests-modal-no-error-content" type="hidden"
+			value='<spring:message code="tests.modal.no-error.content"></spring:message>' />
     </jsp:body>
 </t:layout>
 

@@ -3,8 +3,7 @@
  * Scolomfr Recette
  * 
  * Copyright (C) 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche
- * Copyright (C) 2017 Joachim Dornbusch
- * 
+ * Copyright (C) 2017 Joachim Dornbusch 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -19,14 +18,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.coherenceinterne.anomalieslibelles;
+package fr.scolomfr.recette.model.tests.impl;
 
 import java.io.File;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
 
-import org.openrdf.model.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.github.zafarkhaja.semver.Version;
@@ -35,16 +30,12 @@ import fr.scolomfr.recette.model.sources.representation.utils.QskosException;
 import fr.scolomfr.recette.model.sources.representation.utils.QskosResultBuilder;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
-import fr.scolomfr.recette.model.tests.organization.AbstractTestCase;
-import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
-import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
-/**
- * Look for Missing Labels
- */
-@TestCaseIndex(index = "q6")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
-public class MissingLabels extends AbstractTestCase {
+public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
+
+	private static final String QSKOS_FAILURE_PREFIX = "qskos_failure_";
+
+	private static final String QSKOS_ERROR_PREFIX = "qskos_error_";
 
 	@Autowired
 	QskosResultBuilder qskosResultBuilder;
@@ -58,29 +49,33 @@ public class MissingLabels extends AbstractTestCase {
 
 		final File file = getFileByPath(filePath);
 
-		Collection<Resource> data = Collections.emptyList();
+		T data = null;
 		try {
-			qskosResultBuilder.setFile(file).setIssueCode("ml");
-			result.addMessage(new Message(Message.Type.INFO, "qskos_label_manquant_lance_" + filePath,
-					"Lancement de qSkos", "L'utilitaire qSkos a été lancé, veuillez patienter."));
+			qskosResultBuilder.setFile(file).setIssueCode(getQskosIssueCode());
+			result.addMessage(new Message(Message.Type.INFO, "qskos_ml_launched_" + filePath,
+					i18n.tr("tests.impl.qskos.launched.title"), i18n.tr("tests.impl.qskos.launched.content")));
 			data = qskosResultBuilder.build();
 
 		} catch (QskosException e) {
 			logger.error("Problem with skos : {}", e.getMessage(), e);
-			result.addMessage(
-					new Message(Message.Type.FAILURE, "label_manquants_" + filePath, "Erreur skos", e.getMessage()));
+			result.addMessage(new Message(Message.Type.FAILURE,
+					QSKOS_FAILURE_PREFIX + getQskosIssueCode() + MESSAGE_ID_SEPARATOR + filePath,
+					i18n.tr("tests.impl.qskos.failure.title"), e.getMessage()));
 
 		}
 
-		Iterator<Resource> it = data.iterator();
+		populateResult(data);
 
-		while (it.hasNext()) {
-			Resource resource = it.next();
-			result.incrementErrorCount();
-			result.addMessage(new Message(Message.Type.ERROR, resource.stringValue(), "Label manquant",
-					"La ressource " + resource.stringValue() + " n'a pas de prefLabel"));
-		}
 		result.setState(State.FINAL);
 	}
+
+	protected String getErrorCode(String identifier) {
+		return new StringBuilder().append(QSKOS_ERROR_PREFIX).append(getQskosIssueCode()).append(MESSAGE_ID_SEPARATOR)
+				.append(identifier).toString();
+	}
+
+	protected abstract void populateResult(T data);
+
+	protected abstract String getQskosIssueCode();
 
 }
