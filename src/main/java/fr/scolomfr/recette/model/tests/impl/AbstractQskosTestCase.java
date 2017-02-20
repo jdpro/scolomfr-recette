@@ -27,7 +27,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.representation.utils.QskosException;
-import fr.scolomfr.recette.model.sources.representation.utils.QskosResultBuilder;
+import fr.scolomfr.recette.model.sources.representation.utils.QskosEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
 
@@ -38,7 +38,7 @@ public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 	private static final String QSKOS_ERROR_PREFIX = "qskos_error_";
 
 	@Autowired
-	QskosResultBuilder qskosResultBuilder;
+	QskosEngine qskosEngine;
 
 	@Override
 	public void run() {
@@ -51,10 +51,10 @@ public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 
 		T data = null;
 		try {
-			qskosResultBuilder.setFile(file).setIssueCode(getQskosIssueCode());
+			qskosEngine.setFile(file).setIssueCode(getQskosIssueCode());
 			result.addMessage(new Message(Message.Type.INFO, "qskos_ml_launched_" + filePath,
 					i18n.tr("tests.impl.qskos.launched.title"), i18n.tr("tests.impl.qskos.launched.content")));
-			data = qskosResultBuilder.build();
+			data = qskosEngine.buildResultData();
 
 		} catch (QskosException e) {
 			logger.error("Problem with skos : {}", e.getMessage(), e);

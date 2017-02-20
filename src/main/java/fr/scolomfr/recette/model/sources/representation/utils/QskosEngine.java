@@ -40,7 +40,7 @@ import at.ac.univie.mminf.qskos4j.util.vocab.RepositoryBuilder;
 import fr.scolomfr.recette.utils.log.Log;
 
 @Component
-public class QskosResultBuilder {
+public class QskosEngine {
 	@Log
 	Logger logger;
 
@@ -48,8 +48,8 @@ public class QskosResultBuilder {
 
 	private String issueCode;
 
-	public <T> T build() throws QskosException {
-		if (file == null) {
+	public <T> T buildResultData() throws QskosException {
+		if (null == file) {
 			throw new QskosException("Please provide a file to analyse.");
 		}
 		if (StringUtils.isEmpty(issueCode)) {
@@ -88,12 +88,12 @@ public class QskosResultBuilder {
 		}
 	}
 
-	public QskosResultBuilder setFile(File file) {
+	public QskosEngine setFile(File file) {
 		this.file = file;
 		return this;
 	}
 
-	public QskosResultBuilder setIssueCode(String issueCode) {
+	public QskosEngine setIssueCode(String issueCode) {
 		this.issueCode = issueCode;
 		return this;
 	}

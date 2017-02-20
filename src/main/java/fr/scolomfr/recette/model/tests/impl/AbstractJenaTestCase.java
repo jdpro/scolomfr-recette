@@ -21,22 +21,21 @@
 package fr.scolomfr.recette.model.tests.impl;
 
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.github.zafarkhaja.semver.Version;
+
+import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 
 public abstract class AbstractJenaTestCase extends AbstractTestCase {
-	private static final String JENA_FAILURE_PREFIX = "qskos_failure_";
+	@Autowired
+	protected JenaEngine jenaEngine;
 
-	private static final String JENA_ERROR_PREFIX = "qskos_error_";
-	protected static final String SKOS_NARROWER_PROPERTY = "narrower";
-	protected static final String SKOS_BROADER_PROPERTY = "broader";
-	public static final String SKOS_CORE = "http://www.w3.org/2004/02/skos/core#";
-	private Model model;
+	private static final String JENA_ERROR_PREFIX = "jena_error_";
 
-	protected Model getModel() {
-		if (null == model) {
-			model = ModelFactory.createDefaultModel();
-		}
-		return model;
+	protected Model getModel(Version version, String vocabulary, String format) {
+		String filePath = getFilePath(version, vocabulary, format);
+		return jenaEngine.getModel(getFileInputStreamByPath(filePath));
 	}
 
 	protected String getErrorCode(String identifier) {
