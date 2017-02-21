@@ -102,9 +102,10 @@ structure:
         index: q23
         label: Undefined SKOS Resources
         format: skos
-      http_uriI_scheme_violation:
+      http_uri_scheme_violation:
         index: q24
         label: HTTP URI Scheme Violation
+        format: skos
   respect_format_serialisation:
     label: Respect du format de sérialisation
     index: 2.2
@@ -133,3 +134,11 @@ structure:
             index: q29
             label: Mapping Relations Misuse
             format: skos
+  absence_fautes_orthographe:
+    label: Absence de fautes d'orthographe
+    index: 3.1
+    tests:
+      verification_orthographe_skos:
+        label: SKOS Vérification de l'orthographe
+        index: a15
+        format: skos
