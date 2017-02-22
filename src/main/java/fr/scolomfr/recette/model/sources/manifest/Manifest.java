@@ -33,6 +33,8 @@ public class Manifest {
 
 	private String version;
 
+	private String folder;
+
 	private Version semanticVersion;
 	private Map<String, Map<String, String>> content;
 
@@ -65,6 +67,14 @@ public class Manifest {
 			semanticVersion = Version.valueOf(version);
 		}
 		return semanticVersion;
+	}
+
+	public String getFolder() {
+		return folder;
+	}
+
+	public void setFolder(String folder) {
+		this.folder = folder;
 	}
 
 }

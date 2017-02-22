@@ -1,0 +1,144 @@
+structure:
+  completion_vocabulaires_normalises:
+    label: Complétion des vocabulaires issus de vocabulaires normalisés
+    index: 1.2
+    tests:
+      skos_vocabulaires_1_langues:
+        index: a3
+        label: SKOS Vocabulaire 1 Langues
+        format: skos
+  absence_anomalies_libelles_documentation:
+    label: Absence d'anomalies liées aux libellés ou à la documentation des concepts
+    index: 1.3
+    tests:
+      preflabels_dupliques_meme_branche:
+        index: a6
+        label: SKOS Recherche de prefLabel dupliqués dans la même branche
+        format: skos
+      omitted_or_invalid_tags:
+        index: q1
+        label: Omitted or Invalid Language Tags
+        format: skos
+      incomplete_language_coverage:
+        index: q2
+        label: Incomplete Language Coverage
+        format: skos
+      no_common_language:
+        index: q3
+        label: No Common Language
+        format: skos
+      undocumented_concepts:
+        index: q4
+        label: Undocumented Concepts
+        format: skos
+      overlapping_labels:
+        index: q5
+        label: Overlapping Labels
+        format: skos
+      missing_labels:
+        index: q6
+        label: Missing labels
+        format: skos
+      unprintable_characters_in_labels:
+        index: q7
+        label: Unprintable Characters in Labels
+        format: skos
+      empty_labels:
+        index: q8
+        label: Empty Labels
+        format: skos
+      ambiguous_notation_references:
+        index: q9
+        label: Ambiguous Notation References
+        format: skos
+  absence_anomalies_structurelles:
+    label: Absence d'anomalies structurelles
+    index: 1.4
+    tests:
+      orphan_concepts:
+        index: q10
+        label: Orphan concepts
+        format: skos
+      disconnected_concept_clusters:
+        index: q11
+        label: Disconnected Concept Clusters
+        format: skos
+      cyclic_hierarchical_relations:
+        index: q12
+        label: Cyclic Hierarchical Relations
+        format: skos
+      valueless_associative_relations:
+        index: q13
+        label: Valueless Associative Relations
+        format: skos
+      solely_transitively_related_concepts:
+        index: q14
+        label: Solely Transitively Related Concepts
+        format: skos
+      unidirectionally_related_concepts:
+        index: q15
+        label: Unidirectionally Related Concepts
+        format: skos
+      omitted_top_concepts:
+        index: q16
+        label: Omitted Top Concepts
+        format: skos
+      top_concepts_having_broader_concepts:
+        index: q17
+        label: Top Concepts Having Broader Concepts
+        format: skos
+      hierarchical_redundancy:
+        index: q18
+        label: Hierarchical Redundancy
+        format: skos
+      reflexive_relations:
+        index: q19
+        label: Reflexive Relations
+  respect_regles_web_donnees:
+    label: Respect des règles du web de données
+    index: 2.1
+    tests:
+      undefined_skos_resources:
+        index: q23
+        label: Undefined SKOS Resources
+        format: skos
+      http_uri_scheme_violation:
+        index: q24
+        label: HTTP URI Scheme Violation
+        format: skos
+  respect_format_serialisation:
+    label: Respect du format de sérialisation
+    index: 2.2
+    folders:
+      skos:
+        index: 2.2.1
+        label: SKOS
+        tests:
+          relation_clashes:
+            index: q25
+            label: Relation clashes
+            format: skos
+          mapping_clashes:
+            index: q26
+            label: Mapping Clashes
+            format: skos
+          inconsistent_preferred_labels:
+            index: q27
+            label: Inconsistent Preferred Labels
+            format: skos
+          disjoint_labels_violation:
+            index: q28
+            label: Disjoint Labels Violation
+            format: skos
+          mapping_relations_misuse:
+            index: q29
+            label: Mapping Relations Misuse
+            format: skos
+  absence_fautes_orthographe:
+    label: Absence de fautes d'orthographe
+    index: 3.1
+    tests:
+      verification_orthographe_skos:
+        label: SKOS Vérification de l'orthographe
+        index: a15
+        format: skos

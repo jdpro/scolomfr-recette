@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} -
+				%msg%n</Pattern>
+		</layout>
+	</appender>
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+		<file>${user.home}/database.log</file>
+		<append>false</append>
+		<encoder>
+			<pattern>%-5relative %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="org.springframework" level="info" additivity="false">
+		<appender-ref ref="STDOUT" />
+	</logger>
+
+	<logger name="fr.scolomfr" level="debug" additivity="false">
+		<appender-ref ref="STDOUT" />
+	</logger>
+
+	<root level="debug">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</root>
+
+</configuration>

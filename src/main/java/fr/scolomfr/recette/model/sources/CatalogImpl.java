@@ -111,6 +111,7 @@ public class CatalogImpl implements Catalog {
 				}
 				logger.info("Manifest found, parsing data from " + manifestPath);
 				newManifest = manifestParser.load(manifestInputStream).getManifest();
+				newManifest.setFolder(scolomfrFolder.getFileName().toString());
 				logger.info("Version declared in manifest is " + newManifest.getSemanticVersion());
 				manifests.put(newManifest.getSemanticVersion(), newManifest);
 			} catch (IOException e) {
@@ -134,6 +135,7 @@ public class CatalogImpl implements Catalog {
 		while (it.hasNext()) {
 			Version version = it.next();
 			Manifest manifest = getManifests().get(version);
+			String folder = manifest.getFolder();
 			Map<String, Map<String, String>> content = manifest.getContent();
 			Iterator<String> it2 = content.keySet().iterator();
 			while (it2.hasNext()) {
@@ -145,7 +147,8 @@ public class CatalogImpl implements Catalog {
 				Iterator<String> it3 = vocabularies.keySet().iterator();
 				while (it3.hasNext()) {
 					String vocabulary = it3.next();
-					Pair<String, String> vocabularyPair = Pair.of(vocabulary, vocabularies.get(vocabulary));
+					Pair<String, String> vocabularyPair = Pair.of(vocabulary,
+							folder + "/" + vocabularies.get(vocabulary));
 					Pair<Version, Pair<String, String>> entryPair = Pair.of(version, vocabularyPair);
 					filesByFormat.add(entryPair);
 				}
@@ -169,6 +172,7 @@ public class CatalogImpl implements Catalog {
 		List<Pair<String, Pair<String, String>>> filesByVersion = new ArrayList<>();
 		Manifest manifest = getManifests().get(requestedVersion);
 		if (null != manifest) {
+			String folder = manifest.getFolder();
 			Map<String, Map<String, String>> content = manifest.getContent();
 			Iterator<String> it = content.keySet().iterator();
 			while (it.hasNext()) {
@@ -177,7 +181,8 @@ public class CatalogImpl implements Catalog {
 				Iterator<String> it2 = vocabularies.keySet().iterator();
 				while (it2.hasNext()) {
 					String vocabulary = it2.next();
-					Pair<String, String> vocabularyPair = Pair.of(vocabulary, vocabularies.get(vocabulary));
+					Pair<String, String> vocabularyPair = Pair.of(vocabulary,
+							folder + "/" + vocabularies.get(vocabulary));
 					Pair<String, Pair<String, String>> entryPair = Pair.of(format, vocabularyPair);
 					filesByVersion.add(entryPair);
 				}
@@ -205,7 +210,7 @@ public class CatalogImpl implements Catalog {
 			initialContext = new javax.naming.InitialContext();
 			return (String) initialContext.lookup("java:comp/env/" + SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
 		} catch (NamingException e) {
-			logger.error("Unable to get {} from initial context", SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME, e);
+			logger.debug("Unable to get {} from initial context", SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME, e);
 		}
 		return "";
 	}
@@ -246,14 +251,17 @@ public class CatalogImpl implements Catalog {
 	public String getFilePathByVersionFormatAndVocabulary(Version version, String format, String vocabulary) {
 		Manifest manifest = getManifests().get(version);
 		String filePath = null;
+		String folder;
 		if (null != manifest) {
+			folder = manifest.getFolder();
 			Map<String, Map<String, String>> content = manifest.getContent();
 			Map<String, String> vocabularies = content.get(format);
 			if (null != vocabularies) {
-				filePath = vocabularies.get(vocabulary);
+				filePath = folder + "/" + vocabularies.get(vocabulary);
 			}
 
 		}
+
 		return filePath;
 	}
 

@@ -40,7 +40,6 @@ import fr.scolomfr.recette.utils.log.Log;
  * Handles files and directories from classpath
  */
 @Component
-@Scope("application")
 public class EmbeddedResourcesLoader implements ResourcesLoader {
 
 	@Log
@@ -69,6 +68,9 @@ public class EmbeddedResourcesLoader implements ResourcesLoader {
 	@Override
 	public DirectoryStream<Path> loadDirectory(final String filePath) throws IOException {
 		URL url = EmbeddedResourcesLoader.class.getResource(filePath);
+		if (null == url) {
+			throw new RuntimeException("Impossible to load path " + filePath + " from classpath");
+		}
 		try {
 			Path path = Paths.get(url.toURI());
 			return Files.newDirectoryStream(path);
