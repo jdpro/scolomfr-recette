@@ -68,7 +68,7 @@ public class JenaEngine {
 
 	public enum Constant {
 		SKOS_CORE_NS("http://www.w3.org/2004/02/skos/core#"), SKOS_NARROWER_PROPERTY("narrower"), SKOS_BROADER_PROPERTY(
-				"broader"), SKOS_PRELABEL_PROPERTY("preflabel"), SKOS_ALTLABEL_PROPERTY(
+				"broader"), SKOS_PRELABEL_PROPERTY("prefLabel"), SKOS_ALTLABEL_PROPERTY(
 						"altlabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY("member");
 		private String value;
 

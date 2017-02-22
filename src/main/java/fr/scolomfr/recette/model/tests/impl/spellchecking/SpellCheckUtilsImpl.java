@@ -29,6 +29,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpellCheckUtilsImpl implements SpellCheckUtils {
 
+	private static final int WORDS_MIN_LENGTH = 3;
 	private static Pattern abbreviationsPattern = Pattern
 			.compile("^([A-Za-zàèéêîôûù]+\\.\\s*)+([A-Za-zàèéêîôûù]+\\.*\\s*)$");
 
@@ -40,8 +41,8 @@ public class SpellCheckUtilsImpl implements SpellCheckUtils {
 
 	@Override
 	public boolean isAWord(CharSequence label) {
-		if (StringUtils.isAllUpperCase(label) || StringUtils.containsAny(label, "1234567890/") || label.length() < 3
-				|| Character.isUpperCase(label.charAt(1))) {
+		if (StringUtils.isAllUpperCase(label) || StringUtils.containsAny(label, "1234567890/")
+				|| label.length() <= WORDS_MIN_LENGTH || Character.isUpperCase(label.charAt(1))) {
 			return false;
 		}
 		return true;
