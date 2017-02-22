@@ -75,7 +75,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <spring:message code="tests.errors"></spring:message> : <span
-								id="error-count"></span>
+								id="error-count"></span>&nbsp;
+								<span id="compliance-indicator-container" class="hidden">
+							 <spring:message code="tests.compliance"></spring:message> : <span
+								id="compliance-indicator"></span> %</span>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body" id="errors-area">

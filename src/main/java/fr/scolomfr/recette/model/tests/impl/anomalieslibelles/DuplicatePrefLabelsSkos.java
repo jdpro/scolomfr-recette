@@ -38,6 +38,7 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.springframework.data.util.Pair;
 
+import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
@@ -49,13 +50,14 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  */
 @TestCaseIndex(index = "a6")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
-public class PrefLabelDupliquesSkos extends AbstractJenaTestCase {
+public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 
 	@Override
 	public void run() {
 		Model model = getModel(getVersion(), getVocabulary(), "skos");
 		Map<String, List<Pair<String, Node>>> preflabelsOfChildren = new HashMap<>();
-		Property children = model.getProperty(jenaEngine.SKOS_CORE_NS, jenaEngine.SKOS_NARROWER_PROPERTY);
+		Property children = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
+				JenaEngine.Constant.SKOS_NARROWER_PROPERTY.toString());
 		Selector childrenSelector = new SimpleSelector((Resource) null, children, (RDFNode) null);
 		StmtIterator stmts = model.listStatements(childrenSelector);
 		Resource parent;

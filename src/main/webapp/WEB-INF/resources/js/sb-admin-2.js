@@ -16,7 +16,7 @@ $(function() {
 	if (!Cookies.get('locale')) {
 		Cookies.set('locale', "fr_FR", {
 			path : '/'
-		}); 
+		});
 	}
 	$('.dropdown-menu.dropdown-language li').on("click", function(e) {
 		e.preventDefault();
@@ -28,8 +28,8 @@ $(function() {
 	});
 	$('table').DataTable({
 		"pageLength" : 50,
-	 	"columnDefs" : [ {
-	 		"width" : "10%",
+		"columnDefs" : [ {
+			"width" : "10%",
 			"targets" : 0
 		}, {
 			"width" : "10%",
@@ -102,6 +102,11 @@ function extractErrorCount(json) {
 	var errorCount = (json.errorCount ? json.errorCount : 0);
 	return errorCount;
 }
+function extractComplianceIndicator(json) {
+	var complianceIndicator = (json.complianceIndicator ? json.complianceIndicator
+			: -1);
+	return complianceIndicator;
+}
 function refreshMessages(json) {
 	if (!$infoMessageTemplate) {
 		$infoMessageTemplate = $("#info-message-template").remove()
@@ -111,6 +116,10 @@ function refreshMessages(json) {
 	}
 
 	displayErrorCount(extractErrorCount(json));
+	var indicator = extractComplianceIndicator(json);
+
+	displayComplianceIndicator(indicator == -1 ? "hide" : Math
+			.round(indicator * 10000) / 100);
 	var errors = new Array();
 	var infos = new Array();
 	$(json.messages).each(function(i, e) {
@@ -135,6 +144,19 @@ function displayErrorCount(errorCount) {
 				errorCount == 0 ? "label-success" : "label-danger");
 	}
 	previousErrorCount = errorCount;
+}
+var $complianceIndicatorContainer, $complianceIndicator;
+function displayComplianceIndicator(complianceIndicator) {
+	if (!$complianceIndicatorContainer) {
+		$complianceIndicatorContainer = $("#compliance-indicator-container");
+		$complianceIndicator = $("#compliance-indicator");
+	}
+	if (complianceIndicator == "hide") {
+		$complianceIndicatorContainer.addClass("hidden");
+	} else {
+		$complianceIndicatorContainer.removeClass("hidden");
+		$complianceIndicator.text(complianceIndicator);
+	}
 }
 function displayMessages(areaId, messages, $template) {
 	$area = $("#" + areaId);

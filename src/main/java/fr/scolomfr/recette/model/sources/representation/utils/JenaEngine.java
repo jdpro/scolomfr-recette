@@ -39,10 +39,6 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope(value = "prototype")
 public class JenaEngine {
-	public final String SKOS_CORE_NS = "http://www.w3.org/2004/02/skos/core#";
-
-	public final String SKOS_NARROWER_PROPERTY = "narrower";
-	public final String SKOS_BROADER_PROPERTY = "broader";
 
 	public Model getModel(InputStream fileInputStream) {
 		Model model = ModelFactory.createDefaultModel();
@@ -52,7 +48,8 @@ public class JenaEngine {
 
 	public String getPrefLabelFor(Node node, Model model) {
 		Resource resource = model.getResource(node.getURI());
-		Property prefLabel = model.getProperty(SKOS_CORE_NS, "prefLabel");
+		Property prefLabel = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+				Constant.SKOS_PRELABEL_PROPERTY.toString());
 		Selector selector = new SimpleSelector(resource, prefLabel, (RDFNode) null);
 		StmtIterator stmts = model.listStatements(selector);
 		while (stmts.hasNext()) {
@@ -60,5 +57,29 @@ public class JenaEngine {
 			return ((Literal) statement.getObject()).getString();
 		}
 		return null;
+	}
+
+	public boolean memberOfVocab(Resource vocab, Resource subject, Model model) {
+		Property member = model.getProperty(Constant.SKOS_CORE_NS.toString(), Constant.SKOS_MEMBER_PROPERTY.toString());
+		Selector memberSelector = new SimpleSelector(vocab, member, subject);
+		StmtIterator stmtIterator = model.listStatements(memberSelector);
+		return stmtIterator.hasNext();
+	}
+
+	public enum Constant {
+		SKOS_CORE_NS("http://www.w3.org/2004/02/skos/core#"), SKOS_NARROWER_PROPERTY("narrower"), SKOS_BROADER_PROPERTY(
+				"broader"), SKOS_PRELABEL_PROPERTY("prefLabel"), SKOS_ALTLABEL_PROPERTY(
+						"altlabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY("member");
+		private String value;
+
+		private Constant(String value) {
+			this.value = value;
+		}
+
+		@Override
+		public String toString() {
+			return value;
+		}
+
 	}
 }
