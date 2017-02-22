@@ -29,4 +29,6 @@ public interface SpellCheckUtils {
 
 	boolean isAWord(CharSequence label);
 
+	String clean(String expression);
+
 }

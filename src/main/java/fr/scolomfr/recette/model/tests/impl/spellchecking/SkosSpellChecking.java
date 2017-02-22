@@ -21,13 +21,6 @@
  */
 package fr.scolomfr.recette.model.tests.impl.spellchecking;
 
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
@@ -39,8 +32,6 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.util.iterator.ExtendedIterator;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import com.atlascopco.hunspell.Hunspell;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
@@ -55,9 +46,6 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 @TestCaseIndex(index = "a15")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
 public class SkosSpellChecking extends AbstractJenaTestCase {
-
-	@Autowired
-	SpellCheckUtils spellCheckUtils;
 
 	@Autowired
 	SpellChecker spellChecker;
@@ -95,36 +83,56 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 			Property predicate = statement.getPredicate();
 
 			String label = labelLit.getString();
-			if (spellCheckUtils.isAbbr(label)) {
-				logger.debug("{} est une abbréviation", label);
-				continue;
-			}
-			label = label.replaceAll("[\\[\\]\\\"(),'_:;\\\\.…»]", " ");
-			String[] labelFragments = label.split("\\s+");
-			for (int i = 0; i < labelFragments.length; i++) {
+			String language = labelLit.getLanguage();
 
-				label = labelFragments[i];
-				if (!spellCheckUtils.isAWord(label)) {
-					continue;
+			try {
+				SpellCheckResult spellCheckResult = spellChecker.spell(label, language);
+				switch (spellCheckResult.getState()) {
+				case INVALID:
+					result.incrementErrorCount();
+					result.addMessage(new Message(Message.Type.ERROR,
+							getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
+							i18n.tr("tests.impl.a15.result.invalid.title"),
+							i18n.tr("tests.impl.a15.result.invalid.content",
+									new Object[] { statement.getSubject().getURI(), label,
+											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
+											language })));
+					break;
+				case PARTIALY_INVALID:
+					result.incrementErrorCount();
+					result.addMessage(new Message(Message.Type.ERROR,
+							getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
+							i18n.tr("tests.impl.a15.result.part.invalid.title"),
+							i18n.tr("tests.impl.a15.result.part.invalid.content",
+									new Object[] { statement.getSubject().getURI(), label,
+											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
+											language, spellCheckResult.getNonEvaluatedFragmentsAsString() })));
+					break;
+				case PARTIALY_VALID:
+					result.addMessage(new Message(Message.Type.INFO,
+							getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
+							i18n.tr("tests.impl.a15.result.part.valid.title"),
+							i18n.tr("tests.impl.a15.result.part.valid.content",
+									new Object[] { statement.getSubject().getURI(), label,
+											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
+											language, spellCheckResult.getNonEvaluatedFragmentsAsString() })));
+					break;
+
+				default:
+					break;
 				}
-				String language = labelLit.getLanguage();
-				try {
-					if (!spellChecker.spell(label, language)) {
-						result.incrementErrorCount();
-						result.addMessage(new Message(Message.Type.ERROR, getErrorCode(label + statement.getSubject()),
-								i18n.tr("tests.impl.a15.result.title"),
-								i18n.tr("tests.impl.a15.result.content", new Object[] { statement.getSubject().getURI(),
-										label, predicate.getLocalName(), language })));
-					}
-				} catch (NoDictionaryForLanguageException e) {
-					System.out.println(e.getMessage());
-				}
+			} catch (NoDictionaryForLanguageException e) {
+
+				String content = i18n.tr("tests.impl.a15.result.nodic.content", new Object[] { language });
+				logger.error(content, e);
+				result.addMessage(new Message(Message.Type.INFO,
+						getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
+						i18n.tr("tests.impl.a15.result.nodic.title"), content));
+				break;
 			}
 
 		}
-
 		result.setState(State.FINAL);
-
 	}
 
 }

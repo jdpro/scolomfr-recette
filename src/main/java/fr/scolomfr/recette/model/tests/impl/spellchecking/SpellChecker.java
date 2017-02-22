@@ -20,8 +20,9 @@
  */
 package fr.scolomfr.recette.model.tests.impl.spellchecking;
 
+@FunctionalInterface
 public interface SpellChecker {
 
-	boolean spell(String label, String language) throws NoDictionaryForLanguageException;
+	SpellCheckResult spell(String expression, String language) throws NoDictionaryForLanguageException;
 
 }

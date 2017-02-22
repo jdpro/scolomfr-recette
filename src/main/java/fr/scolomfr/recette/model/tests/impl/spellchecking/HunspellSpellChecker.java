@@ -25,19 +25,27 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import com.atlascopco.hunspell.Hunspell;
 
+import fr.scolomfr.recette.model.tests.impl.spellchecking.SpellCheckResult.State;
+
 @Component
 @PropertySource("classpath:/hunspell/language.properties")
 public class HunspellSpellChecker implements SpellChecker {
 
 	private static final String HUNSPELL_DIR = "hunspell/";
+
+	@Autowired
+	SpellCheckUtils spellCheckUtils;
+
 	private Map<String, Hunspell> spellers = new HashMap<>();
 
 	@Value("${fr.dic}")
@@ -49,36 +57,65 @@ public class HunspellSpellChecker implements SpellChecker {
 	@Value("${en.aff}")
 	String enAff;
 
+	@Override
+	public SpellCheckResult spell(String expression, String language) throws NoDictionaryForLanguageException {
+		if (null == spellers.get(language)) {
+			throw new NoDictionaryForLanguageException("No registered dictionary for language " + language);
+		}
+		String cleanExpression = spellCheckUtils.clean(expression);
+		String[] labelFragments = cleanExpression.split("\\s+");
+		SpellCheckResult result = new SpellCheckResult();
+		boolean partial = false;
+		boolean valid = true;
+		String labelFragment;
+		for (int i = 0; i < labelFragments.length; i++) {
+			labelFragment = labelFragments[i].trim();
+			if (!spellers.get(language).spell(labelFragment)) {
+				if (!spellCheckUtils.isAWord(labelFragment) || spellCheckUtils.isAbbr(labelFragment)) {
+					partial = true;
+					result.addNonEvaluatedFragment(labelFragment);
+					continue;
+				}
+				valid = false;
+				result.addInvalidFragment(labelFragment);
+			}
+		}
+		if (valid == true && partial == false) {
+			result.setState(State.VALID);
+		} else if (valid == true && partial == true) {
+			result.setState(State.PARTIALY_VALID);
+		} else if (valid == false && partial == false) {
+			result.setState(State.INVALID);
+		} else if (valid == false && partial == true) {
+			result.setState(State.PARTIALY_INVALID);
+		}
+
+		return result;
+	}
+
+	@PostConstruct
+	public void loadDictionaries() throws NoDictionaryForLanguageException {
+		addDictionay("en", enDic, enAff);
+		addDictionay("fr", frDic, frAff);
+	}
+
 	private void addDictionay(String language, String dic, String aff) throws NoDictionaryForLanguageException {
 		URL dicUrl = this.getClass().getClassLoader().getResource(HUNSPELL_DIR + dic);
 		URL affUrl = this.getClass().getClassLoader().getResource(HUNSPELL_DIR + aff);
 		if (null == dicUrl || null == affUrl) {
-			throw new NoDictionaryForLanguageException("There's no HunspellDictionaryForLanguage " + language);
+			throw new NoDictionaryForLanguageException("Missing Hunspell dictionary for language " + language
+					+ " should be in " + dic + " and affixes in " + aff);
 		}
 		spellers.put(language, new Hunspell(dicUrl.getPath(), affUrl.getPath()));
-
-	}
-
-	@Override
-	public boolean spell(String label, String language) throws NoDictionaryForLanguageException {
-		if (null == spellers.get(language)) {
-			if (language.equals("en")) {
-				addDictionay(language, enDic, enAff);
-			}
-			if (language.equals("fr")) {
-				addDictionay(language, frDic, frAff);
-			}
-		}
-		return spellers.get(language).spell(label);
 	}
 
 	@PreDestroy
 	public void close() {
 		for (Iterator<String> iterator = spellers.keySet().iterator(); iterator.hasNext();) {
 			String key = iterator.next();
-
 			spellers.get(key).close();
 		}
 
 	}
+
 }

@@ -47,4 +47,9 @@ public class SpellCheckUtilsImpl implements SpellCheckUtils {
 		return true;
 	}
 
+	@Override
+	public String clean(String expression) {
+		return expression.replaceAll("[«»/\\-\\[\\]\\\"(),'_:;\\\\.…»\\–]", " ");
+	}
+
 }
