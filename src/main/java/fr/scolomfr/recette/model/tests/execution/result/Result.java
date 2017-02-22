@@ -27,7 +27,7 @@ public class Result {
 	public Result() {
 		messages = new Stack<>();
 		setErrorCount(0);
-		setComplianceIndicator(0);
+		setComplianceIndicator(-1);
 		setState(State.TEMPORARY);
 	}
 

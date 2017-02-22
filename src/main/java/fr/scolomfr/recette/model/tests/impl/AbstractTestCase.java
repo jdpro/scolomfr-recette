@@ -196,4 +196,11 @@ public abstract class AbstractTestCase implements TestCase {
 		return fileInputStream;
 	}
 
+	protected void refreshComplianceIndicator(Result result, int numerator, int denominator) {
+		if (denominator != 0) {
+			result.setComplianceIndicator((float)numerator / (float)denominator);
+		}
+
+	}
+
 }

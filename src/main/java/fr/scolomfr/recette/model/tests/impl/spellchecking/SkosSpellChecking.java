@@ -52,6 +52,8 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 
 	@Override
 	public void run() {
+		int numerator = 0;
+		int denominator = 0;
 		Model model = getModel(getVersion(), getVocabulary(), "skos");
 
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
@@ -72,6 +74,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		Resource vocab024 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-024");
 
 		while (stmts.hasNext()) {
+			denominator++;
 			Statement statement = stmts.next();
 
 			if (jenaEngine.memberOfVocab(vocab001, statement.getSubject(), model)
@@ -90,6 +93,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 				switch (spellCheckResult.getState()) {
 				case INVALID:
 					result.incrementErrorCount();
+					numerator++;
 					result.addMessage(new Message(Message.Type.ERROR,
 							getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
 							i18n.tr("tests.impl.a15.result.invalid.title"),
@@ -130,6 +134,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 						i18n.tr("tests.impl.a15.result.nodic.title"), content));
 				break;
 			}
+			refreshComplianceIndicator(result, (denominator - numerator), denominator);
 
 		}
 		result.setState(State.FINAL);
