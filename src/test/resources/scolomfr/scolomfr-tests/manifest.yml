@@ -1,0 +1,5 @@
+version: 0.0.0
+content:
+  skos:
+    a6_dup_pref_lab_invalid: a6/a6_dup_pref_lab_invalid.skos
+    a6_dup_pref_lab_valid: a6/a6_dup_pref_lab_valid.skos
