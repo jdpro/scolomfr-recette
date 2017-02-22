@@ -2,6 +2,8 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="sec"
+	uri="http://www.springframework.org/security/tags"%>
 <c:set value="/resources" var="baseResourcesPath" />
 <t:layout>
 	<jsp:body>
@@ -87,7 +89,7 @@
                                 <strong class="title"></strong> : 
                                 <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <a
 									href="#" class="alert-link hidden"></a>.
-                            
+                            <a class="alert-link" href="#">Alert Link</a>
 							</div>
                         </div>
                         <!-- .panel-body -->

@@ -2,6 +2,8 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
+<%@ taglib prefix="sec"
+	uri="http://www.springframework.org/security/tags"%>
 <c:set value="/resources" var="baseResourcesPath" />
 <spring:url value="/" var="home" />
 <spring:url
@@ -53,6 +55,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+<sec:csrfMetaTags />
 
 <title><spring:message code="layout.title" /></title>
 
@@ -121,19 +124,7 @@
 								class="fa fa-flag fa-fw"></i> <spring:message
 									code="layout.lang.en"></spring:message></a></li>
 					</ul> <!-- /.dropdown-language --></li>
-				<li class="dropdown"><a class="dropdown-toggle"
-					data-toggle="dropdown" href="#"> <i class="fa fa-user fa-fw"></i>
-						<i class="fa fa-caret-down"></i>
-				</a>
-					<ul class="dropdown-menu dropdown-user">
-						<li><a href="#"><i class="fa fa-user fa-fw"></i> User
-								Profile</a></li>
-						<li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-						</li>
-						<li class="divider"></li>
-						<li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i>
-								Logout</a></li>
-					</ul> <!-- /.dropdown-user --></li>
+				<t:login-logout-control></t:login-logout-control>
 				<!-- /.dropdown -->
 			</ul>
 			<!-- /.navbar-top-links -->
