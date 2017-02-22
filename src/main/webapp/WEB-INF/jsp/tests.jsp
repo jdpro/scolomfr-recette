@@ -89,7 +89,11 @@
                                 <strong class="title"></strong> : 
                                 <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <a
 									href="#" class="alert-link hidden"></a>.
-                            <a class="alert-link" href="#">Alert Link</a>
+									<sec:authorize access="isAuthenticated()">
+                            <a
+										class="alert-link label label-info pull-right" href="#"><spring:message
+											code="tests.ignore"></spring:message></a>
+								</sec:authorize>
 							</div>
                         </div>
                         <!-- .panel-body -->
