@@ -2,7 +2,10 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
+<%@ taglib prefix="sec"
+	uri="http://www.springframework.org/security/tags"%>
 <c:set value="/resources" var="baseResourcesPath" />
+<spring:url value="" var="current" />
 <spring:url value="/" var="home" />
 <spring:url
 	value="${baseResourcesPath}/vendor/bootstrap/css/bootstrap.min.css"
@@ -53,6 +56,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+<sec:csrfMetaTags />
 
 <title><spring:message code="layout.title" /></title>
 
@@ -100,71 +104,38 @@
 						class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="${home}"><spring:message
-						code="layout.title" /></a>
+						code="layout.title" />${current}</a>
 			</div>
 			<!-- /.navbar-header -->
 
 			<ul class="nav navbar-top-links navbar-right">
-				<li><form action="<spring:url value=""></spring:url>"
-						method="POST" id="lang_form">
-						<input type="hidden" name="locale" id="locale">${locale}</form></li>
-				<li class="dropdown"><a class="dropdown-toggle"
-					data-toggle="dropdown" href="#"> <i class="fa fa-flag fa-fw"></i>
-						<i class="fa fa-caret-down"></i>
-				</a>
-
-					<ul class="dropdown-menu dropdown-language">
-						<li data-lang="fr_FR"><a href="#"><i
-								class="fa fa-flag fa-fw"></i> <spring:message
-									code="layout.lang.fr"></spring:message></a></li>
-						<li data-lang="en_EN"><a href="#"><i
-								class="fa fa-flag fa-fw"></i> <spring:message
-									code="layout.lang.en"></spring:message></a></li>
-					</ul> <!-- /.dropdown-language --></li>
-				<li class="dropdown"><a class="dropdown-toggle"
-					data-toggle="dropdown" href="#"> <i class="fa fa-user fa-fw"></i>
-						<i class="fa fa-caret-down"></i>
-				</a>
-					<ul class="dropdown-menu dropdown-user">
-						<li><a href="#"><i class="fa fa-user fa-fw"></i> User
-								Profile</a></li>
-						<li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-						</li>
-						<li class="divider"></li>
-						<li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i>
-								Logout</a></li>
-					</ul> <!-- /.dropdown-user --></li>
+				<t:lang-control></t:lang-control>
+				<t:login-logout-control></t:login-logout-control>
 				<!-- /.dropdown -->
 			</ul>
 			<!-- /.navbar-top-links -->
-
-			<div class="navbar-default sidebar" role="navigation">
-				<div class="sidebar-nav navbar-collapse">
-					<ul class="nav hidden" id="side-menu">
-						<li class="sidebar-search">
-							<div class="input-group custom-search-form">
-								<input type="text" class="form-control" disabled="disabled"
-									placeholder="Recherche (à venir)"> <span
-									class="input-group-btn">
-									<button class="btn btn-default" type="button"
-										disabled="disabled">
-										<i class="fa fa-search"></i>
-									</button>
-								</span>
-							</div> <!-- /input-group -->
-						</li>
-						<li><a href="${home}"><i class="fa fa-home fa-fw"></i> <spring:message
-									code="nav.home"></spring:message></a></li>
-						<t:sources-nav></t:sources-nav>
-						<t:tests-nav></t:tests-nav>
-					</ul>
+			<c:if test="${displayContainer}">
+				<div class="navbar-default sidebar" role="navigation">
+					<div class="sidebar-nav navbar-collapse">
+						<ul class="nav hidden" id="side-menu">
+							<t:search-nav></t:search-nav>
+							<li><a href="${home}"><i class="fa fa-home fa-fw"></i> <spring:message
+										code="nav.home"></spring:message></a></li>
+							<t:sources-nav></t:sources-nav>
+							<t:tests-nav></t:tests-nav>
+						</ul>
+					</div>
+					<!-- /.sidebar-collapse -->
 				</div>
-				<!-- /.sidebar-collapse -->
-			</div>
-			<!-- /.navbar-static-side -->
+				<!-- /.navbar-static-side -->
+			</c:if>
 		</nav>
-
-		<div id="page-wrapper"><jsp:doBody /></div>
+		<c:if test="${displayContainer}">
+			<div id="page-wrapper"><jsp:doBody /></div>
+		</c:if>
+		<c:if test="${!displayContainer}">
+			<jsp:doBody />
+		</c:if>
 
 	</div>
 	<!-- /#wrapper -->

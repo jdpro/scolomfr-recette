@@ -33,6 +33,7 @@ import org.apache.jena.rdf.model.Selector;
 import org.apache.jena.rdf.model.SimpleSelector;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.util.iterator.ExtendedIterator;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -61,15 +62,22 @@ public class JenaEngine {
 
 	public boolean memberOfVocab(Resource vocab, Resource subject, Model model) {
 		Property member = model.getProperty(Constant.SKOS_CORE_NS.toString(), Constant.SKOS_MEMBER_PROPERTY.toString());
+		Property topConcept = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+				Constant.SKOS_TOP_CONCEPT_PROPERTY.toString());
 		Selector memberSelector = new SimpleSelector(vocab, member, subject);
-		StmtIterator stmtIterator = model.listStatements(memberSelector);
-		return stmtIterator.hasNext();
+		Selector topConceptSelector = new SimpleSelector(vocab, topConcept, subject);
+
+		StmtIterator stmtIterator1 = model.listStatements(memberSelector);
+		StmtIterator stmtIterator2 = model.listStatements(topConceptSelector);
+		ExtendedIterator<Statement> stmts = stmtIterator1.andThen(stmtIterator2);
+		return stmts.hasNext();
 	}
 
 	public enum Constant {
 		SKOS_CORE_NS("http://www.w3.org/2004/02/skos/core#"), SKOS_NARROWER_PROPERTY("narrower"), SKOS_BROADER_PROPERTY(
 				"broader"), SKOS_PRELABEL_PROPERTY("prefLabel"), SKOS_ALTLABEL_PROPERTY(
-						"altlabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY("member");
+						"altlabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY(
+								"member"), SKOS_TOP_CONCEPT_PROPERTY("hasTopConcept");
 		private String value;
 
 		private Constant(String value) {

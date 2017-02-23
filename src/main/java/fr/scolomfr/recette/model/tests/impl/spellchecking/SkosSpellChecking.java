@@ -32,6 +32,7 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.util.iterator.ExtendedIterator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoOperations;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
@@ -94,13 +95,15 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 				case INVALID:
 					result.incrementErrorCount();
 					numerator++;
-					result.addMessage(new Message(Message.Type.ERROR,
-							getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
+					Message message = new Message(Message.Type.ERROR,
+							getErrorCode(Integer.toString(label.hashCode()) + '_' + statement.getSubject() + '_'
+									+ predicate.getLocalName()),
 							i18n.tr("tests.impl.a15.result.invalid.title"),
 							i18n.tr("tests.impl.a15.result.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
 											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
-											language })));
+											language }));
+					result.addMessage(message);
 					break;
 				case PARTIALY_INVALID:
 					result.incrementErrorCount();
