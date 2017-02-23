@@ -43,13 +43,17 @@ $(function() {
 	$execButton = $("#testcase-exec-form").find("button");
 	enableExecutionButton($execButton, true);
 	$("#testcase-exec-form").on('submit', function(e) {
-
+		var csrfParameter = $("meta[name='_csrf_parameter']").attr("content");
+		var csrfHeader = $("meta[name='_csrf_header']").attr("content");
+		var csrfToken = $("meta[name='_csrf']").attr("content");
 		e.preventDefault();
 		enableExecutionButton($execButton, false);
+		var data = $(this).serialize();
+		data += "&" + csrfParameter + "=" + csrfToken;
 		$.ajax({
 			url : $(this).attr('action'),
 			type : $(this).attr('method'),
-			data : $(this).serialize(),
+			data : data,
 			dataType : "json",
 			success : function(json) {
 
