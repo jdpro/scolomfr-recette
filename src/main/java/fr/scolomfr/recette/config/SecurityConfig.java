@@ -20,14 +20,20 @@
  */
 package fr.scolomfr.recette.config;
 
+import java.io.IOException;
+import java.util.Properties;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.PropertiesFactoryBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
@@ -38,17 +44,28 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
 	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().withUser("admin").password("123456").roles("ADMIN");
+		auth.userDetailsService(inMemoryUserDetailsManager());
+	}
+
+	@Bean
+	public InMemoryUserDetailsManager inMemoryUserDetailsManager() throws IOException {
+		Properties properties = propertiesfactory().getObject();
+		return new InMemoryUserDetailsManager(properties);
+	}
+
+	@Bean
+	public PropertiesFactoryBean propertiesfactory() {
+		PropertiesFactoryBean bean = new PropertiesFactoryBean();
+		bean.setLocation(new ClassPathResource("user.properties"));
+		return bean;
 	}
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-
 		http.authorizeRequests().antMatchers(HttpMethod.POST, "/**").permitAll().antMatchers(HttpMethod.GET, "/**")
 				.permitAll().and().formLogin().loginPage("/login").and().requestCache().and().logout()
 				.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
 				.logoutSuccessHandler(new CustomLogoutSuccessHandler()).permitAll();
-
 	}
 
 	@Bean

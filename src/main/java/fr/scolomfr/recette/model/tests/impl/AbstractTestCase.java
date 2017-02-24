@@ -212,4 +212,13 @@ public abstract class AbstractTestCase implements TestCase {
 		return null != status && status.equals("IGNORE");
 	}
 
+	protected String getErrorCode(String identifier) {
+		TestCaseIndex annotation = this.getClass().getAnnotation(TestCaseIndex.class);
+		String annotationValue = "";
+		if (null != annotation) {
+			annotationValue = annotation.index();
+		}
+		return new StringBuilder().append(annotationValue).append(MESSAGE_ID_SEPARATOR).append(identifier).toString();
+	}
+
 }

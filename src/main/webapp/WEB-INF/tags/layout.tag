@@ -15,6 +15,8 @@
 	var="metisMenuCss" />
 <spring:url value="${baseResourcesPath}/dist/css/sb-admin-2.min.css"
 	var="sbAdmin2Css" />
+<spring:url value="${baseResourcesPath}/dist/css/recette.min.css"
+	var="recetteCss" />
 <spring:url
 	value="${baseResourcesPath}/vendor/font-awesome/css/font-awesome.min.css"
 	var="fontAwesomeCss" />
@@ -45,6 +47,8 @@
 
 <spring:url value="${baseResourcesPath}/dist/js/sb-admin-2.js"
 	var="sbAdmin2Js" />
+<spring:url value="${baseResourcesPath}/dist/js/recette.js"
+	var="recetteJs" />
 
 <!DOCTYPE html>
 <html lang="en">
@@ -81,6 +85,7 @@
 
 <!-- Custom CSS -->
 <link href="${sbAdmin2Css}" rel="stylesheet">
+<link href="${recetteCss}" rel="stylesheet">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -160,6 +165,7 @@
 	<script src=""></script>
 	<!-- Custom Theme JavaScript -->
 	<script src="${sbAdmin2Js}"></script>
+	<script src="${recetteJs}"></script>
 
 </body>
 

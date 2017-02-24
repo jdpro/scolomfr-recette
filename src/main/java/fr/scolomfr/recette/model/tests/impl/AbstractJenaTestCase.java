@@ -31,15 +31,9 @@ public abstract class AbstractJenaTestCase extends AbstractTestCase {
 	@Autowired
 	protected JenaEngine jenaEngine;
 
-	private static final String JENA_ERROR_PREFIX = "jena_error_";
-
 	protected Model getModel(Version version, String vocabulary, String format) {
 		String filePath = getFilePath(version, vocabulary, format);
 		return jenaEngine.getModel(getFileInputStreamByPath(filePath));
-	}
-
-	protected String getErrorCode(String identifier) {
-		return new StringBuilder().append(JENA_ERROR_PREFIX).append(MESSAGE_ID_SEPARATOR).append(identifier).toString();
 	}
 
 }

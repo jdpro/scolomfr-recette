@@ -16,11 +16,19 @@ var banner = ['/*!\n',
     ''
 ].join('');
 
-// Compile LESS files from /less into /css
+//Compile LESS files from /less into /css
 gulp.task('less', function() {
     return gulp.src('less/sb-admin-2.less')
         .pipe(less())
         .pipe(header(banner, { pkg: pkg }))
+        .pipe(gulp.dest('dist/css'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+});
+gulp.task('less', function() {
+    return gulp.src('less/recette.less')
+        .pipe(less())
         .pipe(gulp.dest('dist/css'))
         .pipe(browserSync.reload({
             stream: true
@@ -37,11 +45,27 @@ gulp.task('minify-css', ['less'], function() {
             stream: true
         }))
 });
+gulp.task('minify-css', ['less'], function() {
+    return gulp.src('dist/css/recette.css')
+        .pipe(cleanCSS({ compatibility: 'ie8' }))
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(gulp.dest('dist/css'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+});
 
-// Copy JS to dist
+//Copy JS to dist
 gulp.task('js', function() {
     return gulp.src(['js/sb-admin-2.js'])
         .pipe(header(banner, { pkg: pkg }))
+        .pipe(gulp.dest('dist/js'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+})
+gulp.task('js', function() {
+    return gulp.src(['js/recette.js'])
         .pipe(gulp.dest('dist/js'))
         .pipe(browserSync.reload({
             stream: true
@@ -53,6 +77,15 @@ gulp.task('minify-js', ['js'], function() {
     return gulp.src('js/sb-admin-2.js')
         .pipe(uglify())
         .pipe(header(banner, { pkg: pkg }))
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(gulp.dest('dist/js'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+});
+gulp.task('minify-js', ['js'], function() {
+    return gulp.src('js/recette.js')
+        .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('dist/js'))
         .pipe(browserSync.reload({
