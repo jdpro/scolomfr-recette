@@ -84,17 +84,7 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body" id="errors-area">
-                            <div class="alert alert-danger hidden"
-								id="error-message-template">
-                                <strong class="title"></strong> : 
-                                <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <a
-									href="#" class="alert-link hidden"></a>.
-									<sec:authorize access="isAuthenticated()">
-                            <a
-										class="alert-link label label-info pull-right" href="#"><spring:message
-											code="tests.ignore"></spring:message></a>
-								</sec:authorize>
-							</div>
+                            
                         </div>
                         <!-- .panel-body -->
                     </div>
@@ -108,13 +98,7 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body" id="infos-area">
-                            <div class="alert alert-info hidden"
-								id="info-message-template">
-								<strong class="title"></strong> : 
-                                <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> <a
-									href="#" class="alert-link hidden"></a>.
-                            
-							</div>
+  
                         </div>
                         <!-- .panel-body -->
                     </div>
@@ -126,19 +110,22 @@
             <!-- /.row -->
         </section>
         <t:tests-modal></t:tests-modal>
+        <div class="hidden" id="message-template">
+                                <strong class="title"></strong> : 
+                                <span class="content"></span> <a
+				href="#" class="alert-link hidden"></a>.
+									<sec:authorize access="isAuthenticated()">
+                            <a
+					class="alert-link label label-info pull-right ignore-false-positive"
+					href="#"><spring:message code="tests.ignore"></spring:message></a>
+					<a
+					class="alert-link label label-info pull-right restore-true-positive"
+					href="#"><spring:message code="tests.restore"></spring:message></a>
+								</sec:authorize>
+							</div>
         <input id="tests-modal-no-error-title" type="hidden"
 			value='<spring:message code="tests.modal.no-error.title"></spring:message>' />
         <input id="tests-modal-no-error-content" type="hidden"
 			value='<spring:message code="tests.modal.no-error.content"></spring:message>' />
     </jsp:body>
 </t:layout>
-
-
-
-
-
-
-<
-
-
-

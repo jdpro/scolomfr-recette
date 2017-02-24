@@ -43,13 +43,11 @@ $(function() {
 	$execButton = $("#testcase-exec-form").find("button");
 	enableExecutionButton($execButton, true);
 	$("#testcase-exec-form").on('submit', function(e) {
-		var csrfParameter = $("meta[name='_csrf_parameter']").attr("content");
-		var csrfHeader = $("meta[name='_csrf_header']").attr("content");
-		var csrfToken = $("meta[name='_csrf']").attr("content");
+
 		e.preventDefault();
 		enableExecutionButton($execButton, false);
 		var data = $(this).serialize();
-		data += "&" + csrfParameter + "=" + csrfToken;
+		data += "&" + getCsrfParameter() + "=" + getCsrfToken();
 		$.ajax({
 			url : $(this).attr('action'),
 			type : $(this).attr('method'),
@@ -58,7 +56,7 @@ $(function() {
 			success : function(json) {
 
 				displayResultArea(true);
-				if ($infoMessageTemplate) {
+				if ($messageTemplate) {
 					$("#errors-area").empty();
 					$("#infos-area").empty();
 				}
@@ -73,8 +71,18 @@ $(function() {
 		});
 
 	});
+	$("#errors-area").on("click", handleFalsePositiveClick);
 
 });
+function getCsrfParameter() {
+	return $("meta[name='_csrf_parameter']").attr("content");
+}
+function getCsrfHeader() {
+	return $("meta[name='_csrf_header']").attr("content");
+}
+function getCsrfToken() {
+	return $("meta[name='_csrf']").attr("content");
+}
 var executionTrackingUri;
 function handleAsyncResponse() {
 	$.ajax({
@@ -96,8 +104,7 @@ function handleAsyncResponse() {
 	});
 
 }
-var $infoMessageTemplate;
-var $errorMessageTemplate;
+var $messageTemplate;
 function displayResultArea(bool) {
 	bool ? $("section#result-area").removeClass("hidden") : $(
 			"section#result-area").addClass("hidden");
@@ -112,10 +119,8 @@ function extractComplianceIndicator(json) {
 	return complianceIndicator;
 }
 function refreshMessages(json) {
-	if (!$infoMessageTemplate) {
-		$infoMessageTemplate = $("#info-message-template").remove()
-				.removeClass("hidden");
-		$errorMessageTemplate = $("#error-message-template").remove()
+	if (!$messageTemplate) {
+		$messageTemplate = $("#message-template").remove()
 				.removeClass("hidden");
 	}
 
@@ -133,8 +138,8 @@ function refreshMessages(json) {
 			errors.push(e);
 		}
 	})
-	displayMessages("errors-area", errors, $errorMessageTemplate)
-	displayMessages("infos-area", infos, $infoMessageTemplate)
+	displayMessages("errors-area", errors)
+	displayMessages("infos-area", infos)
 }
 var $errorCountIndicator;
 var previousErrorCount;
@@ -162,7 +167,7 @@ function displayComplianceIndicator(complianceIndicator) {
 		$complianceIndicator.text(complianceIndicator);
 	}
 }
-function displayMessages(areaId, messages, $template) {
+function displayMessages(areaId, messages) {
 	$area = $("#" + areaId);
 	var messageData, key, title, content, $messageBody;
 	for ( var index in messages) {
@@ -172,15 +177,40 @@ function displayMessages(areaId, messages, $template) {
 		}
 		key = messageData.key.replace(
 				/([\!"#$%&'()*+,./:;<=>?@\[\\\]\^`\{|\}~])/g, "\\$1");
-
 		title = messageData.title ? messageData.title : "<empty>";
 		content = messageData.content ? messageData.content : messageData;
-		$messageBody = $template.clone();
+		$messageBody = $messageTemplate.clone();
 		$messageBody.prop("id", key);
 		$messageBody.find("strong.title").text(title);
 		$messageBody.find("span.content").html(content);
+		updateMessageStyle($messageBody, messageData.type);
 		$area.append($messageBody);
 	}
+}
+function updateMessageStyle($messageBody, type) {
+	$messageBody.removeClass();
+	$messageBody.find("a").removeProp("disabled");
+	var $falsePositive = $messageBody.find(".ignore-false-positive");
+	var $truePositive = $messageBody.find(".restore-true-positive");
+	var styleClass = "alert ";
+	switch (type) {
+	case 'INFO':
+		styleClass += "alert-info";
+		$truePositive.hide();
+		$falsePositive.hide();
+		break;
+	case 'ERROR':
+		styleClass += "alert-danger";
+		$truePositive.hide();
+		$falsePositive.show();
+		break;
+	case 'IGNORED':
+		styleClass += "alert-warning";
+		$truePositive.show();
+		$falsePositive.hide();
+		break;
+	}
+	$messageBody.addClass(styleClass);
 }
 var $testsModal;
 function displayTestsModal(title, content) {
@@ -199,6 +229,42 @@ function enableExecutionButton($button, bool) {
 		$button.removeAttr("disabled").find("img").addClass("hidden");
 	}
 
+}
+function handleFalsePositiveClick(e) {
+	var $target = $(e.target);
+	var action = null;
+	if ($target.hasClass("ignore-false-positive")) {
+		action = "ignore-false-positive";
+	} else if ($target.hasClass("restore-true-positive")) {
+		action = "restore-true-positive";
+	} else {
+		return;
+	}
+	$target.prop("disabled", "disabled");
+	e.preventDefault();
+	var $message = $target.closest("div.alert");
+	if (!$message.length) {
+		return;
+	}
+	var key = $message.prop("id");
+	key = key.replace(/\\/g, "");
+	var contextPath = $("#context-path").val();
+	$
+			.ajax({
+				url : contextPath + "/tests/" + action,
+				type : 'POST',
+				data : "key=" + key + "&" + getCsrfParameter() + "="
+						+ getCsrfToken(),
+				dataType : "json",
+				success : function(json) {
+					if (json.state == "ACCEPTED") {
+						updateMessageStyle($message,
+								action == "ignore-false-positive" ? "IGNORED"
+										: "ERROR")
+					}
+
+				}
+			})
 }
 
 // Loads the correct sidebar on window load,

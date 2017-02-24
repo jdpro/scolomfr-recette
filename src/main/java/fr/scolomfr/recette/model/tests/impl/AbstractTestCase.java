@@ -27,6 +27,7 @@ import java.util.Map;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.util.StringUtils;
 
 import com.github.zafarkhaja.semver.Version;
@@ -52,6 +53,9 @@ public abstract class AbstractTestCase implements TestCase {
 
 	@Autowired
 	public Catalog catalog;
+
+	@Autowired
+	StringRedisTemplate stringRedisTemplate;
 
 	protected Map<String, String> executionParameters;
 	protected Result result = new Result();
@@ -198,9 +202,14 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected void refreshComplianceIndicator(Result result, int numerator, int denominator) {
 		if (denominator != 0) {
-			result.setComplianceIndicator((float)numerator / (float)denominator);
+			result.setComplianceIndicator((float) numerator / (float) denominator);
 		}
 
+	}
+
+	protected boolean errorIsIgnored(String key) {
+		String status = stringRedisTemplate.opsForValue().get(key);
+		return null != status && status.equals("IGNORE");
 	}
 
 }
