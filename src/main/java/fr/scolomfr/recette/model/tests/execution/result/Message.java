@@ -20,13 +20,8 @@
  */
 package fr.scolomfr.recette.model.tests.execution.result;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
-@Document(collection = "messages")
 public class Message {
 
-	@Id
 	private String key;
 
 	private String content;
@@ -38,7 +33,7 @@ public class Message {
 	public Message(Type type, String key, String title, String content) {
 		this.type = type;
 		this.key = key;
-		this.setTitle(title);
+		this.title = title;
 		this.content = content;
 	}
 
@@ -75,7 +70,7 @@ public class Message {
 	}
 
 	public enum Type {
-		FAILURE("failure"), ERROR("error"), INFO("info");
+		FAILURE("failure"), ERROR("error"), IGNORED("error"), INFO("info");
 		private String value;
 
 		private Type(String value) {

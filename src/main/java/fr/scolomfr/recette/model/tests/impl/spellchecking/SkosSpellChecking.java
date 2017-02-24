@@ -32,7 +32,6 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.util.iterator.ExtendedIterator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoOperations;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
@@ -91,13 +90,15 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 
 			try {
 				SpellCheckResult spellCheckResult = spellChecker.spell(label, language);
+				String errorCode = getErrorCode(statement, predicate, label);
+				boolean ignored = errorIsIgnored(errorCode);
 				switch (spellCheckResult.getState()) {
 				case INVALID:
-					result.incrementErrorCount();
-					numerator++;
-					Message message = new Message(Message.Type.ERROR,
-							getErrorCode(Integer.toString(label.hashCode()) + '_' + statement.getSubject() + '_'
-									+ predicate.getLocalName()),
+					if (!ignored) {
+						result.incrementErrorCount();
+						numerator++;
+					}
+					Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 							i18n.tr("tests.impl.a15.result.invalid.title"),
 							i18n.tr("tests.impl.a15.result.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
@@ -106,9 +107,11 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 					result.addMessage(message);
 					break;
 				case PARTIALY_INVALID:
-					result.incrementErrorCount();
-					result.addMessage(new Message(Message.Type.ERROR,
-							getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
+					if (!ignored) {
+						result.incrementErrorCount();
+						numerator++;
+					}
+					result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 							i18n.tr("tests.impl.a15.result.part.invalid.title"),
 							i18n.tr("tests.impl.a15.result.part.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
@@ -116,8 +119,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 											language, spellCheckResult.getNonEvaluatedFragmentsAsString() })));
 					break;
 				case PARTIALY_VALID:
-					result.addMessage(new Message(Message.Type.INFO,
-							getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
+					result.addMessage(new Message(Message.Type.INFO, errorCode,
 							i18n.tr("tests.impl.a15.result.part.valid.title"),
 							i18n.tr("tests.impl.a15.result.part.valid.content",
 									new Object[] { statement.getSubject().getURI(), label,
@@ -141,6 +143,11 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 
 		}
 		result.setState(State.FINAL);
+	}
+
+	private String getErrorCode(Statement statement, Property predicate, String label) {
+		return getErrorCode(
+				Integer.toString(label.hashCode()) + '_' + statement.getSubject() + '_' + predicate.getLocalName());
 	}
 
 }

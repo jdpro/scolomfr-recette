@@ -38,4 +38,5 @@
                 </div>
             </div>
         </div>
-   </jsp:body></t:layout>
+   </jsp:body>
+</t:layout>

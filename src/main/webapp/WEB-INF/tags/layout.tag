@@ -91,6 +91,8 @@
 </head>
 
 <body>
+	<input type="hidden" value="${pageContext.request.contextPath}"
+		id="context-path" />
 	<div id="wrapper">
 
 		<!-- Navigation -->
