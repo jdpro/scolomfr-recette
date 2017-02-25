@@ -81,7 +81,7 @@ public class TestsController {
 	public ModelAndView displayTest(HttpServletResponse response, @PathVariable("requirement") String requirement,
 			@PathVariable("format") String format, @PathVariable("id") String id) {
 		ModelAndView modelAndView = new ModelAndView("tests");
-		Object testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
+		Object testCase = testsRepository.getTestCasesRegistry().getTestCaseDefaultInstance(id);
 		if (testCase != null) {
 			modelAndView.addObject("implemented", true);
 			modelAndView.addObject("implementation", testCase.getClass().getSimpleName());
@@ -129,7 +129,7 @@ public class TestsController {
 
 	private ResponseEntity<AsyncResult> executeTestCaseAsync(String id, Map<String, String> executionParameters,
 			HttpServletRequest request) {
-		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
+		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCaseNewInstance(id);
 		if (testCase == null) {
 			AsyncResult result = new AsyncResult();
 			result.setStatus(AsyncResult.Status.MISSING);
@@ -167,7 +167,7 @@ public class TestsController {
 
 	private ResponseEntity<Result> executeTestCaseSync(String id, Map<String, String> executionParameters)
 			throws CloneNotSupportedException {
-		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCase(id);
+		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCaseNewInstance(id);
 		if (testCase == null) {
 			Result result = new Result();
 			result.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_TEST.toString(),

@@ -98,6 +98,7 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 		}
 
 		result.setState(State.FINAL);
+		
 
 	}
 

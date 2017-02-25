@@ -24,7 +24,13 @@ package fr.scolomfr.recette.model.tests.organization;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
+
+import fr.scolomfr.recette.utils.log.Log;
 
 /**
  * Implementation of the {@link TestCasesRegistry}
@@ -34,6 +40,12 @@ public class TestCasesRegistryImpl implements TestCasesRegistry {
 
 	Map<String, TestCase> testCases = new HashMap<>();
 
+	@Autowired
+	private ApplicationContext applicationContext;
+
+	@Autowired
+	DefaultListableBeanFactory beanFactory;
+
 	@Override
 	public void register(String index, Object bean) {
 		if (!(bean instanceof TestCase)) {
@@ -41,13 +53,20 @@ public class TestCasesRegistryImpl implements TestCasesRegistry {
 					String.format("Test case %s with index %s should implement the Testcase interface",
 							bean.getClass().getSimpleName(), index));
 		}
-		testCases.put(index, (TestCase) bean);
+		TestCase testCase = (TestCase) bean;
+		testCases.put(index, testCase);
 
 	}
 
 	@Override
-	public TestCase getTestCase(String id) {
+	public TestCase getTestCaseDefaultInstance(String id) {
 		return testCases.get(id);
+	}
+
+	@Override
+	public TestCase getTestCaseNewInstance(String id) {
+		TestCase instance = getTestCaseDefaultInstance(id);
+		return beanFactory.createBean(instance.getClass());
 	}
 
 }

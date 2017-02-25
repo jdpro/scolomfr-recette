@@ -56,7 +56,6 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		int numerator = 0;
 		int denominator = 0;
 		Model model = getModel(getVersion(), getVocabulary(), "skos");
-
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_PRELABEL_PROPERTY.toString());
 		Property altLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
@@ -75,7 +74,6 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		Resource vocab024 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-024");
 		while (stmts.hasNext()) {
 			denominator++;
-			System.out.println("###"+denominator);
 			Statement statement = stmts.next();
 
 			if (jenaEngine.memberOfVocab(vocab001, statement.getSubject(), model)
@@ -92,7 +90,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 			try {
 				errorCode = generateUniqueErrorCode(statement, predicate, label);
 			} catch (DuplicateErrorCodeException e1) {
-				logger.error("Errorcode {} generated twice ", errorCode, e1);
+				logger.debug("Errorcode {} generated twice ", errorCode, e1);
 				continue;
 			}
 			try {

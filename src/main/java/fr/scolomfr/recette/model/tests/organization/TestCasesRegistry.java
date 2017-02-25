@@ -44,6 +44,15 @@ public interface TestCasesRegistry {
 	 * @param id
 	 * @return
 	 */
-	public TestCase getTestCase(String id);
+	public TestCase getTestCaseDefaultInstance(String id);
+
+	/**
+	 * Get testCase by index (index are provided by {@link TestCaseIndex}
+	 * annotations and referenced by test configuration file)
+	 * 
+	 * @param id
+	 * @return
+	 */
+	public TestCase getTestCaseNewInstance(String id);
 
 }
