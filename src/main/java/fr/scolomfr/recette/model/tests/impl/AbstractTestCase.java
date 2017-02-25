@@ -123,7 +123,11 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	protected Version getVersion() {
-		final String versionStr = executionParameters.get(TestParameters.Values.VERSION);
+		return getVersion(TestParameters.Values.VERSION);
+	}
+
+	protected Version getVersion(String versionParameter) {
+		final String versionStr = executionParameters.get(versionParameter);
 		Version version = null;
 		try {
 			version = Version.valueOf(versionStr);

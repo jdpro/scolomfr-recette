@@ -34,10 +34,10 @@ import fr.scolomfr.recette.model.tests.organization.TestsRepository;
  * format)
  */
 @ControllerAdvice(basePackages = { "fr.scolomfr.recette.controller" })
-public class DisplayContainerControllerAdvice {
+public class DisplayControllerAdvice {
 
 	/**
-	 * Adds "displayContainer" variable to jsp context
+	 * Adds variables to jsp context
 	 * 
 	 * @param model
 	 */

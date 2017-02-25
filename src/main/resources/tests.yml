@@ -142,3 +142,15 @@ structure:
         label: SKOS Vérification de l'orthographe
         index: a15
         format: skos
+  conservation_concepts_entre_versions:
+    label: SKOS Conservation des concepts entre versions
+    index: 4.1
+    tests:
+      conservation_concepts_entre_versions_skos_sparql:
+        label: SKOS/sparql Conservation des concepts entre versions
+        index: s2
+        format: skos
+      conservation_concepts_entre_versions_skos:
+        label: SKOS Conservation des concepts entre versions
+        index: ax
+        format: skos

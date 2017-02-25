@@ -50,7 +50,7 @@ public class JenaEngine {
 	public String getPrefLabelFor(Node node, Model model) {
 		Resource resource = model.getResource(node.getURI());
 		Property prefLabel = model.getProperty(Constant.SKOS_CORE_NS.toString(),
-				Constant.SKOS_PRELABEL_PROPERTY.toString());
+				Constant.SKOS_PREFLABEL_PROPERTY.toString());
 		Selector selector = new SimpleSelector(resource, prefLabel, (RDFNode) null);
 		StmtIterator stmts = model.listStatements(selector);
 		while (stmts.hasNext()) {
@@ -75,7 +75,7 @@ public class JenaEngine {
 
 	public enum Constant {
 		SKOS_CORE_NS("http://www.w3.org/2004/02/skos/core#"), SKOS_NARROWER_PROPERTY("narrower"), SKOS_BROADER_PROPERTY(
-				"broader"), SKOS_PRELABEL_PROPERTY("prefLabel"), SKOS_ALTLABEL_PROPERTY(
+				"broader"), SKOS_PREFLABEL_PROPERTY("prefLabel"), SKOS_ALTLABEL_PROPERTY(
 						"altlabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY(
 								"member"), SKOS_TOP_CONCEPT_PROPERTY("hasTopConcept");
 		private String value;
