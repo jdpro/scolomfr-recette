@@ -57,7 +57,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		int denominator = 0;
 		Model model = getModel(getVersion(), getVocabulary(), "skos");
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
-				JenaEngine.Constant.SKOS_PRELABEL_PROPERTY.toString());
+				JenaEngine.Constant.SKOS_PREFLABEL_PROPERTY.toString());
 		Property altLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_ALTLABEL_PROPERTY.toString());
 		Property scopeNote = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),

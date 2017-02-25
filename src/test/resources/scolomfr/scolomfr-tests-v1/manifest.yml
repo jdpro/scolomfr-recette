@@ -1,0 +1,5 @@
+version: 0.0.1
+content:
+  skos:
+    s2_conservation_concepts_invalid: s2/s2_conservation_concepts_invalid_v1.skos
+    s2_conservation_concepts_valid: s2/s2_conservation_concepts_valid_v1.skos

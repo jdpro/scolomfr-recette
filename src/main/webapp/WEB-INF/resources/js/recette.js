@@ -222,6 +222,11 @@ function updateMessageStyle($messageBody, type) {
 		$truePositive.hide();
 		$falsePositive.show();
 		break;
+	case 'FAILURE':
+		styleClass += "alert-danger";
+		$truePositive.hide();
+		$falsePositive.hide();
+		break;
 	case 'IGNORED':
 		styleClass += "alert-warning";
 		$truePositive.show();

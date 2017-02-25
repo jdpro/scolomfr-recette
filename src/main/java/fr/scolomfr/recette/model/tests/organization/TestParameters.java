@@ -46,6 +46,9 @@ public @interface TestParameters {
 		public static final String FORMAT = "format";
 		public static final String VERSION = "version";
 		public static final String VOCABULARY = "vocabulary";
+		public static final String FORMAT2 = "format2";
+		public static final String VERSION2 = "version2";
+		public static final String VOCABULARY2 = "vocabulary2";
 
 		private Values() {
 		}
