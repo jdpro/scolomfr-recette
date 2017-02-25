@@ -24,13 +24,10 @@ package fr.scolomfr.recette.model.tests.organization;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
-
-import fr.scolomfr.recette.utils.log.Log;
 
 /**
  * Implementation of the {@link TestCasesRegistry}

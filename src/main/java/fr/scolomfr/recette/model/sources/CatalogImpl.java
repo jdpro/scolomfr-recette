@@ -257,11 +257,12 @@ public class CatalogImpl implements Catalog {
 			Map<String, Map<String, String>> content = manifest.getContent();
 			Map<String, String> vocabularies = content.get(format);
 			if (null != vocabularies) {
+				if (org.apache.commons.lang3.StringUtils.isEmpty(vocabularies.get(vocabulary))) {
+					return null;
+				}
 				filePath = folder + "/" + vocabularies.get(vocabulary);
 			}
-
 		}
-
 		return filePath;
 	}
 

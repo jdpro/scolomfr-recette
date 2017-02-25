@@ -20,6 +20,7 @@
  */
 package fr.scolomfr.recette.model.tests.impl;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.rdf.model.Model;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -33,6 +34,9 @@ public abstract class AbstractJenaTestCase extends AbstractTestCase {
 
 	protected Model getModel(Version version, String vocabulary, String format) {
 		String filePath = getFilePath(version, vocabulary, format);
+		if (StringUtils.isEmpty(filePath)) {
+			return null;
+		}
 		return jenaEngine.getModel(getFileInputStreamByPath(filePath));
 	}
 
