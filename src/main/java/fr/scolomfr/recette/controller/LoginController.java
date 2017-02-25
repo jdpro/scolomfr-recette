@@ -19,32 +19,36 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.controller.advice;
+package fr.scolomfr.recette.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import java.io.IOException;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ModelAttribute;
-
-import fr.scolomfr.recette.model.tests.organization.TestsOrganization;
-import fr.scolomfr.recette.model.tests.organization.TestsRepository;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * Controller advice to add navbar information (sources structure by version and
- * format)
+ * Controller for login page
  */
-@ControllerAdvice(basePackages = { "fr.scolomfr.recette.controller" })
-public class DisplayContainerControllerAdvice {
+@Controller
+public class LoginController {
 
 	/**
-	 * Adds "displayContainer" variable to jsp context
+	 * Display login page
 	 * 
-	 * @param model
+	 * @param response
+	 * @return
+	 * @throws IOException
 	 */
-	@ModelAttribute
-	public void formatAttributes(Model model) {
-		model.addAttribute("displayContainer", true);
-		model.addAttribute("logControl", true);
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String loginPage(HttpServletRequest request, Model model) {
+		String referrer = request.getHeader("Referer");
+		request.getSession().setAttribute("url_prior_login", referrer);
+		model.addAttribute("displayContainer", false);
+		model.addAttribute("logControl", false);
+		return "login";
 	}
-
 }
