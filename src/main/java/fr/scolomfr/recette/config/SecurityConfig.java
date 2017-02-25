@@ -63,16 +63,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests().antMatchers(HttpMethod.POST, "/**").permitAll().antMatchers(HttpMethod.GET, "/**")
-				.permitAll().and().formLogin().loginPage("/login").and().requestCache().and().logout()
-				.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+				.permitAll().and().formLogin().loginPage("/login").successHandler(successHandler()).and().requestCache()
+				.and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
 				.logoutSuccessHandler(new CustomLogoutSuccessHandler()).permitAll();
 	}
 
 	@Bean
 	public AuthenticationSuccessHandler successHandler() {
-		SimpleUrlAuthenticationSuccessHandler handler = new SimpleUrlAuthenticationSuccessHandler();
-		handler.setUseReferer(true);
-		return handler;
+		return new CustomLoginSuccessHandler("/");
 	}
 
 }

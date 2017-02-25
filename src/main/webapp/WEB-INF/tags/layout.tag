@@ -117,7 +117,9 @@
 
 			<ul class="nav navbar-top-links navbar-right">
 				<t:lang-control></t:lang-control>
-				<t:login-logout-control></t:login-logout-control>
+				<c:if test="${logControl }">
+					<t:login-logout-control></t:login-logout-control>
+				</c:if>
 				<!-- /.dropdown -->
 			</ul>
 			<!-- /.navbar-top-links -->

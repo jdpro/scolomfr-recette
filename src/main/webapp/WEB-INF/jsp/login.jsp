@@ -4,7 +4,12 @@
 
 <t:layout>
 	<jsp:body>
-
+ <c:if test="${not empty error}">  
+  <div class="errorblock">  
+   ${sessionScope["SPRING_SECURITY_LAST_EXCEPTION"].message}  
+  </div>  
+ </c:if>  
+ <%-- <c:url value="/j_spring_security_check" var="index.htm" /> --%>
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">
@@ -27,6 +32,7 @@
 										placeholder="<spring:message code="login.password" />"
 										name="password" value="" type="password">
                                 </div>
+                                
                                 <input type="hidden"
 									name="${_csrf.parameterName}" value="${_csrf.token}" />
                                 <!-- Change this to a button or input when using this as a form -->
