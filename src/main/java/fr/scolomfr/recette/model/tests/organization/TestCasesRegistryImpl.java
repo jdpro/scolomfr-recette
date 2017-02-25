@@ -26,7 +26,6 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
-import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
 /**
@@ -36,9 +35,6 @@ import org.springframework.stereotype.Component;
 public class TestCasesRegistryImpl implements TestCasesRegistry {
 
 	Map<String, TestCase> testCases = new HashMap<>();
-
-	@Autowired
-	private ApplicationContext applicationContext;
 
 	@Autowired
 	DefaultListableBeanFactory beanFactory;

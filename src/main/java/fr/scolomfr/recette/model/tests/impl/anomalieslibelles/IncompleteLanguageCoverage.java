@@ -64,7 +64,9 @@ public class IncompleteLanguageCoverage extends AbstractQskosTestCase<Map<Resour
 				first = false;
 			}
 			result.incrementErrorCount();
-			result.addMessage(new Message(Message.Type.ERROR, generateUniqueErrorCode(resource.stringValue()),
+			String errorCode = generateUniqueErrorCode(resource.stringValue());
+			boolean ignored = errorIsIgnored(errorCode);
+			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.ilc.result.title"), i18n.tr("tests.impl.qskos.ilc.result.content",
 							new Object[] { resource.stringValue(), sb.toString() })));
 		}

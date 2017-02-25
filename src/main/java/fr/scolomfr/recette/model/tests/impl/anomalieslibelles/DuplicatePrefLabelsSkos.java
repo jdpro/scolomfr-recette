@@ -85,8 +85,9 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 							logger.error("Errorcode {} generated twice ", errorCode, e);
 							continue;
 						}
+						boolean ignored = errorIsIgnored(errorCode);
 						result.addMessage(
-								new Message(Message.Type.ERROR, errorCode, i18n.tr("tests.impl.a6.result.title"),
+								new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode, i18n.tr("tests.impl.a6.result.title"),
 										i18n.tr("tests.impl.a6.result.content", new Object[] { child.getURI(),
 												preflabel.getSecond().getURI(), label, parent.getURI() })));
 					}

@@ -216,6 +216,9 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	protected boolean errorIsIgnored(String key) {
+		if (null == key) {
+			return false;
+		}
 		String status = stringRedisTemplate.opsForValue().get(key);
 		return null != status && status.equals("IGNORE");
 	}

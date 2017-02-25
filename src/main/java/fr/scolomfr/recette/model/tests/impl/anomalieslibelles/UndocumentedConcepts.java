@@ -53,7 +53,9 @@ public class UndocumentedConcepts extends AbstractQskosTestCase<Collection<Resou
 		while (it.hasNext()) {
 			Resource resource = it.next();
 			result.incrementErrorCount();
-			result.addMessage(new Message(Message.Type.ERROR, generateUniqueErrorCode(resource.stringValue()),
+			String errorCode = generateUniqueErrorCode(resource.stringValue());
+			boolean ignored = errorIsIgnored(errorCode);
+			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.uc.result.title"),
 					i18n.tr("tests.impl.qskos.uc.result.content", new Object[] { resource.stringValue() })));
 		}
