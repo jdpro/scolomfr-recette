@@ -81,7 +81,7 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 				}
 			}
 			contentBuilder.append("</ul>");
-			result.addMessage(new Message(Message.Type.ERROR, getErrorCode(DigestUtils.md5Hex(allConflicts)),
+			result.addMessage(new Message(Message.Type.ERROR, generateUniqueErrorCode(DigestUtils.md5Hex(allConflicts)),
 					i18n.tr("tests.impl.qskos.ol.result.title"), contentBuilder.toString()));
 		}
 

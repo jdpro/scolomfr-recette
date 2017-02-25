@@ -52,7 +52,7 @@ public class AmbiguousNotationReferences extends AbstractQskosTestCase<Collectio
 		while (it.hasNext()) {
 			AmbiguousNotation an = it.next();
 			result.incrementErrorCount();
-			result.addMessage(new Message(Message.Type.ERROR, getErrorCode(an.toString()),
+			result.addMessage(new Message(Message.Type.ERROR, generateUniqueErrorCode(an.toString()),
 					i18n.tr("tests.impl.qskos.anr.result.title"),
 					i18n.tr("tests.impl.qskos.anr.result.content", new Object[] { an.toString() })));
 		}

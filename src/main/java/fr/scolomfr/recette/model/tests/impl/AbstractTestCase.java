@@ -23,6 +23,8 @@ package fr.scolomfr.recette.model.tests.impl;
 import java.io.File;
 import java.io.InputStream;
 import java.lang.annotation.Annotation;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import org.slf4j.Logger;
@@ -56,6 +58,8 @@ public abstract class AbstractTestCase implements TestCase {
 
 	@Autowired
 	StringRedisTemplate stringRedisTemplate;
+
+	List<String> errorCodes = new ArrayList<>();
 
 	protected Map<String, String> executionParameters;
 	protected Result result = new Result();
@@ -96,14 +100,17 @@ public abstract class AbstractTestCase implements TestCase {
 
 	@Override
 	public Result temporaryResult() {
-		Result temporaryResult = new Result();
-		temporaryResult.setState(this.result.getState());
-		temporaryResult.setErrorCount(this.result.getErrorCount());
-		temporaryResult.setComplianceIndicator(this.result.getComplianceIndicator());
-		while (!this.result.getMessages().isEmpty()) {
-			temporaryResult.addMessage(this.result.getMessages().pop());
+		synchronized (this.result) {
+			Result temporaryResult = new Result();
+			temporaryResult.setState(this.result.getState());
+			temporaryResult.setErrorCount(this.result.getErrorCount());
+			temporaryResult.setComplianceIndicator(this.result.getComplianceIndicator());
+			while (!this.result.getMessages().isEmpty()) {
+				temporaryResult.addMessage(this.result.getMessages().pop());
+			}
+			return temporaryResult;
 		}
-		return temporaryResult;
+
 	}
 
 	@Override
@@ -111,6 +118,7 @@ public abstract class AbstractTestCase implements TestCase {
 		this.executionParameters = null;
 		this.result = new Result();
 		this.executionIdentifier = null;
+		this.errorCodes = new ArrayList<>();
 	}
 
 	protected Version getVersion() {
@@ -212,13 +220,20 @@ public abstract class AbstractTestCase implements TestCase {
 		return null != status && status.equals("IGNORE");
 	}
 
-	protected String getErrorCode(String identifier) {
+	protected String generateUniqueErrorCode(String identifier) throws DuplicateErrorCodeException {
 		TestCaseIndex annotation = this.getClass().getAnnotation(TestCaseIndex.class);
 		String annotationValue = "";
 		if (null != annotation) {
 			annotationValue = annotation.index();
 		}
-		return new StringBuilder().append(annotationValue).append(MESSAGE_ID_SEPARATOR).append(identifier).toString();
+		String code = new StringBuilder().append(annotationValue).append(MESSAGE_ID_SEPARATOR).append(identifier)
+				.toString();
+		if (errorCodes.contains(code)) {
+			throw new DuplicateErrorCodeException(
+					"Duplicate error code " + code + "for test " + annotationValue + " and identifier " + identifier);
+		}
+		errorCodes.add(code);
+		return code;
 	}
 
 }

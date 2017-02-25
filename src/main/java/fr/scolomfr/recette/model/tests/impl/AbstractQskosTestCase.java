@@ -69,7 +69,7 @@ public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 		result.setState(State.FINAL);
 	}
 
-	protected String getErrorCode(String identifier) {
+	protected String generateUniqueErrorCode(String identifier) {
 		return new StringBuilder().append(QSKOS_ERROR_PREFIX).append(getQskosIssueCode()).append(MESSAGE_ID_SEPARATOR)
 				.append(identifier).toString();
 	}

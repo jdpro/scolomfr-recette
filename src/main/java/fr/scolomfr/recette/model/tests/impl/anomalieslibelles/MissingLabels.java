@@ -53,7 +53,7 @@ public class MissingLabels extends AbstractQskosTestCase<Collection<Resource>> {
 		while (it.hasNext()) {
 			Resource resource = it.next();
 			result.incrementErrorCount();
-			result.addMessage(new Message(Message.Type.ERROR, getErrorCode(resource.stringValue()),
+			result.addMessage(new Message(Message.Type.ERROR, generateUniqueErrorCode(resource.stringValue()),
 					i18n.tr("tests.impl.qskos.ml.result.title"),
 					i18n.tr("tests.impl.qskos.ml.result.content", new Object[] { resource.stringValue() })));
 		}

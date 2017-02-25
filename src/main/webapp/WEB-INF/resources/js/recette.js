@@ -1,4 +1,5 @@
 var $execButton;
+var running = false;
 $(function() {
 	$('#side-menu').metisMenu({
 		toggle : true
@@ -38,7 +39,10 @@ $(function() {
 	$execButton = $("#testcase-exec-form").find("button");
 	enableExecutionButton($execButton, true);
 	$("#testcase-exec-form").on('submit', function(e) {
-
+		if (running) {
+			return;
+		}
+		running = true;
 		e.preventDefault();
 		enableExecutionButton($execButton, false);
 		var data = $(this).serialize();
@@ -61,10 +65,11 @@ $(function() {
 				} else {
 					refreshMessages(json);
 					enableExecutionButton($execButton, true);
+					running = false;
 				}
 			}
 		});
-
+		return false;
 	});
 	$("#errors-area").on("click", handleFalsePositiveClick);
 
@@ -89,6 +94,7 @@ function handleAsyncResponse() {
 				setTimeout(handleAsyncResponse, 500);
 			} else {
 				enableExecutionButton($execButton, true);
+				running = false;
 				if (extractErrorCount(json) == 0) {
 					displayTestsModal($("#tests-modal-no-error-title").val(),
 							$("#tests-modal-no-error-content").val());
@@ -172,6 +178,10 @@ function displayMessages(areaId, messages) {
 		}
 		key = messageData.key.replace(
 				/([\!"#$%&'()*+,./:;<=>?@\[\\\]\^`\{|\}~])/g, "\\$1");
+		console.log($("#" + key).length);
+		if ($("#" + key).length > 0) {
+			console.log("doublon " + key)
+		}
 		title = messageData.title ? messageData.title : "<empty>";
 		content = messageData.content ? messageData.content : messageData;
 		$messageBody = $messageTemplate.clone();

@@ -42,6 +42,7 @@ import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
+import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
@@ -77,9 +78,15 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 					if (StringUtils.equals(label, preflabel.getFirst())) {
 						// duplicate siblings
 						result.incrementErrorCount();
+						String errorCode = null;
+						try {
+							errorCode = generateUniqueErrorCode(label + parent.getURI() + child.getURI());
+						} catch (DuplicateErrorCodeException e) {
+							logger.error("Errorcode {} generated twice ", errorCode, e);
+							continue;
+						}
 						result.addMessage(
-								new Message(Message.Type.ERROR, getErrorCode(label + parent.getURI() + child.getURI()),
-										i18n.tr("tests.impl.a6.result.title"),
+								new Message(Message.Type.ERROR, errorCode, i18n.tr("tests.impl.a6.result.title"),
 										i18n.tr("tests.impl.a6.result.content", new Object[] { child.getURI(),
 												preflabel.getSecond().getURI(), label, parent.getURI() })));
 					}

@@ -1,5 +1,7 @@
 package fr.scolomfr.recette.model.tests.execution.result;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Stack;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -31,15 +33,15 @@ public class Result {
 		setState(State.TEMPORARY);
 	}
 
-	public synchronized Stack<Message> getMessages() {
+	public Stack<Message> getMessages() {
 		return messages;
 	}
 
-	public synchronized void addMessage(Message message) {
+	public void addMessage(Message message) {
 		this.messages.push(message);
 	}
 
-	public synchronized void addMessage(Message.Type type, String key, String title, String content) {
+	public void addMessage(Message.Type type, String key, String title, String content) {
 		this.addMessage(new Message(type, key, title, content));
 	}
 

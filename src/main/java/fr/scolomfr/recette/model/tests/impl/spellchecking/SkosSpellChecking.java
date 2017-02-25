@@ -37,6 +37,7 @@ import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
+import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
@@ -72,9 +73,9 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		Resource vocab001 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-001");
 		Resource vocab006 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-006");
 		Resource vocab024 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-024");
-
 		while (stmts.hasNext()) {
 			denominator++;
+			System.out.println("###"+denominator);
 			Statement statement = stmts.next();
 
 			if (jenaEngine.memberOfVocab(vocab001, statement.getSubject(), model)
@@ -87,10 +88,16 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 
 			String label = labelLit.getString();
 			String language = labelLit.getLanguage();
-
+			String errorCode = null;
+			try {
+				errorCode = generateUniqueErrorCode(statement, predicate, label);
+			} catch (DuplicateErrorCodeException e1) {
+				logger.error("Errorcode {} generated twice ", errorCode, e1);
+				continue;
+			}
 			try {
 				SpellCheckResult spellCheckResult = spellChecker.spell(label, language);
-				String errorCode = getErrorCode(statement, predicate, label);
+
 				boolean ignored = errorIsIgnored(errorCode);
 				switch (spellCheckResult.getState()) {
 				case INVALID:
@@ -134,8 +141,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 
 				String content = i18n.tr("tests.impl.a15.result.nodic.content", new Object[] { language });
 				logger.error(content, e);
-				result.addMessage(new Message(Message.Type.INFO,
-						getErrorCode(label + statement.getSubject() + predicate.getLocalName()),
+				result.addMessage(new Message(Message.Type.INFO, errorCode,
 						i18n.tr("tests.impl.a15.result.nodic.title"), content));
 				break;
 			}
@@ -145,8 +151,9 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		result.setState(State.FINAL);
 	}
 
-	private String getErrorCode(Statement statement, Property predicate, String label) {
-		return getErrorCode(
+	private String generateUniqueErrorCode(Statement statement, Property predicate, String label)
+			throws DuplicateErrorCodeException {
+		return generateUniqueErrorCode(
 				Integer.toString(label.hashCode()) + '_' + statement.getSubject() + '_' + predicate.getLocalName());
 	}
 
