@@ -104,6 +104,7 @@ public abstract class AbstractTestCase implements TestCase {
 			Result temporaryResult = new Result();
 			temporaryResult.setState(this.result.getState());
 			temporaryResult.setErrorCount(this.result.getErrorCount());
+			temporaryResult.setFalsePositiveCount(this.result.getFalsePositiveCount());
 			temporaryResult.setComplianceIndicator(this.result.getComplianceIndicator());
 			while (!this.result.getMessages().isEmpty()) {
 				temporaryResult.addMessage(this.result.getMessages().pop());
@@ -132,7 +133,7 @@ public abstract class AbstractTestCase implements TestCase {
 			logger.error(msg, e);
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "version", title,
 					msg);
-			result.incrementErrorCount();
+			result.incrementErrorCount(false);
 			result.setState(State.FINAL);
 			stopTestCase();
 		}
@@ -146,7 +147,7 @@ public abstract class AbstractTestCase implements TestCase {
 			String msg = i18n.tr("test.impl.vocabulary.parameter.missing.content");
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "vocabulary", title,
 					msg);
-			result.incrementErrorCount();
+			result.incrementErrorCount(false);
 			stopTestCase();
 		}
 		return vocabulary;
@@ -158,7 +159,7 @@ public abstract class AbstractTestCase implements TestCase {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
 					i18n.tr("test.impl.file.unavailable.title"),
 					i18n.tr("test.impl.file.unavailable.content", new Object[] { version, format, vocabulary }));
-			result.incrementErrorCount();
+			result.incrementErrorCount(false);
 			stopTestCase();
 
 		} else {
@@ -182,7 +183,7 @@ public abstract class AbstractTestCase implements TestCase {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.tempfile.unavailable.title"),
 					i18n.tr("test.impl.tempfile.unavailable.content", new Object[] { filePath }));
-			result.incrementErrorCount();
+			result.incrementErrorCount(false);
 			stopTestCase();
 		} else {
 			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
@@ -198,7 +199,7 @@ public abstract class AbstractTestCase implements TestCase {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.file.unreadable.title"),
 					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath }));
-			result.incrementErrorCount();
+			result.incrementErrorCount(false);
 			stopTestCase();
 		} else {
 			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,

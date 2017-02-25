@@ -11,6 +11,7 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
+@SuppressWarnings("unused")
 @XmlType(namespace = "http://recette.scolomfr.fr/2017/1")
 @XmlRootElement(name = "result")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -24,11 +25,14 @@ public class Result {
 
 	private int errorCount;
 
+	private int falsePositiveCount;
+
 	private float complianceIndicator;
 
 	public Result() {
 		messages = new Stack<>();
 		setErrorCount(0);
+		setFalsePositiveCount(0);
 		setComplianceIndicator(-1);
 		setState(State.TEMPORARY);
 	}
@@ -61,8 +65,13 @@ public class Result {
 		this.errorCount = errorCount;
 	}
 
-	public void incrementErrorCount() {
-		this.errorCount++;
+	public void incrementErrorCount(boolean ignored) {
+		if (ignored) {
+			this.falsePositiveCount++;
+		} else {
+			this.errorCount++;
+		}
+
 	}
 
 	public float getComplianceIndicator() {
@@ -71,6 +80,14 @@ public class Result {
 
 	public void setComplianceIndicator(float complianceIndicator) {
 		this.complianceIndicator = complianceIndicator;
+	}
+
+	public int getFalsePositiveCount() {
+		return falsePositiveCount;
+	}
+
+	public void setFalsePositiveCount(int falsePositiveCount) {
+		this.falsePositiveCount = falsePositiveCount;
 	}
 
 	public enum State {

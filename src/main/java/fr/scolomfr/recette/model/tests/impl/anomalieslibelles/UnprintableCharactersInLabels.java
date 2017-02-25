@@ -55,11 +55,11 @@ public class UnprintableCharactersInLabels extends AbstractQskosTestCase<Collect
 			String resourceStr = labeled.getConcept().stringValue();
 			LabelType labelType = labeled.getLabelType();
 			String literalStr = labeled.getLiteral().getLabel();
-			result.incrementErrorCount();
 			String errorCode = generateUniqueErrorCode(resourceStr + labelType + literalStr);
 			boolean ignored = errorIsIgnored(errorCode);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode, i18n.tr("tests.impl.qskos.ucil.result.title"),
-					i18n.tr("tests.impl.qskos.ucil.result.content",
+			result.incrementErrorCount(ignored);
+			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+					i18n.tr("tests.impl.qskos.ucil.result.title"), i18n.tr("tests.impl.qskos.ucil.result.content",
 							new Object[] { resourceStr, literalStr, labelType })));
 		}
 

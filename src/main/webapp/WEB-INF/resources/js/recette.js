@@ -72,7 +72,8 @@ $(function() {
 		return false;
 	});
 	$("#errors-area").on("click", handleFalsePositiveClick);
-
+	$("input.display-messages").on("click", updateDisplayMessagePreferences);
+	updateDisplayMessagePreferences();
 });
 function getCsrfParameter() {
 	return $("meta[name='_csrf_parameter']").attr("content");
@@ -114,6 +115,11 @@ function extractErrorCount(json) {
 	var errorCount = (json.errorCount ? json.errorCount : 0);
 	return errorCount;
 }
+function extractFalsePositiveCount(json) {
+	var falsePositiveCount = (json.falsePositiveCount ? json.falsePositiveCount
+			: 0);
+	return falsePositiveCount;
+}
 function extractComplianceIndicator(json) {
 	var complianceIndicator = (json.complianceIndicator ? json.complianceIndicator
 			: -1);
@@ -126,6 +132,7 @@ function refreshMessages(json) {
 	}
 
 	displayErrorCount(extractErrorCount(json));
+	displayFalsePositiveCount(extractFalsePositiveCount(json));
 	var indicator = extractComplianceIndicator(json);
 
 	displayComplianceIndicator(indicator == -1 ? "hide" : Math
@@ -142,11 +149,11 @@ function refreshMessages(json) {
 	displayMessages("errors-area", errors)
 	displayMessages("infos-area", infos)
 }
-var $errorCountIndicator;
+var $errorCountIndicator, $falsePositiveCountIndicator;
 var previousErrorCount;
 function displayErrorCount(errorCount) {
 	if (!$errorCountIndicator) {
-		$errorCountIndicator = $("#error-count")
+		$errorCountIndicator = $("#error-count");
 	}
 	$errorCountIndicator.text(errorCount);
 	if (previousErrorCount != errorCount) {
@@ -154,6 +161,12 @@ function displayErrorCount(errorCount) {
 				errorCount == 0 ? "label-success" : "label-danger");
 	}
 	previousErrorCount = errorCount;
+}
+function displayFalsePositiveCount(falsePositiveCount) {
+	if (!$falsePositiveCountIndicator) {
+		$falsePositiveCountIndicator = $("#false-positive-count");
+	}
+	$falsePositiveCountIndicator.text(falsePositiveCount);
 }
 var $complianceIndicatorContainer, $complianceIndicator;
 function displayComplianceIndicator(complianceIndicator) {
@@ -270,4 +283,11 @@ function handleFalsePositiveClick(e) {
 
 				}
 			})
+}
+function updateDisplayMessagePreferences(e) {
+	$("input.display-messages").each(function(i, e) {
+		var $elem = $(e);
+		$elem.closest(".panel").toggleClass(e.id, $elem.is(":checked"));
+	});
+
 }

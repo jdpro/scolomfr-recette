@@ -53,15 +53,14 @@ public class NoCommonLanguages extends AbstractQskosTestCase<Collection<String>>
 			commonLanguageFound = true;
 
 			String errorCode = generateUniqueErrorCode(lang);
-			boolean ignored = errorIsIgnored(errorCode);
-			result.addMessage(new Message(Message.Type.INFO, errorCode,
-					i18n.tr("tests.impl.qskos.ncl.result.info.title"),
-					i18n.tr("tests.impl.qskos.ncl.result.info.content", new Object[] { lang })));
+			result.addMessage(
+					new Message(Message.Type.INFO, errorCode, i18n.tr("tests.impl.qskos.ncl.result.info.title"),
+							i18n.tr("tests.impl.qskos.ncl.result.info.content", new Object[] { lang })));
 		}
 		if (!commonLanguageFound) {
-			result.incrementErrorCount();
 			String errorCode = generateUniqueErrorCode("");
 			boolean ignored = errorIsIgnored(errorCode);
+			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.ncl.result.error.title"),
 					i18n.tr("tests.impl.qskos.ncl.result.error.content", null)));

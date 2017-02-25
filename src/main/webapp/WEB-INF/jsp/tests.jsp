@@ -36,7 +36,8 @@
 											<t:parameters-switch tagname="${parameter}" />
 										</c:forEach>
                                         <div class="col-lg-12">
-											<button class="btn btn-default" type="submit">Exécuter <img
+											<button class="btn btn-default" type="submit">
+												<spring:message code="tests.execute"></spring:message> <img
 													alt="Patientez" title="Patientez" class="hidden"
 													src='<spring:url value="${baseResourcesPath}/img/ajax-loader.gif"></spring:url>' />
 											</button>
@@ -76,12 +77,23 @@
                 <div class="col-lg-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <spring:message code="tests.errors"></spring:message> : <span
-								id="error-count"></span>&nbsp;
+                        <label><input type="checkbox"
+								id="display-error-messages" class="display-messages"
+								checked="checked" />
+                            <spring:message code="tests.errors"></spring:message> :</label> <span
+								id="error-count"></span>&nbsp;&nbsp;&nbsp;
+							<label><input type="checkbox"
+								id="display-false-positive-messages" class="display-messages"
+								checked="checked" />
+                            <spring:message code="tests.false.positive"></spring:message> : <span
+								id="false-positive-count" class="label label-info"></span>
+							&nbsp;&nbsp;&nbsp;
 								<span id="compliance-indicator-container" class="hidden">
 							 <spring:message code="tests.compliance"></spring:message> : <span
-								id="compliance-indicator"></span> %</span>
-                        </div>
+									id="compliance-indicator"></span> %</span>
+                        
+						
+						</div>
                         <!-- /.panel-heading -->
                         <div class="panel-body" id="errors-area">
                             

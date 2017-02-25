@@ -24,12 +24,10 @@ package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
 import java.text.MessageFormat;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.codec.digest.DigestUtils;
-import org.openrdf.model.Resource;
 
 import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelConflict;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
@@ -61,7 +59,6 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 
 		while (it.hasNext()) {
 			LabelConflict conflict = it.next();
-			result.incrementErrorCount();
 			String allConflicts = conflict.toString();
 			String[] conflictsArray = allConflicts.substring(1, allConflicts.length() - 2).split("\\),\\s");
 			StringBuilder contentBuilder = new StringBuilder("<ul>");
@@ -83,6 +80,7 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 			contentBuilder.append("</ul>");
 			String errorCode = generateUniqueErrorCode(DigestUtils.md5Hex(allConflicts));
 			boolean ignored = errorIsIgnored(errorCode);
+			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.ol.result.title"), contentBuilder.toString()));
 		}

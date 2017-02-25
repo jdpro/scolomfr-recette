@@ -100,11 +100,12 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 				switch (spellCheckResult.getState()) {
 				case INVALID:
 					if (!ignored) {
-						result.incrementErrorCount();
 						numerator++;
 					}
-					Message message = new Message(ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-							i18n.tr("tests.impl.a15.result.invalid.title"),
+					result.incrementErrorCount(ignored);
+					Message message = new Message(
+							ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR,
+							errorCode, i18n.tr("tests.impl.a15.result.invalid.title"),
 							i18n.tr("tests.impl.a15.result.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
 											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
@@ -113,11 +114,12 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 					break;
 				case PARTIALY_INVALID:
 					if (!ignored) {
-						result.incrementErrorCount();
 						numerator++;
 					}
-					result.addMessage(new Message(ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-							i18n.tr("tests.impl.a15.result.part.invalid.title"),
+					result.incrementErrorCount(ignored);
+					result.addMessage(new Message(
+							ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR,
+							errorCode, i18n.tr("tests.impl.a15.result.part.invalid.title"),
 							i18n.tr("tests.impl.a15.result.part.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
 											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),

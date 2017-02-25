@@ -76,8 +76,7 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 				prefLabels = preflabelsOfChildren.get(parent.getURI());
 				for (Pair<String, Node> preflabel : prefLabels) {
 					if (StringUtils.equals(label, preflabel.getFirst())) {
-						// duplicate siblings
-						result.incrementErrorCount();
+						// duplicate siblings						
 						String errorCode = null;
 						try {
 							errorCode = generateUniqueErrorCode(label + parent.getURI() + child.getURI());
@@ -86,6 +85,7 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 							continue;
 						}
 						boolean ignored = errorIsIgnored(errorCode);
+						result.incrementErrorCount(ignored);
 						result.addMessage(
 								new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode, i18n.tr("tests.impl.a6.result.title"),
 										i18n.tr("tests.impl.a6.result.content", new Object[] { child.getURI(),

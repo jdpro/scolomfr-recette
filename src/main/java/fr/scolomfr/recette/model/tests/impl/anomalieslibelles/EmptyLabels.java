@@ -64,11 +64,11 @@ public class EmptyLabels extends AbstractQskosTestCase<Map<Resource, Collection<
 				sb.append(labelType.toString());
 				first = false;
 			}
-			result.incrementErrorCount();
 			String errorCode = generateUniqueErrorCode(resource.stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode, i18n.tr("tests.impl.qskos.el.result.title"),
-					i18n.tr("tests.impl.qskos.el.result.content",
+			result.incrementErrorCount(ignored);
+			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+					i18n.tr("tests.impl.qskos.el.result.title"), i18n.tr("tests.impl.qskos.el.result.content",
 							new Object[] { resource.stringValue(), sb.toString() })));
 		}
 
