@@ -14,6 +14,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -59,15 +60,9 @@ public class DomDocumentWithLineNumbersBuilder {
 		SAXParser parser;
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		parser = factory.newSAXParser();
-		System.setProperty("user.dir", dtdDirectory);
-		XMLReader reader = parser.getXMLReader();
-		reader.setEntityResolver(new EntityResolver() {
-			@Override
-			public InputSource resolveEntity(String publicId, String systemId) throws SAXException, IOException {
-				System.out.println(">>>>>>>>>>>>>>>>>>" + publicId + " " + systemId);
-				return new InputSource(new StringReader(""));
-			}
-		});
+		if (StringUtils.isNotEmpty(dtdDirectory)) {
+			System.setProperty("user.dir", dtdDirectory);
+		}
 		DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
 		docBuilderFactory.setNamespaceAware(true);
 		docBuilderFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);

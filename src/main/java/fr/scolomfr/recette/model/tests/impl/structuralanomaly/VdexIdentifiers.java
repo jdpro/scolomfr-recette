@@ -22,6 +22,7 @@
 package fr.scolomfr.recette.model.tests.impl.structuralanomaly;
 
 import java.text.MessageFormat;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -80,6 +81,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 
 		// First pass : let's loop on vdex identifiers and look for them in skos
 		NodeList identifiers = null;
+		Map<String, String> identifiersAndLineNumbers = new HashMap<>();
 		try {
 			XPathExpression expression = xpath.compile(expressionStr);
 			for (String filePath : vdexDocuments.keySet()) {
@@ -90,24 +92,39 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 
 					String identifier = node.getTextContent();
 					String lineNumber = (String) node.getUserData(DomDocumentWithLineNumbersBuilder.LINE_NUMBER_KEY);
+
 					String errorCode = null;
 					try {
 						errorCode = generateUniqueErrorCode(filePath + MESSAGE_ID_SEPARATOR
 								+ (StringUtils.isEmpty(identifier) ? lineNumber : identifier));
 					} catch (DuplicateErrorCodeException e1) {
-						logger.debug("Errorcode {} generated twice ", errorCode, e1);
-						continue;
+						try {
+							errorCode = generateUniqueErrorCode(
+									filePath + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
+						} catch (DuplicateErrorCodeException e) {
+							logger.debug("Errorcode {} generated twice ", errorCode, e);
+						}
 					}
 					boolean ignored = errorIsIgnored(errorCode);
-
 					if (StringUtils.isEmpty(identifier)) {
 						result.incrementErrorCount(ignored);
-						Message message = new Message(
-								ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR,
-								errorCode, i18n.tr("tests.impl.a22.result.empty.title"),
+						Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+								i18n.tr("tests.impl.a22.result.empty.title"),
 								i18n.tr("tests.impl.a22.result.empty.content", new Object[] { filePath, lineNumber }));
 						result.addMessage(message);
 					}
+					if (identifiersAndLineNumbers.containsKey(identifier)) {
+						result.incrementErrorCount(ignored);
+						Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+								i18n.tr("tests.impl.a22.result.duplicate.title"),
+								i18n.tr("tests.impl.a22.result.duplicate.content", new Object[] { filePath, lineNumber,
+										identifier, identifiersAndLineNumbers.get(identifier) }));
+						result.addMessage(message);
+						continue;
+					} else {
+						identifiersAndLineNumbers.put(identifier, lineNumber);
+					}
+
 					String uri = null;
 					if (urlValidator.isValid(identifier)) {
 						continue;
