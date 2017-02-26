@@ -110,15 +110,15 @@ public class ConservationConceptsEntreVersionsSkos extends AbstractJenaTestCase 
 					// label has changed but URI is not lost
 					result.incrementErrorCount(ignored);
 					result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-							i18n.tr("tests.impl.ax.result.replaced.title"),
-							i18n.tr("tests.impl.ax.result.replaced.content", new Object[] { label, resourceUri,
+							i18n.tr("tests.impl.a21.result.replaced.title"),
+							i18n.tr("tests.impl.a21.result.replaced.content", new Object[] { label, resourceUri,
 									newVersion, statement2.getObject().asLiteral().getValue().toString() })));
 				} else {
 
 					result.incrementErrorCount(ignored);
 					result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-							i18n.tr("tests.impl.ax.result.missing.title"),
-							i18n.tr("tests.impl.ax.result.missing.content",
+							i18n.tr("tests.impl.a21.result.missing.title"),
+							i18n.tr("tests.impl.a21.result.missing.content",
 									new Object[] { label, resourceUri, newVersion })));
 				}
 			}

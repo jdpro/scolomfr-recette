@@ -38,6 +38,8 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.springframework.data.util.Pair;
 
+import com.github.zafarkhaja.semver.Version;
+
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
@@ -55,7 +57,12 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 
 	@Override
 	public void run() {
-		Model model = getModel(getVersion(), getVocabulary(), "skos");
+		Version version = getVersion();
+		String vocabulary = getVocabulary();
+		if (null == version || StringUtils.isEmpty(vocabulary)) {
+			return;
+		}
+		Model model = getModel(version, vocabulary, "skos");
 		Map<String, List<Pair<String, Node>>> preflabelsOfChildren = new HashMap<>();
 		Property children = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_NARROWER_PROPERTY.toString());
@@ -76,7 +83,7 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 				prefLabels = preflabelsOfChildren.get(parent.getURI());
 				for (Pair<String, Node> preflabel : prefLabels) {
 					if (StringUtils.equals(label, preflabel.getFirst())) {
-						// duplicate siblings						
+						// duplicate siblings
 						String errorCode = null;
 						try {
 							errorCode = generateUniqueErrorCode(label + parent.getURI() + child.getURI());
@@ -86,10 +93,10 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 						}
 						boolean ignored = errorIsIgnored(errorCode);
 						result.incrementErrorCount(ignored);
-						result.addMessage(
-								new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode, i18n.tr("tests.impl.a6.result.title"),
-										i18n.tr("tests.impl.a6.result.content", new Object[] { child.getURI(),
-												preflabel.getSecond().getURI(), label, parent.getURI() })));
+						result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+								i18n.tr("tests.impl.a6.result.title"),
+								i18n.tr("tests.impl.a6.result.content", new Object[] { child.getURI(),
+										preflabel.getSecond().getURI(), label, parent.getURI() })));
 					}
 				}
 			} else {
@@ -99,7 +106,6 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 		}
 
 		result.setState(State.FINAL);
-		
 
 	}
 

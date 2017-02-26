@@ -1,4 +1,4 @@
-package fr.apiscol.metadata.scolomfr3utils.utils.xml;
+package fr.scolomfr.recette.model.sources.representation.utils;
 
 import java.io.File;
 import java.io.FileInputStream;

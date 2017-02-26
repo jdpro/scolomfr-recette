@@ -40,7 +40,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import fr.apiscol.metadata.scolomfr3utils.utils.xml.DomDocumentWithLineNumbersBuilder;
+import com.github.zafarkhaja.semver.Version;
+
+import fr.scolomfr.recette.model.sources.representation.utils.DomDocumentWithLineNumbersBuilder;
 import fr.scolomfr.recette.model.sources.representation.utils.XPathEngineProvider;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
@@ -66,11 +68,17 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 	public void run() {
 		int numerator = 0;
 		int denominator = 0;
-		Model model = getModel(getVersion(), "global", getSkosType());
 
-		List<String> vdexFilePaths = getFilePathsForAllVocabularies(getVersion(), "vdex");
+		Version version = getVersion();
+		String skosType = getSkosType();
+		if (null == version || StringUtils.isEmpty(skosType)) {
+			return;
+		}
+		Model model = getModel(version, "global", skosType);
+
+		List<String> vdexFilePaths = getFilePathsForAllVocabularies(version, "vdex");
 		Map<String, Document> vdexDocuments = new HashMap<>();
-		String dtdDirectory = catalog.getDtddirByVersionAndFormat(getVersion(), "vdex");
+		String dtdDirectory = catalog.getDtddirByVersionAndFormat(version, "vdex");
 		for (String vdexFilePath : vdexFilePaths) {
 			vdexDocuments.put(vdexFilePath, getDomDocument(vdexFilePath, dtdDirectory));
 		}

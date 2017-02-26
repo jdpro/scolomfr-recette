@@ -50,6 +50,7 @@ import org.springframework.util.StringUtils;
 
 import com.github.zafarkhaja.semver.Version;
 
+import fr.scolomfr.recette.config.ContextParameters;
 import fr.scolomfr.recette.model.sources.manifest.Manifest;
 import fr.scolomfr.recette.model.sources.manifest.ManifestParser;
 import fr.scolomfr.recette.resources.EmbeddedResourcesLoader;
@@ -62,12 +63,14 @@ import fr.scolomfr.recette.utils.log.Log;
  */
 @Component
 public class CatalogImpl implements Catalog {
-	private static final String SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME = "scolomfr_files_directory";
 	public static final String CLASSPATH_VOCABULARIES_DIRECTORY = "/scolomfr";
 	private static final String MANIFEST_FILE_NAME = "manifest.yml";
 
 	@Log
 	Logger logger;
+
+	@Autowired
+	ContextParameters contextParameters;
 
 	@Autowired
 	EmbeddedResourcesLoader embeddedResourcesLoader;
@@ -207,14 +210,7 @@ public class CatalogImpl implements Catalog {
 	}
 
 	private String getScolomfrFilesDirectoryFromContext() {
-		InitialContext initialContext;
-		try {
-			initialContext = new javax.naming.InitialContext();
-			return (String) initialContext.lookup("java:comp/env/" + SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
-		} catch (NamingException e) {
-			logger.debug("Unable to get {} from initial context", SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME, e);
-		}
-		return "";
+		return contextParameters.get(ContextParameters.Keys.SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
 	}
 
 	private ResourcesLoader getResourcesLoader() {

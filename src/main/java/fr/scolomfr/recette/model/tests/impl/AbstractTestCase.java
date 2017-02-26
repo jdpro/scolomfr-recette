@@ -27,6 +27,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.slf4j.Logger;
@@ -37,6 +40,7 @@ import org.w3c.dom.Document;
 
 import com.github.zafarkhaja.semver.Version;
 
+import fr.scolomfr.recette.config.ContextParameters;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuildException;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuilder;
@@ -55,6 +59,8 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected static final String MESSAGE_ID_SEPARATOR = "_";
 
+	private static final String GLOBAL_VOCABULARY = "global";
+
 	@Log
 	public Logger logger;
 
@@ -63,6 +69,9 @@ public abstract class AbstractTestCase implements TestCase {
 
 	@Autowired
 	StringRedisTemplate stringRedisTemplate;
+
+	@Autowired
+	ContextParameters contextParameters;
 
 	List<String> errorCodes = new ArrayList<>();
 
@@ -132,7 +141,10 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	protected Version getVersion(String versionParameter) {
-		final String versionStr = executionParameters.get(versionParameter);
+		String versionStr = executionParameters.get(versionParameter);
+		if (StringUtils.isEmpty(versionStr)) {
+			versionStr = contextParameters.get(ContextParameters.Keys.SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME);
+		}
 		Version version = null;
 		try {
 			version = Version.valueOf(versionStr);
@@ -150,7 +162,11 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	protected String getVocabulary() {
-		final String vocabulary = executionParameters.get(TestParameters.Values.VOCABULARY);
+		String vocabulary = executionParameters.get(TestParameters.Values.VOCABULARY);
+		if (StringUtils.isEmpty(vocabulary)) {
+			vocabulary = GLOBAL_VOCABULARY;
+		}
+		// TODO dead code
 		if (StringUtils.isEmpty(vocabulary)) {
 			String title = i18n.tr("test.impl.vocabulary.parameter.missing.title");
 			String msg = i18n.tr("test.impl.vocabulary.parameter.missing.content");
@@ -283,7 +299,8 @@ public abstract class AbstractTestCase implements TestCase {
 		return code;
 	}
 
-	protected Document getDomDocument(final Version version, final String vocabulary, final String format, String  dtdDirectory) {
+	protected Document getDomDocument(final Version version, final String vocabulary, final String format,
+			String dtdDirectory) {
 		final String filePath = getFilePath(version, vocabulary, format);
 		if (null == filePath) {
 			return null;

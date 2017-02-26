@@ -40,7 +40,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import fr.apiscol.metadata.scolomfr3utils.utils.xml.DomDocumentWithLineNumbersBuilder;
+import fr.scolomfr.recette.model.sources.representation.utils.DomDocumentWithLineNumbersBuilder;
 import fr.scolomfr.recette.model.sources.representation.utils.XPathEngineProvider;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
