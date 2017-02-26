@@ -34,6 +34,7 @@ import javax.xml.xpath.XPathExpressionException;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.validator.UrlValidator;
 import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -74,12 +75,13 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 			vdexDocuments.put(vdexFilePath, getDomDocument(vdexFilePath, dtdDirectory));
 		}
 		XPath xpath = xPathEngineProvider.getXpath();
-		String expressionStr = "/vdex/term/termIdentifier";
+		String allIdentifiersExpressionStr = "/vdex/term/termIdentifier";
+		String labelExpressionStr = "/vdex/term[./termIdentifier=''{0}'']/caption/langstring[@language=''{1}'']/text()";
 
 		// First pass : let's loop on vdex identifiers and look for them in skos
 		NodeList identifiers = null;
 		try {
-			XPathExpression expression = xpath.compile(expressionStr);
+			XPathExpression expression = xpath.compile(allIdentifiersExpressionStr);
 			for (String filePath : vdexDocuments.keySet()) {
 				Document vdexDocument = vdexDocuments.get(filePath);
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
@@ -103,7 +105,8 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 					}
 					boolean ignored = errorIsIgnored(errorCode);
 					if (urlValidator.isValid(identifier)) {
-						boolean resourceIsInSkos = model.containsResource(model.createResource(identifier));
+						Resource resource = model.createResource(identifier);
+						boolean resourceIsInSkos = model.containsResource(resource);
 						if (!resourceIsInSkos) {
 							result.incrementErrorCount(ignored);
 							numerator++;
@@ -112,7 +115,26 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 									i18n.tr("tests.impl.a17.result.missinginskos.content",
 											new Object[] { filePath, lineNumber, identifier }));
 							result.addMessage(message);
+						} else {
+							String labelInSkos = jenaEngine.getPrefLabelFor(resource.asNode(), model);
+							String expression2Str = MessageFormat.format(labelExpressionStr, identifier, "fr");
+							XPathExpression expression2 = xpath.compile(expression2Str);
+							Node captionNode = (Node) expression2.evaluate(vdexDocument, XPathConstants.NODE);
+
+							if (null != captionNode) {
+								String captionInVdex = captionNode.getTextContent();
+								if (!StringUtils.equals(captionInVdex, labelInSkos)) {
+									result.incrementErrorCount(ignored);
+									numerator++;
+									Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
+											errorCode, i18n.tr("tests.impl.a17.result.nonmatchinglabels.title"),
+											i18n.tr("tests.impl.a17.result.nonmatchinglabels.content",
+													new Object[] { identifier, captionInVdex, filePath, labelInSkos }));
+									result.addMessage(message);
+								}
+							}
 						}
+
 					}
 
 				}
@@ -122,7 +144,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 			String title = "Invalid xpath expression";
 			logger.error(title, e);
 			result.addMessage(new Message(Message.Type.FAILURE,
-					CommonMessageKeys.XPATH_ERROR.toString() + expressionStr, title, e.getMessage()));
+					CommonMessageKeys.XPATH_ERROR.toString() + allIdentifiersExpressionStr, title, e.getMessage()));
 			stopTestCase();
 			return;
 		}

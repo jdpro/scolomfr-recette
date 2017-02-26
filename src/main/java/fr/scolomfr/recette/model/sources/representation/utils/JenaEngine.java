@@ -41,6 +41,8 @@ import org.springframework.stereotype.Component;
 @Scope(value = "prototype")
 public class JenaEngine {
 
+	private static final String DEFAULT_LANGUAGE = "fr";
+
 	public Model getModel(InputStream fileInputStream) {
 		Model model = ModelFactory.createDefaultModel();
 		model.read(fileInputStream, null);
@@ -48,14 +50,22 @@ public class JenaEngine {
 	}
 
 	public String getPrefLabelFor(Node node, Model model) {
+		return getPrefLabelFor(node, model, DEFAULT_LANGUAGE);
+	}
+
+	public String getPrefLabelFor(Node node, Model model, String language) {
 		Resource resource = model.getResource(node.getURI());
-		Property prefLabel = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+		Property prefLabelProp = model.getProperty(Constant.SKOS_CORE_NS.toString(),
 				Constant.SKOS_PREFLABEL_PROPERTY.toString());
-		Selector selector = new SimpleSelector(resource, prefLabel, (RDFNode) null);
+		Selector selector = new SimpleSelector(resource, prefLabelProp, (RDFNode) null);
 		StmtIterator stmts = model.listStatements(selector);
 		while (stmts.hasNext()) {
 			Statement statement = stmts.next();
-			return ((Literal) statement.getObject()).getString();
+			Literal prefLabel = (Literal) statement.getObject();
+			if(prefLabel.getLanguage().equals(language))
+			{
+				return prefLabel.getString();
+			}
 		}
 		return null;
 	}
