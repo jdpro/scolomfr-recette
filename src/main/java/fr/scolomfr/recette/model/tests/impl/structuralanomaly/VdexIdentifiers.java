@@ -64,6 +64,8 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 
 	@Override
 	public void run() {
+		int numerator = 0;
+		int denominator = 0;
 		List<String> vdexFilePaths = new LinkedList<String>();
 		if (getVocabulary().equals("global")) {
 			vdexFilePaths.addAll(getFilePathsForAllVocabularies(getVersion(), "vdex"));
@@ -88,6 +90,8 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 				Document vdexDocument = vdexDocuments.get(filePath);
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
 				for (int i = 0; i < identifiers.getLength(); i++) {
+					refreshComplianceIndicator(result, (denominator - numerator), denominator);
+					denominator++;
 					Node node = identifiers.item(i);
 
 					String identifier = node.getTextContent();
@@ -108,13 +112,16 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 					boolean ignored = errorIsIgnored(errorCode);
 					if (StringUtils.isEmpty(identifier)) {
 						result.incrementErrorCount(ignored);
+						numerator++;
 						Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 								i18n.tr("tests.impl.a22.result.empty.title"),
 								i18n.tr("tests.impl.a22.result.empty.content", new Object[] { filePath, lineNumber }));
 						result.addMessage(message);
+						continue;
 					}
 					if (identifiersAndLineNumbers.containsKey(identifier)) {
 						result.incrementErrorCount(ignored);
+						numerator++;
 						Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 								i18n.tr("tests.impl.a22.result.duplicate.title"),
 								i18n.tr("tests.impl.a22.result.duplicate.content", new Object[] { filePath, lineNumber,

@@ -45,6 +45,7 @@ import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
+import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
@@ -62,7 +63,8 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 
 	@Override
 	public void run() {
-
+		int numerator = 0;
+		int denominator = 0;
 		Model model = getModel(getVersion(), "global", getSkosType());
 
 		List<String> vdexFilePaths = getFilePathsForAllVocabularies(getVersion(), "vdex");
@@ -82,24 +84,34 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 				Document vdexDocument = vdexDocuments.get(filePath);
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
 				for (int i = 0; i < identifiers.getLength(); i++) {
+					refreshComplianceIndicator(result, (denominator - numerator), denominator);
+					denominator++;
 					Node node = identifiers.item(i);
-
 					String identifier = node.getTextContent();
-					String uri = null;
-					if (urlValidator.isValid(identifier)) {
-						uri = identifier;
-					} else {
-						uri = lookForEquivalentUriInVdex(identifier, vdexDocument);
+					String lineNumber = (String) node.getUserData(DomDocumentWithLineNumbersBuilder.LINE_NUMBER_KEY);
+					String errorCode = null;
+					try {
+						errorCode = generateUniqueErrorCode(filePath + MESSAGE_ID_SEPARATOR
+								+ (StringUtils.isEmpty(identifier) ? lineNumber : identifier));
+					} catch (DuplicateErrorCodeException e1) {
+						try {
+							errorCode = generateUniqueErrorCode(
+									filePath + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
+						} catch (DuplicateErrorCodeException e) {
+							logger.debug("Errorcode {} generated twice ", errorCode, e);
+						}
 					}
-					if (StringUtils.isEmpty(identifier)) {
-						System.out.println(">>>>>>>>>>>>>>Pas d'équivalent uri pour " + identifier + " dans le fichier "
-								+ filePath + " à la ligne "
-								+ node.getUserData(DomDocumentWithLineNumbersBuilder.LINE_NUMBER_KEY));
-					} else {
-						boolean resourceIsInSkos = model.containsResource(model.createResource(uri));
+					boolean ignored = errorIsIgnored(errorCode);
+					if (urlValidator.isValid(identifier)) {
+						boolean resourceIsInSkos = model.containsResource(model.createResource(identifier));
 						if (!resourceIsInSkos) {
-							System.out.println("------------Pas dans le skos");
-							System.out.println(uri);
+							result.incrementErrorCount(ignored);
+							numerator++;
+							Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
+									errorCode, i18n.tr("tests.impl.a17.result.missinginskos.title"),
+									i18n.tr("tests.impl.a17.result.missinginskos.content",
+											new Object[] { filePath, lineNumber, identifier }));
+							result.addMessage(message);
 						}
 					}
 
