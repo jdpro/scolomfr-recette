@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.conservationconcepts;
+package fr.scolomfr.recette.model.tests.impl.caseconventions;
 
 import org.apache.jena.query.Dataset;
 import org.apache.jena.query.QueryExecution;
@@ -30,6 +30,7 @@ import org.apache.jena.tdb.TDBFactory;
 
 import com.github.zafarkhaja.semver.Version;
 
+import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.impl.AbstractSparqlTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
@@ -37,34 +38,20 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 /**
  * Two
  */
-@TestCaseIndex(index = "s2xx")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VERSION2,
-		TestParameters.Values.VOCABULARY })
-public class ConservationConceptsEntreVersionsSkosSparql extends AbstractSparqlTestCase {
+@TestCaseIndex(index = "s1")
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+public class CaseConventionsRespectSkosSparql extends AbstractSparqlTestCase {
 
-	static final String QUERY_FILE = "conservation_concepts_entre_versions.sparql";
-
-	private String grapheNameStub = "http://www.reseau­canope.fr/scolomfr/";
+	static final String QUERY_FILE = "conventions_casse.sparql";
 
 	@Override
 	public void run() {
-		Version version1 = getVersion();
-		String filePath1 = getFilePath(version1, getVocabulary(), "skos");
-		Version version2 = getVersion(TestParameters.Values.VERSION2);
-		String filePath2 = getFilePath(version2, getVocabulary(), "skos");
+		Version version = getVersion();
+		String filePath = getFilePath(version, getVocabulary(), "skos");
 
-		String sparql;
-
-		sparql = getSparlsQueryString(QUERY_FILE);
-
-		String graph1Name = grapheNameStub + version1;
-		String graph2Name = grapheNameStub + version2;
-		sparql = sparql.replace("[VERSION1]", graph1Name).replace("[VERSION2]", graph2Name);
+		String sparql = getSparlsQueryString(QUERY_FILE);
 		Dataset dataset = TDBFactory.createDataset(TDB_DIR);
-		Model tdb1 = loadModel(getFileByPath(filePath1), dataset);
-		Model tdb2 = loadModel(getFileByPath(filePath2), dataset);
-		dataset.addNamedModel(graph1Name, tdb1);
-		dataset.addNamedModel(graph2Name, tdb2);
+		Model tdb = loadModel(getFileByPath(filePath), dataset);
 
 		QueryExecution queryexecution = queryTDB(sparql, dataset);
 		ResultSet execResult = queryexecution.execSelect();
@@ -74,8 +61,9 @@ public class ConservationConceptsEntreVersionsSkosSparql extends AbstractSparqlT
 			System.out.println(querySolution);
 		}
 		queryexecution.close();
-		tdb1.close();
-		tdb2.close();
+		tdb.close();
 		dataset.close();
+		result.setState(Result.State.FINAL);
 	}
+
 }

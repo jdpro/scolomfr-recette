@@ -1,0 +1,26 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22­rdf­syntax­ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf­schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xl:   <http://www.w3.org/2008/05/skos­xl#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct:  <http://purl.org/dc/terms/>
+PREFIX scolomfr: <https://www.reseau­canope.fr/scolomfr/ontology.owl#>
+PREFIX isothes: <http://purl.org/iso25964/skos­thes#>
+SELECT DISTINCT ?parent (STR(?parentLabel) AS ?labelParent) (SAMPLE(?label1) AS ?exemple1) (SAMPLE(?label2) AS ?exemple2)
+WHERE {
+     ?parent a skos:Concept .
+     ?parent skos:narrower|^skos:broader ?sibling1 .
+     ?parent skos:narrower|^skos:broader ?sibling2 .
+     FILTER(?sibling1 != ?sibling2)
+     ?sibling1 skos:prefLabel ?label1 .
+     ?sibling2 skos:prefLabel ?label2 .
+     ?parent skos:prefLabel ?parentLabel .
+     FILTER(
+         regex(?label1, "^[a­z]")
+         &&
+         regex(?label2, "^[A­Z][a­z]")
+     )
+}
+GROUP BY ?parent ?parentLabel
+ORDER BY ?parent
