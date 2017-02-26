@@ -57,6 +57,8 @@ import fr.scolomfr.recette.utils.log.Log;
 
 public abstract class AbstractTestCase implements TestCase {
 
+	private static final String DEFAULT_SKOSTYPE = "skosxl";
+
 	protected static final String MESSAGE_ID_SEPARATOR = "_";
 
 	private static final String GLOBAL_VOCABULARY = "global";
@@ -179,10 +181,13 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	protected String getSkosType() {
-		final String skosType = executionParameters.get(TestParameters.Values.SKOSTYPE);
+		String skosType = executionParameters.get(TestParameters.Values.SKOSTYPE);
 		// TODO Move it to enum
-		String[] allowedSkosTypes = new String[] { "skos", "skosxl" };
-		if (StringUtils.isEmpty(skosType) || !ArrayUtils.contains(allowedSkosTypes, skosType)) {
+		String[] allowedSkosTypes = new String[] { "skos", DEFAULT_SKOSTYPE };
+		if (StringUtils.isEmpty(skosType)) {
+			skosType = DEFAULT_SKOSTYPE;
+		}
+		if (!ArrayUtils.contains(allowedSkosTypes, skosType)) {
 			String title = i18n.tr("test.impl.skostype.parameter.invalid.title");
 			String msg = i18n.tr("test.impl.skostype.parameter.invalid.content",
 					new Object[] { StringUtils.isEmpty(skosType) ? "<empty>" : skosType });
