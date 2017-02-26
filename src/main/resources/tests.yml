@@ -142,12 +142,20 @@ structure:
         label: SKOS Vérification de l'orthographe
         index: a15
         format: skos
+  respect_conventions_casse:
+    label: Respect des conventions relatives à la casse
+    index: 3.2
+    tests:
+      verification_casse_skos_sparql:
+        label: SKOS/SPARQL Vérification de la casse
+        index: s1
+        format: skos
   conservation_concepts_entre_versions:
     label: SKOS Conservation des concepts entre versions
     index: 4.1
     tests:
       conservation_concepts_entre_versions_skos_sparql:
-        label: SKOS/sparql Conservation des concepts entre versions
+        label: SKOS/SPARQL Conservation des concepts entre versions
         index: s2
         format: skos
       conservation_concepts_entre_versions_skos:
