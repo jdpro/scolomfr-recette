@@ -62,12 +62,12 @@ public abstract class AbstractTestCase implements TestCase {
 	List<String> errorCodes = new ArrayList<>();
 
 	protected Map<String, String> executionParameters;
-	protected Result result = new Result();
+	public Result result = new Result();
 	protected Integer executionIdentifier;
 	protected TestCaseExecutionRegistry testCaseExecutionRegistry;
 
 	@Autowired
-	protected I18nProvider i18n;
+	public I18nProvider i18n;
 
 	@Override
 	public void setExecutionParameters(Map<String, String> executionParameters) {
