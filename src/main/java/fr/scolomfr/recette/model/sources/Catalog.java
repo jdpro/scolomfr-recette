@@ -96,4 +96,19 @@ public interface Catalog {
 	 */
 	String getFilePathByVersionFormatAndVocabulary(Version version, String format, String vocabulary);
 
+	/**
+	 * 
+	 * @param version
+	 * @param vocabulary
+	 * @return
+	 */
+	List<String> getFilePathsByVersionAndFormat(Version version, String format);
+
+	/**
+	 * 
+	 * @param version
+	 * @param format
+	 * @return
+	 */
+	String getDtddirByVersionAndFormat(Version version, String format);
 }

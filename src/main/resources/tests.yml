@@ -94,6 +94,11 @@ structure:
       reflexive_relations:
         index: q19
         label: Reflexive Relations
+        format: skos
+      vdex_identifiers:
+        index: a22
+        label: Identifiers VDEX
+        format: vdex
   respect_regles_web_donnees:
     label: Respect des règles du web de données
     index: 2.1
@@ -167,6 +172,6 @@ structure:
     index: 5.1
     tests:
       skosxl_vdex:
-        label: SKOSXL/VDEX
+        label: SKOS(XL)/VDEX
         index: a17
         format: skosxl

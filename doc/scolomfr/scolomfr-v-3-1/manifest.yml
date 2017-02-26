@@ -1,4 +1,6 @@
 version: 3.1.0
+dtddir:
+  vdex: .
 content:
   skos:
     global: scolomfrSkosXl_n_GLOBAL.rdf
@@ -42,7 +44,7 @@ content:
     voc44: SKOS/scolomfrSkos_n_n-1_44.rdf
     voc45: SKOS/scolomfrSkos_n_n-1_45.rdf
     voc46: SKOS/scolomfrSkos_n_n-1_46.rdf
-  skos-xl:
+  skosxl:
     global: scolomfrSkosXl_n_GLOBAL.rdf
     voc01: SKOS-XL/scolomfrSkosXl_n_01.rdf
     voc02: SKOS-XL/scolomfrSkosXl_n_02.rdf

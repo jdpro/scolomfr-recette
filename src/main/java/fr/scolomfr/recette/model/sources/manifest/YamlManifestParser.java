@@ -49,6 +49,7 @@ public class YamlManifestParser implements ManifestParser {
 																	// is root
 		TypeDescription manifestDescription = new TypeDescription(Manifest.class);
 		manifestDescription.putListPropertyType("content", LinkedList.class);
+		manifestDescription.putListPropertyType("dtddir", LinkedList.class);
 		constructor.addTypeDescription(manifestDescription);
 		Yaml yaml = new Yaml(constructor);
 		manifest = (Manifest) yaml.load(manifestFile);

@@ -23,12 +23,16 @@ package fr.scolomfr.recette.model.sources.representation;
 
 import java.io.InputStream;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 
 public class SourceRepresentationBuilder<T> {
 	final Class<T> typeParameterClass;
 	private InputStream inputStream;
 	private SourceRepresentationFactory factory;
+	private boolean withLineNumbers = true;
+	private String dtdDirectory;
 
 	public SourceRepresentationBuilder(Class<T> typeParameterClass) {
 		this.typeParameterClass = typeParameterClass;
@@ -45,10 +49,33 @@ public class SourceRepresentationBuilder<T> {
 
 	public T build() throws SourceRepresentationBuildException {
 		if (typeParameterClass.equals(Document.class)) {
-			factory = new DomDocumentSourceRepresentationFactory();
+			if (isWithLineNumbers()) {
+				factory = new DomDocumentWithLineNumbersSourceRepresentationFactory();
+			} else {
+				factory = new DomDocumentSourceRepresentationFactory();
+			}
+			factory.setDtdDirectory(getDtdDirectory());
 		}
 		@SuppressWarnings("unchecked")
 		T representation = (T) factory.getSourceRepresentation(inputStream);
 		return representation;
+	}
+
+	public boolean isWithLineNumbers() {
+		return withLineNumbers;
+	}
+
+	public SourceRepresentationBuilder<T> setWithLineNumbers(boolean withLineNumbers) {
+		this.withLineNumbers = withLineNumbers;
+		return this;
+	}
+
+	public String getDtdDirectory() {
+		return dtdDirectory;
+	}
+
+	public SourceRepresentationBuilder<T> setDtdDirectory(String dtdDirectory) {
+		this.dtdDirectory = dtdDirectory;
+		return this;
 	}
 }

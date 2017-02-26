@@ -22,5 +22,5 @@ WHERE {
          regex(?label2, "^[A­Z][a­z]")
      )
 }
-GROUP BY ?parent ?parentLabel
 ORDER BY ?parent
+GROUP BY ?parent ?parentLabel

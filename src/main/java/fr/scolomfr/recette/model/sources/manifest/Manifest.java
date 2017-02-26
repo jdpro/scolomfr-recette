@@ -37,6 +37,7 @@ public class Manifest {
 
 	private Version semanticVersion;
 	private Map<String, Map<String, String>> content;
+	private Map<String, String> dtddir;
 
 	/**
 	 * Get version as raw string
@@ -75,6 +76,14 @@ public class Manifest {
 
 	public void setFolder(String folder) {
 		this.folder = folder;
+	}
+
+	public Map<String, String> getDtddir() {
+		return dtddir;
+	}
+
+	public void setDtddir(Map<String, String> dtddir) {
+		this.dtddir = dtddir;
 	}
 
 }

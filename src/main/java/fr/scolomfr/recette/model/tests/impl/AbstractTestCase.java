@@ -27,14 +27,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang3.ArrayUtils;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.util.StringUtils;
+import org.w3c.dom.Document;
 
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.Catalog;
+import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuildException;
+import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuilder;
 import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
@@ -157,6 +162,22 @@ public abstract class AbstractTestCase implements TestCase {
 		return vocabulary;
 	}
 
+	protected String getSkosType() {
+		final String skosType = executionParameters.get(TestParameters.Values.SKOSTYPE);
+		// TODO Move it to enum
+		String[] allowedSkosTypes = new String[] { "skos", "skosxl" };
+		if (StringUtils.isEmpty(skosType) || !ArrayUtils.contains(allowedSkosTypes, skosType)) {
+			String title = i18n.tr("test.impl.skostype.parameter.invalid.title");
+			String msg = i18n.tr("test.impl.skostype.parameter.invalid.content",
+					new Object[] { StringUtils.isEmpty(skosType) ? "<empty>" : skosType });
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "parameter", title,
+					msg);
+			result.incrementErrorCount(false);
+			stopTestCase();
+		}
+		return skosType;
+	}
+
 	protected String getFilePath(final Version version, final String vocabulary, final String format) {
 		final String filePath = catalog.getFilePathByVersionFormatAndVocabulary(version, format, vocabulary);
 		if (null == filePath) {
@@ -173,6 +194,24 @@ public abstract class AbstractTestCase implements TestCase {
 		}
 
 		return filePath;
+	}
+
+	protected List<String> getFilePathsForAllVocabularies(final Version version, final String format) {
+		final List<String> filePaths = catalog.getFilePathsByVersionAndFormat(version, format);
+		if (CollectionUtils.isEmpty(filePaths)) {
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + version + format,
+					i18n.tr("test.impl.files.unavailable.title"),
+					i18n.tr("test.impl.files.unavailable.content", new Object[] { version, format }));
+			result.incrementErrorCount(false);
+			stopTestCase();
+
+		} else {
+			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePaths.toString(),
+					i18n.tr("test.impl.files.available.title"), i18n.tr("test.impl.files.available.content",
+							new Object[] { version, format, filePaths.size(), filePaths.toString() }));
+		}
+
+		return filePaths;
 	}
 
 	protected void stopTestCase() {
@@ -242,6 +281,40 @@ public abstract class AbstractTestCase implements TestCase {
 		}
 		errorCodes.add(code);
 		return code;
+	}
+
+	protected Document getDomDocument(final Version version, final String vocabulary, final String format, String  dtdDirectory) {
+		final String filePath = getFilePath(version, vocabulary, format);
+		if (null == filePath) {
+			return null;
+		}
+		return getDomDocument(filePath, dtdDirectory);
+	}
+
+	protected Document getDomDocument(String filePath, String dtdDirectory) {
+		Document document;
+		try {
+			final InputStream fileInputStream = getFileInputStreamByPath(filePath);
+			SourceRepresentationBuilder<Document> sourceRepresentationBuilder = new SourceRepresentationBuilder<Document>(
+					Document.class);
+			sourceRepresentationBuilder.setWithLineNumbers(true);
+			if (!org.apache.commons.lang3.StringUtils.isEmpty(dtdDirectory)) {
+				sourceRepresentationBuilder.setDtdDirectory(dtdDirectory);
+			}
+			document = sourceRepresentationBuilder.inputStream(fileInputStream).build();
+		} catch (final SourceRepresentationBuildException e) {
+			String title = i18n.tr("test.impl.xml.unreadable.title");
+			String content = i18n.tr("test.impl.xml.unreadable.content", new Object[] { filePath, e.getMessage() });
+			logger.error(content, e);
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title,
+					content);
+			this.result.incrementErrorCount(false);
+			return null;
+		}
+		String title = i18n.tr("test.impl.xml.readable.title");
+		String content = i18n.tr("test.impl.xml.readable.content", new Object[] { filePath });
+		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
+		return document;
 	}
 
 }

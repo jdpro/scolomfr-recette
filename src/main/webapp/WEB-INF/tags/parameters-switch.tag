@@ -35,4 +35,9 @@
 				name="label">
 				<spring:message code="test.tested_vocabulary2"></spring:message> </jsp:attribute></t:vocabulary>
 	</c:when>
+	<c:when test="${tagname == 'skostype'}">
+		<t:skostype parameterName="${tagname}"><jsp:attribute
+				name="label">
+				<spring:message code="test.tested_skostype"></spring:message> </jsp:attribute></t:skostype>
+	</c:when>
 </c:choose>

@@ -26,4 +26,6 @@ public abstract class SourceRepresentationFactory {
 
 	public abstract Object getSourceRepresentation(InputStream inputStream) throws SourceRepresentationBuildException;
 
+	public abstract void setDtdDirectory(String dtdDirectory);
+
 }

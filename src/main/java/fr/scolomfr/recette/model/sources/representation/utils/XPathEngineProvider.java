@@ -37,12 +37,15 @@ public class XPathEngineProvider {
 		NamespaceContext nsContext = new NamespaceContext() {
 			@Override
 			public String getNamespaceURI(String prefix) {
+				// TODO Put strings out of code
 				if (prefix == null)
 					throw new NullPointerException("Null prefix");
 				else if ("rdf".equals(prefix))
 					return "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 				else if ("skos".equals(prefix))
 					return "http://www.w3.org/2004/02/skos/core#";
+				else if ("vdex".equals(prefix))
+					return "http://www.imsglobal.org/xsd/imsvdex_v1p0";
 				return XMLConstants.NULL_NS_URI;
 			}
 

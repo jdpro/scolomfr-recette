@@ -28,8 +28,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Path;
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.SortedMap;
@@ -225,8 +227,8 @@ public class CatalogImpl implements Catalog {
 
 	@Override
 	public InputStream getFileInputStreamByPath(String filePath) {
-		return getResourcesLoader().loadResource(this.getVocabulariesDirectory() + "/" + filePath);
-
+		String completePath = MessageFormat.format("{0}/{1}", this.getVocabulariesDirectory(), filePath);
+		return getResourcesLoader().loadResource(completePath);
 	}
 
 	@Override
@@ -264,6 +266,38 @@ public class CatalogImpl implements Catalog {
 			}
 		}
 		return filePath;
+	}
+
+	@Override
+	public List<String> getFilePathsByVersionAndFormat(Version version, String format) {
+		Manifest manifest = getManifests().get(version);
+		List<String> filePaths = new LinkedList<>();
+		String folder;
+		if (null != manifest) {
+			folder = manifest.getFolder();
+			Map<String, Map<String, String>> content = manifest.getContent();
+			Map<String, String> vocabularies = content.get(format);
+			Iterator<String> it = vocabularies.keySet().iterator();
+			while (it.hasNext()) {
+				String key = it.next();
+				filePaths.add(folder + "/" + vocabularies.get(key));
+			}
+
+		}
+		return filePaths;
+	}
+
+	@Override
+	public String getDtddirByVersionAndFormat(Version version, String format) {
+		Manifest manifest = getManifests().get(version);
+		if (null != manifest) {
+			Map<String, String> dtddirs = manifest.getDtddir();
+			if (null != dtddirs) {
+				return getVocabulariesDirectory() + "/" + manifest.getFolder() + "/" + dtddirs.get(format);
+			}
+
+		}
+		return null;
 	}
 
 }

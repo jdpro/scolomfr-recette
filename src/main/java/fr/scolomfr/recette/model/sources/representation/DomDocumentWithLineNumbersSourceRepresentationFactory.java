@@ -27,45 +27,38 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-public class DomDocumentSourceRepresentationFactory extends SourceRepresentationFactory {
+import fr.apiscol.metadata.scolomfr3utils.utils.xml.DomDocumentWithLineNumbersBuilder;
 
+public class DomDocumentWithLineNumbersSourceRepresentationFactory extends SourceRepresentationFactory {
+	
 	private String dtdDirectory;
 
 	@Override
 	public Document getSourceRepresentation(InputStream inputStream) throws SourceRepresentationBuildException {
-		DocumentBuilderFactory factory = null;
-		DocumentBuilder builder = null;
-		Document ret;
+		Document ret = null;
 
 		try {
-			factory = DocumentBuilderFactory.newInstance();
-			factory.setNamespaceAware(true);
-			factory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
-			factory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
-			builder = factory.newDocumentBuilder();
-		} catch (ParserConfigurationException e) {
-			throw new SourceRepresentationBuildException("Unable to create document builder", e);
+			ret = DomDocumentWithLineNumbersBuilder.getInstance().parse(inputStream,getDtdDirectory());
+		} catch (IOException | SAXException | ParserConfigurationException e) {
+			throw new SourceRepresentationBuildException(
+					"Impossible to get iputStream as dom document with line numbers", e);
 		}
 
-		try {
-			ret = builder.parse(new InputSource(inputStream));
-		} catch (SAXException e) {
-			throw new SourceRepresentationBuildException("Unable to read XML Document from InputStream", e);
-		} catch (IOException e) {
-			throw new SourceRepresentationBuildException("Unable to open InputStream", e);
-		}
 		return ret;
+	}
+
+	public String getDtdDirectory() {
+		return dtdDirectory;
 	}
 
 	@Override
 	public void setDtdDirectory(String dtdDirectory) {
 		this.dtdDirectory = dtdDirectory;
-		
-		
 	}
 
 }
