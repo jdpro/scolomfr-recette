@@ -152,5 +152,13 @@ structure:
         format: skos
       conservation_concepts_entre_versions_skos:
         label: SKOS Conservation des concepts entre versions
-        index: ax
+        index: a21
         format: skos
+  contenu_identique_serialisations:
+    label: Contenu identique des sérialisations
+    index: 5.1
+    tests:
+      skosxl_vdex:
+        label: SKOSXL/VDEX
+        index: a17
+        format: skosxl

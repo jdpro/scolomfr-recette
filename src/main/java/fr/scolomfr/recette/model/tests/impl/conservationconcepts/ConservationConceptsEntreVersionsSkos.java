@@ -45,7 +45,7 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 /**
  * Two
  */
-@TestCaseIndex(index = "ax")
+@TestCaseIndex(index = "a21")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VERSION2,
 		TestParameters.Values.VOCABULARY })
 public class ConservationConceptsEntreVersionsSkos extends AbstractJenaTestCase {
