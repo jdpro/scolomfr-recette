@@ -21,6 +21,8 @@
 package fr.scolomfr.recette.model.sources.representation.utils;
 
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 import org.apache.jena.graph.Node;
 import org.apache.jena.rdf.model.Literal;
@@ -62,12 +64,32 @@ public class JenaEngine {
 		while (stmts.hasNext()) {
 			Statement statement = stmts.next();
 			Literal prefLabel = (Literal) statement.getObject();
-			if(prefLabel.getLanguage().equals(language))
-			{
+			if (prefLabel.getLanguage().equals(language)) {
 				return prefLabel.getString();
 			}
 		}
 		return null;
+	}
+
+	public HashMap<String, String> getAllPrefLabels(Model model) {
+		return getAllPrefLabels(model, DEFAULT_LANGUAGE);
+	}
+
+	public HashMap<String, String> getAllPrefLabels(Model model, String language) {
+		HashMap<String, String> allPrefLabels = new LinkedHashMap<>();
+		Property prefLabelProp = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+				Constant.SKOS_PREFLABEL_PROPERTY.toString());
+		Selector selector = new SimpleSelector((Resource) null, prefLabelProp, (RDFNode) null);
+		StmtIterator stmts = model.listStatements(selector);
+		while (stmts.hasNext()) {
+			Statement statement = stmts.next();
+			Literal prefLabel = statement.getObject().asLiteral();
+			if (prefLabel.getLanguage().equals(language)) {
+				allPrefLabels.put(statement.getSubject().getURI(), prefLabel.getString());
+			}
+		}
+
+		return allPrefLabels;
 	}
 
 	public boolean memberOfVocab(Resource vocab, Resource subject, Model model) {
@@ -100,4 +122,5 @@ public class JenaEngine {
 		}
 
 	}
+
 }

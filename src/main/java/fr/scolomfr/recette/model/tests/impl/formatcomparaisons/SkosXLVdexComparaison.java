@@ -23,8 +23,12 @@ package fr.scolomfr.recette.model.tests.impl.formatcomparaisons;
 
 import java.text.MessageFormat;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
@@ -87,6 +91,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		String labelExpressionStr = "/vdex/term[./termIdentifier=''{0}'']/caption/langstring[@language=''{1}'']/text()";
 
 		// First pass : let's loop on vdex identifiers and look for them in skos
+		Set<String> allVdexUriIdentifiers = new HashSet<>();
 		NodeList identifiers = null;
 		try {
 			XPathExpression expression = xpath.compile(allIdentifiersExpressionStr);
@@ -113,6 +118,9 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 					}
 					boolean ignored = errorIsIgnored(errorCode);
 					if (urlValidator.isValid(identifier)) {
+						if (!allVdexUriIdentifiers.contains(identifier)) {
+							allVdexUriIdentifiers.add(identifier);
+						}
 						Resource resource = model.createResource(identifier);
 						boolean resourceIsInSkos = model.containsResource(resource);
 						if (!resourceIsInSkos) {
@@ -156,30 +164,29 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 			stopTestCase();
 			return;
 		}
-
-		result.setState(State.FINAL);
-
-	}
-
-	private String lookForEquivalentUriInVdex(String nonUriIdentifier, Document vdexDocument)
-			throws XPathExpressionException {
-		XPath xpath = xPathEngineProvider.getXpath();
-		final String expressionStr = MessageFormat.format(
-				"/vdex/relationship[./relationshipType=''UF''][./sourceTerm=''{0}'']/targetTerm", nonUriIdentifier);
-		NodeList equivalents = null;
-		XPathExpression expression = xpath.compile(expressionStr);
-		equivalents = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
-		for (int i = 0; i < equivalents.getLength(); i++) {
-			Node node = equivalents.item(i);
-
-			String equivalent = node.getTextContent();
-			if (urlValidator.isValid(equivalent)) {
-				return equivalent;
+		// Let's loop on the Skos to find identifiers that would be missing in
+		// VDEX
+		HashMap<String, String> allPrefLabels = jenaEngine.getAllPrefLabels(model);
+		Set<String> missings = allPrefLabels.keySet();
+		missings.removeAll(allVdexUriIdentifiers);
+		for (String missing : missings) {
+			String errorCode;
+			try {
+				errorCode = generateUniqueErrorCode(
+						MessageFormat.format("missing{0}{1}", MESSAGE_ID_SEPARATOR, missing));
+			} catch (DuplicateErrorCodeException e) {
+				logger.debug("Duplicate error code for uri " + missing, e);
+				continue;
 			}
-
+			boolean ignored = errorIsIgnored(errorCode);
+			result.incrementErrorCount(ignored);
+			numerator++;
+			Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+					i18n.tr("tests.impl.a17.result.missinginvdex.title"),
+					i18n.tr("tests.impl.a17.result.missinginvdex.content", new Object[] { missing }));
+			result.addMessage(message);
 		}
-		System.out.println(">>>>>>>>>>>>>>>>>>>No equivalent for " + nonUriIdentifier);
-		return null;
+		result.setState(State.FINAL);
 
 	}
 
