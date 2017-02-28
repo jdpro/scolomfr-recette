@@ -22,7 +22,6 @@
 package fr.scolomfr.recette.model.tests.impl.structuralanomaly;
 
 import java.text.MessageFormat;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -66,6 +65,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 	public void run() {
 		int numerator = 0;
 		int denominator = 0;
+		progressionMessage(0);
 		List<String> vdexFilePaths = new LinkedList<String>();
 		if (getVocabulary().equals("global")) {
 			vdexFilePaths.addAll(getFilePathsForAllVocabularies(getVersion(), "vdex"));
@@ -86,10 +86,21 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 		Map<String, String> identifiersAndLineNumbers = new HashMap<>();
 		try {
 			XPathExpression expression = xpath.compile(expressionStr);
+			int counter = 0;
+			int nbDocs = vdexDocuments.keySet().size();
+			float interval = 100.f / (nbDocs == 0 ? 1.f : nbDocs);
 			for (String filePath : vdexDocuments.keySet()) {
+
+				float step = counter * interval;
+				progressionMessage(step);
 				Document vdexDocument = vdexDocuments.get(filePath);
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
-				for (int i = 0; i < identifiers.getLength(); i++) {
+				int nbIdentifiers = identifiers.getLength();
+				for (int i = 0; i < nbIdentifiers; i++) {
+					if (i % 100 == 0) {
+						progressionMessage(step + interval * i / nbIdentifiers);
+					}
+
 					refreshComplianceIndicator(result, (denominator - numerator), denominator);
 					denominator++;
 					Node node = identifiers.item(i);
@@ -149,7 +160,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 					}
 
 				}
-
+				counter++;
 			}
 		} catch (XPathExpressionException e) {
 			String title = "Invalid xpath expression";
@@ -159,7 +170,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 			stopTestCase();
 			return;
 		}
-
+		progressionMessage(100);
 		result.setState(State.FINAL);
 
 	}

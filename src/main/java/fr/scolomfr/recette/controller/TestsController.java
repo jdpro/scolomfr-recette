@@ -47,6 +47,7 @@ import fr.scolomfr.recette.model.tests.execution.result.AsyncResult;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import fr.scolomfr.recette.model.tests.organization.TestsRepository;
@@ -136,6 +137,7 @@ public class TestsController {
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
 		}
 		testCase.reset();
+		testCase.setExecutionMode(ExecutionMode.ASYNCHRONOUS);
 		testCase.setExecutionParameters(executionParameters);
 		Integer executionIdentifier = testCaseExecutionRegistry.newTestCaseExecution(testCase);
 		AsyncResult result = new AsyncResult();

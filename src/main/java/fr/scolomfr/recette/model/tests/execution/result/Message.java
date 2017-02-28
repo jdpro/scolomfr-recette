@@ -70,7 +70,7 @@ public class Message {
 	}
 
 	public enum Type {
-		FAILURE("failure"), ERROR("error"), IGNORED("error"), INFO("info");
+		FAILURE("failure"), ERROR("error"), IGNORED("error"), INFO("info"), PROGRESS("progress");
 		private String value;
 
 		private Type(String value) {

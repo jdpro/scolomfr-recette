@@ -25,6 +25,7 @@ import java.util.Map;
 
 import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 
 public interface TestCase extends Runnable {
 
@@ -39,5 +40,9 @@ public interface TestCase extends Runnable {
 	Result temporaryResult();
 	
 	void reset();
+
+	ExecutionMode getExecutionMode();
+
+	void setExecutionMode(ExecutionMode executionMode);
 
 }

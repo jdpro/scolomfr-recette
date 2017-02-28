@@ -21,6 +21,11 @@
  */
 package fr.scolomfr.recette.model.tests.impl.spellchecking;
 
+import java.util.Iterator;
+import java.util.List;
+
+import org.apache.jena.ext.com.google.common.collect.Iterators;
+import org.apache.jena.ext.com.google.common.collect.Lists;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
@@ -55,6 +60,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 	public void run() {
 		int numerator = 0;
 		int denominator = 0;
+		progressionMessage(0);
 		Model model = getModel(getVersion(), getVocabulary(), "skos");
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_PREFLABEL_PROPERTY.toString());
@@ -72,9 +78,15 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		Resource vocab001 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-001");
 		Resource vocab006 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-006");
 		Resource vocab024 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-024");
-		while (stmts.hasNext()) {
+		List<Statement> list = stmts.toList();
+		int numberOfStatements = list.size();
+		Iterator<Statement> it = list.iterator();
+		while (it.hasNext()) {
 			denominator++;
-			Statement statement = stmts.next();
+			if (denominator % 100 == 0) {
+				progressionMessage((float) denominator / (float) numberOfStatements * 100.f);
+			}
+			Statement statement = it.next();
 
 			if (jenaEngine.memberOfVocab(vocab001, statement.getSubject(), model)
 					|| jenaEngine.memberOfVocab(vocab024, statement.getSubject(), model)
@@ -148,6 +160,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 			refreshComplianceIndicator(result, (denominator - numerator), denominator);
 
 		}
+		progressionMessage(100);
 		result.setState(State.FINAL);
 	}
 
