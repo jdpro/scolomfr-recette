@@ -24,11 +24,14 @@ package fr.scolomfr.recette.controller;
 import java.io.IOException;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
+import fr.scolomfr.recette.config.CustomLoginSuccessHandler;
 
 /**
  * Controller for login page
@@ -46,7 +49,10 @@ public class LoginController {
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String loginPage(HttpServletRequest request, Model model) {
 		String referrer = request.getHeader("Referer");
-		request.getSession().setAttribute("url_prior_login", referrer);
+		HttpSession session = request.getSession();
+		if (null == session || null == session.getAttribute(CustomLoginSuccessHandler.URL_PRIOR_LOGIN)) {
+			request.getSession().setAttribute(CustomLoginSuccessHandler.URL_PRIOR_LOGIN, referrer);
+		}
 		model.addAttribute("displayContainer", false);
 		model.addAttribute("logControl", false);
 		return "login";

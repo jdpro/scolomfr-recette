@@ -31,6 +31,9 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 
 public class CustomLoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
+	private static final String LOGIN_REQUEST_PATH = "/login";
+	public static final String URL_PRIOR_LOGIN = "url_prior_login";
+
 	public CustomLoginSuccessHandler(String defaultTargetUrl) {
 		setDefaultTargetUrl(defaultTargetUrl);
 	}
@@ -40,9 +43,9 @@ public class CustomLoginSuccessHandler extends SavedRequestAwareAuthenticationSu
 			Authentication authentication) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		if (session != null) {
-			String redirectUrl = (String) session.getAttribute("url_prior_login");
-			if (redirectUrl != null) {
-				session.removeAttribute("url_prior_login");
+			String redirectUrl = (String) session.getAttribute(URL_PRIOR_LOGIN);
+			if (redirectUrl != null && !redirectUrl.endsWith(LOGIN_REQUEST_PATH)) {
+				session.removeAttribute(URL_PRIOR_LOGIN);
 				getRedirectStrategy().sendRedirect(request, response, redirectUrl);
 			} else {
 				super.onAuthenticationSuccess(request, response, authentication);
