@@ -139,15 +139,31 @@ function refreshMessages(json) {
 			.round(indicator * 10000) / 100);
 	var errors = new Array();
 	var infos = new Array();
+	var maxProgress = -1;
 	$(json.messages).each(function(i, e) {
 		if (e.type == 'INFO') {
 			infos.push(e);
-		} else {
+		} else if (e.type == 'ERROR' || e.type == 'FAILURE') {
 			errors.push(e);
+		} else if (e.type == 'PROGRESS') {
+			maxProgress = Math.max(maxProgress, e.content);
 		}
 	})
+	if (maxProgress >= 0) {
+		displayProgression(maxProgress);
+	}
 	displayMessages("errors-area", errors)
 	displayMessages("infos-area", infos)
+}
+var $progressBar;
+function displayProgression(progression) {
+	var value = Math.round(progression * 10) / 10;
+	if (!$progressBar) {
+		$progressBar = $("#progressbar");
+	}
+	$progressBar.closest(".progress").removeClass("hidden");
+	$progressBar.prop("aria-valuenow", value).text(value + "%").width(
+			value + "%");
 }
 var $errorCountIndicator, $falsePositiveCountIndicator;
 var previousErrorCount;
@@ -178,7 +194,7 @@ function displayComplianceIndicator(complianceIndicator) {
 		$complianceIndicatorContainer.addClass("hidden");
 	} else {
 		$complianceIndicatorContainer.removeClass("hidden");
-		$complianceIndicator.text(complianceIndicator);
+		$complianceIndicator.text(Math.round(complianceIndicator));
 	}
 }
 function displayMessages(areaId, messages) {
@@ -191,10 +207,6 @@ function displayMessages(areaId, messages) {
 		}
 		key = messageData.key.replace(
 				/([\!"#$%&'()*+,./:;<=>?@\[\\\]\^`\{|\}~])/g, "\\$1");
-		console.log($("#" + key).length);
-		if ($("#" + key).length > 0) {
-			console.log("doublon " + key)
-		}
 		title = messageData.title ? messageData.title : "<empty>";
 		content = messageData.content ? messageData.content : messageData;
 		$messageBody = $messageTemplate.clone();

@@ -29,26 +29,35 @@
                         
 							</div>
                         <div class="panel-body">
-                            <div class="row">
                                     <form role="form" method="POST"
-										action="." id="testcase-exec-form">
+									action="." id="testcase-exec-form">
+										<div class="row">
 										<c:forEach items="${parameters}" var="parameter">
 											<t:parameters-switch tagname="${parameter}" />
 										</c:forEach>
-                                        <div class="col-lg-12">
-											<button class="btn btn-default" type="submit">
+										</div>
+										<div class="row">
+                                        <div class="col-lg-3">
+											<button class="btn btn-default  pull-left" type="submit">
 												<spring:message code="tests.execute"></spring:message> <img
 													alt="Patientez" title="Patientez" class="hidden"
 													src='<spring:url value="${baseResourcesPath}/img/ajax-loader.gif"></spring:url>' />
 											</button>
 										</div>
+										<div class="offset-2 col-lg-6">
+										<div class="progress  hidden">
+  											<div class="progress-bar" role="progressbar"
+													id="progressbar" aria-valuenow="0" aria-valuemin="0"
+													aria-valuemax="100" style="min-width: 2em;">0%</div>
+											</div>
+										</div>
 										
                                         
-                                    </form>
+                                    
+								</form>
                                 
                                 
-                            </div>
-                            <!-- /.row (nested) -->
+           
                         </div>
                         <!-- /.panel-body -->
                     </div>
@@ -92,6 +101,23 @@
 							 <spring:message code="tests.compliance"></spring:message> : <span
 									id="compliance-indicator"></span> %</span>
                         
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
 						
 						</div>
                         <!-- /.panel-heading -->

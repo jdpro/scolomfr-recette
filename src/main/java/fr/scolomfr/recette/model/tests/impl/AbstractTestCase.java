@@ -26,6 +26,7 @@ import java.lang.annotation.Annotation;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -62,6 +63,8 @@ public abstract class AbstractTestCase implements TestCase {
 	protected static final String MESSAGE_ID_SEPARATOR = "_";
 
 	private static final String GLOBAL_VOCABULARY = "global";
+
+	private ExecutionMode executionMode = ExecutionMode.SYNCHRONOUS;
 
 	@Log
 	public Logger logger;
@@ -136,6 +139,7 @@ public abstract class AbstractTestCase implements TestCase {
 		this.result = new Result();
 		this.executionIdentifier = null;
 		this.errorCodes = new ArrayList<>();
+		this.executionMode = ExecutionMode.SYNCHRONOUS;
 	}
 
 	protected Version getVersion() {
@@ -337,6 +341,30 @@ public abstract class AbstractTestCase implements TestCase {
 		String content = i18n.tr("test.impl.xml.readable.content", new Object[] { filePath });
 		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
 		return document;
+	}
+
+	protected void progressionMessage(float progressionRate) {
+		if (getExecutionMode() != ExecutionMode.ASYNCHRONOUS) {
+			return;
+		}
+		Message message = new Message(Message.Type.PROGRESS, UUID.randomUUID().toString(), "",
+				Float.toString(Math.min(progressionRate, 100)));
+		result.addMessage(message);
+
+	}
+
+	@Override
+	public ExecutionMode getExecutionMode() {
+		return executionMode;
+	}
+
+	@Override
+	public void setExecutionMode(ExecutionMode executionMode) {
+		this.executionMode = executionMode;
+	}
+
+	public enum ExecutionMode {
+		SYNCHRONOUS, ASYNCHRONOUS;
 	}
 
 }

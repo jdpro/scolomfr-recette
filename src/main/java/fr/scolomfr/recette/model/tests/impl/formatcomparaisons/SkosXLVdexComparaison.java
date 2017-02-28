@@ -24,8 +24,6 @@ package fr.scolomfr.recette.model.tests.impl.formatcomparaisons;
 import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -78,6 +76,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		if (null == version || StringUtils.isEmpty(skosType)) {
 			return;
 		}
+		progressionMessage(0);
 		Model model = getModel(version, "global", skosType);
 
 		List<String> vdexFilePaths = getFilePathsForAllVocabularies(version, "vdex");
@@ -95,10 +94,20 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		NodeList identifiers = null;
 		try {
 			XPathExpression expression = xpath.compile(allIdentifiersExpressionStr);
+			int counter = 0;
+			int nbDocs = vdexDocuments.keySet().size();
+			float interval = 100.f / (nbDocs == 0 ? 1.f : nbDocs);
 			for (String filePath : vdexDocuments.keySet()) {
+				float step = counter * interval;
+
+				progressionMessage(step);
 				Document vdexDocument = vdexDocuments.get(filePath);
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
-				for (int i = 0; i < identifiers.getLength(); i++) {
+				int nbIdentifiers = identifiers.getLength();
+				for (int i = 0; i < nbIdentifiers; i++) {
+					if (i % 100 == 0) {
+						progressionMessage(step + interval * i / nbIdentifiers);
+					}
 					refreshComplianceIndicator(result, (denominator - numerator), denominator);
 					denominator++;
 					Node node = identifiers.item(i);
@@ -154,7 +163,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 					}
 
 				}
-
+				counter++;
 			}
 		} catch (XPathExpressionException e) {
 			String title = "Invalid xpath expression";
@@ -186,6 +195,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 					i18n.tr("tests.impl.a17.result.missinginvdex.content", new Object[] { missing }));
 			result.addMessage(message);
 		}
+		progressionMessage(100);
 		result.setState(State.FINAL);
 
 	}
