@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.caseconventions;
+package fr.scolomfr.recette.model.tests.impl.structuralanomaly;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -32,7 +32,7 @@ import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.labels.MissingLabels
+ * @see at.ac.univie.mminf.qskos4j.issues.concepts.OrphanConcepts
  */
 @TestCaseIndex(index = "q10")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
