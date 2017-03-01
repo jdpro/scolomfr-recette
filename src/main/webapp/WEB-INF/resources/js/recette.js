@@ -219,7 +219,7 @@ function displayMessages(areaId, messages) {
 		$messageBody.find("strong.title").text(title);
 		$messageBody.find("span.content").html(content);
 		updateMessageStyle($messageBody, messageData.type);
-		$area.append($messageBody);
+		$area.prepend($messageBody);
 	}
 }
 function updateMessageStyle($messageBody, type) {

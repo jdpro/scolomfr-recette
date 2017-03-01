@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.spellchecking;
+package fr.scolomfr.recette.model.tests.impl.caseconventions;
 
 import java.util.Iterator;
 import java.util.List;
@@ -49,13 +49,10 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 /**
  * Check the spelling of skos langstrings
  */
-@TestCaseIndex(index = "a15")
+@TestCaseIndex(index = "a23")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
-public class SkosSpellChecking extends AbstractJenaTestCase {
-
-	@Autowired
-	SpellChecker spellChecker;
+public class CaseConventionsRespectSkos extends AbstractJenaTestCase {
 
 	@Override
 	public void run() {
@@ -68,15 +65,11 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 				JenaEngine.Constant.SKOS_PREFLABEL_PROPERTY.toString());
 		Property altLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_ALTLABEL_PROPERTY.toString());
-		Property scopeNote = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
-				JenaEngine.Constant.SKOS_SCOPENOTE_PROPERTY.toString());
 		Selector prefLabelSelector = new SimpleSelector(null, prefLabel, (RDFNode) null);
 		Selector altLabelSelector = new SimpleSelector(null, altLabel, (RDFNode) null);
-		Selector scopeNoteSelector = new SimpleSelector(null, scopeNote, (RDFNode) null);
 		StmtIterator stmts1 = model.listStatements(prefLabelSelector);
 		StmtIterator stmts2 = model.listStatements(altLabelSelector);
-		StmtIterator stmts3 = model.listStatements(scopeNoteSelector);
-		ExtendedIterator<Statement> stmts = stmts1.andThen(stmts2).andThen(stmts3);
+		ExtendedIterator<Statement> stmts = stmts1.andThen(stmts2);
 		Resource vocab001 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-001");
 		Resource vocab006 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-006");
 		Resource vocab024 = model.getResource("http://data.education.fr/voc/scolomfr/scolomfr-voc-024");
@@ -99,7 +92,6 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 			Property predicate = statement.getPredicate();
 
 			String label = labelLit.getString();
-			String language = labelLit.getLanguage();
 			String errorCode = null;
 			try {
 				errorCode = generateUniqueErrorCode(statement, predicate, label);
@@ -107,63 +99,44 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 				logger.debug("Errorcode {} generated twice ", errorCode, e1);
 				continue;
 			}
-			try {
-				SpellCheckResult spellCheckResult = spellChecker.spell(label, language);
 
-				boolean ignored = errorIsIgnored(errorCode);
-				switch (spellCheckResult.getState()) {
-				case INVALID:
-					if (!ignored) {
-						numerator++;
-					}
-					result.incrementErrorCount(ignored);
-					Message message = new Message(
-							 ignored ? Message.Type.IGNORED : Message.Type.ERROR,
-							errorCode, i18n.tr("tests.impl.a15.result.invalid.title"),
-							i18n.tr("tests.impl.a15.result.invalid.content",
-									new Object[] { statement.getSubject().getURI(), label,
-											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
-											language }));
-					result.addMessage(message);
-					break;
-				case PARTIALY_INVALID:
-					if (!ignored) {
-						numerator++;
-					}
-					result.incrementErrorCount(ignored);
-					result.addMessage(new Message(
-							ignored ? Message.Type.IGNORED : Message.Type.ERROR,
-							errorCode, i18n.tr("tests.impl.a15.result.part.invalid.title"),
-							i18n.tr("tests.impl.a15.result.part.invalid.content",
-									new Object[] { statement.getSubject().getURI(), label,
-											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
-											language, spellCheckResult.getNonEvaluatedFragmentsAsString() })));
-					break;
-				case PARTIALY_VALID:
-					result.addMessage(new Message(Message.Type.INFO, errorCode,
-							i18n.tr("tests.impl.a15.result.part.valid.title"),
-							i18n.tr("tests.impl.a15.result.part.valid.content",
-									new Object[] { statement.getSubject().getURI(), label,
-											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
-											language, spellCheckResult.getNonEvaluatedFragmentsAsString() })));
-					break;
+			boolean ignored = errorIsIgnored(errorCode);
+			Character firstLetter = label.charAt(0);
+			if (!Character.isLetter(firstLetter)) {
+				continue;
+			}
+			boolean firstLetterIsLower = Character.isLowerCase(firstLetter);
+			Boolean isSigle = isSigle(label);
 
-				default:
-					break;
-				}
-			} catch (NoDictionaryForLanguageException e) {
-
-				String content = i18n.tr("tests.impl.a15.result.nodic.content", new Object[] { language });
-				logger.error(content, e);
-				result.addMessage(new Message(Message.Type.INFO, errorCode,
-						i18n.tr("tests.impl.a15.result.nodic.title"), content));
-				break;
+			if (!firstLetterIsLower && !isSigle) {
+				numerator++;
+				result.incrementErrorCount(ignored);
+				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+						i18n.tr("tests.impl.a23.result.invalid.title"),
+						i18n.tr("tests.impl.a23.result.invalid.content", new Object[] { statement.getSubject().getURI(),
+								statement.getPredicate().getLocalName(), label }));
+				result.addMessage(message);
+			}
+			if (!firstLetterIsLower && isSigle) {
+				Message message = new Message(Message.Type.INFO, errorCode,
+						i18n.tr("tests.impl.a23.result.ignored.title"),
+						i18n.tr("tests.impl.a23.result.ignored.content", new Object[] { statement.getSubject().getURI(),
+								statement.getPredicate().getLocalName(), label }));
+				result.addMessage(message);
 			}
 			refreshComplianceIndicator(result, (denominator - numerator), denominator);
 
 		}
 		progressionMessage("", 100);
 		result.setState(State.FINAL);
+	}
+
+	private Boolean isSigle(String label) {
+		Character firstLetter = label.charAt(0);
+		boolean firstLetterIsLower = Character.isLowerCase(firstLetter);
+		Character secondLetter = label.length() > 1 ? label.charAt(1) : 'X';
+		boolean secondLetterIsLower = label.length() > 1 && Character.isLowerCase(secondLetter);
+		return !firstLetterIsLower && !secondLetterIsLower;
 	}
 
 	private String generateUniqueErrorCode(Statement statement, Property predicate, String label)

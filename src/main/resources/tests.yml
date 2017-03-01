@@ -151,6 +151,10 @@ structure:
     label: Respect des conventions relatives à la casse
     index: 3.2
     tests:
+      verification_casse_skos:
+        label: SKOS Vérification de la casse
+        index: a23
+        format: skos
       verification_casse_skos_sparql:
         label: SKOS/SPARQL Vérification de la casse
         index: s1
