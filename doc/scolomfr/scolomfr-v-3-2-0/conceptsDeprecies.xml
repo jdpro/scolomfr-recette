@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1139</ID>
+      <DF lang="fr">Domaine d'enseignement</DF>
+      <TERME>
+         <INTITULE lang="fr">qualités physiques des matériaux (arts plastiques cycle 3)</INTITULE>
+         <ID>scolomfr-voc-015-num-1139</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1135</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1140</ID>
+      <DF lang="fr">Domaine d'enseignement</DF>
+      <TERME>
+         <INTITULE lang="fr">effets du geste et de l'instrument (arts plastiques cycle 3)</INTITULE>
+         <ID>scolomfr-voc-015-num-1140</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1135</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1141</ID>
+      <DF lang="fr">Domaine d'enseignement</DF>
+      <TERME>
+         <INTITULE lang="fr">matérialité et qualité de la couleur (arts plastiques cycle 3)</INTITULE>
+         <ID>scolomfr-voc-015-num-1141</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1136</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-926</ID>
+      <DF lang="fr">Domaine d'enseignement</DF>
+      <TERME>
+         <INTITULE lang="fr">manipuler des grandeurs (mathématiques cycle 2)</INTITULE>
+         <ID>scolomfr-voc-015-num-926</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1826</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-928</ID>
+      <DF lang="fr">Domaine d'enseignement</DF>
+      <TERME>
+         <INTITULE lang="fr">résoudre des problèmes impliquant des grandeurs et mesures (mathématiques cycle 2)</INTITULE>
+         <ID>scolomfr-voc-015-num-928</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1827</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-938</ID>
+      <DF lang="fr">Domaine d'enseignement</DF>
+      <TERME>
+         <INTITULE lang="fr">résoudre des problèmes (mathématiques cycle 3)</INTITULE>
+         <ID>scolomfr-voc-015-num-3700</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1828</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-013</ID>
+      <DF lang="fr">Outil</DF>
+      <TERME>
+         <INTITULE lang="fr">didacticiel</INTITULE>
+         <ID>scolomfr-voc-020-num-013</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-042</ID>
+      <DF lang="fr">Outil</DF>
+      <TERME>
+         <INTITULE lang="fr">logiciel de recherche documentaire</INTITULE>
+         <ID>scolomfr-voc-020-num-042</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-055</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-004</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Ne correspond pas à un vocabulaire du ScoLOMFR. Le concept sera déprécié à la V3.1 du ScoLOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">enseignement</INTITULE>
+         <ID>scolomfr-voc-028-num-004</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-003</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-018</ID>
+      <DF lang="fr">Objectif</DF>
+      <NA lang="fr">Ne pas employer ce concept (voué à dépréciation lors de la V3.1). Vocabulaire seulement relatif à l'élément 5 du ScoLOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">modalité pédagogique</INTITULE>
+         <ID>scolomfr-voc-028-num-018</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-028-num-032</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-045-num-001</ID>
+      <DF lang="fr">Label</DF>
+      <NA lang="fr">Concept à utiliser pour la description de la compatibilité technique avec les plateformes faisant partie du FARE.</NA>
+      <TERME>
+         <INTITULE lang="fr">FARE</INTITULE>
+         <ID>scolomfr-voc-045-num-001</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/gar</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-num-0504</ID>
+      <DF lang="fr">Champ disciplinaire</DF>
+      <TERME>
+         <INTITULE lang="fr">IDEN, inspecteur formateur</INTITULE>
+         <ID>scolomfr-voc-num-0504</ID>
+      </TERME>
+      <REMPLACE_PAR>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-2941</REMPLACE_PAR>
+      <STATUS>Déprécié</STATUS>
+   </CONCEPT>
+</NOMENCLATURE>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/very_easy</ID>
+      <DF lang="fr">Difficulté</DF>
+      <ORDRE>001-très facile (Sco25-Difficulté)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">très facile</INTITULE>
+         <ID>very easy</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">très facile</INTITULE>
+         <ID>scolomfr-voc-025-num-001</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/easy</ID>
+      <DF lang="fr">Difficulté</DF>
+      <NA lang="fr">Concept issu du LOMFR.</NA>
+      <ORDRE>002-facile (Sco25-Difficulté)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">facile</INTITULE>
+         <ID>easy</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">facile</INTITULE>
+         <ID>scolomfr-voc-025-num-002</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/medium</ID>
+      <DF lang="fr">Difficulté</DF>
+      <NA lang="fr">Concept issu du LOMFR.</NA>
+      <ORDRE>003-moyen (Sco25-Difficulté)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">moyen</INTITULE>
+         <ID>medium</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">moyen</INTITULE>
+         <ID>scolomfr-voc-025-num-003</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/difficult</ID>
+      <DF lang="fr">Difficulté</DF>
+      <NA lang="fr">Concept issu du LOMFR.</NA>
+      <ORDRE>004-difficile (Sco25-Difficulté)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">difficile</INTITULE>
+         <ID>difficult</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">difficile</INTITULE>
+         <ID>scolomfr-voc-025-num-004</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/very_difficult</ID>
+      <DF lang="fr">Difficulté</DF>
+      <NA lang="fr">Concept issu du LOMFR.</NA>
+      <ORDRE>005-très difficile (Sco25-Difficulté)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">très difficile</INTITULE>
+         <ID>very difficult</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">très difficile</INTITULE>
+         <ID>scolomfr-voc-025-num-005</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

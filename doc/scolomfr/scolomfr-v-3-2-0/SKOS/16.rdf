@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715">
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1340"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1346"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1350"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1392"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1397"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1403"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1432"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1437"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1438"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1439"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1550"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1576"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1577"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1600"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1601"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3719"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3728"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3732"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3737"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3749"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3753"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3770"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3790"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3793"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3800"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3803"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3806"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3810"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3814"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3820"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3837"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3857"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3880"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3883"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3885"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3887"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3893"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3894"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3898"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3901"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3912"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3913"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3918"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3920"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3921"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3922"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3923"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3924"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3925"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3931"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3938"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3943"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3947"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3952"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3963"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3967"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3971"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3974"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3978"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3982"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3993"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3995"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3997"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3999"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4001"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4005"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4010"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4012"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4015"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4019"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4022"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4027"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4031"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4037"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4041"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4044"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4051"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4055"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4067"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4073"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4078"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4092"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4100"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4105"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4118"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4136"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4157"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4194"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4211"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4224"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4258"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4365"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4431"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4435"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4439"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4446"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-920"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-934"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-947"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-981"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00716">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">langue française (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 1.1 : comprendre, s'exprimer en utilisant la langue française à l'oral et à l'écrit</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1117"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1119"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1221"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1358"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1363"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1367"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1374"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1408"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-2028"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3780"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3787"/>
+	<canope:labelEquivalentExact xml:lang="fr">langue française (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00717">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">langue vivante régionale (socle commun 2016)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">langue vivante étrangère (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 1.2 : comprendre, s'exprimer en utilisant une langue étrangère ou régionale</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1440"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1442"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1443"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1446"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1447"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1451"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1455"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1460"/>
+	<canope:labelEquivalentExact xml:lang="fr">langue vivante régionale (socle commun 2016)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">langue vivante étrangère (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00718">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">langages mathématiques, scientifiques et informatiques (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 1.3 : comprendre, s'exprimer en utilisant les langages mathématiques, scientifiques et informatiques</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1474"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1496"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1511"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1542"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1545"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-921"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-941"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-945"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-948"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-957"/>
+	<canope:labelEquivalentExact xml:lang="fr">langages mathématiques, scientifiques et informatiques (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00719">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">langages des arts et du corps (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 1.4 : comprendre, s'exprimer en utilisant les langages des arts et du corps</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1044"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1056"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1084"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1112"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1113"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1116"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1117"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1118"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1121"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1122"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1154"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1180"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1201"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1396"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-2028"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3776"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3780"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3783"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3797"/>
+	<canope:labelEquivalentExact xml:lang="fr">langages des arts et du corps (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00721"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00722"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00723"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00724"/>
+	<skos:prefLabel xml:lang="fr">domaine 2 : les méthodes et outils pour apprendre</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1007"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1057"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1085"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1133"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1167"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1175"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1188"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1202"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1335"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1350"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1374"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1392"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1397"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1403"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1432"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1437"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1438"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1439"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1440"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1442"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1443"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1446"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1447"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1473"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1474"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1534"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1576"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1600"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3719"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3724"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3737"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3753"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3760"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3810"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3824"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3841"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3862"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3880"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3887"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3893"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3901"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3913"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3914"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3923"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3924"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3925"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3931"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3938"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3943"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3947"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3952"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3959"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3963"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3967"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3971"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3974"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3978"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3982"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3989"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3993"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3995"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3997"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3999"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4001"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4005"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4010"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4012"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4015"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4019"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4022"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4027"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4031"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4037"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4041"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4044"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4048"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4051"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4059"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4069"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4073"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4084"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4095"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4100"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4110"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4132"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4141"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4154"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4162"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4186"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4211"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4221"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4227"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4365"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4370"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4439"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-920"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-934"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-947"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-970"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-981"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00721">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">organisation des apprentissages (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 2.1 : organisation du travail personnel</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1207"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1212"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1215"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1398"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1399"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1404"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-904"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-924"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-949"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-952"/>
+	<canope:labelEquivalentExact xml:lang="fr">organisation des apprentissages (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00722">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">conduite de projets individuels et collectifs (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 2.2 : coopération et réalisation de projets</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1095"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1098"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1099"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1102"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1195"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1203"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1221"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1489"/>
+	<canope:labelEquivalentExact xml:lang="fr">conduite de projets individuels et collectifs (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00723">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">accès à l'information et à la documentation (socle commun 2016)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">esprit critique (socle commun 2016)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">usage critique et réfléchi de l'information (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 2.3 : médias, démarches de recherche et de traitement de l'information</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1490"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1589"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1610"/>
+	<canope:labelEquivalentExact xml:lang="fr">accès à l'information et à la documentation (socle commun 2016)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">esprit critique (socle commun 2016)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">usage critique et réfléchi de l'information (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00724">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">réseaux sociaux (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 2.4 : outils numériques pour échanger et communiquer</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1000"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1490"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1541"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1589"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1610"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-903"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-972"/>
+	<canope:labelEquivalentExact xml:lang="fr">réseaux sociaux (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00726"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00727"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00728"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00729"/>
+	<skos:prefLabel xml:lang="fr">domaine 3 : la formation de la personne et du citoyen</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1007"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1039"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1049"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1065"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1077"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1093"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1102"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1117"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1119"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1149"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1158"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1164"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1167"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1335"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1392"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1432"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1439"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1440"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1447"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1576"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1600"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3724"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3728"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3732"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3749"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3760"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3770"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3780"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3787"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3793"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3800"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3803"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3806"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3814"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3827"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3845"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3867"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3880"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3893"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3912"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3913"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3922"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3959"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3974"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3989"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3997"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3999"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4010"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4012"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4019"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4031"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4044"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4059"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4067"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4084"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4092"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4110"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4118"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4144"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4164"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4205"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4230"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4267"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4365"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-903"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-981"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00726">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">communication non-violente, confiance en soi et esprit critique (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 3.1 : expression de la sensibilité et des opinions, respect des autres</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1101"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1113"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1122"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1180"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1221"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1358"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1395"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1550"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1564"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1577"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1589"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1601"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1610"/>
+	<canope:labelEquivalentExact xml:lang="fr">communication non-violente, confiance en soi et esprit critique (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00727">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">vie en communauté et principes démocratiques (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 3.2 : la règle et le droit</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1471"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1557"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1584"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1606"/>
+	<canope:labelEquivalentExact xml:lang="fr">vie en communauté et principes démocratiques (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00728">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">jugement et validation de l'information (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 3.3 : réflexion et discernement</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1096"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1101"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1171"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1195"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1209"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1221"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1358"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1402"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1564"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1589"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1610"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-905"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-906"/>
+	<canope:labelEquivalentExact xml:lang="fr">jugement et validation de l'information (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00729">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 3.4 : responsabilité, sens de l'engagement et de l'initiative</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1096"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1100"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1577"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1595"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1601"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1615"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00731"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00732"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00733"/>
+	<skos:prefLabel xml:lang="fr">domaine 4 : les systèmes naturels et les systèmes techniques</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1213"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1474"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1496"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1511"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1534"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3719"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3737"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3753"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3760"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3831"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3850"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3872"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4048"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4051"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4059"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4064"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4069"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4073"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4084"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4089"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4095"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4100"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4110"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4115"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4123"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4130"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4150"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4174"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4180"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4211"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4219"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4224"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4230"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4236"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4241"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4246"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-920"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-934"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00731">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">démonstration mathématique (socle commun 2016)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">expérimentation (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 4.1 : démarches scientifiques</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1475"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1501"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1542"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1828"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-924"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-942"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-947"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-971"/>
+	<canope:labelEquivalentExact xml:lang="fr">démonstration mathématique (socle commun 2016)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">expérimentation (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00732">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 4.2 : conception, création, réalisation d'objets et systèmes techniques</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1187"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1199"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1205"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1489"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1504"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1535"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-964"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-972"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00733">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">monde vivant, matière et énergie (socle commun 2016)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">écocitoyenneté (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 4.3 : responsabilités individuelles et collectives</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1001"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1475"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1480"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1488"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1491"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-971"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-981"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-997"/>
+	<canope:labelEquivalentExact xml:lang="fr">monde vivant, matière et énergie (socle commun 2016)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">écocitoyenneté (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00735"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00736"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00737"/>
+	<skos:prefLabel xml:lang="fr">domaine 5 : les représentations du monde et l'activité humaine</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1044"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1072"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1112"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1114"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1116"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1117"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1118"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1119"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1143"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1149"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1154"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1158"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1164"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1167"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1171"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1175"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1229"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1340"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1403"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1432"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1440"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1447"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1474"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1576"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1600"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3719"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3724"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3732"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3737"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3749"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3753"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3760"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3770"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3776"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3780"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3783"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3787"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3790"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3793"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3797"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3800"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3803"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3806"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3810"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3814"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3834"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3854"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3875"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3883"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3894"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3912"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3913"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3914"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3918"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3920"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3921"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3922"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3923"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3924"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3925"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3931"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3952"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-3999"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4019"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4037"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4044"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4055"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4078"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4105"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4130"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4144"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4147"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4151"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4164"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4180"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4199"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4205"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4208"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4230"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4236"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4267"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4271"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4431"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-4446"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-903"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-929"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00735">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">compréhension des sociétés dans le temps et dans l'espace (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 5.1 : l'espace et le temps</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1007"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1470"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1471"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1491"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1540"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-973"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-981"/>
+	<canope:labelEquivalentExact xml:lang="fr">compréhension des sociétés dans le temps et dans l'espace (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00736">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">connaissance du monde social et des productions culturelles humaines (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 5.2 : organisation et représentations du monde</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1122"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1181"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1208"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1209"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1211"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1363"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1380"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1414"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1467"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1539"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-976"/>
+	<canope:labelEquivalentExact xml:lang="fr">connaissance du monde social et des productions culturelles humaines (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00737">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">créations d'objets culturels (socle commun 2016)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 5.3 : invention, élaboration, production d'objets culturels</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1129"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1187"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1195"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1203"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1215"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1535"/>
+	<canope:labelEquivalentExact xml:lang="fr">créations d'objets culturels (socle commun 2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00762">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://purl.org/iso25964/skos-thes#ThesaurusArray"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<skos:definition xml:lang="fr">Noeud compétence</skos:definition>
+	<skos:definition xml:lang="fr">Noeud compétence (2015-)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714"/>
+	<skos:prefLabel xml:lang="fr">Compétences du socle commun (2015-)</skos:prefLabel>
+	<canope:ordre xml:lang="fr">001-scolomfr-voc-016 (2015-) (Compétence)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-037">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://purl.org/iso25964/skos-thes#ThesaurusArray"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<skos:definition xml:lang="fr">Noeud compétence</skos:definition>
+	<skos:definition xml:lang="fr">Noeud compétence (2008-2014)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007"/>
+	<skos:prefLabel xml:lang="fr">Compétence du socle commun (2008-2014)</skos:prefLabel>
+	<canope:ordre xml:lang="fr">002-scolomfr-voc-016 (2008-2014) (Compétence)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-016">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:44.300+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">016-Socle commun</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714"/>
+	<skos:prefLabel xml:lang="fr">016-Socle commun</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:44.302+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0011"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0012"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0013"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0014"/>
+	<skos:prefLabel xml:lang="fr">compétence 1 - la maîtrise de la langue française</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0011">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">lire</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0012">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">écrire</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0013">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">s'exprimer à l'oral</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0014">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-001"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">utiliser des outils</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0021"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0022"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0023"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0024"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0025"/>
+	<skos:prefLabel xml:lang="fr">compétence 2 - la pratique d'une langue vivante étrangère (niveau a2)</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0021">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">réagir et dialoguer</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0022">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">écouter et comprendre</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0023">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">parler en continu</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0024">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">lire</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0025">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-002"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">écrire</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0031"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0032"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0033"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0034"/>
+	<skos:prefLabel xml:lang="fr">compétence 3 - les principaux éléments de mathématiques et la culture scientifique et technologique</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0031">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">pratiquer une démarche scientifique et technologique, résoudre des problèmes</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0032">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">savoir utiliser des connaissances et des compétences mathématiques</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0033">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">savoir utiliser des connaissances dans divers domaines scientifiques</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0034">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-003"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">mobiliser ses connaissances pour comprendre des questions liées à l'environnement et au développement durable</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0041"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0042"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0043"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0044"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0045"/>
+	<skos:prefLabel xml:lang="fr">compétence 4 - la maîtrise des techniques usuelles de l'information et de la communication (b2i)</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0041">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 1 - s'approprier un environnement informatique de travail</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0042">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 2 - adopter une attitude responsable</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0043">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 3 - créer, produire, traiter, exploiter des données</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0044">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 4 - s'informer, se documenter</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0045">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-004"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">domaine 5 - communiquer, échanger</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0051"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0052"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0053"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0054"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0055"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0056"/>
+	<skos:prefLabel xml:lang="fr">compétence 5 - la culture humaniste</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0051">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">avoir des repères géographiques</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0052">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">avoir des repères historiques</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0053">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">avoir des repères littéraires</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0054">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">avoir des repères en histoire des arts et pratiquer les arts</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0055">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">lire et utiliser différents langages</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0056">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-005"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">avoir des outils pour comprendre l'unité et la complexité du monde</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0061"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0062"/>
+	<skos:prefLabel xml:lang="fr">compétence 6 - les compétences sociales et civiques</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0061">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">connaître les principes et fondements de la vie civique et sociale</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0062">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-006"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">avoir un comportement responsable</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0071"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00712"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00713"/>
+	<skos:prefLabel xml:lang="fr">compétence 7 - l'autonomie et l'initiative</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-0071">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">découvrir les métiers et les formations</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00712">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">être capable de mobiliser ses ressources intellectuelles et physiques dans diverses situations</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00713">
+	<isothes:status xml:lang="fr">Obsolète</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-007"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:prefLabel xml:lang="fr">faire preuve d'initiative</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">S4C (socle commun de connaissances, de compétences et de culture)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">SCCCC (socle commun de connaissances, de compétences et de culture)</skos:altLabel>
+	<skos:altLabel xml:lang="fr">socle commun (2016)</skos:altLabel>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00720"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00725"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00730"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00734"/>
+	<skos:prefLabel xml:lang="fr">socle commun de connaissances, de compétences et de culture</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1033"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1273"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1822"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-618"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<canope:labelEquivalentExact xml:lang="fr">S4C (socle commun de connaissances, de compétences et de culture)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">SCCCC (socle commun de connaissances, de compétences et de culture)</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">socle commun (2016)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00715">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00714"/>
+	<skos:definition xml:lang="fr">Compétence</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00716"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00717"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00718"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-00719"/>
+	<skos:prefLabel xml:lang="fr">domaine 1 : les langages pour penser et communiquer</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1007"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1114"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1143"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1149"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1158"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1164"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1167"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1335"/>
+</rdf:Description>
+
+</rdf:RDF>

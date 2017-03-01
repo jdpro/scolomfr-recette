@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdex xmlns="http://www.imsglobal.org/xsd/imsvdex_v1p0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:adms="http://www.w3.org/ns/adms"
+      xmlns:cvb="http://www.w3.org/ns/adms/BasicComponents"
+      xmlns:cva="http://www.w3.org/ns/adms/AggregateComponents"
+      xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+      xsi:schemaLocation="http://www.imsglobal.org/xsd/imsvdex_v1p0     http://www.imsglobal.org/xsd/imsvdex_v1p0.xsd    http://www.w3.org/ns/adms    https://www.reseau-canope.fr/scolomfr/fileadmin/user_upload/archives/v1/docs_utiles/ADMS_XML_Schema_v1.01/xsd/corevoc/CoreVocs-ADMS-v1.01.xsd"
+      orderSignificant="true">
+   <vocabName>
+      <langstring language="fr">004-Type documentaire Dublin Core</langstring>
+   </vocabName>
+   <vocabIdentifier>http://data.education.fr/voc/scolomfr/scolomfr-voc-004</vocabIdentifier>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/Collection</termIdentifier>
+      <caption>
+         <langstring language="fr">collection</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Agrégation de ressources formant un tout cohérent : une base d'exercices, une base d'objets de musées, un catalogue de bibliothèque... [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>Collection</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/Dataset</termIdentifier>
+      <caption>
+         <langstring language="fr">ensemble de données</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Donnée encodée suivant une structure précise appropriée au traitement par ordinateur : par exemple une base de données statistiques. [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>Dataset</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/Event</termIdentifier>
+      <caption>
+         <langstring language="fr">événement</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Fait basé sur une période de temps, non permanent. Par exemple : une conférence, une exposition, une bataille ou tout autre fait historique, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>Event</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/Image</termIdentifier>
+      <caption>
+         <langstring language="fr">image</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Représentation visuelle autre que sous la forme de texte. [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>Image</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/MovingImage</termIdentifier>
+      <caption>
+         <langstring language="fr">image en mouvement</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Série de représentations visuelles conférant une impression de mouvement lorsqu'elles sont montrées à la suite les unes des autres. Par exemple : des films, vidéos, émissions de télévision, infographie, effets spéciaux, films d'animation... [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>MovingImage</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/StillImage</termIdentifier>
+      <caption>
+         <langstring language="fr">image fixe</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Représentation visuelle statique. Par exemple, des photographies, tableaux, dessins, graphiques, plans, photographies d'objets physiques... [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>StillImage</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/Software</termIdentifier>
+      <caption>
+         <langstring language="fr">logiciel</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Programme ou application informatiques, en code source ou sous une forme compilée. Par un exemple, un fichier source en C, un exécutable MS-Windows, un fichier rdf ou un script PHP... [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>Software</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/PhysicalObject</termIdentifier>
+      <caption>
+         <langstring language="fr">objet physique</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Objet ou substance à trois dimensions, inanimé. Par exemple un TBI, un ordinateur, un bâtiment, une fleur (et non une photographie d'une fleur), etc. Les représentations ou substituts numériques de ces objets physiques utiliseront "texte", "image" ou un autre type. [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>PhysicalObject</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/InteractiveResource</termIdentifier>
+      <caption>
+         <langstring language="fr">ressource interactive</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Objet nécessitant une interaction de l'utilisateur pour être comprise, exécutée ou expérimentée. Par exemple une page Web ou un formulaire Web, des objets d'apprentissage multimédia, une applet, une maquette numérique, un service de chat, un environnement de réalité virtuelle, sortie visuelle d'une simulation, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>InteractiveResource</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/Service</termIdentifier>
+      <caption>
+         <langstring language="fr">service</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Un système qui fournit une ou plusieurs fonctions, qui offre des services à l'utilisateur comme un serveur Web, un service de conversion de formats de fichier, un service de photocopie, un service en ligne de carte heuristique... [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>Service</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/Sound</termIdentifier>
+      <caption>
+         <langstring language="fr">son</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Ressource principalement destinée à être entendue. Par exemple un fichier de musique, de son ou de paroles enregistrées, un compact-disque audio... [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>Sound</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>http://purl.org/dc/dcmitype/Text</termIdentifier>
+      <caption>
+         <langstring language="fr">texte</langstring>
+      </caption>
+      <description>
+         <langstring language="fr">Ressource constituée principalement de mots destinés à être lus. "Texte" est pris ici au sens large : livre, magazine, journal, poème, message d'une liste de diffusion, etc. [Source : LOMFRv1.0] Concept issu du LOMFR.</langstring>
+      </description>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr"/>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Completed</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <term validIndex="true">
+      <termIdentifier>Text</termIdentifier>
+      <metadata>
+         <adms:Adms>
+            <cva:SemanticAsset>
+               <cbc:URI/>
+               <cbc:Name/>
+               <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+               <cbc:Description/>
+               <cvb:VersionNotes languageID="fr">Dépreciation technique liée au remplacement des ID par des URI. La dépreciation entraine la disparition du libellé.</cvb:VersionNotes>
+               <cva:AssetType>
+                  <cvb:TypeCode/>
+               </cva:AssetType>
+               <cva:Publisher>
+                  <cbc:URI/>
+                  <cbc:Name/>
+               </cva:Publisher>
+               <cva:AssetStatus>
+                  <cvb:TypeCode>Deprecated</cvb:TypeCode>
+               </cva:AssetStatus>
+            </cva:SemanticAsset>
+         </adms:Adms>
+      </metadata>
+   </term>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Collection</sourceTerm>
+      <targetTerm>Collection</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>Collection</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/Collection</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Collection</sourceTerm>
+      <targetTerm>Collection</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Dataset</sourceTerm>
+      <targetTerm>Dataset</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>Dataset</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/Dataset</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Dataset</sourceTerm>
+      <targetTerm>Dataset</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Event</sourceTerm>
+      <targetTerm>Event</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>Event</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/Event</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Event</sourceTerm>
+      <targetTerm>Event</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Image</sourceTerm>
+      <targetTerm>Image</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>Image</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/Image</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Image</sourceTerm>
+      <targetTerm>Image</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/MovingImage</sourceTerm>
+      <targetTerm>MovingImage</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>MovingImage</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/MovingImage</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/MovingImage</sourceTerm>
+      <targetTerm>MovingImage</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/StillImage</sourceTerm>
+      <targetTerm>StillImage</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>StillImage</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/StillImage</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/StillImage</sourceTerm>
+      <targetTerm>StillImage</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Software</sourceTerm>
+      <targetTerm>Software</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>Software</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/Software</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Software</sourceTerm>
+      <targetTerm>Software</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/PhysicalObject</sourceTerm>
+      <targetTerm>PhysicalObject</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>PhysicalObject</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/PhysicalObject</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/PhysicalObject</sourceTerm>
+      <targetTerm>PhysicalObject</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/InteractiveResource</sourceTerm>
+      <targetTerm>InteractiveResource</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>InteractiveResource</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/InteractiveResource</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/InteractiveResource</sourceTerm>
+      <targetTerm>InteractiveResource</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Service</sourceTerm>
+      <targetTerm>Service</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>Service</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/Service</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Service</sourceTerm>
+      <targetTerm>Service</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Sound</sourceTerm>
+      <targetTerm>Sound</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>Sound</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/Sound</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Sound</sourceTerm>
+      <targetTerm>Sound</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Text</sourceTerm>
+      <targetTerm>Text</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">USE</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>Text</sourceTerm>
+      <targetTerm>http://purl.org/dc/dcmitype/Text</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso2788_relations.xml">UF</relationshipType>
+   </relationship>
+   <relationship>
+      <sourceTerm>http://purl.org/dc/dcmitype/Text</sourceTerm>
+      <targetTerm>Text</targetTerm>
+      <relationshipType source="http://www.imsglobal.org/vocabularies/iso5964_equivalences.xml">exact</relationshipType>
+   </relationship>
+   <metadata>
+      <adms:Adms>
+         <cva:SemanticAsset>
+            <cbc:URI/>
+            <cbc:Name/>
+            <cvb:LastModificationDate>2014-07-09</cvb:LastModificationDate>
+            <cbc:Description/>
+            <cvb:Version>2.0</cvb:Version>
+            <cvb:VersionNotes languageID="fr">Introduction des URI de concepts pour l'indexation et dépreciation des anciens identifiants.</cvb:VersionNotes>
+            <cva:AssetType>
+               <cvb:TypeCode/>
+            </cva:AssetType>
+            <cva:MainDocumentation>
+               <cbc:URI>http://www.lom-fr.fr/scolomfr/fileadmin/user_upload/docs_utiles/Structure_des_fichiers_VDEX_3.pdf</cbc:URI>
+               <cbc:Title>Strucutre des fichiers VDEX</cbc:Title>
+            </cva:MainDocumentation>
+            <cva:Publisher>
+               <cbc:URI/>
+               <cbc:Name/>
+            </cva:Publisher>
+            <cva:AssetStatus>
+               <cvb:TypeCode>Completed</cvb:TypeCode>
+            </cva:AssetStatus>
+         </cva:SemanticAsset>
+      </adms:Adms>
+   </metadata>
+</vdex>

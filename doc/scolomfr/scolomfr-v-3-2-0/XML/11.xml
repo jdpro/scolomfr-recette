@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/learner</ID>
+      <DF lang="fr">Public cible</DF>
+      <NA lang="fr">Personne qui exploite, travaille avec la ressource afin d'apprendre quelque chose. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">apprenant</INTITULE>
+         <ID>learner</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">apprenant</INTITULE>
+         <ID>scolomfr-voc-011-num-003</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0007</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0008</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0012</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/author_2</ID>
+      <DF lang="fr">Public cible</DF>
+      <NA lang="fr">Personne qui utilise ou réutilise une ressource à des fins de production. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">auteur</INTITULE>
+         <ID>author</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">auteur</INTITULE>
+         <ID>scolomfr-voc-011-num-002</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

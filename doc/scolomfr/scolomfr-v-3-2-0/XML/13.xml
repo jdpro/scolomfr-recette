@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/creator</ID>
+      <DF lang="fr">Rôle (métadonnées)</DF>
+      <NA lang="fr">Personne ou organisme responsable de la création de la fiche descriptive. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">créateur</INTITULE>
+         <ID>creator</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">créateur</INTITULE>
+         <ID>scolomfr-voc-013-num-001</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/validator</ID>
+      <DF lang="fr">Rôle (métadonnées)</DF>
+      <NA lang="fr">Personne ou organisme responsable de la validation de la fiche descriptive. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">validateur</INTITULE>
+         <ID>validator</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">validateur</INTITULE>
+         <ID>scolomfr-voc-013-num-002</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

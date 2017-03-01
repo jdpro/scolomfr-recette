@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/atomic</ID>
+      <DF lang="fr">Structure</DF>
+      <NA lang="fr">Une ressource indivisible dans ce contexte d'utilisation. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">atomique</INTITULE>
+         <ID>atomic</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">atomique</INTITULE>
+         <ID>scolomfr-voc-007-num-001</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+      <TERME_TA_EXT>http://purl.org/dc/dcmitype/Image</TERME_TA_EXT>
+      <TERME_TA_EXT>http://purl.org/dc/dcmitype/MovingImage</TERME_TA_EXT>
+      <TERME_TA_EXT>http://purl.org/dc/dcmitype/Sound</TERME_TA_EXT>
+      <TERME_TA_EXT>http://purl.org/dc/dcmitype/StillImage</TERME_TA_EXT>
+      <TERME_TA_EXT>http://purl.org/dc/dcmitype/Text</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/collection_2</ID>
+      <DF lang="fr">Structure</DF>
+      <NA lang="fr">Un ensemble de ressources, sans relations définies entre elles. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">collection</INTITULE>
+         <ID>collection</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">collection</INTITULE>
+         <ID>scolomfr-voc-007-num-002</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/networked</ID>
+      <DF lang="fr">Structure</DF>
+      <NA lang="fr">Un ensemble de ressources en relation les unes avec les autres. La nature de la (des) relation(s) n'est pas définie. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">en réseau</INTITULE>
+         <ID>networked</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">en réseau</INTITULE>
+         <ID>scolomfr-voc-007-num-003</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/hierarchical</ID>
+      <DF lang="fr">Structure</DF>
+      <NA lang="fr">Un ensemble de ressources dont les relations peuvent être représentées par une structure arborescente. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">hiérarchique</INTITULE>
+         <ID>hierarchical</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">hiérarchique</INTITULE>
+         <ID>scolomfr-voc-007-num-004</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/linear</ID>
+      <DF lang="fr">Structure</DF>
+      <NA lang="fr">Un ensemble de ressources parfaitement ordonnées. Exemple : un ensemble de ressources associées par des relations "précédent" et "suivant". Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">linéaire</INTITULE>
+         <ID>linear</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">linéaire</INTITULE>
+         <ID>scolomfr-voc-007-num-005</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

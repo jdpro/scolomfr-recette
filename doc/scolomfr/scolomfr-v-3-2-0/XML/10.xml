@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-027</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Toute activité en vue d'un apprentissage.</NA>
+      <TERME>
+         <INTITULE lang="fr">activité pédagogique</INTITULE>
+         <ID>scolomfr-voc-010-num-027</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Support d'une activité d'un groupe conduite par un animateur. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">animation</INTITULE>
+         <ID>scolomfr-voc-010-num-001</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">animation</INTITULE>
+         <ID>animation</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-023</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Recueil de documents par thématique et par année. Exemple : Annales des sujets d'examen de mathématiques en bac S, 2013.</NA>
+      <TERME>
+         <INTITULE lang="fr">annales</INTITULE>
+         <ID>scolomfr-voc-010-num-023</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/self_assessment</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Support d'une activité d'évaluation personnelle. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">autoévaluation</INTITULE>
+         <ID>self assessment</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">autoévaluation</INTITULE>
+         <ID>scolomfr-voc-010-num-002</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/lecture</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Document servant de base à l'enseignant pour réaliser une leçon sur un point de programme particulier. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">cours / présentation</INTITULE>
+         <ID>lecture</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">cours / présentation</INTITULE>
+         <ID>scolomfr-voc-010-num-003</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">support de cours</INTITULE>
+         <ID>scolomfr-voc-010-num-0031</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">leçon</INTITULE>
+         <ID>scolomfr-voc-010-num-0032</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">lecture / présentation</INTITULE>
+         <ID>scolomfr-voc-010-num-0033</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-024</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Une cyberquête est une activité "coopérative d'investigation, de communication et de production, permettant de réaliser et de synthétiser des activités de recherche dont les informations sont en partie ou intégralement disponibles sur Internet". (http://www.didaquest.org/wiki/Webquest)</NA>
+      <TERME>
+         <INTITULE lang="fr">cyberquête</INTITULE>
+         <ID>scolomfr-voc-010-num-024</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-004</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Information de nature explicative sur une donnée, un outil, un logiciel, une méthode, un fait, etc. Exemple : démonstration illustrant comment procéder pour la mise en œuvre d'une chromatographie, démonstration de l'utilisation d'une application en ligne... Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">démonstration</INTITULE>
+         <ID>scolomfr-voc-010-num-004</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">démonstration</INTITULE>
+         <ID>démonstration</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-029</ID>
+      <DF lang="fr">Type pédagogique de la resosurce</DF>
+      <TERME>
+         <INTITULE lang="fr">diagnostic</INTITULE>
+         <ID>scolomfr-voc-010-num-029</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">évaluation de niveau</INTITULE>
+         <ID>scolomfr-voc-010-num-0291</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">évaluation formative</INTITULE>
+         <ID>scolomfr-voc-010-num-0292</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/problem_statement</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Enoncé à/ d'une problématique. Ne pas utiliser pour les corrigés des exercices, préférer "exercice". Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">énoncé de problème</INTITULE>
+         <ID>problem statement</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">énoncé de problème</INTITULE>
+         <ID>scolomfr-voc-010-num-005</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">énoncé d'une problématique</INTITULE>
+         <ID>scolomfr-voc-010-num-0051</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">énoncé d'exercice</INTITULE>
+         <ID>scolomfr-voc-010-num-0092</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-006</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Exposé analytique et systématique d'une situation dans le but de trouver des solutions, de résoudre un problème.</NA>
+      <TERME>
+         <INTITULE lang="fr">étude de cas</INTITULE>
+         <ID>scolomfr-voc-010-num-006</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-007</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Support permettant la mesure d'un apprentissage et la vérification d'une étape d'acquisition de connaissances au cours d'une action de formation ou à la fin d'une séquence. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">évaluation</INTITULE>
+         <ID>scolomfr-voc-010-num-007</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">évaluation</INTITULE>
+         <ID>évaluation</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">test de niveau</INTITULE>
+         <ID>scolomfr-voc-010-num-0071</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">diagnostic de rentrée scolaire</INTITULE>
+         <ID>scolomfr-voc-010-num-0072</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/exam</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Support d'une épreuve synthétique et à caractère normatif qui porte sur un ensemble de connaissances, permettant de valider une étape d'obtention d'une unité d'enseignement, d'un diplôme ou d'une certification. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">examen</INTITULE>
+         <ID>exam</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">examen</INTITULE>
+         <ID>scolomfr-voc-010-num-008</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">sujet d'examen et de concours</INTITULE>
+         <ID>scolomfr-voc-010-num-0081</ID>
+      </TERME_TE>
+      <TERME_TA>
+         <INTITULE lang="fr">préparation à l'examen</INTITULE>
+         <ID>scolomfr-voc-010-num-0082</ID>
+      </TERME_TA>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/exercise</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Support d'une activité réalisée par l'apprenant et visant le développement d'une compétence ou l'atteinte d'un objectif. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">exercice</INTITULE>
+         <ID>exercise</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">exercice</INTITULE>
+         <ID>scolomfr-voc-010-num-009</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">corrigé d'exercice</INTITULE>
+      </TERME_TE>
+      <TERME_TE>
+         <ID>scolomfr-voc-010-num-0091</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">énoncé d'exercice</INTITULE>
+         <ID>scolomfr-voc-010-num-0092</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">fiche d'exercice</INTITULE>
+         <ID>scolomfr-voc-010-num-0093</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">recueil d'exercices</INTITULE>
+         <ID>scolomfr-voc-010-num-0094</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/experiment</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Support d'une activité réalisée par l'apprenant en général dans des espaces spécialisés du type laboratoires ou ateliers. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">expérience</INTITULE>
+         <ID>experiment</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">expérience</INTITULE>
+         <ID>scolomfr-voc-010-num-010</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">expérimentation</INTITULE>
+         <ID>scolomfr-voc-010-num-0101</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-028</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Guide de l'enseignant pour réaliser une activité pédagogique (contient le thème choisi, les objectifs pédagogiques, le descriptif et l'organisation des différentes séances de travail).</NA>
+      <TERME>
+         <INTITULE lang="fr">fiche pédagogique</INTITULE>
+         <ID>scolomfr-voc-010-num-028</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-011</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Ensemble de mots définis, appartenant à un domaine spécifique. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">glossaire</INTITULE>
+         <ID>scolomfr-voc-010-num-011</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">glossaire</INTITULE>
+         <ID>glossaire</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-012</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Support à caractère didactique présentant les notions essentielles d'un art, d'une science ou d'une technique, ou présentant des règles d'utilisation d'une ressource pédagogique ou d'un instrument. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">guide</INTITULE>
+         <ID>scolomfr-voc-010-num-012</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">guide</INTITULE>
+         <ID>guide</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-013</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Jeu sur support physique ou numérique destiné à faire comprendre une notion, acquérir des connaissances, des compétences de façon ludique.</NA>
+      <TERME>
+         <INTITULE lang="fr">jeu éducatif</INTITULE>
+         <ID>scolomfr-voc-010-num-013</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">jeu sérieux</INTITULE>
+         <ID>scolomfr-voc-010-num-0131</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-014</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Document didactique qui renferme les notions essentielles d'un domaine ou d'une discipline d'enseignement.</NA>
+      <TERME>
+         <INTITULE lang="fr">manuel d'enseignement</INTITULE>
+         <ID>scolomfr-voc-010-num-014</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">manuel scolaire</INTITULE>
+         <ID>scolomfr-voc-010-num-0141</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">manuel numérique</INTITULE>
+         <ID>scolomfr-voc-010-num-062</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">manuel scolaire numérique</INTITULE>
+         <ID>scolomfr-voc-010-num-063</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">manuel d'enseignement numérique</INTITULE>
+         <ID>scolomfr-voc-010-num-064</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-015</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Tout document de type "usuel". Pour des documents officiels précis utiliser "norme" ou des termes plus précis tels "programme scolaire" ou "référentiel de compétences" du vocabulaire "Typologie générale" (ScoLOMFR 005). Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">matériel de référence</INTITULE>
+         <ID>scolomfr-voc-010-num-015</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">matériel de référence</INTITULE>
+         <ID>matériel de référence</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">document de référence</INTITULE>
+         <ID>scolomfr-voc-010-num-0151</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">dictionnaire</INTITULE>
+         <ID>scolomfr-voc-010-num-0152</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">encyclopédie</INTITULE>
+         <ID>scolomfr-voc-010-num-0153</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">texte officiel</INTITULE>
+         <ID>scolomfr-voc-010-num-0154</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">cahier des charges</INTITULE>
+         <ID>scolomfr-voc-010-num-0155</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">plan</INTITULE>
+         <ID>scolomfr-voc-010-num-0156</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-025</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Document ou ensemble de documents permettant l'apprentissage d'une langue étrangère.</NA>
+      <TERME>
+         <INTITULE lang="fr">méthode de langues</INTITULE>
+         <ID>scolomfr-voc-010-num-025</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-016</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Ensemble de règles et de démarches adoptées pour atteindre un but de nature pédagogique : pour le calcul d'une intégrale, pour la réalisation d'une recherche, pour la gestion d'un projet... Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">méthodologie</INTITULE>
+         <ID>scolomfr-voc-010-num-016</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">méthodologie</INTITULE>
+         <ID>méthodologie</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">méthode d'apprentissage</INTITULE>
+         <ID>scolomfr-voc-010-num-0161</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">support méthodologique</INTITULE>
+         <ID>scolomfr-voc-010-num-0162</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-017</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Ressource servant à instrumenter l'utilisateur pour la réalisation d'une tâche précise se situant à l'intérieur d'un processus pédagogique plus vaste. Utilisé pour désigner un outil de production pédagogique tel qu'un générateur d'exercices, une chaîne éditoriale, etc. ; un outil de diffusion ou un équipement pédagogique. Exemple : tableau interactif, calculatrice, CMS, correcteur orthographique... Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">outil</INTITULE>
+         <ID>scolomfr-voc-010-num-017</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">outil de production pédagogique</INTITULE>
+         <ID>scolomfr-voc-010-num-0171</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Ressource permettant de préparer un examen, une partie d'examen ou un concours.</NA>
+      <TERME>
+         <INTITULE lang="fr">préparation à l'examen</INTITULE>
+         <ID>scolomfr-voc-010-num-0082</ID>
+      </TERME>
+      <TERME_TA>
+         <INTITULE lang="fr">examen</INTITULE>
+         <ID>exam</ID>
+      </TERME_TA>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-018</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Document réalisé par un ou plusieurs élèves, une classe, dans le cadre scolaire ou périscolaire.</NA>
+      <TERME>
+         <INTITULE lang="fr">production d'élève</INTITULE>
+         <ID>scolomfr-voc-010-num-018</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">carnet de bord</INTITULE>
+         <ID>scolomfr-voc-010-num-0181</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">compte rendu de lecture</INTITULE>
+         <ID>scolomfr-voc-010-num-0182</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">exposé d'élève</INTITULE>
+         <ID>scolomfr-voc-010-num-0183</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">portfolio</INTITULE>
+         <ID>scolomfr-voc-010-num-0184</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">vidéo annotée</INTITULE>
+         <ID>scolomfr-voc-010-num-0186</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">journal scolaire</INTITULE>
+         <ID>scolomfr-voc-010-num-0194</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/questionnaire</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Série de questions. Type particulier d'exercice incluant les QCM (questions à choix multiples) ou les QROC (questions à réponse ouverte et courte), les enquêtes... Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">questionnaire</INTITULE>
+         <ID>questionnaire</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">questionnaire</INTITULE>
+         <ID>scolomfr-voc-010-num-019</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">QCM (question à choix multiples)</INTITULE>
+         <ID>scolomfr-voc-010-num-0191</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">QROC (question à réponse ouverte et courte)</INTITULE>
+         <ID>scolomfr-voc-010-num-0192</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">enquête</INTITULE>
+         <ID>scolomfr-voc-010-num-0193</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">question à trou</INTITULE>
+         <ID>scolomfr-voc-010-num-0195</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">sondage</INTITULE>
+         <ID>scolomfr-voc-010-num-0196</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-020</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Document descriptif, structuré et transférable, présentant de façon plus ou moins exhaustive une action de formation et d'apprentissage, les acteurs (élèves, enseignants), les objectifs, l'enchaînement d'unités ou de séquences pédagogiques, les ressources utilisées, le dispositif d'évaluation choisi. Suivant le niveau de description et/ou le périmètre de l'action pédagogique, les dénominations peuvent varier (séquence, séance, cycle d'activités pédagogiques). Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">scénario pédagogique</INTITULE>
+         <ID>scolomfr-voc-010-num-020</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">scénario pédagogique</INTITULE>
+         <ID>scénario pédagogique</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">séquence pédagogique</INTITULE>
+         <ID>scolomfr-voc-010-num-0201</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">séance pédagogique</INTITULE>
+         <ID>scolomfr-voc-010-num-0202</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">cycle d'activités pédagogiques</INTITULE>
+         <ID>scolomfr-voc-010-num-0203</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/simulation</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Représentation artificielle de la réalité, paramétrable et basée sur un modèle, exploitée à des fins de compréhension et d'étude, de démonstration ou d'explication. Exemple : simulation de décroissance radioactive ou d'une onde mécanique (phénomène physique), conduite d'engins (gestes professionnels), etc. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">simulation</INTITULE>
+         <ID>simulation</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">simulation</INTITULE>
+         <ID>scolomfr-voc-010-num-021</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">modélisation</INTITULE>
+         <ID>scolomfr-voc-010-num-0211</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/table</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Concept issu du LOM.</NA>
+      <TERME>
+         <INTITULE lang="fr">tableau</INTITULE>
+         <ID>table</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-026</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Déclaration à caractère pédagogique d'une personne sur un sujet précis et vécu. Ces témoignages peuvent être écrit, audio ou vidéo. Exemple : les témoignages de l'Agence des usages des TICE concernant l'utilisation du TBI en classe.</NA>
+      <TERME>
+         <INTITULE lang="fr">témoignage pédagogique</INTITULE>
+         <ID>scolomfr-voc-010-num-026</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-022</ID>
+      <DF lang="fr">Type pédagogique de la ressource</DF>
+      <NA lang="fr">Guide de présentation et d'initiation, utilisable de façon autonome à l'utilisation d'un ensemble de notions, d'un logiciel, d'un matériel, etc." (Source : http://fr.wiktionary.org/wiki/tutoriel). Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">tutoriel</INTITULE>
+         <ID>scolomfr-voc-010-num-022</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">didacticiel</INTITULE>
+         <ID>scolomfr-voc-010-num-0221</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">tutoriel</INTITULE>
+         <ID>tutoriel</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

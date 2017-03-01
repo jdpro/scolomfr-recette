@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:36.967+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/draft"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/final"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/revised"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/unavailable"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/draft">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">brouillon</skos:altLabel>
+	<skos:altLabel xml:lang="fr">document de travail</skos:altLabel>
+	<skos:definition xml:lang="fr">État de la ressource</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-002"/>
+	<skos:prefLabel xml:lang="fr">brouillon</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Esquisse, ébauche d'une ressource destinée à être complétée, modifiée, enrichie... pour atteindre l'état final. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-002"/>
+	<canope:labelEquivalentExact xml:lang="fr">brouillon</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">document de travail</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/final">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">final</skos:altLabel>
+	<skos:definition xml:lang="fr">État de la ressource</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-002"/>
+	<skos:prefLabel xml:lang="fr">final</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">État d'une ressource considérée alors dans sa version courante et qui peut dès lors être utilisée et diffusée. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-002"/>
+	<canope:labelEquivalentExact xml:lang="fr">final</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/revised">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">révisé</skos:altLabel>
+	<skos:definition xml:lang="fr">État de la ressource</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-002"/>
+	<skos:prefLabel xml:lang="fr">révisé</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">État final d'une ressource mais dans une version corrigée, modifiée ou amendée par rapport à la version préliminaire. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-002"/>
+	<canope:labelEquivalentExact xml:lang="fr">révisé</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/unavailable">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">indisponible</skos:altLabel>
+	<skos:definition xml:lang="fr">État de la ressource</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-002"/>
+	<skos:prefLabel xml:lang="fr">indisponible</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">État d'une ressource non disponible. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-002"/>
+	<canope:labelEquivalentExact xml:lang="fr">indisponible</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-002">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:36.961+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">002-Statut de la ressource</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/draft"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/final"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/revised"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/unavailable"/>
+	<skos:prefLabel xml:lang="fr">002-Statut de la ressource</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>

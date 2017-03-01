@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:37.158+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/author"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/content_provider"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/editor"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/educational_validator"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/graphical_designer"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/initiator"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/instructional_designer"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/publisher"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-019"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-021"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-026"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-027"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-028"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-029"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-030"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-031"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/script_writer"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/subject_matter_expert"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/technical_implementer"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/technical_validator"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/terminator"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/unknown"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/validator_2"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/author">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">auteur</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">auteur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable de la création du contenu de la ressource. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">auteur</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/content_provider">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">fournisseur de contenu</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">fournisseur de contenu</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité qui est secondairement responsable du contenu de la ressource. Elle peut avoir assuré des activités liées à la création, la structuration ou l'agrégation du contenu de la ressource. Dans le cas où la fourniture relève d'une expertise du domaine, utiliser alors "expert du domaine". Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">fournisseur de contenu</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/editor">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">directeur de la publication</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">directeur de la publication</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité qui coordonne les différentes contributions éditoriales à la ressource. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">directeur de la publication</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/educational_validator">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">valideur pédagogique</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">valideur pédagogique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Entité responsable de confirmer l'intégrité pédagogique de la ressource" (Source : Normetic v1.1). Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">valideur pédagogique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/graphical_designer">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">concepteur graphique</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">concepteur graphique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable de la création des éléments graphiques et visuels d'une ressource. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">concepteur graphique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/initiator">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">initiateur</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">initiateur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Entité à l'origine du processus de développement de la ressource" (Source : Normetic v1.1). Cette valeur peut être utilisée pour des responsables d'appel à projet qui ne peuvent être cités comme éditeur. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">initiateur</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/instructional_designer">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">concepteur pédagogique</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">concepteur pédagogique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable d'appliquer les principes pédagogiques soutenant la conception de la ressource" (Source : Normetic v1.1). Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">concepteur pédagogique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/publisher">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">éditeur</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">éditeur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable de la mise à disposition de la ressource : un établissement, une académie, une maison d'édition. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">éditeur</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-005">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">contributeur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité ayant contribuée au contenu de la ressource, sans que la nature de sa contribution soit spécifiée. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-017">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">diffuseur / distributeur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable du stockage puis de la mise à disposition de la ressource.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-019">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel de conversion de métadonnées</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">logiciel de conversion</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Programme permettant la conversion de métadonnées. A ne pas confondre "logiciel de saisie".</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de conversion de métadonnées</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-021">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel de saisie de métadonnées</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">logiciel de saisie</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Programme permettant la saisie manuelle de métadonnées. A ne pas confondre avec "logiciel de conversion".</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de saisie de métadonnées</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-026">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">distributeur technique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable de l'accès à la ressource.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-027">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">diffuseur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable de la diffusion et/ou de la commercialisation de la ressource.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-028">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">éditeur de contenu</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable du contenu éditorial. Ne doit pas être confondu avec « éditeur de publication » et « directeur d'ouvrage ».</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-029">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">éditeur de publication</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable de la publication qu'elle soit papier ou numérique. Ne doit pas être confondu avec « éditeur de contenu » et « directeur d'ouvrage ».</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-030">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">directeur d'ouvrage</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité qui rassemble les éditeurs de contenus sous sa direction et qui coordonne leur travail. Ne doit pas être confondu avec « éditeur de contenu » et « éditeur de publication ».</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-031">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">illustrateur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité qui a réalisé tout ou partie des illustrations de la ressource.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/script_writer">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">rédacteur de scénario</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">rédacteur de scénario</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité responsable de la création du déroulement d'une action ou de la trame pédagogique d'une ressource. On utilisera "auteur" si le rédacteur de scénario est le principal responsable du contenu d'une ressource. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">rédacteur de scénario</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/subject_matter_expert">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">expert du domaine</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">expert du domaine</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité qualifiée pour juger de la pertinence du contenu de la ressource. Dans le cas où un expert du domaine fournit l'information, il est alors également "fournisseur de contenu". Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">expert du domaine</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/technical_implementer">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">développeur informatique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">implémenteur technique</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">implémenteur technique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité qui effectue l'ensemble des opérations techniques nécessaires pour élaborer la ressource. Par exemple : une cellule TICE, un développeur informatique... Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">développeur informatique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">implémenteur technique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/technical_validator">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">valideur technique</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">valideur technique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Entité responsable de confirmer l'intégrité pédagogique de la ressource" (Source : Normetic v1.1). Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">valideur technique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/terminator">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">terminateur</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">terminateur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Entité qui peut refuser la diffusion de la ressource. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">terminateur</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/unknown">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">inconnu</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">inconnu</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Utiliser ce terme pour toute entité dont la contribution ou le rôle est incertain" (Source : Normetic v1.1). Lui préférer "contributeur". Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">inconnu</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/validator_2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">valideur</skos:altLabel>
+	<skos:altLabel xml:lang="fr">valideur juridique</skos:altLabel>
+	<skos:definition xml:lang="fr">Rôle (contributeur)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<skos:prefLabel xml:lang="fr">valideur</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Entité responsable de confirmer l'intégrité de la ressource" (Source : Normetic v1.1). S'emploie aussi pour d'autres types de valideur comme un valideur juridique. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">valideur</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">valideur juridique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-003">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:37.153+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">003-Rôle du contributeur à la ressource</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/author"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/content_provider"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/editor"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/educational_validator"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/graphical_designer"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/initiator"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/instructional_designer"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/publisher"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-019"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-021"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-026"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-027"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-028"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-029"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-030"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-003-num-031"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/script_writer"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/subject_matter_expert"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/technical_implementer"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/technical_validator"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/terminator"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/unknown"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/validator_2"/>
+	<skos:prefLabel xml:lang="fr">003-Rôle du contributeur à la ressource</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>

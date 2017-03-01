@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/school</ID>
+      <DF lang="fr">Niveau</DF>
+      <NA lang="fr">Ressource relative à l'enseignement dispensé dans les écoles maternelles, élémentaires et secondaires (collèges et lycées) (source : Code de l'éducation – articles L311-1 à L337-4)  [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+      <ORDRE>001-enseignement scolaire (Sco12-Niveau)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">enseignement scolaire</INTITULE>
+         <ID>school</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">enseignement scolaire</INTITULE>
+         <ID>scolomfr-voc-012-num-001</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-615</TERME_TA_EXT>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-002</ID>
+            <DF lang="fr">Niveau</DF>
+            <NA lang="fr">Ressource relative à l'enseignement dispensé dans les écoles maternelles et élémentaires (source : Code de l'éducation – articles L321-2 à L321-4) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+            <ORDRE>02-enseignement primaire (Sco12-Niveau)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">enseignement primaire</INTITULE>
+               <ID>scolomfr-voc-012-num-002</ID>
+            </TERME>
+            <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-002</TERME_TA_EXT>
+            <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-008</TERME_TA_EXT>
+            <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041</TERME_TA_EXT>
+         </CONCEPT>
+      </TS>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-003</ID>
+            <DF lang="fr">Niveau</DF>
+            <NA lang="fr">Ressource relative à l'enseignement dispensé dans les établissements secondaires (collèges et lycées) (source : Code de l'éducation – articles L331-1 à L337-4) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+            <ORDRE>03-enseignement secondaire (Sco12-Niveau)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">enseignement secondaire</INTITULE>
+               <ID>scolomfr-voc-012-num-003</ID>
+            </TERME>
+            <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-016</TERME_TA_EXT>
+            <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041</TERME_TA_EXT>
+         </CONCEPT>
+      </TS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/higher_education</ID>
+      <DF lang="fr">Niveau</DF>
+      <NA lang="fr">Ressource relative à l'enseignement dispensé après l'obtention du baccalauréat ou diplôme équivalent (universités, classes préparatoires aux grandes écoles, instituts universitaires de technologie …) (source : Code de l'éducation – articles L612-1, L612-3 et L612-5) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+      <ORDRE>002-enseignement supérieur (Sco12-Niveau)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">enseignement supérieur</INTITULE>
+         <ID>higher education</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">enseignement supérieur</INTITULE>
+         <ID>scolomfr-voc-012-num-004</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-162</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040</TERME_TA_EXT>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-005</ID>
+            <DF lang="fr">Niveau</DF>
+            <NA lang="fr">Ressource relative au diplôme universitaire de premier cycle (six semestres) ou à l'enseignement dispensé lors de cette formation (source : Code de l'éducation – articles L612-2 à L612-4) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+            <ORDRE>05-licence (Sco12-Niveau)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">licence</INTITULE>
+               <ID>scolomfr-voc-012-num-005</ID>
+            </TERME>
+            <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-185</TERME_TA_EXT>
+         </CONCEPT>
+      </TS>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-006</ID>
+            <DF lang="fr">Niveau</DF>
+            <NA lang="fr">Ressource relative au diplôme universitaire de deuxième cycle (quatre semestres) ou à l'enseignement dispensé lors de cette formation (source : Code de l'éducation – articles L612-5 et L612-6) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. À ne pas confondre avec "mastère spécialisé", formation post-master propre aux écoles membres de la Conférence des grandes écoles. Concept issu du LOMFR.</NA>
+            <ORDRE>06-master (Sco12-Niveau)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">master</INTITULE>
+               <ID>scolomfr-voc-012-num-006</ID>
+            </TERME>
+         </CONCEPT>
+      </TS>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-007</ID>
+            <DF lang="fr">Niveau</DF>
+            <NA lang="fr">Ressource relative au diplôme universitaire de troisième cycle (trois ans) ou à l'enseignement dispensé lors de cette formation (source : Code de l'éducation – art. L612-7) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+            <ORDRE>07-doctorat (Sco12-Niveau)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">doctorat</INTITULE>
+               <ID>scolomfr-voc-012-num-007</ID>
+            </TERME>
+         </CONCEPT>
+      </TS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/training</ID>
+      <DF lang="fr">Niveau</DF>
+      <NA lang="fr">Ressource relative au processus permettant à chaque personne, indépendamment de son statut, d'acquérir et d'actualiser des connaissances et des compétences favorisant son évolution professionnelle, ainsi que de progresser d'au moins un niveau de qualification au cours de sa vie professionnelle (source : Code du travail - art. L6111-1) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+      <ORDRE>003-formation professionnelle (Sco12-Niveau)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">formation professionnelle</INTITULE>
+         <ID>training</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">formation professionnelle</INTITULE>
+         <ID>scolomfr-voc-012-num-008</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-284</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-010</ID>
+      <DF lang="fr">Niveau</DF>
+      <NA lang="fr">Ressource relative à la formation professionnelle dont l'enseignement pratique se déroule sur le lieu d'exercice de cette activité professionnelle (source : Code du travail - art. D6321-3) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+      <ORDRE>004-formation en entreprise (Sco12-Niveau)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">formation en entreprise</INTITULE>
+         <ID>scolomfr-voc-012-num-010</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-009</ID>
+      <DF lang="fr">Niveau</DF>
+      <NA lang="fr">Ressource relative à la formation scolaire et professionnelle des actifs (source : Code du travail - art. L6311-1) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</NA>
+      <ORDRE>005-formation continue (Sco12-Niveau)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">formation continue</INTITULE>
+         <ID>scolomfr-voc-012-num-009</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-063</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/other</ID>
+      <DF lang="fr">Niveau</DF>
+      <ORDRE>006-autres (Sco12-Niveau)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">autres</INTITULE>
+         <ID>other</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">autres</INTITULE>
+         <ID>scolomfr-voc-012-num-011</ID>
+      </TERME_TE>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-013</ID>
+            <DF lang="fr">Niveau</DF>
+            <NA lang="fr">Ressource relative à la formation propre aux écoles membres de la Conférence des grandes écoles, ou au label/diplôme délivré par ces dernières (source : Conférence des Grandes Écoles) [Disponible en ligne à l'adresse : http://www.cge.asso.fr/nos-labels/ms]. À ne pas confondre avec "master", le  diplôme universitaire de deuxième cycle (quatre semestres). Concept issu du LOMFR.</NA>
+            <ORDRE>08-mastère spécialisé (Sco12-Niveau)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">mastère spécialisé</INTITULE>
+               <ID>scolomfr-voc-012-num-013</ID>
+            </TERME>
+            <TERME_TE>
+               <INTITULE lang="fr">mastère</INTITULE>
+               <ID>scolomfr-voc-012-num-014</ID>
+            </TERME_TE>
+         </CONCEPT>
+      </TS>
+   </CONCEPT>
+</NOMENCLATURE>

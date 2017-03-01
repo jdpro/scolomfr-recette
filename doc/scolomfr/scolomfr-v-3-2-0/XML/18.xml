@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-001</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource qui se destine à un usage à distance (module de formation à distance, ressource en ligne, et tous les dispositifs qui relèvent de la FOAD, des MOOCS, etc).</NA>
+      <TERME>
+         <INTITULE lang="fr">à distance</INTITULE>
+         <ID>scolomfr-voc-018-num-001</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-028</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">Dispositif de soutien scolaire</NA>
+      <TERME>
+         <INTITULE lang="fr">aide didactique</INTITULE>
+         <ID>scolomfr-voc-018-num-028</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">aide didactique individualisée</INTITULE>
+         <ID>scolomfr-voc-018-num-027</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-032</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <TERME>
+         <INTITULE lang="fr">atelier théorique</INTITULE>
+         <ID>scolomfr-voc-018-num-032</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-011</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">Dispositif de partenariat entre deux classes, qui séjournent à tour de rôle l'une chez l'autre pour une durée plus ou moins longue.</NA>
+      <TERME>
+         <INTITULE lang="fr">échange pédagogique de classes</INTITULE>
+         <ID>scolomfr-voc-018-num-011</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-030</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">L'activité de projet permet à l'élève de vivre une expérience de créativité sur un thème concret d'une complexité adaptée à la situation d'apprentissage. Elle intervient en fin d'année de seconde, après les études de cas.</NA>
+      <TERME>
+         <INTITULE lang="fr">en activité de projet</INTITULE>
+         <ID>scolomfr-voc-018-num-030</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-002</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est la formation en alternance. La formation en alternance est partagée entre l'établissement de formation et des stages en milieu professionnel, pour faire découvrir aux élèves un environnement professionnel correspondant à un projet d'entrée en apprentissage.</NA>
+      <TERME>
+         <INTITULE lang="fr">en alternance</INTITULE>
+         <ID>scolomfr-voc-018-num-002</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-035</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un atelier (dirigé ou en autonomie, théorique, expérimental). Le travail en atelier s'articule autour de quelques principes simples : un groupe de travail constitué autour d'un objectif précis, un objectif décliné en activité(s), une activité mise en place dans un espace délimité et/ou avec un aménagement matériel particulier.</NA>
+      <TERME>
+         <INTITULE lang="fr">en atelier</INTITULE>
+         <ID>scolomfr-voc-018-num-035</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">atelier expérimental</INTITULE>
+         <ID>scolomfr-voc-018-num-031</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">en atelier théorique</INTITULE>
+         <ID>scolomfr-voc-018-num-036</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">en séquence d'atelier</INTITULE>
+         <ID>scolomfr-voc-018-num-038</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">en groupe de travail</INTITULE>
+         <ID>scolomfr-voc-018-num-041</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-003</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource qui se destine à un usage en autonomie, i.e que l'apprenant n'est pas en présence du formateur.</NA>
+      <TERME>
+         <INTITULE lang="fr">en autonomie</INTITULE>
+         <ID>scolomfr-voc-018-num-003</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-004</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est la classe entière (par opposition à une configuration en groupe(s) d'apprenants, ou en individuel), en présentiel plutôt qu'à distance et dans une même temporalité.</NA>
+      <TERME>
+         <INTITULE lang="fr">en classe entière</INTITULE>
+         <ID>scolomfr-voc-018-num-004</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-005</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource qui se destine à un usage collaboratif entre plusieurs pairs, ce qui sous-entend que plusieurs individus prennent part ensemble à une même tâche (réalisation d'une œuvre, d'un document, d'un site web, mise en place d'un projet, etc...).</NA>
+      <TERME>
+         <INTITULE lang="fr">en collaboration</INTITULE>
+         <ID>scolomfr-voc-018-num-005</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-040</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <TERME>
+         <INTITULE lang="fr">en compétition</INTITULE>
+         <ID>scolomfr-voc-018-num-040</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-007</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est le milieu de l'entreprise, par opposition au milieu scolaire ou au milieu familial.</NA>
+      <TERME>
+         <INTITULE lang="fr">en entreprise</INTITULE>
+         <ID>scolomfr-voc-018-num-007</ID>
+      </TERME>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-008</ID>
+            <DF lang="fr">Modalité pédagogique</DF>
+            <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est une visite d'entreprise, en dehors du cadre scolaire ou familial.</NA>
+            <TERME>
+               <INTITULE lang="fr">en visite d'entreprise</INTITULE>
+               <ID>scolomfr-voc-018-num-008</ID>
+            </TERME>
+         </CONCEPT>
+      </TS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-012</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un groupe d'apprenants (par opposition à la classe entière, par exemple).</NA>
+      <TERME>
+         <INTITULE lang="fr">en groupe</INTITULE>
+         <ID>scolomfr-voc-018-num-012</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-013</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un groupe d'apprenants identifiés et regroupés selon leur(s) niveau(x) de compétence.</NA>
+      <TERME>
+         <INTITULE lang="fr">en groupe de compétences</INTITULE>
+         <ID>scolomfr-voc-018-num-013</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-014</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource qui se destine à un usage « en ligne », c'est-à-dire par le biais d'une connexion à internet (rédaction d'un mail, participation à un réseau social, recherche d'information sur le web, jeu ou exercice  « en ligne », etc).</NA>
+      <TERME>
+         <INTITULE lang="fr">en ligne</INTITULE>
+         <ID>scolomfr-voc-018-num-014</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">e-learning</INTITULE>
+         <ID>scolomfr-voc-018-num-042</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">formation en ligne</INTITULE>
+         <ID>scolomfr-voc-018-num-043</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-039</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un stage ; le stage est pour l'apprenant un temps d'information et de formation visant à découvrir le milieu professionnel et un moyen concret d'approfondir et de mettre en pratique des compétences techniques et professionnelles hors les murs de l'établissement de formation.</NA>
+      <TERME>
+         <INTITULE lang="fr">en stage</INTITULE>
+         <ID>scolomfr-voc-018-num-039</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-119</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-015</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource qui se destine à un usage en tutorat. Il s'agit d'une forme d'aide en enseignement individualisée, qui est offerte soit pour accompagner un apprenant qui éprouve des difficultés, soit pour donner une formation particulière, complémentaire ou à distance.</NA>
+      <TERME>
+         <INTITULE lang="fr">en tutorat</INTITULE>
+         <ID>scolomfr-voc-018-num-015</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-006</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">Temps d'apprentissage du travail autonome avec recours ponctuel à un adulte ressource pour aider l'élève à intégrer diverses méthodes et à les utiliser à bon escient.</NA>
+      <TERME>
+         <INTITULE lang="fr">étude dirigée</INTITULE>
+         <ID>scolomfr-voc-018-num-006</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-016</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">Dispositif d'apprentissage ou de formation qui combine des modalités pédagogiques diversifiées</NA>
+      <TERME>
+         <INTITULE lang="fr">modalité mixte</INTITULE>
+         <ID>scolomfr-voc-018-num-016</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-010</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est une période de formation en entreprise. Ce dispositif s'adresse aux filières de type BEP et FCIL (post CAP-BEP-Bac Pro).</NA>
+      <TERME>
+         <INTITULE lang="fr">PFE (période de formation en entreprise)</INTITULE>
+         <ID>scolomfr-voc-018-num-010</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-009</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est une période de formation en milieu professionnel. Ce dispositif s'adresse aux filières de type CAP, Bac Pro et MC (post BEP ou Bac Pro).</NA>
+      <TERME>
+         <INTITULE lang="fr">PFMP (période de formation en milieu professionnel)</INTITULE>
+         <ID>scolomfr-voc-018-num-009</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-017</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un séjour pédagogique. Le séjour pédagogique se distingue de la sortie pédagogique par sa durée (plus d'une journée) et sous-entend un déplacement des apprenants vers le lieu du séjour ainsi qu'un hébergement pour chacun d'entre eux.</NA>
+      <TERME>
+         <INTITULE lang="fr">séjour pédagogique</INTITULE>
+         <ID>scolomfr-voc-018-num-017</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-033</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <TERME>
+         <INTITULE lang="fr">séquence en atelier</INTITULE>
+         <ID>scolomfr-voc-018-num-033</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-019</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">Renvoie à une finalité essentiellement pédagogique de l'évènement</NA>
+      <TERME>
+         <INTITULE lang="fr">sortie pédagogique</INTITULE>
+         <ID>scolomfr-voc-018-num-019</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">sortie culturelle</INTITULE>
+         <ID>scolomfr-voc-018-num-018</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">spectacle</INTITULE>
+         <ID>scolomfr-voc-018-num-020</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-021</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un travail de recherche (résolution de problèmes, recherche d'information, etc.).</NA>
+      <TERME>
+         <INTITULE lang="fr">travail de recherche</INTITULE>
+         <ID>scolomfr-voc-018-num-021</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-022</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation est un travail en interdisciplinarité ; i.e. une modalité de travail qui permet d'aborder une même thématique de manière transversale, autrement dit en faisant appel à deux ou plusieurs disciplines différentes (exemple : des perspectives d'interdisciplinarité entre EPS et arts, français et histoire, histoire et sciences, etc.). Elle suppose dans l'idéal une collaboration étroite et harmonieuse entre formateurs de différentes disciplines.</NA>
+      <TERME>
+         <INTITULE lang="fr">travail en interdisciplinarité</INTITULE>
+         <ID>scolomfr-voc-018-num-022</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-023</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation relève d'une séance de travaux dirigés (TD). Les Travaux dirigés ou TD sont une forme d'enseignement qui permet d'appliquer les connaissances apprises pendant les cours théoriques ou d'introduire des notions nouvelles. Les élèves ou les étudiants travaillent individuellement sur des exercices d'application ou de découverte, en présence du professeur, qui intervient pour aider et pour corriger les exercices. Les travaux dirigés se font dans un groupe d'effectif réduit, pour que le professeur puisse aider plus facilement les élèves ou étudiants et adapter ses interventions à leurs difficultés (Source : Wikipédia).</NA>
+      <TERME>
+         <INTITULE lang="fr">travaux dirigés</INTITULE>
+         <ID>scolomfr-voc-018-num-023</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-018-num-024</ID>
+      <DF lang="fr">Modalité pédagogique</DF>
+      <NA lang="fr">S'applique à une ressource dont le contexte d'utilisation relève d'une séance de travaux pratiques (TP). Les travaux pratiques concernent généralement les sciences expérimentales. Contrairement aux autres types de cours qui se passent exclusivement à l'oral ou à l'écrit, les séances de travaux pratiques nécessitent souvent un matériel spécifique (verrerie et produits chimiques, circuits électriques, ordinateurs...). La salle de classe, de type laboratoire, affectée à ces travaux est généralement appelé salle de travaux pratiques ou salle de TP (Source : Wikipédia).</NA>
+      <TERME>
+         <INTITULE lang="fr">travaux pratiques</INTITULE>
+         <ID>scolomfr-voc-018-num-024</ID>
+      </TERME>
+   </CONCEPT>
+</NOMENCLATURE>

@@ -1,0 +1,2791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE_BCN
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE_BCN>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-001</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0901</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-001</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ARTS PLASTIQUES</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-038</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">A-PLA</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-039</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-002</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:4133</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-002</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">INFORMATION ET COMMUNICATION</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-040</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">INFCO</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-041</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-003</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:4112</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-003</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">OUTILS ET TECHNIQUES DE COMMUNICATION</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-042</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">OU-TC</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-043</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-004</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0071</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-004</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">METHODOLOGIE DE RECHERCHE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-044</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">MRECH</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-045</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-005</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0813</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-005</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">EDUCATION MUSICALE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-046</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">EDMUS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-047</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-006</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:1001</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-006</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">EDUCATION PHYSIQUE ET SPORTIVE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-048</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">EPS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-049</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-007</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0438</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-007</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ENSEIGNEMENT MORAL ET CIVIQUE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-050</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">EMC</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-051</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-008</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0207</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-008</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">FRANCAIS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-052</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">FRANC</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-053</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-009</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0406</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-009</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">HISTOIRE ET GEOGRAPHIE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-054</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">HIGEO</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-055</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-010</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0409</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-010</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">GEOGRAPHIE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-056</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">GEOGF</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-057</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-011</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0408</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-011</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">HISTOIRE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-058</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">HISTO</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-059</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-012</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0300</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-012</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">LANGUE VIVANTE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-060</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">LV</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-061</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-013</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0301</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-013</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ALLEMAND</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-062</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-014</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0359</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-014</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">LANGUES REGIONALES D'ALSACE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-063</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">LR ALSACE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-064</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-015</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0367</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-015</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">LANGUES REGIONALES DES PAYS MOSELLANS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-065</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">LR MOSELL.</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-066</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-016</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0302</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-016</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ANGLAIS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-067</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-017</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0303</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-017</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ARABE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-068</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-018</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0351</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-018</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">BASQUE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-069</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-019</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0352</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-019</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">BRETON</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-070</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-020</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0353</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-020</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CATALAN</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-071</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-021</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0304</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-021</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CHINOIS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-072</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-022</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0354</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-022</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CORSE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-073</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-024</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0306</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-024</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ESPAGNOL</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-075</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-025</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0373</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-025</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CREOLE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-076</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-026</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0308</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-026</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">HEBREU</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-077</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-027</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0309</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-027</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ITALIEN</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-078</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-028</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0312</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-028</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">NEERLANDAIS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-079</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">NEERLAND.</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-080</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-029</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0358</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-029</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">LANGUE OCCITANE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-081</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">OCCITAN</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-082</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-030</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0313</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-030</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">POLONAIS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-083</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-031</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0311</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-031</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">PORTUGAIS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-084</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-032</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0314</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-032</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">RUSSE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-085</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-033</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0613</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-033</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">MATHEMATIQUES</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-086</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">MATHS</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-087</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-034</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0623</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-034</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">PHYSIQUE-CHIMIE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-088</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">PH-CH</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-089</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-035</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0629</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-035</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">SCIENCES DE LA VIE ET DE LA TERRE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-090</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">SVT</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-091</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-036</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0708</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-036</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">TECHNOLOGIE</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-092</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">TECHN</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-093</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-037</ID>
+      <DF lang="fr">BCN_MATIERE</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MATIERE:0606</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-037</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">SCIEN</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-094</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">SCIENCES</INTITULE>
+         <ID>scolomfr-BCN_MATIERE-num-095</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-001</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <NA lang="fr">Au sein du MEF_STAT_11, la création de LICENCE date de 2002 (pour une mise en application de la licence professionnelle entre 1999 et 2000). Cependant, l'élément s'intègre dans un ensemble regroupant les déclinaisons du Diplôme national de technologie spécialisé ou DNTS (première base de code BCN 329*) renvoyant au niveau Bac+3, aussi doit-il s'agir ici d'un élément renvoyant plus probablement à la licence professionnelle qu'à la licence dite "classique".</NA>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:32920099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-001</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">LICENCE</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-054</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">LICENC</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-055</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-002</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <NA lang="fr">diplôme de comptabilité et gestion (Sco22-NiveauDétaillé) est un concept générique regroupant les 3 années de la formation (cf. Onisep, fiche DCG). Le DSCG, lui, ne rentre pas dans le cadre de la licence professionnelle (BAC +5, cf. Onisep, fiche DSCG) et ne doit pas être ici pris en compte.</NA>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:32A11031403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-002</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">DCG1 COMPTABILITE ET GESTION 1E ANNEE</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-056</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">DCG1 31403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-059</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-003</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <NA lang="fr">diplôme de comptabilité et gestion (Sco22-NiveauDétaillé) est un concept générique regroupant les 3 années de la formation (cf. Onisep, fiche DCG). Le DSCG, lui, ne rentre pas dans le cadre de la licence professionnelle (BAC +5, cf. Onisep, fiche DSCG) et ne doit pas être ici pris en compte.</NA>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:32A21031403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-003</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">DCG2 COMPTABILITE ET GESTION 2E ANNEE</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-057</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">DCG2 31403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-060</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-004</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <NA lang="fr">diplôme de comptabilité et gestion (Sco22-NiveauDétaillé) est un concept générique regroupant les 3 années de la formation (cf. Onisep, fiche DCG). Le DSCG, lui, ne rentre pas dans le cadre de la licence professionnelle (BAC +5, cf. Onisep, fiche DSCG) et ne doit pas être ici pris en compte.</NA>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:32A31031403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-004</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">DCG3 COMPTABILITE ET GESTION 3E ANNEE</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-058</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">DCG3 31403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-061</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-005</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:32211099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-005</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERE ANNEE BTS EN 2 ANS</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-062</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1BTS2 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-064</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-006</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:32221099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-006</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">2EME ANNEE BTS EN 2 ANS</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-063</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">2BTS2 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-065</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-008</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11130010001</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-008</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">GRANDE SECTION </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-068</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">GS </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-069</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-009</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11120010001</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-009</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">MOYENNE SECTION </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-070</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">MS </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-071</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-010</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11110010001</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-010</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">PETITE SECTION </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-072</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">PS </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-073</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-011</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11100010001</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-011</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">TPS ENSEIGNEMENT PREELEMENTAIRE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-074</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">TPS  </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-075</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11220010002</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-012</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CE1 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-076</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11230010002</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-013</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CE2 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-077</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11240010002</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-014</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CM1</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-078</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11250010002</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-015</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CM2</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-079</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:11210010002</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-016</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CP</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-080</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:21160010019</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-017</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">3EME</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-081</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:21150010001</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-018</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">4EME</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-082</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:21120010001</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-019</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">5EME</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-083</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:21110010012</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-020</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">6EME</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-084</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-021</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:21160010026</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-021</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">3EME PREPA PRO</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-085</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">3PPRO </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-086</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-022</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22131312005</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-022</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">TERMINALE ECONOMIQUE ET SOCIALE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-087</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">TES </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-088</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-023</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22131213019</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-023</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">TERMINALE LITTERAIRE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-089</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">TL </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-090</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-024</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22132B13403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-024</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">TSTD2A SC.&amp; TEC.DESIGN-ARTS APPLIQ </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-091</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">TSTD2A13403 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-092</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-025</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22132C20099</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-025</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">T-STI2D-TECHNO INDUS DEV DURABLE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-093</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">TSTI2D </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-094</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-026</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22132329902</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-026</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">TERMINALE STL - TECHNO DE LABORATOIRE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-095</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">T-STL </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-096</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-027</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22132239903</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-027</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">T-STMG SC.&amp; TECHNO. MANAGEMENT GESTION </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-097</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">T-STMG </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-098</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-028</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22132433104</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-028</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">T-ST2S SC. &amp; TECHNO. SANTE &amp; SOCIAL </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-099</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">T-ST2S33104 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-100</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-029</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22132533401</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-029</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">TERM TECHNO HOTELLERIE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-101</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">T-HOT 33401 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-102</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-030</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22132513301</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-030</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">T_INS MUSIQUE OPTION : INSTRUMENT</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-103</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">T-INS 13301</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-104</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-031</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22132513302</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-031</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">T_DAN MUSIQUE OPTION : DANSE</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-105</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">T-DAN 13302</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-106</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-032</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22121312005</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-032</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">PREMIERE ECONOMIQUE ET SOCIALE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-107</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1ES</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-108</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-033</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22121213019</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-033</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">PREMIERE LITTERAIRE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-109</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1L</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-110</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-034</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22122B13403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-034</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1STD2A SC.&amp; TEC.DESIGN-ARTS APPLIQ </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-111</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1STD2A13403</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-112</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-035</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22122C20099</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-035</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERE STI2D-TECHNO INDUS DEV DURABLE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-113</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1STI2D </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-114</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-036</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22122329902</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-036</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERE STL - TECHNO DE LABORATOIRE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-115</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1-STL </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-116</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-037</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22122231016</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-037</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1-STMG SC. &amp; TECHNO. MANAGEMENT GESTION </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-117</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">STMG31016 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-118</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-038</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22122433104</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-038</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1-ST2S SC. &amp; TECHNO. SANTE &amp; SOCIAL</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-119</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1-ST2S33104 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-120</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-039</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22122533401</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-039</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERE TECHNO HOTELLERIE </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-121</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1-HOT 33401 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-122</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-040</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22122513301</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-040</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1_INS MUSIQUE OPTION : INSTRUMENT</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-123</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1-INS 13301</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-124</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-041</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22122513302</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-041</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1_DAN MUSIQUE OPTION : DANSE</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-125</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1-DAN 13302</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-126</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-042</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22111410014</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-042</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">2DE DETERMINATION </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-066</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">2GT</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-067</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-043</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:23810099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-043</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">BAC PRO 3 ANS : 2NDE PRO </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-129</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">2NDPRO </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-131</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-044</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:23820099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-044</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">BAC PRO 3 ANS : 1ERE PRO</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-130</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERPRO </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-132</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-045</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:23830099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-045</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">BAC PRO 3 ANS : TERMINALE PRO </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-133</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">TLEPRO </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-134</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-046</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:23C10099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-046</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERE ANNEE BMA EN 2 ANS  </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-135</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1BMA2 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-137</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-047</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:23C20099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-047</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">2EME ANNEE BMA EN 2 ANS </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-136</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">2BMA2 </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-138</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-048</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:25110099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-048</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERE ANNEE BREVET PROFESSIONNEL </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-139</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1BP2  </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-141</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-049</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:25120099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-049</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">2EME ANNEE BREVET PROFESSIONNEL </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-140</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">2BP2  </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-142</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-050</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22123199999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-050</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERE BT </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-143</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1BT </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-145</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-051</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:22133199999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-051</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">TERMINALE BT </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-144</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">TBT </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-146</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-052</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:23210099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-052</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">1ERE ANNEE DE CAP EN 2 ANS </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-147</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">1CAP2  </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-149</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-053</ID>
+      <DF lang="fr">BCN_MEF_STAT_11</DF>
+      <TERME>
+         <INTITULE lang="fr">BCN_MEF_STAT_11:23220099999</INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-053</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">2EME ANNEE DE CAP EN 2 ANS </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-148</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">2CAP2  </INTITULE>
+         <ID>scolomfr-BCN_MEF_STAT_11-num-150</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1007</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-009</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1008</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-011</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1012</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-011</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1016</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-011</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1020</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-010</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1024</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-010</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1028</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-010</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1032</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-006</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1033</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-006</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1056</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-006</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1084</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-006</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1109</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-001</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-005</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1110</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-001</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-005</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1111</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-001</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1115</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-005</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1120</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-001</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-005</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1121</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-001</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1142</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-005</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1163</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1179</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-001</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1180</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-001</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1200</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-005</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1201</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-005</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1229</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1333</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-008</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1334</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-008</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1357</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-008</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1391</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-008</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1430</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-012</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1431</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1440</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1460</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1474</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-036</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-037</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1496</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-034</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1511</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-035</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1534</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-036</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1548</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-007</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1549</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-007</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1576</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-007</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1600</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-007</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1622</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1623</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-013</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1624</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-024</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1625</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-027</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1626</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-031</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1627</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-017</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1628</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-021</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1629</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-026</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1630</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-028</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1631</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-030</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1632</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-032</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1633</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-015</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1634</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-018</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1635</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1636</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1637</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-022</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1638</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-025</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1639</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-025</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1640</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-029</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1831</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-034</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1832</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-035</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1833</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-036</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-037</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1834</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-036</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-903</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-002</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-003</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-004</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-908</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-002</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-003</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-004</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-919</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-033</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-920</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-033</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-934</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-033</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-947</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-033</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-968</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-009</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-034</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-035</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-036</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-969</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-034</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-035</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-036</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-970</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-034</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-971</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-035</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-972</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-036</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-973</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-009</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-976</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-009</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-016</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-980</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-009</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-981</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-009</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-982</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-011</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-986</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-011</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-990</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-011</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-994</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-010</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-998</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MATIERE-num-010</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-004</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-011</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-005</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-010</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-006</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-009</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-007</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-008</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-011</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-012</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-013</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-013</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-014</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-014</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-015</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-015</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-018</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-020</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-020</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-019</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-021</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-018</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-023</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-017</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-027</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-043</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-040</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-022</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-041</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-023</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-043</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-028</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-044</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-024</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-047</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-025</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-048</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-026</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-049</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-029</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-050</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-045</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-083</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-027</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-084</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-042</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-095</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-046</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-096</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-047</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-097</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-048</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-098</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-049</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-101</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-005</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-006</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-103</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-052</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-104</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-053</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-122</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-032</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-124</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-033</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-127</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-044</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-129</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-034</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-131</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-035</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-132</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-036</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-133</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-037</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-134</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-038</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-135</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-039</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-136</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-042</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-153</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-050</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-154</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-051</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-185</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-001</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-187</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-002</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-003</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-004</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-212</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-030</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-031</URI>
+      </BCN>
+   </ALIGNEMENT>
+   <ALIGNEMENT>
+      <SCOLOMFR>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-238</URI>
+      </SCOLOMFR>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-040</URI>
+      </BCN>
+      <BCN>
+         <URI>http://data.education.fr/voc/scolomfr/concept/scolomfr-BCN_MEF_STAT_11-num-041</URI>
+      </BCN>
+   </ALIGNEMENT>
+</NOMENCLATURE_BCN>

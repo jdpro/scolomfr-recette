@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:45.632+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/difficult"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/easy"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/medium"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/very_difficult"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/very_easy"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/difficult">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">difficile</skos:altLabel>
+	<skos:definition xml:lang="fr">Difficulté</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<skos:prefLabel xml:lang="fr">difficile</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<canope:labelEquivalentExact xml:lang="fr">difficile</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">004-difficile (Sco25-Difficulté)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/easy">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">facile</skos:altLabel>
+	<skos:definition xml:lang="fr">Difficulté</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<skos:prefLabel xml:lang="fr">facile</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<canope:labelEquivalentExact xml:lang="fr">facile</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">002-facile (Sco25-Difficulté)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/medium">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">moyen</skos:altLabel>
+	<skos:definition xml:lang="fr">Difficulté</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<skos:prefLabel xml:lang="fr">moyen</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<canope:labelEquivalentExact xml:lang="fr">moyen</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">003-moyen (Sco25-Difficulté)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/very_difficult">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">très difficile</skos:altLabel>
+	<skos:definition xml:lang="fr">Difficulté</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<skos:prefLabel xml:lang="fr">très difficile</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<canope:labelEquivalentExact xml:lang="fr">très difficile</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">005-très difficile (Sco25-Difficulté)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/very_easy">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">très facile</skos:altLabel>
+	<skos:definition xml:lang="fr">Difficulté</skos:definition>
+	<skos:editorialNote xml:lang="fr">Concept issu du LOMFR.</skos:editorialNote>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<skos:prefLabel xml:lang="fr">très facile</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-025"/>
+	<canope:labelEquivalentExact xml:lang="fr">très facile</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">001-très facile (Sco25-Difficulté)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-025">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:45.629+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">025-Difficulté pédagogique</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/difficult"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/easy"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/medium"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/very_difficult"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/very_easy"/>
+	<skos:prefLabel xml:lang="fr">025-Difficulté pédagogique</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>

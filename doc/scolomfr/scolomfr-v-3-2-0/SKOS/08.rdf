@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:38.709+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">1</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau d'agrégation</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-008"/>
+	<skos:prefLabel xml:lang="fr">1 - Granule</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/atomic"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/exam"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/exercise"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/problem_statement"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-001"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-004"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-006"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-007"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-026"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-027"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-029"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/self_assessment"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/table"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:scopeNote xml:lang="fr">Ressource indivisible. Fait référence à une ressource que l'on estime ne pouvant pas être fragmentée et qui pourra être exploitée dans des ressources pédagogiques de granularité plus élevée (2, 3 ou 4). Par exemple, une photo ou une fiche technique, un exercice unique, le support d'une leçon...</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-008"/>
+	<canope:labelEquivalentExact xml:lang="fr">1</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">2</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau d'agrégation</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-008"/>
+	<skos:prefLabel xml:lang="fr">2 - Leçon</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/questionnaire"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-018"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-020"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-024"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-028"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<skos:scopeNote xml:lang="fr">Ensemble d'objets d'apprentissage de niveau 1. Fait référence à une ressource pédagogique regroupant un ensemble d'objets pédagogiques ou fragments. Par exemple : une ressource présentant une leçon incluant une vidéo numérique et un exercice ; une ressource présentant un travail d'évaluation et composée des consignes et support d'exercices, ainsi que des corrections.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-008"/>
+	<canope:labelEquivalentExact xml:lang="fr">2</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">3</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau d'agrégation</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-008"/>
+	<skos:prefLabel xml:lang="fr">3 - Cours</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/lecture"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-023"/>
+	<skos:scopeNote xml:lang="fr">Ensemble d'objets d'apprentissage de niveau 2. Fait référence à une ressource rassemblant un ensemble d'objets de niveau d'agrégation supérieur. Par exemple : une ressource décrivant un cours composé de plusieurs leçons.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-008"/>
+	<canope:labelEquivalentExact xml:lang="fr">3</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">4</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau d'agrégation</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-008"/>
+	<skos:prefLabel xml:lang="fr">4 - Module</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-014"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-015"/>
+	<skos:scopeNote xml:lang="fr">Ensemble d'objets d'apprentissage de niveau 3 (granularité la plus élevée dans ce modèle). Fait référence à une ressource rassemblant un ensemble d'objets de niveau d'agrégation la plus élevée. Par exemple : une ressource décrivant le programme d'enseignement menant à un diplôme ou certificat.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-008"/>
+	<canope:labelEquivalentExact xml:lang="fr">4</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-008">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">08</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:38.706+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">008-Niveau de granularité de la ressource</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-03"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-04"/>
+	<skos:prefLabel xml:lang="fr">008-Niveau de granularité de la ressource</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>

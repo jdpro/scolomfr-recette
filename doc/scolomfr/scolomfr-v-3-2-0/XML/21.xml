@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0001</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>001-animateur socioculturel (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">animateur socioculturel</INTITULE>
+         <ID>scolomfr-voc-021-num-0001</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0002</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">Personnel qui aide, seconde un enseignant dans son travail avec les élèves.</NA>
+      <ORDRE>002-assistant (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">assistant</INTITULE>
+         <ID>scolomfr-voc-021-num-0002</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">ATSEM (agent territorial spécialisé des écoles maternelles)</INTITULE>
+         <ID>scolomfr-voc-021-num-00021</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0004</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">Un chef de travaux est issu du corps enseignant, il peut être déchargé ou chargé de cours (4heures). Certains enseignants peuvent faire fonction de chef de travaux pour quelques heures.</NA>
+      <ORDRE>003-chef de travaux (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">chef de travaux</INTITULE>
+         <ID>scolomfr-voc-021-num-0004</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">chef de travaux enseignant</INTITULE>
+         <ID>scolomfr-voc-021-num-00041</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">chef de travaux non enseignant</INTITULE>
+         <ID>scolomfr-voc-021-num-00042</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0006</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>004-collectivités territoriales (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">collectivités territoriales</INTITULE>
+         <ID>scolomfr-voc-021-num-0006</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0024</ID>
+      <DF lang="fr">Public Cible Détaillé</DF>
+      <ORDRE>005-conseiller pédagogique (Sco21-PublicCibleDétaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">conseiller pédagogique</INTITULE>
+         <ID>scolomfr-voc-021-num-0024</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">formateur pédagogique</INTITULE>
+         <ID>scolomfr-voc-021-num-0025</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0007</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">Elève scolarisé de la maternelle au lycée.</NA>
+      <ORDRE>006-élève (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">élève</INTITULE>
+         <ID>scolomfr-voc-021-num-0007</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/learner</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0008</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">Elève suivant un enseignement adapté et spécialisé ou élève en difficulté.</NA>
+      <ORDRE>007-élève à besoins éducatifs spécifiques (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">élève à besoins éducatifs spécifiques</INTITULE>
+         <ID>scolomfr-voc-021-num-0008</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">élève à besoins spécifiques</INTITULE>
+         <ID>scolomfr-voc-021-num-00081</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">élève en difficulté</INTITULE>
+         <ID>scolomfr-voc-021-num-00082</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">élève surdoué</INTITULE>
+         <ID>scolomfr-voc-021-num-00083</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">élève handicapé</INTITULE>
+         <ID>scolomfr-voc-021-num-00084</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/learner</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-010</TERME_TA_EXT>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-102</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0009</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">Enseignant du secondaire, collège-lycée.</NA>
+      <ORDRE>008-enseignant des disciplines (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">enseignant des disciplines</INTITULE>
+         <ID>scolomfr-voc-021-num-0009</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">professeur de collège</INTITULE>
+         <ID>scolomfr-voc-021-num-00091</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">professeur de lycée</INTITULE>
+         <ID>scolomfr-voc-021-num-00092</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/teacher</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0010</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>009-enseignant documentaliste (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">enseignant documentaliste</INTITULE>
+         <ID>scolomfr-voc-021-num-0010</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/teacher</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0011</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>010-enseignant du supérieur (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">enseignant du supérieur</INTITULE>
+         <ID>scolomfr-voc-021-num-0011</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/teacher</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0012</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">Apprenant du niveau post-baccalauréat.</NA>
+      <ORDRE>011-étudiant (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">étudiant</INTITULE>
+         <ID>scolomfr-voc-021-num-0012</ID>
+      </TERME>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/learner</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0026</ID>
+      <DF lang="fr">Public Cible Détaillé</DF>
+      <ORDRE>012-formateur numérique (Sco21-PublicCibleDétaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">formateur numérique</INTITULE>
+         <ID>scolomfr-voc-021-num-0026</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0013</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>013-parent (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">parent</INTITULE>
+         <ID>scolomfr-voc-021-num-0013</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0014</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>014-personnel administratif (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel administratif</INTITULE>
+         <ID>scolomfr-voc-021-num-0014</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">personnel d'administration</INTITULE>
+         <ID>scolomfr-voc-021-num-00141</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">équipe administration</INTITULE>
+         <ID>scolomfr-voc-021-num-00142</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-035</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0015</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>015-personnel d'éducation (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel d'éducation</INTITULE>
+         <ID>scolomfr-voc-021-num-0015</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">CPE (conseiller principal d'éducation)</INTITULE>
+         <ID>scolomfr-voc-021-num-00151</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0017</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">Personnel acteur de la communauté éducative mais n'ayant pas un rôle d'enseignant (donc non-enseignant).</NA>
+      <ORDRE>016-personnel d'inspection (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel d'inspection</INTITULE>
+         <ID>scolomfr-voc-021-num-0017</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">inspecteur</INTITULE>
+         <ID>scolomfr-voc-021-num-00171</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0016</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>017-personnel d'orientation (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel d'orientation</INTITULE>
+         <ID>scolomfr-voc-021-num-0016</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">personnel d'orientation éducatif</INTITULE>
+         <ID>scolomfr-voc-021-num-00161</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">personnel d'orientation professionnelle</INTITULE>
+         <ID>scolomfr-voc-021-num-00162</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0018</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">A utiliser pour les personnels de bibliothèque et de documentation hors communauté éducative.</NA>
+      <ORDRE>018-personnel de bibliothèque et de documentation (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel de bibliothèque et de documentation</INTITULE>
+         <ID>scolomfr-voc-021-num-0018</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0019</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>019-personnel de direction (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel de direction</INTITULE>
+         <ID>scolomfr-voc-021-num-0019</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">chef d'établissement</INTITULE>
+         <ID>scolomfr-voc-021-num-00191</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">gestionnaire d'établissement</INTITULE>
+         <ID>scolomfr-voc-021-num-0028</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/manager</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0020</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>020-personnel de laboratoire (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel de laboratoire</INTITULE>
+         <ID>scolomfr-voc-021-num-0020</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0021</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>021-personnel de recherche et de formation (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel de recherche et de formation</INTITULE>
+         <ID>scolomfr-voc-021-num-0021</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0022</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>022-personnel médico-social (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">personnel médico-social</INTITULE>
+         <ID>scolomfr-voc-021-num-0022</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0023</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <ORDRE>023-professeur des écoles (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">professeur des écoles</INTITULE>
+         <ID>scolomfr-voc-021-num-0023</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">instituteur</INTITULE>
+         <ID>scolomfr-voc-021-num-00231</ID>
+      </TERME_TE>
+      <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/teacher</TERME_TA_EXT>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-021-num-0003</ID>
+      <DF lang="fr">Public cible détaillé</DF>
+      <NA lang="fr">Public hors communauté éducative.</NA>
+      <ORDRE>024-autre public (Sco21-Public Cible Détaillé)</ORDRE>
+      <TERME>
+         <INTITULE lang="fr">autre public</INTITULE>
+         <ID>scolomfr-voc-021-num-0003</ID>
+      </TERME>
+   </CONCEPT>
+</NOMENCLATURE>
