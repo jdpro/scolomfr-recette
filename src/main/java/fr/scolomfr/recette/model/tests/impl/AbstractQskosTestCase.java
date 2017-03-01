@@ -22,6 +22,7 @@ package fr.scolomfr.recette.model.tests.impl;
 
 import java.io.File;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.github.zafarkhaja.semver.Version;
@@ -47,6 +48,13 @@ public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 
 		String format = getSkosType();
 		final String filePath = getFilePath(version, vocabulary, format);
+
+		if (StringUtils.isEmpty(filePath)) {
+			// TODO i18n message
+			result.addMessage(new Message(Message.Type.FAILURE,
+					QSKOS_FAILURE_PREFIX + version + MESSAGE_ID_SEPARATOR + vocabulary + MESSAGE_ID_SEPARATOR + format,
+					"File unavailable", "File unavailable"));
+		}
 
 		final File file = getFileByPath(filePath);
 

@@ -58,9 +58,11 @@ import fr.scolomfr.recette.utils.log.Log;
 
 public abstract class AbstractTestCase implements TestCase {
 
-	private static final String DEFAULT_SKOSTYPE = "skosxl";
+	private static final String SKOSXL = "skosxl";
 
 	private static final String SKOS = "skos";
+
+	private static final String DEFAULT_SKOSTYPE = SKOS;
 
 	protected static final String MESSAGE_ID_SEPARATOR = "_";
 
@@ -188,7 +190,7 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected String getSkosType() {
 		String skosType = executionParameters.get(TestParameters.Values.SKOSTYPE);
-		String[] allowedSkosTypes = new String[] { SKOS, DEFAULT_SKOSTYPE };
+		String[] allowedSkosTypes = new String[] { SKOS, SKOSXL };
 		if (StringUtils.isEmpty(skosType)) {
 			skosType = DEFAULT_SKOSTYPE;
 		}
