@@ -76,7 +76,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		if (null == version || StringUtils.isEmpty(format)) {
 			return;
 		}
-		progressionMessage(0);
+		progressionMessage("", 0);
 		Model model = getModel(version, "global", format);
 
 		List<String> vdexFilePaths = getFilePathsForAllVocabularies(version, "vdex");
@@ -96,17 +96,17 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 			XPathExpression expression = xpath.compile(allIdentifiersExpressionStr);
 			int counter = 0;
 			int nbDocs = vdexDocuments.keySet().size();
-			float interval = 100.f / (nbDocs == 0 ? 1.f : nbDocs);
 			for (String filePath : vdexDocuments.keySet()) {
-				float step = counter * interval;
+				counter++;
+				String docInfo = MessageFormat.format("{0} ({1}/{2})", filePath, counter, nbDocs);
 
-				progressionMessage(step);
 				Document vdexDocument = vdexDocuments.get(filePath);
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
 				int nbIdentifiers = identifiers.getLength();
+				int step = Math.min(50, nbIdentifiers / 50 + 1);
 				for (int i = 0; i < nbIdentifiers; i++) {
-					if (i % 100 == 0) {
-						progressionMessage(step + interval * i / nbIdentifiers);
+					if (i % step == 0) {
+						progressionMessage(docInfo, (float) i / (float) nbIdentifiers * 100.f);
 					}
 					refreshComplianceIndicator(result, (denominator - numerator), denominator);
 					denominator++;
@@ -163,7 +163,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 					}
 
 				}
-				counter++;
+
 			}
 		} catch (XPathExpressionException e) {
 			String title = "Invalid xpath expression";
@@ -195,7 +195,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 					i18n.tr("tests.impl.a17.result.missinginvdex.content", new Object[] { missing }));
 			result.addMessage(message);
 		}
-		progressionMessage(100);
+		progressionMessage("", 100);
 		result.setState(State.FINAL);
 
 	}

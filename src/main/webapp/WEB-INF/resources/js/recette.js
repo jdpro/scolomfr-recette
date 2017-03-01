@@ -139,29 +139,34 @@ function refreshMessages(json) {
 			.round(indicator * 10000) / 100);
 	var errors = new Array();
 	var infos = new Array();
-	var maxProgress = -1;
+	var progressionRate = -1;
+	var progressionInfo = "";
 	$(json.messages).each(function(i, e) {
 		if (e.type == 'INFO') {
 			infos.push(e);
 		} else if (e.type == 'ERROR' || e.type == 'FAILURE') {
 			errors.push(e);
 		} else if (e.type == 'PROGRESS') {
-			maxProgress = Math.max(maxProgress, e.content);
+			progressionInfo = e.title;
+			progressionRate = Math.max(progressionRate, e.content);
 		}
 	})
-	if (maxProgress >= 0) {
-		displayProgression(maxProgress);
+	if (progressionRate >= 0) {
+		displayProgression(progressionInfo, progressionRate);
 	}
 	displayMessages("errors-area", errors)
 	displayMessages("infos-area", infos)
 }
-var $progressBar;
-function displayProgression(progression) {
-	var value = Math.round(progression * 10) / 10;
+var $progressBar, $progressInfo, $progressBarWrapper;
+function displayProgression(progressionInfo, progressionRate) {
+	var value = Math.round(progressionRate * 10) / 10;
 	if (!$progressBar) {
 		$progressBar = $("#progressbar");
+		$progressInfo = $("#progress-info");
+		$progressBarWrapper = $progressBar.closest(".progress");
 	}
-	$progressBar.closest(".progress").removeClass("hidden");
+	$progressInfo.html(progressionInfo);
+	$progressBarWrapper.removeClass("hidden");
 	$progressBar.prop("aria-valuenow", value).text(value + "%").width(
 			value + "%");
 }

@@ -46,14 +46,17 @@
 										</div>
 										<div class="offset-2 col-lg-6">
 										<div class="progress  hidden">
-  											<div class="progress-bar" role="progressbar"
+  											<div class="progress-bar no-transition" role="progressbar"
 													id="progressbar" aria-valuenow="0" aria-valuemin="0"
 													aria-valuemax="100" style="min-width: 2em;">0%</div>
 											</div>
+											<p id="progress-info"></p>
 										</div>
 										
                                         
                                     
+								
+								
 								</form>
                                 
                                 
@@ -101,6 +104,8 @@
 							 <spring:message code="tests.compliance"></spring:message> : <span
 									id="compliance-indicator"></span> %</span>
                         
+						
+						
 						
 						
 						

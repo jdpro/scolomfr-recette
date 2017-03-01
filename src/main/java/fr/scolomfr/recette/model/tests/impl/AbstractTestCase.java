@@ -344,11 +344,11 @@ public abstract class AbstractTestCase implements TestCase {
 		return document;
 	}
 
-	protected void progressionMessage(float progressionRate) {
+	protected void progressionMessage(String info, float progressionRate) {
 		if (getExecutionMode() != ExecutionMode.ASYNCHRONOUS) {
 			return;
 		}
-		Message message = new Message(Message.Type.PROGRESS, UUID.randomUUID().toString(), "",
+		Message message = new Message(Message.Type.PROGRESS, UUID.randomUUID().toString(), info,
 				Float.toString(Math.min(progressionRate, 100)));
 		result.addMessage(message);
 
