@@ -37,7 +37,8 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * @see at.ac.univie.mminf.qskos4j.issues.language.OmittedOrInvalidLanguageTags
  */
 @TestCaseIndex(index = "q1")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY ,
+		TestParameters.Values.SKOSTYPE})
 public class OmittedOrInvalidLanguageTags extends AbstractQskosTestCase<Map<Resource, Collection<Literal>>> {
 
 	@Override

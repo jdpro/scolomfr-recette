@@ -34,7 +34,8 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * @see at.ac.univie.mminf.qskos4j.issues.conceptscheme.AmbiguousNotationReferences
  */
 @TestCaseIndex(index = "q9")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
+		TestParameters.Values.SKOSTYPE })
 public class AmbiguousNotationReferences extends AbstractQskosTestCase<Collection<AmbiguousNotation>> {
 
 	@Override
@@ -51,7 +52,7 @@ public class AmbiguousNotationReferences extends AbstractQskosTestCase<Collectio
 
 		while (it.hasNext()) {
 			AmbiguousNotation an = it.next();
-			
+
 			String errorCode = generateUniqueErrorCode(an.toString());
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);

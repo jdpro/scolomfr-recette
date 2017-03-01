@@ -72,12 +72,12 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		int denominator = 0;
 
 		Version version = getVersion();
-		String skosType = getSkosType();
-		if (null == version || StringUtils.isEmpty(skosType)) {
+		String format = getSkosType();
+		if (null == version || StringUtils.isEmpty(format)) {
 			return;
 		}
 		progressionMessage(0);
-		Model model = getModel(version, "global", skosType);
+		Model model = getModel(version, "global", format);
 
 		List<String> vdexFilePaths = getFilePathsForAllVocabularies(version, "vdex");
 		Map<String, Document> vdexDocuments = new HashMap<>();

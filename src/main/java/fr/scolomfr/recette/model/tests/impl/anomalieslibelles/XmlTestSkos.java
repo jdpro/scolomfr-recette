@@ -52,7 +52,8 @@ import fr.scolomfr.recette.utils.log.Log;
  * Two
  */
 @TestCaseIndex(index = "xxxx")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
+		TestParameters.Values.SKOSTYPE })
 public class XmlTestSkos extends AbstractTestCase {
 
 	@Log
@@ -63,14 +64,8 @@ public class XmlTestSkos extends AbstractTestCase {
 
 	@Override
 	public void run() {
-		String versionStr = executionParameters.get(TestParameters.Values.VERSION);
-		Version version;
-		try {
-			version = Version.valueOf(versionStr);
-		} catch (IllegalArgumentException e) {
-			logger.error("Le paramètre version {}  est absent ou incorrect", versionStr, e);
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString(), "Version incorrect",
-					String.format("Le paramètre version : '%s' est absent ou incorrect", versionStr));
+		Version version = getVersion();
+		if (null == version) {
 			return;
 		}
 		String vocabulary = executionParameters.get(TestParameters.Values.VOCABULARY);
@@ -79,7 +74,11 @@ public class XmlTestSkos extends AbstractTestCase {
 					"Le paramètre vocabulary est absent");
 			return;
 		}
-		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(version, "skos", vocabulary);
+		String format = getSkosType();
+		if (StringUtils.isEmpty(format)) {
+			return;
+		}
+		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(version, format, vocabulary);
 		if (null == filePath) {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
 					"Fichier indisponible",

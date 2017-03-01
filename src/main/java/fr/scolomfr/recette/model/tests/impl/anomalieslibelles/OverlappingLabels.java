@@ -39,7 +39,8 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * @see at.ac.univie.mminf.qskos4j.issues.labels.OverlappingLabels
  */
 @TestCaseIndex(index = "q5")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
+		TestParameters.Values.SKOSTYPE })
 public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelConflict>> {
 
 	private static String STRING_SPLITTER = "([^ (]+) \\((\"[^\"]+\")@([^,]+),\\s([^)]+)";

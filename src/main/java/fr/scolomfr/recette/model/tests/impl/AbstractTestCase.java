@@ -60,6 +60,8 @@ public abstract class AbstractTestCase implements TestCase {
 
 	private static final String DEFAULT_SKOSTYPE = "skosxl";
 
+	private static final String SKOS = "skos";
+
 	protected static final String MESSAGE_ID_SEPARATOR = "_";
 
 	private static final String GLOBAL_VOCABULARY = "global";
@@ -186,8 +188,7 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected String getSkosType() {
 		String skosType = executionParameters.get(TestParameters.Values.SKOSTYPE);
-		// TODO Move it to enum
-		String[] allowedSkosTypes = new String[] { "skos", DEFAULT_SKOSTYPE };
+		String[] allowedSkosTypes = new String[] { SKOS, DEFAULT_SKOSTYPE };
 		if (StringUtils.isEmpty(skosType)) {
 			skosType = DEFAULT_SKOSTYPE;
 		}

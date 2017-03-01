@@ -21,6 +21,7 @@
  */
 package fr.scolomfr.recette.model.tests.impl.caseconventions;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.query.Dataset;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QuerySolution;
@@ -47,7 +48,11 @@ public class CaseConventionsRespectSkosSparql extends AbstractSparqlTestCase {
 	@Override
 	public void run() {
 		Version version = getVersion();
-		String filePath = getFilePath(version, getVocabulary(), "skos");
+		String format = getSkosType();
+		if (null == version || StringUtils.isEmpty(format)) {
+			return;
+		}
+		String filePath = getFilePath(version, getVocabulary(), format);
 
 		String sparql = getSparlsQueryString(QUERY_FILE);
 		Dataset dataset = TDBFactory.createDataset(TDB_DIR);

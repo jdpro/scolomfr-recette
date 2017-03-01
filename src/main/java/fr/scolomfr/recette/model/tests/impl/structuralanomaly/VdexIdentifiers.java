@@ -53,7 +53,8 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * Compare list of uris in both formats
  */
 @TestCaseIndex(index = "a22")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
+		TestParameters.Values.SKOSTYPE })
 public class VdexIdentifiers extends AbstractJenaTestCase {
 
 	private static UrlValidator urlValidator = new UrlValidator();

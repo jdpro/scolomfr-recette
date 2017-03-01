@@ -36,7 +36,8 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * {@link at.ac.univie.mminf.qskos4j.issues.language.IncompleteLanguageCoverage}
  */
 @TestCaseIndex(index = "q2")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY ,
+		TestParameters.Values.SKOSTYPE})
 public class IncompleteLanguageCoverage extends AbstractQskosTestCase<Map<Resource, Collection<String>>> {
 
 	@Override

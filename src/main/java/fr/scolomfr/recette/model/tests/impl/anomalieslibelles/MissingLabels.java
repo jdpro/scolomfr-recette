@@ -35,7 +35,8 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * @see at.ac.univie.mminf.qskos4j.issues.labels.MissingLabels
  */
 @TestCaseIndex(index = "q6")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
+		TestParameters.Values.SKOSTYPE })
 public class MissingLabels extends AbstractQskosTestCase<Collection<Resource>> {
 
 	@Override

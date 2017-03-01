@@ -8,7 +8,7 @@
 		name="${parameterName}">
 		<c:forEach items="${versions}" var="version">
 			<option
-				<c:if test="${version=defaultVersion}">selected="selected"</c:if>>${version}</option>
+				<c:if test="${version==defaultVersion}">selected="selected"</c:if>>${version}</option>
 		</c:forEach>
 	</select>
 </div>
