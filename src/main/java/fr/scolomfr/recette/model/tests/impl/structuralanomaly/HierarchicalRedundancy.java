@@ -24,42 +24,42 @@ package fr.scolomfr.recette.model.tests.impl.structuralanomaly;
 import java.util.Collection;
 import java.util.Iterator;
 
-import org.openrdf.model.URI;
+import org.openrdf.sail.memory.model.MemURI;
 
-import at.ac.univie.mminf.qskos4j.util.Tuple;
+import at.ac.univie.mminf.qskos4j.util.Pair;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.relations.ValuelessAssociativeRelations
+ * @see at.ac.univie.mminf.qskos4j.issues.skosintegrity.HierarchicalRedundancy
  */
-@TestCaseIndex(index = "q13")
+@TestCaseIndex(index = "q18")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
-public class ValuelessAssociativeRelations extends AbstractQskosTestCase<Collection<Tuple<URI>>> {
+public class HierarchicalRedundancy extends AbstractQskosTestCase<Collection<Pair<MemURI>>> {
 
 	@Override
 	protected String getQskosIssueCode() {
-		return "var";
+		return "hr";
 	}
 
 	@Override
-	protected void populateResult(Collection<Tuple<URI>> data) {
+	protected void populateResult(Collection<Pair<MemURI>> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<Tuple<URI>> it = data.iterator();
+		Iterator<Pair<MemURI>> it = data.iterator();
 
 		while (it.hasNext()) {
-			Tuple<URI> tuple = it.next();
+			Pair<MemURI> tuple = it.next();
 			String errorCode = generateUniqueErrorCode(
 					tuple.getFirst().stringValue() + tuple.getSecond().stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos.var.result.title"), i18n.tr("tests.impl.qskos.var.result.content",
+					i18n.tr("tests.impl.qskos.hr.result.title"), i18n.tr("tests.impl.qskos.hr.result.content",
 							new Object[] { tuple.getFirst().stringValue(), tuple.getSecond().stringValue() })));
 		}
 
