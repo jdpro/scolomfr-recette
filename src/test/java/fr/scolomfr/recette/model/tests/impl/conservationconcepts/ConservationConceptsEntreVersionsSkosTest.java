@@ -53,6 +53,7 @@ public class ConservationConceptsEntreVersionsSkosTest {
 	public void testSkosWithLostConcepts() {
 		conservationConceptsEntreVersions.reset();
 		Map<String, String> executionParameters = new HashMap<>();
+		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION2, "0.0.0");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.1");
 		executionParameters.put("vocabulary", "s2_conservation_concepts_invalid");
@@ -75,6 +76,7 @@ public class ConservationConceptsEntreVersionsSkosTest {
 	public void testSkosWithoutLostConcepts() {
 		conservationConceptsEntreVersions.reset();
 		Map<String, String> executionParameters = new HashMap<>();
+		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION2, "0.0.0");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.1");
 		executionParameters.put("vocabulary", "s2_conservation_concepts_valid");

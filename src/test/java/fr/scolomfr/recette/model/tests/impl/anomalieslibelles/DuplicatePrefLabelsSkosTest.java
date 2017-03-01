@@ -35,6 +35,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import fr.scolomfr.recette.config.MvcConfiguration;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.containsString;
@@ -51,8 +52,9 @@ public class DuplicatePrefLabelsSkosTest {
 	@Test
 	public void testSkosWithDuplicate() {
 		Map<String, String> executionParameters = new HashMap<>();
-		executionParameters.put("version", "0.0.0");
-		executionParameters.put("vocabulary", "a6_dup_pref_lab_invalid");
+		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
+		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a6_dup_pref_lab_invalid");
 		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
 		duplicatePrefLabelsSkos.run();
 		Result result = duplicatePrefLabelsSkos.getExecutionResult();
@@ -75,8 +77,9 @@ public class DuplicatePrefLabelsSkosTest {
 	@Test
 	public void testSkosWithoutDuplicate() {
 		Map<String, String> executionParameters = new HashMap<>();
-		executionParameters.put("version", "0.0.0");
-		executionParameters.put("vocabulary", "a6_dup_pref_lab_valid");
+		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
+		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a6_dup_pref_lab_valid");
 		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
 		duplicatePrefLabelsSkos.run();
 		Result result = duplicatePrefLabelsSkos.getExecutionResult();

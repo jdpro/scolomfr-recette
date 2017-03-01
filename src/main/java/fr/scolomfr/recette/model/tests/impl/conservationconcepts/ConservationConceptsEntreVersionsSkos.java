@@ -30,8 +30,6 @@ import org.apache.jena.rdf.model.Selector;
 import org.apache.jena.rdf.model.SimpleSelector;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.ResourceLoader;
 
 import com.github.zafarkhaja.semver.Version;
 
@@ -52,8 +50,6 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 public class ConservationConceptsEntreVersionsSkos extends AbstractJenaTestCase {
 
 	private static final String LANG_FR_ATTR = "fr";
-	@Autowired
-	private ResourceLoader resourceLoader;
 
 	@Override
 	public void run() {
