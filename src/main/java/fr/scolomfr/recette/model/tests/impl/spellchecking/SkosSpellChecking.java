@@ -118,7 +118,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 					}
 					result.incrementErrorCount(ignored);
 					Message message = new Message(
-							ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR,
+							 ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 							errorCode, i18n.tr("tests.impl.a15.result.invalid.title"),
 							i18n.tr("tests.impl.a15.result.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
@@ -132,7 +132,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 					}
 					result.incrementErrorCount(ignored);
 					result.addMessage(new Message(
-							ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR,
+							ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 							errorCode, i18n.tr("tests.impl.a15.result.part.invalid.title"),
 							i18n.tr("tests.impl.a15.result.part.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
