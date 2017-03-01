@@ -132,6 +132,9 @@ public abstract class AbstractTestCase implements TestCase {
 			while (!this.result.getMessages().isEmpty()) {
 				temporaryResult.addMessage(this.result.getMessages().pop());
 			}
+			if (temporaryResult.getState().equals(Result.State.FINAL)) {
+				this.testCaseExecutionRegistry.markForFutureDeletion(executionIdentifier);
+			}
 			return temporaryResult;
 		}
 
