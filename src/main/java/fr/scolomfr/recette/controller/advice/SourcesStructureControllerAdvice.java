@@ -35,6 +35,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 
 import com.github.zafarkhaja.semver.Version;
 
+import fr.scolomfr.recette.config.ContextParameters;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.sources.manifest.Manifest;
 
@@ -47,6 +48,9 @@ public class SourcesStructureControllerAdvice {
 
 	@Autowired
 	private Catalog catalog;
+
+	@Autowired
+	private ContextParameters contextParameters;
 
 	/**
 	 * Adds "versions" and "formats" variable to jsp context
@@ -76,6 +80,8 @@ public class SourcesStructureControllerAdvice {
 		model.addAttribute("versions", versions);
 		model.addAttribute("formats", formats);
 		model.addAttribute("vocabularies", vocabularies);
+		model.addAttribute("defaultVersion",
+				contextParameters.get(ContextParameters.Keys.SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME));
 	}
 
 }

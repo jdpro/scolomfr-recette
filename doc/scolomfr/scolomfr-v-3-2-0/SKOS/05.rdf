@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-028">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">maquette virtuelle</skos:altLabel>
+	<skos:altLabel xml:lang="fr">objet tridimensionnel</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">objet 3D</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">maquette virtuelle</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">objet tridimensionnel</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">035-objet 3D (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-029">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">livre</skos:altLabel>
+	<skos:altLabel xml:lang="fr">monographie</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">ouvrage</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">livre</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">monographie</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">038-ouvrage (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-030">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">partition musicale</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Support de transcription des caractéristiques du son musical.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">039-partition musicale (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-031">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">magazine</skos:altLabel>
+	<skos:altLabel xml:lang="fr">revue</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">périodique</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">magazine</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">revue</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">040-périodique (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-032">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">photographie</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">041-photographie (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-033">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">baladodiffusion</skos:altLabel>
+	<skos:altLabel xml:lang="fr">captation audiovisuelle</skos:altLabel>
+	<skos:altLabel xml:lang="fr">enregistrement sonore</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">podcast</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ressource audio ou vidéo diffusée en série via Internet.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">baladodiffusion</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">captation audiovisuelle</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">enregistrement sonore</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">043-podcast (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-034">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">présentation multimédia</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Une présentation multimédia désigne une présentation synchrone ou asynchrone dont le support peut être tout type de média. </skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">045-présentation multimédia (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-035">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">programme d'enseignement</skos:altLabel>
+	<skos:altLabel xml:lang="fr">programme éducatif</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">programme scolaire</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Ensemble des thèmes abordés par un enseignement dans un laps de temps donné" (Source : Wikipédia).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">programme d'enseignement</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">programme éducatif</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">046-programme scolaire (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-036">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">note</skos:altLabel>
+	<skos:altLabel xml:lang="fr">rapport de jury</skos:altLabel>
+	<skos:altLabel xml:lang="fr">rapport de recherche</skos:altLabel>
+	<skos:altLabel xml:lang="fr">rapport officiel</skos:altLabel>
+	<skos:altLabel xml:lang="fr">étude</skos:altLabel>
+	<skos:altLabel xml:lang="fr">étude comparative</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">rapport</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Document (écrit) qui décrit les résultats de recherches, d'enquêtes, d'observation ou d'autres études" (Source : Vocabulaire de la documentation, ADBS, 2004). Un scénario ou une séquence pédagogiques s'expose - en fonction de son ampleur - dans une note ou dans un rapport.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">note</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">rapport de jury</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">rapport de recherche</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">rapport officiel</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">étude</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">étude comparative</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">048-rapport (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-037">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">référentiel de compétences</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Répertoire établi sous une forme organisée, de compétences et/ou aptitudes requises pour remplir une tâche, exercer une fonction, un métier, etc.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">051-référentiel de compétences (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-038">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">croquis</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dessin</skos:altLabel>
+	<skos:altLabel xml:lang="fr">diagramme</skos:altLabel>
+	<skos:altLabel xml:lang="fr">figure</skos:altLabel>
+	<skos:altLabel xml:lang="fr">graphique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">organigramme</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">schéma / graphique</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">croquis</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dessin</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">diagramme</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">figure</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">graphique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">organigramme</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">054-schéma / graphique (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-039">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">bloc-notes</skos:altLabel>
+	<skos:altLabel xml:lang="fr">blog</skos:altLabel>
+	<skos:altLabel xml:lang="fr">forum</skos:altLabel>
+	<skos:altLabel xml:lang="fr">page Web</skos:altLabel>
+	<skos:altLabel xml:lang="fr">portail</skos:altLabel>
+	<skos:altLabel xml:lang="fr">web documentaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">site Web</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">bloc-notes</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">blog</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">forum</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">page Web</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">portail</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">web documentaire</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">055-site Web (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-040">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">tableau (art)</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">056-tableau (art) (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-041">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">web TV</skos:altLabel>
+	<skos:altLabel xml:lang="fr">web radio</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">web média</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Tout média au format spécifique pour le Web. Ex : web TV, web radio.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">web TV</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">web radio</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">059-web média (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-042">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">chanson</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">016-chanson (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-043">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">conte</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">021-conte (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-044">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">image interactive</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">028-image interactive (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-045">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">réalité augmentée</skos:altLabel>
+	<skos:altLabel xml:lang="fr">réalité virtuelle</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">image, animation 3D</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">réalité augmentée</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">réalité virtuelle</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">030-image, animation 3D (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-046">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">nouvelle</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">034-nouvelle (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-047">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">illustration</skos:altLabel>
+	<skos:altLabel xml:lang="fr">photo</skos:altLabel>
+	<skos:altLabel xml:lang="fr">tableaux</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">œuvre picturale</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">illustration</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">photo</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">tableaux</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">037-oeuvre picturale (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">anthologie</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">002-anthologie (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">poème</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/atomic"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">044-poème (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-050">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">catalogue de ressources</skos:altLabel>
+	<skos:altLabel xml:lang="fr">catalogue documentaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">catalogue</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:scopeNote xml:lang="fr">Ensemble de ressources rassemblées en fonction de critères (éditeur, thématique, niveau). A ne pas confondre avec base de données.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">catalogue de ressources</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">catalogue documentaire</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">015-catalogue (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">fonds sonore</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">banque de sons</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:scopeNote xml:lang="fr">Base de données contenant spécifiquement des sons.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">fonds sonore</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">008-banque de sons (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-055">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">collage</skos:altLabel>
+	<skos:altLabel xml:lang="fr">datavisualisation</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:hiddenLabel xml:lang="fr">mash-up</skos:hiddenLabel>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">traitement de données</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">collage</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">datavisualisation</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">057-traitement de données (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-056">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">vidéo interactive</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">058-vidéo interactive (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-058">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">pièce de théâtre</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">042-pièce de théâtre (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-059">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">publicité</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">047-publicité (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">recueil de contes</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:scopeNote xml:lang="fr">Contient plusieurs contes.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">049-recueil de contes (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">recueil de nouvelles</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:scopeNote xml:lang="fr">Contient plusieurs nouvelles.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">050-recueil de nouvelles (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-062">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">roman</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">052-roman (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-063">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">sketch</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">saynète</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">sketch</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">053-saynète (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-136">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">application mobile</skos:altLabel>
+	<skos:altLabel xml:lang="fr">application web</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">application</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">application mobile</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">application web</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">0021-application (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-005">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:37.409+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">005-Type de contenu éditorial</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-012"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-013"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-015"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-016"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-018"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-019"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-020"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-021"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-022"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-023"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-024"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-025"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-026"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-027"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-028"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-029"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-030"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-031"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-032"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-033"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-034"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-035"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-037"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-038"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-039"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-040"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-041"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-042"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-043"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-044"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-045"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-046"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-047"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-050"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-055"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-056"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-058"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-059"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-062"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-063"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-136"/>
+	<skos:prefLabel xml:lang="fr">005-Type de contenu éditorial</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:37.412+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-012"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-013"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-015"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-016"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-017"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-018"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-019"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-020"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-021"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-022"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-023"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-024"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-025"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-026"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-027"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-028"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-029"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-030"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-031"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-032"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-033"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-034"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-035"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-036"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-037"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-038"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-039"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-040"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-041"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-042"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-043"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-044"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-045"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-046"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-047"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-050"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-055"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-056"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-058"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-059"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-062"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-063"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-136"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">répertoire</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">annuaire</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:scopeNote xml:lang="fr">"Ensemble d'adresses (d'une personne, d'un organisme, d'une source d'information, d'un site Web,...) pouvant être complétées par d'autres informations associées (chiffre d'affaire d'un organisme, rôle et fonction d'une personne, nom du dirigeant d'un organisme,...). Sous une forme papier, il peut paraître annuellement." (Source : Vocabulaire de la documentation, ADBS, 2004) Exemple : annuaire des établissements scolaires, annuaires de sites web disciplinaires...</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">répertoire</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">001-annuaire (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-002">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">document historique</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">archives</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:scopeNote xml:lang="fr">Ensemble de documents d'archives, documents historiques, montages d'archives, quels que soient leur date, leur forme et leur support matériel (imprimé, audiovisuel, sonore ou électronique).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">document historique</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">003-archives (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">article</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/atomic"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:scopeNote xml:lang="fr">"Texte indépendant constituant une partie d'une publication périodique, d'un blog, d'un dictionnaire, d'une encyclopédie" (Source : Vocabulaire de la documentation, ADBS, 2004).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">004-article (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-004">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">atlas</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Recueil ordonné de cartes conçu pour représenter un espace donné et/ou exposer un ou plusieurs thèmes." (Source : Vocabulaire de la documentation, ADBS, 2004).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">005-atlas (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-005">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">caricature</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">bande dessinée</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Succession de dessins organisés en séquences, qui suggère le déroulement d'une histoire, les caricatures, les dessins de presse et également les recueils de dessins humoristiques.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">caricature</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">006-bande dessinée (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">fonds vidéo</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">banque de vidéos</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:scopeNote xml:lang="fr">Base de données contenant spécifiquement des vidéos. </skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">fonds vidéo</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">009-banque de vidéos (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">fonds photographique</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">banque d'images</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:scopeNote xml:lang="fr">Base de données contenant spécifiquement des images (dessins, photos, illustrations).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">fonds photographique</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">007-banque d'images (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-008">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">collection de données</skos:altLabel>
+	<skos:altLabel xml:lang="fr">jeu de données</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">base de données</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+	<skos:scopeNote xml:lang="fr">Ensemble de données organisées et structurées de façon homogène.&#xD;
+Ne pas confondre avec le logiciel servant à construire des bases de données.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">collection de données</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">jeu de données</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">010-base de données (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-009">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">bibliographie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">collection de références</skos:altLabel>
+	<skos:altLabel xml:lang="fr">sitographie</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">bibliographie / sitographie</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Liste de description de documents bibliographiques ou de sites, organisés selon certains critères pour en permettre le repérage.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">bibliographie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">collection de références</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">sitographie</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">011-bibliographie / sitographie (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">autobiographie</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">biographie</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/atomic"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:scopeNote xml:lang="fr">Écrit portant sur la vie d'une personne.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">autobiographie</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">012-biographie (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">carte géographique</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">carte</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/atomic"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">carte géographique</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">013-carte (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-012">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">carte conceptuelle</skos:altLabel>
+	<skos:altLabel xml:lang="fr">carte mentale</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">carte heuristique et conceptuelle</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+	<skos:scopeNote xml:lang="fr">Représentation graphique d'idées, de concepts ou d'informations...</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">carte conceptuelle</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">carte mentale</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">014-carte heuristique et conceptuelle (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-013">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">chronologie</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ensemble de faits présentés dans un ordre croissant. Exemple : la chronologie des rois de France.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">017-chronologie (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">banque de documents</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">collection de documents</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:scopeNote xml:lang="fr">Une banque de documents, un dossier regroupant des documents, un entrepôt de documents sont des collections de documents regroupés à des fins et selon des caractéristiques différentes.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">banque de documents</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">018-collection de documents (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-015">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">résumé</skos:altLabel>
+	<skos:altLabel xml:lang="fr">synthèse</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">compte rendu</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:scopeNote xml:lang="fr">Compte rendu de réunion, de visite...</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">résumé</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">synthèse</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">019-compte rendu (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-016">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">actes de conférence</skos:altLabel>
+	<skos:altLabel xml:lang="fr">communication de conférence</skos:altLabel>
+	<skos:altLabel xml:lang="fr">enregistrement audiovisuel d'une conférence</skos:altLabel>
+	<skos:altLabel xml:lang="fr">enregistrement sonore d'une conférence</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">conférence</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Event"/>
+	<skos:scopeNote xml:lang="fr">Y compris les enregistrements sonore et/ou audiovisuel d'une conférence.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">actes de conférence</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">communication de conférence</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">enregistrement audiovisuel d'une conférence</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">enregistrement sonore d'une conférence</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">020-conférence (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-017">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">montage sonorisé</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">diaporama</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">"Un diaporama est un spectacle de projection de diapositives ; par extension on entend par ce terme toute suite d'images ou de documents reliés par des effets et sur lesquels il est possible de mettre du son" (Source : Wikipédia).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">montage sonorisé</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">022-diaporama (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-018">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">revue de presse</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">dossier documentaire</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
+	<skos:scopeNote xml:lang="fr">Produit documentaire constitué d'un ensemble de documents de sources diverses, choisis et réunis sur une question donnée, et organisé de façon à faciliter l'accès à l'information rassemblée.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">revue de presse</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">023-dossier documentaire (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-019">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">dossier administratif</skos:altLabel>
+	<skos:altLabel xml:lang="fr">dossier artistique</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">dossier technique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Désigne un ensemble de documents contenant des informations techniques (tels que des nomenclatures, des schémas, des plans, etc.).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">dossier administratif</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">dossier artistique</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">024-dossier technique (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-020">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">exposition virtuelle</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">exposition</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Event"/>
+	<skos:scopeNote xml:lang="fr">Ensemble de documents sélectionnés selon une thématique précise pour être montrée au public.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">exposition virtuelle</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">025-exposition (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-021">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">feuille de calcul</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Document principal utilisé dans un tableur pour gérer et stocker des données. Une feuille de calcul est composée de cellules organisées en lignes et en colonnes. Certaines données sont issues de calcul.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">026-feuille de calcul (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-022">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">court-métrage</skos:altLabel>
+	<skos:altLabel xml:lang="fr">film d'animation</skos:altLabel>
+	<skos:altLabel xml:lang="fr">film documentaire</skos:altLabel>
+	<skos:altLabel xml:lang="fr">long-métrage</skos:altLabel>
+	<skos:altLabel xml:lang="fr">téléfilm</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">film</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">court-métrage</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">film d'animation</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">film documentaire</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">long-métrage</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">téléfilm</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">027-film (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-023">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">image de synthèse</skos:altLabel>
+	<skos:altLabel xml:lang="fr">image de télédétection</skos:altLabel>
+	<skos:altLabel xml:lang="fr">image satellitaire</skos:altLabel>
+	<skos:altLabel xml:lang="fr">image scientifique</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">image numérique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Toute image (dessin, icône, photographie...) acquise, créée, traitée ou stockée sous forme binaire.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">image de synthèse</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">image de télédétection</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">image satellitaire</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">image scientifique</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">029-image numérique (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-024">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">e-book</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">livre numérique</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">e-book</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">031-livre numérique (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-025">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">maquette</skos:altLabel>
+	<skos:altLabel xml:lang="fr">prototype</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">maquette / prototype</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Reproduction en grandeur naturelle (prototype) ou à l'échelle réduite (maquette) d'une machine, d'un processus, d'un bâtiment...</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">maquette</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">prototype</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">032-maquette / prototype (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-026">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">document de norme</skos:altLabel>
+	<skos:altLabel xml:lang="fr">document normatif</skos:altLabel>
+	<skos:altLabel xml:lang="fr">profil d'application</skos:altLabel>
+	<skos:altLabel xml:lang="fr">standard</skos:altLabel>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">norme</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Document, établi par consensus et approuvé par un organisme reconnu, qui fournit, pour des usages communs et répétés, des règles, des lignes directrices ou des caractéristiques, pour des activités ou leurs résultats, garantissant un niveau d'ordre optimal dans un contexte donné." (définition de l'ISO/CEI).&#xD;
+Utilisé non seulement pour des documents de normes élaborés par des organismes officiels, mais également pour des standards.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">document de norme</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">document normatif</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">profil d'application</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">standard</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">033-norme (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-027">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Typologie générale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<skos:prefLabel xml:lang="fr">objet physique</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/PhysicalObject"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-005"/>
+	<canope:ordre xml:lang="fr">036-objet physique (Sco05-TypologieGénérale)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-028">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+</rdf:Description>
+
+</rdf:RDF>

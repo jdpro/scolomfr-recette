@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:46.836+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-011"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-012"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-002">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours de l'agrégation</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concours organisé pour le recrutement de professeurs agrégés de l'enseignement du second degré.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-003">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours du CAPES</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concours organisé pour le recrutement de professeurs certifiés de l'enseignement du second degré.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-004">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours du CAERPA</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-005">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours du CAFEP-CAPES</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-006">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours du CAER-CAPES</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-006"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-007">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours du CAPEPS</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concours organisé pour le recrutement de professeurs certifiés en éducation physique et sportive de l'enseignement du second degré.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-007"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-008">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours du CAPLP</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concours organisé pour le recrutement de professeurs certifiés de lycée professionnel.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-009">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours du CRPE</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concours organisé pour le recrutement de professeurs des écoles.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-009"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-010">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours de CPE</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concours organisé pour le recrutement de conseillers principaux d'éducation.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-010"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-011">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours de COP</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concours organisé pour le recrutement de conseillers d'orientation psychologues.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-011"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-012">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Concours de l'Éducation nationale</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skos:prefLabel xml:lang="fr">concours du CAPET</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Concours organisé pour le recrutement de professeurs certifiés de l'enseignement technique.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-012"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:46.833+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">036-Concours de l'Éducation nationale</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-002"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-003"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-005"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-006"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-008"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-011"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-036-num-012"/>
+	<skos:prefLabel xml:lang="fr">036-Concours de l'Éducation nationale</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-002">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-014</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours de l'agrégation</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-003">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-015</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours du CAPES</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-004">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-016</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours du CAERPA</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-005">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-017</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours du CAFEP-CAPES</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-006">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-018</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours du CAER-CAPES</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-007">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-019</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours du CAPEPS</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-008">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-020</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours du CAPLP</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-009">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-021</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours du CRPE</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-010">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-022</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours de CPE</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-011">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-023</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours de COP</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-036-num-012">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-03T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-036-num-024</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">concours du CAPET</skosxl:literalForm>
+</rdf:Description>
+
+</rdf:RDF>

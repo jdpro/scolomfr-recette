@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/draft</ID>
+      <DF lang="fr">État de la ressource</DF>
+      <NA lang="fr">Esquisse, ébauche d'une ressource destinée à être complétée, modifiée, enrichie... pour atteindre l'état final. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">brouillon</INTITULE>
+         <ID>draft</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">brouillon</INTITULE>
+         <ID>scolomfr-voc-002-num-001</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">document de travail</INTITULE>
+         <ID>scolomfr-voc-002-num-006</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/final</ID>
+      <DF lang="fr">État de la ressource</DF>
+      <NA lang="fr">État d'une ressource considérée alors dans sa version courante et qui peut dès lors être utilisée et diffusée. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">final</INTITULE>
+         <ID>final</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">final</INTITULE>
+         <ID>scolomfr-voc-002-num-002</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/unavailable</ID>
+      <DF lang="fr">État de la ressource</DF>
+      <NA lang="fr">État d'une ressource non disponible. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">indisponible</INTITULE>
+         <ID>unavailable</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">indisponible</INTITULE>
+      </TERME_TE>
+      <TERME_TE>
+         <ID>scolomfr-voc-002-num-004</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/revised</ID>
+      <DF lang="fr">État de la ressource</DF>
+      <NA lang="fr">État final d'une ressource mais dans une version corrigée, modifiée ou amendée par rapport à la version préliminaire. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">révisé</INTITULE>
+         <ID>revised</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">révisé</INTITULE>
+         <ID>scolomfr-voc-002-num-003</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

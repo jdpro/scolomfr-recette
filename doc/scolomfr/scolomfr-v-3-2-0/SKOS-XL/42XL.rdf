@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-014">
+	<skos:prefLabel xml:lang="fr">activités de référence</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-014"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-015">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://purl.org/iso25964/skos-thes#ThesaurusArray"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<skos:definition xml:lang="fr">Noeud niveaux de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004"/>
+	<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007"/>
+	<skos:prefLabel xml:lang="fr">niveaux communs de référence</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-015"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:47.205+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">042-Cadre européen commun de référence pour les langues (CECRL)</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+	<skos:prefLabel xml:lang="fr">042-Cadre européen commun de référence pour les langues (CECRL)</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-001">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-001</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">A</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-002">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-002</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">A1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-003">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-003</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">A2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-004">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-004</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">B</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-005">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-005</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">B1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-006">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-006</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">B2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-007">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-007</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">C</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-008">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-008</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">C1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-009">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-009</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">C2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-010">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-010</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-011">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-011</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-012">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-012</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">écrire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-014">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-26T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-014</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">activités de référence</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-015">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-015</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveaux communs de référence</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-016">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-016</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">utilisateur élémentaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-017">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-017</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">basic user</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-018">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-018</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">breakthrough</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-019">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-019</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau de découverte</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-020">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-020</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau introductif</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-021">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-021</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau de survie</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-022">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-022</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau intermédiaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-023">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-023</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">waystage</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-024">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-024</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">independent user</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-025">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-025</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">utilisateur indépendant</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-026">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-026</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau seuil</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-027">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-027</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">threshold</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-028">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-028</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau avancé</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-029">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-029</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">vantage</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-030">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-030</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">proficient user</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-031">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-031</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">utilisateur expérimenté</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-032">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-032</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">effective operational proficiency</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-033">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-033</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau autonome</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-034">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-034</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau de compétence opérationnelle effective</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-035">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-035</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">master</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-036">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-036</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">niveau de maîtrise</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-037">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-037</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">compréhension</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-038">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-038</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">lire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-039">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-039</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">CE</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-040">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-040</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">compréhension écrite</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-041">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-041</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">écouter</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-042">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-042</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">CO</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-043">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-043</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">compréhension orale</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-044">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-044</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">EO</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-045">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-045</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PO</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-046">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-046</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">expression orale</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-047">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-047</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">production orale</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-049">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-049</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">EOI</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-050">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-050</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">POI</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-051">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-051</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">expression orale en interaction</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-052">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-052</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">production orale en interaction</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-053">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:47:29.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-053</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">prendre part à une conversation</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-055">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-055</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">s'exprimer oralement en continu</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-056">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-056</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">EOC</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-057">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-057</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">POC</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-058">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-058</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">expression orale en continu</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-059">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-059</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">production orale en continu</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-060">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-060</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">EE</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-061">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-061</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">PE</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-062">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-062</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">expression écrite</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-063">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-13T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-042-num-063</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">production écrite</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-064">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-064</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (écouter) - A1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-065">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-065</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (écouter) - A2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-066">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-066</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (écouter) - B1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-067">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-067</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (écouter) - B2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-068">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-068</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (écouter) - C1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-069">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-069</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (écouter) - C2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-070">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-070</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (lire) - A1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-071">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-071</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (lire) - A2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-072">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-072</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (lire) - B1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-073">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-073</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (lire) - B2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-074">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-074</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (lire) - C1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-075">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-075</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">comprendre (lire) - C2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-076">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-076</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (prendre part à une conversation) - A1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-077">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-077</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (prendre part à une conversation) - A2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-078">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-078</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (prendre part à une conversation) - B1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-079">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-079</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (prendre part à une conversation) - B2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-080">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-080</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (prendre part à une conversation) - C1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-081">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-081</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (prendre part à une conversation) - C2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-082">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-082</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (s'exprimer oralement en continu) - A1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-083">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-083</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (s'exprimer oralement en continu) - A2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-084">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-084</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (s'exprimer oralement en continu) - B1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-085">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-085</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (s'exprimer oralement en continu) - B2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-086">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-086</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (s'exprimer oralement en continu) - C1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-087">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-087</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">parler (s'exprimer oralement en continu) - C2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-088">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-088</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">écrire - A1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-089">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-089</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">écrire - A2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-090">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-090</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">écrire - B1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-091">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-091</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">écrire - B2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-092">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-092</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">écrire - C1</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-093">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-17T17:49:07.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-042-num-093</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">écrire - C2</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-A1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">breakthrough</skos:altLabel>
+	<skos:altLabel xml:lang="fr">niveau de découverte</skos:altLabel>
+	<skos:altLabel xml:lang="fr">niveau introductif</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-A1"/>
+	<skos:prefLabel xml:lang="fr">A1</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Niveau élémentaire introductif ou de découverte. Pour les élèves de l'école primaire, les LV1 du collège (6ème, voire 5ème) ou LV2 du collège (4ème) et les LV3 du lycée (2e).</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-018"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-019"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-020"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-002"/>
+	<canope:labelEquivalentExact xml:lang="fr">breakthrough</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">niveau de découverte</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">niveau introductif</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-018"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-019"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-020"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-A2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">niveau de survie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">niveau intermédiaire</skos:altLabel>
+	<skos:altLabel xml:lang="fr">waystage</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-A2"/>
+	<skos:prefLabel xml:lang="fr">A2</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Niveau élémentaire intermédiaire ou usuel. Pour les LV1 du collège (5ème à 3ème), les LV2 du collège (3ème) et les LV3 du lycée (1ère).</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-021"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-022"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-023"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-003"/>
+	<canope:labelEquivalentExact xml:lang="fr">niveau de survie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">niveau intermédiaire</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">waystage</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-021"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-022"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-023"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-B1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">niveau seuil</skos:altLabel>
+	<skos:altLabel xml:lang="fr">threshold</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-B1"/>
+	<skos:prefLabel xml:lang="fr">B1</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Niveau seuil. Pour les LV1 du collège (3ème), et du lycée (2e), les LV2 du lycée (2e, 1ère) et LV3 du lycée (terminale).</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-026"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-027"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-005"/>
+	<canope:labelEquivalentExact xml:lang="fr">niveau seuil</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">threshold</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-026"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-027"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-B2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">niveau avancé</skos:altLabel>
+	<skos:altLabel xml:lang="fr">vantage</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-B2"/>
+	<skos:prefLabel xml:lang="fr">B2</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Niveau avancé ou indépendant. Pour les LV1 du lycée, parfois LV2 (1re, terminale).</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-028"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-029"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-006"/>
+	<canope:labelEquivalentExact xml:lang="fr">niveau avancé</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">vantage</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-028"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-029"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-C1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">effective operational proficiency</skos:altLabel>
+	<skos:altLabel xml:lang="fr">niveau autonome</skos:altLabel>
+	<skos:altLabel xml:lang="fr">niveau de compétence opérationnelle effective</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-C1"/>
+	<skos:prefLabel xml:lang="fr">C1</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Niveau autonome.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-032"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-033"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-034"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-008"/>
+	<canope:labelEquivalentExact xml:lang="fr">effective operational proficiency</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">niveau autonome</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">niveau de compétence opérationnelle effective</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-032"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-033"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-034"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-C2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">master</skos:altLabel>
+	<skos:altLabel xml:lang="fr">niveau de maîtrise</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-C2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-C2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-C2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-C2"/>
+	<skos:prefLabel xml:lang="fr">C2</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Maîtrise.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-035"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-036"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-009"/>
+	<canope:labelEquivalentExact xml:lang="fr">master</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">niveau de maîtrise</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-035"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-036"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">EO</skos:altLabel>
+	<skos:altLabel xml:lang="fr">PO</skos:altLabel>
+	<skos:altLabel xml:lang="fr">expression orale</skos:altLabel>
+	<skos:altLabel xml:lang="fr">production orale</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production"/>
+	<skos:prefLabel xml:lang="fr">parler</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Dans les activités de production orale (parler) l'utilisateur de la langue produit un texte ou énoncé oral qui est reçu par un ou plusieurs auditeurs.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-044"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-045"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-046"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-047"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-011"/>
+	<canope:labelEquivalentExact xml:lang="fr">EO</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">PO</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">expression orale</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">production orale</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">002-parler (Sco042-NivLangCECRL)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-044"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-045"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-046"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-047"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-interaction">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">EOI</skos:altLabel>
+	<skos:altLabel xml:lang="fr">POI</skos:altLabel>
+	<skos:altLabel xml:lang="fr">expression orale en interaction</skos:altLabel>
+	<skos:altLabel xml:lang="fr">production orale en interaction</skos:altLabel>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C2"/>
+	<skos:prefLabel xml:lang="fr">prendre part à une conversation</skos:prefLabel>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-049"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-050"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-051"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-052"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-053"/>
+	<canope:labelEquivalentExact xml:lang="fr">EOI</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">POI</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">expression orale en interaction</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">production orale en interaction</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-049"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-050"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-051"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-052"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (prendre part à une conversation) - A1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1446"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-076"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">003-parler (prendre part à une conversation) - A1</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (prendre part à une conversation) - A2</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1446"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-077"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">008-parler (prendre part à une conversation) - A2</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (prendre part à une conversation) - B1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-078"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">013-parler (prendre part à une conversation) - B1</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (prendre part à une conversation) - B2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-079"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">018-parler (prendre part à une conversation) - B2</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (prendre part à une conversation) - C1</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-080"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">023-parler (prendre part à une conversation) - C1</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-interaction"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (prendre part à une conversation) - C2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-081"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">028-parler (prendre part à une conversation) - C2</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-production">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">EOC</skos:altLabel>
+	<skos:altLabel xml:lang="fr">POC</skos:altLabel>
+	<skos:altLabel xml:lang="fr">expression orale en continu</skos:altLabel>
+	<skos:altLabel xml:lang="fr">production orale en continu</skos:altLabel>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production-C2"/>
+	<skos:prefLabel xml:lang="fr">s'exprimer oralement en continu</skos:prefLabel>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-056"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-057"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-058"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-059"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-055"/>
+	<canope:labelEquivalentExact xml:lang="fr">EOC</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">POC</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">expression orale en continu</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">production orale en continu</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-056"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-057"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-058"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-059"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-production-A1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (s'exprimer oralement en continu) - A1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-082"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">004-parler (s'exprimer oralement en continu) - A1</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-production-A2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (s'exprimer oralement en continu) - A2</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-083"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">009-parler (s'exprimer oralement en continu) - A2</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-production-B1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (s'exprimer oralement en continu) - B1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-084"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">014-parler (s'exprimer oralement en continu) - B1</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-production-B2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (s'exprimer oralement en continu) - B2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-085"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">019-parler (s'exprimer oralement en continu) - B2</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-production-C1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (s'exprimer oralement en continu) - C1</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-086"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">024-parler (s'exprimer oralement en continu) - C1</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-speaking-production-C2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking-production"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">parler (s'exprimer oralement en continu) - C2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-087"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">029-parler (s'exprimer oralement en continu) - C2</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">compréhension</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading"/>
+	<skos:prefLabel xml:lang="fr">comprendre</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Dans les activités de compréhension, l'utilisateur reçoit et traite un message (oral ou écrit) produit par un ou plusieurs locuteurs.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-037"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-010"/>
+	<canope:labelEquivalentExact xml:lang="fr">compréhension</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">001-comprendre (Sco042-NivLangCECRL)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-037"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-listening">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">CO</skos:altLabel>
+	<skos:altLabel xml:lang="fr">compréhension orale</skos:altLabel>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening-C2"/>
+	<skos:prefLabel xml:lang="fr">écouter</skos:prefLabel>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-042"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-043"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-041"/>
+	<canope:labelEquivalentExact xml:lang="fr">CO</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">compréhension orale</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-042"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-043"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-listening-A1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (écouter) - A1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1442"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-064"/>
+	<canope:ordre xml:lang="fr">001-comprendre (écouter) - A1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-listening-A2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (écouter) - A2</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1442"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-065"/>
+	<canope:ordre xml:lang="fr">006-comprendre (écouter) - A2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-listening-B1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (écouter) - B1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-066"/>
+	<canope:ordre xml:lang="fr">011-comprendre (écouter) - B1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-listening-B2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (écouter) - B2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-067"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">016-comprendre (écouter) - B2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-listening-C1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (écouter) - C1</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-068"/>
+	<canope:ordre xml:lang="fr">021-comprendre (écouter) - C1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-listening-C2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-listening"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (écouter) - C2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-069"/>
+	<canope:ordre xml:lang="fr">026-comprendre (écouter) - C2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-reading">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">CE</skos:altLabel>
+	<skos:altLabel xml:lang="fr">compréhension écrite</skos:altLabel>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading-C2"/>
+	<skos:prefLabel xml:lang="fr">lire</skos:prefLabel>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-039"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-040"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-038"/>
+	<canope:labelEquivalentExact xml:lang="fr">CE</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">compréhension écrite</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-039"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-040"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-reading-A1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (lire) - A1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1443"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-070"/>
+	<canope:ordre xml:lang="fr">002-comprendre (lire) - A1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-reading-A2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (lire) - A2</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1443"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-071"/>
+	<canope:ordre xml:lang="fr">007-comprendre (lire) - A2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-reading-B1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (lire) - B1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-072"/>
+	<canope:ordre xml:lang="fr">012-comprendre (lire) - B1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-reading-B2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (lire) - B2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-073"/>
+	<canope:ordre xml:lang="fr">017-comprendre (lire) - B2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-reading-C1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (lire) - C1</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-074"/>
+	<canope:ordre xml:lang="fr">022-comprendre (lire) - C1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-understanding-reading-C2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding-reading"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">comprendre (lire) - C2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-075"/>
+	<canope:ordre xml:lang="fr">027-comprendre (lire) - C2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-writing">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">EE</skos:altLabel>
+	<skos:altLabel xml:lang="fr">PE</skos:altLabel>
+	<skos:altLabel xml:lang="fr">expression écrite</skos:altLabel>
+	<skos:altLabel xml:lang="fr">production écrite</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-A2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-B2"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing-C2"/>
+	<skos:prefLabel xml:lang="fr">écrire</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Dans les activités de production écrite (écrire, ou expression écrite) l'utilisateur de la langue comme scripteur produit un texte écrit qui est reçu par un ou plusieurs lecteurs.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-060"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-061"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-062"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-063"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-012"/>
+	<canope:labelEquivalentExact xml:lang="fr">EE</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">PE</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">expression écrite</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">production écrite</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">003-écrire (Sco042-NivLangCECRL)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-060"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-061"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-062"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-063"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-writing-A1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">écrire - A1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-088"/>
+	<canope:ordre xml:lang="fr">005-écrire - A1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-writing-A2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-A2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">écrire - A2</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-089"/>
+	<canope:ordre xml:lang="fr">010-écrire - A2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-writing-B1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">écrire - B1</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-090"/>
+	<canope:ordre xml:lang="fr">015-écrire - B1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-writing-B2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-B2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">écrire - B2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-091"/>
+	<canope:ordre xml:lang="fr">020-écrire - B2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-writing-C1">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C1"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">écrire - C1</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-092"/>
+	<canope:ordre xml:lang="fr">025-écrire - C1 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/net/inloc/cefr/cefr-writing-C2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-C2"/>
+	<skos:broader rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:prefLabel xml:lang="fr">écrire - C2</skos:prefLabel>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-093"/>
+	<canope:ordre xml:lang="fr">030-écrire - C2 (Sco042-NivLangCECRL)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:47.207+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding"/>
+	<skos:hasTopConcept rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">basic user</skos:altLabel>
+	<skos:altLabel xml:lang="fr">utilisateur élémentaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-A1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-A2"/>
+	<skos:prefLabel xml:lang="fr">A</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Utilisateur élémentaire (école primaire, collège). </skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-016"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-017"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-001"/>
+	<canope:labelEquivalentExact xml:lang="fr">basic user</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">utilisateur élémentaire</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">001-A (Sco042-NivLangCECRL)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-016"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-017"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">independent user</skos:altLabel>
+	<skos:altLabel xml:lang="fr">utilisateur indépendant</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-B1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-B2"/>
+	<skos:prefLabel xml:lang="fr">B</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Utilisateur indépendant (lycée).</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-024"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-025"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-004"/>
+	<canope:labelEquivalentExact xml:lang="fr">independent user</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">utilisateur indépendant</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">002-B (Sco042-NivLangCECRL)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-024"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-025"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">proficient user</skos:altLabel>
+	<skos:altLabel xml:lang="fr">utilisateur expérimenté</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-C1"/>
+	<skos:narrower rdf:resource="http://purl.org/net/inloc/cefr/cefr-C2"/>
+	<skos:prefLabel xml:lang="fr">C</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Utilisateur expérimenté.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-030"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-031"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-007"/>
+	<canope:labelEquivalentExact xml:lang="fr">proficient user</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">utilisateur expérimenté</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">003-C (Sco042-NivLangCECRL)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-030"/>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042-num-031"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-014">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://purl.org/iso25964/skos-thes#ThesaurusArray"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<skos:definition xml:lang="fr">Noeud niveaux de langues € (CECRL)</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-042"/>
+	<skos:member rdf:resource="http://purl.org/net/inloc/cefr/cefr-speaking"/>
+	<skos:member rdf:resource="http://purl.org/net/inloc/cefr/cefr-understanding"/>
+	<skos:member rdf:resource="http://purl.org/net/inloc/cefr/cefr-writing"/>
+</rdf:Description>
+
+</rdf:RDF>

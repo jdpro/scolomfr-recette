@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/other">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">other</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">autres</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/school">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">school</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">enseignement scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:39.117+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">012-Niveau éducatif</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/higher_education"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/other"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/school"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/training"/>
+	<skos:prefLabel xml:lang="fr">012-Niveau éducatif</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-001">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-001</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">enseignement scolaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-002">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-002</dcterms:identifier>
+	<dcterms:source xml:lang="fr">LOMFRv1.0</dcterms:source>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">enseignement primaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-003">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-003</dcterms:identifier>
+	<dcterms:source xml:lang="fr">LOMFRv1.0</dcterms:source>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">enseignement secondaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-004">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-004</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">enseignement supérieur</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-005">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-005</dcterms:identifier>
+	<dcterms:source xml:lang="fr">LOMFRv1.0</dcterms:source>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">licence</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-006">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-006</dcterms:identifier>
+	<dcterms:source xml:lang="fr">LOMFRv1.0</dcterms:source>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">master</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-007">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-26T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-007</dcterms:identifier>
+	<dcterms:source xml:lang="fr">LOMFRv1.0</dcterms:source>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">doctorat</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-008">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-008</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">formation professionnelle</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-009">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-009</dcterms:identifier>
+	<dcterms:source xml:lang="fr">LOMFRv1.0</dcterms:source>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">formation continue</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-010">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-010</dcterms:identifier>
+	<dcterms:source xml:lang="fr">LOMFRv1.0</dcterms:source>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">formation en entreprise</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-011">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-26T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-012-num-011</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">autres</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-013">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-01T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-012-num-013</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">mastère spécialisé</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-014">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-14T00:00:00.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">scolomfr-voc-012-num-014</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">mastère</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/training">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">training</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-22T00:00:00.000+01:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">formation professionnelle</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:39.119+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/higher_education"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/other"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/school"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-009"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-010"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/training"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/higher_education">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">enseignement supérieur</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-005"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-006"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-007"/>
+	<skos:prefLabel xml:lang="fr">enseignement supérieur</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-162"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-040"/>
+	<skos:scopeNote xml:lang="fr">Ressource relative à l'enseignement dispensé après l'obtention du baccalauréat ou diplôme équivalent (universités, classes préparatoires aux grandes écoles, instituts universitaires de technologie …) (source : Code de l'éducation – articles L612-1, L612-3 et L612-5) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-004"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/higher_education"/>
+	<canope:labelEquivalentExact xml:lang="fr">enseignement supérieur</canope:labelEquivalentExact>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">002-enseignement supérieur (Sco12-Niveau)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/other">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">autres</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-013"/>
+	<skos:prefLabel xml:lang="fr">autres</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-011"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/other"/>
+	<canope:labelEquivalentExact xml:lang="fr">autres</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">006-autres (Sco12-Niveau)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-011"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/school">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">enseignement scolaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-002"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-003"/>
+	<skos:prefLabel xml:lang="fr">enseignement scolaire</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-615"/>
+	<skos:scopeNote xml:lang="fr">Ressource relative à l'enseignement dispensé dans les écoles maternelles, élémentaires et secondaires (collèges et lycées) (source : Code de l'éducation – articles L311-1 à L337-4)  [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-001"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/school"/>
+	<canope:labelEquivalentExact xml:lang="fr">enseignement scolaire</canope:labelEquivalentExact>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">001-enseignement scolaire (Sco12-Niveau)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-002">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/school"/>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">enseignement primaire</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-002"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-008"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041"/>
+	<skos:scopeNote xml:lang="fr">Ressource relative à l'enseignement dispensé dans les écoles maternelles et élémentaires (source : Code de l'éducation – articles L321-2 à L321-4) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-002"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02-enseignement primaire (Sco12-Niveau)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-003">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/school"/>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">enseignement secondaire</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-016"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-040-num-041"/>
+	<skos:scopeNote xml:lang="fr">Ressource relative à l'enseignement dispensé dans les établissements secondaires (collèges et lycées) (source : Code de l'éducation – articles L331-1 à L337-4) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-003"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03-enseignement secondaire (Sco12-Niveau)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-005">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/higher_education"/>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">licence</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-185"/>
+	<skos:scopeNote xml:lang="fr">Ressource relative au diplôme universitaire de premier cycle (six semestres) ou à l'enseignement dispensé lors de cette formation (source : Code de l'éducation – articles L612-2 à L612-4) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-005"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05-licence (Sco12-Niveau)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-006">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/higher_education"/>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">master</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ressource relative au diplôme universitaire de deuxième cycle (quatre semestres) ou à l'enseignement dispensé lors de cette formation (source : Code de l'éducation – articles L612-5 et L612-6) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. À ne pas confondre avec "mastère spécialisé", formation post-master propre aux écoles membres de la Conférence des grandes écoles. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-006"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06-master (Sco12-Niveau)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-007">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/higher_education"/>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">doctorat</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ressource relative au diplôme universitaire de troisième cycle (trois ans) ou à l'enseignement dispensé lors de cette formation (source : Code de l'éducation – art. L612-7) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-007"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07-doctorat (Sco12-Niveau)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-009">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">formation continue</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-063"/>
+	<skos:scopeNote xml:lang="fr">Ressource relative à la formation scolaire et professionnelle des actifs (source : Code du travail - art. L6311-1) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-009"/>
+	<canope:ordre xml:lang="fr">005-formation continue (Sco12-Niveau)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-010">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">formation en entreprise</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ressource relative à la formation professionnelle dont l'enseignement pratique se déroule sur le lieu d'exercice de cette activité professionnelle (source : Code du travail - art. D6321-3) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-010"/>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">004-formation en entreprise (Sco12-Niveau)</canope:ordre>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-012-num-013">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">mastère</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/other"/>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">mastère spécialisé</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Ressource relative à la formation propre aux écoles membres de la Conférence des grandes écoles, ou au label/diplôme délivré par ces dernières (source : Conférence des Grandes Écoles) [Disponible en ligne à l'adresse : http://www.cge.asso.fr/nos-labels/ms]. À ne pas confondre avec "master", le  diplôme universitaire de deuxième cycle (quatre semestres). Concept issu du LOMFR.</skos:scopeNote>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-014"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-013"/>
+	<canope:labelEquivalentExact xml:lang="fr">mastère</canope:labelEquivalentExact>
+	<canope:ordre xml:lang="fr">08-mastère spécialisé (Sco12-Niveau)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-014"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/training">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">formation professionnelle</skos:altLabel>
+	<skos:definition xml:lang="fr">Niveau</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skos:prefLabel xml:lang="fr">formation professionnelle</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-022-num-284"/>
+	<skos:scopeNote xml:lang="fr">Ressource relative au processus permettant à chaque personne, indépendamment de son statut, d'acquérir et d'actualiser des connaissances et des compétences favorisant son évolution professionnelle, ainsi que de progresser d'au moins un niveau de qualification au cours de sa vie professionnelle (source : Code du travail - art. L6111-1) [Disponible en ligne à l'adresse : https://www.legifrance.gouv.fr/]. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-008"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/training"/>
+	<canope:labelEquivalentExact xml:lang="fr">formation professionnelle</canope:labelEquivalentExact>
+	<canope:ordre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">003-formation professionnelle (Sco12-Niveau)</canope:ordre>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-012-num-008"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/higher_education">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">higher education</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">enseignement supérieur</skosxl:literalForm>
+</rdf:Description>
+
+</rdf:RDF>

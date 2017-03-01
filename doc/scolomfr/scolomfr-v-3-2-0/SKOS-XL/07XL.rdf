@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:38.571+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/atomic"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/hierarchical"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/linear"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/networked"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/atomic">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">atomic</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">atomique</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/collection_2">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">collection</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">collection</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/atomic">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">atomique</skos:altLabel>
+	<skos:definition xml:lang="fr">Structure</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skos:prefLabel xml:lang="fr">atomique</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-003"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-010"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-011"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-049"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-01"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Sound"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+	<skos:relatedMatch rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+	<skos:scopeNote xml:lang="fr">Une ressource indivisible dans ce contexte d'utilisation. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-001"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/atomic"/>
+	<canope:labelEquivalentExact xml:lang="fr">atomique</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-001"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/collection_2">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">collection</skos:altLabel>
+	<skos:definition xml:lang="fr">Structure</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skos:prefLabel xml:lang="fr">collection</skos:prefLabel>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-001"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-006"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-007"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-014"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-048"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-051"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-060"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-005-num-061"/>
+	<skos:relatedMatch rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-008-num-02"/>
+	<skos:scopeNote xml:lang="fr">Un ensemble de ressources, sans relations définies entre elles. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-002"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/collection_2"/>
+	<canope:labelEquivalentExact xml:lang="fr">collection</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/hierarchical">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">hiérarchique</skos:altLabel>
+	<skos:definition xml:lang="fr">Structure</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skos:prefLabel xml:lang="fr">hiérarchique</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Un ensemble de ressources dont les relations peuvent être représentées par une structure arborescente. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-004"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/hierarchical"/>
+	<canope:labelEquivalentExact xml:lang="fr">hiérarchique</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-004"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/linear">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">linéaire</skos:altLabel>
+	<skos:definition xml:lang="fr">Structure</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skos:prefLabel xml:lang="fr">linéaire</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Un ensemble de ressources parfaitement ordonnées. Exemple : un ensemble de ressources associées par des relations "précédent" et "suivant". Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-005"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/linear"/>
+	<canope:labelEquivalentExact xml:lang="fr">linéaire</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-005"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/networked">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">en réseau</skos:altLabel>
+	<skos:definition xml:lang="fr">Structure</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skos:prefLabel xml:lang="fr">en réseau</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Un ensemble de ressources en relation les unes avec les autres. La nature de la (des) relation(s) n'est pas définie. Concept issu du LOMFR.</skos:scopeNote>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007"/>
+	<skosxl:altLabel rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-003"/>
+	<skosxl:prefLabel rdf:resource="http://data.education.fr/voc/scolomfr/networked"/>
+	<canope:labelEquivalentExact xml:lang="fr">en réseau</canope:labelEquivalentExact>
+	<canope:termeEquivalentExact rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-003"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/hierarchical">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">hierarchical</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">hiérarchique</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/linear">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">linear</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">linéaire</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/networked">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-15T14:38:50.000+01:00</dcterms:created>
+	<dcterms:identifier xml:lang="fr">networked</dcterms:identifier>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-15T00:00:00.000+02:00</dcterms:modified>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">en réseau</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-007">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:38.564+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">007-Structure de la ressource</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/atomic"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/collection_2"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/hierarchical"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/linear"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/networked"/>
+	<skos:prefLabel xml:lang="fr">007-Structure de la ressource</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-001">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-26T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-007-num-001</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">atomique</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-002">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-26T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-007-num-002</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">collection</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-003">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-007-num-003</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">en réseau</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-004">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-007-num-004</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">hiérarchique</skosxl:literalForm>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-007-num-005">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00.000+02:00</dcterms:created>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scolomfr-voc-007-num-005</dcterms:identifier>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="fr">linéaire</skosxl:literalForm>
+</rdf:Description>
+
+</rdf:RDF>

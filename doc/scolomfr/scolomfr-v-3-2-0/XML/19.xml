@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-030</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Examiner, étudier, observer les faits, établir les causes et les conséquences de cette observation. Exemple : « Analyser les ressources humaines dans cette entreprise » suppose d'en établir le potentiel d'après les annexes proposées et les théories connues (par exemple : analyse des compétences  de Hamel et Prahalad), mais aussi d'examiner les causes et les conséquences de ce potentiel humain.</NA>
+      <TERME>
+         <INTITULE lang="fr">analyser</INTITULE>
+         <ID>scolomfr-voc-019-num-031</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-001</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Organiser un groupe de personnes, conduire une réunion, gérer un groupe projet... Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">animer</INTITULE>
+         <ID>scolomfr-voc-019-num-001</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-002</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Acquérir des connaissances. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">apprendre</INTITULE>
+         <ID>scolomfr-voc-019-num-002</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-031</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">argumenter</INTITULE>
+         <ID>scolomfr-voc-019-num-032</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-032</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">calculer</INTITULE>
+         <ID>scolomfr-voc-019-num-033</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-033</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Spécifier et préciser. Exemple : «Caractérisez cette stratégie » nécessite d'identifier l'option stratégique choisie grâce à des critères pertinents.</NA>
+      <TERME>
+         <INTITULE lang="fr">caractériser</INTITULE>
+         <ID>scolomfr-voc-019-num-034</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-034</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Énumérer d'après une documentation ou des connaissances. Exemple : « Citez les modes de croissance utilisés par cette entreprise » suppose de relever ces différents modes à travers les informations fournies dans le cas  en les identifiant et en trouvant au besoin un critère de classement.</NA>
+      <TERME>
+         <INTITULE lang="fr">citer</INTITULE>
+         <ID>scolomfr-voc-019-num-035</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-035</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Cataloguer, ordonner, placer, trier. Exemple : « Classez les critères d'évaluation retenus » implique de regrouper les critères selon le type, l'utilisation ou l'ordre d'importance.</NA>
+      <TERME>
+         <INTITULE lang="fr">classer</INTITULE>
+         <ID>scolomfr-voc-019-num-036</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-003</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Créer ensemble une œuvre commune. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">collaborer</INTITULE>
+         <ID>scolomfr-voc-019-num-003</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-004</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Transmettre une information. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">communiquer</INTITULE>
+         <ID>scolomfr-voc-019-num-004</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-036</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Mettre en évidence les similitudes et les différences. Exemple : « Comparez ces deux stratégies » nécessite de retrouver dans les annexes  les points communs et les différences essentielles mais implique aussi de mobiliser les cours concernés pour compléter l'analyse.</NA>
+      <TERME>
+         <INTITULE lang="fr">comparer</INTITULE>
+         <ID>scolomfr-voc-019-num-037</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-037</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">comprendre</INTITULE>
+         <ID>scolomfr-voc-019-num-038</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-038</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">compter</INTITULE>
+         <ID>scolomfr-voc-019-num-039</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-039</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">construire des savoirs</INTITULE>
+         <ID>scolomfr-voc-019-num-040</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-005</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Participer à une partie d'une œuvre commune. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">coopérer</INTITULE>
+         <ID>scolomfr-voc-019-num-005</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-006</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Réaliser quelque chose qui n'existe pas encore. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">créer</INTITULE>
+         <ID>scolomfr-voc-019-num-006</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-040</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">découvrir</INTITULE>
+         <ID>scolomfr-voc-019-num-041</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-041</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">décrire</INTITULE>
+         <ID>scolomfr-voc-019-num-042</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-042</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">dénombrer</INTITULE>
+         <ID>scolomfr-voc-019-num-043</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-043</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">dessiner</INTITULE>
+         <ID>scolomfr-voc-019-num-044</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-044</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Apprécier, estimer, juger, au besoin critiquer. Exemple : « Discutez la position prise par le dirigeant de cette entreprise » impose de présenter cette décision, de l'expliquer, mais aussi d'en montrer l'intérêt et les limites.</NA>
+      <TERME>
+         <INTITULE lang="fr">discuter</INTITULE>
+         <ID>scolomfr-voc-019-num-045</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-007</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Communiquer à plusieurs, partager. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">échanger</INTITULE>
+         <ID>scolomfr-voc-019-num-007</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-021</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Écouter un support sonore.</NA>
+      <TERME>
+         <INTITULE lang="fr">écouter</INTITULE>
+         <ID>scolomfr-voc-019-num-021</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">écouter un podcast</INTITULE>
+         <ID>scolomfr-voc-019-num-022</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">écouter une conférence</INTITULE>
+         <ID>scolomfr-voc-019-num-023</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">écouter la radio</INTITULE>
+         <ID>scolomfr-voc-019-num-030</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-045</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">écrire</INTITULE>
+         <ID>scolomfr-voc-019-num-046</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-019</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Tester, explorer un champ de possibilités.</NA>
+      <TERME>
+         <INTITULE lang="fr">expérimenter</INTITULE>
+         <ID>scolomfr-voc-019-num-019</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-047</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Commenter, éclaircir, interpréter. Exemple : « Expliquer pourquoi l'entreprise utilise un tableau de bord prospectif » exige une définition claire du mot tableau de bord prospectif  et une justification des indicateurs choisis  dans le contexte proposé.</NA>
+      <TERME>
+         <INTITULE lang="fr">expliquer</INTITULE>
+         <ID>scolomfr-voc-019-num-048</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-046</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">exposer</INTITULE>
+         <ID>scolomfr-voc-019-num-047</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-048</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Reconnaître, désigner.  Exemple : « Identifiez la nature de la décision prise par cette entreprise » nécessite de repérer la décision (stratégique ou opérationnelle) et de la qualifier en justifiant son choix par l'application des critères traditionnels (terme, répétitivité, niveau hiérarchique, réversibilité…).</NA>
+      <TERME>
+         <INTITULE lang="fr">identifier</INTITULE>
+         <ID>scolomfr-voc-019-num-049</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-049</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Trouver des exemples dans la documentation ou sur l'objet de celle-ci. Exemple : « Illustrez la démarche RSE dans cette entreprise » nécessite de relever les exemples ou les faits qui justifient ce phénomène.</NA>
+      <TERME>
+         <INTITULE lang="fr">illustrer</INTITULE>
+         <ID>scolomfr-voc-019-num-050</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-024</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Faire un jeu. A noter que ce jeu peut être pédagogique.</NA>
+      <TERME>
+         <INTITULE lang="fr">jouer</INTITULE>
+         <ID>scolomfr-voc-019-num-024</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-050</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Montrer avec des arguments que quelque chose est juste, bien fondé,  vérifier, motiver une démarche, une décision. Exemple : « Justifiez le recours à la sous-traitance » implique de connaître les avantages de la sous-traitance pour expliquer la décision prise tout en s'appuyant sur le cas et sur le contexte.</NA>
+      <TERME>
+         <INTITULE lang="fr">justifier</INTITULE>
+         <ID>scolomfr-voc-019-num-051</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-008</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Identifier des suites d'éléments graphiques comme étant des mots. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">lire</INTITULE>
+         <ID>scolomfr-voc-019-num-008</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-051</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Établir, prouver, faire une démonstration avec des arguments. Exemple : « Montrez que l'entreprise utilise l'analyse de Porter » suppose d'énumérer les 5 forces concurrentielles en les illustrant d'exemples pris dans le cas  pour prouver par la démonstration qu'elles sont bien utilisées par l'entreprise pour analyser son environnement.</NA>
+      <TERME>
+         <INTITULE lang="fr">montrer</INTITULE>
+         <ID>scolomfr-voc-019-num-052</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-009</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">"Examiner (un objet de connaissance scientifique) pour (en) tirer des conclusions scientifiques". [Dictionnaire en ligne CNRTL - http://www.cnrtl.fr/definition/] Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">observer</INTITULE>
+         <ID>scolomfr-voc-019-num-009</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-010</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">"Aménager, disposer d'une certaine manière, arranger harmonieusement". [Dictionnaire en ligne CNRTL - http://www.cnrtl.fr/definition/] Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">organiser</INTITULE>
+         <ID>scolomfr-voc-019-num-010</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-052</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">parler</INTITULE>
+      </TERME>
+      <TERME>
+         <ID>scolomfr-voc-019-num-053</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-053</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">présenter</INTITULE>
+         <ID>scolomfr-voc-019-num-054</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-011</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Assurer la réalisation matérielle. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">produire</INTITULE>
+         <ID>scolomfr-voc-019-num-011</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-054</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">programmer</INTITULE>
+         <ID>scolomfr-voc-019-num-055</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-012</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Communiquer officiellement une production. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">publier</INTITULE>
+         <ID>scolomfr-voc-019-num-012</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-055</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">réaliser</INTITULE>
+         <ID>scolomfr-voc-019-num-056</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-013</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Etre en quête d'un élément (matériel ou immatériel). Trouver des arguments dans les différentes annexes proposées et dans les connaissances. Exemple : « Recherchez les conséquences de la stratégie mise en place » implique de relever tous les arguments dans le cours et dans les annexes pour les regrouper et les exposer. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">rechercher</INTITULE>
+         <ID>scolomfr-voc-019-num-013</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-056</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Retrouver, situer, positionner. Exemple : « Repérez les différents segments du marché » nécessite de connaître la notion de segment, de retrouver à travers les annexes les critères de segmentation retenus et de les exposer.</NA>
+      <TERME>
+         <INTITULE lang="fr">repérer</INTITULE>
+         <ID>scolomfr-voc-019-num-057</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-057</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">réprimer</INTITULE>
+         <ID>scolomfr-voc-019-num-058</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-058</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">résumer</INTITULE>
+         <ID>scolomfr-voc-019-num-059</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-059</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">réviser</INTITULE>
+         <ID>scolomfr-voc-019-num-060</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-015</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Identifier ses forces et ses faiblesses. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">s'évaluer</INTITULE>
+         <ID>scolomfr-voc-019-num-015</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-016</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Aborder pratiquement et de manière récurrente une notion théorique. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">s'exercer</INTITULE>
+         <ID>scolomfr-voc-019-num-016</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">s'entraîner</INTITULE>
+         <ID>scolomfr-voc-019-num-066</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-060</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">s'exprimer</INTITULE>
+         <ID>scolomfr-voc-019-num-061</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-027</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Prendre des renseignements, des informations sur un sujet précis. Ex : s'informer sur l'orientation possible après le collège. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">s'informer</INTITULE>
+         <ID>scolomfr-voc-019-num-027</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-017</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Acquérir des compétences, se mettre dans une posture didactique. Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">se former</INTITULE>
+         <ID>scolomfr-voc-019-num-017</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">s'auto-former</INTITULE>
+         <ID>scolomfr-voc-019-num-014</ID>
+      </TERME_TE>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-018</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Créer ou participer à une activité de simulation, d'expérimentation, de modélisation... Concept issu du LOMFR.</NA>
+      <TERME>
+         <INTITULE lang="fr">simuler</INTITULE>
+         <ID>scolomfr-voc-019-num-018</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-061</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Ordonner, classer les arguments du cours et de la documentation. Exemple : « Structurez les objectifs de cette entreprise » implique la recherche de critères de classement pour regrouper les différents objectifs par thèmes semblables.</NA>
+      <TERME>
+         <INTITULE lang="fr">structurer</INTITULE>
+         <ID>scolomfr-voc-019-num-062</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-062</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Rassembler les éléments contenus dans les différentes annexes pour les ordonner de façon plus cohérente. Exemple : « Synthétisez la documentation sur le diagnostic stratégique » demande de rassembler les différentes données et de les classer de façon appropriée en forces et faiblesses, contraintes et opportunités.</NA>
+      <TERME>
+         <INTITULE lang="fr">synthétiser</INTITULE>
+         <ID>scolomfr-voc-019-num-063</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-028</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Soumettre quelque chose (ou quelqu'un) à un test.</NA>
+      <TERME>
+         <INTITULE lang="fr">tester</INTITULE>
+         <ID>scolomfr-voc-019-num-028</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-063</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">tracer</INTITULE>
+         <ID>scolomfr-voc-019-num-064</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-064</ID>
+      <DF lang="fr">Activité</DF>
+      <TERME>
+         <INTITULE lang="fr">trier</INTITULE>
+         <ID>scolomfr-voc-019-num-065</ID>
+      </TERME>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-019-num-029</ID>
+      <DF lang="fr">Activité</DF>
+      <NA lang="fr">Regarder un film, une séquence de film, un documentaire.</NA>
+      <TERME>
+         <INTITULE lang="fr">visionner</INTITULE>
+         <ID>scolomfr-voc-019-num-029</ID>
+      </TERME>
+      <TERME_TE>
+         <INTITULE lang="fr">regarder un documentaire</INTITULE>
+         <ID>scolomfr-voc-019-num-025</ID>
+      </TERME_TE>
+      <TERME_TE>
+         <INTITULE lang="fr">regarder une séquence de film</INTITULE>
+         <ID>scolomfr-voc-019-num-026</ID>
+      </TERME_TE>
+   </CONCEPT>
+</NOMENCLATURE>

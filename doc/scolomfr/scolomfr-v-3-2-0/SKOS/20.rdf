@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-021">
+	<skos:altLabel xml:lang="fr">electronic book reader</skos:altLabel>
+	<skos:altLabel xml:lang="fr">electronic reader</skos:altLabel>
+	<skos:altLabel xml:lang="fr">livre numérique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">livre électronique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">reading device</skos:altLabel>
+	<skos:altLabel xml:lang="fr">tablette de lecture</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">liseuse</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Appareil portable doté d'un écran et destiné au stockage et à la lecture des livres numériques ou des périodiques. [Source : FranceTerme]</skos:scopeNote>
+	<canope:labelEquivalentExact xml:lang="fr">e-book reader</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">e-reader</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">electronic book reader</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">electronic reader</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">livre numérique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">livre électronique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">reading device</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">tablette de lecture</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-002"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-003"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-007"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-017"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-023"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-025"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-028"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-029"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-031"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-032"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-043"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-044"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-045"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-048"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-051"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-052"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-055"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-061"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-067"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-069"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-070"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-071"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-075"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-076"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-141"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-142"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-145"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-147"/>
+	<skos:prefLabel xml:lang="fr">logiciels</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-023">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">LAO</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel d'aide à l'orientation</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">LAO</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-024">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel d'animation 2D</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel d'animation 3D</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel d'animation</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel d'animation 2D</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel d'animation 3D</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-025">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-136"/>
+	<skos:prefLabel xml:lang="fr">logiciel d'application</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">suite bureautique</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-025"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-035"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-037"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-040"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-046"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-047"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-057"/>
+	<skos:prefLabel xml:lang="fr">logiciel de bureautique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">suite bureautique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-028">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">chat</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel de communication</skos:altLabel>
+	<skos:altLabel xml:lang="fr">messagerie</skos:altLabel>
+	<skos:altLabel xml:lang="fr">réseaux sociaux</skos:altLabel>
+	<skos:altLabel xml:lang="fr">vidéoconférence</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de communication et d'échange</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Toute application permettant de communiquer par écrit et/ou par oral et/ou visuellement, de manière synchrone ou asynchrone, avec un ou plusieurs interlocuteurs.</skos:scopeNote>
+	<canope:labelEquivalentExact xml:lang="fr">chat</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de communication</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">messagerie</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">réseaux sociaux</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">vidéoconférence</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-029">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-041"/>
+	<skos:prefLabel xml:lang="fr">logiciel de création multimédia</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-030">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de dessin assisté par ordinateur</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-031">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de développement d'application</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-032">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel de FAO</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de fabrication assistée par ordinateur</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de FAO</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-033">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de géométrie dynamique</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-034">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">CMS</skos:altLabel>
+	<skos:altLabel xml:lang="fr">outil blogue</skos:altLabel>
+	<skos:altLabel xml:lang="fr">wiki</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-041"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de gestion de contenu</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">CMS</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">outil blogue</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">wiki</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-035">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de gestion de projet</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-024"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-030"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-033"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-038"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-049"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-050"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-054"/>
+	<skos:prefLabel xml:lang="fr">logiciel de manipulation d'images et de vidéos</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-037">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de messagerie</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-038">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de montage vidéo</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-040">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">PréAO</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel de PréAO</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de présentation assistée par ordinateur</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">PréAO</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de PréAO</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-041">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-029"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-034"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-053"/>
+	<skos:prefLabel xml:lang="fr">logiciel de publication en ligne</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-042">
+	<dcterms:isReplacedBy rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-055"/>
+	<dcterms:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-19T18:40:13.000+01:00</dcterms:valid>
+	<isothes:status xml:lang="fr">Déprécié</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de recherche documentaire</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-043">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-143"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-144"/>
+	<skos:prefLabel xml:lang="fr">logiciel de reconnaissance et de synthèse vocales</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-044">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de simulation</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-045">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de traitement de son</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-046">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">tableur</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de traitement de tableaux et calculs</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">tableur</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-047">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de traitement de texte</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-048">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de traitement d'enquête</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-049">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de traitement d'image fixe</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-050">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de traitement vidéo</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-051">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de travail collaboratif</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-052">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">authoring tool</skos:altLabel>
+	<skos:altLabel xml:lang="fr">outil auteur</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel d'édition et de gestion d'exercices</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">authoring tool</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">outil auteur</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-053">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-041"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel d'édition web</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-054">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-036"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel d'image de synthèse</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-055">
+	<dcterms:replaces rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-042"/>
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel documentaire</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-057">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-026"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel organiseur d'idées</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-058">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel ou application de lecture</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-061">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel système et de programmation</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel système</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">À n'utiliser que pour les logiciels système. Pour les logiciels de programmation, sélectionner « logiciel de programmation ».</skos:scopeNote>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel système et de programmation</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-063">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">machine à commande numérique</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">machine-outil à commande numérique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">machine à commande numérique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-004"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-005"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-006"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-008"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-009"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-010"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-011"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-012"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-014"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-015"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-016"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-019"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-021"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-063"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-065"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-066"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-068"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-072"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-073"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-077"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-078"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-079"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-080"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-081"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-082"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-138"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-139"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-149"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-150"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-151"/>
+	<skos:prefLabel xml:lang="fr">matériel</skos:prefLabel>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-065">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">micro</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">microphone</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">micro</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-066">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">outil de microscopie</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">microscope</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">outil de microscopie</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-067">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">moteur de recherche</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-068">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">ordinateur fixe</skos:altLabel>
+	<skos:altLabel xml:lang="fr">ordinateur portable</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">ordinateur</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">ordinateur fixe</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">ordinateur portable</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-069">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">outil de mise en ligne</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-070">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">outil de modélisation</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-071">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">outil d'encodage</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-072">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">rétroprojecteur</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-073">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">scanner</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-074">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-079"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">smartphone</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-075">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">SGBD</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">système de gestion de base de données</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">SGBD</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-076">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">SIG (géographie)</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">système d'information géographique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">SIG (géographie)</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-077">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">TBI</skos:altLabel>
+	<skos:altLabel xml:lang="fr">TNI</skos:altLabel>
+	<skos:altLabel xml:lang="fr">VPI</skos:altLabel>
+	<skos:altLabel xml:lang="fr">tableau numérique interactif</skos:altLabel>
+	<skos:altLabel xml:lang="fr">vidéoprojecteur interactif</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">tableau blanc interactif</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">TBI</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">TNI</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">VPI</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">tableau numérique interactif</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">vidéoprojecteur interactif</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-078">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">tablet PC</skos:altLabel>
+	<skos:altLabel xml:lang="fr">tablette graphique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">tablette informatique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">tablette multimédia</skos:altLabel>
+	<skos:altLabel xml:lang="fr">tablette tactile</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">tablette</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">tablet PC</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">tablette graphique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">tablette informatique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">tablette multimédia</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">tablette tactile</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-079">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">téléphone portable</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-074"/>
+	<skos:prefLabel xml:lang="fr">téléphone</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">téléphone portable</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-080">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">vidéoprojecteur</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-081">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">visualiseur</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-082">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">webcam</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-136">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel de PAO</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-025"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de publication assistée par ordinateur</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de PAO</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-137">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel RIP</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel reconnu d'intérêt pédagogique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel RIP</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-138">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">équipement individuel mobile</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">EIM</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">équipement individuel mobile</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-139">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">imprimante 3D</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-141">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">logiciel de lecture d'e-book</skos:altLabel>
+	<skos:altLabel xml:lang="fr">reading system</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de lecture de livre numérique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de lecture d'e-book</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">reading system</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-142">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">outil de codage</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de programmation</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Outil de développement informatique pour la programmation, c'est-à-dire la production de code informatique.</skos:scopeNote>
+	<canope:labelEquivalentExact xml:lang="fr">outil de codage</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-143">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">STT</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel speech-to-text</skos:altLabel>
+	<skos:altLabel xml:lang="fr">reconnaissance vocale</skos:altLabel>
+	<skos:altLabel xml:lang="fr">speech-to-text</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-043"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de reconnaissance vocale</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">STT</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel speech-to-text</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">reconnaissance vocale</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">speech-to-text</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-144">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">TTS</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel text-to-speech</skos:altLabel>
+	<skos:altLabel xml:lang="fr">synthèse vocale</skos:altLabel>
+	<skos:altLabel xml:lang="fr">text-to-speech</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-043"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de synthèse vocale</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">TTS</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel text-to-speech</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">synthèse vocale</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">text-to-speech</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-145">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">lecteur audio</skos:altLabel>
+	<skos:altLabel xml:lang="fr">lecteur vidéo</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel de lecture d'images</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel de lecture de sons</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel de lecture de vidéos</skos:altLabel>
+	<skos:altLabel xml:lang="fr">player audio</skos:altLabel>
+	<skos:altLabel xml:lang="fr">player vidéo</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel de visualisation et de lecture de média</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">lecteur audio</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">lecteur vidéo</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de lecture d'images</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de lecture de sons</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel de lecture de vidéos</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">player audio</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">player vidéo</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146">
+	<dcterms:replaces rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-013"/>
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">educational software</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel pédagogique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">logiciel éducatif</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-018"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-058"/>
+	<skos:narrower rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-137"/>
+	<skos:prefLabel xml:lang="fr">logiciel d'enseignement</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">Toute application pouvant présenter un intérêt pédagogique.</skos:scopeNote>
+	<canope:labelEquivalentExact xml:lang="fr">educational software</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel pédagogique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">logiciel éducatif</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-147">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">éditeur de texte</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">logiciel éditeur de texte</skos:prefLabel>
+	<skos:scopeNote xml:lang="fr">À ne pas confondre avec un logiciel de traitement de texte qui relève de la bureautique.</skos:scopeNote>
+	<canope:labelEquivalentExact xml:lang="fr">éditeur de texte</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-149">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">robot programmable</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-150">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">scanner 3D</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-151">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">carte SD</skos:altLabel>
+	<skos:altLabel xml:lang="fr">carte mémoire</skos:altLabel>
+	<skos:altLabel xml:lang="fr">clé USB</skos:altLabel>
+	<skos:altLabel xml:lang="fr">disque dur externe</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">stockage externe</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">carte SD</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">carte mémoire</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">clé USB</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">disque dur externe</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-020">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</dcterms:identifier>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:44.938+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="fr">020-Outil pour l'utilisation de la ressource</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:prefLabel xml:lang="fr">020-Outil pour l'utilisation de la ressource</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/scolomfr/onto#VersionScoLOMFR_3.1.0">
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T00:00:00.000+01:00</dcterms:created>
+	<dcterms:description xml:lang="fr">V3.1 ScoLOMFR
+- nouvelle modélisation SKOS des vocabulaires
+- introduction des compétences travaillées au niveau du voc 015
+- mise en place d'un système de dépréciation (concepts)
+- versioning des vocabulaires
+- modifications mineures</dcterms:description>
+	<dcterms:title xml:lang="fr">ScoLOMFR V3.1.0 12/2016</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<skos:prefLabel xml:lang="fr">ScoLOMFR V3.1.0 12/2016</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr">
+	<dcterms:creator rdf:resource="http://www.reseau-canope.fr"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:44.940+01:00</dcterms:issued>
+	<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+	<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr"/>
+	<dcterms:title xml:lang="en">ScoLOMFR Vocabulary</dcterms:title>
+	<dcterms:title xml:lang="fr">Vocabulaires ScoLOMFR</dcterms:title>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:hasTopConcept rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:prefLabel xml:lang="en">ScoLOMFR Vocabulary</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Vocabulaires ScoLOMFR</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-002">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">agrégateur de fils RSS</skos:altLabel>
+	<skos:altLabel xml:lang="fr">agrégateur de flux RSS</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">agrégateur de contenu</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">agrégateur de fils RSS</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">agrégateur de flux RSS</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-003">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">outil de compensation du handicap</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">aide technique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">outil de compensation du handicap</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-004">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">appareil photo numérique</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">appareil photographique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">appareil photo numérique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-005">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">baladeur MP3</skos:altLabel>
+	<skos:altLabel xml:lang="fr">baladeur MP4</skos:altLabel>
+	<skos:altLabel xml:lang="fr">baladeur vidéo</skos:altLabel>
+	<skos:altLabel xml:lang="fr">lecteur MP3</skos:altLabel>
+	<skos:altLabel xml:lang="fr">lecteur MP4</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">baladeur</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">baladeur MP3</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">baladeur MP4</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">baladeur vidéo</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">lecteur MP3</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">lecteur MP4</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-006">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">borne de consultation</skos:altLabel>
+	<skos:altLabel xml:lang="fr">borne de consultation Internet</skos:altLabel>
+	<skos:altLabel xml:lang="fr">borne interactive</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">borne informatique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">borne de consultation</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">borne de consultation Internet</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">borne interactive</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-007">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">cahier de textes en ligne</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">cahier de textes numérique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">cahier de textes en ligne</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-008">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">calculatrice</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-009">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">caméra numérique</skos:altLabel>
+	<skos:altLabel xml:lang="fr">caméscope</skos:altLabel>
+	<skos:altLabel xml:lang="fr">caméscope numérique</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">caméra</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">caméra numérique</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">caméscope</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">caméscope numérique</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-010">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">casque</skos:altLabel>
+	<skos:altLabel xml:lang="fr">écouteurs</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">casque audio</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">casque</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">écouteurs</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-011">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">chariot multimédia</skos:altLabel>
+	<skos:altLabel xml:lang="fr">classe mobile multimédia</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">classe mobile</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">chariot multimédia</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">classe mobile multimédia</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-012">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">console de jeux</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-013">
+	<dcterms:isReplacedBy rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146"/>
+	<dcterms:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-12T08:27:17.000+01:00</dcterms:valid>
+	<isothes:status xml:lang="fr">Déprécié</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">didacticiel</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-014">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">guide</skos:altLabel>
+	<skos:altLabel xml:lang="fr">mode d'emploi</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">documentation technique</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">guide</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">mode d'emploi</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-015">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">écran tactile</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-016">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">enceintes</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-017">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">ENT</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">environnement numérique de travail</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">ENT</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-018">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-146"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">exerciseur</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-019">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-064"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">imprimante</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-020">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">LMS</skos:altLabel>
+	<skos:altLabel xml:lang="fr">e-learning management system</skos:altLabel>
+	<skos:altLabel xml:lang="fr">environnement numérique d'apprentissage</skos:altLabel>
+	<skos:altLabel xml:lang="fr">plate-forme d'apprentissage en ligne</skos:altLabel>
+	<skos:altLabel xml:lang="fr">plate-forme e-learning</skos:altLabel>
+	<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-022"/>
+	<skos:definition xml:lang="fr">Outil</skos:definition>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr"/>
+	<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-020"/>
+	<skos:prefLabel xml:lang="fr">learning management system</skos:prefLabel>
+	<canope:labelEquivalentExact xml:lang="fr">LMS</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">e-learning management system</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">environnement numérique d'apprentissage</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">plate-forme d'apprentissage en ligne</canope:labelEquivalentExact>
+	<canope:labelEquivalentExact xml:lang="fr">plate-forme e-learning</canope:labelEquivalentExact>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-020-num-021">
+	<isothes:status xml:lang="fr">Actuel</isothes:status>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:altLabel xml:lang="fr">e-book reader</skos:altLabel>
+	<skos:altLabel xml:lang="fr">e-reader</skos:altLabel>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NOMENCLATURE
+  SYSTEM "Dtd-Nomenclature.dtd">
+<NOMENCLATURE>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-014</ID>
+      <DF lang="fr">Noeud niveaux de langues € (CECRL)</DF>
+      <TERME>
+         <INTITULE lang="fr">activités de référence</INTITULE>
+         <ID>scolomfr-voc-042-num-014</ID>
+      </TERME>
+      <TS>
+         <CONCEPT>
+            <ID>http://purl.org/net/inloc/cefr/cefr-understanding</ID>
+            <DF lang="fr">Niveau de langues € (CECRL)</DF>
+            <NA lang="fr">Dans les activités de compréhension, l'utilisateur reçoit et traite un message (oral ou écrit) produit par un ou plusieurs locuteurs.</NA>
+            <ORDRE>001-comprendre (Sco042-NivLangCECRL)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">comprendre</INTITULE>
+               <ID>scolomfr-voc-042-num-010</ID>
+            </TERME>
+            <TERME_TE>
+               <INTITULE lang="fr">compréhension</INTITULE>
+               <ID>scolomfr-voc-042-num-037</ID>
+            </TERME_TE>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <TERME>
+                     <INTITULE lang="fr">écouter</INTITULE>
+                     <ID>scolomfr-voc-042-num-041</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">CO</INTITULE>
+                     <ID>scolomfr-voc-042-num-042</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">compréhension orale</INTITULE>
+                     <ID>scolomfr-voc-042-num-043</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>001-comprendre (écouter) - A1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-064</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1442</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>006-comprendre (écouter) - A2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-065</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1442</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>011-comprendre (écouter) - B1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-066</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>016-comprendre (écouter) - B2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-067</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>021-comprendre (écouter) - C1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-068</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>026-comprendre (écouter) - C2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-069</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <TERME>
+                     <INTITULE lang="fr">lire</INTITULE>
+                     <ID>scolomfr-voc-042-num-038</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">CE</INTITULE>
+                     <ID>scolomfr-voc-042-num-039</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">compréhension écrite</INTITULE>
+                     <ID>scolomfr-voc-042-num-040</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>002-comprendre (lire) - A1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-070</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1443</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>007-comprendre (lire) - A2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-071</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1443</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>012-comprendre (lire) - B1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-072</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>017-comprendre (lire) - B2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-073</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>022-comprendre (lire) - C1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-074</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>027-comprendre (lire) - C2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-075</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+         </CONCEPT>
+      </TS>
+      <TS>
+         <CONCEPT>
+            <ID>http://purl.org/net/inloc/cefr/cefr-speaking</ID>
+            <DF lang="fr">Niveau de langues € (CECRL)</DF>
+            <NA lang="fr">Dans les activités de production orale (parler) l'utilisateur de la langue produit un texte ou énoncé oral qui est reçu par un ou plusieurs auditeurs.</NA>
+            <ORDRE>002-parler (Sco042-NivLangCECRL)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">parler</INTITULE>
+               <ID>scolomfr-voc-042-num-011</ID>
+            </TERME>
+            <TERME_TE>
+               <INTITULE lang="fr">EO</INTITULE>
+               <ID>scolomfr-voc-042-num-044</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">PO</INTITULE>
+               <ID>scolomfr-voc-042-num-045</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">expression orale</INTITULE>
+               <ID>scolomfr-voc-042-num-046</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">production orale</INTITULE>
+               <ID>scolomfr-voc-042-num-047</ID>
+            </TERME_TE>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <TERME>
+                     <INTITULE lang="fr">prendre part à une conversation</INTITULE>
+                     <ID>scolomfr-voc-042-num-053</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">EOI</INTITULE>
+                     <ID>scolomfr-voc-042-num-049</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">POI</INTITULE>
+                     <ID>scolomfr-voc-042-num-050</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">expression orale en interaction</INTITULE>
+                     <ID>scolomfr-voc-042-num-051</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">production orale en interaction</INTITULE>
+                     <ID>scolomfr-voc-042-num-052</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>003-parler (prendre part à une conversation) - A1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-076</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1446</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>008-parler (prendre part à une conversation) - A2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-077</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1446</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>013-parler (prendre part à une conversation) - B1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-078</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>018-parler (prendre part à une conversation) - B2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-079</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>023-parler (prendre part à une conversation) - C1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-080</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>028-parler (prendre part à une conversation) - C2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-081</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <TERME>
+                     <INTITULE lang="fr">s'exprimer oralement en continu</INTITULE>
+                     <ID>scolomfr-voc-042-num-055</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">EOC</INTITULE>
+                     <ID>scolomfr-voc-042-num-056</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">POC</INTITULE>
+                     <ID>scolomfr-voc-042-num-057</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">expression orale en continu</INTITULE>
+                     <ID>scolomfr-voc-042-num-058</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">production orale en continu</INTITULE>
+                     <ID>scolomfr-voc-042-num-059</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>004-parler (s'exprimer oralement en continu) - A1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-082</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>009-parler (s'exprimer oralement en continu) - A2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-083</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>014-parler (s'exprimer oralement en continu) - B1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-084</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>019-parler (s'exprimer oralement en continu) - B2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-085</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>024-parler (s'exprimer oralement en continu) - C1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-086</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>029-parler (s'exprimer oralement en continu) - C2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-087</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+         </CONCEPT>
+      </TS>
+      <TS>
+         <CONCEPT>
+            <ID>http://purl.org/net/inloc/cefr/cefr-writing</ID>
+            <DF lang="fr">Niveau de langues € (CECRL)</DF>
+            <NA lang="fr">Dans les activités de production écrite (écrire, ou expression écrite) l'utilisateur de la langue comme scripteur produit un texte écrit qui est reçu par un ou plusieurs lecteurs.</NA>
+            <ORDRE>003-écrire (Sco042-NivLangCECRL)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">écrire</INTITULE>
+               <ID>scolomfr-voc-042-num-012</ID>
+            </TERME>
+            <TERME_TE>
+               <INTITULE lang="fr">EE</INTITULE>
+               <ID>scolomfr-voc-042-num-060</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">PE</INTITULE>
+               <ID>scolomfr-voc-042-num-061</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">expression écrite</INTITULE>
+               <ID>scolomfr-voc-042-num-062</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">production écrite</INTITULE>
+               <ID>scolomfr-voc-042-num-063</ID>
+            </TERME_TE>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-writing-A1</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <ORDRE>005-écrire - A1 (Sco042-NivLangCECRL)</ORDRE>
+                  <TERME>
+                     <INTITULE lang="fr">écrire - A1</INTITULE>
+                     <ID>scolomfr-voc-042-num-088</ID>
+                  </TERME>
+                  <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445</TERME_TA_EXT>
+                  <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466</TERME_TA_EXT>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-writing-A2</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <ORDRE>010-écrire - A2 (Sco042-NivLangCECRL)</ORDRE>
+                  <TERME>
+                     <INTITULE lang="fr">écrire - A2</INTITULE>
+                     <ID>scolomfr-voc-042-num-089</ID>
+                  </TERME>
+                  <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445</TERME_TA_EXT>
+                  <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466</TERME_TA_EXT>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-writing-B1</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <ORDRE>015-écrire - B1 (Sco042-NivLangCECRL)</ORDRE>
+                  <TERME>
+                     <INTITULE lang="fr">écrire - B1</INTITULE>
+                     <ID>scolomfr-voc-042-num-090</ID>
+                  </TERME>
+                  <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466</TERME_TA_EXT>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-writing-B2</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <ORDRE>020-écrire - B2 (Sco042-NivLangCECRL)</ORDRE>
+                  <TERME>
+                     <INTITULE lang="fr">écrire - B2</INTITULE>
+                     <ID>scolomfr-voc-042-num-091</ID>
+                  </TERME>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-writing-C1</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <ORDRE>025-écrire - C1 (Sco042-NivLangCECRL)</ORDRE>
+                  <TERME>
+                     <INTITULE lang="fr">écrire - C1</INTITULE>
+                     <ID>scolomfr-voc-042-num-092</ID>
+                  </TERME>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-writing-C2</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <ORDRE>030-écrire - C2 (Sco042-NivLangCECRL)</ORDRE>
+                  <TERME>
+                     <INTITULE lang="fr">écrire - C2</INTITULE>
+                     <ID>scolomfr-voc-042-num-093</ID>
+                  </TERME>
+               </CONCEPT>
+            </TS>
+         </CONCEPT>
+      </TS>
+   </CONCEPT>
+   <CONCEPT>
+      <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-015</ID>
+      <DF lang="fr">Noeud niveaux de langues € (CECRL)</DF>
+      <TERME>
+         <INTITULE lang="fr">niveaux communs de référence</INTITULE>
+         <ID>scolomfr-voc-042-num-015</ID>
+      </TERME>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-001</ID>
+            <DF lang="fr">Niveau de langues € (CECRL)</DF>
+            <NA lang="fr">Utilisateur élémentaire (école primaire, collège). </NA>
+            <ORDRE>001-A (Sco042-NivLangCECRL)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">A</INTITULE>
+               <ID>scolomfr-voc-042-num-001</ID>
+            </TERME>
+            <TERME_TE>
+               <INTITULE lang="fr">utilisateur élémentaire</INTITULE>
+               <ID>scolomfr-voc-042-num-016</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">basic user</INTITULE>
+               <ID>scolomfr-voc-042-num-017</ID>
+            </TERME_TE>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-A1</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <NA lang="fr">Niveau élémentaire introductif ou de découverte. Pour les élèves de l'école primaire, les LV1 du collège (6ème, voire 5ème) ou LV2 du collège (4ème) et les LV3 du lycée (2e).</NA>
+                  <TERME>
+                     <INTITULE lang="fr">A1</INTITULE>
+                     <ID>scolomfr-voc-042-num-002</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">breakthrough</INTITULE>
+                     <ID>scolomfr-voc-042-num-018</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau de découverte</INTITULE>
+                     <ID>scolomfr-voc-042-num-019</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau introductif</INTITULE>
+                     <ID>scolomfr-voc-042-num-020</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>001-comprendre (écouter) - A1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-064</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1442</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>002-comprendre (lire) - A1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-070</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1443</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>003-parler (prendre part à une conversation) - A1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-076</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1446</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>004-parler (s'exprimer oralement en continu) - A1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-082</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-writing-A1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>005-écrire - A1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">écrire - A1</INTITULE>
+                           <ID>scolomfr-voc-042-num-088</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-A2</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <NA lang="fr">Niveau élémentaire intermédiaire ou usuel. Pour les LV1 du collège (5ème à 3ème), les LV2 du collège (3ème) et les LV3 du lycée (1ère).</NA>
+                  <TERME>
+                     <INTITULE lang="fr">A2</INTITULE>
+                     <ID>scolomfr-voc-042-num-003</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau de survie</INTITULE>
+                     <ID>scolomfr-voc-042-num-021</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau intermédiaire</INTITULE>
+                     <ID>scolomfr-voc-042-num-022</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">waystage</INTITULE>
+                     <ID>scolomfr-voc-042-num-023</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>006-comprendre (écouter) - A2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-065</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1442</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>007-comprendre (lire) - A2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-071</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1443</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>008-parler (prendre part à une conversation) - A2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-077</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1446</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>009-parler (s'exprimer oralement en continu) - A2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-083</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1444</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-writing-A2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>010-écrire - A2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">écrire - A2</INTITULE>
+                           <ID>scolomfr-voc-042-num-089</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1445</TERME_TA_EXT>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+         </CONCEPT>
+      </TS>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-004</ID>
+            <DF lang="fr">Niveau de langues € (CECRL)</DF>
+            <NA lang="fr">Utilisateur indépendant (lycée).</NA>
+            <ORDRE>002-B (Sco042-NivLangCECRL)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">B</INTITULE>
+               <ID>scolomfr-voc-042-num-004</ID>
+            </TERME>
+            <TERME_TE>
+               <INTITULE lang="fr">independent user</INTITULE>
+               <ID>scolomfr-voc-042-num-024</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">utilisateur indépendant</INTITULE>
+               <ID>scolomfr-voc-042-num-025</ID>
+            </TERME_TE>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-B1</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <NA lang="fr">Niveau seuil. Pour les LV1 du collège (3ème), et du lycée (2e), les LV2 du lycée (2e, 1ère) et LV3 du lycée (terminale).</NA>
+                  <TERME>
+                     <INTITULE lang="fr">B1</INTITULE>
+                     <ID>scolomfr-voc-042-num-005</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau seuil</INTITULE>
+                     <ID>scolomfr-voc-042-num-026</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">threshold</INTITULE>
+                     <ID>scolomfr-voc-042-num-027</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>011-comprendre (écouter) - B1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-066</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1462</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>012-comprendre (lire) - B1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-072</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1463</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>013-parler (prendre part à une conversation) - B1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-078</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1464</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>014-parler (s'exprimer oralement en continu) - B1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-084</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1465</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-writing-B1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>015-écrire - B1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">écrire - B1</INTITULE>
+                           <ID>scolomfr-voc-042-num-090</ID>
+                        </TERME>
+                        <TERME_TA_EXT>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-015-num-1466</TERME_TA_EXT>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-B2</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <NA lang="fr">Niveau avancé ou indépendant. Pour les LV1 du lycée, parfois LV2 (1re, terminale).</NA>
+                  <TERME>
+                     <INTITULE lang="fr">B2</INTITULE>
+                     <ID>scolomfr-voc-042-num-006</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau avancé</INTITULE>
+                     <ID>scolomfr-voc-042-num-028</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">vantage</INTITULE>
+                     <ID>scolomfr-voc-042-num-029</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>016-comprendre (écouter) - B2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-067</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>017-comprendre (lire) - B2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-073</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>018-parler (prendre part à une conversation) - B2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-079</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>019-parler (s'exprimer oralement en continu) - B2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-085</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-writing-B2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>020-écrire - B2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">écrire - B2</INTITULE>
+                           <ID>scolomfr-voc-042-num-091</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+         </CONCEPT>
+      </TS>
+      <TS>
+         <CONCEPT>
+            <ID>http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-042-num-007</ID>
+            <DF lang="fr">Niveau de langues € (CECRL)</DF>
+            <NA lang="fr">Utilisateur expérimenté.</NA>
+            <ORDRE>003-C (Sco042-NivLangCECRL)</ORDRE>
+            <TERME>
+               <INTITULE lang="fr">C</INTITULE>
+               <ID>scolomfr-voc-042-num-007</ID>
+            </TERME>
+            <TERME_TE>
+               <INTITULE lang="fr">proficient user</INTITULE>
+               <ID>scolomfr-voc-042-num-030</ID>
+            </TERME_TE>
+            <TERME_TE>
+               <INTITULE lang="fr">utilisateur expérimenté</INTITULE>
+               <ID>scolomfr-voc-042-num-031</ID>
+            </TERME_TE>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-C1</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <NA lang="fr">Niveau autonome.</NA>
+                  <TERME>
+                     <INTITULE lang="fr">C1</INTITULE>
+                     <ID>scolomfr-voc-042-num-008</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">effective operational proficiency</INTITULE>
+                     <ID>scolomfr-voc-042-num-032</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau autonome</INTITULE>
+                     <ID>scolomfr-voc-042-num-033</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau de compétence opérationnelle effective</INTITULE>
+                     <ID>scolomfr-voc-042-num-034</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>021-comprendre (écouter) - C1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-068</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>022-comprendre (lire) - C1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-074</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>023-parler (prendre part à une conversation) - C1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-080</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>024-parler (s'exprimer oralement en continu) - C1</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-086</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-writing-C1</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>025-écrire - C1 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">écrire - C1</INTITULE>
+                           <ID>scolomfr-voc-042-num-092</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+            <TS>
+               <CONCEPT>
+                  <ID>http://purl.org/net/inloc/cefr/cefr-C2</ID>
+                  <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                  <NA lang="fr">Maîtrise.</NA>
+                  <TERME>
+                     <INTITULE lang="fr">C2</INTITULE>
+                     <ID>scolomfr-voc-042-num-009</ID>
+                  </TERME>
+                  <TERME_TE>
+                     <INTITULE lang="fr">master</INTITULE>
+                     <ID>scolomfr-voc-042-num-035</ID>
+                  </TERME_TE>
+                  <TERME_TE>
+                     <INTITULE lang="fr">niveau de maîtrise</INTITULE>
+                     <ID>scolomfr-voc-042-num-036</ID>
+                  </TERME_TE>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-listening-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>026-comprendre (écouter) - C2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (écouter) - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-069</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-understanding-reading-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>027-comprendre (lire) - C2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">comprendre (lire) - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-075</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-interaction-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>028-parler (prendre part à une conversation) - C2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (prendre part à une conversation) - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-081</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-speaking-production-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>029-parler (s'exprimer oralement en continu) - C2</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">parler (s'exprimer oralement en continu) - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-087</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+                  <TS>
+                     <CONCEPT>
+                        <ID>http://purl.org/net/inloc/cefr/cefr-writing-C2</ID>
+                        <DF lang="fr">Niveau de langues € (CECRL)</DF>
+                        <ORDRE>030-écrire - C2 (Sco042-NivLangCECRL)</ORDRE>
+                        <TERME>
+                           <INTITULE lang="fr">écrire - C2</INTITULE>
+                           <ID>scolomfr-voc-042-num-093</ID>
+                        </TERME>
+                     </CONCEPT>
+                  </TS>
+               </CONCEPT>
+            </TS>
+         </CONCEPT>
+      </TS>
+   </CONCEPT>
+</NOMENCLATURE>

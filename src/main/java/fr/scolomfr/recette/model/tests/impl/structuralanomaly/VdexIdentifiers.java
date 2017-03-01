@@ -81,7 +81,6 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 		XPath xpath = xPathEngineProvider.getXpath();
 		String expressionStr = "/vdex/term/termIdentifier";
 
-		// First pass : let's loop on vdex identifiers and look for them in skos
 		NodeList identifiers = null;
 		Map<String, String> identifiersAndLineNumbers = new HashMap<>();
 		try {
@@ -113,11 +112,12 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 						errorCode = generateUniqueErrorCode(filePath + MESSAGE_ID_SEPARATOR
 								+ (StringUtils.isEmpty(identifier) ? lineNumber : identifier));
 					} catch (DuplicateErrorCodeException e1) {
+						logger.debug("Errorcode {} generated twice ", errorCode, e1);
 						try {
 							errorCode = generateUniqueErrorCode(
 									filePath + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
-						} catch (DuplicateErrorCodeException e) {
-							logger.debug("Errorcode {} generated twice ", errorCode, e);
+						} catch (DuplicateErrorCodeException e2) {
+							logger.debug("Errorcode {} generated twice ", errorCode, e2);
 						}
 					}
 					boolean ignored = errorIsIgnored(errorCode);
@@ -192,7 +192,6 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 			}
 
 		}
-		System.out.println(">>>>>>>>>>>>>>>>>>>No equivalent for " + nonUriIdentifier);
 		return null;
 
 	}
