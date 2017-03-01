@@ -21,6 +21,7 @@
  */
 package fr.scolomfr.recette.model.tests.impl.conservationconcepts;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
@@ -47,7 +48,7 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  */
 @TestCaseIndex(index = "a21")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VERSION2,
-		TestParameters.Values.VOCABULARY })
+		TestParameters.Values.VOCABULARY, TestParameters.Values.SKOSTYPE })
 public class ConservationConceptsEntreVersionsSkos extends AbstractJenaTestCase {
 
 	private static final String LANG_FR_ATTR = "fr";
@@ -56,10 +57,14 @@ public class ConservationConceptsEntreVersionsSkos extends AbstractJenaTestCase 
 
 	@Override
 	public void run() {
+		String format = getSkosType();
+		if (StringUtils.isEmpty(format)) {
+			return;
+		}
 		Version newVersion = getVersion();
-		Model newMdel = getModel(newVersion, getVocabulary(), "skos");
+		Model newMdel = getModel(newVersion, getVocabulary(), format);
 		Version oldVersion = getVersion(TestParameters.Values.VERSION2);
-		Model oldMmodel = getModel(oldVersion, getVocabulary(), "skos");
+		Model oldMmodel = getModel(oldVersion, getVocabulary(), format);
 		Property prefLabelProperty = oldMmodel.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_PREFLABEL_PROPERTY.toString());
 		Selector prefLabelSelector2 = new SimpleSelector((Resource) null, prefLabelProperty, (RDFNode) null);

@@ -39,7 +39,7 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  */
 @TestCaseIndex(index = "s2xx")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VERSION2,
-		TestParameters.Values.VOCABULARY })
+		TestParameters.Values.VOCABULARY, TestParameters.Values.SKOSTYPE })
 public class ConservationConceptsEntreVersionsSkosSparql extends AbstractSparqlTestCase {
 
 	static final String QUERY_FILE = "conservation_concepts_entre_versions.sparql";
@@ -48,10 +48,12 @@ public class ConservationConceptsEntreVersionsSkosSparql extends AbstractSparqlT
 
 	@Override
 	public void run() {
+
 		Version version1 = getVersion();
-		String filePath1 = getFilePath(version1, getVocabulary(), "skos");
+		String format = getSkosType();
+		String filePath1 = getFilePath(version1, getVocabulary(), format);
 		Version version2 = getVersion(TestParameters.Values.VERSION2);
-		String filePath2 = getFilePath(version2, getVocabulary(), "skos");
+		String filePath2 = getFilePath(version2, getVocabulary(), format);
 
 		String sparql;
 

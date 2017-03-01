@@ -50,7 +50,8 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * Check the spelling of skos langstrings
  */
 @TestCaseIndex(index = "a15")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
+		TestParameters.Values.SKOSTYPE })
 public class SkosSpellChecking extends AbstractJenaTestCase {
 
 	@Autowired
@@ -61,7 +62,8 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		int numerator = 0;
 		int denominator = 0;
 		progressionMessage(0);
-		Model model = getModel(getVersion(), getVocabulary(), "skos");
+		String format = getSkosType();
+		Model model = getModel(getVersion(), getVocabulary(), format);
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_PREFLABEL_PROPERTY.toString());
 		Property altLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),

@@ -33,7 +33,8 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * @see at.ac.univie.mminf.qskos4j.issues.language.NoCommonLanguages
  */
 @TestCaseIndex(index = "q3")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
+		TestParameters.Values.SKOSTYPE })
 public class NoCommonLanguages extends AbstractQskosTestCase<Collection<String>> {
 
 	@Override

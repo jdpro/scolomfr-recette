@@ -52,17 +52,19 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * Two
  */
 @TestCaseIndex(index = "a6")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
+		TestParameters.Values.SKOSTYPE })
 public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 
 	@Override
 	public void run() {
 		Version version = getVersion();
 		String vocabulary = getVocabulary();
-		if (null == version || StringUtils.isEmpty(vocabulary)) {
+		String format = getSkosType();
+		if (null == version || StringUtils.isEmpty(vocabulary) || StringUtils.isEmpty(format)) {
 			return;
 		}
-		Model model = getModel(version, vocabulary, "skos");
+		Model model = getModel(version, vocabulary, format);
 		Map<String, List<Pair<String, Node>>> preflabelsOfChildren = new HashMap<>();
 		Property children = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_NARROWER_PROPERTY.toString());
