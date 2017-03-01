@@ -114,14 +114,14 @@ public class CaseConventionsRespectSkos extends AbstractJenaTestCase {
 				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 						i18n.tr("tests.impl.a23.result.invalid.title"),
 						i18n.tr("tests.impl.a23.result.invalid.content", new Object[] { statement.getSubject().getURI(),
-								statement.getPredicate().toString(), label }));
+								statement.getPredicate().getLocalName(), label }));
 				result.addMessage(message);
 			}
 			if (!firstLetterIsLower && isSigle) {
 				Message message = new Message(Message.Type.INFO, errorCode,
 						i18n.tr("tests.impl.a23.result.ignored.title"),
 						i18n.tr("tests.impl.a23.result.ignored.content", new Object[] { statement.getSubject().getURI(),
-								statement.getPredicate().toString(), label }));
+								statement.getPredicate().getLocalName(), label }));
 				result.addMessage(message);
 			}
 			refreshComplianceIndicator(result, (denominator - numerator), denominator);
