@@ -61,7 +61,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 	public void run() {
 		int numerator = 0;
 		int denominator = 0;
-		progressionMessage(0);
+		progressionMessage("", 0);
 		String format = getSkosType();
 		Model model = getModel(getVersion(), getVocabulary(), format);
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
@@ -86,7 +86,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 		while (it.hasNext()) {
 			denominator++;
 			if (denominator % 100 == 0) {
-				progressionMessage((float) denominator / (float) numberOfStatements * 100.f);
+				progressionMessage("", (float) denominator / (float) numberOfStatements * 100.f);
 			}
 			Statement statement = it.next();
 
@@ -162,7 +162,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 			refreshComplianceIndicator(result, (denominator - numerator), denominator);
 
 		}
-		progressionMessage(100);
+		progressionMessage("", 100);
 		result.setState(State.FINAL);
 	}
 

@@ -53,8 +53,7 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * Compare list of uris in both formats
  */
 @TestCaseIndex(index = "a22")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
-		TestParameters.Values.SKOSTYPE })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY })
 public class VdexIdentifiers extends AbstractJenaTestCase {
 
 	private static UrlValidator urlValidator = new UrlValidator();
@@ -66,7 +65,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 	public void run() {
 		int numerator = 0;
 		int denominator = 0;
-		progressionMessage(0);
+		progressionMessage("", 0);
 		List<String> vdexFilePaths = new LinkedList<String>();
 		if (getVocabulary().equals("global")) {
 			vdexFilePaths.addAll(getFilePathsForAllVocabularies(getVersion(), "vdex"));
@@ -88,17 +87,17 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 			XPathExpression expression = xpath.compile(expressionStr);
 			int counter = 0;
 			int nbDocs = vdexDocuments.keySet().size();
-			float interval = 100.f / (nbDocs == 0 ? 1.f : nbDocs);
 			for (String filePath : vdexDocuments.keySet()) {
-
-				float step = counter * interval;
-				progressionMessage(step);
+				counter++;
+				String docInfo = MessageFormat.format("{0} ({1}/{2})", filePath, counter, nbDocs);
+				progressionMessage(docInfo, 0);
 				Document vdexDocument = vdexDocuments.get(filePath);
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
 				int nbIdentifiers = identifiers.getLength();
+				int step = Math.min(50, nbIdentifiers / 50 + 1);
 				for (int i = 0; i < nbIdentifiers; i++) {
-					if (i % 100 == 0) {
-						progressionMessage(step + interval * i / nbIdentifiers);
+					if (i % step == 0) {
+						progressionMessage(docInfo, (float) i / (float) nbIdentifiers * 100.f);
 					}
 
 					refreshComplianceIndicator(result, (denominator - numerator), denominator);
@@ -161,7 +160,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 					}
 
 				}
-				counter++;
+				progressionMessage(docInfo, 100);
 			}
 		} catch (XPathExpressionException e) {
 			String title = "Invalid xpath expression";
@@ -171,7 +170,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 			stopTestCase();
 			return;
 		}
-		progressionMessage(100);
+		progressionMessage("", 100);
 		result.setState(State.FINAL);
 
 	}
