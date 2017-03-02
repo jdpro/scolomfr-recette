@@ -61,7 +61,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 	public void run() {
 		int numerator = 0;
 		int denominator = 0;
-		progressionMessage("", 0);
+		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		String format = getSkosType();
 		Model model = getModel(getVersion(), getVocabulary(), format);
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),

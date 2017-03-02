@@ -7,6 +7,10 @@ structure:
         index: a3
         label: SKOS Vocabulaire 1 Langues
         format: skos
+      skos_vocabulaires_6_mimetypes:
+        index: a4
+        label: SKOS Vocabulaire 6 MimeTypes
+        format: skos
   absence_anomalies_libelles_documentation:
     label: Absence d'anomalies liées aux libellés ou à la documentation des concepts
     index: 1.3

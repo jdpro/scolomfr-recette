@@ -76,7 +76,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		if (null == version || StringUtils.isEmpty(format)) {
 			return;
 		}
-		progressionMessage("", 0);
+		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		Model model = getModel(version, "global", format);
 
 		List<String> vdexFilePaths = getFilePathsForAllVocabularies(version, "vdex");

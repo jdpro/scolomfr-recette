@@ -24,8 +24,6 @@ package fr.scolomfr.recette.model.tests.impl.caseconventions;
 import java.util.Iterator;
 import java.util.List;
 
-import org.apache.jena.ext.com.google.common.collect.Iterators;
-import org.apache.jena.ext.com.google.common.collect.Lists;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
@@ -36,7 +34,6 @@ import org.apache.jena.rdf.model.SimpleSelector;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.util.iterator.ExtendedIterator;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
@@ -47,7 +44,7 @@ import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * Check the spelling of skos langstrings
+ * Check respect of case conventions
  */
 @TestCaseIndex(index = "a23")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
@@ -58,7 +55,7 @@ public class CaseConventionsRespectSkos extends AbstractJenaTestCase {
 	public void run() {
 		int numerator = 0;
 		int denominator = 0;
-		progressionMessage("", 0);
+		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		String format = getSkosType();
 		Model model = getModel(getVersion(), getVocabulary(), format);
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),

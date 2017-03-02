@@ -141,16 +141,18 @@ function refreshMessages(json) {
 	var infos = new Array();
 	var progressionRate = -1;
 	var progressionInfo = "";
-	$(json.messages).each(function(i, e) {
-		if (e.type == 'INFO') {
-			infos.push(e);
-		} else if (e.type == 'ERROR' || e.type == 'FAILURE') {
-			errors.push(e);
-		} else if (e.type == 'PROGRESS') {
-			progressionInfo = e.title;
-			progressionRate = Math.max(progressionRate, e.content);
-		}
-	})
+	$(json.messages).each(
+			function(i, e) {
+				if (e.type == 'INFO') {
+					infos.push(e);
+				} else if (e.type == 'ERROR' || e.type == 'FAILURE'
+						|| e.type == 'IGNORED') {
+					errors.push(e);
+				} else if (e.type == 'PROGRESS') {
+					progressionInfo = e.title;
+					progressionRate = Math.max(progressionRate, e.content);
+				}
+			})
 	if (progressionRate >= 0) {
 		displayProgression(progressionInfo, progressionRate);
 	}
