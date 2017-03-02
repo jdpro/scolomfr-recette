@@ -21,8 +21,10 @@
 package fr.scolomfr.recette.model.sources.representation.utils;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 
 import org.apache.jena.graph.Node;
 import org.apache.jena.rdf.model.Literal;
@@ -103,6 +105,23 @@ public class JenaEngine {
 		StmtIterator stmtIterator2 = model.listStatements(topConceptSelector);
 		ExtendedIterator<Statement> stmts = stmtIterator1.andThen(stmtIterator2);
 		return stmts.hasNext();
+	}
+
+	public List<Resource> getMembersOfVocab(Resource vocab, Model model) {
+		List<Resource> members = new ArrayList<>();
+		Property member = model.getProperty(Constant.SKOS_CORE_NS.toString(), Constant.SKOS_MEMBER_PROPERTY.toString());
+		Property topConcept = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+				Constant.SKOS_TOP_CONCEPT_PROPERTY.toString());
+		Selector memberSelector = new SimpleSelector(vocab, member, (Resource) null);
+		Selector topConceptSelector = new SimpleSelector(vocab, topConcept, (Resource) null);
+
+		StmtIterator stmtIterator1 = model.listStatements(memberSelector);
+		StmtIterator stmtIterator2 = model.listStatements(topConceptSelector);
+		ExtendedIterator<Statement> stmts = stmtIterator1.andThen(stmtIterator2);
+		while (stmts.hasNext()) {
+			members.add(stmts.next().getObject().asResource());
+		}
+		return members;
 	}
 
 	public enum Constant {
