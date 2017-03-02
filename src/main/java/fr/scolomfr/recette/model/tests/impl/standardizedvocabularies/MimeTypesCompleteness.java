@@ -65,7 +65,7 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		numerator = 0;
 		denominator = 0;
 		progressionCounter = 0;
-		progressionMessage("", 0);
+		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		String format = getSkosType();
 		Model model = getModel(getVersion(), getVocabulary(), format);
 		Resource vocab006 = model.getResource(VOC_06_URI);
