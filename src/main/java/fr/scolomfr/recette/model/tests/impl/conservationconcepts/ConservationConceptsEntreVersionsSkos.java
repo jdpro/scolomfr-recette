@@ -67,14 +67,17 @@ public class ConservationConceptsEntreVersionsSkos extends AbstractJenaTestCase 
 		StmtIterator stmts2 = oldMmodel.listStatements(prefLabelSelector2);
 		// let's loop on the old version uri-prefLabel-litteral triples
 		while (stmts2.hasNext()) {
-			Statement statement = (Statement) stmts2.next();
+			Statement statement = stmts2.next();
+			if (!StringUtils.equals(statement.getLiteral().getLanguage(), LANG_FR_ATTR)) {
+				continue;
+			}
 			// let's look for the same triple in the new version
 			Selector prefLabelSelector1 = new SimpleSelector(statement.getSubject(), prefLabelProperty,
 					statement.getObject());
 			StmtIterator stmts1 = newMdel.listStatements(prefLabelSelector1);
 			Statement statement1 = null;
 			while (stmts1.hasNext()) {
-				statement1 = (Statement) stmts1.next();
+				statement1 = stmts1.next();
 				if (statement1.getLiteral().getLanguage().equals(LANG_FR_ATTR)) {
 					break;
 				} else {
@@ -100,7 +103,7 @@ public class ConservationConceptsEntreVersionsSkos extends AbstractJenaTestCase 
 				// eliminate other languages
 				Statement statement2 = null;
 				while (stmts.hasNext()) {
-					statement2 = (Statement) stmts.next();
+					statement2 = stmts.next();
 					if (statement.getLiteral().getLanguage().equals(LANG_FR_ATTR)) {
 						break;
 					} else {
