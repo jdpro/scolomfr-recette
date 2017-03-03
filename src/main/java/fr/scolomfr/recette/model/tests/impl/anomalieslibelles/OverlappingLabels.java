@@ -65,7 +65,7 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 			String[] conflictsArray = allConflicts.substring(1, allConflicts.length() - 2).split("\\),\\s");
 			StringBuilder contentBuilder = new StringBuilder("<ul>");
 			Matcher m;
-			boolean prefLabelFound = false;
+			int prefLabelsFound = 0;
 			for (int i = 0; i < conflictsArray.length; i++) {
 				String conflictStr = conflictsArray[i];
 				m = datePatt.matcher(conflictStr);
@@ -78,12 +78,12 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 					if (!type.equals(LabelType.PREF_LABEL.name())) {
 						continue;
 					}
-					prefLabelFound = true;
+					prefLabelsFound++;
 					MessageFormat format = new MessageFormat(i18n.tr("tests.impl.qskos.ol.result.content"));
 					contentBuilder.append(format.format(testArgs));
 				}
 			}
-			if (!prefLabelFound) {
+			if (0 == prefLabelsFound) {
 				continue;
 			}
 			contentBuilder.append("</ul>");
@@ -91,7 +91,8 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos.ol.result.title"), contentBuilder.toString()));
+					i18n.tr("tests.impl.qskos.ol.result.title", new Object[] { prefLabelsFound }),
+					contentBuilder.toString()));
 		}
 
 	}
