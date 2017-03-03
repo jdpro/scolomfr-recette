@@ -62,7 +62,7 @@ public abstract class AbstractTestCase implements TestCase {
 
 	private static final String SKOS = "skos";
 
-	private static final String DEFAULT_SKOSTYPE = SKOS;
+	private static final String DEFAULT_SKOSTYPE = SKOSXL;
 
 	protected static final String MESSAGE_ID_SEPARATOR = "_";
 
