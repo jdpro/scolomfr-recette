@@ -28,6 +28,7 @@ import org.openrdf.repository.Repository;
 import org.openrdf.repository.RepositoryException;
 import org.openrdf.rio.RDFFormat;
 import org.slf4j.Logger;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
@@ -37,9 +38,11 @@ import at.ac.univie.mminf.qskos4j.progress.IProgressMonitor;
 import at.ac.univie.mminf.qskos4j.progress.StreamProgressMonitor;
 import at.ac.univie.mminf.qskos4j.result.Result;
 import at.ac.univie.mminf.qskos4j.util.vocab.RepositoryBuilder;
+import fr.scolomfr.recette.model.tests.impl.AbstractTestCase;
 import fr.scolomfr.recette.utils.log.Log;
 
 @Component
+@Scope(scopeName = "prototype")
 public class QskosEngine {
 	@Log
 	Logger logger;
@@ -47,6 +50,10 @@ public class QskosEngine {
 	File file;
 
 	private String issueCode;
+
+	private IProgressMonitor streamProgressMonitor;
+
+	private AbstractTestCase testCaseToNotify;
 
 	public <T> T buildResultData() throws QskosException {
 		if (null == file) {
@@ -77,7 +84,10 @@ public class QskosEngine {
 			throw new QskosException(String.format("Problème avec qskos : %s", e.getMessage()), e);
 		}
 		qSkos.setAuthResourceIdentifier("data.education.fr/voc/scolomfr");
-		final IProgressMonitor streamProgressMonitor = new StreamProgressMonitor();
+		if (null != testCaseToNotify) {
+			streamProgressMonitor = new CustomStreamProgressMonitor(testCaseToNotify);
+		}
+
 		qSkos.setProgressMonitor(streamProgressMonitor);
 		@SuppressWarnings("unchecked")
 		final Issue<Result<T>> issue = qSkos.getIssues(issueCode).iterator().next();
@@ -96,5 +106,9 @@ public class QskosEngine {
 	public QskosEngine setIssueCode(String issueCode) {
 		this.issueCode = issueCode;
 		return this;
+	}
+
+	public void notifyTestCase(AbstractTestCase testCaseToNotify) {
+		this.testCaseToNotify = testCaseToNotify;
 	}
 }

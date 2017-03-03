@@ -349,7 +349,8 @@ public abstract class AbstractTestCase implements TestCase {
 		return document;
 	}
 
-	protected void progressionMessage(String info, float progressionRate) {
+	@Override
+	public void progressionMessage(String info, float progressionRate) {
 		if (getExecutionMode() != ExecutionMode.ASYNCHRONOUS) {
 			return;
 		}

@@ -51,6 +51,10 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 		return "ol";
 	}
 
+	protected boolean isRestrictedToPrefLabels() {
+		return true;
+	}
+
 	@Override
 	protected void populateResult(Collection<LabelConflict> data) {
 		Pattern datePatt = Pattern.compile(STRING_SPLITTER);
@@ -75,7 +79,7 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 					String lang = m.group(3);
 					String type = m.group(4);
 					Object[] testArgs = { uri, label, lang, type };
-					if (!type.equals(LabelType.PREF_LABEL.name())) {
+					if (isRestrictedToPrefLabels() && !type.equals(LabelType.PREF_LABEL.name())) {
 						continue;
 					}
 					prefLabelsFound++;
@@ -83,7 +87,7 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 					contentBuilder.append(format.format(testArgs));
 				}
 			}
-			if (0 == prefLabelsFound) {
+			if (0 == prefLabelsFound && isRestrictedToPrefLabels()) {
 				continue;
 			}
 			contentBuilder.append("</ul>");
