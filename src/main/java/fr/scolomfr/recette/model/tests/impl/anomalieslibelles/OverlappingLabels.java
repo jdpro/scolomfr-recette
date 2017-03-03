@@ -30,6 +30,7 @@ import java.util.regex.Pattern;
 import org.apache.commons.codec.digest.DigestUtils;
 
 import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelConflict;
+import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelType;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -64,6 +65,7 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 			String[] conflictsArray = allConflicts.substring(1, allConflicts.length() - 2).split("\\),\\s");
 			StringBuilder contentBuilder = new StringBuilder("<ul>");
 			Matcher m;
+			boolean prefLabelFound = false;
 			for (int i = 0; i < conflictsArray.length; i++) {
 				String conflictStr = conflictsArray[i];
 				m = datePatt.matcher(conflictStr);
@@ -73,10 +75,16 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 					String lang = m.group(3);
 					String type = m.group(4);
 					Object[] testArgs = { uri, label, lang, type };
-
+					if (!type.equals(LabelType.PREF_LABEL.name())) {
+						continue;
+					}
+					prefLabelFound = true;
 					MessageFormat format = new MessageFormat(i18n.tr("tests.impl.qskos.ol.result.content"));
 					contentBuilder.append(format.format(testArgs));
 				}
+			}
+			if (!prefLabelFound) {
+				continue;
 			}
 			contentBuilder.append("</ul>");
 			String errorCode = generateUniqueErrorCode(DigestUtils.md5Hex(allConflicts));

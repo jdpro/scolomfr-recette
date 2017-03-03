@@ -37,7 +37,7 @@ structure:
         format: skos
       overlapping_labels:
         index: q5
-        label: Overlapping Labels
+        label: Overlapping Labels / restricted to PrefLabels
         format: skos
       missing_labels:
         index: q6
