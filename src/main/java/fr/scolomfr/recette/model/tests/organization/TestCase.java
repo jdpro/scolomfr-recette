@@ -45,4 +45,6 @@ public interface TestCase extends Runnable {
 
 	void setExecutionMode(ExecutionMode executionMode);
 
+	void progressionMessage(String info, float progressionRate);
+
 }

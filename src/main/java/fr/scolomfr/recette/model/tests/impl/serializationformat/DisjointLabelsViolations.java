@@ -34,6 +34,11 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 public class DisjointLabelsViolations extends OverlappingLabels {
 
 	@Override
+	protected boolean isRestrictedToPrefLabels() {
+		return false;
+	}
+
+	@Override
 	protected String getQskosIssueCode() {
 		return "dlv";
 	}
