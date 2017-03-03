@@ -43,6 +43,7 @@ content:
     voc45: SKOS/45.rdf
     voc46: SKOS/46.rdf
   skosxl:
+    global: scolomfr-xl.skos
     voc01: SKOS-XL/01XL.rdf
     voc02: SKOS-XL/02XL.rdf
     voc03: SKOS-XL/03XL.rdf
