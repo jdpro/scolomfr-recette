@@ -105,6 +105,10 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		Iterator<String> it2 = mimeTypeUrisInSkos.iterator();
 		while (it2.hasNext()) {
 			String mimeTypeUriInSkos = it2.next();
+			if (!lowerCasedMimeTypeUrisInSkos.contains(mimeTypeUriInSkos.toLowerCase())) {
+				// Has been treated as case error
+				continue;
+			}
 			String errorCode = getErrorCode("missinginiana" + MESSAGE_ID_SEPARATOR + mimeTypeUriInSkos);
 			boolean ignored = errorIsIgnored(errorCode);
 
@@ -140,6 +144,7 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 			progressionCounter++;
 			progressionMessage("", (float) progressionCounter / (float) numberOfMimeTypesInSkos * 100.f);
 			mimeTypeUrisInSkos.remove(mimeTypeFromIana);
+			lowerCasedMimeTypeUrisInSkos.remove(mimeTypeFromIana.toLowerCase());
 			if (obsolete || deprecated) {
 				numerator++;
 				String state = obsolete ? "obsolete" : "deprecated";
@@ -156,8 +161,11 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 				result.addMessage(message);
 			}
 		} else {
-
-			if (obsolete || deprecated) {
+			boolean caseError = lowerCasedMimeTypeUrisInSkos.contains(mimeTypeFromIana.toLowerCase());
+			if (caseError) {
+				lowerCasedMimeTypeUrisInSkos.remove(mimeTypeFromIana.toLowerCase());
+			}
+			if (!caseError && (obsolete || deprecated)) {
 				String state = obsolete ? "obsolete" : "deprecated";
 				String errorCode = getErrorCode(state + MESSAGE_ID_SEPARATOR + mimeTypeFromIana);
 				if (StringUtils.isEmpty(errorCode)) {
@@ -172,14 +180,15 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 				numerator++;
 				String errorCode = getErrorCode("missinginskos" + MESSAGE_ID_SEPARATOR + mimeTypeFromIana);
 				boolean ignored = errorIsIgnored(errorCode);
-
 				if (StringUtils.isEmpty(errorCode)) {
 					return;
 				}
 				result.incrementErrorCount(ignored);
+				String missingOrCaseError = caseError ? "caseerror" : "missing";
 				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-						i18n.tr("tests.impl.a4.result.missinginskos.title"),
-						i18n.tr("tests.impl.a4.result.missinginskos.content", new Object[] { mimeTypeFromIana }));
+						i18n.tr("tests.impl.a4.result." + missingOrCaseError + "inskos.title"),
+						i18n.tr("tests.impl.a4.result." + missingOrCaseError + "inskos.content",
+								new Object[] { mimeTypeFromIana }));
 				result.addMessage(message);
 			}
 
