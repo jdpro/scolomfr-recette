@@ -26,6 +26,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.graph.Node;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
@@ -87,7 +88,7 @@ public class JenaEngine {
 			Statement statement = stmts.next();
 			Literal prefLabel = statement.getObject().asLiteral();
 			if (prefLabel.getLanguage().equals(language)) {
-				allPrefLabels.put(statement.getSubject().getURI(), prefLabel.getString());
+				allPrefLabels.put(statement.getSubject().getURI(), prefLabel.getString().trim());
 			}
 		}
 
@@ -124,10 +125,32 @@ public class JenaEngine {
 		return members;
 	}
 
+	public List<String> getAltLabelsForUri(String uri, Model model, boolean normalize) {
+		return getAltLabelsForUri(uri, model, DEFAULT_LANGUAGE, normalize);
+	}
+
+	public List<String> getAltLabelsForUri(String uri, Model model, String language, boolean normalize) {
+		List<String> list = new ArrayList<>();
+		Resource resource = model.getResource(uri);
+		Property prefLabelProp = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+				Constant.SKOS_ALTLABEL_PROPERTY.toString());
+		Selector selector = new SimpleSelector(resource, prefLabelProp, (RDFNode) null);
+		StmtIterator stmts = model.listStatements(selector);
+		while (stmts.hasNext()) {
+			Statement statement = stmts.next();
+			Literal altLabel = (Literal) statement.getObject();
+			if (altLabel.getLanguage().equals(language)) {
+				list.add(normalize ? StringUtils.normalizeSpace(altLabel.getString()) : altLabel.getString());
+			}
+		}
+
+		return list;
+	}
+
 	public enum Constant {
 		SKOS_CORE_NS("http://www.w3.org/2004/02/skos/core#"), SKOS_NARROWER_PROPERTY("narrower"), SKOS_BROADER_PROPERTY(
 				"broader"), SKOS_PREFLABEL_PROPERTY("prefLabel"), SKOS_ALTLABEL_PROPERTY(
-						"altlabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY(
+						"altLabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY(
 								"member"), SKOS_TOP_CONCEPT_PROPERTY("hasTopConcept");
 		private String value;
 

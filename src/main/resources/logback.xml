@@ -19,7 +19,7 @@
 		<appender-ref ref="STDOUT" />
 	</logger>
 
-	<logger name="fr.scolomfr" level="debug" additivity="false">
+	<logger name="fr.scolomfr" level="info" additivity="false">
 		<appender-ref ref="STDOUT" />
 	</logger>
 

@@ -102,7 +102,7 @@ public interface Catalog {
 	 * @param vocabulary
 	 * @return
 	 */
-	List<String> getFilePathsByVersionAndFormat(Version version, String format);
+	Map<String, String> getFilePathsByVersionAndFormat(Version version, String format);
 
 	/**
 	 * 

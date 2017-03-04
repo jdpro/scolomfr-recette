@@ -22,6 +22,7 @@
 package fr.scolomfr.recette.model.tests.impl.formatcomparaisons;
 
 import java.text.MessageFormat;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -79,7 +80,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		Model model = getModel(version, "global", format);
 
-		List<String> vdexFilePaths = getFilePathsForAllVocabularies(version, "vdex");
+		Collection<String> vdexFilePaths = getFilePathsForAllVocabularies(version, "vdex").values();
 		Map<String, Document> vdexDocuments = new HashMap<>();
 		String dtdDirectory = catalog.getDtddirByVersionAndFormat(version, "vdex");
 		for (String vdexFilePath : vdexFilePaths) {

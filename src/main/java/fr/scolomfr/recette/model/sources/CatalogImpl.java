@@ -31,15 +31,13 @@ import java.nio.file.Path;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
 import javax.annotation.PostConstruct;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
 
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
@@ -265,9 +263,9 @@ public class CatalogImpl implements Catalog {
 	}
 
 	@Override
-	public List<String> getFilePathsByVersionAndFormat(Version version, String format) {
+	public Map<String, String> getFilePathsByVersionAndFormat(Version version, String format) {
 		Manifest manifest = getManifests().get(version);
-		List<String> filePaths = new LinkedList<>();
+		Map<String, String> filePaths = new LinkedHashMap<>();
 		String folder;
 		if (null != manifest) {
 			folder = manifest.getFolder();
@@ -276,7 +274,7 @@ public class CatalogImpl implements Catalog {
 			Iterator<String> it = vocabularies.keySet().iterator();
 			while (it.hasNext()) {
 				String key = it.next();
-				filePaths.add(folder + "/" + vocabularies.get(key));
+				filePaths.put(key, folder + "/" + vocabularies.get(key));
 			}
 
 		}
