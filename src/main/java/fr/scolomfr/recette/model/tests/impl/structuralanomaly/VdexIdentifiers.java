@@ -68,7 +68,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		List<String> vdexFilePaths = new LinkedList<String>();
 		if (getVocabulary().equals("global")) {
-			vdexFilePaths.addAll(getFilePathsForAllVocabularies(getVersion(), "vdex"));
+			vdexFilePaths.addAll(getFilePathsForAllVocabularies(getVersion(), "vdex").values());
 		} else {
 			vdexFilePaths.add(getFilePath(getVersion(), getVocabulary(), "vdex"));
 		}

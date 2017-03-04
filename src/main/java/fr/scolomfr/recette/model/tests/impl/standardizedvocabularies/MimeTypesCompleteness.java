@@ -22,7 +22,6 @@
 package fr.scolomfr.recette.model.tests.impl.standardizedvocabularies;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -72,7 +71,7 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		progressionCounter = 0;
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		String format = getSkosType();
-		String vocabulary = useGlobalVocabulary() ? "global" : "voc06";
+		String vocabulary = useGlobalVocabulary() ? "global" : "http://data.education.fr/voc/scolomfr/scolomfr-voc-006";
 		Model model = getModel(getVersion(), vocabulary, format);
 		Resource vocab006 = model.getResource(VOC_06_URI);
 		List<Resource> mimeTypesInSkos = jenaEngine.getMembersOfVocab(vocab006, model);

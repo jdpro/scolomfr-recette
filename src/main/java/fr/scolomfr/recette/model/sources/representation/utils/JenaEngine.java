@@ -25,7 +25,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.graph.Node;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
@@ -53,6 +55,10 @@ public class JenaEngine {
 		return model;
 	}
 
+	public String getPrefLabelFor(String uri, Model model) {
+		return getPrefLabelFor(model.createResource(uri).asNode(), model);
+	}
+
 	public String getPrefLabelFor(Node node, Model model) {
 		return getPrefLabelFor(node, model, DEFAULT_LANGUAGE);
 	}
@@ -73,11 +79,11 @@ public class JenaEngine {
 		return null;
 	}
 
-	public HashMap<String, String> getAllPrefLabels(Model model) {
+	public Map<String, String> getAllPrefLabels(Model model) {
 		return getAllPrefLabels(model, DEFAULT_LANGUAGE);
 	}
 
-	public HashMap<String, String> getAllPrefLabels(Model model, String language) {
+	public Map<String, String> getAllPrefLabels(Model model, String language) {
 		HashMap<String, String> allPrefLabels = new LinkedHashMap<>();
 		Property prefLabelProp = model.getProperty(Constant.SKOS_CORE_NS.toString(),
 				Constant.SKOS_PREFLABEL_PROPERTY.toString());
@@ -87,7 +93,7 @@ public class JenaEngine {
 			Statement statement = stmts.next();
 			Literal prefLabel = statement.getObject().asLiteral();
 			if (prefLabel.getLanguage().equals(language)) {
-				allPrefLabels.put(statement.getSubject().getURI(), prefLabel.getString());
+				allPrefLabels.put(statement.getSubject().getURI(), prefLabel.getString().trim());
 			}
 		}
 
@@ -124,11 +130,72 @@ public class JenaEngine {
 		return members;
 	}
 
+	public List<String> getAltLabelsForUri(String uri, Model model, boolean normalize) {
+		return getAltLabelsForUri(uri, model, DEFAULT_LANGUAGE, normalize);
+	}
+
+	public List<String> getAltLabelsForUri(String uri, Model model, String language, boolean normalize) {
+		List<String> list = new ArrayList<>();
+		Resource resource = model.getResource(uri);
+		Property prefLabelProp = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+				Constant.SKOS_ALTLABEL_PROPERTY.toString());
+		Selector selector = new SimpleSelector(resource, prefLabelProp, (RDFNode) null);
+		StmtIterator stmts = model.listStatements(selector);
+		while (stmts.hasNext()) {
+			Statement statement = stmts.next();
+			Literal altLabel = (Literal) statement.getObject();
+			if (altLabel.getLanguage().equals(language)) {
+				list.add(normalize ? StringUtils.normalizeSpace(altLabel.getString()) : altLabel.getString());
+			}
+		}
+
+		return list;
+	}
+
+	public List<String> getScopeNotesForUri(String uri, Model model, boolean normalize) {
+		return getScopeNotesForUri(uri, model, DEFAULT_LANGUAGE, normalize);
+	}
+
+	public List<String> getScopeNotesForUri(String uri, Model model, String language, boolean normalize) {
+		List<String> list = new ArrayList<>();
+		Resource resource = model.getResource(uri);
+		Property scopeNoteProp = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+				Constant.SKOS_SCOPENOTE_PROPERTY.toString());
+		Selector selector = new SimpleSelector(resource, scopeNoteProp, (RDFNode) null);
+		StmtIterator stmts = model.listStatements(selector);
+		while (stmts.hasNext()) {
+			Statement statement = stmts.next();
+			Literal scopeNote = (Literal) statement.getObject();
+			if (scopeNote.getLanguage().equals(language)) {
+				list.add(normalize ? StringUtils.normalizeSpace(scopeNote.getString()) : scopeNote.getString());
+			}
+		}
+
+		return list;
+	}
+
+	public List<String> getAssociatedUris(String uri, Model model) {
+		List<String> list = new ArrayList<>();
+		Resource resource = model.getResource(uri);
+		Property prefLabelProp = model.getProperty(Constant.SKOS_CORE_NS.toString(),
+				Constant.SKOS_RELATED_PROPERTY.toString());
+		Selector selector = new SimpleSelector(resource, prefLabelProp, (RDFNode) null);
+		StmtIterator stmts = model.listStatements(selector);
+		while (stmts.hasNext()) {
+			Statement statement = stmts.next();
+			Resource associated = (Resource) statement.getObject();
+			list.add(associated.getURI());
+
+		}
+
+		return list;
+	}
+
 	public enum Constant {
 		SKOS_CORE_NS("http://www.w3.org/2004/02/skos/core#"), SKOS_NARROWER_PROPERTY("narrower"), SKOS_BROADER_PROPERTY(
 				"broader"), SKOS_PREFLABEL_PROPERTY("prefLabel"), SKOS_ALTLABEL_PROPERTY(
-						"altlabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY(
-								"member"), SKOS_TOP_CONCEPT_PROPERTY("hasTopConcept");
+						"altLabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY(
+								"member"), SKOS_TOP_CONCEPT_PROPERTY("hasTopConcept"), SKOS_RELATED_PROPERTY("related");
 		private String value;
 
 		private Constant(String value) {

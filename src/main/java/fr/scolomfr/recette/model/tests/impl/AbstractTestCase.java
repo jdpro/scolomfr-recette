@@ -21,6 +21,7 @@
 package fr.scolomfr.recette.model.tests.impl;
 
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
@@ -33,6 +34,7 @@ import javax.naming.NamingException;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.ArrayUtils;
+import org.jsoup.Jsoup;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -235,9 +237,9 @@ public abstract class AbstractTestCase implements TestCase {
 		return filePath;
 	}
 
-	protected List<String> getFilePathsForAllVocabularies(final Version version, final String format) {
-		final List<String> filePaths = catalog.getFilePathsByVersionAndFormat(version, format);
-		if (CollectionUtils.isEmpty(filePaths)) {
+	protected Map<String, String> getFilePathsForAllVocabularies(final Version version, final String format) {
+		final Map<String, String> filePaths = catalog.getFilePathsByVersionAndFormat(version, format);
+		if (CollectionUtils.isEmpty(filePaths.keySet())) {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + version + format,
 					i18n.tr("test.impl.files.unavailable.title"),
 					i18n.tr("test.impl.files.unavailable.content", new Object[] { version, format }));
@@ -247,7 +249,7 @@ public abstract class AbstractTestCase implements TestCase {
 		} else {
 			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePaths.toString(),
 					i18n.tr("test.impl.files.available.title"), i18n.tr("test.impl.files.available.content",
-							new Object[] { version, format, filePaths.size(), filePaths.toString() }));
+							new Object[] { version, format, filePaths.size(), filePaths.values().toString() }));
 		}
 
 		return filePaths;
@@ -353,6 +355,27 @@ public abstract class AbstractTestCase implements TestCase {
 		}
 		String title = i18n.tr("test.impl.xml.readable.title");
 		String content = i18n.tr("test.impl.xml.readable.content", new Object[] { filePath });
+		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
+		return document;
+	}
+
+	protected org.jsoup.nodes.Document getJsoupDocument(String filePath) {
+		org.jsoup.nodes.Document document;
+		try {
+			final InputStream fileInputStream = getFileInputStreamByPath(filePath);
+
+			document = Jsoup.parse(fileInputStream, null, filePath);
+		} catch (final IOException e) {
+			String title = i18n.tr("test.impl.html.unreadable.title");
+			String content = i18n.tr("test.impl.html.unreadable.content", new Object[] { filePath, e.getMessage() });
+			logger.error(content, e);
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title,
+					content);
+			this.result.incrementErrorCount(false);
+			return null;
+		}
+		String title = i18n.tr("test.impl.html.readable.title");
+		String content = i18n.tr("test.impl.html.readable.content", new Object[] { filePath });
 		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
 		return document;
 	}

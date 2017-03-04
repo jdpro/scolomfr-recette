@@ -183,3 +183,7 @@ structure:
         label: SKOS(XL)/VDEX
         index: a17
         format: skosxl
+      skosxl_html:
+        label: SKOS(XL)/HTML
+        index: a19
+        format: skosxl

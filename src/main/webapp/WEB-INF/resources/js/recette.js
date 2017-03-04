@@ -201,7 +201,7 @@ function displayComplianceIndicator(complianceIndicator) {
 		$complianceIndicatorContainer.addClass("hidden");
 	} else {
 		$complianceIndicatorContainer.removeClass("hidden");
-		$complianceIndicator.text(Math.round(complianceIndicator));
+		$complianceIndicator.text(complianceIndicator);
 	}
 }
 function displayMessages(areaId, messages) {
