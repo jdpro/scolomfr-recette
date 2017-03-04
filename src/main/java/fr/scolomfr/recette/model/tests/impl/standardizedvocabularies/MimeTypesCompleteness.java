@@ -49,7 +49,7 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
  * Check the spelling of skos langstrings
  */
 @TestCaseIndex(index = "a4")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.SKOSTYPE })
+@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.SKOSTYPE, TestParameters.Values.GLOBAL })
 public class MimeTypesCompleteness extends AbstractJenaTestCase {
 
 	private static final String MEDIATYPES_URI_PREFIX = "http://purl.org/NET/mediatypes/";
@@ -72,7 +72,8 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		progressionCounter = 0;
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		String format = getSkosType();
-		Model model = getModel(getVersion(), getVocabulary(), format);
+		String vocabulary = useGlobalVocabulary() ? "global" : "voc06";
+		Model model = getModel(getVersion(), vocabulary, format);
 		Resource vocab006 = model.getResource(VOC_06_URI);
 		List<Resource> mimeTypesInSkos = jenaEngine.getMembersOfVocab(vocab006, model);
 		numberOfMimeTypesInSkos = mimeTypesInSkos.size();

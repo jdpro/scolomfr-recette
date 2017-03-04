@@ -153,6 +153,14 @@ public abstract class AbstractTestCase implements TestCase {
 		return getVersion(TestParameters.Values.VERSION);
 	}
 
+	protected boolean useGlobalVocabulary() {
+		String globalOrSpecialStr = executionParameters.get(TestParameters.Values.GLOBAL);
+		if (StringUtils.isEmpty(globalOrSpecialStr)) {
+			return true;
+		}
+		return globalOrSpecialStr.equals(GLOBAL_VOCABULARY);
+	}
+
 	protected Version getVersion(String versionParameter) {
 		String versionStr = executionParameters.get(versionParameter);
 		if (StringUtils.isEmpty(versionStr)) {

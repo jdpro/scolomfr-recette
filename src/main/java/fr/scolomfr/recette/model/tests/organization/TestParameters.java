@@ -50,6 +50,7 @@ public @interface TestParameters {
 		public static final String VERSION2 = "version2";
 		public static final String VOCABULARY2 = "vocabulary2";
 		public static final String SKOSTYPE = "skostype";
+		public static final String GLOBAL = "global";
 
 		private Values() {
 		}

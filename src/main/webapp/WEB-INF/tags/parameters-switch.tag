@@ -40,4 +40,15 @@
 				name="label">
 				<spring:message code="test.tested_skostype"></spring:message> </jsp:attribute></t:skostype>
 	</c:when>
+	<c:when test="${tagname == 'global'}">
+		<t:global parameterName="${tagname}">
+			<jsp:attribute name="label">
+				<spring:message code="test.tested_globalorspecial"></spring:message>
+			</jsp:attribute><jsp:attribute name="label1">
+				<spring:message code="test.tested_global"></spring:message>
+			</jsp:attribute>
+			<jsp:attribute name="label2">
+				<spring:message code="test.tested_special"></spring:message> </jsp:attribute>
+		</t:global>
+	</c:when>
 </c:choose>
