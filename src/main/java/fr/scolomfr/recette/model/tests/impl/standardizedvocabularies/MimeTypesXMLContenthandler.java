@@ -22,85 +22,124 @@ package fr.scolomfr.recette.model.tests.impl.standardizedvocabularies;
 
 import java.text.MessageFormat;
 
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 
+import fr.scolomfr.recette.utils.log.Log;
+
+@Component
 public class MimeTypesXMLContenthandler implements ContentHandler {
 
-	private String currentRegistry;
+	private static final String FILE_TAG_NAME = "file";
+	private static final String NAME_TAG_NAME = "name";
+	private static final String RECORD_TAG_NAME = "record";
+	private static final String REGISTRY_TAG_NAME = "registry";
+
+	@Log
+	Logger logger;
+
 	private boolean inRecord;
 	private boolean inName;
+	private boolean inFile;
 	private StringBuilder currentNameBuilder;
+	private StringBuilder currentFileBuilder;
 	private String currentName;
+	private String currentFile;
 	private boolean inGlobalRegistry;
 	private MimeTypesCompleteness owner;
+	// Not to start with error at first registry tag
+	private boolean submitted = true;
+
+	public void reset() {
+		inGlobalRegistry = inRecord = inName = inFile = false;
+		submitted = true;
+	}
 
 	@Override
 	public void setDocumentLocator(Locator locator) {
-		// TODO Auto-generated method stub
+		// nothing
 
 	}
 
 	@Override
 	public void startDocument() throws SAXException {
-
+		// nothing
 	}
 
 	@Override
 	public void endDocument() throws SAXException {
-		// TODO Auto-generated method stub
+		// nothing
 
 	}
 
 	@Override
 	public void startPrefixMapping(String prefix, String uri) throws SAXException {
-		// TODO Auto-generated method stub
+		// nothing
 
 	}
 
 	@Override
 	public void endPrefixMapping(String prefix) throws SAXException {
-		// TODO Auto-generated method stub
+		// nothing
 
 	}
 
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-		if (localName.equals("registry")) {
+		if (localName.equals(REGISTRY_TAG_NAME)) {
 			if (!inGlobalRegistry) {
 				inGlobalRegistry = true;
 			} else {
-				for (int index = 0; index < attributes.getLength(); index++) {
-					if (attributes.getLocalName(index).equals("id")) {
-						currentRegistry = attributes.getValue(index);
-					}
+				if (!submitted) {
+					logger.error(MessageFormat.format("No mime type submitted for file {0} / name {1}", currentFile,
+							currentName));
 				}
+				submitted = false;
 			}
 
-		} else if (localName.equals("record")) {
+		} else if (localName.equals(RECORD_TAG_NAME)) {
 			inRecord = true;
-		} else if (localName.equals("name") && inRecord) {
+		} else if (localName.equals(NAME_TAG_NAME) && inRecord) {
 			currentNameBuilder = new StringBuilder();
 			currentName = "";
 			inName = true;
+		} else if (localName.equals(FILE_TAG_NAME) && inRecord) {
+			currentFileBuilder = new StringBuilder();
+			currentFile = "";
+			inFile = true;
 		}
 
 	}
 
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException {
-		if (localName.equals("record")) {
+		if (localName.equals(RECORD_TAG_NAME)) {
 			inRecord = false;
-		}
-		if (localName.equals("name") && inRecord) {
+		} else if (localName.equals(NAME_TAG_NAME) && inRecord) {
 			currentName = currentNameBuilder.toString();
 			inName = false;
-			String mimeType = MessageFormat.format("{0}/{1}", currentRegistry, currentName);
-			owner.submitMimeType(mimeType);
+			submitMimeTypeIfPossible();
+		} else if (localName.equals(FILE_TAG_NAME) && inRecord) {
+			currentFile = currentFileBuilder.toString();
+			inFile = false;
+			submitMimeTypeIfPossible();
 		}
 
+	}
+
+	private void submitMimeTypeIfPossible() {
+		if (!StringUtils.isEmpty(currentFile) && !StringUtils.isEmpty(currentName)) {
+			owner.submitMimeType(currentFile, currentName);
+			currentFile = "";
+			currentName = "";
+			submitted = true;
+		}
 	}
 
 	@Override
@@ -108,30 +147,32 @@ public class MimeTypesXMLContenthandler implements ContentHandler {
 		String str = new String(ch, start, length);
 		if (inName) {
 			currentNameBuilder.append(str);
+		} else if (inFile) {
+			currentFileBuilder.append(str);
 		}
 
 	}
 
 	@Override
 	public void ignorableWhitespace(char[] ch, int start, int length) throws SAXException {
-		// TODO Auto-generated method stub
+		// nothing
 
 	}
 
 	@Override
 	public void processingInstruction(String target, String data) throws SAXException {
-		// TODO Auto-generated method stub
+		// nothing
 
 	}
 
 	@Override
 	public void skippedEntity(String name) throws SAXException {
-		// TODO Auto-generated method stub
+		// nothing
 
 	}
 
 	public void setOwner(MimeTypesCompleteness owner) {
-		this.owner = owner;		
+		this.owner = owner;
 	}
 
 }

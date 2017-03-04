@@ -31,6 +31,7 @@ import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
@@ -58,7 +59,11 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 	private int numerator;
 	private int denominator;
 	private int progressionCounter;
-	ArrayList<String> mimeTypeUrisInSkos;
+	private ArrayList<String> mimeTypeUrisInSkos;
+	private ArrayList<String> lowerCasedMimeTypeUrisInSkos;
+
+	@Autowired
+	MimeTypesXMLContenthandler mimeTypesXMLContenthandler;
 
 	@Override
 	public void run() {
@@ -73,24 +78,26 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		numberOfMimeTypesInSkos = mimeTypesInSkos.size();
 		Iterator<Resource> it = mimeTypesInSkos.iterator();
 		mimeTypeUrisInSkos = new ArrayList<>();
+		lowerCasedMimeTypeUrisInSkos = new ArrayList<>();
 		String uri;
 		while (it.hasNext()) {
-
 			uri = it.next().getURI();
 			uri = uri.replace(MEDIATYPES_URI_PREFIX, "");
 			mimeTypeUrisInSkos.add(uri);
+			lowerCasedMimeTypeUrisInSkos.add(uri.toLowerCase());
 		}
 		try {
 			XMLReader myReader = XMLReaderFactory.createXMLReader();
-			MimeTypesXMLContenthandler handler = new MimeTypesXMLContenthandler();
-			handler.setOwner(this);
-			myReader.setContentHandler(handler);
+			mimeTypesXMLContenthandler.setOwner(this);
+			mimeTypesXMLContenthandler.reset();
+			myReader.setContentHandler(mimeTypesXMLContenthandler);
 			myReader.parse(new InputSource(new URL(IANA_URI).openStream()));
 
 		} catch (IOException | SAXException e) {
+			String messageStr = i18n.tr("tests.impl.a4.result.datafailure.content", new Object[] { e.getMessage() });
 			Message message = new Message(Message.Type.FAILURE, getErrorCode(CommonMessageKeys.NETWORK_ERROR.name()),
-					i18n.tr("tests.impl.a4.result.datafailure.title"),
-					i18n.tr("tests.impl.a4.result.datafailure.content", new Object[] { e.getMessage() }));
+					i18n.tr("tests.impl.a4.result.datafailure.title"), messageStr);
+			logger.error(messageStr, e);
 			result.addMessage(message);
 			stopTestCase();
 			return;
@@ -119,17 +126,14 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		result.setState(State.FINAL);
 	}
 
-	public void submitMimeType(String mimeTypeFromIana) {
+	public void submitMimeType(String mimeTypeFromIana, String mimeTypeNameFromIana) {
 		boolean obsolete = false;
 		boolean deprecated = false;
-		if (mimeTypeFromIana.contains("OBSOLETE")) {
+		if (mimeTypeNameFromIana.contains("OBSOLETE")) {
 			obsolete = true;
 		}
-		if (mimeTypeFromIana.contains("DEPRECATED")) {
+		if (mimeTypeNameFromIana.contains("DEPRECATED")) {
 			deprecated = true;
-		}
-		if (obsolete || deprecated) {
-			mimeTypeFromIana = mimeTypeFromIana.replaceAll("\\s.*$", "");
 		}
 		if (mimeTypeUrisInSkos.contains(mimeTypeFromIana)) {
 			denominator++;
