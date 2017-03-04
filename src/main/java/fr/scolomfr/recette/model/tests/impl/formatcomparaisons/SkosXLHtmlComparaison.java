@@ -23,14 +23,11 @@ package fr.scolomfr.recette.model.tests.impl.formatcomparaisons;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.collections.MapUtils;
-import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.rdf.model.Model;
 import org.jsoup.nodes.Document;
@@ -70,7 +67,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		Model model = getModel(version, vocabulary, format);
 		@SuppressWarnings("unchecked")
-		HashMap<String, String> prefLabelsInSkos = jenaEngine.getAllPrefLabels(model);
+		Map<String, String> prefLabelsInSkos = jenaEngine.getAllPrefLabels(model);
 		Map<String, String> htmlFilePaths = null;
 		if (vocabulary.equals("global")) {
 			htmlFilePaths = getFilePathsForAllVocabularies(version, "html");
@@ -106,20 +103,12 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 				if (i % step == 0) {
 					progressionMessage(docInfo, (float) i / (float) nbLabels * 100.f);
 				}
-				System.out.println(denominator + "    " + numerator);
 				refreshComplianceIndicator(result, (denominator - numerator), denominator);
 				denominator++;
 				Element labelElement = labels.get(i);
 				String rawTextContent = labelElement.text();
 				String errorCode = null;
-				try {
-					errorCode = generateUniqueErrorCode(htmlFilePath + MESSAGE_ID_SEPARATOR + rawTextContent);
-				} catch (DuplicateErrorCodeException e) {
 
-					logger.debug("Errorcode {} generated twice ", errorCode, e);
-
-				}
-				boolean ignored = errorIsIgnored(errorCode);
 				List<Pair<HTMLFragmentIndex, String>> fragments = findFragmentsIn(rawTextContent);
 				List<String> uris = null;
 				String htmlPrefLabel = null;
@@ -129,6 +118,13 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 						htmlPrefLabel = fragment.getSecond();
 						uris = checkLabelInSkosVokabularyAndReturnUris(htmlPrefLabel, prefLabelsInSkos);
 						if (uris.isEmpty()) {
+							try {
+								errorCode = generateUniqueErrorCode(vocabUri + MESSAGE_ID_SEPARATOR + "invalidlabel"
+										+ MESSAGE_ID_SEPARATOR + htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
+							} catch (DuplicateErrorCodeException e) {
+								logger.debug("Errorcode {} generated twice ", errorCode, e);
+							}
+							boolean ignored = errorIsIgnored(errorCode);
 							result.incrementErrorCount(ignored);
 							numerator++;
 							Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
@@ -146,12 +142,64 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 							String htmlAltLabel = fragment.getSecond();
 							boolean found = checkIfAltLabelInSkosVokabularyForUris(htmlAltLabel, uris, model);
 							if (!found) {
+								try {
+									errorCode = generateUniqueErrorCode(
+											vocabUri + MESSAGE_ID_SEPARATOR + "invalidequiv" + MESSAGE_ID_SEPARATOR
+													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
+								} catch (DuplicateErrorCodeException e) {
+									logger.debug("Errorcode {} generated twice ", errorCode, e);
+								}
+								boolean ignored = errorIsIgnored(errorCode);
 								result.incrementErrorCount(ignored);
 								numerator++;
 								Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 										errorCode, i18n.tr("tests.impl.a19.result.invalidequiv.title"),
 										i18n.tr("tests.impl.a19.result.invalidequiv.content", new Object[] {
 												htmlPrefLabel, StringUtils.join(uris, ", "), htmlAltLabel }));
+								result.addMessage(message);
+							}
+						}
+						if (fragment.getFirst().equals(HTMLFragmentIndex.NA)) {
+
+							String htmlNote = fragment.getSecond();
+							boolean found = checkIfScopeNoteInSkosVokabularyForUris(htmlNote, uris, model);
+							if (!found) {
+								try {
+									errorCode = generateUniqueErrorCode(
+											vocabUri + MESSAGE_ID_SEPARATOR + "invalidnote" + MESSAGE_ID_SEPARATOR
+													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
+								} catch (DuplicateErrorCodeException e) {
+									logger.debug("Errorcode {} generated twice ", errorCode, e);
+								}
+								boolean ignored = errorIsIgnored(errorCode);
+								result.incrementErrorCount(ignored);
+								numerator++;
+								Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
+										errorCode, i18n.tr("tests.impl.a19.result.invalidnote.title"),
+										i18n.tr("tests.impl.a19.result.invalidnote.content", new Object[] {
+												htmlPrefLabel, StringUtils.join(uris, ", "), htmlNote }));
+								result.addMessage(message);
+							}
+						}
+						if (fragment.getFirst().equals(HTMLFragmentIndex.TA)) {
+
+							String associatedLabel = fragment.getSecond();
+							boolean found = checkIfAssociatedLabelInSkosVokabularyForUris(associatedLabel, uris, model);
+							if (!found) {
+								try {
+									errorCode = generateUniqueErrorCode(
+											vocabUri + MESSAGE_ID_SEPARATOR + "invalidassoc" + MESSAGE_ID_SEPARATOR
+													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
+								} catch (DuplicateErrorCodeException e) {
+									logger.debug("Errorcode {} generated twice ", errorCode, e);
+								}
+								boolean ignored = errorIsIgnored(errorCode);
+								result.incrementErrorCount(ignored);
+								numerator++;
+								Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
+										errorCode, i18n.tr("tests.impl.a19.result.invalidassoc.title"),
+										i18n.tr("tests.impl.a19.result.invalidassoc.content", new Object[] {
+												htmlPrefLabel, StringUtils.join(uris, ", "), associatedLabel }));
 								result.addMessage(message);
 							}
 						}
@@ -186,8 +234,30 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 		return false;
 	}
 
+	private boolean checkIfScopeNoteInSkosVokabularyForUris(String htmlScopeNote, List<String> uris, Model model) {
+		for (String uri : uris) {
+			if (jenaEngine.getScopeNotesForUri(uri, model, true).contains(StringUtils.normalizeSpace(htmlScopeNote))) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	private boolean checkIfAssociatedLabelInSkosVokabularyForUris(String htmlAssociatedTree, List<String> uris,
+			Model model) {
+		for (String uri : uris) {
+			List<String> associatedUris = jenaEngine.getAssociatedUris(uri, model);
+			for (String associatedUri : associatedUris) {
+				if (jenaEngine.getPrefLabelFor(associatedUri, model).equals(htmlAssociatedTree)) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
 	private List<String> checkLabelInSkosVokabularyAndReturnUris(String htmlLabel,
-			HashMap<String, String> prefLabelsInSkos) {
+			Map<String, String> prefLabelsInSkos) {
 		ArrayList<String> list = new ArrayList<>();
 		String htmlLabelTrimed = htmlLabel.trim();
 		Iterator<String> it = prefLabelsInSkos.keySet().iterator();

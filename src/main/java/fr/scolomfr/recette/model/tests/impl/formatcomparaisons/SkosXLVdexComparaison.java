@@ -25,7 +25,6 @@ import java.text.MessageFormat;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -176,7 +175,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		}
 		// Let's loop on the Skos to find identifiers that would be missing in
 		// VDEX
-		HashMap<String, String> allPrefLabels = jenaEngine.getAllPrefLabels(model);
+		Map<String, String> allPrefLabels = jenaEngine.getAllPrefLabels(model);
 		Set<String> missings = allPrefLabels.keySet();
 		missings.removeAll(allVdexUriIdentifiers);
 		for (String missing : missings) {
