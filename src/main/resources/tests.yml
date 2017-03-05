@@ -143,6 +143,14 @@ structure:
             index: q29
             label: Mapping Relations Misuse
             format: skos
+      html:
+        index: 2.2.4
+        label: HTML
+        tests:
+          conformite_w3c:
+            index: a13
+            label: HTML Conformité W3C
+            format: html
   absence_fautes_orthographe:
     label: Absence de fautes d'orthographe
     index: 3.1

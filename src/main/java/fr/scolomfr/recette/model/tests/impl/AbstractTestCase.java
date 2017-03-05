@@ -68,7 +68,7 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected static final String MESSAGE_ID_SEPARATOR = "_";
 
-	private static final String GLOBAL_VOCABULARY = "global";
+	protected static final String GLOBAL_VOCABULARY = "global";
 
 	private ExecutionMode executionMode = ExecutionMode.SYNCHRONOUS;
 

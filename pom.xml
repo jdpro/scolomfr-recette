@@ -257,9 +257,17 @@
 			<artifactId>jsoup</artifactId>
 			<version>1.10.2</version>
 		</dependency>
-
-
-
+		<dependency>
+			<groupId>nu.validator</groupId>
+			<artifactId>validator</artifactId>
+			<version>15.3.14</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.eclipse.jetty</groupId>
+					<artifactId>*</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 	</dependencies>
 
 	<repositories>
