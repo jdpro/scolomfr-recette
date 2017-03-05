@@ -71,7 +71,7 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		progressionCounter = 0;
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		String format = getSkosType();
-		String vocabulary = useGlobalVocabulary() ? "global" : "http://data.education.fr/voc/scolomfr/scolomfr-voc-006";
+		String vocabulary = useGlobalVocabulary() ? GLOBAL_VOCABULARY : "http://data.education.fr/voc/scolomfr/scolomfr-voc-006";
 		Model model = getModel(getVersion(), vocabulary, format);
 		Resource vocab006 = model.getResource(VOC_06_URI);
 		List<Resource> mimeTypesInSkos = jenaEngine.getMembersOfVocab(vocab006, model);

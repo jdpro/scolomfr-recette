@@ -69,7 +69,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 		@SuppressWarnings("unchecked")
 		Map<String, String> prefLabelsInSkos = jenaEngine.getAllPrefLabels(model);
 		Map<String, String> htmlFilePaths = null;
-		if (vocabulary.equals("global")) {
+		if (vocabulary.equals(GLOBAL_VOCABULARY)) {
 			htmlFilePaths = getFilePathsForAllVocabularies(version, "html");
 		} else {
 			htmlFilePaths = new HashMap<>();
