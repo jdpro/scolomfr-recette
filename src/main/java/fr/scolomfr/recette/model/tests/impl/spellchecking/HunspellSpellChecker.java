@@ -80,13 +80,13 @@ public class HunspellSpellChecker implements SpellChecker {
 				result.addInvalidFragment(labelFragment);
 			}
 		}
-		if (valid == true && partial == false) {
+		if (valid && !partial) {
 			result.setState(State.VALID);
-		} else if (valid == true && partial == true) {
+		} else if (valid) {
 			result.setState(State.PARTIALY_VALID);
-		} else if (valid == false && partial == false) {
+		} else if (!partial) {
 			result.setState(State.INVALID);
-		} else if (valid == false && partial == true) {
+		} else {
 			result.setState(State.PARTIALY_INVALID);
 		}
 

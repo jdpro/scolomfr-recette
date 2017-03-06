@@ -118,6 +118,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 						errorCode = generateUniqueErrorCode(filePath + MESSAGE_ID_SEPARATOR
 								+ (StringUtils.isEmpty(identifier) ? lineNumber : identifier));
 					} catch (DuplicateErrorCodeException e1) {
+						logger.debug("Errorcode {} generated twice, new attempt with more parameters ", errorCode, e1);
 						try {
 							errorCode = generateUniqueErrorCode(
 									filePath + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
