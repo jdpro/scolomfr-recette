@@ -35,6 +35,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import fr.scolomfr.recette.config.MvcConfiguration;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.impl.AbstractTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
 import static org.junit.Assert.assertThat;
@@ -48,7 +49,7 @@ import static org.hamcrest.CoreMatchers.containsString;
 public class SkosXLHTMLComparaisonTest {
 
 	@Autowired
-	private SkosXLHtmlComparaison skosXLHtmlComparaison;
+	private AbstractTestCase skosXLHtmlComparaison;
 
 	@Test
 	public void testHtmlWithInvalidLabel() {

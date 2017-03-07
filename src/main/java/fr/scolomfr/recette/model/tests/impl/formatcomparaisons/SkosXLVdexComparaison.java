@@ -123,7 +123,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 							errorCode = generateUniqueErrorCode(
 									filePath + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
 						} catch (DuplicateErrorCodeException e) {
-							logger.debug("Errorcode {} generated twice ", errorCode, e);
+							logger.debug(ERROR_CODE_DUPLICATE, errorCode, e);
 						}
 					}
 					boolean ignored = errorIsIgnored(errorCode);

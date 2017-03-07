@@ -67,6 +67,8 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected static final String GLOBAL_VOCABULARY = "global";
 
+	protected static final String ERROR_CODE_DUPLICATE = "Errorcode {} generated twice";
+
 	private ExecutionMode executionMode = ExecutionMode.SYNCHRONOUS;
 
 	@Log

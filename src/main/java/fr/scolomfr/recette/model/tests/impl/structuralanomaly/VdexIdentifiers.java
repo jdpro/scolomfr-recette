@@ -112,12 +112,12 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 						errorCode = generateUniqueErrorCode(filePath + MESSAGE_ID_SEPARATOR
 								+ (StringUtils.isEmpty(identifier) ? lineNumber : identifier));
 					} catch (DuplicateErrorCodeException e1) {
-						logger.debug("Errorcode {} generated twice ", errorCode, e1);
+						logger.debug(ERROR_CODE_DUPLICATE, errorCode, e1);
 						try {
 							errorCode = generateUniqueErrorCode(
 									filePath + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
 						} catch (DuplicateErrorCodeException e2) {
-							logger.debug("Errorcode {} generated twice ", errorCode, e2);
+							logger.debug(ERROR_CODE_DUPLICATE, errorCode, e2);
 						}
 					}
 					boolean ignored = errorIsIgnored(errorCode);

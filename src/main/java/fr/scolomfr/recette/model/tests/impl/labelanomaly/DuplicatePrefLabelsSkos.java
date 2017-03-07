@@ -90,7 +90,7 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 						try {
 							errorCode = generateUniqueErrorCode(label + parent.getURI() + child.getURI());
 						} catch (DuplicateErrorCodeException e) {
-							logger.error("Errorcode {} generated twice ", errorCode, e);
+							logger.error(ERROR_CODE_DUPLICATE, errorCode, e);
 							continue;
 						}
 						boolean ignored = errorIsIgnored(errorCode);

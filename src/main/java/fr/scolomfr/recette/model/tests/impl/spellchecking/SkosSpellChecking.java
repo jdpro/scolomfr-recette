@@ -102,7 +102,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 			try {
 				errorCode = generateUniqueErrorCode(statement, predicate, label);
 			} catch (DuplicateErrorCodeException e1) {
-				logger.debug("Errorcode {} generated twice ", errorCode, e1);
+				logger.debug(ERROR_CODE_DUPLICATE, errorCode, e1);
 				continue;
 			}
 			try {
