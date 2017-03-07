@@ -47,7 +47,7 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 @TestCaseIndex(index = "a21")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VERSION2,
 		TestParameters.Values.VOCABULARY, TestParameters.Values.SKOSTYPE })
-public class ConservationConceptsEntreVersionsSkos extends AbstractJenaTestCase {
+public class PreservationOfTermsBetweenVersionsSkos extends AbstractJenaTestCase {
 
 	private static final String LANG_FR_ATTR = "fr";
 

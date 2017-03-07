@@ -40,7 +40,7 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 @TestCaseIndex(index = "s2xx")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VERSION2,
 		TestParameters.Values.VOCABULARY, TestParameters.Values.SKOSTYPE })
-public class ConservationConceptsEntreVersionsSkosSparql extends AbstractSparqlTestCase {
+public class PreservationOfTermsBetweenVersionsSkosSparql extends AbstractSparqlTestCase {
 
 	static final String QUERY_FILE = "conservation_concepts_entre_versions.sparql";
 

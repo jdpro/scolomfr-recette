@@ -35,7 +35,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import fr.scolomfr.recette.config.MvcConfiguration;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.impl.preservationofterms.ConservationConceptsEntreVersionsSkos;
+import fr.scolomfr.recette.model.tests.impl.preservationofterms.PreservationOfTermsBetweenVersionsSkos;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
 import static org.junit.Assert.assertThat;
@@ -45,10 +45,10 @@ import static org.hamcrest.CoreMatchers.containsString;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
-public class ConservationConceptsEntreVersionsSkosTest {
+public class PreservationOfTermsBetweenVersionsSkosTest {
 
 	@Autowired
-	private ConservationConceptsEntreVersionsSkos conservationConceptsEntreVersions;
+	private PreservationOfTermsBetweenVersionsSkos conservationConceptsEntreVersions;
 
 	@Test
 	public void testSkosWithLostConcepts() {
