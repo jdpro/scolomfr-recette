@@ -33,8 +33,6 @@ import org.xml.sax.SAXException;
 
 public class DomDocumentSourceRepresentationFactory extends SourceRepresentationFactory {
 
-	private String dtdDirectory;
-
 	@Override
 	public Document getSourceRepresentation(InputStream inputStream) throws SourceRepresentationBuildException {
 		DocumentBuilderFactory factory = null;
@@ -63,9 +61,8 @@ public class DomDocumentSourceRepresentationFactory extends SourceRepresentation
 
 	@Override
 	public void setDtdDirectory(String dtdDirectory) {
-		this.dtdDirectory = dtdDirectory;
-		
-		
+		// Not used
+
 	}
 
 }

@@ -23,8 +23,6 @@ package fr.scolomfr.recette.model.sources.representation;
 
 import java.io.InputStream;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 
 public class SourceRepresentationBuilder<T> {

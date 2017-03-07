@@ -21,46 +21,18 @@
  */
 package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
 
-import java.util.Collection;
-import java.util.Iterator;
-
-import org.openrdf.model.Resource;
-
-import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
+import fr.scolomfr.recette.model.tests.impl.AbstractCollectionResourceQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
-import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
  * @see at.ac.univie.mminf.qskos4j.issues.concepts.UndocumentedConcepts
  */
 @TestCaseIndex(index = "q4")
-@TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
-		TestParameters.Values.SKOSTYPE })
-public class UndocumentedConcepts extends AbstractQskosTestCase<Collection<Resource>> {
+public class UndocumentedConcepts extends AbstractCollectionResourceQskosTestCase {
 
 	@Override
 	protected String getQskosIssueCode() {
 		return "uc";
-	}
-
-	@Override
-	protected void populateResult(Collection<Resource> data) {
-		if (data == null) {
-			return;
-		}
-		Iterator<Resource> it = data.iterator();
-
-		while (it.hasNext()) {
-			Resource resource = it.next();
-			String errorCode = generateUniqueErrorCode(resource.stringValue());
-			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos.uc.result.title"),
-					i18n.tr("tests.impl.qskos.uc.result.content", new Object[] { resource.stringValue() })));
-		}
-
 	}
 
 }

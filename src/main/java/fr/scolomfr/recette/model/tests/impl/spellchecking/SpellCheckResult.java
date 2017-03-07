@@ -23,8 +23,6 @@ package fr.scolomfr.recette.model.tests.impl.spellchecking;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
-
 public class SpellCheckResult {
 
 	public SpellCheckResult() {

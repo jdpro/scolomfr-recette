@@ -45,7 +45,7 @@ public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 	public void run() {
 		Version version = getVersion();
 		final String vocabulary = getVocabulary();
-qskosEngine.notifyTestCase(this);
+		qskosEngine.notifyTestCase(this);
 		String format = getSkosType();
 		final String filePath = getFilePath(version, vocabulary, format);
 

@@ -23,13 +23,9 @@ package fr.scolomfr.recette.model.sources.representation;
 import java.io.IOException;
 import java.io.InputStream;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.w3c.dom.Document;
-import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import fr.scolomfr.recette.model.sources.representation.utils.DomDocumentWithLineNumbersBuilder;

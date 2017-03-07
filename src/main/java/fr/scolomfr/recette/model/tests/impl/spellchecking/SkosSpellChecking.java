@@ -24,8 +24,6 @@ package fr.scolomfr.recette.model.tests.impl.spellchecking;
 import java.util.Iterator;
 import java.util.List;
 
-import org.apache.jena.ext.com.google.common.collect.Iterators;
-import org.apache.jena.ext.com.google.common.collect.Lists;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;

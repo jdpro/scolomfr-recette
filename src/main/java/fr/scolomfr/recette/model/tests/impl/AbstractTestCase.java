@@ -29,9 +29,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.jsoup.Jsoup;
@@ -73,10 +70,10 @@ public abstract class AbstractTestCase implements TestCase {
 	private ExecutionMode executionMode = ExecutionMode.SYNCHRONOUS;
 
 	@Log
-	public Logger logger;
+	protected Logger logger;
 
 	@Autowired
-	public Catalog catalog;
+	protected Catalog catalog;
 
 	@Autowired
 	StringRedisTemplate stringRedisTemplate;
@@ -87,12 +84,12 @@ public abstract class AbstractTestCase implements TestCase {
 	List<String> errorCodes = new ArrayList<>();
 
 	protected Map<String, String> executionParameters;
-	public Result result = new Result();
+	protected Result result = new Result();
 	protected Integer executionIdentifier;
 	protected TestCaseExecutionRegistry testCaseExecutionRegistry;
 
 	@Autowired
-	public I18nProvider i18n;
+	protected I18nProvider i18n;
 
 	@Override
 	public void setExecutionParameters(Map<String, String> executionParameters) {
@@ -345,12 +342,7 @@ public abstract class AbstractTestCase implements TestCase {
 			}
 			document = sourceRepresentationBuilder.inputStream(fileInputStream).build();
 		} catch (final SourceRepresentationBuildException e) {
-			String title = i18n.tr("test.impl.xml.unreadable.title");
-			String content = i18n.tr("test.impl.xml.unreadable.content", new Object[] { filePath, e.getMessage() });
-			logger.error(content, e);
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title,
-					content);
-			this.result.incrementErrorCount(false);
+			launchUnreadableError(filePath, "xml", e);
 			return null;
 		}
 		String title = i18n.tr("test.impl.xml.readable.title");
@@ -366,18 +358,22 @@ public abstract class AbstractTestCase implements TestCase {
 
 			document = Jsoup.parse(fileInputStream, null, filePath);
 		} catch (final IOException e) {
-			String title = i18n.tr("test.impl.html.unreadable.title");
-			String content = i18n.tr("test.impl.html.unreadable.content", new Object[] { filePath, e.getMessage() });
-			logger.error(content, e);
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title,
-					content);
-			this.result.incrementErrorCount(false);
+			launchUnreadableError(filePath, "html", e);
 			return null;
 		}
 		String title = i18n.tr("test.impl.html.readable.title");
 		String content = i18n.tr("test.impl.html.readable.content", new Object[] { filePath });
 		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
 		return document;
+	}
+
+	private void launchUnreadableError(String filePath, String format, final Exception e) {
+		String title = i18n.tr("test.impl." + format + ".unreadable.title");
+		String content = i18n.tr("test.impl." + format + ".unreadable.content",
+				new Object[] { filePath, e.getMessage() });
+		logger.error(content, e);
+		result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
+		this.result.incrementErrorCount(false);
 	}
 
 	@Override
@@ -401,6 +397,9 @@ public abstract class AbstractTestCase implements TestCase {
 		this.executionMode = executionMode;
 	}
 
+	/**
+	 * Execution modes for a test case
+	 */
 	public enum ExecutionMode {
 		SYNCHRONOUS, ASYNCHRONOUS;
 	}

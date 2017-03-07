@@ -69,7 +69,6 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 		if (null == model) {
 			return;
 		}
-		@SuppressWarnings("unchecked")
 		Map<String, String> prefLabelsInSkos = jenaEngine.getAllPrefLabels(model);
 		Map<String, String> htmlFilePaths = null;
 		if (vocabulary.equals(GLOBAL_VOCABULARY)) {
@@ -216,16 +215,6 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 		progressionMessage("", 100);
 		result.setState(State.FINAL);
 
-	}
-
-	private boolean checkIfAltLabelInSkosVokabularyForUrisWithNormalization(String htmlAltLabel, List<String> uris,
-			Model model) {
-		for (String uri : uris) {
-			if (jenaEngine.getAltLabelsForUri(uri, model, true).contains(StringUtils.normalizeSpace(htmlAltLabel))) {
-				return true;
-			}
-		}
-		return false;
 	}
 
 	private boolean checkIfAltLabelInSkosVokabularyForUris(String htmlAltLabel, List<String> uris, Model model) {

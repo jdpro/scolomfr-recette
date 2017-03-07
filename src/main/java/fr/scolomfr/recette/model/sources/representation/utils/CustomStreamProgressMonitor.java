@@ -21,7 +21,6 @@
 package fr.scolomfr.recette.model.sources.representation.utils;
 
 import at.ac.univie.mminf.qskos4j.progress.IProgressMonitor;
-import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 
 public class CustomStreamProgressMonitor implements IProgressMonitor {

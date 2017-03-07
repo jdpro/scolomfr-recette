@@ -31,7 +31,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import org.slf4j.Logger;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import fr.scolomfr.recette.utils.log.Log;

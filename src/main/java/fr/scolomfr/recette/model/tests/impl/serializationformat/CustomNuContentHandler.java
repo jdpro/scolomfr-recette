@@ -26,14 +26,11 @@ import org.xml.sax.ContentHandler;
 import org.xml.sax.Locator;
 import org.xml.sax.SAXException;
 
-import fr.scolomfr.recette.model.tests.organization.TestCase;
-
 @Component
 public class CustomNuContentHandler implements ContentHandler {
 
 	private HTMLW3CCompliance owner;
 	private StringBuilder messageBuilder;
-	private boolean inMessage;
 
 	@Override
 	public void setDocumentLocator(Locator locator) {
@@ -67,9 +64,7 @@ public class CustomNuContentHandler implements ContentHandler {
 
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes atts) throws SAXException {
-		if (localName.equals("message")) {
-			inMessage = true;
-		} else if (localName.equals("code")) {
+		if (localName.equals("code")) {
 			messageBuilder.append("<code>");
 		}
 
@@ -82,7 +77,6 @@ public class CustomNuContentHandler implements ContentHandler {
 			MessageType messageType = MessageType.fromString(localName);
 			owner.submitMessage(messageType, messageBuilder.toString());
 			messageBuilder = new StringBuilder();
-			inMessage = false;
 		} else if (localName.equals("code")) {
 			messageBuilder.append("</code>");
 		}
@@ -119,7 +113,6 @@ public class CustomNuContentHandler implements ContentHandler {
 	}
 
 	public void reset() {
-		inMessage = false;
 		messageBuilder = new StringBuilder();
 
 	}

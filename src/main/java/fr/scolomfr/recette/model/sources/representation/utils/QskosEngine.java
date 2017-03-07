@@ -35,7 +35,6 @@ import org.springframework.util.StringUtils;
 import at.ac.univie.mminf.qskos4j.QSkos;
 import at.ac.univie.mminf.qskos4j.issues.Issue;
 import at.ac.univie.mminf.qskos4j.progress.IProgressMonitor;
-import at.ac.univie.mminf.qskos4j.progress.StreamProgressMonitor;
 import at.ac.univie.mminf.qskos4j.result.Result;
 import at.ac.univie.mminf.qskos4j.util.vocab.RepositoryBuilder;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase;
