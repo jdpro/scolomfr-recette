@@ -66,13 +66,9 @@ public class SkosXLHTMLComparaisonTest {
 		for (Message message : result.getMessages()) {
 			if (message.getType().equals(Message.Type.ERROR)) {
 				nbErrors++;
-				String uri = "http://data.education.fr/voc/scolomfr/concept/exam";
-				String label = "examen";
-				String invalideAssociatedTerm = "Préparation à l'examen";
-				assertThat(uri + " should be found in the message", message.getContent(), containsString(uri));
-				assertThat(label + " should be found in the message", message.getContent(), containsString(label));
-				assertThat(invalideAssociatedTerm + " should be found in the message", message.getContent(),
-						containsString(invalideAssociatedTerm));
+				String invalidLabel = "<strong>un libellé invalide</strong>";
+				assertThat(invalidLabel + " should be found in the message", message.getContent(),
+						containsString(invalidLabel));
 
 			}
 		}
@@ -96,9 +92,13 @@ public class SkosXLHTMLComparaisonTest {
 		for (Message message : result.getMessages()) {
 			if (message.getType().equals(Message.Type.ERROR)) {
 				nbErrors++;
-				String invalidLabel = "<strong>un libellé invalide</strong>";
-				assertThat(invalidLabel + " should be found in the message", message.getContent(),
-						containsString(invalidLabel));
+				String uri = "http://data.education.fr/voc/scolomfr/concept/exam";
+				String label = "examen";
+				String invalideAssociatedTerm = "préparation à l'examen";
+				assertThat(uri + " should be found in the message", message.getContent(), containsString(uri));
+				assertThat(label + " should be found in the message", message.getContent(), containsString(label));
+				assertThat(invalideAssociatedTerm + " should be found in the message", message.getContent(),
+						containsString(invalideAssociatedTerm));
 
 			}
 		}
