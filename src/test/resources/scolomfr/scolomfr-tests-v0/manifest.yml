@@ -3,5 +3,14 @@ content:
   skos:
     a6_dup_pref_lab_invalid: a6/a6_dup_pref_lab_invalid.skos
     a6_dup_pref_lab_valid: a6/a6_dup_pref_lab_valid.skos
+    a19_valid: a19/a19_valid.rdf
+    a19_label_invalid: a19/a19_label_invalid.rdf
+    a19_na_invalid: a19/a19_na_invalid.rdf
+    a19_ta_invalid: a19/a19_ta_invalid.rdf
     s2_conservation_concepts_invalid: s2/s2_conservation_concepts_invalid_v0.skos
     s2_conservation_concepts_valid: s2/s2_conservation_concepts_valid_v0.skos
+  html:
+    a19_valid: a19/a19_valid.html
+    a19_label_invalid: a19/a19_label_invalid.html
+    a19_na_invalid: a19/a19_na_invalid.html
+    a19_ta_invalid: a19/a19_ta_invalid.html
