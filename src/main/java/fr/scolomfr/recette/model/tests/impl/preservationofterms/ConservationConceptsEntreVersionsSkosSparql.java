@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.conservationconcepts;
+package fr.scolomfr.recette.model.tests.impl.preservationofterms;
 
 import org.apache.jena.query.Dataset;
 import org.apache.jena.query.QueryExecution;
