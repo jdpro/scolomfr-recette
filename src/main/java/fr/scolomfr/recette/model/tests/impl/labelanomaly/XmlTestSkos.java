@@ -28,8 +28,6 @@ import java.util.Map;
 import javax.xml.transform.TransformerException;
 
 import org.apache.xpath.CachedXPathAPI;
-import org.slf4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -37,7 +35,6 @@ import org.w3c.dom.NodeList;
 
 import com.github.zafarkhaja.semver.Version;
 
-import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuildException;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuilder;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
@@ -46,7 +43,6 @@ import fr.scolomfr.recette.model.tests.execution.result.Result.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
-import fr.scolomfr.recette.utils.log.Log;
 
 /**
  * Two
@@ -55,12 +51,6 @@ import fr.scolomfr.recette.utils.log.Log;
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
 public class XmlTestSkos extends AbstractTestCase {
-
-	@Log
-	Logger logger;
-
-	@Autowired
-	Catalog catalog;
 
 	@Override
 	public void run() {

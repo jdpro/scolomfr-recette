@@ -24,7 +24,8 @@ import at.ac.univie.mminf.qskos4j.progress.IProgressMonitor;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 
 public class CustomStreamProgressMonitor implements IProgressMonitor {
-	private int prevPercentage = 0, prevTenPercentage = 0;
+	private int prevPercentage = 0;
+	private int prevTenPercentage = 0;
 	private TestCase testCaseToNotify;
 	private String description;
 
