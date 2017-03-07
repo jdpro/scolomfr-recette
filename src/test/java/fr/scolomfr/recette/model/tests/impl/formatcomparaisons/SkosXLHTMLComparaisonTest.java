@@ -66,6 +66,36 @@ public class SkosXLHTMLComparaisonTest {
 		for (Message message : result.getMessages()) {
 			if (message.getType().equals(Message.Type.ERROR)) {
 				nbErrors++;
+				String uri = "http://data.education.fr/voc/scolomfr/concept/exam";
+				String label = "examen";
+				String invalideAssociatedTerm = "Préparation à l'examen";
+				assertThat(uri + " should be found in the message", message.getContent(), containsString(uri));
+				assertThat(label + " should be found in the message", message.getContent(), containsString(label));
+				assertThat(invalideAssociatedTerm + " should be found in the message", message.getContent(),
+						containsString(invalideAssociatedTerm));
+
+			}
+		}
+		assertEquals(1, nbErrors);
+
+	}
+	
+	@Test
+	public void testHtmlWithInvalidTA() {
+		skosXLHtmlComparaison.reset();
+		Map<String, String> executionParameters = new HashMap<>();
+		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
+		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_ta_invalid");
+		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
+		skosXLHtmlComparaison.run();
+		Result result = skosXLHtmlComparaison.getExecutionResult();
+
+		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
+		int nbErrors = 0;
+		for (Message message : result.getMessages()) {
+			if (message.getType().equals(Message.Type.ERROR)) {
+				nbErrors++;
 				String invalidLabel = "<strong>un libellé invalide</strong>";
 				assertThat(invalidLabel + " should be found in the message", message.getContent(),
 						containsString(invalidLabel));
