@@ -66,6 +66,9 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 		}
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		Model model = getModel(version, vocabulary, format);
+		if (null == model) {
+			return;
+		}
 		@SuppressWarnings("unchecked")
 		Map<String, String> prefLabelsInSkos = jenaEngine.getAllPrefLabels(model);
 		Map<String, String> htmlFilePaths = null;

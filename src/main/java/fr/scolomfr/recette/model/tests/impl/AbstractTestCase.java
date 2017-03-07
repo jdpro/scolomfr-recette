@@ -221,7 +221,7 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected String getFilePath(final Version version, final String vocabulary, final String format) {
 		final String filePath = catalog.getFilePathByVersionFormatAndVocabulary(version, format, vocabulary);
-		if (null == filePath) {
+		if (StringUtils.isEmpty(filePath)) {
 			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
 					i18n.tr("test.impl.file.unavailable.title"),
 					i18n.tr("test.impl.file.unavailable.content", new Object[] { version, format, vocabulary }));
