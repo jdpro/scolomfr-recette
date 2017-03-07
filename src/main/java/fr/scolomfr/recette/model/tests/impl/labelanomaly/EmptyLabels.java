@@ -19,53 +19,58 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
+package fr.scolomfr.recette.model.tests.impl.labelanomaly;
 
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.Map;
 
+import org.openrdf.model.Resource;
+
+import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelType;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.language.NoCommonLanguages
+ * {@link at.ac.univie.mminf.qskos4j.issues.language.IncompleteLanguageCoverage}
  */
-@TestCaseIndex(index = "q3")
+@TestCaseIndex(index = "q8")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
-public class NoCommonLanguages extends AbstractQskosTestCase<Collection<String>> {
+public class EmptyLabels extends AbstractQskosTestCase<Map<Resource, Collection<LabelType>>> {
 
 	@Override
 	protected String getQskosIssueCode() {
-		return "ncl";
+		return "el";
 	}
 
 	@Override
-	protected void populateResult(Collection<String> data) {
+	protected void populateResult(Map<Resource, Collection<LabelType>> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<String> it = data.iterator();
-		boolean commonLanguageFound = false;
-		while (it.hasNext()) {
-			String lang = it.next();
-			commonLanguageFound = true;
+		Iterator<Resource> it = data.keySet().iterator();
 
-			String errorCode = generateUniqueErrorCode(lang);
-			result.addMessage(
-					new Message(Message.Type.INFO, errorCode, i18n.tr("tests.impl.qskos.ncl.result.info.title"),
-							i18n.tr("tests.impl.qskos.ncl.result.info.content", new Object[] { lang })));
-		}
-		if (!commonLanguageFound) {
-			String errorCode = generateUniqueErrorCode("");
+		while (it.hasNext()) {
+			Resource resource = it.next();
+			Collection<LabelType> labelTypes = data.get(resource);
+			StringBuilder sb = new StringBuilder();
+			boolean first = true;
+			for (LabelType labelType : labelTypes) {
+				if (!first) {
+					sb.append(", ");
+				}
+				sb.append(labelType.toString());
+				first = false;
+			}
+			String errorCode = generateUniqueErrorCode(resource.stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos.ncl.result.error.title"),
-					i18n.tr("tests.impl.qskos.ncl.result.error.content", null)));
-
+					i18n.tr("tests.impl.qskos.el.result.title"), i18n.tr("tests.impl.qskos.el.result.content",
+							new Object[] { resource.stringValue(), sb.toString() })));
 		}
 
 	}

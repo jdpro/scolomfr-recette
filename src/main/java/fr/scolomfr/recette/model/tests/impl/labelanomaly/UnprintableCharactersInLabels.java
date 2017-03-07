@@ -19,58 +19,49 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
+package fr.scolomfr.recette.model.tests.impl.labelanomaly;
 
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.Map;
-
-import org.openrdf.model.Resource;
 
 import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelType;
+import at.ac.univie.mminf.qskos4j.issues.labels.util.LabeledConcept;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * {@link at.ac.univie.mminf.qskos4j.issues.language.IncompleteLanguageCoverage}
+ * @see at.ac.univie.mminf.qskos4j.issues.labels.UnprintableCharactersInLabels
  */
-@TestCaseIndex(index = "q8")
+@TestCaseIndex(index = "q7")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
-public class EmptyLabels extends AbstractQskosTestCase<Map<Resource, Collection<LabelType>>> {
+public class UnprintableCharactersInLabels extends AbstractQskosTestCase<Collection<LabeledConcept>> {
 
 	@Override
 	protected String getQskosIssueCode() {
-		return "el";
+		return "ucil";
 	}
 
 	@Override
-	protected void populateResult(Map<Resource, Collection<LabelType>> data) {
+	protected void populateResult(Collection<LabeledConcept> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<Resource> it = data.keySet().iterator();
+		Iterator<LabeledConcept> it = data.iterator();
 
 		while (it.hasNext()) {
-			Resource resource = it.next();
-			Collection<LabelType> labelTypes = data.get(resource);
-			StringBuilder sb = new StringBuilder();
-			boolean first = true;
-			for (LabelType labelType : labelTypes) {
-				if (!first) {
-					sb.append(", ");
-				}
-				sb.append(labelType.toString());
-				first = false;
-			}
-			String errorCode = generateUniqueErrorCode(resource.stringValue());
+			LabeledConcept labeled = it.next();
+			String resourceStr = labeled.getConcept().stringValue();
+			LabelType labelType = labeled.getLabelType();
+			String literalStr = labeled.getLiteral().getLabel();
+			String errorCode = generateUniqueErrorCode(resourceStr + labelType + literalStr);
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos.el.result.title"), i18n.tr("tests.impl.qskos.el.result.content",
-							new Object[] { resource.stringValue(), sb.toString() })));
+					i18n.tr("tests.impl.qskos.ucil.result.title"), i18n.tr("tests.impl.qskos.ucil.result.content",
+							new Object[] { resourceStr, literalStr, labelType })));
 		}
 
 	}

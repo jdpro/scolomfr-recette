@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
+package fr.scolomfr.recette.model.tests.impl.labelanomaly;
 
 import java.util.Collection;
 import java.util.Iterator;

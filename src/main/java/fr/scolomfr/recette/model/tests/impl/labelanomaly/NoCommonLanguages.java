@@ -19,49 +19,53 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
+package fr.scolomfr.recette.model.tests.impl.labelanomaly;
 
 import java.util.Collection;
 import java.util.Iterator;
 
-import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelType;
-import at.ac.univie.mminf.qskos4j.issues.labels.util.LabeledConcept;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.labels.UnprintableCharactersInLabels
+ * @see at.ac.univie.mminf.qskos4j.issues.language.NoCommonLanguages
  */
-@TestCaseIndex(index = "q7")
+@TestCaseIndex(index = "q3")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
-public class UnprintableCharactersInLabels extends AbstractQskosTestCase<Collection<LabeledConcept>> {
+public class NoCommonLanguages extends AbstractQskosTestCase<Collection<String>> {
 
 	@Override
 	protected String getQskosIssueCode() {
-		return "ucil";
+		return "ncl";
 	}
 
 	@Override
-	protected void populateResult(Collection<LabeledConcept> data) {
+	protected void populateResult(Collection<String> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<LabeledConcept> it = data.iterator();
-
+		Iterator<String> it = data.iterator();
+		boolean commonLanguageFound = false;
 		while (it.hasNext()) {
-			LabeledConcept labeled = it.next();
-			String resourceStr = labeled.getConcept().stringValue();
-			LabelType labelType = labeled.getLabelType();
-			String literalStr = labeled.getLiteral().getLabel();
-			String errorCode = generateUniqueErrorCode(resourceStr + labelType + literalStr);
+			String lang = it.next();
+			commonLanguageFound = true;
+
+			String errorCode = generateUniqueErrorCode(lang);
+			result.addMessage(
+					new Message(Message.Type.INFO, errorCode, i18n.tr("tests.impl.qskos.ncl.result.info.title"),
+							i18n.tr("tests.impl.qskos.ncl.result.info.content", new Object[] { lang })));
+		}
+		if (!commonLanguageFound) {
+			String errorCode = generateUniqueErrorCode("");
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos.ucil.result.title"), i18n.tr("tests.impl.qskos.ucil.result.content",
-							new Object[] { resourceStr, literalStr, labelType })));
+					i18n.tr("tests.impl.qskos.ncl.result.error.title"),
+					i18n.tr("tests.impl.qskos.ncl.result.error.content", null)));
+
 		}
 
 	}

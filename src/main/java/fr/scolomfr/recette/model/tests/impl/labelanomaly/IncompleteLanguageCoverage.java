@@ -19,13 +19,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.anomalieslibelles;
+package fr.scolomfr.recette.model.tests.impl.labelanomaly;
 
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.openrdf.model.Literal;
 import org.openrdf.model.Resource;
 
 import fr.scolomfr.recette.model.tests.execution.result.Message;
@@ -34,20 +33,20 @@ import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.language.OmittedOrInvalidLanguageTags
+ * {@link at.ac.univie.mminf.qskos4j.issues.language.IncompleteLanguageCoverage}
  */
-@TestCaseIndex(index = "q1")
+@TestCaseIndex(index = "q2")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY ,
 		TestParameters.Values.SKOSTYPE})
-public class OmittedOrInvalidLanguageTags extends AbstractQskosTestCase<Map<Resource, Collection<Literal>>> {
+public class IncompleteLanguageCoverage extends AbstractQskosTestCase<Map<Resource, Collection<String>>> {
 
 	@Override
 	protected String getQskosIssueCode() {
-		return "oilt";
+		return "ilc";
 	}
 
 	@Override
-	protected void populateResult(Map<Resource, Collection<Literal>> data) {
+	protected void populateResult(Map<Resource, Collection<String>> data) {
 		if (data == null) {
 			return;
 		}
@@ -55,22 +54,21 @@ public class OmittedOrInvalidLanguageTags extends AbstractQskosTestCase<Map<Reso
 
 		while (it.hasNext()) {
 			Resource resource = it.next();
-			Collection<Literal> literals = data.get(resource);
+			Collection<String> languages = data.get(resource);
 			StringBuilder sb = new StringBuilder();
 			boolean first = true;
-			for (Literal literal : literals) {
+			for (String language : languages) {
 				if (!first) {
 					sb.append(", ");
 				}
-				sb.append(literal.stringValue());
+				sb.append(language);
 				first = false;
 			}
-
 			String errorCode = generateUniqueErrorCode(resource.stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos.oilt.result.title"), i18n.tr("tests.impl.qskos.oilt.result.content",
+					i18n.tr("tests.impl.qskos.ilc.result.title"), i18n.tr("tests.impl.qskos.ilc.result.content",
 							new Object[] { resource.stringValue(), sb.toString() })));
 		}
 

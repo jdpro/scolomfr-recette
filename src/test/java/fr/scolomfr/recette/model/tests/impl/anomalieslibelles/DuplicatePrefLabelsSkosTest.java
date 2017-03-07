@@ -35,6 +35,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import fr.scolomfr.recette.config.MvcConfiguration;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.impl.labelanomaly.DuplicatePrefLabelsSkos;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
 import static org.junit.Assert.assertThat;

@@ -21,7 +21,7 @@
  */
 package fr.scolomfr.recette.model.tests.impl.serializationformat;
 
-import fr.scolomfr.recette.model.tests.impl.anomalieslibelles.OverlappingLabels;
+import fr.scolomfr.recette.model.tests.impl.labelanomaly.OverlappingLabels;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
