@@ -115,6 +115,10 @@ structure:
         index: q24
         label: HTTP URI Scheme Violation
         format: skos
+      regles_nommage_scolomfr:
+        index: a7
+        label: SKOS Conformité des URI à la charte de nommage ScoLOMFR
+        format: skos
   respect_format_serialisation:
     label: Respect du format de sérialisation
     index: 2.2

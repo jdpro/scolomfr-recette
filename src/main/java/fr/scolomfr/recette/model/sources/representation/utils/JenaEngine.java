@@ -192,10 +192,13 @@ public class JenaEngine {
 	}
 
 	public enum Constant {
-		SKOS_CORE_NS("http://www.w3.org/2004/02/skos/core#"), SKOS_NARROWER_PROPERTY("narrower"), SKOS_BROADER_PROPERTY(
-				"broader"), SKOS_PREFLABEL_PROPERTY("prefLabel"), SKOS_ALTLABEL_PROPERTY(
-						"altLabel"), SKOS_SCOPENOTE_PROPERTY("scopeNote"), SKOS_MEMBER_PROPERTY(
-								"member"), SKOS_TOP_CONCEPT_PROPERTY("hasTopConcept"), SKOS_RELATED_PROPERTY("related");
+		SKOS_CORE_NS("http://www.w3.org/2004/02/skos/core#"), RDF_SYNTAX_NS(
+				"http://www.w3.org/1999/02/22-rdf-syntax-ns#"), SKOS_NARROWER_PROPERTY(
+						"narrower"), SKOS_BROADER_PROPERTY("broader"), SKOS_PREFLABEL_PROPERTY(
+								"prefLabel"), SKOS_ALTLABEL_PROPERTY("altLabel"), SKOS_SCOPENOTE_PROPERTY(
+										"scopeNote"), SKOS_MEMBER_PROPERTY("member"), SKOS_TOP_CONCEPT_PROPERTY(
+												"hasTopConcept"), SKOS_RELATED_PROPERTY("related"), RDF_TYPE_PROPERTY(
+														"type"), RDF_INSCHEME_PROPERTY("inScheme");
 		private String value;
 
 		private Constant(String value) {
