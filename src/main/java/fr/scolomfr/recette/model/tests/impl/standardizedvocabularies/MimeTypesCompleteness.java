@@ -43,6 +43,7 @@ import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
+import fr.scolomfr.recette.model.tests.utils.NamingUtils;
 
 /**
  * Check the spelling of skos langstrings
@@ -51,8 +52,9 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.SKOSTYPE, TestParameters.Values.GLOBAL })
 public class MimeTypesCompleteness extends AbstractJenaTestCase {
 
+	private static final String I18N_A4_TESTCASE_MESSAGE_KEY_STUB = "tests.impl.a4.result.";
+	private static final String VOC_06_URI = NamingUtils.getVocabURI("006");
 	private static final String MEDIATYPES_URI_PREFIX = "http://purl.org/NET/mediatypes/";
-	private static final String VOC_06_URI = "http://data.education.fr/voc/scolomfr/scolomfr-voc-006";
 	private static final String IANA_URI = "http://www.iana.org/assignments/media-types/media-types.xml";
 	private int numberOfMimeTypesInSkos;
 	private int numerator;
@@ -71,8 +73,11 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		progressionCounter = 0;
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		String format = getSkosType();
-		String vocabulary = useGlobalVocabulary() ? GLOBAL_VOCABULARY : "http://data.education.fr/voc/scolomfr/scolomfr-voc-006";
+		String vocabulary = useGlobalVocabulary() ? GLOBAL_VOCABULARY : VOC_06_URI;
 		Model model = getModel(getVersion(), vocabulary, format);
+		if (null == model) {
+			return;
+		}
 		Resource vocab006 = model.getResource(VOC_06_URI);
 		List<Resource> mimeTypesInSkos = jenaEngine.getMembersOfVocab(vocab006, model);
 		numberOfMimeTypesInSkos = mimeTypesInSkos.size();
@@ -156,8 +161,9 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 				}
 				result.incrementErrorCount(ignored);
 				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-						i18n.tr("tests.impl.a4.result." + state + ".title"),
-						i18n.tr("tests.impl.a4.result." + state + ".content", new Object[] { mimeTypeFromIana }));
+						i18n.tr(I18N_A4_TESTCASE_MESSAGE_KEY_STUB + state + ".title"),
+						i18n.tr(I18N_A4_TESTCASE_MESSAGE_KEY_STUB + state + ".content",
+								new Object[] { mimeTypeFromIana }));
 				result.addMessage(message);
 			}
 		} else {
@@ -178,16 +184,18 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 				result.addMessage(message);
 			} else {
 				numerator++;
-				String errorCode = getErrorCode("missinginskos" + MESSAGE_ID_SEPARATOR + mimeTypeFromIana);
+				String missingOrCaseError = caseError ? "caseerror" : "missing";
+				String errorCode = getErrorCode(
+						missingOrCaseError + "inskos" + MESSAGE_ID_SEPARATOR + mimeTypeFromIana);
 				boolean ignored = errorIsIgnored(errorCode);
 				if (StringUtils.isEmpty(errorCode)) {
 					return;
 				}
 				result.incrementErrorCount(ignored);
-				String missingOrCaseError = caseError ? "caseerror" : "missing";
+
 				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-						i18n.tr("tests.impl.a4.result." + missingOrCaseError + "inskos.title"),
-						i18n.tr("tests.impl.a4.result." + missingOrCaseError + "inskos.content",
+						i18n.tr(I18N_A4_TESTCASE_MESSAGE_KEY_STUB + missingOrCaseError + "inskos.title"),
+						i18n.tr(I18N_A4_TESTCASE_MESSAGE_KEY_STUB + missingOrCaseError + "inskos.content",
 								new Object[] { mimeTypeFromIana }));
 				result.addMessage(message);
 			}

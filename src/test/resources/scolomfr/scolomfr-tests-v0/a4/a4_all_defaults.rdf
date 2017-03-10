@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="itm:n#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#" xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+	<rdf:Description rdf:about="http://purl.org/NET/mediatypes/text/does-not-exist">
+		<isothes:status xml:lang="fr">Actuel</isothes:status>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		<skos:definition xml:lang="fr">Format (technique) - type
+			MIME
+		</skos:definition>
+		<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:inScheme
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-006" />
+		<skos:prefLabel xml:lang="fr">text/does-not-exist
+		</skos:prefLabel>
+		<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:topConceptOf
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-006" />
+	</rdf:Description>
+	<!-- "Update" has been lowercased -->
+	<rdf:Description
+		rdf:about="http://purl.org/NET/mediatypes/application/vnd.openxmlformats-officedocument.presentationml.slideupdateInfo+xml">
+		<isothes:status xml:lang="fr">Actuel</isothes:status>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		<skos:definition xml:lang="fr">Format (technique) - type
+			MIME
+		</skos:definition>
+		<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:inScheme
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-006" />
+		<skos:prefLabel xml:lang="fr">application/vnd.openxmlformats-officedocument.presentationml.slideupdateInfo+xml
+		</skos:prefLabel>
+		<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:topConceptOf
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-006" />
+	</rdf:Description>
+	<rdf:Description
+		rdf:about="http://purl.org/NET/mediatypes/application/vnd.arastra.swi">
+		<isothes:status xml:lang="fr">Actuel</isothes:status>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		<skos:definition xml:lang="fr">Format (technique) - type
+			MIME
+		</skos:definition>
+		<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:inScheme
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-006" />
+		<skos:prefLabel xml:lang="fr">application/vnd.arastra.swi
+		</skos:prefLabel>
+		<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:topConceptOf
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-006" />
+	</rdf:Description>
+	<rdf:Description rdf:about="http://purl.org/NET/mediatypes/audio/vnd.qcelp">
+		<isothes:status xml:lang="fr">Actuel</isothes:status>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		<skos:definition xml:lang="fr">Format (technique) - type
+			MIME
+		</skos:definition>
+		<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:inScheme
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-006" />
+		<skos:prefLabel xml:lang="fr">audio/vnd.qcelp
+		</skos:prefLabel>
+		<skos:topConceptOf rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:topConceptOf
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-006" />
+	</rdf:Description>
+	<!-- Rattach all entries to vocabulary -->
+	<rdf:Description
+		rdf:about="http://data.education.fr/voc/scolomfr/scolomfr-voc-006">
+		<dcterms:creator rdf:resource="http://www.reseau-canope.fr" />
+		<dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06
+		</dcterms:identifier>
+		<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-28T10:14:37.565+01:00
+		</dcterms:issued>
+		<dcterms:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fr</dcterms:language>
+		<dcterms:source rdf:resource="http://www.lom-fr.fr/scolomfr" />
+		<dcterms:title xml:lang="fr">006-Type MIME de la ressource
+		</dcterms:title>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+		<skos:hasTopConcept
+			rdf:resource="http://purl.org/NET/mediatypes/text/does-not-exist" />
+		<skos:hasTopConcept
+			rdf:resource="http://purl.org/NET/mediatypes/application/vnd.openxmlformats-officedocument.presentationml.slideupdateInfo+xml" />
+		<skos:hasTopConcept
+			rdf:resource="http://purl.org/NET/mediatypes/application/vnd.arastra.swi" />
+		<skos:hasTopConcept rdf:resource="http://purl.org/NET/mediatypes/audio/vnd.qcelp" />
+		<skos:prefLabel xml:lang="fr">006-Type MIME de la ressource
+		</skos:prefLabel>
+	</rdf:Description>
+
+
+</rdf:RDF>

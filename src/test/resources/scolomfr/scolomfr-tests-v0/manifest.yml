@@ -1,6 +1,7 @@
 version: 0.0.0
 content:
   skos:
+    http://data.education.fr/voc/scolomfr/scolomfr-voc-006: a4/a4_all_defaults.rdf
     a6_dup_pref_lab_invalid: a6/a6_dup_pref_lab_invalid.skos
     a6_dup_pref_lab_valid: a6/a6_dup_pref_lab_valid.skos
     a7_valid_uri: a7/a7_valid_uri.skos
