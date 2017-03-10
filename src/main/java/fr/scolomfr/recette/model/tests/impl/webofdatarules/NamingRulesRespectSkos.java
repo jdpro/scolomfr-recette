@@ -21,7 +21,6 @@
  */
 package fr.scolomfr.recette.model.tests.impl.webofdatarules;
 
-import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -44,6 +43,7 @@ import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
+import fr.scolomfr.recette.model.tests.utils.NamingUtils;
 
 /**
  * Check respect URI syntax
@@ -58,7 +58,6 @@ public class NamingRulesRespectSkos extends AbstractJenaTestCase {
 	private static String conceptRegex = EDUCATION_DOMAIN
 			+ "/voc/scolomfr/concept/scolomfr-voc-(\\d{3})-num-(\\d{2,5})";
 
-	private static String vocabPattern = EDUCATION_DOMAIN + "/voc/scolomfr/scolomfr-voc-{0}";
 	private static Pattern regexpPattern = Pattern.compile(conceptRegex);
 
 	@Override
@@ -106,7 +105,7 @@ public class NamingRulesRespectSkos extends AbstractJenaTestCase {
 			boolean ignored = errorIsIgnored(errorCode);
 			Matcher m = regexpPattern.matcher(uri);
 			if (m.matches()) {
-				String vocab = m.group(1);
+				String vocabNumber = m.group(1);
 				String term = m.group(2);
 				if (term.length() < 3 || term.length() > 4) {
 					Message message = new Message(Message.Type.INFO, errorCode,
@@ -114,14 +113,14 @@ public class NamingRulesRespectSkos extends AbstractJenaTestCase {
 							i18n.tr("tests.impl.a7.result.weird.content", new Object[] { uri }));
 					result.addMessage(message);
 				}
-				String vocabUri = MessageFormat.format(vocabPattern, new Object[] { vocab });
+				String vocabUri = NamingUtils.getVocabURI(vocabNumber);
 				Resource vocabResource = model.createResource(vocabUri);
 				Selector inSchemeSelector = new SimpleSelector(resource, inScheme, vocabResource);
 				StmtIterator stmts2 = model.listStatements(inSchemeSelector);
 				if (!stmts2.hasNext()) {
 					Message message = new Message(Message.Type.INFO, errorCode,
 							i18n.tr("tests.impl.a7.result.incoherent.title"),
-							i18n.tr("tests.impl.a7.result.incoherent.content", new Object[] { uri, vocab }));
+							i18n.tr("tests.impl.a7.result.incoherent.content", new Object[] { uri, vocabNumber }));
 					result.addMessage(message);
 				}
 			} else {
