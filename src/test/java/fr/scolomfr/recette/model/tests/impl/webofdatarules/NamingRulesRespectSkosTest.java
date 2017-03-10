@@ -18,7 +18,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.labelanomaly;
+package fr.scolomfr.recette.model.tests.impl.webofdatarules;
+
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -35,56 +39,75 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import fr.scolomfr.recette.config.MvcConfiguration;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.impl.labelanomaly.DuplicatePrefLabelsSkos;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
-import static org.junit.Assert.assertThat;
-import static org.hamcrest.CoreMatchers.containsString;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
-public class DuplicatePrefLabelsSkosTest {
+public class NamingRulesRespectSkosTest {
 
 	@Autowired
-	private DuplicatePrefLabelsSkos duplicatePrefLabelsSkos;
+	private NamingRulesRespectSkos namingRulesRespectSkos;
 
 	@Test
-	public void testSkosWithDuplicate() {
+	public void testSkosWithInvalidUri() {
+		namingRulesRespectSkos.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a6_dup_pref_lab_invalid");
-		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
-		duplicatePrefLabelsSkos.run();
-		Result result = duplicatePrefLabelsSkos.getExecutionResult();
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_invalid_uri");
+		namingRulesRespectSkos.setExecutionParameters(executionParameters);
+		namingRulesRespectSkos.run();
+		Result result = namingRulesRespectSkos.getExecutionResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		for (Message message : result.getMessages()) {
 			if (message.getType().equals(Message.Type.ERROR)) {
-				String uri1 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
-				String uri2 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1077";
-				String uri3 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-0008";
-				assertThat(uri1 + " should be found in the message", message.getContent(), containsString(uri1));
-				assertThat(uri2 + " should be found in the message", message.getContent(), containsString(uri2));
-				assertThat(uri3 + " should be found in the message", message.getContent(), containsString(uri3));
-
+				String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-num-1086";
+				assertThat(uri + " should be found in the message", message.getContent(), containsString(uri));
 			}
 		}
-
 	}
 
 	@Test
-	public void testSkosWithoutDuplicate() {
+	public void testSkosWithIncoherentUri() {
+		namingRulesRespectSkos.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a6_dup_pref_lab_valid");
-		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
-		duplicatePrefLabelsSkos.run();
-		Result result = duplicatePrefLabelsSkos.getExecutionResult();
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_incoherent_uri");
+		namingRulesRespectSkos.setExecutionParameters(executionParameters);
+		namingRulesRespectSkos.run();
+		Result result = namingRulesRespectSkos.getExecutionResult();
 
+		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
+		boolean vocabUriFound = false;
+		boolean conceptUriFound = false;
+		String conceptUri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-1086";
+		String vocabNumber = "016";
+		for (Message message : result.getMessages()) {
+			if (message.getType().equals(Message.Type.INFO)) {
+				conceptUriFound = conceptUriFound || message.getContent().contains(conceptUri);
+				vocabUriFound = vocabUriFound || message.getContent().contains(vocabNumber);
+			}
+
+		}
+		assertTrue(vocabNumber + " should be found in one of the information messages", vocabUriFound);
+		assertTrue(conceptUri + " should be found in one of the information messages", conceptUriFound);
+	}
+
+	@Test
+	public void testSkosWithValidUri() {
+		namingRulesRespectSkos.reset();
+		Map<String, String> executionParameters = new HashMap<>();
+		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
+		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_valid_uri");
+		namingRulesRespectSkos.setExecutionParameters(executionParameters);
+		namingRulesRespectSkos.run();
+		Result result = namingRulesRespectSkos.getExecutionResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
 	}
