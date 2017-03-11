@@ -39,6 +39,7 @@ import fr.scolomfr.recette.model.tests.impl.labelanomaly.DuplicatePrefLabelsSkos
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
 import static org.junit.Assert.assertThat;
+import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
 import static org.hamcrest.CoreMatchers.containsString;
 
 @WebAppConfiguration
@@ -61,17 +62,10 @@ public class DuplicatePrefLabelsSkosTest {
 		Result result = duplicatePrefLabelsSkos.getExecutionResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
-		for (Message message : result.getMessages()) {
-			if (message.getType().equals(Message.Type.ERROR)) {
-				String uri1 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
-				String uri2 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1077";
-				String uri3 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-0008";
-				assertThat(uri1 + " should be found in the message", message.getContent(), containsString(uri1));
-				assertThat(uri2 + " should be found in the message", message.getContent(), containsString(uri2));
-				assertThat(uri3 + " should be found in the message", message.getContent(), containsString(uri3));
-
-			}
-		}
+		String uri1 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
+		String uri2 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1077";
+		String uri3 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-0008";
+		assertContainsMessage(result, Message.Type.ERROR, new String[] {}, new String[] { uri1, uri2, uri3 });
 
 	}
 

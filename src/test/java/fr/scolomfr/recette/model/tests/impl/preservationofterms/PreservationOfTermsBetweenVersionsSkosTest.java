@@ -39,6 +39,7 @@ import fr.scolomfr.recette.model.tests.impl.preservationofterms.PreservationOfTe
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
 import static org.junit.Assert.assertThat;
+import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
 import static org.hamcrest.CoreMatchers.containsString;
 
 @WebAppConfiguration
@@ -62,15 +63,10 @@ public class PreservationOfTermsBetweenVersionsSkosTest {
 		conservationConceptsEntreVersions.run();
 		Result result = conservationConceptsEntreVersions.getExecutionResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
-		for (Message message : result.getMessages()) {
-			if (message.getType().equals(Message.Type.ERROR)) {
-				String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
-				String prefLabelBeginning = "économie et gestion,";
-				assertThat(uri + " should be found in the message", message.getContent(), containsString(uri));
-				assertThat(prefLabelBeginning + " should be found in the message", message.getContent(),
-						containsString(prefLabelBeginning));
-			}
-		}
+		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
+		String prefLabelBeginning = "économie et gestion,";
+		assertContainsMessage(result, Message.Type.ERROR, new String[] {}, new String[] { uri, prefLabelBeginning });
+
 	}
 
 	@Test

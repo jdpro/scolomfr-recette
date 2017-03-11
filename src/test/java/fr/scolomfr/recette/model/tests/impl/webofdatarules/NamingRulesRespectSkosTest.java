@@ -20,6 +20,7 @@
  */
 package fr.scolomfr.recette.model.tests.impl.webofdatarules;
 
+import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
@@ -63,12 +64,8 @@ public class NamingRulesRespectSkosTest {
 		Result result = namingRulesRespectSkos.getExecutionResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
-		for (Message message : result.getMessages()) {
-			if (message.getType().equals(Message.Type.ERROR)) {
-				String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-num-1086";
-				assertThat(uri + " should be found in the message", message.getContent(), containsString(uri));
-			}
-		}
+		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-num-1086";
+		assertContainsMessage(result, Message.Type.ERROR, new String[] {}, new String[] { uri });
 	}
 
 	@Test
@@ -83,19 +80,9 @@ public class NamingRulesRespectSkosTest {
 		Result result = namingRulesRespectSkos.getExecutionResult();
 
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-		boolean vocabUriFound = false;
-		boolean conceptUriFound = false;
 		String conceptUri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-1086";
 		String vocabNumber = "016";
-		for (Message message : result.getMessages()) {
-			if (message.getType().equals(Message.Type.INFO)) {
-				conceptUriFound = conceptUriFound || message.getContent().contains(conceptUri);
-				vocabUriFound = vocabUriFound || message.getContent().contains(vocabNumber);
-			}
-
-		}
-		assertTrue(vocabNumber + " should be found in one of the information messages", vocabUriFound);
-		assertTrue(conceptUri + " should be found in one of the information messages", conceptUriFound);
+		assertContainsMessage(result, Message.Type.INFO, new String[] {}, new String[] { vocabNumber, conceptUri });
 	}
 
 	@Test

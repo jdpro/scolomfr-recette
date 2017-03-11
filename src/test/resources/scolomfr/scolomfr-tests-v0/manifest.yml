@@ -8,6 +8,10 @@ content:
     a7_invalid_uri: a7/a7_invalid_uri.skos
     a7_incoherent_uri: a7/a7_incoherent_uri.skos
     a7_weird_uri: a7/a7_weird_uri.skos
+    a15_valid: a15/a15_valid.rdf
+    a15_abbr: a15/a15_abbr.rdf
+    a15_invalid: a15/a15_invalid.rdf
+    a15_invalid_abbr: a15/a15_invalid_abbr.rdf
     a19_valid: a19/a19_valid.rdf
     a19_label_invalid: a19/a19_label_invalid.rdf
     a19_na_invalid: a19/a19_na_invalid.rdf
