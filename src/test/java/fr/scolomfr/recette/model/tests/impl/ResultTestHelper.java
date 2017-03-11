@@ -24,13 +24,20 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
 
+import org.apache.commons.lang3.StringUtils;
+
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Message.Type;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
 
 public class ResultTestHelper {
-
 	public static void assertContainsMessage(Result result, Type type, String[] inTitle, String[] inContent) {
+		assertContainsMessage(result, type, inTitle, inContent, null);
+
+	}
+
+	public static void assertContainsMessage(Result result, Type type, String[] inTitle, String[] inContent,
+			String key) {
 		boolean foundInResult = false;
 		for (Message message : result.getMessages()) {
 			boolean foundInMessage = true;
@@ -42,6 +49,11 @@ public class ResultTestHelper {
 				}
 				for (String string : inTitle) {
 					if (message.getTitle().indexOf(string) < 0) {
+						foundInMessage = false;
+					}
+				}
+				if (StringUtils.isNotEmpty(key)) {
+					if (!StringUtils.equals(message.getKey(), key)) {
 						foundInMessage = false;
 					}
 				}

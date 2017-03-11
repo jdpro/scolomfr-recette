@@ -336,6 +336,9 @@ public abstract class AbstractTestCase implements TestCase {
 		Document document;
 		try {
 			final InputStream fileInputStream = getFileInputStreamByPath(filePath);
+			if(null==fileInputStream){
+				return null;
+			}
 			SourceRepresentationBuilder<Document> sourceRepresentationBuilder = new SourceRepresentationBuilder<Document>(
 					Document.class);
 			sourceRepresentationBuilder.setWithLineNumbers(true);
