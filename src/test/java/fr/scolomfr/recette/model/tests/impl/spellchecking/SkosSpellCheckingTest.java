@@ -18,7 +18,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.formatcomparaisons;
+package fr.scolomfr.recette.model.tests.impl.spellchecking;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -35,90 +35,85 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import fr.scolomfr.recette.config.MvcConfiguration;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.impl.AbstractTestCase;
+import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
 import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertEquals;
-import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
+import static org.junit.Assert.assertTrue;
 import static org.hamcrest.CoreMatchers.containsString;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
-public class SkosXLHTMLComparaisonTest {
+public class SkosSpellCheckingTest {
 
 	@Autowired
-	private AbstractTestCase skosXLHtmlComparaison;
+	private SkosSpellChecking skosSpellChecking;
 
 	@Test
-	public void testHtmlWithInvalidLabel() {
-		skosXLHtmlComparaison.reset();
+	public void testSkosWithoutError() {
+		skosSpellChecking.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_label_invalid");
-		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
-		skosXLHtmlComparaison.run();
-		Result result = skosXLHtmlComparaison.getExecutionResult();
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a15_valid");
+		skosSpellChecking.setExecutionParameters(executionParameters);
+		skosSpellChecking.run();
+		Result result = skosSpellChecking.getExecutionResult();
+		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
+	}
+
+	@Test
+	public void testSkosWithError() {
+		skosSpellChecking.reset();
+		Map<String, String> executionParameters = new HashMap<>();
+		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
+		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a15_invalid");
+		skosSpellChecking.setExecutionParameters(executionParameters);
+		skosSpellChecking.run();
+		Result result = skosSpellChecking.getExecutionResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
-		String invalidLabel = "<strong>un libellé invalide</strong>";
-		assertContainsMessage(result, Message.Type.ERROR, new String[] {}, new String[] { invalidLabel });
-
+		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
+		String word = "exammen";
+		String place = "scopeNote";
+		assertContainsMessage(result, Message.Type.ERROR, new String[] {}, new String[] { uri, word, place });
 	}
 
 	@Test
-	public void testHtmlWithInvalidTA() {
-		skosXLHtmlComparaison.reset();
+	public void testSkosWithAbbreviation() {
+		skosSpellChecking.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_ta_invalid");
-		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
-		skosXLHtmlComparaison.run();
-		Result result = skosXLHtmlComparaison.getExecutionResult();
-
-		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
-		String uri = "http://data.education.fr/voc/scolomfr/concept/exam";
-		String label = "examen";
-		String invalideAssociatedTerm = "préparation à l'examen";
-		assertContainsMessage(result, Message.Type.ERROR, new String[] {},
-				new String[] { uri, label, invalideAssociatedTerm });
-
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a15_abbr");
+		skosSpellChecking.setExecutionParameters(executionParameters);
+		skosSpellChecking.run();
+		Result result = skosSpellChecking.getExecutionResult();
+		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
+		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
+		String abbr = "\"RES\"";
+		String place = "scopeNote";
+		assertContainsMessage(result, Message.Type.INFO, new String[] {}, new String[] { uri, abbr, place });
 	}
 
 	@Test
-	public void testHtmlWithInvalidNA() {
-		skosXLHtmlComparaison.reset();
+	public void testSkosWithErrorAndAbbreviation() {
+		skosSpellChecking.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_na_invalid");
-		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
-		skosXLHtmlComparaison.run();
-		Result result = skosXLHtmlComparaison.getExecutionResult();
-
-		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
-		String uri = "http://data.education.fr/voc/scolomfr/concept/exam";
-		String label = "examen";
-		String invalideScopeNote = "Note modifiée";
-		assertContainsMessage(result, Message.Type.ERROR, new String[] {},
-				new String[] { uri, label, invalideScopeNote });
-
+		executionParameters.put(TestParameters.Values.VOCABULARY, "a15_invalid_abbr");
+		skosSpellChecking.setExecutionParameters(executionParameters);
+		skosSpellChecking.run();
+		Result result = skosSpellChecking.getExecutionResult();
+		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
+		String abbr = "\"RES\"";
+		String word = "exammen";
+		String place = "scopeNote";
+		assertContainsMessage(result, Message.Type.ERROR, new String[] {}, new String[] { uri, word, place, abbr });
 	}
 
-	@Test
-	public void testValidHtml() {
-		skosXLHtmlComparaison.reset();
-		Map<String, String> executionParameters = new HashMap<>();
-		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
-		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_valid");
-		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
-		skosXLHtmlComparaison.run();
-		Result result = skosXLHtmlComparaison.getExecutionResult();
-		Assert.assertEquals("There should be exactly one error.", 0, result.getErrorCount());
-	}
 }
