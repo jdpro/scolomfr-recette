@@ -23,3 +23,11 @@ content:
     a19_label_invalid: a19/a19_label_invalid.html
     a19_na_invalid: a19/a19_na_invalid.html
     a19_ta_invalid: a19/a19_ta_invalid.html
+  vdex:
+    a22_valid: a22/a22_valid.vdex
+    a22_empty: a22/a22_empty.vdex
+    a22_nouri: a22/a22_nouri.vdex
+    a22_duplicate: a22/a22_duplicate.vdex
+    
+    
+    

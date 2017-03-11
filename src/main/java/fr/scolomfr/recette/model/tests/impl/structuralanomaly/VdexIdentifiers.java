@@ -75,8 +75,12 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 		Map<String, Document> vdexDocuments = new HashMap<>();
 		for (String vdexFilePath : vdexFilePaths) {
 
-			vdexDocuments.put(vdexFilePath,
-					getDomDocument(vdexFilePath, catalog.getDtddirByVersionAndFormat(getVersion(), "vdex")));
+			Document domDocument = getDomDocument(vdexFilePath,
+					catalog.getDtddirByVersionAndFormat(getVersion(), "vdex"));
+			if (null == domDocument) {
+				continue;
+			}
+			vdexDocuments.put(vdexFilePath, domDocument);
 		}
 		XPath xpath = xPathEngineProvider.getXpath();
 		String expressionStr = "/vdex/term/termIdentifier";
