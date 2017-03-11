@@ -42,8 +42,12 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
-	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-		auth.userDetailsService(inMemoryUserDetailsManager());
+	public void configureGlobal(AuthenticationManagerBuilder auth) throws SecurityConfigurationException {
+		try {
+			auth.userDetailsService(inMemoryUserDetailsManager());
+		} catch (Exception e) {
+			throw new SecurityConfigurationException("Problement occured during security configuration initialization",e);
+		}
 	}
 
 	@Bean

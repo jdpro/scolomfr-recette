@@ -21,9 +21,6 @@
 package fr.scolomfr.recette.model.tests.impl.webofdatarules;
 
 import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertTrue;
 
 import java.util.HashMap;
 import java.util.Map;

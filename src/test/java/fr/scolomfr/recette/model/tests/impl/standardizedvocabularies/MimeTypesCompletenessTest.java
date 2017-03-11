@@ -20,6 +20,7 @@
  */
 package fr.scolomfr.recette.model.tests.impl.standardizedvocabularies;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import java.util.HashMap;
@@ -37,9 +38,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import fr.scolomfr.recette.config.MvcConfiguration;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.organization.TestParameters;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;;
+import fr.scolomfr.recette.model.tests.organization.TestParameters;;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)

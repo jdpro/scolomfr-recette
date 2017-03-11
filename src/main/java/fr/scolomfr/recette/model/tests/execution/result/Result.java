@@ -1,8 +1,7 @@
 package fr.scolomfr.recette.model.tests.execution.result;
 
-import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Stack;
+import java.util.concurrent.ConcurrentLinkedDeque;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -11,7 +10,6 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@SuppressWarnings("unused")
 @XmlType(namespace = "http://recette.scolomfr.fr/2017/1")
 @XmlRootElement(name = "result")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -19,7 +17,7 @@ public class Result {
 
 	@XmlElementWrapper(name = "messages")
 	@XmlElement(name = "message")
-	private Stack<Message> messages;
+	private Deque<Message> messages;
 
 	private State state;
 
@@ -30,14 +28,14 @@ public class Result {
 	private float complianceIndicator;
 
 	public Result() {
-		messages = new Stack<>();
+		messages = new ConcurrentLinkedDeque<>();
 		setErrorCount(0);
 		setFalsePositiveCount(0);
 		setComplianceIndicator(-1);
 		setState(State.TEMPORARY);
 	}
 
-	public Stack<Message> getMessages() {
+	public Deque<Message> getMessages() {
 		return messages;
 	}
 

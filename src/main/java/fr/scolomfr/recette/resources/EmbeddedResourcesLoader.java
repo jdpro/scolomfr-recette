@@ -68,7 +68,7 @@ public class EmbeddedResourcesLoader implements ResourcesLoader {
 	public DirectoryStream<Path> loadDirectory(final String filePath) throws IOException {
 		URL url = EmbeddedResourcesLoader.class.getResource(filePath);
 		if (null == url) {
-			throw new RuntimeException("Impossible to load path " + filePath + " from classpath");
+			throw new ResourceLoadingException("Impossible to load path " + filePath + " from classpath");
 		}
 		try {
 			Path path = Paths.get(url.toURI());

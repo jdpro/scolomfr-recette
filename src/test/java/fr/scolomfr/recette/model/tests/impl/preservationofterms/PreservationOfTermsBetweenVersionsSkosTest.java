@@ -20,6 +20,8 @@
  */
 package fr.scolomfr.recette.model.tests.impl.preservationofterms;
 
+import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,12 +37,8 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import fr.scolomfr.recette.config.MvcConfiguration;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.impl.preservationofterms.PreservationOfTermsBetweenVersionsSkos;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import junit.framework.Assert;
-import static org.junit.Assert.assertThat;
-import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
-import static org.hamcrest.CoreMatchers.containsString;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
