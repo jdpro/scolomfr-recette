@@ -209,7 +209,7 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 		try {
 			errorCode = generateUniqueErrorCode(mimeType);
 		} catch (DuplicateErrorCodeException e1) {
-			logger.debug(ERROR_CODE_DUPLICATE, errorCode, e1);
+			logger.trace(ERROR_CODE_DUPLICATE, errorCode, e1);
 		}
 		return errorCode;
 	}
