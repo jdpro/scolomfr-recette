@@ -131,7 +131,7 @@ public class HTMLW3CCompliance extends AbstractTestCase {
 		try {
 			errorCode = generateUniqueErrorCode(filePath + MESSAGE_ID_SEPARATOR + DigestUtils.md5Hex(messageStr));
 		} catch (DuplicateErrorCodeException e2) {
-			logger.debug(ERROR_CODE_DUPLICATE, errorCode, e2);
+			logger.trace(ERROR_CODE_DUPLICATE, errorCode, e2);
 			if (messageType.equals(MessageType.ERROR)) {
 				return;
 			}
