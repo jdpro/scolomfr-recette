@@ -51,6 +51,7 @@ public class DuplicatePrefLabelsSkosTest {
 
 	@Test
 	public void testSkosWithDuplicate() {
+		duplicatePrefLabelsSkos.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
@@ -58,7 +59,6 @@ public class DuplicatePrefLabelsSkosTest {
 		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
 		duplicatePrefLabelsSkos.run();
 		Result result = duplicatePrefLabelsSkos.getExecutionResult();
-
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri1 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
 		String uri2 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1077";
@@ -69,6 +69,7 @@ public class DuplicatePrefLabelsSkosTest {
 
 	@Test
 	public void testSkosWithoutDuplicate() {
+		duplicatePrefLabelsSkos.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
