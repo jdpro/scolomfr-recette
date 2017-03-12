@@ -58,6 +58,9 @@ public class CaseConventionsRespectSkos extends AbstractJenaTestCase {
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		String format = getSkosType();
 		Model model = getModel(getVersion(), getVocabulary(), format);
+		if (model == null) {
+			return;
+		}
 		Property prefLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_PREFLABEL_PROPERTY.toString());
 		Property altLabel = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
@@ -93,7 +96,7 @@ public class CaseConventionsRespectSkos extends AbstractJenaTestCase {
 			try {
 				errorCode = generateUniqueErrorCode(statement, predicate, label);
 			} catch (DuplicateErrorCodeException e1) {
-				logger.debug(ERROR_CODE_DUPLICATE, errorCode, e1);
+				logger.trace(ERROR_CODE_DUPLICATE, errorCode, e1);
 				continue;
 			}
 
