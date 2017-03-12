@@ -124,7 +124,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 								errorCode = generateUniqueErrorCode(vocabUri + MESSAGE_ID_SEPARATOR + "invalidlabel"
 										+ MESSAGE_ID_SEPARATOR + htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
 							} catch (DuplicateErrorCodeException e) {
-								logger.debug(ERROR_CODE_DUPLICATE, errorCode, e);
+								logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 							}
 							boolean ignored = errorIsIgnored(errorCode);
 							result.incrementErrorCount(ignored);
@@ -149,7 +149,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 											vocabUri + MESSAGE_ID_SEPARATOR + "invalidequiv" + MESSAGE_ID_SEPARATOR
 													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
 								} catch (DuplicateErrorCodeException e) {
-									logger.debug(ERROR_CODE_DUPLICATE, errorCode, e);
+									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 								}
 								boolean ignored = errorIsIgnored(errorCode);
 								result.incrementErrorCount(ignored);
@@ -171,7 +171,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 											vocabUri + MESSAGE_ID_SEPARATOR + "invalidnote" + MESSAGE_ID_SEPARATOR
 													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
 								} catch (DuplicateErrorCodeException e) {
-									logger.debug(ERROR_CODE_DUPLICATE, errorCode, e);
+									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 								}
 								boolean ignored = errorIsIgnored(errorCode);
 								result.incrementErrorCount(ignored);
@@ -193,7 +193,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 											vocabUri + MESSAGE_ID_SEPARATOR + "invalidassoc" + MESSAGE_ID_SEPARATOR
 													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
 								} catch (DuplicateErrorCodeException e) {
-									logger.debug(ERROR_CODE_DUPLICATE, errorCode, e);
+									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 								}
 								boolean ignored = errorIsIgnored(errorCode);
 								result.incrementErrorCount(ignored);
