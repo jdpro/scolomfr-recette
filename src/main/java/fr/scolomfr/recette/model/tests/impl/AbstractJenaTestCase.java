@@ -39,11 +39,16 @@ public abstract class AbstractJenaTestCase extends AbstractTestCase {
 		if (StringUtils.isEmpty(filePath)) {
 			return null;
 		}
-		InputStream fileInputStream = getFileInputStreamByPath(filePath);
-		if (null == fileInputStream) {
-			return null;
+		try (InputStream fileInputStream = getFileInputStreamByPath(filePath)) {
+			if (null == fileInputStream) {
+				return null;
+			}
+			return jenaEngine.getModel(fileInputStream);
+		} catch (Exception e) {
+			logger.trace("Impossible to close inputStream", e);
 		}
-		return jenaEngine.getModel(fileInputStream);
+		return null;
+
 	}
 
 }
