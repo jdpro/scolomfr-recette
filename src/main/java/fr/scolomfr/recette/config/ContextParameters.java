@@ -40,7 +40,7 @@ public class ContextParameters {
 			initialContext = new javax.naming.InitialContext();
 			return (String) initialContext.lookup("java:comp/env/" + parameterName.toString());
 		} catch (NamingException e) {
-			logger.debug("Unable to get {} from initial context", parameterName, e);
+			logger.trace("Unable to get {} from initial context", parameterName, e);
 		}
 		return "";
 	}
