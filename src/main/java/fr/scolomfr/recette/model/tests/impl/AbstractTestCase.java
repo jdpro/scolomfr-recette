@@ -247,7 +247,9 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected void stopTestCase() {
 		result.setState(State.FINAL);
-		Thread.currentThread().interrupt();
+		if (executionMode.equals(ExecutionMode.ASYNCHRONOUS)) {
+			Thread.currentThread().interrupt();
+		}
 	}
 
 	protected File getFileByPath(final String filePath) {
