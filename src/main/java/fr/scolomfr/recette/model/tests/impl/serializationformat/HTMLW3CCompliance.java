@@ -138,7 +138,6 @@ public class HTMLW3CCompliance extends AbstractTestCase {
 		}
 		switch (messageType) {
 		case ERROR:
-
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);
 			message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
@@ -147,7 +146,6 @@ public class HTMLW3CCompliance extends AbstractTestCase {
 			result.addMessage(message);
 			break;
 		case INFO:
-
 			message = new Message(Message.Type.INFO, errorCode, i18n.tr("tests.impl.a13.result.warning.title"),
 					i18n.tr("tests.impl.a13.result.warning.content", new Object[] { filePath, messageStr }));
 			result.addMessage(message);

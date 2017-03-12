@@ -26,6 +26,8 @@ content:
   skosxl:
     global: a17/scolomfr-xl.skos
   html:
+    a13_valid: a13/a13_valid.html
+    a13_error: a13/a13_error.html
     a19_valid: a19/a19_valid.html
     a19_label_invalid: a19/a19_label_invalid.html
     a19_na_invalid: a19/a19_na_invalid.html
