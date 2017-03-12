@@ -16,6 +16,8 @@ content:
     a19_label_invalid: a19/a19_label_invalid.rdf
     a19_na_invalid: a19/a19_na_invalid.rdf
     a19_ta_invalid: a19/a19_ta_invalid.rdf
+    q8_valid: q8/q8_valid.skos
+    q8_invalid: q8/q8_invalid.skos
     s2_conservation_concepts_invalid: s2/s2_conservation_concepts_invalid_v0.skos
     s2_conservation_concepts_valid: s2/s2_conservation_concepts_valid_v0.skos
   html:
@@ -28,6 +30,3 @@ content:
     a22_empty: a22/a22_empty.vdex
     a22_nouri: a22/a22_nouri.vdex
     a22_duplicate: a22/a22_duplicate.vdex
-    
-    
-    
