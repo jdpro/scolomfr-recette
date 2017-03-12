@@ -29,6 +29,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
+import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
+import fr.scolomfr.recette.model.tests.execution.result.Message;
 
 public abstract class AbstractJenaTestCase extends AbstractTestCase {
 	@Autowired
@@ -45,7 +47,11 @@ public abstract class AbstractJenaTestCase extends AbstractTestCase {
 			}
 			return jenaEngine.getModel(fileInputStream);
 		} catch (Exception e) {
-			logger.trace("Impossible to close inputStream", e);
+			logger.error("Problem while trying to read file " + filePath + "with jena : ", e);
+			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+					i18n.tr("test.impl.file.unreadable.title"),
+					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath }));
+			result.incrementErrorCount(false);
 		}
 		return null;
 
