@@ -98,7 +98,7 @@ public class NamingRulesRespectSkos extends AbstractJenaTestCase {
 			try {
 				errorCode = generateUniqueErrorCode(uri);
 			} catch (DuplicateErrorCodeException e) {
-				logger.debug(ERROR_CODE_DUPLICATE, errorCode, e);
+				logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 				continue;
 			}
 
