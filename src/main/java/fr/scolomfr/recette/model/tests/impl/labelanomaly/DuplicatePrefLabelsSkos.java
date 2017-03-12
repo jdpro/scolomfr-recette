@@ -65,6 +65,9 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 			return;
 		}
 		Model model = getModel(version, vocabulary, format);
+		if (null == model) {
+			return;
+		}
 		Map<String, List<Pair<String, Node>>> preflabelsOfChildren = new HashMap<>();
 		Property children = model.getProperty(JenaEngine.Constant.SKOS_CORE_NS.toString(),
 				JenaEngine.Constant.SKOS_NARROWER_PROPERTY.toString());
