@@ -227,6 +227,9 @@ public class CatalogImpl implements Catalog {
 
 	@Override
 	public File getFileByPath(String filePath, String suffix) {
+		if (null == filePath) {
+			return null;
+		}
 		String prefix = "recette_tmp_";
 		InputStream in = getFileInputStreamByPath(filePath);
 		File tempFile = null;

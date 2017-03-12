@@ -20,10 +20,10 @@
  */
 package fr.scolomfr.recette.model.sources;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import java.io.File;
+import java.io.InputStream;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -55,11 +55,42 @@ public class CatalogTest {
 	}
 
 	@Test
+	public void testFilePathNotFound() {
+		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(Version.forIntegers(0, 0, 0), "html",
+				"i_dont_exist");
+		assertNull(filePath);
+	}
+
+	@Test
 	public void testFileExists() {
 		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(Version.forIntegers(0, 0, 0), "html",
 				"a19_valid");
 		File file = catalog.getFileByPath(filePath, ".rdf");
 		assertTrue(file.exists());
+	}
+
+	@Test
+	public void testFileDoesNotExist() {
+		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(Version.forIntegers(0, 0, 0), "html",
+				"i_dont_exist");
+		File file = catalog.getFileByPath(filePath, ".rdf");
+		assertNull(file);
+	}
+
+	@Test
+	public void testInputStreamNull() {
+		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(Version.forIntegers(0, 0, 0), "html",
+				"i_dont_exist");
+		InputStream is = catalog.getFileInputStreamByPath(filePath);
+		assertNull(is);
+	}
+
+	@Test
+	public void testInputStreamNotNull() {
+		String filePath = catalog.getFilePathByVersionFormatAndVocabulary(Version.forIntegers(0, 0, 0), "html",
+				"a19_valid");
+		InputStream is = catalog.getFileInputStreamByPath(filePath);
+		assertNotNull(is);
 	}
 
 }
