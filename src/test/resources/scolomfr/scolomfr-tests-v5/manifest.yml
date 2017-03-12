@@ -1,0 +1,6 @@
+version: 0.0.5
+content:
+  skos:
+    global: a17/a17_missing_uri.skos
+  vdex:
+    a17_missing_uri: a17/a17_missing_uri.vdex

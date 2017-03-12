@@ -1,0 +1,6 @@
+version: 0.0.3
+content:
+  skos:
+    global: a17/a17_invalid_uri.skos
+  vdex:
+    a17_invalid_uri: a17/a17_invalid_uri.vdex

@@ -78,7 +78,9 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		}
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
 		Model model = getModel(version, GLOBAL_VOCABULARY, format);
-
+		if (model == null) {
+			return;
+		}
 		Collection<String> vdexFilePaths = getFilePathsForAllVocabularies(version, "vdex").values();
 		Map<String, Document> vdexDocuments = new HashMap<>();
 		String dtdDirectory = catalog.getDtddirByVersionAndFormat(version, "vdex");

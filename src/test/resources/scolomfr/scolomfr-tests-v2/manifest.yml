@@ -1,0 +1,6 @@
+version: 0.0.2
+content:
+  skosxl:
+    global: a17/a17_valid.skos
+  vdex:
+    a17_valid: a17/a17_valid.vdex

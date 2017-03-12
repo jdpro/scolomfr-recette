@@ -1,0 +1,6 @@
+version: 0.0.4
+content:
+  skos:
+    global: a17/a17_invalid_label.skos
+  vdex:
+    a17_invalid_label: a17/a17_invalid_label.vdex
