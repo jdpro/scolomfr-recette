@@ -188,15 +188,6 @@ public abstract class AbstractTestCase implements TestCase {
 		if (StringUtils.isEmpty(vocabulary)) {
 			vocabulary = GLOBAL_VOCABULARY;
 		}
-		// TODO dead code
-		if (StringUtils.isEmpty(vocabulary)) {
-			String title = i18n.tr("test.impl.vocabulary.parameter.missing.title");
-			String msg = i18n.tr("test.impl.vocabulary.parameter.missing.content");
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "vocabulary", title,
-					msg);
-			result.incrementErrorCount(false);
-			stopTestCase();
-		}
 		return vocabulary;
 	}
 
@@ -336,7 +327,7 @@ public abstract class AbstractTestCase implements TestCase {
 		Document document;
 		try {
 			final InputStream fileInputStream = getFileInputStreamByPath(filePath);
-			if(null==fileInputStream){
+			if (null == fileInputStream) {
 				return null;
 			}
 			SourceRepresentationBuilder<Document> sourceRepresentationBuilder = new SourceRepresentationBuilder<Document>(
