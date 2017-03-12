@@ -46,7 +46,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		try {
 			auth.userDetailsService(inMemoryUserDetailsManager());
 		} catch (Exception e) {
-			throw new SecurityConfigurationException("Problement occured during security configuration initialization",e);
+			throw new SecurityConfigurationException("Problement occured during security configuration initialization",
+					e);
 		}
 	}
 
@@ -65,9 +66,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.authorizeRequests().antMatchers(HttpMethod.POST, "/**").permitAll().antMatchers(HttpMethod.GET, "/**")
-				.permitAll().and().formLogin().loginPage("/login").successHandler(successHandler()).and().requestCache()
-				.and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+		http.authorizeRequests()
+				.antMatchers(HttpMethod.POST, "/tests/ignore-false-positive", "/tests/restore-true-positive")
+				.hasAuthority("ADMIN").antMatchers(HttpMethod.POST, "/**").permitAll()
+				.antMatchers(HttpMethod.GET, "/**").permitAll().and().formLogin().loginPage("/login")
+				.successHandler(successHandler()).and().requestCache().and().logout()
+				.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
 				.logoutSuccessHandler(new CustomLogoutSuccessHandler()).permitAll();
 	}
 
