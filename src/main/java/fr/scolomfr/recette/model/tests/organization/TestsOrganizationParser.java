@@ -33,7 +33,7 @@ public interface TestsOrganizationParser {
 	 * 
 	 * @return
 	 */
-	TestsOrganization getTestOrganization();
+	TestCasesOrganization getTestOrganization();
 
 	/**
 	 * Load test organization file

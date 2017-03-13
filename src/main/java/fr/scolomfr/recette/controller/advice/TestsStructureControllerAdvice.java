@@ -26,8 +26,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-import fr.scolomfr.recette.model.tests.organization.TestsOrganization;
-import fr.scolomfr.recette.model.tests.organization.TestsRepository;
+import fr.scolomfr.recette.model.tests.organization.TestCasesOrganization;
+import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
 
 /**
  * Controller advice to add navbar information (sources structure by version and
@@ -37,7 +37,7 @@ import fr.scolomfr.recette.model.tests.organization.TestsRepository;
 public class TestsStructureControllerAdvice {
 
 	@Autowired
-	private TestsRepository testsRepository;
+	private TestCasesRepository testsRepository;
 
 	/**
 	 * Adds "testsStructure" variable to jsp context
@@ -46,7 +46,7 @@ public class TestsStructureControllerAdvice {
 	 */
 	@ModelAttribute
 	public void formatAttributes(Model model) {
-		TestsOrganization testsOrganisation = testsRepository.getTestOrganization();
+		TestCasesOrganization testsOrganisation = testsRepository.getTestOrganization();
 		model.addAttribute("testsStructure", testsOrganisation.getStructure());
 	}
 

@@ -37,14 +37,14 @@ import fr.scolomfr.recette.config.MvcConfiguration;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
-public class TestsOrganizationTest {
+public class TestsCasesOrganizationTest {
 
 	@Autowired
-	private TestsRepository testsRepository;
+	private TestCasesRepository testsRepository;
 
 	@Test
 	public void testTestCaseLabel() {
-		TestsOrganization testsOrganization = testsRepository.getTestOrganization();
+		TestCasesOrganization testsOrganization = testsRepository.getTestOrganization();
 		String testCaseLabel = "SKOS Recherche de prefLabel dupliqués dans la même branche";
 		String testCaseIndex = "a6";
 		assertEquals(testCaseLabel, testsOrganization.getTestCaseLabel(testCaseIndex));

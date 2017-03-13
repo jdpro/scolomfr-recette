@@ -34,10 +34,10 @@ import fr.scolomfr.recette.resources.EmbeddedResourcesLoader;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
- * @see TestsRepository
+ * @see TestCasesRepository
  */
 @Component
-public class TestsRepositoryImpl implements TestsRepository {
+public class TestsRepositoryImpl implements TestCasesRepository {
 	private static final String TESTS_ORGANIZATION_FILE = "/tests.yml";
 
 	@Log
@@ -52,7 +52,7 @@ public class TestsRepositoryImpl implements TestsRepository {
 	@Autowired
 	private TestCasesRegistry testCasesRegistry;
 
-	private TestsOrganization testOrganization;
+	private TestCasesOrganization testOrganization;
 
 	/**
 	 * Loads tests organization file at server startup
@@ -81,11 +81,11 @@ public class TestsRepositoryImpl implements TestsRepository {
 	}
 
 	@Override
-	public TestsOrganization getTestOrganization() {
+	public TestCasesOrganization getTestOrganization() {
 		return testOrganization;
 	}
 
-	public void setTestOrganization(TestsOrganization testOrganization) {
+	public void setTestOrganization(TestCasesOrganization testOrganization) {
 		this.testOrganization = testOrganization;
 	}
 

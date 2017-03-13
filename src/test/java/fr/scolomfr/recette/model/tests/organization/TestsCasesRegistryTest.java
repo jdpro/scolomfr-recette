@@ -41,18 +41,18 @@ import fr.scolomfr.recette.model.tests.impl.labelanomaly.DuplicatePrefLabelsSkos
 public class TestsCasesRegistryTest {
 
 	@Autowired
-	private TestsRepository testsRepository;
+	private TestCasesRepository testCasesRepository;
 
 	@Test
 	public void testTestCaseDefaultInstance() {
-		TestCasesRegistry testsRegistry = testsRepository.getTestCasesRegistry();
+		TestCasesRegistry testCasesRegistry = testCasesRepository.getTestCasesRegistry();
 		String testCaseIndex = "a6";
-		assertEquals(DuplicatePrefLabelsSkos.class, testsRegistry.getTestCaseDefaultInstance(testCaseIndex).getClass());
+		assertEquals(DuplicatePrefLabelsSkos.class, testCasesRegistry.getTestCaseDefaultInstance(testCaseIndex).getClass());
 	}
 
 	@Test
 	public void testTestCaseNewInstance() {
-		TestCasesRegistry testsRegistry = testsRepository.getTestCasesRegistry();
+		TestCasesRegistry testsRegistry = testCasesRepository.getTestCasesRegistry();
 		String testCaseIndex = "a6";
 		assertEquals(DuplicatePrefLabelsSkos.class, testsRegistry.getTestCaseNewInstance(testCaseIndex).getClass());
 	}

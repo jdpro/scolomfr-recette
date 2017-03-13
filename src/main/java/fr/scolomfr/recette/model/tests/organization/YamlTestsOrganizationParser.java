@@ -36,21 +36,21 @@ import org.yaml.snakeyaml.constructor.Constructor;
 @Component
 public class YamlTestsOrganizationParser implements TestsOrganizationParser {
 
-	private TestsOrganization testsOrganization;
+	private TestCasesOrganization testsOrganization;
 
 	@Override
-	public TestsOrganization getTestOrganization() {
+	public TestCasesOrganization getTestOrganization() {
 		return testsOrganization;
 	}
 
 	@Override
 	public TestsOrganizationParser load(InputStream testsOrganizationFile) throws IOException {
-		Constructor constructor = new Constructor(TestsOrganization.class);
-		TypeDescription testsOrganizationDescription = new TypeDescription(TestsOrganization.class);
+		Constructor constructor = new Constructor(TestCasesOrganization.class);
+		TypeDescription testsOrganizationDescription = new TypeDescription(TestCasesOrganization.class);
 		testsOrganizationDescription.putListPropertyType("structure", HashMap.class);
 		constructor.addTypeDescription(testsOrganizationDescription);
 		Yaml yaml = new Yaml(constructor);
-		testsOrganization = (TestsOrganization) yaml.load(testsOrganizationFile);
+		testsOrganization = (TestCasesOrganization) yaml.load(testsOrganizationFile);
 		return this;
 	}
 

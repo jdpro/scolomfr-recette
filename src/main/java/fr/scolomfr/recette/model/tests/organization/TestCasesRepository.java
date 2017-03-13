@@ -28,12 +28,12 @@ import org.springframework.stereotype.Component;
  * configuration file) and Test cases registry (Test cases instances)
  */
 @Component
-public interface TestsRepository {
+public interface TestCasesRepository {
 	/**
-	 * @see TestsOrganization
+	 * @see TestCasesOrganization
 	 * @return
 	 */
-	TestsOrganization getTestOrganization();
+	TestCasesOrganization getTestOrganization();
 
 	/**
 	 * @see TestCasesRegistry

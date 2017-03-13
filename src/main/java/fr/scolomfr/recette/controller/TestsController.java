@@ -50,7 +50,7 @@ import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
-import fr.scolomfr.recette.model.tests.organization.TestsRepository;
+import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
@@ -63,7 +63,7 @@ public class TestsController {
 	Logger logger;
 
 	@Autowired
-	TestsRepository testsRepository;
+	TestCasesRepository testsRepository;
 
 	@Autowired
 	TestCaseExecutionRegistry testCaseExecutionRegistry;

@@ -30,7 +30,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * Wrapper object for test structure taken from tests configuration file
  */
-public class TestsOrganization {
+public class TestCasesOrganization {
 	private static final String FOLDERS_KEY = "folders";
 	private static final String INDEX_KEY = "index";
 	private static final String LABEL_KEY = "label";
