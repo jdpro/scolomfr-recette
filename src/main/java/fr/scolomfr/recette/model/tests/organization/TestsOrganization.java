@@ -45,43 +45,6 @@ public class TestsOrganization {
 	}
 
 	/**
-	 * Get folder label by requirement key and folder key
-	 * 
-	 * @param requestedRequirement
-	 * @param requestedFolder
-	 * @return
-	 */
-	public String getFolderLabel(String requestedRequirement, String requestedFolder) {
-		Map<String, String> folder = getFolder(requestedRequirement, requestedFolder);
-		if (null == folder) {
-			return null;
-		} else {
-			return folder.get(LABEL_KEY);
-		}
-	}
-
-	private Map<String, String> getFolder(String requestedRequirement, String requestedFolder) {
-		Map<String, Map<String, Map<String, String>>> requirement = structure.get(requestedRequirement);
-		if (null == requirement) {
-			return null;
-		}
-		Map<String, Map<String, String>> folders = requirement.get(FOLDERS_KEY);
-		if (null == folders) {
-			return null;
-		}
-		Iterator<String> foldersIterator = folders.keySet().iterator();
-		while (foldersIterator.hasNext()) {
-			String folder = foldersIterator.next();
-			if (folder.equals(requestedFolder)) {
-				return folders.get(folder);
-			}
-
-		}
-
-		return null;
-	}
-
-	/**
 	 * Get test case label by test case index
 	 * 
 	 * @param requestedIndex
