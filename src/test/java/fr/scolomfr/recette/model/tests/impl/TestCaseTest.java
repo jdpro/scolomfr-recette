@@ -50,7 +50,7 @@ public class TestCaseTest {
 	@Autowired
 	private CaseConventionsRespectSkos caseConventionsRespectSkos;
 
-	//@Test
+	@Test
 	public void testTestCaseIndexAnnotation() {
 		Assert.assertEquals("Test index should be a23", "a23", caseConventionsRespectSkos.getIndex());
 
