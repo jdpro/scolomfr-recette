@@ -22,6 +22,8 @@ package fr.scolomfr.recette.model.tests.impl;
 
 import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
 
+import java.io.File;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -94,5 +96,27 @@ public class TestCaseTest {
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { skostype });
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {},
 				new String[] { skostype, version, vocabulary });
+	}
+
+	@Test
+	public void askMissingFileToTestCase() {
+		caseConventionsRespectSkos.reset();
+		String filePath = "/i-do-not-exist";
+		File file = caseConventionsRespectSkos.getFileByPath(filePath);
+		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Assert.assertNull(file);
+		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
+		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { filePath });
+	}
+
+	@Test
+	public void askMissingFileAsInputStreamToTestCase() {
+		caseConventionsRespectSkos.reset();
+		String filePath = "/i-do-not-exist";
+		InputStream is = caseConventionsRespectSkos.getFileInputStreamByPath(filePath);
+		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Assert.assertNull(is);
+		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
+		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { filePath });
 	}
 }
