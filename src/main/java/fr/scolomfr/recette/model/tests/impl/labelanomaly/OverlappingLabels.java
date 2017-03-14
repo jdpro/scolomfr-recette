@@ -24,13 +24,14 @@ package fr.scolomfr.recette.model.tests.impl.labelanomaly;
 import java.text.MessageFormat;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Set;
 
 import org.apache.commons.codec.digest.DigestUtils;
+import org.apache.commons.lang3.reflect.FieldUtils;
 
 import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelConflict;
 import at.ac.univie.mminf.qskos4j.issues.labels.util.LabelType;
+import at.ac.univie.mminf.qskos4j.issues.labels.util.LabeledConcept;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -44,8 +45,6 @@ import fr.scolomfr.recette.model.tests.organization.TestParameters;
 		TestParameters.Values.SKOSTYPE })
 public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelConflict>> {
 
-	private static String STRING_SPLITTER = "([^ (]+) \\((\"[^\"]+\")@([^,]+),\\s([^)]+)";
-
 	@Override
 	protected String getQskosIssueCode() {
 		return "ol";
@@ -55,43 +54,42 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 		return true;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	protected void populateResult(Collection<LabelConflict> data) {
-		Pattern datePatt = Pattern.compile(STRING_SPLITTER);
 		if (data == null) {
 			return;
 		}
 		Iterator<LabelConflict> it = data.iterator();
-
 		while (it.hasNext()) {
 			LabelConflict conflict = it.next();
-			String allConflicts = conflict.toString();
-			String[] conflictsArray = allConflicts.substring(1, allConflicts.length() - 2).split("\\),\\s");
-			StringBuilder contentBuilder = new StringBuilder("<ul>");
-			Matcher m;
-			int prefLabelsFound = 0;
-			for (int i = 0; i < conflictsArray.length; i++) {
-				String conflictStr = conflictsArray[i];
-				m = datePatt.matcher(conflictStr);
-				if (m.matches()) {
-					String uri = m.group(1);
-					String label = m.group(2);
-					String lang = m.group(3);
-					String type = m.group(4);
-					Object[] testArgs = { uri, label, lang, type };
-					if (isRestrictedToPrefLabels() && !type.equals(LabelType.PREF_LABEL.name())) {
-						continue;
-					}
-					prefLabelsFound++;
-					MessageFormat format = new MessageFormat(i18n.tr("tests.impl.qskos.ol.result.content"));
-					contentBuilder.append(format.format(testArgs));
-				}
+			Set<LabeledConcept> concepts = null;
+			try {
+				concepts = (Set<LabeledConcept>) FieldUtils.readField(conflict, "conflicts", true);
+			} catch (IllegalAccessException e) {
+				logger.trace("LabelConflict is decided not to share its data", e);
 			}
+			int prefLabelsFound = 0;
+			StringBuilder contentBuilder = new StringBuilder("<ul>");
+			for (LabeledConcept concept : concepts) {
+				String uri = concept.getConcept().stringValue();
+				String label = concept.getLiteral().stringValue();
+				String lang = concept.getLiteral().getLanguage();
+				String type = concept.getLabelType().name();
+				Object[] testArgs = { uri, label, lang, type };
+				if (isRestrictedToPrefLabels() && !type.equals(LabelType.PREF_LABEL.name())) {
+					continue;
+				}
+				prefLabelsFound++;
+				MessageFormat format = new MessageFormat(i18n.tr("tests.impl.qskos.ol.result.content"));
+				contentBuilder.append(format.format(testArgs));
+			}
+			contentBuilder.append("</ul>");
 			if (0 == prefLabelsFound && isRestrictedToPrefLabels()) {
 				continue;
 			}
-			contentBuilder.append("</ul>");
-			String errorCode = generateUniqueErrorCode(DigestUtils.md5Hex(allConflicts));
+
+			String errorCode = generateUniqueErrorCode(DigestUtils.md5Hex(contentBuilder.toString()));
 			boolean ignored = errorIsIgnored(errorCode);
 			result.incrementErrorCount(ignored);
 			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,

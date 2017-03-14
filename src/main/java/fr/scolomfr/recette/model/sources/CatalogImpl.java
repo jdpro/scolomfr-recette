@@ -232,6 +232,9 @@ public class CatalogImpl implements Catalog {
 		}
 		String prefix = "recette_tmp_";
 		InputStream in = getFileInputStreamByPath(filePath);
+		if (null == in) {
+			return null;
+		}
 		File tempFile = null;
 		try {
 			tempFile = File.createTempFile(prefix, suffix);

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="itm:n#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:isothes="http://purl.org/iso25964/skos-thes#"
+	xmlns:cndp="http://voc.cndp.fr/onto#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:bo="http://www.mondeca.com/system/basicontology#"
+	xmlns:canope="https://www.reseau-canope.fr/scolomfr/ontology.owl#"
+	xmlns:t3="http://www.mondeca.com/system/t3#">
+	<rdf:Description
+		rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086">
+		<isothes:status xml:lang="fr">Actuel</isothes:status>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		<skos:altLabel xml:lang="fr">ECO-GEST OPTION COMM ET ORG
+		</skos:altLabel>
+		<skos:altLabel xml:lang="fr">ECO.GE.COM</skos:altLabel>
+		<skos:broader
+			rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-0008" />
+		<skos:definition xml:lang="fr">Champ disciplinaire
+		</skos:definition>
+		<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:inScheme
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-014" />
+		<skos:prefLabel xml:lang="fr">économie et gestion, option
+			communication et organisation
+		</skos:prefLabel>
+		<canope:labelEquivalentExact xml:lang="fr">ECO-GEST
+			OPTION COMM ET ORG</canope:labelEquivalentExact>
+		<canope:labelEquivalentExact xml:lang="fr">ECO.GE.COM</canope:labelEquivalentExact>
+	</rdf:Description>
+	<rdf:Description
+		rdf:about="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1077">
+		<isothes:status xml:lang="fr">Actuel</isothes:status>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		<skos:altLabel xml:lang="fr">ECO-GEST OPTION COMM ET ORG
+		</skos:altLabel>
+		<skos:altLabel xml:lang="fr">ECO.GE.COM</skos:altLabel>
+		<skos:broader
+			rdf:resource="http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-0008" />
+		<skos:definition xml:lang="fr">Champ disciplinaire
+		</skos:definition>
+		<skos:inScheme rdf:resource="http://data.education.fr/voc/scolomfr" />
+		<skos:inScheme
+			rdf:resource="http://data.education.fr/voc/scolomfr/scolomfr-voc-014" />
+		<skos:prefLabel xml:lang="fr">économie et gestion, option
+			communication et organisation **modified**</skos:prefLabel>
+		<canope:labelEquivalentExact xml:lang="fr">ECO-GEST
+			OPTION COMM ET ORG</canope:labelEquivalentExact>
+		<canope:labelEquivalentExact xml:lang="fr">ECO.GE.COM</canope:labelEquivalentExact>
+	</rdf:Description>
+
+</rdf:RDF>
