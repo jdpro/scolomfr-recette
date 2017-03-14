@@ -59,7 +59,9 @@ public class TestsControllerTest {
 
 	private static final String TESTCASE_LABEL = "SKOS Recherche de prefLabel dupliqués dans la même branche";
 
-	private static final String TESTCASE_PATH = "/tests/absence_anomalies_libelles_documentation/preflabels_dupliques_meme_branche/a6/";
+	private static final String TESTCASE_ASYNC_PATH = "/tests/absence_anomalies_libelles_documentation/preflabels_dupliques_meme_branche/a6/";
+
+	private static final String TESTCASE_SYNC_PATH = "/tests/exec/a6/";
 
 	private MockMvc mockMvc;
 
@@ -74,7 +76,7 @@ public class TestsControllerTest {
 
 	@Test
 	public void testCaseShouldDisplayWithMetadataAndParameters() throws Exception {
-		mockMvc.perform(get(TESTCASE_PATH)).andExpect(status().is2xxSuccessful()).andExpect(view().name("tests"))
+		mockMvc.perform(get(TESTCASE_ASYNC_PATH)).andExpect(status().is2xxSuccessful()).andExpect(view().name("tests"))
 				.andExpect(model().attribute("implemented", true))
 				.andExpect(model().attribute("implementation", "DuplicatePrefLabelsSkos"))
 				.andExpect(model().attribute("testCaseIndex", "a6"))
@@ -85,9 +87,9 @@ public class TestsControllerTest {
 	}
 
 	@Test
-	public void testCaseShouldReturnExcutionUri() throws Exception {
-		mockMvc.perform(post(TESTCASE_PATH).header("Accept", "application/json")).andExpect(status().is2xxSuccessful())
-				.andExpect(jsonPath("$.status", is("INITIATED")))
+	public void testCaseAsyncShouldReturnExcutionUri() throws Exception {
+		mockMvc.perform(post(TESTCASE_ASYNC_PATH).header("Accept", "application/json"))
+				.andExpect(status().is2xxSuccessful()).andExpect(jsonPath("$.status", is("INITIATED")))
 				.andExpect(jsonPath("$.uri", startsWith(TESTCASE_EXECUTION_PATH)));
 		mockMvc.perform(get(TESTCASE_EXECUTION_PATH).header("Accept", "application/json"))
 				.andExpect(status().is2xxSuccessful()).andExpect(jsonPath("$.state", isA(String.class)))
@@ -95,6 +97,15 @@ public class TestsControllerTest {
 				.andExpect(jsonPath("$.falsePositiveCount", isA(Integer.class)))
 				.andExpect(jsonPath("$.complianceIndicator", isA(Double.class)));
 
+	}
+
+	@Test
+	public void testCaseSyncShouldReturnResult() throws Exception {
+		mockMvc.perform(get(TESTCASE_SYNC_PATH).header("Accept", "application/json").param("version", "0.0.0"))
+				.andExpect(status().is2xxSuccessful()).andExpect(jsonPath("$.state", is("FINAL")))
+				.andExpect(jsonPath("$.errorCount", isA(Integer.class)))
+				.andExpect(jsonPath("$.falsePositiveCount", isA(Integer.class)))
+				.andExpect(jsonPath("$.complianceIndicator", isA(Double.class)));
 	}
 
 }
