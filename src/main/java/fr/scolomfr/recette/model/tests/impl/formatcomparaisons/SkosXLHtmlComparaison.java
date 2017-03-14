@@ -27,6 +27,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.rdf.model.Model;
@@ -70,7 +71,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 			return;
 		}
 		Map<String, String> prefLabelsInSkos = jenaEngine.getAllPrefLabels(model);
-		Map<String, String> htmlFilePaths = null;
+		Map<String, String> htmlFilePaths;
 		if (vocabulary.equals(GLOBAL_VOCABULARY)) {
 			htmlFilePaths = getFilePathsForAllVocabularies(version, "html");
 		} else {
@@ -89,15 +90,15 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 			jsoupDocuments.put(vocabUri, getJsoupDocument(htmlFilePaths.get(vocabUri)));
 		}
 
-		Elements labels = null;
+		Elements labels;
 		int counter = 0;
 		int nbDocs = jsoupDocuments.keySet().size();
-		for (String vocabUri : jsoupDocuments.keySet()) {
+		for (Entry<String, Document> vocabEntry : jsoupDocuments.entrySet()) {
 			counter++;
-			String htmlFilePath = htmlFilePaths.get(vocabUri);
+			String htmlFilePath = htmlFilePaths.get(vocabEntry.getKey());
 			String docInfo = MessageFormat.format("{0} ({1}/{2})", htmlFilePath, counter, nbDocs);
 
-			Document jsoupDocument = jsoupDocuments.get(vocabUri);
+			Document jsoupDocument = jsoupDocuments.get(vocabEntry.getKey());
 			labels = jsoupDocument.getElementsByTag("li");
 			int nbLabels = labels.size();
 			int step = Math.min(50, nbLabels / 50 + 1);
@@ -105,7 +106,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 				if (i % step == 0) {
 					progressionMessage(docInfo, (float) i / (float) nbLabels * 100.f);
 				}
-				refreshComplianceIndicator(result, (denominator - numerator), denominator);
+				refreshComplianceIndicator(result, denominator - numerator, denominator);
 				denominator++;
 				Element labelElement = labels.get(i);
 				String rawTextContent = labelElement.text();
@@ -121,7 +122,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 						uris = checkLabelInSkosVokabularyAndReturnUris(htmlPrefLabel, prefLabelsInSkos);
 						if (uris.isEmpty()) {
 							try {
-								errorCode = generateUniqueErrorCode(vocabUri + MESSAGE_ID_SEPARATOR + "invalidlabel"
+								errorCode = generateUniqueErrorCode(vocabEntry.getKey() + MESSAGE_ID_SEPARATOR + "invalidlabel"
 										+ MESSAGE_ID_SEPARATOR + htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
 							} catch (DuplicateErrorCodeException e) {
 								logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
@@ -132,7 +133,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 							Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 									errorCode, i18n.tr("tests.impl.a19.result.invalidlabel.title"),
 									i18n.tr("tests.impl.a19.result.invalidlabel.content",
-											new Object[] { htmlPrefLabel, vocabUri }));
+											new Object[] { htmlPrefLabel, vocabEntry.getKey() }));
 							result.addMessage(message);
 						}
 					}
@@ -146,7 +147,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 							if (!found) {
 								try {
 									errorCode = generateUniqueErrorCode(
-											vocabUri + MESSAGE_ID_SEPARATOR + "invalidequiv" + MESSAGE_ID_SEPARATOR
+											vocabEntry.getKey() + MESSAGE_ID_SEPARATOR + "invalidequiv" + MESSAGE_ID_SEPARATOR
 													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
 								} catch (DuplicateErrorCodeException e) {
 									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
@@ -168,7 +169,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 							if (!found) {
 								try {
 									errorCode = generateUniqueErrorCode(
-											vocabUri + MESSAGE_ID_SEPARATOR + "invalidnote" + MESSAGE_ID_SEPARATOR
+											vocabEntry.getKey() + MESSAGE_ID_SEPARATOR + "invalidnote" + MESSAGE_ID_SEPARATOR
 													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
 								} catch (DuplicateErrorCodeException e) {
 									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
@@ -190,7 +191,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 							if (!found) {
 								try {
 									errorCode = generateUniqueErrorCode(
-											vocabUri + MESSAGE_ID_SEPARATOR + "invalidassoc" + MESSAGE_ID_SEPARATOR
+											vocabEntry.getKey() + MESSAGE_ID_SEPARATOR + "invalidassoc" + MESSAGE_ID_SEPARATOR
 													+ htmlPrefLabel + MESSAGE_ID_SEPARATOR + rawTextContent);
 								} catch (DuplicateErrorCodeException e) {
 									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);

@@ -72,7 +72,7 @@ public class HTMLW3CCompliance extends AbstractTestCase {
 		if (null == version || StringUtils.isEmpty(vocabulary)) {
 			return;
 		}
-		Map<String, String> htmlFilePaths = null;
+		Map<String, String> htmlFilePaths;
 		if (vocabulary.equals(GLOBAL_VOCABULARY)) {
 			htmlFilePaths = getFilePathsForAllVocabularies(version, "html");
 		} else {

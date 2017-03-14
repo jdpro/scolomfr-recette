@@ -44,7 +44,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 @Import({ SecurityConfig.class })
-@ComponentScan(basePackages = { "fr.scolomfr.recette"})
+@ComponentScan(basePackages = { "fr.scolomfr.recette" })
 @EnableWebMvc
 public class MvcConfiguration extends WebMvcConfigurerAdapter {
 
@@ -89,12 +89,6 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
 		messageSource.setBasename("WEB-INF/i18n/texts");
 		messageSource.setDefaultEncoding("UTF-8");
 		return messageSource;
-	}
-
-	@Override
-	public void addViewControllers(ViewControllerRegistry registry) {
-		//registry.addViewController("/login").setViewName("login");
-		//registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
 	}
 
 }

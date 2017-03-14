@@ -26,6 +26,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
@@ -66,7 +67,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 		int numerator = 0;
 		int denominator = 0;
 		progressionMessage(i18n.tr("tests.impl.data.loading.title"), 0);
-		List<String> vdexFilePaths = new LinkedList<String>();
+		List<String> vdexFilePaths = new LinkedList<>();
 		if (getVocabulary().equals(GLOBAL_VOCABULARY)) {
 			vdexFilePaths.addAll(getFilePathsForAllVocabularies(getVersion(), "vdex").values());
 		} else {
@@ -91,11 +92,11 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 			XPathExpression expression = xpath.compile(expressionStr);
 			int counter = 0;
 			int nbDocs = vdexDocuments.keySet().size();
-			for (String filePath : vdexDocuments.keySet()) {
+			for (Entry<String, Document> filePathEntry : vdexDocuments.entrySet()) {
 				counter++;
-				String docInfo = MessageFormat.format("{0} ({1}/{2})", filePath, counter, nbDocs);
+				String docInfo = MessageFormat.format("{0} ({1}/{2})", filePathEntry.getKey(), counter, nbDocs);
 				progressionMessage(docInfo, 0);
-				Document vdexDocument = vdexDocuments.get(filePath);
+				Document vdexDocument = vdexDocuments.get(filePathEntry.getKey());
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
 				int nbIdentifiers = identifiers.getLength();
 				int step = Math.min(50, nbIdentifiers / 50 + 1);
@@ -104,7 +105,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 						progressionMessage(docInfo, (float) i / (float) nbIdentifiers * 100.f);
 					}
 
-					refreshComplianceIndicator(result, (denominator - numerator), denominator);
+					refreshComplianceIndicator(result, denominator - numerator, denominator);
 					denominator++;
 					Node node = identifiers.item(i);
 
@@ -113,13 +114,13 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 
 					String errorCode = null;
 					try {
-						errorCode = generateUniqueErrorCode(filePath + MESSAGE_ID_SEPARATOR
+						errorCode = generateUniqueErrorCode(filePathEntry.getKey() + MESSAGE_ID_SEPARATOR
 								+ (StringUtils.isEmpty(identifier) ? lineNumber : identifier));
 					} catch (DuplicateErrorCodeException e1) {
 						logger.trace(ERROR_CODE_DUPLICATE, errorCode, e1);
 						try {
-							errorCode = generateUniqueErrorCode(
-									filePath + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
+							errorCode = generateUniqueErrorCode(filePathEntry.getKey() + MESSAGE_ID_SEPARATOR
+									+ identifier + MESSAGE_ID_SEPARATOR + lineNumber);
 						} catch (DuplicateErrorCodeException e2) {
 							logger.trace(ERROR_CODE_DUPLICATE, errorCode, e2);
 						}
@@ -130,7 +131,8 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 						numerator++;
 						Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 								i18n.tr("tests.impl.a22.result.empty.title"),
-								i18n.tr("tests.impl.a22.result.empty.content", new Object[] { filePath, lineNumber }));
+								i18n.tr("tests.impl.a22.result.empty.content",
+										new Object[] { filePathEntry.getKey(), lineNumber }));
 						result.addMessage(message);
 						continue;
 					}
@@ -139,15 +141,16 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 						numerator++;
 						Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 								i18n.tr("tests.impl.a22.result.duplicate.title"),
-								i18n.tr("tests.impl.a22.result.duplicate.content", new Object[] { filePath, lineNumber,
-										identifier, identifiersAndLineNumbers.get(identifier) }));
+								i18n.tr("tests.impl.a22.result.duplicate.content",
+										new Object[] { filePathEntry.getKey(), lineNumber, identifier,
+												identifiersAndLineNumbers.get(identifier) }));
 						result.addMessage(message);
 						continue;
 					} else {
 						identifiersAndLineNumbers.put(identifier, lineNumber);
 					}
 
-					String uri = null;
+					String uri;
 					if (urlValidator.isValid(identifier)) {
 						continue;
 					} else {
@@ -159,7 +162,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 								ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 								errorCode, i18n.tr("tests.impl.a22.result.nouri.title"),
 								i18n.tr("tests.impl.a22.result.nouri.content",
-										new Object[] { filePath, lineNumber, identifier }));
+										new Object[] { filePathEntry.getKey(), lineNumber, identifier }));
 						result.addMessage(message);
 					}
 
@@ -184,7 +187,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 		XPath xpath = xPathEngineProvider.getXpath();
 		final String expressionStr = MessageFormat.format(
 				"/vdex/relationship[./relationshipType=''UF''][./sourceTerm=''{0}'']/targetTerm", nonUriIdentifier);
-		NodeList equivalents = null;
+		NodeList equivalents;
 		XPathExpression expression = xpath.compile(expressionStr);
 		equivalents = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
 		for (int i = 0; i < equivalents.getLength(); i++) {

@@ -131,7 +131,7 @@ public class NamingRulesRespectSkos extends AbstractJenaTestCase {
 						i18n.tr("tests.impl.a7.result.invalid.content", new Object[] { uri }));
 				result.addMessage(message);
 			}
-			refreshComplianceIndicator(result, (denominator - numerator), denominator);
+			refreshComplianceIndicator(result, denominator - numerator, denominator);
 
 		}
 		progressionMessage("", 100);

@@ -158,7 +158,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 						i18n.tr("tests.impl.a15.result.nodic.title"), content));
 				break;
 			}
-			refreshComplianceIndicator(result, (denominator - numerator), denominator);
+			refreshComplianceIndicator(result, denominator - numerator, denominator);
 
 		}
 		progressionMessage("", 100);

@@ -26,6 +26,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 import javax.xml.xpath.XPath;
@@ -98,11 +99,11 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 			XPathExpression expression = xpath.compile(allIdentifiersExpressionStr);
 			int counter = 0;
 			int nbDocs = vdexDocuments.keySet().size();
-			for (String filePath : vdexDocuments.keySet()) {
+			for (Entry<String, Document> filePathEntry : vdexDocuments.entrySet()) {
 				counter++;
-				String docInfo = MessageFormat.format("{0} ({1}/{2})", filePath, counter, nbDocs);
+				String docInfo = MessageFormat.format("{0} ({1}/{2})", filePathEntry.getKey(), counter, nbDocs);
 
-				Document vdexDocument = vdexDocuments.get(filePath);
+				Document vdexDocument = vdexDocuments.get(filePathEntry.getKey());
 				identifiers = (NodeList) expression.evaluate(vdexDocument, XPathConstants.NODESET);
 				int nbIdentifiers = identifiers.getLength();
 				int step = Math.min(50, nbIdentifiers / 50 + 1);
@@ -110,20 +111,20 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 					if (i % step == 0) {
 						progressionMessage(docInfo, (float) i / (float) nbIdentifiers * 100.f);
 					}
-					refreshComplianceIndicator(result, (denominator - numerator), denominator);
+					refreshComplianceIndicator(result, denominator - numerator, denominator);
 					denominator++;
 					Node node = identifiers.item(i);
 					String identifier = node.getTextContent();
 					String lineNumber = (String) node.getUserData(DomDocumentWithLineNumbersBuilder.LINE_NUMBER_KEY);
 					String errorCode = null;
 					try {
-						errorCode = generateUniqueErrorCode(filePath + MESSAGE_ID_SEPARATOR
+						errorCode = generateUniqueErrorCode(filePathEntry.getKey() + MESSAGE_ID_SEPARATOR
 								+ (StringUtils.isEmpty(identifier) ? lineNumber : identifier));
 					} catch (DuplicateErrorCodeException e1) {
 						logger.debug("Errorcode {} generated twice, new attempt with more parameters ", errorCode, e1);
 						try {
 							errorCode = generateUniqueErrorCode(
-									filePath + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
+									filePathEntry.getKey() + MESSAGE_ID_SEPARATOR + identifier + MESSAGE_ID_SEPARATOR + lineNumber);
 						} catch (DuplicateErrorCodeException e) {
 							logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 						}
@@ -141,7 +142,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 							Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 									errorCode, i18n.tr("tests.impl.a17.result.missinginskos.title"),
 									i18n.tr("tests.impl.a17.result.missinginskos.content",
-											new Object[] { filePath, lineNumber, identifier }));
+											new Object[] { filePathEntry.getKey(), lineNumber, identifier }));
 							result.addMessage(message);
 						} else {
 							String labelInSkos = jenaEngine.getPrefLabelFor(resource.asNode(), model);
@@ -157,7 +158,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 									Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 											errorCode, i18n.tr("tests.impl.a17.result.nonmatchinglabels.title"),
 											i18n.tr("tests.impl.a17.result.nonmatchinglabels.content",
-													new Object[] { identifier, captionInVdex, filePath, labelInSkos }));
+													new Object[] { identifier, captionInVdex, filePathEntry.getKey(), labelInSkos }));
 									result.addMessage(message);
 								}
 							}

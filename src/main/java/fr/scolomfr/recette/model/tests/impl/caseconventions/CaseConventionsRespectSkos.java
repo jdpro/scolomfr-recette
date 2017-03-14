@@ -124,7 +124,7 @@ public class CaseConventionsRespectSkos extends AbstractJenaTestCase {
 								statement.getPredicate().getLocalName(), label }));
 				result.addMessage(message);
 			}
-			refreshComplianceIndicator(result, (denominator - numerator), denominator);
+			refreshComplianceIndicator(result, denominator - numerator, denominator);
 
 		}
 		progressionMessage("", 100);

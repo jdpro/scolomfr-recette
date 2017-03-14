@@ -297,7 +297,7 @@ public abstract class AbstractTestCase implements TestCase {
 			return false;
 		}
 		String status = stringRedisTemplate.opsForValue().get(key);
-		return null != status && status.equals("IGNORE");
+		return null != status && "IGNORE".equals(status);
 	}
 
 	protected String generateUniqueErrorCode(String identifier) throws DuplicateErrorCodeException {
@@ -332,7 +332,7 @@ public abstract class AbstractTestCase implements TestCase {
 			if (null == fileInputStream) {
 				return null;
 			}
-			SourceRepresentationBuilder<Document> sourceRepresentationBuilder = new SourceRepresentationBuilder<Document>(
+			SourceRepresentationBuilder<Document> sourceRepresentationBuilder = new SourceRepresentationBuilder<>(
 					Document.class);
 			sourceRepresentationBuilder.setWithLineNumbers(true);
 			if (!org.apache.commons.lang3.StringUtils.isEmpty(dtdDirectory)) {
