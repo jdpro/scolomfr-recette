@@ -45,6 +45,10 @@ public class ContextParameters {
 		return "";
 	}
 
+	public String getFromCliProperties(final Keys parameterName) {
+		return System.getProperty(parameterName.toString());
+	}
+
 	public enum Keys {
 		SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME("scolomfr_default_version"), SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME(
 				"scolomfr_files_directory");

@@ -26,6 +26,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.Profile;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.LocaleResolver;
@@ -46,6 +47,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Import({ SecurityConfig.class })
 @ComponentScan(basePackages = { "fr.scolomfr.recette" })
 @EnableWebMvc
+@Profile("web")
 public class MvcConfiguration extends WebMvcConfigurerAdapter {
 
 	@Bean

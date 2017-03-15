@@ -200,6 +200,11 @@ public class CatalogImpl implements Catalog {
 		String scolomfrFilesDirectoryFromContext = getScolomfrFilesDirectoryFromContext();
 		logger.info("Scolomfr file directory fetched from xml context : {}", scolomfrFilesDirectoryFromContext);
 		if (StringUtils.isEmpty(scolomfrFilesDirectoryFromContext)) {
+			scolomfrFilesDirectoryFromContext = getScolomfrFilesDirectoryFromCliProperties();
+			logger.info("Scolomfr file directory fetched from client propertiest : {}",
+					scolomfrFilesDirectoryFromContext);
+		}
+		if (StringUtils.isEmpty(scolomfrFilesDirectoryFromContext)) {
 			logger.info("Using memory classpath instead");
 			return CLASSPATH_VOCABULARIES_DIRECTORY;
 		}
@@ -211,8 +216,13 @@ public class CatalogImpl implements Catalog {
 		return contextParameters.get(ContextParameters.Keys.SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
 	}
 
+	private String getScolomfrFilesDirectoryFromCliProperties() {
+		return contextParameters.getFromCliProperties(ContextParameters.Keys.SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
+	}
+
 	private ResourcesLoader getResourcesLoader() {
-		if (StringUtils.isEmpty(getScolomfrFilesDirectoryFromContext())) {
+		if (StringUtils
+				.isEmpty(getScolomfrFilesDirectoryFromContext() + getScolomfrFilesDirectoryFromCliProperties())) {
 			return embeddedResourcesLoader;
 		}
 		return fileSystemResourcesLoader;

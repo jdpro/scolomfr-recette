@@ -6,7 +6,7 @@
 	<groupId>fr.scolomfr</groupId>
 	<artifactId>recette</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>Recette scolomfr</name>
 	<url></url>
@@ -21,6 +21,7 @@
 		<logback.version>1.2.1</logback.version>
 		<project.build.finalName>recette</project.build.finalName>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jar.mainclass>org.springframework.shell.Bootstrap</jar.mainclass>
 	</properties>
 
 	<dependencies>
@@ -83,14 +84,12 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
-			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
 			<version>2.2</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.yaml</groupId>
@@ -318,112 +317,44 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>2.6</version>
-				<configuration>
-					<warSourceDirectory>/src/main/webapp</warSourceDirectory>
-					<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
-					<failOnMissingWebXml>true</failOnMissingWebXml>
-					<webResources>
-						<resource>
-							<directory>src/main/webapp/WEB-INF</directory>
-							<targetPath>WEB-INF</targetPath>
-							<excludes>
-								<exclude>resources/bower_components/**</exclude>
-								<exclude>resources/js/**</exclude>
-								<exclude>resources/less/**</exclude>
-								<exclude>resources/gulpfile.js</exclude>
-								<exclude>resources/bower.json</exclude>
-								<exclude>resources/package.json</exclude>
-							</excludes>
-						</resource>
-					</webResources>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
-				<configuration>
-					<path>/${project.build.finalName}</path>
-					<update>true</update>
-					<url>http://163.172.91.20:9090/manager/text</url>
-					<server>sd-112269</server>
-					<contextFile>/tmp/recette.xml</contextFile>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.jacoco</groupId>
-				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.7.7.201606060606</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
 				<executions>
 					<execution>
-						<id>default-instrument</id>
-						<goals>
-							<goal>instrument</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>default-restore-instrumented-classes</id>
-						<goals>
-							<goal>restore-instrumented-classes</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>default-report</id>
+						<id>copy-dependencies</id>
 						<phase>prepare-package</phase>
 						<goals>
-							<goal>report</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>default-check</id>
-						<goals>
-							<goal>check</goal>
+							<goal>copy-dependencies</goal>
 						</goals>
 						<configuration>
-							<rules><!-- implementation is needed only for Maven 2 -->
-								<rule implementation="org.jacoco.maven.RuleConfiguration">
-									<element>BUNDLE</element>
-									<limits><!-- implementation is needed only for Maven 2 -->
-										<limit implementation="org.jacoco.report.check.Limit">
-											<counter>COMPLEXITY</counter>
-											<value>COVEREDRATIO</value>
-											<minimum>0.35</minimum>
-										</limit>
-									</limits>
-								</rule>
-							</rules>
+							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+							<overWriteReleases>true</overWriteReleases>
+							<overWriteSnapshots>true</overWriteSnapshots>
+							<overWriteIfNewer>true</overWriteIfNewer>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.12.2</version>
+				<artifactId>maven-jar-plugin</artifactId>
 				<configuration>
-					<systemPropertyVariables>
-						<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-					</systemPropertyVariables>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<useUniqueVersions>false</useUniqueVersions>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>${jar.mainclass}</mainClass>
+						</manifest>
+						<manifestEntries>
+							<version>${project.version}</version>
+						</manifestEntries>
+					</archive>
 				</configuration>
 			</plugin>
 		</plugins>
+
+
 	</build>
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.jacoco</groupId>
-				<artifactId>jacoco-maven-plugin</artifactId>
-				<reportSets>
-					<reportSet>
-						<reports>
-							<!-- select non-aggregate reports -->
-							<report>report</report>
-						</reports>
-					</reportSet>
-				</reportSets>
-			</plugin>
-		</plugins>
-	</reporting>
+
 </project>
