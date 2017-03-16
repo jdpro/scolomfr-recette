@@ -37,7 +37,7 @@ public class MyBannerProvider extends DefaultBannerProvider {
 		buf.append(" \\___ \\ / __/ _ \\| |   | |  | | |\\/| |  __| |  _  / " + OsUtils.LINE_SEPARATOR);
 		buf.append(" ____) | (_| (_) | |___| |__| | |  | | |    | | \\ \\ " + OsUtils.LINE_SEPARATOR);
 		buf.append("|_____/ \\___\\___/|______\\____/|_|  |_|_|    |_|  \\_\\" + OsUtils.LINE_SEPARATOR);
-		buf.append("                  | | | |                           " + OsUtils.LINE_SEPARATOR);
+		buf.append("                      | | | |                           " + OsUtils.LINE_SEPARATOR);
 		buf.append("     _ __ ___  ___ ___| |_| |_ ___                      " + OsUtils.LINE_SEPARATOR);
 		buf.append("    | '__/ _ \\/ __/ _ \\ __| __/ _ \\                     " + OsUtils.LINE_SEPARATOR);
 		buf.append("    | | |  __/ (_|  __/ |_| ||  __/                     " + OsUtils.LINE_SEPARATOR);

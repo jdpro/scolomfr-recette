@@ -1,12 +1,18 @@
 package fr.scolomfr.recette.cli.commands;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.util.Pair;
 import org.springframework.shell.core.CommandMarker;
 import org.springframework.shell.core.annotation.CliAvailabilityIndicator;
 import org.springframework.shell.core.annotation.CliCommand;
 import org.springframework.shell.core.annotation.CliOption;
 import org.springframework.stereotype.Component;
 
+import com.github.zafarkhaja.semver.Version;
+
+import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
 import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
 
@@ -34,6 +40,10 @@ import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
 public class Commands implements CommandMarker {
 	// @Log
 	// Logger logger;
+	
+
+	@Autowired
+	private Catalog catalog;
 
 	@Autowired
 	TestCasesRepository testsRepository;
@@ -43,7 +53,7 @@ public class Commands implements CommandMarker {
 
 	private boolean simpleCommandExecuted = false;
 
-	@CliAvailabilityIndicator({ "hw simple" })
+	@CliAvailabilityIndicator({ "sources" })
 	public boolean isSimpleAvailable() {
 		// always available
 		return true;
@@ -58,13 +68,12 @@ public class Commands implements CommandMarker {
 		}
 	}
 
-	@CliCommand(value = "hw simple", help = "Print a simple hello world message")
+	@CliCommand(value = "sources", help = "Print a simple hello world message")
 	public String simple(
-			@CliOption(key = { "message" }, mandatory = true, help = "The hello world message") final String message,
-			@CliOption(key = {
-					"location" }, mandatory = false, help = "Where you are saying hello", specifiedDefaultValue = "At work") final String location) {
-		simpleCommandExecuted = true;
-		return "Message = [" + message + "] Location = [" + location + "]";
+			@CliOption(key = { "version" }, mandatory = true, help = "The hello world message") final String version) {
+		Version requestedVersion = Version.valueOf(version);
+		List<Pair<String, Pair<String, String>>> sources = catalog.getFilePathsByVersion(requestedVersion);
+		return sources.toString();
 	}
 
 	@CliCommand(value = "hw complex", help = "Print a complex hello world message")
