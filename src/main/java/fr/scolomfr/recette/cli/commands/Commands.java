@@ -1,20 +1,23 @@
 package fr.scolomfr.recette.cli.commands;
 
-import java.util.List;
+import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.util.Pair;
+import org.springframework.context.annotation.Profile;
 import org.springframework.shell.core.CommandMarker;
-import org.springframework.shell.core.annotation.CliAvailabilityIndicator;
 import org.springframework.shell.core.annotation.CliCommand;
 import org.springframework.shell.core.annotation.CliOption;
 import org.springframework.stereotype.Component;
 
 import com.github.zafarkhaja.semver.Version;
 
+import fr.scolomfr.recette.cli.commands.output.ConsoleFormatter;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
 import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
+import fr.scolomfr.recette.utils.log.Log;
 
 /**
  * 
@@ -37,75 +40,46 @@ import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
  * 
  */
 @Component
+@Profile({ "!web" })
 public class Commands implements CommandMarker {
-	// @Log
-	// Logger logger;
-	
+	@Log
+	Logger logger;
 
 	@Autowired
 	private Catalog catalog;
 
 	@Autowired
 	TestCasesRepository testsRepository;
-	// //
+
 	@Autowired
 	TestCaseExecutionRegistry testCaseExecutionRegistry;
 
-	private boolean simpleCommandExecuted = false;
+	@Autowired
+	ConsoleFormatter consoleFormatter;
 
-	@CliAvailabilityIndicator({ "sources" })
-	public boolean isSimpleAvailable() {
-		// always available
-		return true;
-	}
-
-	@CliAvailabilityIndicator({ "hw complex", "hw enum" })
-	public boolean isComplexAvailable() {
-		if (simpleCommandExecuted) {
-			return true;
-		} else {
-			return false;
-		}
-	}
-
-	@CliCommand(value = "sources", help = "Print a simple hello world message")
-	public String simple(
-			@CliOption(key = { "version" }, mandatory = true, help = "The hello world message") final String version) {
-		Version requestedVersion = Version.valueOf(version);
-		List<Pair<String, Pair<String, String>>> sources = catalog.getFilePathsByVersion(requestedVersion);
-		return sources.toString();
-	}
-
-	@CliCommand(value = "hw complex", help = "Print a complex hello world message")
-	public String hello(
-			@CliOption(key = { "message" }, mandatory = true, help = "The hello world message") final String message,
-			@CliOption(key = { "name1" }, mandatory = true, help = "Say hello to the first name") final String name1,
-			@CliOption(key = { "name2" }, mandatory = true, help = "Say hello to a second name") final String name2,
+	@CliCommand(value = "sources", help = "Display sources by version and/or format")
+	public String displaySources(
 			@CliOption(key = {
-					"time" }, mandatory = false, specifiedDefaultValue = "now", help = "When you are saying hello") final String time,
-			@CliOption(key = {
-					"location" }, mandatory = false, help = "Where you are saying hello") final String location) {
-		return "Hello " + name1 + " and " + name2 + ". Your special message is " + message + ". time=[" + time
-				+ "] location=[" + location + "]";
-	}
-
-	@CliCommand(value = "hw enum", help = "Print a simple hello world message from an enumerated value")
-	public String eenum(@CliOption(key = {
-			"message" }, mandatory = true, help = "The hello world message") final MessageType message) {
-		return "Hello.  Your special enumerated message is " + message;
-	}
-
-	enum MessageType {
-		Type1("type1"), Type2("type2"), Type3("type3");
-
-		private String type;
-
-		private MessageType(String type) {
-			this.type = type;
+					"version" }, mandatory = false, help = "The version major.minor.patch") final String versionStr,
+			@CliOption(key = { "format" }, mandatory = false, help = "The format e.g. skos") final String format) {
+		Version version = null;
+		if (!StringUtils.isEmpty(versionStr)) {
+			version = Version.valueOf(versionStr);
+		}
+		if (null != version) {
+			return consoleFormatter.formatFormats(catalog.getFilePathsByVersion(version));
+		} else if (!StringUtils.isEmpty(format)) {
+			return consoleFormatter.formatVersions(catalog.getFilePathsByFormat(format));
 		}
 
-		public String getType() {
-			return type;
-		}
+		return "";
 	}
+
+	@CliCommand(value = "tests", help = "Display tests")
+	public String displayTests() {
+		Version version = null;
+		Map<String, Map<String, Map<String, Map<String, String>>>> testsOrganisation = testsRepository.getTestOrganization().getStructure();
+		return consoleFormatter.formatTestOrganisation(testsOrganisation);
+	}
+
 }

@@ -20,8 +20,21 @@
  */
 package fr.scolomfr.recette.config;
 
-public interface ContextParameters {
+import org.slf4j.Logger;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
 
-	String get(ParameterKeys parameterName);
+import fr.scolomfr.recette.utils.log.Log;
+
+@Component
+@Profile({ "!web" })
+public class ConsoleContextParameters implements ContextParameters {
+
+	@Log
+	Logger logger;
+
+	public String get(final ParameterKeys parameterName) {
+		return System.getProperty(parameterName.toString());
+	}
 
 }

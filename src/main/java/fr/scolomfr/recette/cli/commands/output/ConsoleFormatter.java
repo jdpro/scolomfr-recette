@@ -18,10 +18,24 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.config;
+package fr.scolomfr.recette.cli.commands.output;
 
-public interface ContextParameters {
+import java.util.List;
+import java.util.Map;
 
-	String get(ParameterKeys parameterName);
+import org.springframework.data.util.Pair;
+import org.springframework.stereotype.Component;
+
+import com.github.zafarkhaja.semver.Version;
+
+@Component
+public interface ConsoleFormatter {
+
+
+	String formatFormats(List<Pair<String, Pair<String, String>>> filePathsByVersion);
+
+	String formatVersions(List<Pair<Version, Pair<String, String>>> filePathsByFormat);
+
+	String formatTestOrganisation(Map<String, Map<String, Map<String, Map<String, String>>>> testsOrganisation);
 
 }

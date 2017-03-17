@@ -289,6 +289,14 @@
 			<version>2.2.0</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/de.vandermeer/asciitable -->
+		<dependency>
+			<groupId>de.vandermeer</groupId>
+			<artifactId>asciitable</artifactId>
+			<version>0.2.5</version>
+		</dependency>
+
+
 
 	</dependencies>
 

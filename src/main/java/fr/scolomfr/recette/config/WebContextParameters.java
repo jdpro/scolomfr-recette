@@ -20,8 +20,31 @@
  */
 package fr.scolomfr.recette.config;
 
-public interface ContextParameters {
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
 
-	String get(ParameterKeys parameterName);
+import org.slf4j.Logger;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
+
+import fr.scolomfr.recette.utils.log.Log;
+
+@Component
+@Profile("web")
+public class WebContextParameters implements ContextParameters {
+
+	@Log
+	Logger logger;
+
+	public String get(final ParameterKeys parameterName) {
+		InitialContext initialContext;
+		try {
+			initialContext = new javax.naming.InitialContext();
+			return (String) initialContext.lookup("java:comp/env/" + parameterName.toString());
+		} catch (NamingException e) {
+			logger.trace("Unable to get {} from initial context", parameterName, e);
+		}
+		return "";
+	}
 
 }

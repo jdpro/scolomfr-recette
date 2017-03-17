@@ -41,6 +41,7 @@ import org.w3c.dom.Document;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.config.ContextParameters;
+import fr.scolomfr.recette.config.ParameterKeys;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuildException;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuilder;
@@ -165,7 +166,7 @@ public abstract class AbstractTestCase implements TestCase {
 	protected Version getVersion(String versionParameter) {
 		String versionStr = executionParameters.get(versionParameter);
 		if (StringUtils.isEmpty(versionStr)) {
-			versionStr = contextParameters.get(ContextParameters.Keys.SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME);
+			versionStr = contextParameters.get(ParameterKeys.SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME);
 		}
 		Version version = null;
 		try {

@@ -49,6 +49,7 @@ import org.springframework.util.StringUtils;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.config.ContextParameters;
+import fr.scolomfr.recette.config.ParameterKeys;
 import fr.scolomfr.recette.model.sources.manifest.Manifest;
 import fr.scolomfr.recette.model.sources.manifest.ManifestParser;
 import fr.scolomfr.recette.resources.EmbeddedResourcesLoader;
@@ -198,12 +199,7 @@ public class CatalogImpl implements Catalog {
 	@Override
 	public String getVocabulariesDirectory() {
 		String scolomfrFilesDirectoryFromContext = getScolomfrFilesDirectoryFromContext();
-		logger.info("Scolomfr file directory fetched from xml context : {}", scolomfrFilesDirectoryFromContext);
-		if (StringUtils.isEmpty(scolomfrFilesDirectoryFromContext)) {
-			scolomfrFilesDirectoryFromContext = getScolomfrFilesDirectoryFromCliProperties();
-			logger.info("Scolomfr file directory fetched from client propertiest : {}",
-					scolomfrFilesDirectoryFromContext);
-		}
+		logger.info("Scolomfr file directory fetched from context : {}", scolomfrFilesDirectoryFromContext);
 		if (StringUtils.isEmpty(scolomfrFilesDirectoryFromContext)) {
 			logger.info("Using memory classpath instead");
 			return CLASSPATH_VOCABULARIES_DIRECTORY;
@@ -213,16 +209,11 @@ public class CatalogImpl implements Catalog {
 	}
 
 	private String getScolomfrFilesDirectoryFromContext() {
-		return contextParameters.get(ContextParameters.Keys.SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
-	}
-
-	private String getScolomfrFilesDirectoryFromCliProperties() {
-		return contextParameters.getFromCliProperties(ContextParameters.Keys.SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
+		return contextParameters.get(ParameterKeys.SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME);
 	}
 
 	private ResourcesLoader getResourcesLoader() {
-		if (StringUtils
-				.isEmpty(getScolomfrFilesDirectoryFromContext() + getScolomfrFilesDirectoryFromCliProperties())) {
+		if (StringUtils.isEmpty(getScolomfrFilesDirectoryFromContext())) {
 			return embeddedResourcesLoader;
 		}
 		return fileSystemResourcesLoader;

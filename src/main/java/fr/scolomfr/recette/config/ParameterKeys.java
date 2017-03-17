@@ -20,8 +20,18 @@
  */
 package fr.scolomfr.recette.config;
 
-public interface ContextParameters {
+public enum ParameterKeys {
+	SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME("scolomfr_default_version"), SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME(
+			"scolomfr_files_directory");
+	private final String value;
 
-	String get(ParameterKeys parameterName);
+	private ParameterKeys(final String value) {
+		this.value = value;
+	}
+
+	@Override
+	public String toString() {
+		return value;
+	}
 
 }

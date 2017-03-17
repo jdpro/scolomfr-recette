@@ -4,3 +4,137 @@ hw simple --message "ca marche"
 exit
 // Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-15 05:49:15
 // Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-15 06:31:06
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:16:41
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:17:21
+help
+sources by version --version 3.2.0
+// [failed] sources by version --version to
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:29:50
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:30:01
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:35:52
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:36:04
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:36:36
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:36:53
+sources by version --version 3.2.0
+sources by version --version 3.2.6
+sources by version --version 3.2.0
+help
+clear
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:40:21
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:41:18
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:41:58
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:42:17
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:42:28
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:43:09
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:43:26
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:44:10
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:44:22
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 06:46:55
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 06:47:07
+sources --version 3.1.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 18:56:03
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 18:56:52
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:25:43
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:27:24
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:32:36
+sources --version 3.1.0
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:36:04
+// [failed] sources --version 3.1.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 19:37:21
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:37:33
+sources --version 3.1.0
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:39:59
+sources --version 3.1.0
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:40:49
+sources --version 3.1.0
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:42:27
+sources --version 3.1.0
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:43:01
+sources --version 3.1.0
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:43:58
+sources --version 3.1.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 19:44:45
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:44:57
+// [failed] sources --version 3.1.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 19:46:13
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:46:25
+sources --version 3.1.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 19:48:26
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:48:46
+sources --version 3.1.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 19:50:36
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:50:52
+sources --version 3.1.0
+sources --version 3.2.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 19:51:47
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:51:57
+sources --version 3.2.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 19:52:34
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:52:44
+sources --version 3.2.0
+sources --version 3.2.0
+sources --version 3.2.0
+sources --version 3.1.0
+sources --version 3.1.0
+sources --version 3.2.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 19:57:25
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 19:57:40
+sources --version 3.2.0
+sources --version 3.1.0
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 20:08:43
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 20:08:56
+// [failed] sources --format skos
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-16 20:11:02
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-16 20:11:15
+sources --version 3.1.0
+sources --format skos
+help
+help sources
+help sources
+help
+sources --format skos
+help
+system properties
+help
+date
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 04:19:29
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 04:31:21
+tests
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 04:35:50
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 04:36:03
+// [failed] tests
+// [failed] tests
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 04:37:46
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 04:37:57
+// [failed] tests
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 04:39:12
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 04:39:26
+tests
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 04:42:55
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 04:43:07
+tests
