@@ -45,7 +45,7 @@ import fr.scolomfr.recette.config.ParameterKeys;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuildException;
 import fr.scolomfr.recette.model.sources.representation.SourceRepresentationBuilder;
-import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
+import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
@@ -89,7 +89,7 @@ public abstract class AbstractTestCase implements TestCase {
 	protected Map<String, String> executionParameters;
 	protected Result result = new Result();
 	protected Integer executionIdentifier;
-	protected TestCaseExecutionRegistry testCaseExecutionRegistry;
+	protected TestCaseExecutionTracker testCaseExecutionTracker;
 
 	@Autowired
 	protected I18nProvider i18n;
@@ -110,8 +110,9 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	@Override
-	public void setExecutionRegistry(TestCaseExecutionRegistry testCaseExecutionRegistry) {
-		this.testCaseExecutionRegistry = testCaseExecutionRegistry;
+	public void setExecutionTracker(TestCaseExecutionTracker testCaseExecutionTracker) {
+		this.testCaseExecutionTracker = testCaseExecutionTracker;
+		result.setTestCaseExecutionTracker(testCaseExecutionTracker);
 	}
 
 	protected String getIndex() {
@@ -135,7 +136,7 @@ public abstract class AbstractTestCase implements TestCase {
 				temporaryResult.addMessage(this.result.getMessages().pop());
 			}
 			if (temporaryResult.getState().equals(Result.State.FINAL)) {
-				this.testCaseExecutionRegistry.markForFutureDeletion(executionIdentifier);
+				this.testCaseExecutionTracker.markForFutureDeletion(executionIdentifier);
 			}
 			return temporaryResult;
 		}

@@ -10,6 +10,8 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
+import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
+
 @XmlType(namespace = "http://recette.scolomfr.fr/2017/1")
 @XmlRootElement(name = "result")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -27,6 +29,8 @@ public class Result {
 
 	private float complianceIndicator;
 
+	private TestCaseExecutionTracker testCaseExecutionTracker;
+
 	public Result() {
 		messages = new ConcurrentLinkedDeque<>();
 		setErrorCount(0);
@@ -41,6 +45,7 @@ public class Result {
 
 	public void addMessage(Message message) {
 		this.messages.push(message);
+		testCaseExecutionTracker.notify(message);
 	}
 
 	public void addMessage(Message.Type type, String key, String title, String content) {
@@ -86,6 +91,14 @@ public class Result {
 
 	public void setFalsePositiveCount(int falsePositiveCount) {
 		this.falsePositiveCount = falsePositiveCount;
+	}
+
+	public TestCaseExecutionTracker getTestCaseExecutionTracker() {
+		return testCaseExecutionTracker;
+	}
+
+	public void setTestCaseExecutionTracker(TestCaseExecutionTracker testCaseExecutionTracker) {
+		this.testCaseExecutionTracker = testCaseExecutionTracker;
 	}
 
 	public enum State {

@@ -20,6 +20,7 @@
  */
 package fr.scolomfr.recette.cli.commands.output;
 
+import java.text.MessageFormat;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -33,8 +34,11 @@ import com.github.zafarkhaja.semver.Version;
 import de.vandermeer.asciitable.v2.RenderedTable;
 import de.vandermeer.asciitable.v2.V2_AsciiTable;
 import de.vandermeer.asciitable.v2.render.V2_AsciiTableRenderer;
+import de.vandermeer.asciitable.v2.render.WidthAbsoluteEven;
 import de.vandermeer.asciitable.v2.render.WidthLongestLine;
 import de.vandermeer.asciitable.v2.themes.V2_E_TableThemes;
+import fr.scolomfr.recette.model.tests.execution.result.Message;
+import fr.scolomfr.recette.model.tests.execution.result.Message.Type;
 
 @Component
 public class AcsiiConsoleFormatter implements ConsoleFormatter {
@@ -43,6 +47,16 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		V2_AsciiTableRenderer rend = new V2_AsciiTableRenderer();
 		rend.setTheme(V2_E_TableThemes.UTF_STRONG_DOUBLE.get());
 		WidthLongestLine width = new WidthLongestLine();
+
+		rend.setWidth(width);
+		RenderedTable rt = rend.render(at);
+		return rt;
+	}
+
+	private RenderedTable getRenderedTableForLongLines(V2_AsciiTable at) {
+		V2_AsciiTableRenderer rend = new V2_AsciiTableRenderer();
+		rend.setTheme(V2_E_TableThemes.UTF_STRONG_DOUBLE.get());
+		WidthAbsoluteEven width = new WidthAbsoluteEven(76);
 
 		rend.setWidth(width);
 		RenderedTable rt = rend.render(at);
@@ -103,6 +117,47 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 			at.addRule();
 		}
 		return getRenderedTable(at).toString();
+	}
+
+	@Override
+	public String formatMessage(Message message) {
+		StringBuilder sb = new StringBuilder(System.lineSeparator());
+		sb.append(System.lineSeparator());
+		Type type = message.getType();
+		switch (type) {
+		case ERROR:
+		case FAILURE:
+			sb.append(AnsiConstants.ANSI_RED);
+			break;
+		case IGNORED:
+			sb.append(AnsiConstants.ANSI_GRAY);
+			break;
+		case INFO:
+			sb.append(AnsiConstants.ANSI_BLUE);
+			break;
+		case PROGRESS:
+			return "";
+		}
+		sb.append(type).append(" : ");
+		sb.append(message.getTitle()).append(System.lineSeparator()).append(AnsiConstants.ANSI_RESET);
+		String content = message.getContent();
+		content = content.replaceAll("</[^>]+>", AnsiConstants.ANSI_RESET);
+		content = content.replaceAll("<[^>]+>", AnsiConstants.ANSI_GREEN);
+		sb.append(content).append(System.lineSeparator());
+		return sb.toString();
+	}
+
+	class AnsiConstants {
+		public static final String ANSI_RESET = "\u001B[0m";
+		public static final String ANSI_BLACK = "\u001B[30m";
+		public static final String ANSI_RED = "\u001B[31m";
+		public static final String ANSI_GREEN = "\u001B[32m";
+		public static final String ANSI_YELLOW = "\u001B[33m";
+		public static final String ANSI_BLUE = "\u001B[34m";
+		public static final String ANSI_PURPLE = "\u001B[35m";
+		public static final String ANSI_CYAN = "\u001B[36m";
+		public static final String ANSI_GRAY = "\u001B[37m";
+		public static final String ANSI_WHITE = "\u001B[37;1m";
 	}
 
 }

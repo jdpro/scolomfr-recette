@@ -18,29 +18,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.cli.commands.output;
-
-import java.util.List;
-import java.util.Map;
-
-import org.springframework.data.util.Pair;
-import org.springframework.stereotype.Component;
-
-import com.github.zafarkhaja.semver.Version;
+package fr.scolomfr.recette.model.tests.execution;
 
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 
-@Component
-public interface ConsoleFormatter {
+public interface TestCaseExecutionTracker {
 
-	String formatFormats(List<Pair<String, Pair<String, String>>> filePathsByVersion);
+	void markForFutureDeletion(Integer executionIdentifier);
 
-	String formatVersions(List<Pair<Version, Pair<String, String>>> filePathsByFormat);
-
-	String formatTestOrganisation(Map<String, Map<String, Map<String, Map<String, String>>>> testsOrganisation);
-
-	String formatVocabularies(Map<String, String> filePathsByVersionAndFormat);
-
-	String formatMessage(Message message);
+	void notify(Message message);
 
 }

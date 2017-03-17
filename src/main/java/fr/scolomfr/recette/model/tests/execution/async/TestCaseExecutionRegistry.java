@@ -9,11 +9,13 @@ import java.util.concurrent.PriorityBlockingQueue;
 import org.slf4j.Logger;
 import org.springframework.stereotype.Component;
 
+import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
+import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.utils.log.Log;
 
 @Component
-public class TestCaseExecutionRegistry {
+public class TestCaseExecutionRegistry implements TestCaseExecutionTracker {
 
 	@Log
 	Logger logger;
@@ -33,7 +35,7 @@ public class TestCaseExecutionRegistry {
 		synchronized (lock) {
 			counter++;
 			testCase.setExecutionIdentifier(counter);
-			testCase.setExecutionRegistry(this);
+			testCase.setExecutionTracker(this);
 			Thread thread = new Thread(testCase);
 			thread.start();
 			executions.put(counter, thread);
@@ -58,9 +60,15 @@ public class TestCaseExecutionRegistry {
 		return null;
 	}
 
+	@Override
 	public void markForFutureDeletion(Integer executionIdentifier) {
 		markedForDeletion.add(executionIdentifier);
 
+	}
+
+	@Override
+	public void notify(Message message) {
+		// Nothing : only for console mode execution tracking
 	}
 
 }

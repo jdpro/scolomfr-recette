@@ -8,8 +8,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.shell.core.CommandMarker;
 import org.springframework.shell.core.annotation.CliCommand;
 import org.springframework.shell.core.annotation.CliOption;
@@ -19,8 +17,9 @@ import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.cli.commands.output.ConsoleFormatter;
 import fr.scolomfr.recette.model.sources.Catalog;
+import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
-import fr.scolomfr.recette.model.tests.execution.result.AsyncResult;
+import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
@@ -49,7 +48,7 @@ import fr.scolomfr.recette.utils.log.Log;
  */
 @Component
 @Profile({ "!web" })
-public class Commands implements CommandMarker {
+public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	@Log
 	Logger logger;
 
@@ -109,6 +108,7 @@ public class Commands implements CommandMarker {
 			return MessageFormat.format("No test available under index {0}", index);
 		}
 		testCase.reset();
+		testCase.setExecutionTracker(this);
 		testCase.setExecutionMode(ExecutionMode.ASYNCHRONOUS);
 		Map<String, String> executionParameters = new HashMap<>();
 		if (null != version) {
@@ -124,6 +124,18 @@ public class Commands implements CommandMarker {
 		testCase.run();
 
 		return "";
+	}
+
+	@Override
+	public void markForFutureDeletion(Integer executionIdentifier) {
+		// Nothing to do.
+
+	}
+
+	@Override
+	public void notify(Message message) {
+		System.console().printf(consoleFormatter.formatMessage(message));
+
 	}
 
 }

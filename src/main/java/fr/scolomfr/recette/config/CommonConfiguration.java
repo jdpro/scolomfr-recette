@@ -19,32 +19,26 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.organization;
+package fr.scolomfr.recette.config;
 
-import java.util.Map;
+import org.springframework.context.MessageSource;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.ReloadableResourceBundleMessageSource;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
-import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
+/**
+ * Bean not restricted to web configuration
+ */
+@Configuration
+public class CommonConfiguration extends WebMvcConfigurerAdapter {
 
-public interface TestCase extends Runnable {
-
-	void setExecutionParameters(Map<String, String> executionParameters);
-
-	Result getExecutionResult();
-
-	void setExecutionIdentifier(Integer counter);
-
-	void setExecutionTracker(TestCaseExecutionTracker testCaseExecutionRegistry);
-
-	Result temporaryResult();
-
-	void reset();
-
-	ExecutionMode getExecutionMode();
-
-	void setExecutionMode(ExecutionMode executionMode);
-
-	void progressionMessage(String info, float progressionRate);
+	@Bean
+	public MessageSource messageSource() {
+		ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
+		messageSource.setBasename("classpath:i18n/texts");
+		messageSource.setDefaultEncoding("UTF-8");
+		return messageSource;
+	}
 
 }
