@@ -138,3 +138,22 @@ exit
 // Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 04:42:55
 // Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 04:43:07
 tests
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 04:50:38
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 04:50:51
+sources
+sources --version 3.2.0 --format skos
+sources --version 3.2.0 --format html
+help
+! ls
+help
+help sources
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 05:04:25
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 05:04:36
+tests
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 05:05:51
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 05:06:02
+tests
+test --index a6

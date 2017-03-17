@@ -31,11 +31,12 @@ import com.github.zafarkhaja.semver.Version;
 @Component
 public interface ConsoleFormatter {
 
-
 	String formatFormats(List<Pair<String, Pair<String, String>>> filePathsByVersion);
 
 	String formatVersions(List<Pair<Version, Pair<String, String>>> filePathsByFormat);
 
 	String formatTestOrganisation(Map<String, Map<String, Map<String, Map<String, String>>>> testsOrganisation);
+
+	String formatVocabularies(Map<String, String> filePathsByVersionAndFormat);
 
 }

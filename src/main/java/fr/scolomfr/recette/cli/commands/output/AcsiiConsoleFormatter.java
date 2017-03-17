@@ -94,4 +94,15 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		return getRenderedTable(at).toString();
 	}
 
+	@Override
+	public String formatVocabularies(Map<String, String> filePathsByVersionAndFormat) {
+		V2_AsciiTable at = new V2_AsciiTable();
+		at.addStrongRule();
+		for (Entry<String, String> source : filePathsByVersionAndFormat.entrySet()) {
+			at.addRow(source.getKey(), source.getValue());
+			at.addRule();
+		}
+		return getRenderedTable(at).toString();
+	}
+
 }
