@@ -45,7 +45,9 @@ public class Result {
 
 	public void addMessage(Message message) {
 		this.messages.push(message);
-		testCaseExecutionTracker.notify(message);
+		if (null != testCaseExecutionTracker) {
+			testCaseExecutionTracker.notify(message);
+		}
 	}
 
 	public void addMessage(Message.Type type, String key, String title, String content) {

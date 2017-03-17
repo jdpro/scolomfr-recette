@@ -53,16 +53,6 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		return rt;
 	}
 
-	private RenderedTable getRenderedTableForLongLines(V2_AsciiTable at) {
-		V2_AsciiTableRenderer rend = new V2_AsciiTableRenderer();
-		rend.setTheme(V2_E_TableThemes.UTF_STRONG_DOUBLE.get());
-		WidthAbsoluteEven width = new WidthAbsoluteEven(76);
-
-		rend.setWidth(width);
-		RenderedTable rt = rend.render(at);
-		return rt;
-	}
-
 	@Override
 	public String formatFormats(List<Pair<String, Pair<String, String>>> filePathsByVersion) {
 		V2_AsciiTable at = new V2_AsciiTable();
