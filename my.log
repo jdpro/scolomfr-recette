@@ -217,3 +217,162 @@ test --index a15 --version 3.2.0 --vocabulary global
 tests
 test --index a4 --version 3.2.0 --vocabulary global
 test --index a4 --version 3.2.0 --vocabulary global
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 06:20:52
+tests
+test --index a7 --version 3.2.0 --vocabulary global
+test --index a7 --version 3.2.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 18:54:52
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 18:55:25
+test --index a7 --version 3.2.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-17 19:00:35
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-17 19:00:46
+test --index a7 --version 3.2.0 --vocabulary global
+test --index a7 --version 3.1.0 --vocabulary global
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:29:23
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 07:31:28
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:31:32
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 07:34:57
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:35:10
+test --index a7 --version 3.1.0 --vocabulary global
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:39:03
+test --index a7 --version 3.1.0 --vocabulary global
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:39:46
+test --index a7 --version 3.1.0 --vocabulary global
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:40:38
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 07:41:52
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:42:14
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 07:44:04
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:44:16
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 07:50:40
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 07:59:36
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:05:50
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:06:02
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:06:49
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:07:02
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:08:09
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:08:19
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:15:39
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:19:22
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:20:06
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:20:17
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:24:22
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:24:35
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:28:10
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:28:30
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:39:39
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:39:52
+test --index a7 --version 3.1.0 --vocabulary global
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:45:33
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:57:27
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:58:28
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 08:58:50
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 08:58:54
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 09:28:33
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 09:28:44
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 09:28:56
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 09:29:59
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 09:30:26
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 10:07:27
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 10:10:41
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 10:10:53
+test --index a7 --version 3.1.0 --vocabulary global
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 10:12:45
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 10:14:46
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 10:14:56
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 10:15:16
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:14:10
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:30:42
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:30:52
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:30:59
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:36:01
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:37:08
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:37:20
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:37:40
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:37:49
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:37:57
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:41:38
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:42:25
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:42:34
+test --index a7 --version 3.1.0 --vocabulary global
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:43:19
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:43:28
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:45:36
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:45:44
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 12:45:51
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:54:31
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:56:09
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:58:02
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 12:58:45
+test --index a7 --version 3.1.0 --vocabulary global
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 13:01:08
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 13:01:17
+exit
+// Scolomfr recette banner 1.2.0.RELEASE log closed at 2017-03-18 13:01:19
+// Scolomfr recette banner 1.2.0.RELEASE log opened at 2017-03-18 13:01:28
+help
+sources --version 3.2.0 --format html
+tests
+test --index a7 --version 3.1.0 --vocabulary global

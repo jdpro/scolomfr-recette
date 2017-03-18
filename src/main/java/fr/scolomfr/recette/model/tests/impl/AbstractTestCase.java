@@ -49,7 +49,9 @@ import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
+import fr.scolomfr.recette.model.tests.execution.result.ResultAopDecorator;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
@@ -84,10 +86,12 @@ public abstract class AbstractTestCase implements TestCase {
 	@Autowired
 	ContextParameters contextParameters;
 
+	@Autowired
+	Result resultProxy;
+
 	List<String> errorCodes = new ArrayList<>();
 
 	protected Map<String, String> executionParameters;
-	protected Result result = new Result();
 	protected Integer executionIdentifier;
 	protected TestCaseExecutionTracker testCaseExecutionTracker;
 
@@ -101,7 +105,7 @@ public abstract class AbstractTestCase implements TestCase {
 
 	@Override
 	public Result getExecutionResult() {
-		return result;
+		return resultProxy.getResult();
 	}
 
 	@Override
@@ -112,7 +116,7 @@ public abstract class AbstractTestCase implements TestCase {
 	@Override
 	public void setExecutionTracker(TestCaseExecutionTracker testCaseExecutionTracker) {
 		this.testCaseExecutionTracker = testCaseExecutionTracker;
-		result.setTestCaseExecutionTracker(testCaseExecutionTracker);
+		resultProxy.setTestCaseExecutionTracker(testCaseExecutionTracker);
 	}
 
 	protected String getIndex() {
@@ -125,17 +129,17 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	@Override
-	public Result temporaryResult() {
-		synchronized (this.result) {
-			Result temporaryResult = new Result();
-			temporaryResult.setState(this.result.getState());
-			temporaryResult.setErrorCount(this.result.getErrorCount());
-			temporaryResult.setFalsePositiveCount(this.result.getFalsePositiveCount());
-			temporaryResult.setComplianceIndicator(this.result.getComplianceIndicator());
-			while (!this.result.getMessages().isEmpty()) {
-				temporaryResult.addMessage(this.result.getMessages().pop());
+	public ResultImpl temporaryResult() {
+		synchronized (this.resultProxy.getResult()) {
+			ResultImpl temporaryResult = new ResultImpl();
+			temporaryResult.setState(this.resultProxy.getState());
+			temporaryResult.setErrorCount(this.resultProxy.getErrorCount());
+			temporaryResult.setFalsePositiveCount(this.resultProxy.getFalsePositiveCount());
+			temporaryResult.setComplianceIndicator(this.resultProxy.getComplianceIndicator());
+			while (!this.resultProxy.getMessages().isEmpty()) {
+				temporaryResult.addMessage(this.resultProxy.getMessages().pop());
 			}
-			if (temporaryResult.getState().equals(Result.State.FINAL)) {
+			if (temporaryResult.getState().equals(ResultImpl.State.FINAL)) {
 				this.testCaseExecutionTracker.markForFutureDeletion(executionIdentifier);
 			}
 			return temporaryResult;
@@ -146,7 +150,7 @@ public abstract class AbstractTestCase implements TestCase {
 	@Override
 	public void reset() {
 		this.executionParameters = null;
-		this.result = new Result();
+		this.resultProxy.reset();
 		this.executionIdentifier = null;
 		this.errorCodes = new ArrayList<>();
 		this.executionMode = ExecutionMode.SYNCHRONOUS;
@@ -176,10 +180,10 @@ public abstract class AbstractTestCase implements TestCase {
 			String title = i18n.tr("test.impl.version.parameter.missing.title");
 			String msg = i18n.tr("test.impl.version.parameter.missing.content", new Object[] { versionStr });
 			logger.error(msg, e);
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "version", title,
-					msg);
-			result.incrementErrorCount(false);
-			result.setState(State.FINAL);
+			addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "version",
+					title, msg));
+			incrementErrorCount(false);
+			setState(State.FINAL);
 			stopTestCase();
 		}
 		return version;
@@ -203,9 +207,9 @@ public abstract class AbstractTestCase implements TestCase {
 			String title = i18n.tr("test.impl.skostype.parameter.invalid.title");
 			String msg = i18n.tr("test.impl.skostype.parameter.invalid.content",
 					new Object[] { StringUtils.isEmpty(skosType) ? "<empty>" : skosType });
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "parameter", title,
-					msg);
-			result.incrementErrorCount(false);
+			addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.TEST_PARAMETERS.toString() + "parameter",
+					title, msg));
+			incrementErrorCount(false);
 			stopTestCase();
 		}
 		return skosType;
@@ -214,16 +218,16 @@ public abstract class AbstractTestCase implements TestCase {
 	protected String getFilePath(final Version version, final String vocabulary, final String format) {
 		final String filePath = catalog.getFilePathByVersionFormatAndVocabulary(version, format, vocabulary);
 		if (StringUtils.isEmpty(filePath)) {
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
+			addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
 					i18n.tr("test.impl.file.unavailable.title"),
-					i18n.tr("test.impl.file.unavailable.content", new Object[] { version, format, vocabulary }));
-			result.incrementErrorCount(false);
+					i18n.tr("test.impl.file.unavailable.content", new Object[] { version, format, vocabulary })));
+			incrementErrorCount(false);
 			stopTestCase();
 
 		} else {
-			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
+			addMessage(new Message(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePath,
 					i18n.tr("test.impl.file.available.title"), i18n.tr("test.impl.file.available.content",
-							new Object[] { version, format, vocabulary, filePath }));
+							new Object[] { version, format, vocabulary, filePath })));
 		}
 
 		return filePath;
@@ -232,23 +236,24 @@ public abstract class AbstractTestCase implements TestCase {
 	protected Map<String, String> getFilePathsForAllVocabularies(final Version version, final String format) {
 		final Map<String, String> filePaths = catalog.getFilePathsByVersionAndFormat(version, format);
 		if (CollectionUtils.isEmpty(filePaths.keySet())) {
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + version + format,
+			addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.FILE_AVAILABLE.toString() + version + format,
 					i18n.tr("test.impl.files.unavailable.title"),
-					i18n.tr("test.impl.files.unavailable.content", new Object[] { version, format }));
-			result.incrementErrorCount(false);
+					i18n.tr("test.impl.files.unavailable.content", new Object[] { version, format })));
+			incrementErrorCount(false);
 			stopTestCase();
 
 		} else {
-			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_AVAILABLE.toString() + filePaths.toString(),
+			addMessage(new Message(Message.Type.INFO,
+					CommonMessageKeys.FILE_AVAILABLE.toString() + filePaths.toString(),
 					i18n.tr("test.impl.files.available.title"), i18n.tr("test.impl.files.available.content",
-							new Object[] { version, format, filePaths.size(), filePaths.values().toString() }));
+							new Object[] { version, format, filePaths.size(), filePaths.values().toString() })));
 		}
 
 		return filePaths;
 	}
 
 	protected void stopTestCase() {
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 		if (executionMode.equals(ExecutionMode.ASYNCHRONOUS)) {
 			Thread.currentThread().interrupt();
 		}
@@ -258,15 +263,15 @@ public abstract class AbstractTestCase implements TestCase {
 		final File file = catalog.getFileByPath(filePath, ".rdf");
 
 		if (null == file) {
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+			addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.tempfile.unavailable.title"),
-					i18n.tr("test.impl.tempfile.unavailable.content", new Object[] { filePath }));
-			result.incrementErrorCount(false);
+					i18n.tr("test.impl.tempfile.unavailable.content", new Object[] { filePath })));
+			incrementErrorCount(false);
 			stopTestCase();
 		} else {
-			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+			addMessage(new Message(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.tempfile.available.title"),
-					i18n.tr("test.impl.tempfile.available.content", new Object[] { filePath }));
+					i18n.tr("test.impl.tempfile.available.content", new Object[] { filePath })));
 		}
 		return file;
 	}
@@ -274,22 +279,22 @@ public abstract class AbstractTestCase implements TestCase {
 	protected InputStream getFileInputStreamByPath(final String filePath) {
 		final InputStream fileInputStream = catalog.getFileInputStreamByPath(filePath);
 		if (null == fileInputStream) {
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+			addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.file.unreadable.title"),
-					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath }));
-			result.incrementErrorCount(false);
+					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath })));
+			incrementErrorCount(false);
 			stopTestCase();
 		} else {
-			result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+			addMessage(new Message(Message.Type.INFO, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.file.readable.title"),
-					i18n.tr("test.impl.file.readable.content", new Object[] { filePath }));
+					i18n.tr("test.impl.file.readable.content", new Object[] { filePath })));
 		}
 		return fileInputStream;
 	}
 
-	protected void refreshComplianceIndicator(Result result, int numerator, int denominator) {
+	protected void refreshComplianceIndicator(int numerator, int denominator) {
 		if (denominator != 0) {
-			result.setComplianceIndicator((float) numerator / (float) denominator);
+			resultProxy.setComplianceIndicator((float) numerator / (float) denominator);
 		}
 
 	}
@@ -347,7 +352,7 @@ public abstract class AbstractTestCase implements TestCase {
 		}
 		String title = i18n.tr("test.impl.xml.readable.title");
 		String content = i18n.tr("test.impl.xml.readable.content", new Object[] { filePath });
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
+		addMessage(new Message(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content));
 		return document;
 	}
 
@@ -363,7 +368,7 @@ public abstract class AbstractTestCase implements TestCase {
 		}
 		String title = i18n.tr("test.impl.html.readable.title");
 		String content = i18n.tr("test.impl.html.readable.content", new Object[] { filePath });
-		result.addMessage(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
+		addMessage(new Message(Message.Type.INFO, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content));
 		return document;
 	}
 
@@ -372,8 +377,9 @@ public abstract class AbstractTestCase implements TestCase {
 		String content = i18n.tr("test.impl." + format + ".unreadable.content",
 				new Object[] { filePath, e.getMessage() });
 		logger.error(content, e);
-		result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content);
-		this.result.incrementErrorCount(false);
+		addMessage(
+				new Message(Message.Type.FAILURE, CommonMessageKeys.FILE_FORMAT.toString() + filePath, title, content));
+		this.incrementErrorCount(false);
 	}
 
 	@Override
@@ -383,7 +389,7 @@ public abstract class AbstractTestCase implements TestCase {
 		}
 		Message message = new Message(Message.Type.PROGRESS, UUID.randomUUID().toString(), info,
 				Float.toString(Math.min(progressionRate, 100)));
-		result.addMessage(message);
+		addMessage(message);
 
 	}
 
@@ -395,6 +401,24 @@ public abstract class AbstractTestCase implements TestCase {
 	@Override
 	public void setExecutionMode(ExecutionMode executionMode) {
 		this.executionMode = executionMode;
+	}
+
+	/**
+	 * Only for AOP Pointcut
+	 * 
+	 * @param message
+	 */
+	@Override
+	public void addMessage(Message message) {
+		resultProxy.addMessage(message);
+	}
+
+	protected void incrementErrorCount(boolean ignored) {
+		resultProxy.incrementErrorCount(ignored);
+	}
+
+	protected void setState(State state) {
+		resultProxy.setState(state);
 	}
 
 	/**

@@ -38,7 +38,9 @@ import de.vandermeer.asciitable.v2.render.WidthAbsoluteEven;
 import de.vandermeer.asciitable.v2.render.WidthLongestLine;
 import de.vandermeer.asciitable.v2.themes.V2_E_TableThemes;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.execution.result.Message.Type;
+import fr.scolomfr.recette.model.tests.organization.TestCase;
 
 @Component
 public class AcsiiConsoleFormatter implements ConsoleFormatter {
@@ -148,6 +150,14 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		public static final String ANSI_CYAN = "\u001B[36m";
 		public static final String ANSI_GRAY = "\u001B[37m";
 		public static final String ANSI_WHITE = "\u001B[37;1m";
+	}
+
+	@Override
+	public String formatExecutionResult(ResultImpl result) {
+		V2_AsciiTable at = new V2_AsciiTable();
+		at.addStrongRule();
+		at.addRow(result.getErrorCount(), result.getComplianceIndicator() >= 0 ? result.getComplianceIndicator() : "-");
+		return getRenderedTable(at).toString();
 	}
 
 }

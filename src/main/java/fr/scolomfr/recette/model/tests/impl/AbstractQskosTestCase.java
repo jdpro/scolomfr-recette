@@ -30,7 +30,7 @@ import com.github.zafarkhaja.semver.Version;
 import fr.scolomfr.recette.model.sources.representation.utils.QskosException;
 import fr.scolomfr.recette.model.sources.representation.utils.QskosEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 
 public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 
@@ -51,7 +51,7 @@ public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 
 		if (StringUtils.isEmpty(filePath)) {
 			// TODO i18n message
-			result.addMessage(new Message(Message.Type.FAILURE,
+			addMessage(new Message(Message.Type.FAILURE,
 					QSKOS_FAILURE_PREFIX + version + MESSAGE_ID_SEPARATOR + vocabulary + MESSAGE_ID_SEPARATOR + format,
 					"File unavailable", "File unavailable"));
 		}
@@ -61,13 +61,13 @@ public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 		T data = null;
 		try {
 			qskosEngine.setFile(file).setIssueCode(getQskosIssueCode());
-			result.addMessage(new Message(Message.Type.INFO, "qskos_ml_launched_" + filePath,
+			addMessage(new Message(Message.Type.INFO, "qskos_ml_launched_" + filePath,
 					i18n.tr("tests.impl.qskos.launched.title"), i18n.tr("tests.impl.qskos.launched.content")));
 			data = qskosEngine.buildResultData();
 
 		} catch (QskosException e) {
 			logger.error("Problem with skos : {}", e.getMessage(), e);
-			result.addMessage(new Message(Message.Type.FAILURE,
+			addMessage(new Message(Message.Type.FAILURE,
 					QSKOS_FAILURE_PREFIX + getQskosIssueCode() + MESSAGE_ID_SEPARATOR + filePath,
 					i18n.tr("tests.impl.qskos.failure.title"), e.getMessage()));
 
@@ -75,7 +75,7 @@ public abstract class AbstractQskosTestCase<T> extends AbstractTestCase {
 
 		populateResult(data);
 
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 	}
 
 	@Override

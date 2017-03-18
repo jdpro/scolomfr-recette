@@ -20,6 +20,7 @@ import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
@@ -51,6 +52,9 @@ import fr.scolomfr.recette.utils.log.Log;
 public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	@Log
 	Logger logger;
+
+	@Autowired
+	TestCaseExecutionTrackingAspect testCaseExecutionTrackinAspect;
 
 	@Autowired
 	private Catalog catalog;
@@ -107,6 +111,8 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 		if (testCase == null) {
 			return MessageFormat.format("No test available under index {0}", index);
 		}
+		System.out.println("ajout !!");
+		testCaseExecutionTrackinAspect.setOwner(this);
 		testCase.reset();
 		testCase.setExecutionTracker(this);
 		testCase.setExecutionMode(ExecutionMode.ASYNCHRONOUS);
@@ -128,13 +134,18 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 
 	@Override
 	public void markForFutureDeletion(Integer executionIdentifier) {
-		// Nothing to do.
+		// nothing
 
 	}
 
 	@Override
 	public void notify(Message message) {
 		System.console().printf(consoleFormatter.formatMessage(message));
+	}
+
+	@Override
+	public void notifyTestCaseTermination(ResultImpl result) {
+		System.console().printf(consoleFormatter.formatExecutionResult(result));
 
 	}
 

@@ -38,7 +38,7 @@ import org.xml.sax.helpers.XMLReaderFactory;
 
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -103,7 +103,7 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 			Message message = new Message(Message.Type.FAILURE, getErrorCode(CommonMessageKeys.NETWORK_ERROR.name()),
 					i18n.tr("tests.impl.a4.result.datafailure.title"), messageStr);
 			logger.error(messageStr, e);
-			result.addMessage(message);
+			addMessage(message);
 			stopTestCase();
 			return;
 		}
@@ -124,15 +124,15 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 			progressionCounter++;
 			progressionMessage("", (float) progressionCounter / (float) numberOfMimeTypesInSkos * 100.f);
 
-			result.incrementErrorCount(ignored);
+			incrementErrorCount(ignored);
 			Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.a4.result.missinginiana.title"),
 					i18n.tr("tests.impl.a4.result.missinginiana.content", new Object[] { mimeTypeUriInSkos }));
-			result.addMessage(message);
-			refreshComplianceIndicator(result, denominator - numerator, denominator);
+			addMessage(message);
+			refreshComplianceIndicator(denominator - numerator, denominator);
 		}
 		progressionMessage("", 100);
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 	}
 
 	public void submitMimeType(String mimeTypeFromIana, String mimeTypeNameFromIana) {
@@ -159,12 +159,12 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 				if (StringUtils.isEmpty(errorCode)) {
 					return;
 				}
-				result.incrementErrorCount(ignored);
+				incrementErrorCount(ignored);
 				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 						i18n.tr(I18N_A4_TESTCASE_MESSAGE_KEY_STUB + state + ".title"),
 						i18n.tr(I18N_A4_TESTCASE_MESSAGE_KEY_STUB + state + ".content",
 								new Object[] { mimeTypeFromIana }));
-				result.addMessage(message);
+				addMessage(message);
 			}
 		} else {
 			boolean caseError = lowerCasedMimeTypeUrisInSkos.contains(mimeTypeFromIana.toLowerCase());
@@ -181,7 +181,7 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 						i18n.tr("tests.impl.a4.result.missinginskos." + state + ".title"),
 						i18n.tr("tests.impl.a4.result.missinginskos." + state + ".content",
 								new Object[] { mimeTypeFromIana }));
-				result.addMessage(message);
+				addMessage(message);
 			} else {
 				numerator++;
 				String missingOrCaseError = caseError ? "caseerror" : "missing";
@@ -191,17 +191,17 @@ public class MimeTypesCompleteness extends AbstractJenaTestCase {
 				if (StringUtils.isEmpty(errorCode)) {
 					return;
 				}
-				result.incrementErrorCount(ignored);
+				incrementErrorCount(ignored);
 
 				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 						i18n.tr(I18N_A4_TESTCASE_MESSAGE_KEY_STUB + missingOrCaseError + "inskos.title"),
 						i18n.tr(I18N_A4_TESTCASE_MESSAGE_KEY_STUB + missingOrCaseError + "inskos.content",
 								new Object[] { mimeTypeFromIana }));
-				result.addMessage(message);
+				addMessage(message);
 			}
 
 		}
-		refreshComplianceIndicator(result, denominator - numerator, denominator);
+		refreshComplianceIndicator(denominator - numerator, denominator);
 	}
 
 	private String getErrorCode(String mimeType) {

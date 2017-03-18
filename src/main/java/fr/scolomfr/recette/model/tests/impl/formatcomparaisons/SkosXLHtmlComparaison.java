@@ -40,7 +40,7 @@ import org.springframework.util.CollectionUtils;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -106,7 +106,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 				if (i % step == 0) {
 					progressionMessage(docInfo, (float) i / (float) nbLabels * 100.f);
 				}
-				refreshComplianceIndicator(result, denominator - numerator, denominator);
+				refreshComplianceIndicator(denominator - numerator, denominator);
 				denominator++;
 				Element labelElement = labels.get(i);
 				String rawTextContent = labelElement.text();
@@ -128,13 +128,13 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 								logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 							}
 							boolean ignored = errorIsIgnored(errorCode);
-							result.incrementErrorCount(ignored);
+							incrementErrorCount(ignored);
 							numerator++;
 							Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 									errorCode, i18n.tr("tests.impl.a19.result.invalidlabel.title"),
 									i18n.tr("tests.impl.a19.result.invalidlabel.content",
 											new Object[] { htmlPrefLabel, vocabEntry.getKey() }));
-							result.addMessage(message);
+							addMessage(message);
 						}
 					}
 				}
@@ -153,13 +153,13 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 								}
 								boolean ignored = errorIsIgnored(errorCode);
-								result.incrementErrorCount(ignored);
+								incrementErrorCount(ignored);
 								numerator++;
 								Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 										errorCode, i18n.tr("tests.impl.a19.result.invalidequiv.title"),
 										i18n.tr("tests.impl.a19.result.invalidequiv.content", new Object[] {
 												htmlPrefLabel, StringUtils.join(uris, ", "), htmlAltLabel }));
-								result.addMessage(message);
+								addMessage(message);
 							}
 						}
 						if (fragment.getFirst().equals(HTMLFragmentIndex.NA)) {
@@ -175,13 +175,13 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 								}
 								boolean ignored = errorIsIgnored(errorCode);
-								result.incrementErrorCount(ignored);
+								incrementErrorCount(ignored);
 								numerator++;
 								Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 										errorCode, i18n.tr("tests.impl.a19.result.invalidnote.title"),
 										i18n.tr("tests.impl.a19.result.invalidnote.content", new Object[] {
 												htmlPrefLabel, StringUtils.join(uris, ", "), htmlNote }));
-								result.addMessage(message);
+								addMessage(message);
 							}
 						}
 						if (fragment.getFirst().equals(HTMLFragmentIndex.TA)) {
@@ -197,13 +197,13 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 									logger.trace(ERROR_CODE_DUPLICATE, errorCode, e);
 								}
 								boolean ignored = errorIsIgnored(errorCode);
-								result.incrementErrorCount(ignored);
+								incrementErrorCount(ignored);
 								numerator++;
 								Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 										errorCode, i18n.tr("tests.impl.a19.result.invalidassoc.title"),
 										i18n.tr("tests.impl.a19.result.invalidassoc.content", new Object[] {
 												htmlPrefLabel, StringUtils.join(uris, ", "), associatedLabel }));
-								result.addMessage(message);
+								addMessage(message);
 							}
 						}
 					}
@@ -214,7 +214,7 @@ public class SkosXLHtmlComparaison extends AbstractJenaTestCase {
 		}
 
 		progressionMessage("", 100);
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 
 	}
 

@@ -57,8 +57,8 @@ public class ValuelessAssociativeRelations extends AbstractQskosTestCase<Collect
 			String errorCode = generateUniqueErrorCode(
 					tuple.getFirst().stringValue() + tuple.getSecond().stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+			incrementErrorCount(ignored);
+			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.var.result.title"), i18n.tr("tests.impl.qskos.var.result.content",
 							new Object[] { tuple.getFirst().stringValue(), tuple.getSecond().stringValue() })));
 		}

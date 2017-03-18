@@ -95,6 +95,5 @@ public class NamingRulesRespectSkosTest {
 		namingRulesRespectSkos.run();
 		Result result = namingRulesRespectSkos.getExecutionResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-
 	}
 }

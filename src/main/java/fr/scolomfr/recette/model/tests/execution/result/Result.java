@@ -1,110 +1,59 @@
+/**
+ * 
+ * Scolomfr Recette
+ * 
+ * Copyright (C) 2017  MENESR (DNE), J.Dornbusch
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * 
+ */
 package fr.scolomfr.recette.model.tests.execution.result;
 
 import java.util.Deque;
-import java.util.concurrent.ConcurrentLinkedDeque;
-
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
+import fr.scolomfr.recette.model.tests.execution.result.Message.Type;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 
-@XmlType(namespace = "http://recette.scolomfr.fr/2017/1")
-@XmlRootElement(name = "result")
-@XmlAccessorType(XmlAccessType.FIELD)
-public class Result {
+public interface Result {
 
-	@XmlElementWrapper(name = "messages")
-	@XmlElement(name = "message")
-	private Deque<Message> messages;
+	void setTestCaseExecutionTracker(TestCaseExecutionTracker testCaseExecutionTracker);
 
-	private State state;
+	void setComplianceIndicator(float f);
 
-	private int errorCount;
+	void setState(State state);
 
-	private int falsePositiveCount;
+	void incrementErrorCount(boolean ignored);
 
-	private float complianceIndicator;
+	void addMessage(Message message);
 
-	private TestCaseExecutionTracker testCaseExecutionTracker;
+	Deque<Message> getMessages();
 
-	public Result() {
-		messages = new ConcurrentLinkedDeque<>();
-		setErrorCount(0);
-		setFalsePositiveCount(0);
-		setComplianceIndicator(-1);
-		setState(State.TEMPORARY);
-	}
+	float getComplianceIndicator();
 
-	public Deque<Message> getMessages() {
-		return messages;
-	}
+	int getFalsePositiveCount();
 
-	public void addMessage(Message message) {
-		this.messages.push(message);
-		if (null != testCaseExecutionTracker) {
-			testCaseExecutionTracker.notify(message);
-		}
-	}
+	int getErrorCount();
 
-	public void addMessage(Message.Type type, String key, String title, String content) {
-		this.addMessage(new Message(type, key, title, content));
-	}
+	State getState();
 
-	public State getState() {
-		return state;
-	}
+	void addMessage(Type type, String key, String title, String content);
 
-	public void setState(State state) {
-		this.state = state;
-	}
+	void setFalsePositiveCount(int falsePositiveCount);
 
-	public int getErrorCount() {
-		return errorCount;
-	}
+	Result getResult();
 
-	public void setErrorCount(int errorCount) {
-		this.errorCount = errorCount;
-	}
-
-	public void incrementErrorCount(boolean ignored) {
-		if (ignored) {
-			this.falsePositiveCount++;
-		} else {
-			this.errorCount++;
-		}
-
-	}
-
-	public float getComplianceIndicator() {
-		return complianceIndicator;
-	}
-
-	public void setComplianceIndicator(float complianceIndicator) {
-		this.complianceIndicator = complianceIndicator;
-	}
-
-	public int getFalsePositiveCount() {
-		return falsePositiveCount;
-	}
-
-	public void setFalsePositiveCount(int falsePositiveCount) {
-		this.falsePositiveCount = falsePositiveCount;
-	}
-
-	public TestCaseExecutionTracker getTestCaseExecutionTracker() {
-		return testCaseExecutionTracker;
-	}
-
-	public void setTestCaseExecutionTracker(TestCaseExecutionTracker testCaseExecutionTracker) {
-		this.testCaseExecutionTracker = testCaseExecutionTracker;
-	}
-
-	public enum State {
-		TEMPORARY, FINAL, ABORTED;
-	}
+	void reset();
 
 }

@@ -45,8 +45,8 @@ public abstract class AbstractCollectionResourceQskosTestCase extends AbstractQs
 			Resource resource = it.next();
 			String errorCode = generateUniqueErrorCode(resource.stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+			incrementErrorCount(ignored);
+			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos." + getQskosIssueCode() + ".result.title"),
 					i18n.tr("tests.impl.qskos." + getQskosIssueCode() + ".result.content",
 							new Object[] { resource.stringValue() })));

@@ -42,7 +42,7 @@ import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -97,8 +97,8 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 							continue;
 						}
 						boolean ignored = errorIsIgnored(errorCode);
-						result.incrementErrorCount(ignored);
-						result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+						incrementErrorCount(ignored);
+						addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 								i18n.tr("tests.impl.a6.result.title"),
 								i18n.tr("tests.impl.a6.result.content", new Object[] { child.getURI(),
 										preflabel.getSecond().getURI(), label, parent.getURI() })));
@@ -110,7 +110,7 @@ public class DuplicatePrefLabelsSkos extends AbstractJenaTestCase {
 			preflabelsOfChildren.get(parent.getURI()).add(Pair.of(label, child));
 		}
 
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 
 	}
 

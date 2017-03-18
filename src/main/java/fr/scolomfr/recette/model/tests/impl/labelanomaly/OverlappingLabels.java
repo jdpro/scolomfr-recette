@@ -91,8 +91,8 @@ public class OverlappingLabels extends AbstractQskosTestCase<Collection<LabelCon
 
 			String errorCode = generateUniqueErrorCode(DigestUtils.md5Hex(contentBuilder.toString()));
 			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+			incrementErrorCount(ignored);
+			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.ol.result.title", new Object[] { prefLabelsFound }),
 					contentBuilder.toString()));
 		}

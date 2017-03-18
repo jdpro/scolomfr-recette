@@ -48,6 +48,7 @@ import fr.scolomfr.recette.model.tests.execution.result.AsyncResult;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
@@ -173,7 +174,7 @@ public class TestsController {
 			throws CloneNotSupportedException {
 		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCaseNewInstance(id);
 		if (testCase == null) {
-			Result result = new Result();
+			ResultImpl result = new ResultImpl();
 			result.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_TEST.toString(),
 					"No such test case", "There's no test under identifier " + id));
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
@@ -188,9 +189,9 @@ public class TestsController {
 	public ResponseEntity<Result> trackTestExecution(HttpServletResponse response,
 			@PathVariable("id") Integer executionIdentifier) {
 		TestCase testCase = testCaseExecutionRegistry.getTestCase(executionIdentifier);
-		Result result;
+		ResultImpl result;
 		if (testCase == null) {
-			result = new Result();
+			result = new ResultImpl();
 			result.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_EXECUTION.toString(),
 					"No execution running", "There's no execution under identifier " + executionIdentifier));
 			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);

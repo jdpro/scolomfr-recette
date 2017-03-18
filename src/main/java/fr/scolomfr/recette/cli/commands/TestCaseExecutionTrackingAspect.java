@@ -18,32 +18,27 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.cli.commands.output;
+package fr.scolomfr.recette.cli.commands;
 
-import java.util.List;
-import java.util.Map;
-
-import org.springframework.data.util.Pair;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 
-import com.github.zafarkhaja.semver.Version;
-
+import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 
+@Aspect
 @Component
-public interface ConsoleFormatter {
+public class TestCaseExecutionTrackingAspect {
+	private TestCaseExecutionTracker tracker;
 
-	String formatFormats(List<Pair<String, Pair<String, String>>> filePathsByVersion);
+	@After("execution(* fr.scolomfr.recette.model.tests.execution.result.Result.addMessage(fr.scolomfr.recette.model.tests.execution.result.Message)) && args(message,..)")
+	public void messageAdded(Message message) {
+		tracker.notify(message);
+	}
 
-	String formatVersions(List<Pair<Version, Pair<String, String>>> filePathsByFormat);
+	public void setOwner(TestCaseExecutionTracker tracker) {
+		this.tracker = tracker;
 
-	String formatTestOrganisation(Map<String, Map<String, Map<String, Map<String, String>>>> testsOrganisation);
-
-	String formatVocabularies(Map<String, String> filePathsByVersionAndFormat);
-
-	String formatMessage(Message message);
-
-	String formatExecutionResult(ResultImpl result);
-
+	}
 }

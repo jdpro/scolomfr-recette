@@ -59,8 +59,8 @@ public class UnidirectionallyRelatedConcepts extends AbstractQskosTestCase<Map<T
 			Resource second = resources.getSecond();
 			String errorCode = generateUniqueErrorCode(first.stringValue() + relation + second.stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+			incrementErrorCount(ignored);
+			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.urc.result.title"), i18n.tr("tests.impl.qskos.urc.result.content",
 							new Object[] { first.stringValue(), relation, second.stringValue() })));
 		}

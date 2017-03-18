@@ -61,9 +61,7 @@ public class OverlappingLabelsTest {
 		overlappingLabels.setExecutionParameters(executionParameters);
 		overlappingLabels.run();
 		Result result = overlappingLabels.getExecutionResult();
-
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-
 	}
 
 	@Test

@@ -23,10 +23,15 @@ package fr.scolomfr.recette.model.tests.organization;
 
 import java.util.Map;
 
+import org.springframework.stereotype.Component;
+
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
+import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 
+@Component
 public interface TestCase extends Runnable {
 
 	void setExecutionParameters(Map<String, String> executionParameters);
@@ -46,5 +51,7 @@ public interface TestCase extends Runnable {
 	void setExecutionMode(ExecutionMode executionMode);
 
 	void progressionMessage(String info, float progressionRate);
+
+	void addMessage(Message message);
 
 }

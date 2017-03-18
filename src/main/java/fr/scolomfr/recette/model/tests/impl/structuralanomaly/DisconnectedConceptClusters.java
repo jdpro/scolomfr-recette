@@ -66,8 +66,8 @@ public class DisconnectedConceptClusters extends AbstractQskosTestCase<Collectio
 			String resourcesListStr = sb.toString();
 			String errorCode = generateUniqueErrorCode(resourcesListStr);
 			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+			incrementErrorCount(ignored);
+			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.dcc.result.title"), i18n.tr("tests.impl.qskos.dcc.result.content",
 							new Object[] { resourcesListStr, clusterResult.size() })));
 		}

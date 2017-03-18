@@ -44,7 +44,7 @@ import fr.scolomfr.recette.model.sources.representation.utils.DomDocumentWithLin
 import fr.scolomfr.recette.model.sources.representation.utils.XPathEngineProvider;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -105,7 +105,7 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 						progressionMessage(docInfo, (float) i / (float) nbIdentifiers * 100.f);
 					}
 
-					refreshComplianceIndicator(result, denominator - numerator, denominator);
+					refreshComplianceIndicator(denominator - numerator, denominator);
 					denominator++;
 					Node node = identifiers.item(i);
 
@@ -127,24 +127,24 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 					}
 					boolean ignored = errorIsIgnored(errorCode);
 					if (StringUtils.isEmpty(identifier)) {
-						result.incrementErrorCount(ignored);
+						incrementErrorCount(ignored);
 						numerator++;
 						Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 								i18n.tr("tests.impl.a22.result.empty.title"),
 								i18n.tr("tests.impl.a22.result.empty.content",
 										new Object[] { filePathEntry.getKey(), lineNumber }));
-						result.addMessage(message);
+						addMessage(message);
 						continue;
 					}
 					if (identifiersAndLineNumbers.containsKey(identifier)) {
-						result.incrementErrorCount(ignored);
+						incrementErrorCount(ignored);
 						numerator++;
 						Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 								i18n.tr("tests.impl.a22.result.duplicate.title"),
 								i18n.tr("tests.impl.a22.result.duplicate.content",
 										new Object[] { filePathEntry.getKey(), lineNumber, identifier,
 												identifiersAndLineNumbers.get(identifier) }));
-						result.addMessage(message);
+						addMessage(message);
 						continue;
 					} else {
 						identifiersAndLineNumbers.put(identifier, lineNumber);
@@ -157,13 +157,13 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 						uri = lookForEquivalentUriInVdex(identifier, vdexDocument);
 					}
 					if (StringUtils.isEmpty(uri)) {
-						result.incrementErrorCount(ignored);
+						incrementErrorCount(ignored);
 						Message message = new Message(
 								ignored ? Message.Type.IGNORED : ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 								errorCode, i18n.tr("tests.impl.a22.result.nouri.title"),
 								i18n.tr("tests.impl.a22.result.nouri.content",
 										new Object[] { filePathEntry.getKey(), lineNumber, identifier }));
-						result.addMessage(message);
+						addMessage(message);
 					}
 
 				}
@@ -172,13 +172,13 @@ public class VdexIdentifiers extends AbstractJenaTestCase {
 		} catch (XPathExpressionException e) {
 			String title = "Invalid xpath expression";
 			logger.error(title, e);
-			result.addMessage(new Message(Message.Type.FAILURE,
+			addMessage(new Message(Message.Type.FAILURE,
 					CommonMessageKeys.XPATH_ERROR.toString() + expressionStr, title, e.getMessage()));
 			stopTestCase();
 			return;
 		}
 		progressionMessage("", 100);
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 
 	}
 

@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.utils.log.Log;
 
@@ -69,6 +70,12 @@ public class TestCaseExecutionRegistry implements TestCaseExecutionTracker {
 	@Override
 	public void notify(Message message) {
 		// Nothing : only for console mode execution tracking
+	}
+
+	@Override
+	public void notifyTestCaseTermination(ResultImpl result) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

@@ -35,7 +35,7 @@ import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -112,22 +112,22 @@ public class PreservationOfTermsBetweenVersionsSkos extends AbstractJenaTestCase
 				}
 				if (null != statement2) {
 					// label has changed but URI is not lost
-					result.incrementErrorCount(ignored);
-					result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+					incrementErrorCount(ignored);
+					addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 							i18n.tr("tests.impl.a21.result.replaced.title"),
 							i18n.tr("tests.impl.a21.result.replaced.content", new Object[] { label, resourceUri,
 									newVersion, statement2.getObject().asLiteral().getValue().toString() })));
 				} else {
 
-					result.incrementErrorCount(ignored);
-					result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+					incrementErrorCount(ignored);
+					addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 							i18n.tr("tests.impl.a21.result.missing.title"),
 							i18n.tr("tests.impl.a21.result.missing.content",
 									new Object[] { label, resourceUri, newVersion })));
 				}
 			}
 		}
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 
 	}
 
