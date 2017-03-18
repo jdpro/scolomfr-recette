@@ -21,7 +21,7 @@
 package fr.scolomfr.recette.model.tests.execution;
 
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
+import fr.scolomfr.recette.model.tests.execution.result.Result;
 
 public interface TestCaseExecutionTracker {
 
@@ -29,6 +29,6 @@ public interface TestCaseExecutionTracker {
 
 	void notify(Message message);
 
-	void notifyTestCaseTermination(ResultImpl result);
+	void notifyTestCaseTermination(Result result);
 
 }

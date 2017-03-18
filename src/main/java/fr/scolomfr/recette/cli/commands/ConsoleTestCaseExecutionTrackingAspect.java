@@ -20,16 +20,24 @@
  */
 package fr.scolomfr.recette.cli.commands;
 
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.springframework.context.annotation.Profile;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
+import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTrackingAspect;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
+import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 
 @Aspect
 @Component
-public class TestCaseExecutionTrackingAspect {
+@Profile({ "!web" })
+public class ConsoleTestCaseExecutionTrackingAspect implements TestCaseExecutionTrackingAspect {
 	private TestCaseExecutionTracker tracker;
 
 	@After("execution(* fr.scolomfr.recette.model.tests.execution.result.Result.addMessage(fr.scolomfr.recette.model.tests.execution.result.Message)) && args(message,..)")
@@ -37,8 +45,16 @@ public class TestCaseExecutionTrackingAspect {
 		tracker.notify(message);
 	}
 
+	@Around("execution(* fr.scolomfr.recette.model.tests.execution.result.Result.setState(..))")
+	public void messageAdded(ProceedingJoinPoint joinPoint) {
+		State state = (State) joinPoint.getArgs()[0];
+		if (state.equals(State.FINAL)) {
+			tracker.notifyTestCaseTermination((Result) joinPoint.getTarget());
+		}
+	}
+
+	@Override
 	public void setOwner(TestCaseExecutionTracker tracker) {
 		this.tracker = tracker;
-
 	}
 }

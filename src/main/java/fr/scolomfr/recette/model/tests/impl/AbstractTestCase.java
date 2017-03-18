@@ -50,7 +50,6 @@ import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
-import fr.scolomfr.recette.model.tests.execution.result.ResultAopDecorator;
 import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;

@@ -18,9 +18,10 @@ import com.github.zafarkhaja.semver.Version;
 import fr.scolomfr.recette.cli.commands.output.ConsoleFormatter;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
+import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTrackingAspect;
 import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
+import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
@@ -54,7 +55,7 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	Logger logger;
 
 	@Autowired
-	TestCaseExecutionTrackingAspect testCaseExecutionTrackinAspect;
+	TestCaseExecutionTrackingAspect testCaseExecutionTrackingAspect;
 
 	@Autowired
 	private Catalog catalog;
@@ -111,10 +112,8 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 		if (testCase == null) {
 			return MessageFormat.format("No test available under index {0}", index);
 		}
-		System.out.println("ajout !!");
-		testCaseExecutionTrackinAspect.setOwner(this);
 		testCase.reset();
-		testCase.setExecutionTracker(this);
+		testCaseExecutionTrackingAspect.setOwner(this);
 		testCase.setExecutionMode(ExecutionMode.ASYNCHRONOUS);
 		Map<String, String> executionParameters = new HashMap<>();
 		if (null != version) {
@@ -144,7 +143,7 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	}
 
 	@Override
-	public void notifyTestCaseTermination(ResultImpl result) {
+	public void notifyTestCaseTermination(Result result) {
 		System.console().printf(consoleFormatter.formatExecutionResult(result));
 
 	}

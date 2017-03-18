@@ -21,13 +21,10 @@
  */
 package fr.scolomfr.recette.config;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.Profile;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-
-import fr.scolomfr.recette.cli.commands.TestCaseExecutionTrackingAspect;
 
 /**
  * Console mode spring annotation configuration class
@@ -36,9 +33,5 @@ import fr.scolomfr.recette.cli.commands.TestCaseExecutionTrackingAspect;
 @Profile({ "!web" })
 @EnableAspectJAutoProxy
 public class ConsoleConfiguration extends WebMvcConfigurerAdapter {
-	@Bean
-	public TestCaseExecutionTrackingAspect testCaseExecutionTrackingAspect() {
-		return new TestCaseExecutionTrackingAspect();
-	}
 
 }

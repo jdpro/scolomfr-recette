@@ -29,7 +29,7 @@ import org.springframework.stereotype.Component;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
+import fr.scolomfr.recette.model.tests.execution.result.Result;
 
 @Component
 public interface ConsoleFormatter {
@@ -44,6 +44,6 @@ public interface ConsoleFormatter {
 
 	String formatMessage(Message message);
 
-	String formatExecutionResult(ResultImpl result);
+	String formatExecutionResult(Result result);
 
 }

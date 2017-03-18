@@ -18,24 +18,15 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl;
+package fr.scolomfr.recette.model.tests.execution;
 
-import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
-import fr.scolomfr.recette.model.tests.organization.TestParameters;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
-@TestCaseIndex(index = "xx")
-@TestParameters(names = {})
-public class NoopTestCase extends AbstractTestCase {
+@Component
+@Scope("application")
+public interface TestCaseExecutionTrackingAspect {
 
-	@Override
-	public void run() {
-		// does nothing
-	}
-
-	@Override
-	public void addMessage(Message message) {
-		System.out.println("i am called");
-	}
+	void setOwner(TestCaseExecutionTracker tracker);
 
 }

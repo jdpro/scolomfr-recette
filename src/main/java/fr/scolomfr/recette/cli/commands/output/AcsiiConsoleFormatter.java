@@ -40,6 +40,7 @@ import de.vandermeer.asciitable.v2.themes.V2_E_TableThemes;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.execution.result.Message.Type;
+import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 
 @Component
@@ -153,7 +154,7 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 	}
 
 	@Override
-	public String formatExecutionResult(ResultImpl result) {
+	public String formatExecutionResult(Result result) {
 		V2_AsciiTable at = new V2_AsciiTable();
 		at.addStrongRule();
 		at.addRow(result.getErrorCount(), result.getComplianceIndicator() >= 0 ? result.getComplianceIndicator() : "-");
