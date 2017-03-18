@@ -60,7 +60,7 @@ public class SkosXLHTMLComparaisonTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_label_invalid");
 		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
 		skosXLHtmlComparaison.run();
-		Result result = skosXLHtmlComparaison.getExecutionResult();
+		Result result = skosXLHtmlComparaison.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String invalidLabel = "<strong>un libellé invalide</strong>";
@@ -77,7 +77,7 @@ public class SkosXLHTMLComparaisonTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_ta_invalid");
 		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
 		skosXLHtmlComparaison.run();
-		Result result = skosXLHtmlComparaison.getExecutionResult();
+		Result result = skosXLHtmlComparaison.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/exam";
@@ -97,7 +97,7 @@ public class SkosXLHTMLComparaisonTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_na_invalid");
 		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
 		skosXLHtmlComparaison.run();
-		Result result = skosXLHtmlComparaison.getExecutionResult();
+		Result result = skosXLHtmlComparaison.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/exam";
@@ -117,7 +117,7 @@ public class SkosXLHTMLComparaisonTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a19_valid");
 		skosXLHtmlComparaison.setExecutionParameters(executionParameters);
 		skosXLHtmlComparaison.run();
-		Result result = skosXLHtmlComparaison.getExecutionResult();
+		Result result = skosXLHtmlComparaison.getResult();
 		Assert.assertEquals("There should be exactly one error.", 0, result.getErrorCount());
 	}
 }

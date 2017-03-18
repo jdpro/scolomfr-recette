@@ -10,11 +10,14 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
 @XmlType(namespace = "http://recette.scolomfr.fr/2017/1")
 @XmlRootElement(name = "result")
 @XmlAccessorType(XmlAccessType.FIELD)
+@Component
+@Scope("prototype")
 public class ResultImpl implements Result {
 
 	@XmlElementWrapper(name = "messages")
@@ -28,8 +31,6 @@ public class ResultImpl implements Result {
 	private int falsePositiveCount;
 
 	private float complianceIndicator;
-
-	private TestCaseExecutionTracker testCaseExecutionTracker;
 
 	public ResultImpl() {
 		reset();
@@ -98,31 +99,17 @@ public class ResultImpl implements Result {
 		this.falsePositiveCount = falsePositiveCount;
 	}
 
-	public TestCaseExecutionTracker getTestCaseExecutionTracker() {
-		return testCaseExecutionTracker;
-	}
-
-	@Override
-	public void setTestCaseExecutionTracker(TestCaseExecutionTracker testCaseExecutionTracker) {
-		this.testCaseExecutionTracker = testCaseExecutionTracker;
-	}
-
 	public enum State {
 		TEMPORARY, FINAL, ABORTED;
 	}
 
+	@Override
 	public void reset() {
 		messages = new ConcurrentLinkedDeque<>();
 		setErrorCount(0);
 		setFalsePositiveCount(0);
 		setComplianceIndicator(-1);
 		setState(State.TEMPORARY);
-
-	}
-
-	@Override
-	public Result getResult() {
-		return this;
 	}
 
 }

@@ -60,7 +60,7 @@ public class CaseConventionsRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a23_invalid");
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
@@ -79,7 +79,7 @@ public class CaseConventionsRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a23_sigle");
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
@@ -98,7 +98,7 @@ public class CaseConventionsRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a23_valid");
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
 	}

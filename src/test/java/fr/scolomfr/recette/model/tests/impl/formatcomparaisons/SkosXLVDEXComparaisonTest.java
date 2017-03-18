@@ -60,7 +60,7 @@ public class SkosXLVDEXComparaisonTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a17_valid");
 		skosXLVDEXComparaison.setExecutionParameters(executionParameters);
 		skosXLVDEXComparaison.run();
-		Result result = skosXLVDEXComparaison.getExecutionResult();
+		Result result = skosXLVDEXComparaison.getResult();
 		Assert.assertEquals("There should be exactly one error.", 0, result.getErrorCount());
 	}
 
@@ -73,7 +73,7 @@ public class SkosXLVDEXComparaisonTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a17_invalid_uri");
 		skosXLVDEXComparaison.setExecutionParameters(executionParameters);
 		skosXLVDEXComparaison.run();
-		Result result = skosXLVDEXComparaison.getExecutionResult();
+		Result result = skosXLVDEXComparaison.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String line = "15";
@@ -92,7 +92,7 @@ public class SkosXLVDEXComparaisonTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a17_invalid_label");
 		skosXLVDEXComparaison.setExecutionParameters(executionParameters);
 		skosXLVDEXComparaison.run();
-		Result result = skosXLVDEXComparaison.getExecutionResult();
+		Result result = skosXLVDEXComparaison.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String file = "scolomfr-tests-v4/a17/a17_invalid_label.vdex";
@@ -113,7 +113,7 @@ public class SkosXLVDEXComparaisonTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a17_missing_uri");
 		skosXLVDEXComparaison.setExecutionParameters(executionParameters);
 		skosXLVDEXComparaison.run();
-		Result result = skosXLVDEXComparaison.getExecutionResult();
+		Result result = skosXLVDEXComparaison.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/creator";

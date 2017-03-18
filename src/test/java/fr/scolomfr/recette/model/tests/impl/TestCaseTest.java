@@ -72,7 +72,7 @@ public class TestCaseTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, vocabulary);
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {},
@@ -92,7 +92,7 @@ public class TestCaseTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, vocabulary);
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 2, result.getErrorCount());
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { skostype });
@@ -105,7 +105,7 @@ public class TestCaseTest {
 		caseConventionsRespectSkos.reset();
 		String filePath = "/i-do-not-exist";
 		File file = caseConventionsRespectSkos.getFileByPath(filePath);
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 		Assert.assertNull(file);
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { filePath });
@@ -116,7 +116,7 @@ public class TestCaseTest {
 		caseConventionsRespectSkos.reset();
 		String filePath = "/i-do-not-exist";
 		InputStream is = caseConventionsRespectSkos.getFileInputStreamByPath(filePath);
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 		Assert.assertNull(is);
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { filePath });

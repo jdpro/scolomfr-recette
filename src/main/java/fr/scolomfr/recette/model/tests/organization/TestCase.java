@@ -36,7 +36,7 @@ public interface TestCase extends Runnable {
 
 	void setExecutionParameters(Map<String, String> executionParameters);
 
-	Result getExecutionResult();
+	Result getResult();
 
 	void setExecutionIdentifier(Integer counter);
 

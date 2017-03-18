@@ -25,7 +25,7 @@ import fr.scolomfr.recette.model.tests.execution.result.Result;
 
 public interface TestCaseExecutionTracker {
 
-	void markForFutureDeletion(Integer executionIdentifier);
+	void markForDeletion(Integer executionIdentifier);
 
 	void notify(Message message);
 

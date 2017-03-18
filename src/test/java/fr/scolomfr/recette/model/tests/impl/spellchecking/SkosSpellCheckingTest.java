@@ -60,7 +60,7 @@ public class SkosSpellCheckingTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a15_valid");
 		skosSpellChecking.setExecutionParameters(executionParameters);
 		skosSpellChecking.run();
-		Result result = skosSpellChecking.getExecutionResult();
+		Result result = skosSpellChecking.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
 	}
@@ -74,7 +74,7 @@ public class SkosSpellCheckingTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a15_invalid");
 		skosSpellChecking.setExecutionParameters(executionParameters);
 		skosSpellChecking.run();
-		Result result = skosSpellChecking.getExecutionResult();
+		Result result = skosSpellChecking.getResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
 		String word = "exammen";
@@ -91,7 +91,7 @@ public class SkosSpellCheckingTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a15_abbr");
 		skosSpellChecking.setExecutionParameters(executionParameters);
 		skosSpellChecking.run();
-		Result result = skosSpellChecking.getExecutionResult();
+		Result result = skosSpellChecking.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
 		String abbr = "\"RES\"";
@@ -108,7 +108,7 @@ public class SkosSpellCheckingTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a15_invalid_abbr");
 		skosSpellChecking.setExecutionParameters(executionParameters);
 		skosSpellChecking.run();
-		Result result = skosSpellChecking.getExecutionResult();
+		Result result = skosSpellChecking.getResult();
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
 		String abbr = "\"RES\"";
 		String word = "exammen";

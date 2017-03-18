@@ -60,7 +60,7 @@ public class MimeTypesCompletenessTest {
 		executionParameters.put(TestParameters.Values.GLOBAL, "special");
 		mimeTypesCompleteness.setExecutionParameters(executionParameters);
 		mimeTypesCompleteness.run();
-		Result result = mimeTypesCompleteness.getExecutionResult();
+		Result result = mimeTypesCompleteness.getResult();
 		boolean fancyMimeTypeFound = false;
 		boolean missingMimeTypeFound = false;
 		boolean caseErrorMimeTypeFound = false;

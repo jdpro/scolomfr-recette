@@ -62,7 +62,7 @@ public class TestCaseExecutionRegistry implements TestCaseExecutionTracker {
 	}
 
 	@Override
-	public void markForFutureDeletion(Integer executionIdentifier) {
+	public void markForDeletion(Integer executionIdentifier) {
 		markedForDeletion.add(executionIdentifier);
 
 	}

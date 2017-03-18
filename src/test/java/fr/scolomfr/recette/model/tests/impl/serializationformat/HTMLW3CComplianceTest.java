@@ -59,7 +59,7 @@ public class HTMLW3CComplianceTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a13_error");
 		htmlW3CComplianceSkos.setExecutionParameters(executionParameters);
 		htmlW3CComplianceSkos.run();
-		Result result = htmlW3CComplianceSkos.getExecutionResult();
+		Result result = htmlW3CComplianceSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String message = "Element <code>h1</code> not allowed as child of element <code>ul</code> in this context.";
@@ -74,7 +74,7 @@ public class HTMLW3CComplianceTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a13_valid");
 		htmlW3CComplianceSkos.setExecutionParameters(executionParameters);
 		htmlW3CComplianceSkos.run();
-		Result result = htmlW3CComplianceSkos.getExecutionResult();
+		Result result = htmlW3CComplianceSkos.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
 	}

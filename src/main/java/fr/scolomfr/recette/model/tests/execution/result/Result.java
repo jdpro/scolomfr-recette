@@ -28,8 +28,6 @@ import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 
 public interface Result {
 
-	void setTestCaseExecutionTracker(TestCaseExecutionTracker testCaseExecutionTracker);
-
 	void setComplianceIndicator(float f);
 
 	void setState(State state);
@@ -51,8 +49,6 @@ public interface Result {
 	void addMessage(Type type, String key, String title, String content);
 
 	void setFalsePositiveCount(int falsePositiveCount);
-
-	Result getResult();
 
 	void reset();
 

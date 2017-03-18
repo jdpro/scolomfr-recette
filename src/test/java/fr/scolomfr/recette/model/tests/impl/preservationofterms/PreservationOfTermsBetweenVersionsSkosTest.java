@@ -61,7 +61,7 @@ public class PreservationOfTermsBetweenVersionsSkosTest {
 		executionParameters.put("vocabulary", "s2_conservation_concepts_invalid");
 		conservationConceptsEntreVersions.setExecutionParameters(executionParameters);
 		conservationConceptsEntreVersions.run();
-		Result result = conservationConceptsEntreVersions.getExecutionResult();
+		Result result = conservationConceptsEntreVersions.getResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
 		String prefLabelBeginning = "économie et gestion,";
@@ -79,7 +79,7 @@ public class PreservationOfTermsBetweenVersionsSkosTest {
 		executionParameters.put("vocabulary", "s2_conservation_concepts_valid");
 		conservationConceptsEntreVersions.setExecutionParameters(executionParameters);
 		conservationConceptsEntreVersions.run();
-		Result result = conservationConceptsEntreVersions.getExecutionResult();
+		Result result = conservationConceptsEntreVersions.getResult();
 		Assert.assertEquals("There should be exactly 0 error.", 0, result.getErrorCount());
 
 	}

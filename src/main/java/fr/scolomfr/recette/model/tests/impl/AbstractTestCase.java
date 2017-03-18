@@ -86,7 +86,7 @@ public abstract class AbstractTestCase implements TestCase {
 	ContextParameters contextParameters;
 
 	@Autowired
-	Result resultProxy;
+	Result result;
 
 	List<String> errorCodes = new ArrayList<>();
 
@@ -103,8 +103,8 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	@Override
-	public Result getExecutionResult() {
-		return resultProxy.getResult();
+	public Result getResult() {
+		return result;
 	}
 
 	@Override
@@ -115,7 +115,6 @@ public abstract class AbstractTestCase implements TestCase {
 	@Override
 	public void setExecutionTracker(TestCaseExecutionTracker testCaseExecutionTracker) {
 		this.testCaseExecutionTracker = testCaseExecutionTracker;
-		resultProxy.setTestCaseExecutionTracker(testCaseExecutionTracker);
 	}
 
 	protected String getIndex() {
@@ -129,17 +128,17 @@ public abstract class AbstractTestCase implements TestCase {
 
 	@Override
 	public ResultImpl temporaryResult() {
-		synchronized (this.resultProxy.getResult()) {
+		synchronized (this.result) {
 			ResultImpl temporaryResult = new ResultImpl();
-			temporaryResult.setState(this.resultProxy.getState());
-			temporaryResult.setErrorCount(this.resultProxy.getErrorCount());
-			temporaryResult.setFalsePositiveCount(this.resultProxy.getFalsePositiveCount());
-			temporaryResult.setComplianceIndicator(this.resultProxy.getComplianceIndicator());
-			while (!this.resultProxy.getMessages().isEmpty()) {
-				temporaryResult.addMessage(this.resultProxy.getMessages().pop());
+			temporaryResult.setState(this.result.getState());
+			temporaryResult.setErrorCount(this.result.getErrorCount());
+			temporaryResult.setFalsePositiveCount(this.result.getFalsePositiveCount());
+			temporaryResult.setComplianceIndicator(this.result.getComplianceIndicator());
+			while (!this.result.getMessages().isEmpty()) {
+				temporaryResult.addMessage(this.result.getMessages().pop());
 			}
 			if (temporaryResult.getState().equals(ResultImpl.State.FINAL)) {
-				this.testCaseExecutionTracker.markForFutureDeletion(executionIdentifier);
+				this.testCaseExecutionTracker.markForDeletion(executionIdentifier);
 			}
 			return temporaryResult;
 		}
@@ -149,7 +148,7 @@ public abstract class AbstractTestCase implements TestCase {
 	@Override
 	public void reset() {
 		this.executionParameters = null;
-		this.resultProxy.reset();
+		this.result.reset();
 		this.executionIdentifier = null;
 		this.errorCodes = new ArrayList<>();
 		this.executionMode = ExecutionMode.SYNCHRONOUS;
@@ -293,7 +292,7 @@ public abstract class AbstractTestCase implements TestCase {
 
 	protected void refreshComplianceIndicator(int numerator, int denominator) {
 		if (denominator != 0) {
-			resultProxy.setComplianceIndicator((float) numerator / (float) denominator);
+			result.setComplianceIndicator((float) numerator / (float) denominator);
 		}
 
 	}
@@ -409,15 +408,15 @@ public abstract class AbstractTestCase implements TestCase {
 	 */
 	@Override
 	public void addMessage(Message message) {
-		resultProxy.addMessage(message);
+		result.addMessage(message);
 	}
 
 	protected void incrementErrorCount(boolean ignored) {
-		resultProxy.incrementErrorCount(ignored);
+		result.incrementErrorCount(ignored);
 	}
 
 	protected void setState(State state) {
-		resultProxy.setState(state);
+		result.setState(state);
 	}
 
 	/**

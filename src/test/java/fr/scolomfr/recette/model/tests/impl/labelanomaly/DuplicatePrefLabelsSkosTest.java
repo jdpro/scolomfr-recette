@@ -60,7 +60,7 @@ public class DuplicatePrefLabelsSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a6_dup_pref_lab_invalid");
 		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
 		duplicatePrefLabelsSkos.run();
-		Result result = duplicatePrefLabelsSkos.getExecutionResult();
+		Result result = duplicatePrefLabelsSkos.getResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri1 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
 		String uri2 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1077";
@@ -78,7 +78,7 @@ public class DuplicatePrefLabelsSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a6_dup_pref_lab_valid");
 		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
 		duplicatePrefLabelsSkos.run();
-		Result result = duplicatePrefLabelsSkos.getExecutionResult();
+		Result result = duplicatePrefLabelsSkos.getResult();
 
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 

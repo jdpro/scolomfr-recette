@@ -132,9 +132,8 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	}
 
 	@Override
-	public void markForFutureDeletion(Integer executionIdentifier) {
+	public void markForDeletion(Integer executionIdentifier) {
 		// nothing
-
 	}
 
 	@Override
@@ -145,7 +144,6 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	@Override
 	public void notifyTestCaseTermination(Result result) {
 		System.console().printf(consoleFormatter.formatExecutionResult(result));
-
 	}
 
 }
