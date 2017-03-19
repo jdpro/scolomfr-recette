@@ -162,12 +162,18 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 
 	@Override
 	public void notify(Message message) {
-		System.console().printf(consoleFormatter.formatMessage(message));
+		if (System.console() == null)
+			System.out.println(consoleFormatter.formatMessage(message));
+		else
+			System.console().printf(consoleFormatter.formatMessage(message));
 	}
 
 	@Override
 	public void notifyTestCaseTermination(Result result) {
-		System.console().printf(consoleFormatter.formatExecutionResult(result));
+		if (System.console() == null)
+			System.out.println(consoleFormatter.formatExecutionResult(result));
+		else
+			System.console().printf(consoleFormatter.formatExecutionResult(result));
 	}
 
 }
