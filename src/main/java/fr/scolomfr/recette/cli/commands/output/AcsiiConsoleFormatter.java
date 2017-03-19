@@ -20,7 +20,6 @@
  */
 package fr.scolomfr.recette.cli.commands.output;
 
-import java.text.MessageFormat;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -35,30 +34,25 @@ import com.github.zafarkhaja.semver.Version;
 import de.vandermeer.asciitable.v2.RenderedTable;
 import de.vandermeer.asciitable.v2.V2_AsciiTable;
 import de.vandermeer.asciitable.v2.render.V2_AsciiTableRenderer;
-import de.vandermeer.asciitable.v2.render.WidthAbsoluteEven;
 import de.vandermeer.asciitable.v2.render.WidthLongestLine;
 import de.vandermeer.asciitable.v2.themes.V2_E_TableThemes;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.execution.result.Message.Type;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.utils.OSInfo;
 import fr.scolomfr.recette.utils.OSInfo.OS;
 
 @Component
 public class AcsiiConsoleFormatter implements ConsoleFormatter {
 
-	int HEADER_FREQUENCY = 10;
+	private static final int HEADER_FREQUENCY = 10;
 
 	private RenderedTable getRenderedTable(V2_AsciiTable at) {
 		V2_AsciiTableRenderer rend = new V2_AsciiTableRenderer();
 		rend.setTheme(V2_E_TableThemes.UTF_STRONG_DOUBLE.get());
 		WidthLongestLine width = new WidthLongestLine();
-
 		rend.setWidth(width);
-		RenderedTable rt = rend.render(at);
-		return rt;
+		return rend.render(at);
 	}
 
 	@Override
@@ -68,10 +62,9 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		String previousFormat = "";
 		int counter = 0;
 		for (Pair<String, Pair<String, String>> source : filePathsByVersion) {
-			String format = source.getFirst().toString();
+			String format = source.getFirst();
 			boolean headerRequired = !StringUtils.equals(format, previousFormat) || 0 == counter % HEADER_FREQUENCY;
 			if (headerRequired) {
-				// TODO i18n
 				at.addRow("Format", "Vocabulary", "File");
 				at.addStrongRule();
 				counter = 0;
@@ -95,7 +88,6 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 			boolean headerRequired = !StringUtils.equals(version, previousVersion) || 0 == counter % HEADER_FREQUENCY;
 
 			if (headerRequired) {
-				// TODO i18n
 				at.addRow("Version", "Vocabulary", "File");
 				at.addStrongRule();
 				counter = 0;
@@ -103,6 +95,24 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 			counter++;
 			previousVersion = version;
 			at.addRow(version, source.getSecond().getFirst(), source.getSecond().getSecond());
+			at.addRule();
+		}
+		return getRenderedTable(at).toString();
+	}
+
+	@Override
+	public String formatVocabularies(Map<String, String> filePathsByVersionAndFormat) {
+		V2_AsciiTable at = new V2_AsciiTable();
+		at.addStrongRule();
+		int counter = 0;
+		for (Entry<String, String> source : filePathsByVersionAndFormat.entrySet()) {
+			boolean headerRequired = 0 == counter % HEADER_FREQUENCY;
+			counter++;
+			if (headerRequired) {
+				at.addRow("Vocabulary", "File");
+				at.addStrongRule();
+			}
+			at.addRow(source.getKey(), source.getValue());
 			at.addRule();
 		}
 		return getRenderedTable(at).toString();
@@ -127,25 +137,6 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 				at.addRow("", entry.getValue().get("index"), entry.getValue().get("label"));
 				at.addRule();
 			}
-		}
-		return getRenderedTable(at).toString();
-	}
-
-	@Override
-	public String formatVocabularies(Map<String, String> filePathsByVersionAndFormat) {
-		V2_AsciiTable at = new V2_AsciiTable();
-		at.addStrongRule();
-		int counter = 0;
-		for (Entry<String, String> source : filePathsByVersionAndFormat.entrySet()) {
-			boolean headerRequired = 0 == counter % HEADER_FREQUENCY;
-			counter++;
-			if (headerRequired) {
-				// TODO i18n
-				at.addRow("Vocabulary", "File");
-				at.addStrongRule();
-			}
-			at.addRow(source.getKey(), source.getValue());
-			at.addRule();
 		}
 		return getRenderedTable(at).toString();
 	}
@@ -187,8 +178,17 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		return sb.toString();
 	}
 
-	class AnsiConstants {
+	@Override
+	public String formatExecutionResult(Result result) {
+		V2_AsciiTable at = new V2_AsciiTable();
+		at.addStrongRule();
+		at.addRow("Errors", "Compliance indicator (if available)");
+		at.addStrongRule();
+		at.addRow(result.getErrorCount(), result.getComplianceIndicator() >= 0 ? result.getComplianceIndicator() : "-");
+		return getRenderedTable(at).toString();
+	}
 
+	class AnsiConstants {
 		public static final String ANSI_RESET = "\u001B[0m";
 		public static final String ANSI_BLACK = "\u001B[30m";
 		public static final String ANSI_RED = "\u001B[31m";
@@ -202,14 +202,6 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 
 		private AnsiConstants() {
 		}
-	}
-
-	@Override
-	public String formatExecutionResult(Result result) {
-		V2_AsciiTable at = new V2_AsciiTable();
-		at.addStrongRule();
-		at.addRow(result.getErrorCount(), result.getComplianceIndicator() >= 0 ? result.getComplianceIndicator() : "-");
-		return getRenderedTable(at).toString();
 	}
 
 }

@@ -21,7 +21,7 @@
 		<logback.version>1.2.1</logback.version>
 		<project.build.finalName>recette</project.build.finalName>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jar.mainclass>org.springframework.shell.Bootstrap</jar.mainclass>
+		<jar.mainclass>fr.scolomfr.recette.cli.Main</jar.mainclass>
 	</properties>
 
 	<dependencies>
