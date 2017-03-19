@@ -20,6 +20,7 @@
  */
 package fr.scolomfr.recette.config;
 
+@FunctionalInterface
 public interface ContextParameters {
 
 	String get(ParameterKeys parameterName);

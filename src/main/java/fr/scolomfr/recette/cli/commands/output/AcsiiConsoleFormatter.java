@@ -26,6 +26,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Component;
 
@@ -48,6 +49,8 @@ import fr.scolomfr.recette.utils.OSInfo.OS;
 @Component
 public class AcsiiConsoleFormatter implements ConsoleFormatter {
 
+	int HEADER_FREQUENCY = 10;
+
 	private RenderedTable getRenderedTable(V2_AsciiTable at) {
 		V2_AsciiTableRenderer rend = new V2_AsciiTableRenderer();
 		rend.setTheme(V2_E_TableThemes.UTF_STRONG_DOUBLE.get());
@@ -62,9 +65,21 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 	public String formatFormats(List<Pair<String, Pair<String, String>>> filePathsByVersion) {
 		V2_AsciiTable at = new V2_AsciiTable();
 		at.addStrongRule();
+		String previousFormat = "";
+		int counter = 0;
 		for (Pair<String, Pair<String, String>> source : filePathsByVersion) {
-			at.addRow(source.getFirst().toString(), source.getSecond().getFirst(), source.getSecond().getSecond());
+			String format = source.getFirst().toString();
+			boolean headerRequired = !StringUtils.equals(format, previousFormat) || 0 == counter % HEADER_FREQUENCY;
+			if (headerRequired) {
+				// TODO i18n
+				at.addRow("Format", "Vocabulary", "File");
+				at.addStrongRule();
+				counter = 0;
+			}
+			counter++;
+			at.addRow(format, source.getSecond().getFirst(), source.getSecond().getSecond());
 			at.addRule();
+			previousFormat = format;
 		}
 		return getRenderedTable(at).toString();
 	}
@@ -73,8 +88,21 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 	public String formatVersions(List<Pair<Version, Pair<String, String>>> filePathsByFormat) {
 		V2_AsciiTable at = new V2_AsciiTable();
 		at.addStrongRule();
+		String previousVersion = "";
+		int counter = 0;
 		for (Pair<Version, Pair<String, String>> source : filePathsByFormat) {
-			at.addRow(source.getFirst().toString(), source.getSecond().getFirst(), source.getSecond().getSecond());
+			String version = source.getFirst().toString();
+			boolean headerRequired = !StringUtils.equals(version, previousVersion) || 0 == counter % HEADER_FREQUENCY;
+
+			if (headerRequired) {
+				// TODO i18n
+				at.addRow("Version", "Vocabulary", "File");
+				at.addStrongRule();
+				counter = 0;
+			}
+			counter++;
+			previousVersion = version;
+			at.addRow(version, source.getSecond().getFirst(), source.getSecond().getSecond());
 			at.addRule();
 		}
 		return getRenderedTable(at).toString();
@@ -107,7 +135,15 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 	public String formatVocabularies(Map<String, String> filePathsByVersionAndFormat) {
 		V2_AsciiTable at = new V2_AsciiTable();
 		at.addStrongRule();
+		int counter = 0;
 		for (Entry<String, String> source : filePathsByVersionAndFormat.entrySet()) {
+			boolean headerRequired = 0 == counter % HEADER_FREQUENCY;
+			counter++;
+			if (headerRequired) {
+				// TODO i18n
+				at.addRow("Vocabulary", "File");
+				at.addStrongRule();
+			}
 			at.addRow(source.getKey(), source.getValue());
 			at.addRule();
 		}

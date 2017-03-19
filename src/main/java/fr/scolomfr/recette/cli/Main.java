@@ -16,11 +16,13 @@
 package fr.scolomfr.recette.cli;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import org.springframework.shell.Bootstrap;
 
 /**
- * Driver class to run the helloworld example. 
+ * Driver class to run the helloworld example.
  * 
  * @author Mark Pollack
  *
@@ -28,12 +30,18 @@ import org.springframework.shell.Bootstrap;
 public class Main {
 
 	/**
-	 * Main class that delegates to Spring Shell's Bootstrap class in order to simplify debugging inside an IDE
+	 * Main class that delegates to Spring Shell's Bootstrap class in order to
+	 * simplify debugging inside an IDE
+	 * 
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		Bootstrap.main(args);
+		ArrayList<String> argsList = new ArrayList<>(Arrays.asList(args));
+		argsList.add("--disableInternalCommands");
+		String[] argsArray = new String[argsList.size()];
+		argsArray = argsList.toArray(argsArray);
+		Bootstrap.main(argsArray);
 
 	}
 

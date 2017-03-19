@@ -21,8 +21,7 @@
 package fr.scolomfr.recette.config;
 
 public enum ParameterKeys {
-	SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME("scolomfr_default_version"), SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME(
-			"scolomfr_files_directory");
+	SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME("df"), SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME("dir");
 	private final String value;
 
 	private ParameterKeys(final String value) {

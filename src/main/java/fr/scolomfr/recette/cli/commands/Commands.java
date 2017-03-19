@@ -16,6 +16,7 @@ import org.springframework.stereotype.Component;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.cli.commands.output.ConsoleFormatter;
+import fr.scolomfr.recette.config.ParameterKeys;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTrackingAspect;
@@ -51,6 +52,7 @@ import fr.scolomfr.recette.utils.log.Log;
 @Component
 @Profile({ "!web" })
 public class Commands implements CommandMarker, TestCaseExecutionTracker {
+
 	@Log
 	Logger logger;
 
@@ -69,11 +71,12 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	@Autowired
 	ConsoleFormatter consoleFormatter;
 
-	@CliCommand(value = "sources", help = "Display sources by version and/or format")
+	@CliCommand(value = "sources", help = "Display ScoLOMFR sources by version and/or format, example : 'sources --version 3.1.0', 'sources --format vdex', 'sources --version 3.2.0 --format html'")
 	public String displaySources(
 			@CliOption(key = {
-					"version" }, mandatory = false, help = "The version major.minor.patch") final String versionStr,
-			@CliOption(key = { "format" }, mandatory = false, help = "The format e.g. skos") final String format) {
+					"version" }, mandatory = false, help = "Display selected version : major.minor.patch, e.g. '3.2.0'", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String versionStr,
+			@CliOption(key = {
+					"format" }, mandatory = false, help = "Display selected format : e.g. 'skos'", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String format) {
 		Version version = null;
 		if (!StringUtils.isEmpty(versionStr)) {
 			version = Version.valueOf(versionStr);
@@ -89,21 +92,22 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 		return "";
 	}
 
-	@CliCommand(value = "tests", help = "Display tests")
+	@CliCommand(value = "tests", help = "Display testcases reference, without options.")
 	public String displayTests() {
 		Map<String, Map<String, Map<String, Map<String, String>>>> testsOrganisation = testsRepository
 				.getTestOrganization().getStructure();
 		return consoleFormatter.formatTestOrganisation(testsOrganisation);
 	}
 
-	@CliCommand(value = "test", help = "Execute specific test")
+	@CliCommand(value = "test", help = "Execute specific test referenced by code, e.g 'test a6 --version 3.2.0 --format skos --vocabulary global'")
 	public String execute(
-			@CliOption(key = { "index" }, mandatory = false, help = "Test index e.g. a6") final String index,
 			@CliOption(key = {
-					"version" }, mandatory = false, help = "The version major.minor.patch") final String versionStr,
+					"" }, mandatory = true, help = "Test code, e.g. 'a6' . Type 'test' command for a complete test reference.", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String index,
+			@CliOption(key = {
+					"version" }, mandatory = false, help = "The version : major.minor.patch, e.g. '3.2.0' for ScoLOMFR 3.2.", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String versionStr,
 			@CliOption(key = { "format" }, mandatory = false, help = "The format e.g. skos") final String format,
 			@CliOption(key = {
-					"vocabulary" }, mandatory = false, help = "Vocabulary to test : 'global' or specific URI") final String vocabulary) {
+					"vocabulary" }, mandatory = false, help = "Vocabulary to test : 'global' or specific URI. Type sources --version x.y.z to get a list of available vocabularies for a specific ScoLOMFR version.", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String vocabulary) {
 		Version version = null;
 		if (!StringUtils.isEmpty(versionStr)) {
 			version = Version.valueOf(versionStr);
