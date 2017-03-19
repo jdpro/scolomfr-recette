@@ -88,6 +88,9 @@ public abstract class AbstractTestCase implements TestCase {
 	@Autowired
 	Result result;
 
+	@Autowired
+	TestCaseInterruptor testCaseInterruptor;
+
 	List<String> errorCodes = new ArrayList<>();
 
 	protected Map<String, String> executionParameters;
@@ -251,10 +254,7 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	protected void stopTestCase() {
-		setState(State.FINAL);
-		if (executionMode.equals(ExecutionMode.ASYNCHRONOUS)) {
-			Thread.currentThread().interrupt();
-		}
+		testCaseInterruptor.stop(this);
 	}
 
 	protected File getFileByPath(final String filePath) {
@@ -411,7 +411,8 @@ public abstract class AbstractTestCase implements TestCase {
 		result.incrementErrorCount(ignored);
 	}
 
-	protected void setState(State state) {
+	@Override
+	public void setState(State state) {
 		result.setState(state);
 	}
 

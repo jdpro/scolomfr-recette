@@ -51,6 +51,13 @@ public class ConsoleTestCaseExecutionTrackingAspect implements TestCaseExecution
 			tracker.notifyTestCaseTermination((Result) joinPoint.getTarget());
 		}
 	}
+	@Around("execution(* fr.scolomfr.recette.model.tests.execution.result.Result.setState(..))")
+	public void testCaseStopped(ProceedingJoinPoint joinPoint) {
+		State state = (State) joinPoint.getArgs()[0];
+		if (state.equals(State.FINAL)) {
+			tracker.notifyTestCaseTermination((Result) joinPoint.getTarget());
+		}
+	}
 
 	@Override
 	public void setOwner(TestCaseExecutionTracker tracker) {

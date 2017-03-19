@@ -339,18 +339,28 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-shade-plugin</artifactId> 
+				<version>3.0.0</version> <configuration> <filters> <filter> <artifact>*:*</artifact> 
+				<excludes> <exclude>META-INF/*.SF</exclude> <exclude>META-INF/*.DSA</exclude> 
+				<exclude>META-INF/*.RSA</exclude> </excludes> </filter> </filters> </configuration> 
+				<executions> <execution> <phase>package</phase> <goals> <goal>shade</goal> 
+				</goals> <configuration> <transformers> <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer"> 
+				<mainClass>${jar.mainclass}</mainClass> </transformer> </transformers> </configuration> 
+				</execution> </executions> </plugin> -->
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
-
 				<configuration>
-					<descriptorRefs>
-						<descriptorRef>jar-with-dependencies</descriptorRef>
-					</descriptorRefs>
+					<descriptors>
+	<!-- default jar-with-dependencies behavior causes sesame not to work any 
+		more :http://sesame-general.435816.n3.nabble.com/No-factory-available-for-query-language-SPARQL-and-maven-deps-td4026051.html -->
+						<descriptor>jar-with-dependencies-not-unpacked.xml</descriptor>
+					</descriptors>
+
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<useUniqueVersions>false</useUniqueVersions>
-							<classpathPrefix>lib/</classpathPrefix>
+							<classpathPrefix></classpathPrefix>
 							<mainClass>${jar.mainclass}</mainClass>
 						</manifest>
 						<manifestEntries>

@@ -46,4 +46,6 @@ public interface ConsoleFormatter {
 
 	String formatExecutionResult(Result result);
 
+	String formatError(String format);
+
 }

@@ -204,4 +204,21 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		}
 	}
 
+	@Override
+	public String formatError(String message) {
+		return printInColor(message, AnsiConstants.ANSI_RED);
+	}
+
+	private String printInColor(String message, String color) {
+		StringBuilder sb = new StringBuilder();
+		if (!OSInfo.getOs().equals(OS.WINDOWS)) {
+			sb.append(color);
+		}
+		sb.append(message);
+		if (!OSInfo.getOs().equals(OS.WINDOWS)) {
+			sb.append(AnsiConstants.ANSI_RESET);
+		}
+		return sb.toString();
+	}
+
 }

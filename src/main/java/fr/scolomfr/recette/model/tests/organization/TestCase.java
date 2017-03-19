@@ -29,6 +29,7 @@ import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 
 @Component
@@ -53,5 +54,7 @@ public interface TestCase extends Runnable {
 	void progressionMessage(String info, float progressionRate);
 
 	void addMessage(Message message);
+
+	void setState(State state);
 
 }

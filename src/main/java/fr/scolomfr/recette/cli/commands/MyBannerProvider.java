@@ -45,7 +45,7 @@ public class MyBannerProvider extends DefaultBannerProvider {
 	}
 
 	public String getWelcomeMessage() {
-		return "Metadata vocabulary test tool for French learning resources.";
+		return "Metadata vocabulary quality tool for French learning resources.";
 	}
 
 	@Override
