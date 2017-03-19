@@ -18,29 +18,34 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.config;
+package fr.scolomfr.recette.model.tests.persistence;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
-import org.springframework.data.redis.connection.RedisConnectionFactory;
-import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.stereotype.Component;
 
-@Configuration
-@Profile("web")
-public class SpringRedisConfig {
+@Component
+@Profile({ "!web" })
+public class ConsolePersistenceManager implements PersistenceManager {
 
-	@Bean
-	public RedisConnectionFactory redisConnexionFactory() {
-		return new JedisConnectionFactory();
+	@Override
+	public boolean errorIsIgnored(String key) {
+		return false;
 	}
 
-	@Bean
-	public StringRedisTemplate redisTemplate() {
-		StringRedisTemplate redisTemplate = new StringRedisTemplate();
-		redisTemplate.setConnectionFactory(redisConnexionFactory());
-		return redisTemplate;
+	@Override
+	public boolean hasKey(String key) {
+		return false;
 	}
 
+	@Override
+	public void setKey(String key, String string) {
+		// no persistence
+	}
+
+	@Override
+	public void delete(String key) {
+		// no persistence
+	}
 }

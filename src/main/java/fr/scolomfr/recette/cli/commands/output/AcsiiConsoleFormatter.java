@@ -42,6 +42,8 @@ import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.execution.result.Message.Type;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
+import fr.scolomfr.recette.utils.OSInfo;
+import fr.scolomfr.recette.utils.OSInfo.OS;
 
 @Component
 public class AcsiiConsoleFormatter implements ConsoleFormatter {
@@ -117,30 +119,40 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		StringBuilder sb = new StringBuilder(System.lineSeparator());
 		sb.append(System.lineSeparator());
 		Type type = message.getType();
-		switch (type) {
-		case ERROR:
-		case FAILURE:
-			sb.append(AnsiConstants.ANSI_RED);
-			break;
-		case IGNORED:
-			sb.append(AnsiConstants.ANSI_GRAY);
-			break;
-		case INFO:
-			sb.append(AnsiConstants.ANSI_BLUE);
-			break;
-		case PROGRESS:
-			return "";
+		String colorMarker = "";
+		String reset = "";
+		String green = "";
+		if (!OSInfo.getOs().equals(OS.WINDOWS)) {
+			reset = AnsiConstants.ANSI_RESET;
+			green = AnsiConstants.ANSI_GREEN;
+			switch (type) {
+			case ERROR:
+			case FAILURE:
+				colorMarker = AnsiConstants.ANSI_RED;
+				break;
+			case IGNORED:
+				colorMarker = AnsiConstants.ANSI_GRAY;
+				break;
+			case INFO:
+				colorMarker = AnsiConstants.ANSI_BLUE;
+				break;
+			case PROGRESS:
+			default:
+				return "";
+			}
 		}
+		sb.append(colorMarker);
 		sb.append(type).append(" : ");
-		sb.append(message.getTitle()).append(System.lineSeparator()).append(AnsiConstants.ANSI_RESET);
+		sb.append(message.getTitle()).append(System.lineSeparator()).append(reset);
 		String content = message.getContent();
-		content = content.replaceAll("</[^>]+>", AnsiConstants.ANSI_RESET);
-		content = content.replaceAll("<[^>]+>", AnsiConstants.ANSI_GREEN);
+		content = content.replaceAll("</[^>]+>", reset);
+		content = content.replaceAll("<[^>]+>", green);
 		sb.append(content).append(System.lineSeparator());
 		return sb.toString();
 	}
 
 	class AnsiConstants {
+
 		public static final String ANSI_RESET = "\u001B[0m";
 		public static final String ANSI_BLACK = "\u001B[30m";
 		public static final String ANSI_RED = "\u001B[31m";
@@ -151,6 +163,9 @@ public class AcsiiConsoleFormatter implements ConsoleFormatter {
 		public static final String ANSI_CYAN = "\u001B[36m";
 		public static final String ANSI_GRAY = "\u001B[37m";
 		public static final String ANSI_WHITE = "\u001B[37;1m";
+
+		private AnsiConstants() {
+		}
 	}
 
 	@Override

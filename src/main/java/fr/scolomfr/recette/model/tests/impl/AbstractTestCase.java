@@ -34,7 +34,6 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.jsoup.Jsoup;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.util.StringUtils;
 import org.w3c.dom.Document;
 
@@ -54,6 +53,7 @@ import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
+import fr.scolomfr.recette.model.tests.persistence.PersistenceManager;
 import fr.scolomfr.recette.utils.i18n.I18nProvider;
 import fr.scolomfr.recette.utils.log.Log;
 
@@ -80,7 +80,7 @@ public abstract class AbstractTestCase implements TestCase {
 	protected Catalog catalog;
 
 	@Autowired
-	StringRedisTemplate stringRedisTemplate;
+	PersistenceManager persistenceManager;
 
 	@Autowired
 	ContextParameters contextParameters;
@@ -298,11 +298,7 @@ public abstract class AbstractTestCase implements TestCase {
 	}
 
 	protected boolean errorIsIgnored(String key) {
-		if (null == key) {
-			return false;
-		}
-		String status = stringRedisTemplate.opsForValue().get(key);
-		return null != status && "IGNORE".equals(status);
+		return persistenceManager.errorIsIgnored(key);
 	}
 
 	protected String generateUniqueErrorCode(String identifier) throws DuplicateErrorCodeException {
