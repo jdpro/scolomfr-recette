@@ -115,14 +115,24 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 			@CliOption(key = {
 					"" }, mandatory = true, help = "Test code, e.g. 'a6' . Type 'test' command for a complete test reference.", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String index,
 			@CliOption(key = {
-					"version" }, mandatory = false, help = "The version : major.minor.patch, e.g. '3.2.0' for ScoLOMFR 3.2.", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String versionStr,
+					"version" }, mandatory = false, help = "The version : major.minor.patch, e.g. '3.2.0' for ScoLOMFR 3.2. The default value depends on the 'ver' parameter passed at application start.", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String versionStr,
+			@CliOption(key = {
+					"version2" }, mandatory = false, help = "Same as 'version', only for tests that rely on a comparaison of versions", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String version2Str,
 			@CliOption(key = { "format" }, mandatory = false, help = "The format e.g. skos") final String format,
 			@CliOption(key = {
-					"vocabulary" }, mandatory = false, help = "Vocabulary to test : 'global' or specific URI. Type sources --version x.y.z to get a list of available vocabularies for a specific ScoLOMFR version.", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String vocabulary) {
+					"format2" }, mandatory = false, help = "Same as 'format', only for tests that compare two formats") final String format2,
+			@CliOption(key = {
+					"vocabulary" }, mandatory = false, help = "Vocabulary to test : 'global' or specific URI. Type sources --version x.y.z to get a list of available vocabularies for a specific ScoLOMFR version.", unspecifiedDefaultValue = "", specifiedDefaultValue = "") final String vocabulary,
+			@CliOption(key = {
+					"skostype" }, mandatory = false, help = "Type of skos to use (only for skos-specific tests) : either 'skos' or 'skosxl'.", unspecifiedDefaultValue = "skosxl", specifiedDefaultValue = "") final String skosType) {
 		forceLocale();
 		Version version = null;
 		if (!StringUtils.isEmpty(versionStr)) {
 			version = Version.valueOf(versionStr);
+		}
+		Version version2 = null;
+		if (!StringUtils.isEmpty(version2Str)) {
+			version2 = Version.valueOf(version2Str);
 		}
 		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCaseNewInstance(index);
 		if (null == testCase) {
@@ -135,11 +145,20 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 		if (null != version) {
 			executionParameters.put(TestParameters.Values.VERSION, versionStr);
 		}
+		if (null != version2) {
+			executionParameters.put(TestParameters.Values.VERSION2, version2Str);
+		}
 		if (!StringUtils.isEmpty(format)) {
 			executionParameters.put(TestParameters.Values.FORMAT, format);
 		}
+		if (!StringUtils.isEmpty(format2)) {
+			executionParameters.put(TestParameters.Values.FORMAT, format2);
+		}
 		if (!StringUtils.isEmpty(vocabulary)) {
 			executionParameters.put(TestParameters.Values.VOCABULARY, vocabulary);
+		}
+		if (!StringUtils.isEmpty(skosType)) {
+			executionParameters.put(TestParameters.Values.SKOSTYPE, vocabulary);
 		}
 		testCase.setExecutionParameters(executionParameters);
 		try {
@@ -162,7 +181,7 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	@Override
 	public void notify(Message message) {
 		if (System.console() == null)
-			System.out.println(consoleFormatter.formatMessage(message));
+			logger.info(consoleFormatter.formatMessage(message));
 		else
 			System.console().printf(consoleFormatter.formatMessage(message));
 	}
@@ -170,7 +189,7 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 	@Override
 	public void notifyTestCaseTermination(Result result) {
 		if (System.console() == null)
-			System.out.println(consoleFormatter.formatExecutionResult(result));
+			logger.info(consoleFormatter.formatExecutionResult(result));
 		else
 			System.console().printf(consoleFormatter.formatExecutionResult(result));
 	}
