@@ -52,8 +52,9 @@ public abstract class AbstractSparqlTestCase extends AbstractJenaTestCase {
 			final String title = i18n.tr("test.impl.sparql.missing.title");
 			final String msg = i18n.tr("test.impl.sparql.missing.content",
 					new Object[] { sparqlQueryFileRelativePath });
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.SPARQL_REQUEST_AVAILABLE.toString(), title, msg);
-			result.incrementErrorCount(false);
+			addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.SPARQL_REQUEST_AVAILABLE.toString(), title,
+					msg));
+			incrementErrorCount(false);
 			logger.error(msg, e);
 			stopTestCase();
 		}

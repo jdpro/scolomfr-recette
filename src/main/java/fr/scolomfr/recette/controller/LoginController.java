@@ -26,6 +26,7 @@ import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,6 +38,7 @@ import fr.scolomfr.recette.config.CustomLoginSuccessHandler;
  * Controller for login page
  */
 @Controller
+@Profile("web")
 public class LoginController {
 
 	/**

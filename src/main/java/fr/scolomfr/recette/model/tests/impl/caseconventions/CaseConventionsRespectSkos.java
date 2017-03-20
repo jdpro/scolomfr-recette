@@ -37,7 +37,7 @@ import org.apache.jena.util.iterator.ExtendedIterator;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -110,25 +110,25 @@ public class CaseConventionsRespectSkos extends AbstractJenaTestCase {
 
 			if (!firstLetterIsLower && !isSigle) {
 				numerator++;
-				result.incrementErrorCount(ignored);
+				incrementErrorCount(ignored);
 				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 						i18n.tr("tests.impl.a23.result.invalid.title"),
 						i18n.tr("tests.impl.a23.result.invalid.content", new Object[] { statement.getSubject().getURI(),
 								statement.getPredicate().getLocalName(), label }));
-				result.addMessage(message);
+				addMessage(message);
 			}
 			if (!firstLetterIsLower && isSigle) {
 				Message message = new Message(Message.Type.INFO, errorCode,
 						i18n.tr("tests.impl.a23.result.ignored.title"),
 						i18n.tr("tests.impl.a23.result.ignored.content", new Object[] { statement.getSubject().getURI(),
 								statement.getPredicate().getLocalName(), label }));
-				result.addMessage(message);
+				addMessage(message);
 			}
-			refreshComplianceIndicator(result, denominator - numerator, denominator);
+			refreshComplianceIndicator(denominator - numerator, denominator);
 
 		}
 		progressionMessage("", 100);
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 	}
 
 	private Boolean isSigle(String label) {

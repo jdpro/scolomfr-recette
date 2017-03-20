@@ -49,7 +49,7 @@ import fr.scolomfr.recette.model.sources.representation.utils.DomDocumentWithLin
 import fr.scolomfr.recette.model.sources.representation.utils.XPathEngineProvider;
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -111,7 +111,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 					if (i % step == 0) {
 						progressionMessage(docInfo, (float) i / (float) nbIdentifiers * 100.f);
 					}
-					refreshComplianceIndicator(result, denominator - numerator, denominator);
+					refreshComplianceIndicator(denominator - numerator, denominator);
 					denominator++;
 					Node node = identifiers.item(i);
 					String identifier = node.getTextContent();
@@ -137,13 +137,13 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 						Resource resource = model.createResource(identifier);
 						boolean resourceIsInSkos = model.containsResource(resource);
 						if (!resourceIsInSkos) {
-							result.incrementErrorCount(ignored);
+							incrementErrorCount(ignored);
 							numerator++;
 							Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 									errorCode, i18n.tr("tests.impl.a17.result.missinginskos.title"),
 									i18n.tr("tests.impl.a17.result.missinginskos.content",
 											new Object[] { filePathEntry.getKey(), lineNumber, identifier }));
-							result.addMessage(message);
+							addMessage(message);
 						} else {
 							String labelInSkos = jenaEngine.getPrefLabelFor(resource.asNode(), model);
 							String expression2Str = MessageFormat.format(labelExpressionStr, identifier, "fr");
@@ -153,13 +153,13 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 							if (null != captionNode) {
 								String captionInVdex = captionNode.getTextContent();
 								if (!StringUtils.equals(captionInVdex, labelInSkos)) {
-									result.incrementErrorCount(ignored);
+									incrementErrorCount(ignored);
 									numerator++;
 									Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR,
 											errorCode, i18n.tr("tests.impl.a17.result.nonmatchinglabels.title"),
 											i18n.tr("tests.impl.a17.result.nonmatchinglabels.content",
 													new Object[] { identifier, captionInVdex, filePathEntry.getKey(), labelInSkos }));
-									result.addMessage(message);
+									addMessage(message);
 								}
 							}
 						}
@@ -172,7 +172,7 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 		} catch (XPathExpressionException e) {
 			String title = "Invalid xpath expression";
 			logger.error(title, e);
-			result.addMessage(new Message(Message.Type.FAILURE,
+			addMessage(new Message(Message.Type.FAILURE,
 					CommonMessageKeys.XPATH_ERROR.toString() + allIdentifiersExpressionStr, title, e.getMessage()));
 			stopTestCase();
 			return;
@@ -192,15 +192,15 @@ public class SkosXLVdexComparaison extends AbstractJenaTestCase {
 				continue;
 			}
 			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
+			incrementErrorCount(ignored);
 			numerator++;
 			Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.a17.result.missinginvdex.title"),
 					i18n.tr("tests.impl.a17.result.missinginvdex.content", new Object[] { missing }));
-			result.addMessage(message);
+			addMessage(message);
 		}
 		progressionMessage("", 100);
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 
 	}
 

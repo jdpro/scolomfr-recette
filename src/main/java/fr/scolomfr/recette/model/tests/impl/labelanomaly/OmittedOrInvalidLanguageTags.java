@@ -68,8 +68,8 @@ public class OmittedOrInvalidLanguageTags extends AbstractQskosTestCase<Map<Reso
 
 			String errorCode = generateUniqueErrorCode(resource.stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
-			result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+			incrementErrorCount(ignored);
+			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos.oilt.result.title"), i18n.tr("tests.impl.qskos.oilt.result.content",
 							new Object[] { resource.stringValue(), sb.toString() })));
 		}

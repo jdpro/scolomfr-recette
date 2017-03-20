@@ -28,6 +28,7 @@ import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -42,6 +43,7 @@ import junit.framework.Assert;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
 public class NamingRulesRespectSkosTest {
@@ -58,7 +60,7 @@ public class NamingRulesRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_invalid_uri");
 		namingRulesRespectSkos.setExecutionParameters(executionParameters);
 		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getExecutionResult();
+		Result result = namingRulesRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-num-1086";
@@ -74,7 +76,7 @@ public class NamingRulesRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_incoherent_uri");
 		namingRulesRespectSkos.setExecutionParameters(executionParameters);
 		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getExecutionResult();
+		Result result = namingRulesRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 		String conceptUri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-1086";
@@ -91,8 +93,7 @@ public class NamingRulesRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_valid_uri");
 		namingRulesRespectSkos.setExecutionParameters(executionParameters);
 		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getExecutionResult();
+		Result result = namingRulesRespectSkos.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-
 	}
 }

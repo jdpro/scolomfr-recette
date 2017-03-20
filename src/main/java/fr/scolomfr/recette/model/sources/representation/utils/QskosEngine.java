@@ -27,6 +27,7 @@ import org.openrdf.OpenRDFException;
 import org.openrdf.repository.Repository;
 import org.openrdf.repository.RepositoryException;
 import org.openrdf.rio.RDFFormat;
+import org.openrdf.rio.UnsupportedRDFormatException;
 import org.slf4j.Logger;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -72,7 +73,7 @@ public class QskosEngine {
 			throw new QskosException(
 					String.format("Impossible d'ouvrir le fichier temporaire pour %s : %s", filePath, e.getMessage()),
 					e);
-		} catch (final OpenRDFException e) {
+		} catch (final OpenRDFException | UnsupportedRDFormatException e) {
 			throw new QskosException(
 					String.format("Le fichier %s n'est pas lisible comme Rdf: %s", filePath, e.getMessage()), e);
 		}

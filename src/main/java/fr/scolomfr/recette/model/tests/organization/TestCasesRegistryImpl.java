@@ -58,8 +58,13 @@ public class TestCasesRegistryImpl implements TestCasesRegistry {
 
 	@Override
 	public TestCase getTestCaseNewInstance(String id) {
-		TestCase instance = getTestCaseDefaultInstance(id);
-		return beanFactory.createBean(instance.getClass());
+		TestCase defaultInstance = getTestCaseDefaultInstance(id);
+		if (null == defaultInstance) {
+			return null;
+		}
+		TestCase newInstance = beanFactory.createBean(defaultInstance.getClass());
+		newInstance.getResult().reset();
+		return newInstance;
 	}
 
 }

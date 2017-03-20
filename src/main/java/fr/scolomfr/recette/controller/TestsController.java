@@ -31,6 +31,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -49,15 +50,22 @@ import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 import fr.scolomfr.recette.model.tests.organization.TestCase;
-import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
+import fr.scolomfr.recette.model.tests.organization.TestParameters;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
  * Controller for tests pages
  */
 @Controller
+@Profile("web")
 public class TestsController {
+
+	/**
+	 * If we need to return result directly without executing testcase
+	 */
+	@Autowired
+	Result directResult;
 
 	@Log
 	Logger logger;
@@ -171,14 +179,14 @@ public class TestsController {
 			throws CloneNotSupportedException {
 		TestCase testCase = testsRepository.getTestCasesRegistry().getTestCaseNewInstance(id);
 		if (testCase == null) {
-			Result result = new Result();
-			result.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_TEST.toString(),
+			directResult.reset();
+			directResult.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_TEST.toString(),
 					"No such test case", "There's no test under identifier " + id));
-			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
+			return new ResponseEntity<>(directResult, HttpStatus.NOT_FOUND);
 		}
 		testCase.setExecutionParameters(executionParameters);
 		testCase.run();
-		return new ResponseEntity<>(testCase.getExecutionResult(), HttpStatus.OK);
+		return new ResponseEntity<>(testCase.getResult(), HttpStatus.OK);
 	}
 
 	@RequestMapping(value = "/tests/async/{id:[0-9]+}", method = RequestMethod.GET)
@@ -186,12 +194,11 @@ public class TestsController {
 	public ResponseEntity<Result> trackTestExecution(HttpServletResponse response,
 			@PathVariable("id") Integer executionIdentifier) {
 		TestCase testCase = testCaseExecutionRegistry.getTestCase(executionIdentifier);
-		Result result;
 		if (testCase == null) {
-			result = new Result();
-			result.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_EXECUTION.toString(),
+			directResult.reset();
+			directResult.addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.NO_EXECUTION.toString(),
 					"No execution running", "There's no execution under identifier " + executionIdentifier));
-			return new ResponseEntity<>(result, HttpStatus.NOT_FOUND);
+			return new ResponseEntity<>(directResult, HttpStatus.NOT_FOUND);
 		}
 		return new ResponseEntity<>(testCase.temporaryResult(), HttpStatus.OK);
 	}

@@ -28,6 +28,7 @@ import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -42,6 +43,7 @@ import junit.framework.Assert;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
 public class VdexIdentifiersTest {
@@ -57,7 +59,7 @@ public class VdexIdentifiersTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a22_valid");
 		vdexIdentifiers.setExecutionParameters(executionParameters);
 		vdexIdentifiers.run();
-		Result result = vdexIdentifiers.getExecutionResult();
+		Result result = vdexIdentifiers.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
 	}
@@ -70,7 +72,7 @@ public class VdexIdentifiersTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a22_empty");
 		vdexIdentifiers.setExecutionParameters(executionParameters);
 		vdexIdentifiers.run();
-		Result result = vdexIdentifiers.getExecutionResult();
+		Result result = vdexIdentifiers.getResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String file = "scolomfr-tests-v0/a22/a22_empty.vdex";
 		String line = "16";
@@ -85,7 +87,7 @@ public class VdexIdentifiersTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a22_nouri");
 		vdexIdentifiers.setExecutionParameters(executionParameters);
 		vdexIdentifiers.run();
-		Result result = vdexIdentifiers.getExecutionResult();
+		Result result = vdexIdentifiers.getResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String file = "scolomfr-tests-v0/a22/a22_nouri.vdex";
 		String line = "45";
@@ -101,7 +103,7 @@ public class VdexIdentifiersTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a22_duplicate");
 		vdexIdentifiers.setExecutionParameters(executionParameters);
 		vdexIdentifiers.run();
-		Result result = vdexIdentifiers.getExecutionResult();
+		Result result = vdexIdentifiers.getResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String file = "scolomfr-tests-v0/a22/a22_duplicate.vdex";
 		String line1 = "46";

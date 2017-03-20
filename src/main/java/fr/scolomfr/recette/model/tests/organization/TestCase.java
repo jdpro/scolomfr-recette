@@ -23,19 +23,25 @@ package fr.scolomfr.recette.model.tests.organization;
 
 import java.util.Map;
 
-import fr.scolomfr.recette.model.tests.execution.async.TestCaseExecutionRegistry;
+import org.springframework.stereotype.Component;
+
+import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
+import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 
+@Component
 public interface TestCase extends Runnable {
 
 	void setExecutionParameters(Map<String, String> executionParameters);
 
-	Result getExecutionResult();
+	Result getResult();
 
 	void setExecutionIdentifier(Integer counter);
 
-	void setExecutionRegistry(TestCaseExecutionRegistry testCaseExecutionRegistry);
+	void setExecutionTracker(TestCaseExecutionTracker testCaseExecutionRegistry);
 
 	Result temporaryResult();
 
@@ -46,5 +52,9 @@ public interface TestCase extends Runnable {
 	void setExecutionMode(ExecutionMode executionMode);
 
 	void progressionMessage(String info, float progressionRate);
+
+	void addMessage(Message message);
+
+	void setState(State state);
 
 }

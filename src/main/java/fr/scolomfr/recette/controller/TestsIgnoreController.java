@@ -25,6 +25,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -35,30 +36,32 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import fr.scolomfr.recette.model.tests.execution.ignore.IgnoreRequestResult;
+import fr.scolomfr.recette.model.tests.persistence.PersistenceManager;
 import fr.scolomfr.recette.utils.log.Log;
 
 /**
  * Controller for tests pages
  */
 @Controller
+@Profile("web")
 public class TestsIgnoreController {
 
 	@Log
 	Logger logger;
 
 	@Autowired
-	StringRedisTemplate stringRedisTemplate;
+	PersistenceManager persistenceManager;
 
 	@RequestMapping(value = "/tests/ignore-false-positive", method = RequestMethod.POST)
 	@ResponseBody
 	public ResponseEntity<IgnoreRequestResult> ignoreFalsePositive(HttpServletResponse response,
 			@RequestParam("key") String key) {
 		IgnoreRequestResult result = new IgnoreRequestResult();
-		if (stringRedisTemplate.hasKey(key)) {
+		if (persistenceManager.hasKey(key)) {
 			result.setState(IgnoreRequestResult.State.DUPLICATE);
 		} else {
 			result.setState(IgnoreRequestResult.State.ACCEPTED);
-			stringRedisTemplate.opsForValue().set(key, "IGNORE");
+			persistenceManager.setKey(key, "IGNORE");
 		}
 		result.setKey(key);
 		return new ResponseEntity<>(result, HttpStatus.OK);
@@ -69,8 +72,8 @@ public class TestsIgnoreController {
 	public ResponseEntity<IgnoreRequestResult> restoreTruePositive(HttpServletResponse response,
 			@RequestParam("key") String key) {
 		IgnoreRequestResult result = new IgnoreRequestResult();
-		if (stringRedisTemplate.hasKey(key)) {
-			stringRedisTemplate.delete(key);
+		if (persistenceManager.hasKey(key)) {
+			persistenceManager.delete(key);
 			result.setState(IgnoreRequestResult.State.ACCEPTED);
 		} else {
 			result.setState(IgnoreRequestResult.State.NOT_FOUND);

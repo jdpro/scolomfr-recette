@@ -25,6 +25,7 @@ import java.io.IOException;
 
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -33,6 +34,7 @@ import org.springframework.web.servlet.ModelAndView;
  * Controller for home page
  */
 @Controller
+@Profile("web")
 public class HomeController {
 
 	/**

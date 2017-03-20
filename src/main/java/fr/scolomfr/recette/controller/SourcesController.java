@@ -35,6 +35,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -53,6 +54,7 @@ import fr.scolomfr.recette.utils.log.Log;
  * Controller for sources pages
  */
 @Controller
+@Profile("web")
 public class SourcesController {
 
 	@Autowired

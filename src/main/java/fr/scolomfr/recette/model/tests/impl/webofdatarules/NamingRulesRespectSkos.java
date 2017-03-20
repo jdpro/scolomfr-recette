@@ -38,7 +38,7 @@ import org.apache.jena.rdf.model.StmtIterator;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -111,7 +111,7 @@ public class NamingRulesRespectSkos extends AbstractJenaTestCase {
 					Message message = new Message(Message.Type.INFO, errorCode,
 							i18n.tr("tests.impl.a7.result.weird.title"),
 							i18n.tr("tests.impl.a7.result.weird.content", new Object[] { uri }));
-					result.addMessage(message);
+					addMessage(message);
 				}
 				String vocabUri = NamingUtils.getVocabURI(vocabNumber);
 				Resource vocabResource = model.createResource(vocabUri);
@@ -121,21 +121,21 @@ public class NamingRulesRespectSkos extends AbstractJenaTestCase {
 					Message message = new Message(Message.Type.INFO, errorCode,
 							i18n.tr("tests.impl.a7.result.incoherent.title"),
 							i18n.tr("tests.impl.a7.result.incoherent.content", new Object[] { uri, vocabNumber }));
-					result.addMessage(message);
+					addMessage(message);
 				}
 			} else {
 				numerator++;
-				result.incrementErrorCount(ignored);
+				incrementErrorCount(ignored);
 				Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 						i18n.tr("tests.impl.a7.result.invalid.title"),
 						i18n.tr("tests.impl.a7.result.invalid.content", new Object[] { uri }));
-				result.addMessage(message);
+				addMessage(message);
 			}
-			refreshComplianceIndicator(result, denominator - numerator, denominator);
+			refreshComplianceIndicator(denominator - numerator, denominator);
 
 		}
 		progressionMessage("", 100);
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 	}
 
 }

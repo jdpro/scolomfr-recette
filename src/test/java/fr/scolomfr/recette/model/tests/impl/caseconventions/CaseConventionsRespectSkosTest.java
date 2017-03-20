@@ -28,6 +28,7 @@ import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -42,6 +43,7 @@ import junit.framework.Assert;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
 public class CaseConventionsRespectSkosTest {
@@ -58,7 +60,7 @@ public class CaseConventionsRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a23_invalid");
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
@@ -77,7 +79,7 @@ public class CaseConventionsRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a23_sigle");
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";
@@ -96,7 +98,7 @@ public class CaseConventionsRespectSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a23_valid");
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
 	}

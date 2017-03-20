@@ -30,6 +30,7 @@ import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -45,6 +46,7 @@ import junit.framework.Assert;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
 public class TestCaseTest {
@@ -70,7 +72,7 @@ public class TestCaseTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, vocabulary);
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {},
@@ -90,7 +92,7 @@ public class TestCaseTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, vocabulary);
 		caseConventionsRespectSkos.setExecutionParameters(executionParameters);
 		caseConventionsRespectSkos.run();
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 2, result.getErrorCount());
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { skostype });
@@ -103,7 +105,7 @@ public class TestCaseTest {
 		caseConventionsRespectSkos.reset();
 		String filePath = "/i-do-not-exist";
 		File file = caseConventionsRespectSkos.getFileByPath(filePath);
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 		Assert.assertNull(file);
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { filePath });
@@ -114,7 +116,7 @@ public class TestCaseTest {
 		caseConventionsRespectSkos.reset();
 		String filePath = "/i-do-not-exist";
 		InputStream is = caseConventionsRespectSkos.getFileInputStreamByPath(filePath);
-		Result result = caseConventionsRespectSkos.getExecutionResult();
+		Result result = caseConventionsRespectSkos.getResult();
 		Assert.assertNull(is);
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		assertContainsMessage(result, Message.Type.FAILURE, new String[] {}, new String[] { filePath });

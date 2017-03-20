@@ -20,45 +20,9 @@
  */
 package fr.scolomfr.recette.config;
 
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
+@FunctionalInterface
+public interface ContextParameters {
 
-import org.slf4j.Logger;
-import org.springframework.stereotype.Component;
-
-import fr.scolomfr.recette.utils.log.Log;
-
-@Component
-public class ContextParameters {
-
-	@Log
-	Logger logger;
-
-	public String get(final Keys parameterName) {
-		InitialContext initialContext;
-		try {
-			initialContext = new javax.naming.InitialContext();
-			return (String) initialContext.lookup("java:comp/env/" + parameterName.toString());
-		} catch (NamingException e) {
-			logger.trace("Unable to get {} from initial context", parameterName, e);
-		}
-		return "";
-	}
-
-	public enum Keys {
-		SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME("scolomfr_default_version"), SCOLOMFR_FILES_DIRECTORY_ENV_VAR_NAME(
-				"scolomfr_files_directory");
-		private String value;
-
-		private Keys(String value) {
-			this.value = value;
-		}
-
-		@Override
-		public String toString() {
-			return value;
-		}
-
-	}
+	String get(ParameterKeys parameterName);
 
 }

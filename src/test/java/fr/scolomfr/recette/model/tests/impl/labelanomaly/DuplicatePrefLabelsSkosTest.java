@@ -28,6 +28,7 @@ import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -42,6 +43,7 @@ import junit.framework.Assert;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
 public class DuplicatePrefLabelsSkosTest {
@@ -58,7 +60,7 @@ public class DuplicatePrefLabelsSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a6_dup_pref_lab_invalid");
 		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
 		duplicatePrefLabelsSkos.run();
-		Result result = duplicatePrefLabelsSkos.getExecutionResult();
+		Result result = duplicatePrefLabelsSkos.getResult();
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri1 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";
 		String uri2 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1077";
@@ -76,7 +78,7 @@ public class DuplicatePrefLabelsSkosTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a6_dup_pref_lab_valid");
 		duplicatePrefLabelsSkos.setExecutionParameters(executionParameters);
 		duplicatePrefLabelsSkos.run();
-		Result result = duplicatePrefLabelsSkos.getExecutionResult();
+		Result result = duplicatePrefLabelsSkos.getResult();
 
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 

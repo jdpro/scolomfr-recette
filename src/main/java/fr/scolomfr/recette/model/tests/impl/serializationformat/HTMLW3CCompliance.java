@@ -36,7 +36,7 @@ import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.model.tests.execution.result.CommonMessageKeys;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.impl.serializationformat.CustomNuContentHandler.MessageType;
@@ -118,7 +118,7 @@ public class HTMLW3CCompliance extends AbstractTestCase {
 					CommonMessageKeys.NO_EXECUTION.name() + MESSAGE_ID_SEPARATOR + filePath,
 					i18n.tr("tests.impl.a13.result.failure.title"), messageStr);
 			logger.error(messageStr, e);
-			result.addMessage(message);
+			addMessage(message);
 			stopTestCase();
 			return;
 		}
@@ -139,20 +139,20 @@ public class HTMLW3CCompliance extends AbstractTestCase {
 		switch (messageType) {
 		case ERROR:
 			boolean ignored = errorIsIgnored(errorCode);
-			result.incrementErrorCount(ignored);
+			incrementErrorCount(ignored);
 			message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.a13.result.error.title"),
 					i18n.tr("tests.impl.a13.result.error.content", new Object[] { filePath, messageStr }));
-			result.addMessage(message);
+			addMessage(message);
 			break;
 		case INFO:
 			message = new Message(Message.Type.INFO, errorCode, i18n.tr("tests.impl.a13.result.warning.title"),
 					i18n.tr("tests.impl.a13.result.warning.content", new Object[] { filePath, messageStr }));
-			result.addMessage(message);
+			addMessage(message);
 			break;
 		case END:
 
-			result.setState(State.FINAL);
+			setState(State.FINAL);
 			break;
 
 		default:

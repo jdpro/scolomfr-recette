@@ -28,6 +28,7 @@ import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -42,6 +43,7 @@ import junit.framework.Assert;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
 public class HTMLW3CComplianceTest {
@@ -57,7 +59,7 @@ public class HTMLW3CComplianceTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a13_error");
 		htmlW3CComplianceSkos.setExecutionParameters(executionParameters);
 		htmlW3CComplianceSkos.run();
-		Result result = htmlW3CComplianceSkos.getExecutionResult();
+		Result result = htmlW3CComplianceSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String message = "Element <code>h1</code> not allowed as child of element <code>ul</code> in this context.";
@@ -72,7 +74,7 @@ public class HTMLW3CComplianceTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "a13_valid");
 		htmlW3CComplianceSkos.setExecutionParameters(executionParameters);
 		htmlW3CComplianceSkos.run();
-		Result result = htmlW3CComplianceSkos.getExecutionResult();
+		Result result = htmlW3CComplianceSkos.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
 	}

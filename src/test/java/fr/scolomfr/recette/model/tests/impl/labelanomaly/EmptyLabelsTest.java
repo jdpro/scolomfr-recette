@@ -28,6 +28,7 @@ import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -42,6 +43,7 @@ import junit.framework.Assert;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
 public class EmptyLabelsTest {
@@ -58,7 +60,7 @@ public class EmptyLabelsTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "q8_valid");
 		emptyLabelsSkos.setExecutionParameters(executionParameters);
 		emptyLabelsSkos.run();
-		Result result = emptyLabelsSkos.getExecutionResult();
+		Result result = emptyLabelsSkos.getResult();
 
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
 
@@ -73,7 +75,7 @@ public class EmptyLabelsTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "q8_invalid");
 		emptyLabelsSkos.setExecutionParameters(executionParameters);
 		emptyLabelsSkos.run();
-		Result result = emptyLabelsSkos.getExecutionResult();
+		Result result = emptyLabelsSkos.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-010-num-0082";

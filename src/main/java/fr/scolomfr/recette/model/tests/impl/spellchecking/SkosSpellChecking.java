@@ -38,7 +38,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import fr.scolomfr.recette.model.sources.representation.utils.JenaEngine;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.execution.result.Result.State;
+import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractJenaTestCase;
 import fr.scolomfr.recette.model.tests.impl.DuplicateErrorCodeException;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
@@ -117,21 +117,21 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 					if (!ignored) {
 						numerator++;
 					}
-					result.incrementErrorCount(ignored);
+					incrementErrorCount(ignored);
 					Message message = new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 							i18n.tr("tests.impl.a15.result.invalid.title"),
 							i18n.tr("tests.impl.a15.result.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
 											spellCheckResult.getInvalidFragmentsAsString(), predicate.getLocalName(),
 											language }));
-					result.addMessage(message);
+					addMessage(message);
 					break;
 				case PARTIALY_INVALID:
 					if (!ignored) {
 						numerator++;
 					}
-					result.incrementErrorCount(ignored);
-					result.addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
+					incrementErrorCount(ignored);
+					addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 							i18n.tr("tests.impl.a15.result.part.invalid.title"),
 							i18n.tr("tests.impl.a15.result.part.invalid.content",
 									new Object[] { statement.getSubject().getURI(), label,
@@ -139,7 +139,7 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 											language, spellCheckResult.getNonEvaluatedFragmentsAsString() })));
 					break;
 				case PARTIALY_VALID:
-					result.addMessage(new Message(Message.Type.INFO, errorCode,
+					addMessage(new Message(Message.Type.INFO, errorCode,
 							i18n.tr("tests.impl.a15.result.part.valid.title"),
 							i18n.tr("tests.impl.a15.result.part.valid.content",
 									new Object[] { statement.getSubject().getURI(), label,
@@ -154,15 +154,15 @@ public class SkosSpellChecking extends AbstractJenaTestCase {
 
 				String content = i18n.tr("tests.impl.a15.result.nodic.content", new Object[] { language });
 				logger.error(content, e);
-				result.addMessage(new Message(Message.Type.INFO, errorCode,
+				addMessage(new Message(Message.Type.INFO, errorCode,
 						i18n.tr("tests.impl.a15.result.nodic.title"), content));
 				break;
 			}
-			refreshComplianceIndicator(result, denominator - numerator, denominator);
+			refreshComplianceIndicator(denominator - numerator, denominator);
 
 		}
 		progressionMessage("", 100);
-		result.setState(State.FINAL);
+		setState(State.FINAL);
 	}
 
 	private String generateUniqueErrorCode(Statement statement, Property predicate, String label)

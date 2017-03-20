@@ -48,10 +48,10 @@ public abstract class AbstractJenaTestCase extends AbstractTestCase {
 			return jenaEngine.getModel(fileInputStream);
 		} catch (Exception e) {
 			logger.error("Problem while trying to read file " + filePath + "with jena : ", e);
-			result.addMessage(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
+			addMessage(new Message(Message.Type.FAILURE, CommonMessageKeys.FILE_OPENED.toString() + filePath,
 					i18n.tr("test.impl.file.unreadable.title"),
-					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath }));
-			result.incrementErrorCount(false);
+					i18n.tr("test.impl.file.unreadable.content", new Object[] { filePath })));
+			incrementErrorCount(false);
 		}
 		return null;
 

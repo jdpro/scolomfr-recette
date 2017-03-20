@@ -28,6 +28,7 @@ import java.util.Map;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -42,6 +43,7 @@ import junit.framework.Assert;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
 public class OverlappingLabelsTest {
@@ -58,10 +60,8 @@ public class OverlappingLabelsTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "q5_valid");
 		overlappingLabels.setExecutionParameters(executionParameters);
 		overlappingLabels.run();
-		Result result = overlappingLabels.getExecutionResult();
-
+		Result result = overlappingLabels.getResult();
 		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-
 	}
 
 	@Test
@@ -73,7 +73,7 @@ public class OverlappingLabelsTest {
 		executionParameters.put(TestParameters.Values.VOCABULARY, "q5_invalid");
 		overlappingLabels.setExecutionParameters(executionParameters);
 		overlappingLabels.run();
-		Result result = overlappingLabels.getExecutionResult();
+		Result result = overlappingLabels.getResult();
 
 		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
 		String uri1 = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-014-num-1086";

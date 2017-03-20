@@ -36,6 +36,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import com.github.zafarkhaja.semver.Version;
 
 import fr.scolomfr.recette.config.ContextParameters;
+import fr.scolomfr.recette.config.ParameterKeys;
 import fr.scolomfr.recette.model.sources.Catalog;
 import fr.scolomfr.recette.model.sources.manifest.Manifest;
 
@@ -81,7 +82,7 @@ public class SourcesStructureControllerAdvice {
 		model.addAttribute("formats", formats);
 		model.addAttribute("vocabularies", vocabularies);
 		model.addAttribute("defaultVersion",
-				contextParameters.get(ContextParameters.Keys.SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME));
+				contextParameters.get(ParameterKeys.SCOLOMFR_DEFAULT_VERSION_ENV_VAR_NAME));
 	}
 
 }

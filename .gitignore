@@ -43,3 +43,4 @@ target/
 jacoco.exec
 
 *~
+my.log
