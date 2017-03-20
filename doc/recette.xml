@@ -2,6 +2,6 @@
 <Context docbase="/opt/tomcat/webapps/recette.war" path="/recette">
 	<Environment description="Scolomfr files directory absolute path "
 		name="dir" type="java.lang.String" value="/etc/scolomfr" override="true" />
-	<Environment description="Scolomfr default version" name="df"
+	<Environment description="Scolomfr default version" name="ver"
 		type="java.lang.String" value="3.2.0" override="true" />
 </Context>
