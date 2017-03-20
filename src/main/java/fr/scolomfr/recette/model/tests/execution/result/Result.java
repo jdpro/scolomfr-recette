@@ -22,7 +22,6 @@ package fr.scolomfr.recette.model.tests.execution.result;
 
 import java.util.Deque;
 
-import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.result.Message.Type;
 import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 
