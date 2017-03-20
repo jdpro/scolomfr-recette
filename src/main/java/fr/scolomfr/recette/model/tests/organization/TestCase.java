@@ -28,7 +28,6 @@ import org.springframework.stereotype.Component;
 import fr.scolomfr.recette.model.tests.execution.TestCaseExecutionTracker;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.execution.result.Result;
-import fr.scolomfr.recette.model.tests.execution.result.ResultImpl;
 import fr.scolomfr.recette.model.tests.execution.result.ResultImpl.State;
 import fr.scolomfr.recette.model.tests.impl.AbstractTestCase.ExecutionMode;
 

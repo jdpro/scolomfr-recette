@@ -20,9 +20,7 @@
  */
 package fr.scolomfr.recette.model.tests.persistence;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
-import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 @Component
