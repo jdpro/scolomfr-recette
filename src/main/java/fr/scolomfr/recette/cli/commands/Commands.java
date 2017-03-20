@@ -158,7 +158,7 @@ public class Commands implements CommandMarker, TestCaseExecutionTracker {
 			executionParameters.put(TestParameters.Values.VOCABULARY, vocabulary);
 		}
 		if (!StringUtils.isEmpty(skosType)) {
-			executionParameters.put(TestParameters.Values.SKOSTYPE, vocabulary);
+			executionParameters.put(TestParameters.Values.SKOSTYPE, skosType);
 		}
 		testCase.setExecutionParameters(executionParameters);
 		try {
