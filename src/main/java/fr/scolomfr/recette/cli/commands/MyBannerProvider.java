@@ -45,7 +45,11 @@ public class MyBannerProvider extends DefaultBannerProvider {
 	}
 
 	public String getWelcomeMessage() {
-		return "Metadata vocabulary quality tool for French learning resources.";
+		StringBuilder stringBuilder = new StringBuilder();
+		stringBuilder.append("Metadata vocabulary quality tool for french learning resources.");
+		stringBuilder.append(OsUtils.LINE_SEPARATOR);
+		stringBuilder.append("Type a command, 'help' or 'help + command'");
+		return stringBuilder.toString();
 	}
 
 	@Override
