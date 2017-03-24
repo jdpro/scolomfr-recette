@@ -27,6 +27,13 @@
 		<!-- Spring core & mvc -->
 		<dependency>
 			<groupId>org.springframework</groupId>
+			<artifactId>spring-framework-bom</artifactId>
+			<version>${spring.version}</version>
+			<type>pom</type>
+			<scope>import</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
@@ -47,7 +54,8 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>${spring.version}</version>
+			<version>${spring.version}
+		</version>
 			<type>jar</type>
 			<scope>test</scope>
 		</dependency>
@@ -328,6 +336,10 @@
 			<id>alfresco</id>
 			<name>Alfresco Public Repository</name>
 			<url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+		</repository>
+		<repository>
+			<id>localRepository</id>
+			<url>file:${basedir}/repository</url>
 		</repository>
 	</repositories>
 

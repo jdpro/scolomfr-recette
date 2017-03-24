@@ -1,0 +1,8 @@
+Temporary solution to overcome the withdrawal of qskos from public repositories 
+
+mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file  -Dfile=/path/to/jar/qSKOS-1.4.8.jar \
+                                                                              -DgroupId=at.ac.univie.mminf \
+                                                                              -DartifactId=qSKOS \
+                                                                              -Dversion=1.4.8 \
+                                                                              -Dpackaging=jar \
+                                                                              -DlocalRepositoryPath=/path/to/project/repository
