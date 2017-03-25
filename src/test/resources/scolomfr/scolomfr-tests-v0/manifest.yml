@@ -23,6 +23,7 @@ content:
     q5_invalid: q5/q5_invalid.skos
     q8_valid: q8/q8_valid.skos
     q8_invalid: q8/q8_invalid.skos
+    q12_invalid: q12/q12_invalid.skos
     q14_invalid: q14/q14_invalid.skos
     q17_invalid: q17/q17_invalid.skos
     q19_invalid: q19/q19_invalid.skos
