@@ -26,6 +26,7 @@ content:
     q14_invalid: q14/q14_invalid.skos
     q17_invalid: q17/q17_invalid.skos
     q19_invalid: q19/q19_invalid.skos
+    q23_invalid: q23/q23_invalid.skos
     q25_invalid: q25/q25_invalid.skos
     q26_invalid: q26/q26_invalid.skos
     s2_conservation_concepts_invalid: s2/s2_conservation_concepts_invalid_v0.skos
