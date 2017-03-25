@@ -46,54 +46,27 @@ import junit.framework.Assert;
 @ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
-public class NamingRulesRespectSkosTest {
+public class HttpUriSchemeViolationsTest {
 
 	@Autowired
-	private HttpUriSchemeViolations namingRulesRespectSkos;
+	private HttpUriSchemeViolations httpUriSchemeViolations;
 
 	@Test
-	public void testSkosWithInvalidUri() {
-		namingRulesRespectSkos.reset();
+	public void testSkosWithSolelyTransitivelyRelatedConcepts() {
+		httpUriSchemeViolations.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_invalid_uri");
-		namingRulesRespectSkos.setExecutionParameters(executionParameters);
-		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getResult();
+		executionParameters.put(TestParameters.Values.VOCABULARY, "q24_invalid");
+		httpUriSchemeViolations.setExecutionParameters(executionParameters);
+		httpUriSchemeViolations.run();
+		Result result = httpUriSchemeViolations.getResult();
 
-		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
-		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-num-1086";
-		assertContainsMessage(result, Message.Type.ERROR, new String[] {}, new String[] { uri });
+		Assert.assertEquals("There should be exactly 4 errors.", 4, result.getErrorCount());
+		String urn = "urn:example:animal:ferret:nose";
+		assertContainsMessage(result, Message.Type.ERROR, new String[] {},
+				new String[] { urn });
+
 	}
 
-	@Test
-	public void testSkosWithIncoherentUri() {
-		namingRulesRespectSkos.reset();
-		Map<String, String> executionParameters = new HashMap<>();
-		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
-		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_incoherent_uri");
-		namingRulesRespectSkos.setExecutionParameters(executionParameters);
-		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getResult();
-
-		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-		String conceptUri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-1086";
-		String vocabNumber = "016";
-		assertContainsMessage(result, Message.Type.INFO, new String[] {}, new String[] { vocabNumber, conceptUri });
-	}
-
-	@Test
-	public void testSkosWithValidUri() {
-		namingRulesRespectSkos.reset();
-		Map<String, String> executionParameters = new HashMap<>();
-		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
-		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_valid_uri");
-		namingRulesRespectSkos.setExecutionParameters(executionParameters);
-		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getResult();
-		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-	}
 }
