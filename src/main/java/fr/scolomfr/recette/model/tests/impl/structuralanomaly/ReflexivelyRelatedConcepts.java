@@ -32,7 +32,7 @@ import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.skosintegrity.HierarchicalRedundancy
+ * @see at.ac.univie.mminf.qskos4j.issues.relations.ReflexivelyRelatedConcepts
  */
 @TestCaseIndex(index = "q19")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,

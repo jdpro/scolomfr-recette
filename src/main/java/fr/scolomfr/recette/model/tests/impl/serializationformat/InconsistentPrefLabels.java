@@ -38,7 +38,7 @@ import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.labels.OverlappingLabels
+ * @see at.ac.univie.mminf.qskos4j.issues.labels.InconsistentPrefLabels
  */
 @TestCaseIndex(index = "q27")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,

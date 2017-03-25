@@ -32,7 +32,7 @@ import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.conceptscheme.AmbiguousNotationReferences
+ * @see at.ac.univie.mminf.qskos4j.issues.conceptscheme.TopConceptsHavingBroaderConcepts
  */
 @TestCaseIndex(index = "q17")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,

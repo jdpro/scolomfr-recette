@@ -25,7 +25,7 @@ import fr.scolomfr.recette.model.tests.impl.AbstractCollectionResourceQskosTestC
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 
 /**
- * @see at.ac.univie.mminf.qskos4j.issues.conceptscheme.OmittedTopConcepts
+ * @see at.ac.univie.mminf.qskos4j.issues.relations.SolelyTransitivelyRelatedConcepts
  */
 @TestCaseIndex(index = "q14")
 public class SolelyTransitivelyRelatedConcepts extends AbstractCollectionResourceQskosTestCase {
