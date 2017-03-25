@@ -23,6 +23,15 @@ content:
     q5_invalid: q5/q5_invalid.skos
     q8_valid: q8/q8_valid.skos
     q8_invalid: q8/q8_invalid.skos
+    q12_invalid: q12/q12_invalid.skos
+    q14_invalid: q14/q14_invalid.skos
+    q17_invalid: q17/q17_invalid.skos
+    q19_invalid: q19/q19_invalid.skos
+    q23_invalid: q23/q23_invalid.skos
+    q24_invalid: q24/q24_invalid.skos
+    q25_invalid: q25/q25_invalid.skos
+    q26_invalid: q26/q26_invalid.skos
+    q27_invalid: q27/q27_invalid.skos
     s2_conservation_concepts_invalid: s2/s2_conservation_concepts_invalid_v0.skos
     s2_conservation_concepts_valid: s2/s2_conservation_concepts_valid_v0.skos
   skosxl:

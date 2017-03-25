@@ -83,6 +83,7 @@ public class QskosEngine {
 		} catch (final RepositoryException e) {
 			throw new QskosException(String.format("Problème avec qskos : %s", e.getMessage()), e);
 		}
+		//TODO extract to constant
 		qSkos.setAuthResourceIdentifier("data.education.fr/voc/scolomfr");
 		if (null != testCaseToNotify) {
 			streamProgressMonitor = new CustomStreamProgressMonitor(testCaseToNotify);

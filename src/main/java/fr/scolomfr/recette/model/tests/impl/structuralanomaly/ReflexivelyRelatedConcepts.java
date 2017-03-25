@@ -19,40 +19,47 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl;
+package fr.scolomfr.recette.model.tests.impl.structuralanomaly;
 
 import java.util.Collection;
 import java.util.Iterator;
 
-import org.openrdf.model.Resource;
+import org.openrdf.model.Statement;
 
-import at.ac.univie.mminf.qskos4j.util.Tuple;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
+import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
+/**
+ * @see at.ac.univie.mminf.qskos4j.issues.relations.ReflexivelyRelatedConcepts
+ */
+@TestCaseIndex(index = "q19")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
-public abstract class AbstractCollectionResourceQskosTestCase
-		extends AbstractQskosTestCase<Collection<Tuple<Resource>>> {
+public class ReflexivelyRelatedConcepts extends AbstractQskosTestCase<Collection<Statement>> {
 
 	@Override
-	protected void populateResult(Collection<Tuple<Resource>> data) {
+	protected String getQskosIssueCode() {
+		return "rrc";
+	}
+
+	@Override
+	protected void populateResult(Collection<Statement> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<Tuple<Resource>> it = data.iterator();
+		Iterator<Statement> it = data.iterator();
 
 		while (it.hasNext()) {
-			Tuple<Resource> tuple = it.next();
-			String errorCode = generateUniqueErrorCode(
-					tuple.getFirst().stringValue() + MESSAGE_ID_SEPARATOR + tuple.getSecond().stringValue());
+			Statement statement = it.next();
+			String errorCode = generateUniqueErrorCode(statement.getSubject().stringValue()
+					+ statement.getPredicate().stringValue() + statement.getObject().toString());
 			boolean ignored = errorIsIgnored(errorCode);
 			incrementErrorCount(ignored);
 			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos." + getQskosIssueCode() + ".result.title"),
-					i18n.tr("tests.impl.qskos." + getQskosIssueCode() + ".result.content",
-							new Object[] { tuple.getFirst().stringValue(), tuple.getSecond().stringValue() })));
+					i18n.tr("tests.impl.qskos.rrc.result.title"), i18n.tr("tests.impl.qskos.rrc.result.content",
+							new Object[] { statement.getSubject().stringValue(), statement.getObject().toString() })));
 		}
 
 	}

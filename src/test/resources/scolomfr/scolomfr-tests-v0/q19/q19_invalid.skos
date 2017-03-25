@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xml:base="http://mminf.univie.ac.at/vocab/">
+
+	<!-- error -->
+	<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/conceptA">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		<skos:broader rdf:resource="http://data.education.fr/voc/scolomfr/conceptA" />
+	</rdf:Description>
+
+	<!-- error -->
+	<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/conceptB">
+		<skos:broadMatch rdf:resource="http://data.education.fr/voc/scolomfr/conceptB" />
+	</rdf:Description>
+
+	<!-- ok, not an authoritative concept -->
+	<rdf:Description rdf:about="http://data.education.fr/voc/scolomfr/someresource">
+		<skos:member rdf:resource="http://data.education.fr/voc/scolomfr/someresource" />
+	</rdf:Description>
+
+</rdf:RDF>

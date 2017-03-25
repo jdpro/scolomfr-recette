@@ -18,7 +18,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl.webofdatarules;
+package fr.scolomfr.recette.model.tests.impl.structuralanomaly;
 
 import static fr.scolomfr.recette.model.tests.impl.ResultTestHelper.assertContainsMessage;
 
@@ -46,54 +46,26 @@ import junit.framework.Assert;
 @ActiveProfiles("web")
 @ContextConfiguration(classes = { MvcConfiguration.class })
 @TestExecutionListeners(DependencyInjectionTestExecutionListener.class)
-public class NamingRulesRespectSkosTest {
+public class ReflexivelyRelatedConceptsTest {
 
 	@Autowired
-	private HttpUriSchemeViolations namingRulesRespectSkos;
+	private ReflexivelyRelatedConcepts reflexivelyRelatedConcepts;
 
 	@Test
-	public void testSkosWithInvalidUri() {
-		namingRulesRespectSkos.reset();
+	public void testSkosWithSolelyTransitivelyRelatedConcepts() {
+		reflexivelyRelatedConcepts.reset();
 		Map<String, String> executionParameters = new HashMap<>();
 		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
 		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_invalid_uri");
-		namingRulesRespectSkos.setExecutionParameters(executionParameters);
-		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getResult();
+		executionParameters.put(TestParameters.Values.VOCABULARY, "q19_invalid");
+		reflexivelyRelatedConcepts.setExecutionParameters(executionParameters);
+		reflexivelyRelatedConcepts.run();
+		Result result = reflexivelyRelatedConcepts.getResult();
 
-		Assert.assertEquals("There should be exactly one error.", 1, result.getErrorCount());
-		String uri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-num-1086";
+		Assert.assertEquals("There should be exactly 2 errors.", 2, result.getErrorCount());
+		String uri = "http://data.education.fr/voc/scolomfr/conceptA";
 		assertContainsMessage(result, Message.Type.ERROR, new String[] {}, new String[] { uri });
+
 	}
 
-	@Test
-	public void testSkosWithIncoherentUri() {
-		namingRulesRespectSkos.reset();
-		Map<String, String> executionParameters = new HashMap<>();
-		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
-		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_incoherent_uri");
-		namingRulesRespectSkos.setExecutionParameters(executionParameters);
-		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getResult();
-
-		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-		String conceptUri = "http://data.education.fr/voc/scolomfr/concept/scolomfr-voc-016-num-1086";
-		String vocabNumber = "016";
-		assertContainsMessage(result, Message.Type.INFO, new String[] {}, new String[] { vocabNumber, conceptUri });
-	}
-
-	@Test
-	public void testSkosWithValidUri() {
-		namingRulesRespectSkos.reset();
-		Map<String, String> executionParameters = new HashMap<>();
-		executionParameters.put(TestParameters.Values.SKOSTYPE, "skos");
-		executionParameters.put(TestParameters.Values.VERSION, "0.0.0");
-		executionParameters.put(TestParameters.Values.VOCABULARY, "a7_valid_uri");
-		namingRulesRespectSkos.setExecutionParameters(executionParameters);
-		namingRulesRespectSkos.run();
-		Result result = namingRulesRespectSkos.getResult();
-		Assert.assertEquals("There should be exactly zero error.", 0, result.getErrorCount());
-	}
 }

@@ -19,40 +19,57 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package fr.scolomfr.recette.model.tests.impl;
+package fr.scolomfr.recette.model.tests.impl.structuralanomaly;
 
 import java.util.Collection;
 import java.util.Iterator;
 
 import org.openrdf.model.Resource;
 
-import at.ac.univie.mminf.qskos4j.util.Tuple;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
 import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
+import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
+/**
+ * @see at.ac.univie.mminf.qskos4j.issues.skosintegrity.HierarchicalRedundancy
+ */
+@TestCaseIndex(index = "q12")
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
-public abstract class AbstractCollectionResourceQskosTestCase
-		extends AbstractQskosTestCase<Collection<Tuple<Resource>>> {
+public class HierarchicalCycles extends AbstractQskosTestCase<Collection<Collection<Resource>>> {
 
 	@Override
-	protected void populateResult(Collection<Tuple<Resource>> data) {
+	protected String getQskosIssueCode() {
+		return "chr";
+	}
+
+	@Override
+	protected void populateResult(Collection<Collection<Resource>> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<Tuple<Resource>> it = data.iterator();
+		Iterator<Collection<Resource>> it = data.iterator();
 
 		while (it.hasNext()) {
-			Tuple<Resource> tuple = it.next();
-			String errorCode = generateUniqueErrorCode(
-					tuple.getFirst().stringValue() + MESSAGE_ID_SEPARATOR + tuple.getSecond().stringValue());
+			Collection<Resource> resources = it.next();
+			Iterator<Resource> it2 = resources.iterator();
+			StringBuilder sb = new StringBuilder();
+			boolean first = true;
+			while (it2.hasNext()) {
+				if (!first) {
+					sb.append(", ");
+				}
+				first = false;
+				Resource resource = it2.next();
+				sb.append(resource.stringValue());
+			}
+			String errorCode = generateUniqueErrorCode(sb.toString());
 			boolean ignored = errorIsIgnored(errorCode);
 			incrementErrorCount(ignored);
 			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
-					i18n.tr("tests.impl.qskos." + getQskosIssueCode() + ".result.title"),
-					i18n.tr("tests.impl.qskos." + getQskosIssueCode() + ".result.content",
-							new Object[] { tuple.getFirst().stringValue(), tuple.getSecond().stringValue() })));
+					i18n.tr("tests.impl.qskos.chr.result.title"),
+					i18n.tr("tests.impl.qskos.chr.result.content", new Object[] { sb.toString() })));
 		}
 
 	}
