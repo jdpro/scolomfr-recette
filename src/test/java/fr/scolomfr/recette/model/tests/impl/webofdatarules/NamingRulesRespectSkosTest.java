@@ -49,7 +49,7 @@ import junit.framework.Assert;
 public class NamingRulesRespectSkosTest {
 
 	@Autowired
-	private HttpUriSchemeViolations namingRulesRespectSkos;
+	private NamingRulesRespectSkos namingRulesRespectSkos;
 
 	@Test
 	public void testSkosWithInvalidUri() {
