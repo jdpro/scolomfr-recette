@@ -21,14 +21,14 @@
  */
 package fr.scolomfr.recette.model.tests.impl.serializationformat;
 
-import fr.scolomfr.recette.model.tests.impl.AbstractCollectionResourceQskosTestCase;
+import fr.scolomfr.recette.model.tests.impl.AbstractCollectionTupleQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 
 /**
  * @see at.ac.univie.mminf.qskos4j.issues.skosintegrity.RelationClashes
  */
 @TestCaseIndex(index = "q25")
-public class RelationClashes extends AbstractCollectionResourceQskosTestCase {
+public class RelationClashes extends AbstractCollectionTupleQskosTestCase {
 
 	@Override
 	protected String getQskosIssueCode() {

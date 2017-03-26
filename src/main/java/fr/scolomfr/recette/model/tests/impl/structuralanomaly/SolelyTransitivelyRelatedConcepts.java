@@ -21,14 +21,14 @@
  */
 package fr.scolomfr.recette.model.tests.impl.structuralanomaly;
 
-import fr.scolomfr.recette.model.tests.impl.AbstractCollectionResourceQskosTestCase;
+import fr.scolomfr.recette.model.tests.impl.AbstractCollectionTupleQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestCaseIndex;
 
 /**
  * @see at.ac.univie.mminf.qskos4j.issues.relations.SolelyTransitivelyRelatedConcepts
  */
 @TestCaseIndex(index = "q14")
-public class SolelyTransitivelyRelatedConcepts extends AbstractCollectionResourceQskosTestCase {
+public class SolelyTransitivelyRelatedConcepts extends AbstractCollectionTupleQskosTestCase {
 
 	@Override
 	protected String getQskosIssueCode() {

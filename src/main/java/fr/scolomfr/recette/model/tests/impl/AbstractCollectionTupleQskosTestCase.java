@@ -26,30 +26,31 @@ import java.util.Iterator;
 
 import org.openrdf.model.Resource;
 
+import at.ac.univie.mminf.qskos4j.util.Tuple;
 import fr.scolomfr.recette.model.tests.execution.result.Message;
-import fr.scolomfr.recette.model.tests.impl.AbstractQskosTestCase;
 import fr.scolomfr.recette.model.tests.organization.TestParameters;
 
 @TestParameters(names = { TestParameters.Values.VERSION, TestParameters.Values.VOCABULARY,
 		TestParameters.Values.SKOSTYPE })
-public abstract class AbstractCollectionTupleQskosTestCase extends AbstractQskosTestCase<Collection<Resource>> {
+public abstract class AbstractCollectionTupleQskosTestCase extends AbstractQskosTestCase<Collection<Tuple<Resource>>> {
 
 	@Override
-	protected void populateResult(Collection<Resource> data) {
+	protected void populateResult(Collection<Tuple<Resource>> data) {
 		if (data == null) {
 			return;
 		}
-		Iterator<Resource> it = data.iterator();
+		Iterator<Tuple<Resource>> it = data.iterator();
 
 		while (it.hasNext()) {
-			Resource resource = it.next();
-			String errorCode = generateUniqueErrorCode(resource.stringValue());
+			Tuple<Resource> tuple = it.next();
+			String errorCode = generateUniqueErrorCode(
+					tuple.getFirst().stringValue() + MESSAGE_ID_SEPARATOR + tuple.getSecond().stringValue());
 			boolean ignored = errorIsIgnored(errorCode);
 			incrementErrorCount(ignored);
 			addMessage(new Message(ignored ? Message.Type.IGNORED : Message.Type.ERROR, errorCode,
 					i18n.tr("tests.impl.qskos." + getQskosIssueCode() + ".result.title"),
 					i18n.tr("tests.impl.qskos." + getQskosIssueCode() + ".result.content",
-							new Object[] { resource.stringValue() })));
+							new Object[] { tuple.getFirst().stringValue(), tuple.getSecond().stringValue() })));
 		}
 
 	}
