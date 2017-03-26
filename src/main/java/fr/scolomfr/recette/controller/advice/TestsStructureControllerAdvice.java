@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
 import fr.scolomfr.recette.model.tests.organization.TestCasesOrganization;
+import fr.scolomfr.recette.model.tests.organization.TestCasesRegistry;
 import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
 
 /**
@@ -36,6 +37,9 @@ import fr.scolomfr.recette.model.tests.organization.TestCasesRepository;
 @ControllerAdvice(basePackages = { "fr.scolomfr.recette.controller" })
 public class TestsStructureControllerAdvice {
 
+	@Autowired
+	TestCasesRegistry testsCasesRegistry;
+	
 	@Autowired
 	private TestCasesRepository testsRepository;
 
@@ -48,6 +52,8 @@ public class TestsStructureControllerAdvice {
 	public void formatAttributes(Model model) {
 		TestCasesOrganization testsOrganisation = testsRepository.getTestOrganization();
 		model.addAttribute("testsStructure", testsOrganisation.getStructure());
+		model.addAttribute("nbTests", testsCasesRegistry.getNumberOfTestCases());
+		
 	}
 
 }

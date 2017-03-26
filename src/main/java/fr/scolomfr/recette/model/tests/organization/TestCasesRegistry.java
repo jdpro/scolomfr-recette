@@ -55,4 +55,10 @@ public interface TestCasesRegistry {
 	 */
 	public TestCase getTestCaseNewInstance(String id);
 
+	/**
+	 * 
+	 * @return number of implemented test cases
+	 */
+	public int getNumberOfTestCases();
+
 }

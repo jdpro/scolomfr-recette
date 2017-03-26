@@ -67,4 +67,9 @@ public class TestCasesRegistryImpl implements TestCasesRegistry {
 		return newInstance;
 	}
 
+	@Override
+	public int getNumberOfTestCases() {
+		return testCases.size();
+	}
+
 }

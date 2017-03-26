@@ -2,6 +2,7 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <c:set value="/sources" var="sources" />
 <spring:url value="${sources}/format" var="sourcesbyFormat" />
 <spring:url value="${sources}/version" var="sourcesbyVersion" />
@@ -43,7 +44,7 @@
                                     <i class="fa fa-calendar fa-4x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">3</div>
+                                    <div class="huge">${fn:length(versions)}</div>
                                     <div>
 									<spring:message code="nav.sources.versions" />
 								</div>
@@ -70,7 +71,7 @@
                                     <i class="fa fa-file-code-o fa-4x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">7</div>
+                                    <div class="huge">${fn:length(formats)}</div>
                                     <div>
 									<spring:message code="nav.sources.formats" />
 								</div>
@@ -97,7 +98,7 @@
                                     <i class="fa fa-check fa-4x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">27</div>
+                                    <div class="huge">${nbTests}</div>
                                     <div>
 									<spring:message code="nav.tests" />
 								</div>
