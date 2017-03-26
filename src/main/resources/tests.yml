@@ -3,10 +3,10 @@ structure:
     label: Complétion des vocabulaires issus de vocabulaires normalisés
     index: 1.2
     tests:
-      skos_vocabulaires_1_langues:
-        index: a3
-        label: SKOS Vocabulaire 1 Langues
-        format: skos
+#      skos_vocabulaires_1_langues:
+#        index: a3
+#        label: SKOS Vocabulaire 1 Langues
+#        format: skos
       skos_vocabulaires_6_mimetypes:
         index: a4
         label: SKOS Vocabulaire 6 MimeTypes
