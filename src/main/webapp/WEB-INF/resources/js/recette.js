@@ -74,7 +74,30 @@ $(function() {
 	$("#errors-area").on("click", handleFalsePositiveClick);
 	$("input.display-messages").on("click", updateDisplayMessagePreferences);
 	updateDisplayMessagePreferences();
+	handleNavSearchButton();
 });
+function handleNavSearchButton() {
+	var $sideMenu = $('ul#side-menu');
+	var $button = $('div.input-group.custom-search-form button', $sideMenu);
+	var $searchArea = $('div.input-group.custom-search-form input', $sideMenu);
+	var text = "";
+	var $li;
+	$button.on('click', function() {
+		var query = $searchArea.val().toLowerCase();
+		$sideMenu.find("ul").removeClass("in");
+		$sideMenu.find("li").each(function(i, e) {
+			$li = $(e);
+			text = $li.text().toLowerCase();
+			if (text.indexOf(query) >= 0) {
+				$li.find("a").addClass("active");
+				$li.parentsUntil($sideMenu, "ul").addClass("in");
+			} else {
+				$li.find("a").removeClass("active");
+			}
+		});
+
+	});
+}
 function getCsrfParameter() {
 	return $("meta[name='_csrf_parameter']").attr("content");
 }
