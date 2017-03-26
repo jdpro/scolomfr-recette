@@ -18,6 +18,21 @@
 				</div>
 				<!-- /.col-lg-12 -->
 			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+						<spring:message code="home.presentation" /> </div>
+							<div class="panel-body">
+							<p>
+							<spring:message code="home.presentation.text"></spring:message> </p>
+							</div>
+							<div class="panel-footer">  <spring:message
+							code="home.license"></spring:message>
+						<br />&copy; 2017  Direction du Numérique pour l'éducation - Ministère de l'éducation nationale, de l'enseignement supérieur et de la Recherche </div>
+						</div>
+				</div>
+			</div>
 			<!-- /.row -->
 			<div class="row">
 			<div class="col-lg-4 col-md-4">                    
