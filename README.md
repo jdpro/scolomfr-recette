@@ -25,7 +25,7 @@ mvn clean install
 
 Deploy target/recette.war into a Web application container like Tomcat.
 
-####Build web static ressources
+#### Build web static ressources
 
 If modified, web static resources like js, css files need to be rebuild by [Gulp](http://gulpjs.com/)
 
