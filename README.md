@@ -1,6 +1,6 @@
 # scolomfr-recette
 
-##General purpose
+## General purpose
 
 A web application designed to assist in the recipe work of the vocabularies used in the ScoLOMFR metadata resource standard.
 
