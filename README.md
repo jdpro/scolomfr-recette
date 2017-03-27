@@ -19,15 +19,48 @@ git clone https://github.com/j-dornbusch/scolomfr-recette.git
 ```
 #### Build war
 
+Duplicate by hand [user properties template](src/main/resources/user.properties.dist), remove .dist extension and type in the logins and password of users allowed to access the application in privileged mode (i.e. to report false positives). 
+Then :
+
 ```shell
 mvn clean install
 ```
 
 Deploy target/recette.war into a Web application container like Tomcat.
 
-#### Build web static ressources
+Provide your tomcat credentials in local maven settings
 
-If modified, web static resources like js, css files need to be rebuild by [Gulp](http://gulpjs.com/)
+```xml
+<server>
+      <id>server-identifier-1234</id>
+      <username>tomcat-user</username>
+      <password>tomcat-pass</password>
+</server>
+```
+Update pom.xml with your tomcat parameters
+
+```xml
+<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+          <!--...-->
+				<configuration>
+          <!--...-->
+					<url>http://tomcat-managers-text-host/manager/text</url>
+					<server>server-identifier-1234</server>
+          <!--...-->
+      </configuration>
+</plugin>
+```
+
+Then :
+
+```shell
+mvn tomcat7:deploy
+```
+
+#### Build web static ressources if necessary
+
+If modified, web static resources like js, css files need to be rebuilt by [Gulp](http://gulpjs.com/)
 
 Move to webapp resources directory.
 
@@ -52,7 +85,6 @@ npm install --save-dev gulp-rename
 npm install --save-dev gulp-uglify
 ```
 
-
 #### Build shell version
 
 ```shell
@@ -72,6 +104,10 @@ If not provided, all commands must be accompanied by the "--version" option.
 * dir : relative path to vocabularies directory
 
 Any subfolder of this directory will be treated as a version of the vocabularies if it contains a manifest in yaml format (see for example : [3.2 manifest](doc/scolomfr/scolomfr-v-3-2-0/manifest.yml))
+
+#### Quality measurement
+
+
 
 ## Shell version
 
