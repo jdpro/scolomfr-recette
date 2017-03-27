@@ -2,7 +2,7 @@
 
 ## General purpose
 
-A web application designed to assist in the recipe work of the vocabularies used in the ScoLOMFR metadata resource standard.
+A web+shell application designed to assist in the recipe work of the vocabularies used in the ScoLOMFR metadata resource standard.
 
 ## Requirements
 
@@ -28,7 +28,7 @@ mvn clean install
 
 Deploy target/recette.war into a Web application container like Tomcat.
 
-Provide your tomcat credentials in local maven settings
+Provide your tomcat credentials as local maven settings.
 
 ```xml
 <server>
