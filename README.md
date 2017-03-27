@@ -57,7 +57,7 @@ Then :
 ```shell
 mvn tomcat7:deploy
 ```
-
+An exemple of Tomcat context file is given [here](doc/recette.xml). It must contain "ver" and "dir" parameters (see [below]()) 
 #### Build web static ressources if necessary
 
 If modified, web static resources like js, css files need to be rebuilt by [Gulp](http://gulpjs.com/)
@@ -96,7 +96,10 @@ Launch shell version through command line :
 ```shell
 java -Dver=3.2.0 -Ddir=doc/scolomfr -jar target/recette.one-jar.jar
 ```
-Parameters :
+#### Parameters
+
+Both web version and shell version expect two parameters at startup.
+
 * ver : default version of vocabularies
 
 If not provided, all commands must be accompanied by the "--version" option.
