@@ -57,7 +57,8 @@ Then :
 ```shell
 mvn tomcat7:deploy
 ```
-An exemple of Tomcat context file is given [here](doc/recette.xml). It must contain "ver" and "dir" parameters (see [below]()) 
+An exemple of Tomcat context file is given [here](doc/recette.xml). It must contain "ver" and "dir" parameters (see [below](#parameters)) 
+
 #### Build web static ressources if necessary
 
 If modified, web static resources like js, css files need to be rebuilt by [Gulp](http://gulpjs.com/)
