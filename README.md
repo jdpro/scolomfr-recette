@@ -17,8 +17,39 @@ scolomfr-recette requires **Java 8** for execution.
 ```shell
 git clone https://github.com/j-dornbusch/scolomfr-recette.git
 ```
+####Build war
+
+```shell
+mvn clean install
+```
+
+Deploy target/recette.war into a Web application container like Tomcat.
+
+####Build shell version
+
+```shell
+mvn mvn -f pom-cli.xml package
+```
+
+Launch shell version through command line :
+
+```shell
+java -Dver=3.2.0 -Ddir=doc/scolomfr -jar target/recette.one-jar.jar
+```
+Parameters :
+* ver : default version of vocabularies
+
+If not provided, all commands must be accompanied by the "--version" option.
+
+* dir : relative path to vocabularies directory
+
+Any subfolder of this directory will be treated as a version of the vocabularies if it contains a manifest in yaml format (see for example : [3.2 manifest](doc/scolomfr/scolomfr-v-3-2-0/manifest.yml))
+
+*Shell version limitation* : a15 testcase (spellchecking) is not functional in this version.
 
 ####Build web static ressources
+
+If modified, web static resources like js, css files need to be rebuild by [Gulp](http://gulpjs.com/)
 
 Move to webapp resources directory.
 
@@ -42,11 +73,3 @@ npm install --save-dev gulp-clean-css
 npm install --save-dev gulp-rename
 npm install --save-dev gulp-uglify
 ```
-
-####Build war
-
-```shell
-mvn clean install
-```
-
-Deploy target/recette.war into a Web application container like Tomcat.
