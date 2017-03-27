@@ -107,7 +107,12 @@ Any subfolder of this directory will be treated as a version of the vocabularies
 
 #### Quality measurement
 
+Launch a sonar instance and type :
 
+```shell
+mvn clean verify sonar:sonar
+```
+Unit tests code coverage is measured by Jacoco.
 
 ## Shell version
 
