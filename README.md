@@ -8,7 +8,7 @@ A web application designed to assist in the recipe work of the vocabularies used
 
 scolomfr-recette requires **Java 8** for execution. 
 
-##Installation
+## Installation
 
 ### From sources
 
