@@ -61,6 +61,10 @@ $(function() {
 				}
 				if (json.uri) {
 					executionTrackingUri = json.uri;
+					// reverse proxy problems
+					if (window.location.href.indexOf("https") == 0) {
+						executionTrackingUri = executionTrackingUri.replace(/^http:/, "https:");
+					}
 					handleAsyncResponse()
 				} else {
 					refreshMessages(json);
