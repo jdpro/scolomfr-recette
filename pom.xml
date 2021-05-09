@@ -18,7 +18,7 @@
 		<jena.version>3.2.0</jena.version>
 		<cglib.version>2.2.2</cglib.version>
 		<slf4j.version>1.7.22</slf4j.version>
-		<jackson.version>2.8.11</jackson.version>
+		<jackson.version>2.9.10.7</jackson.version>
 		<logback.version>1.2.1</logback.version>
 		<project.build.finalName>recette</project.build.finalName>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
