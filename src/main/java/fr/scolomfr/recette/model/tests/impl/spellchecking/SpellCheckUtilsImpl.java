@@ -50,7 +50,9 @@ public class SpellCheckUtilsImpl implements SpellCheckUtils {
 
 	@Override
 	public String clean(String expression) {
-		return expression.replaceAll("[«»/\\-\\[\\]\\\"(),'_:;\\\\.…»\\–]", " ");
+		//First space is Unicode Character 'NARROW NO-BREAK SPACE' (U+202F)
+		//Second space is Unicode Character 'NO-BREAK SPACE' (U+00A0)
+		return expression.replaceAll("[  «»“”/\\-\\[\\]\\\"(),‘'_:;\\\\.…»\\–]", " ");
 	}
 
 }
