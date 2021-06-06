@@ -6,9 +6,9 @@
 <div class="form-group col-lg-4">
 	<label>${label}</label>
 	<div class="radio">
-		<label> <input id="skosxl-radio" type="radio" checked=""
+		<label> <input id="skosxl-radio" type="radio" checked="checked"
 			value="skosxl" name="${parameterName}"> SKOS-XL
-		</label> <label> <input id="skos-radio" type="radio" checked=""
+		</label> <label> <input id="skos-radio" type="radio"
 			value="skos" name="${parameterName}"> SKOS
 		</label>
 	</div>
