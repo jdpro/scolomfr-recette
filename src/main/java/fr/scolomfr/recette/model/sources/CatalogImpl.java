@@ -242,6 +242,7 @@ public class CatalogImpl implements Catalog {
 			tempFile.deleteOnExit();
 			try (OutputStream out = new FileOutputStream(tempFile)) {
 				IOUtils.copy(in, out);
+				out.close();
 			}
 		} catch (IOException e) {
 			logger.error("Impossible to create temp file for filepath {}", filePath, e);
